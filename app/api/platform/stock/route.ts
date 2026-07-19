@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { fetchEastmoneyDailyBars } from "@/lib/market-data/eastmoney";
+import { fetchTencentDailyBars } from "@/lib/market-data/tencent-history";
 import { fetchTencentQuotes, normalizeAshareCode } from "@/lib/market-data/tencent";
 import { analyzeStock } from "@/lib/research/stock-analysis";
 
@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
   try {
     const code = (request.nextUrl.searchParams.get("code") ?? "").replace(/\D/g, "");
     const symbol = normalizeAshareCode(code);
-    const [quotes, history] = await Promise.all([fetchTencentQuotes([symbol]), fetchEastmoneyDailyBars(code, 120)]);
+    const [quotes, history] = await Promise.all([fetchTencentQuotes([symbol]), fetchTencentDailyBars(code, 120)]);
     const quote = quotes[0];
     if (!quote) throw new Error("没有找到该股票行情");
     const analysis = analyzeStock(quote, history.bars);

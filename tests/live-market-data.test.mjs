@@ -8,13 +8,16 @@ const read = (...parts) => fs.readFileSync(path.join(root, ...parts), "utf8");
 
 test("market adapters are separated from research scoring", () => {
   const tencent = read("lib", "market-data", "tencent.ts");
+  const tencentHistory = read("lib", "market-data", "tencent-history.ts");
   const eastmoney = read("lib", "market-data", "eastmoney.ts");
   const hotspots = read("lib", "research", "hotspots.ts");
   assert.match(tencent, /qt\.gtimg\.cn/);
+  assert.match(tencentHistory, /web\.ifzq\.gtimg\.cn/);
   assert.match(eastmoney, /searchapi\.eastmoney\.com/);
   assert.match(eastmoney, /push2his\.eastmoney\.com/);
   assert.match(hotspots, /rankHotspots/);
   assert.doesNotMatch(tencent, /score|verdict|auditVerdict/);
+  assert.doesNotMatch(tencentHistory, /score|verdict|auditVerdict/);
   assert.doesNotMatch(eastmoney, /score|verdict|auditVerdict/);
 });
 

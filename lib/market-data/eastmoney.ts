@@ -6,7 +6,7 @@ export type SecuritySearchResult = {
   market: string;
   quoteId: string;
   type: string;
-  source: "东方财富";
+  source: "东方财富" | "腾讯财经";
   asOf: string;
 };
 
@@ -78,4 +78,3 @@ export async function fetchEastmoneyDailyBars(code: string, limit = 120) {
   if (bars.length < 20) throw new Error("历史日线不足 20 个交易日");
   return { name: payload.data?.name || code, bars, asOf: bars.at(-1)!.date, source: "东方财富" as const, provenanceUrl: url };
 }
-
