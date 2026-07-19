@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "证衡研究台｜A股投资研究看板",
-  description: "面向A股研究、回测与模拟持仓的证据化投资工作台，不连接券商，不自动下单。",
+  title: "3000元每日荐股助手｜自动筛选与持有卖出检查",
+  description: "自动筛选沪深主板候选，并根据风险止损、持有期限和趋势规则每日检查模拟持仓。",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
