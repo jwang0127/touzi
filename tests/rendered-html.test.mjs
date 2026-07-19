@@ -12,13 +12,13 @@ async function render() {
   );
 }
 
-test("server-renders the A-share audit dashboard", async () => {
+test("server-renders the 3000 yuan holding monitor", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /<title>证衡研究台/);
-  assert.match(html, /独立审计台/);
-  assert.match(html, /PASS ≠ 买入/);
-  assert.match(html, /SYNTHETIC DATA ONLY/);
+  assert.match(html, /<title>3000元持仓助手/);
+  assert.match(html, /今天应该/);
+  assert.match(html, /持有还是卖出/);
+  assert.match(html, /固定判断规则/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/);
 });
