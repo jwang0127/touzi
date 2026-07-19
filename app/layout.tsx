@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "3000元持仓助手｜每日持有或卖出检查",
-  description: "根据收益目标、风险止损、持有期限和趋势规则，每日检查A股持仓状态。",
+  title: "3000元每日荐股助手｜自动筛选与持有卖出检查",
+  description: "自动筛选沪深主板候选，并根据风险止损、持有期限和趋势规则每日检查模拟持仓。",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

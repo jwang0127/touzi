@@ -28,6 +28,42 @@ type Analysis = {
   source: string;
 };
 
+type Candidate = {
+  code: string;
+  symbol: string;
+  name: string;
+  price: number;
+  latestDate: string;
+  score: number;
+  lotCost: number;
+  cashAfterOneLot: number;
+  suggestedShares: number;
+  suggestedCost: number;
+  suggestedCash: number;
+  plannedMaxLoss: number;
+  pe: number;
+  turnover: number;
+  return20: number;
+  return60: number;
+  reasons: string[];
+  risks: string[];
+  coverageGap: string;
+  scoreBreakdown: { label: string; score: number; note: string }[];
+  status: "CANDIDATE" | "WAIT";
+  stopPrice: number;
+  targetPrice: number;
+};
+
+type RecommendationResult = {
+  asOf: string;
+  recommendation: Candidate | null;
+  watchlist: Candidate[];
+  universe: string;
+  method: string;
+  notice: string;
+  sourceMode: string;
+};
+
 const STORAGE_KEY = "a-share-holding-v2";
 const defaultHolding: Holding = {
   code: "",
@@ -44,6 +80,9 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [ready, setReady] = useState(false);
+  const [recommendations, setRecommendations] = useState<RecommendationResult | null>(null);
+  const [recommendationError, setRecommendationError] = useState("");
+  const [recommendationLoading, setRecommendationLoading] = useState(true);
 
   const checkHolding = useCallback(async (value: Holding) => {
     setLoading(true);
@@ -79,6 +118,22 @@ export default function Home() {
     if (initial.code && initial.cost && initial.buyDate) void checkHolding(initial);
   }, [checkHolding]);
 
+  useEffect(() => {
+    async function loadRecommendations() {
+      try {
+        const response = await fetch("/api/recommendations", { cache: "no-store" });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error || "推荐失败");
+        setRecommendations(data);
+      } catch (caught) {
+        setRecommendationError(caught instanceof Error ? caught.message : "推荐失败");
+      } finally {
+        setRecommendationLoading(false);
+      }
+    }
+    void loadRecommendations();
+  }, []);
+
   async function submit(event: React.FormEvent) {
     event.preventDefault();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(holding));
@@ -91,12 +146,25 @@ export default function Home() {
   const invested = Number(holding.cost) * shares || 0;
   const remainingCash = Math.max(0, 3000 - invested);
 
+  function adoptCandidate(candidate: Candidate) {
+    const nextHolding = {
+      code: candidate.code,
+      cost: candidate.price.toFixed(2),
+      shares: String(candidate.suggestedShares),
+      buyDate: candidate.latestDate,
+    };
+    setHolding(nextHolding);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(nextHolding));
+    void checkHolding(nextHolding);
+    document.getElementById("holding-monitor")?.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <main className="monitor-page">
       <header className="simple-header">
         <div>
           <span className="logo">持</span>
-          <strong>3000元持仓助手</strong>
+          <strong>3000元每日荐股助手</strong>
         </div>
         <span>每天打开自动检查 · 不自动下单</span>
       </header>
@@ -104,8 +172,8 @@ export default function Home() {
       <section className="monitor-hero">
         <div>
           <span className="overline">ONE-MONTH POSITION MONITOR</span>
-          <h1>今天应该<br /><em>持有还是卖出？</em></h1>
-          <p>输入真实持仓，系统按照收益目标、风险止损、30天期限和均线趋势给出研究信号。</p>
+          <h1>今天看什么，<br /><em>之后持有还是卖出？</em></h1>
+          <p>系统先从可交易的沪深主板筛选候选，再按固定规则每天检查模拟持仓；你不需要先告诉我股票。</p>
         </div>
         <div className="capital-summary">
           <div><span>本金</span><strong>¥3,000</strong></div>
@@ -114,10 +182,70 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="monitor-grid">
+      <section className="recommend-section">
+        <div className="recommend-head">
+          <div><span>01</span><h2>今日系统荐股</h2></div>
+          <p>{recommendations?.universe ?? "正在扫描沪深主板…"}</p>
+        </div>
+
+        {recommendationLoading && <div className="recommend-loading">正在筛选全市场并复核60日趋势…</div>}
+        {recommendationError && <div className="recommend-error">{recommendationError}，今天暂不推荐。</div>}
+        {!recommendationLoading && recommendations && (
+          recommendations.recommendation ? (
+            <>
+              <article className="primary-pick">
+                <div className="pick-identity">
+                  <span>今日首选候选</span>
+                  <small>{recommendations.recommendation.symbol.toUpperCase()} · {recommendations.asOf}</small>
+                  <h3>{recommendations.recommendation.name}</h3>
+                  <div className="pick-score"><b>{recommendations.recommendation.score}</b><span>/ 100<br />推荐分</span></div>
+                </div>
+                <div className="pick-data">
+                  <div className="pick-price"><span>参考价</span><strong>¥{recommendations.recommendation.price.toFixed(2)}</strong></div>
+                  <dl>
+                    <div><dt>建议股数</dt><dd>{recommendations.recommendation.suggestedShares}股</dd></div>
+                    <div><dt>计划投入</dt><dd>¥{recommendations.recommendation.suggestedCost.toFixed(0)}</dd></div>
+                    <div><dt>保留现金</dt><dd>¥{recommendations.recommendation.suggestedCash.toFixed(0)}</dd></div>
+                    <div><dt>止损最大亏损</dt><dd>¥{recommendations.recommendation.plannedMaxLoss.toFixed(0)}</dd></div>
+                    <div><dt>风险线</dt><dd>¥{recommendations.recommendation.stopPrice.toFixed(2)}</dd></div>
+                    <div><dt>50%目标线</dt><dd>¥{recommendations.recommendation.targetPrice.toFixed(2)}</dd></div>
+                  </dl>
+                  <div className="score-breakdown">
+                    <b>评分拆解</b>
+                    {recommendations.recommendation.scoreBreakdown.map((item) => (
+                      <div key={item.label} title={item.note}>
+                        <span>{item.label}</span><i><em style={{ width: `${item.score}%` }} /></i><strong>{item.score}</strong>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="pick-columns">
+                    <div><b>推荐逻辑</b>{recommendations.recommendation.reasons.map((reason) => <p key={reason}>✓ {reason}</p>)}</div>
+                    <div><b>主要风险</b>{recommendations.recommendation.risks.map((risk) => <p key={risk}>! {risk}</p>)}</div>
+                  </div>
+                  <p className="coverage-gap"><b>覆盖边界：</b>{recommendations.recommendation.coverageGap}</p>
+                  <button onClick={() => adoptCandidate(recommendations.recommendation!)}>加入模拟持仓并开始每日检查</button>
+                </div>
+              </article>
+              <div className="watchlist">
+                {recommendations.watchlist.slice(1).filter((candidate) => candidate.score >= 72).map((candidate) => (
+                  <article key={candidate.code}>
+                    <div><small>{candidate.symbol.toUpperCase()}</small><h4>{candidate.name}</h4></div>
+                    <strong>{candidate.score}分</strong>
+                    <span>¥{candidate.price.toFixed(2)} · 一手¥{candidate.lotCost.toFixed(0)}</span>
+                    <button onClick={() => adoptCandidate(candidate)}>设为模拟持仓</button>
+                  </article>
+                ))}
+              </div>
+              <p className="recommend-notice">当前模式：{recommendations.sourceMode}。{recommendations.method}。{recommendations.notice}</p>
+            </>
+          ) : <div className="recommend-error">今天没有股票达到最低推荐分，系统选择空仓等待。</div>
+        )}
+      </section>
+
+      <section className="monitor-grid" id="holding-monitor">
         <form className="holding-form" onSubmit={submit}>
           <div className="panel-title">
-            <span>01</span>
+            <span>02</span>
             <div><h2>我的持仓</h2><p>数据只保存在当前设备浏览器。</p></div>
           </div>
 
@@ -155,7 +283,7 @@ export default function Home() {
 
         <section className={`decision-panel ${analysis?.signal.toLowerCase() ?? "empty"}`} aria-live="polite">
           <div className="panel-title">
-            <span>02</span>
+            <span>03</span>
             <div><h2>今日判断</h2><p>{analysis ? `行情日期 ${analysis.latestDate}` : "等待持仓数据"}</p></div>
           </div>
 
@@ -198,7 +326,7 @@ export default function Home() {
 
       <section className="rules-section">
         <div className="panel-title">
-          <span>03</span>
+          <span>04</span>
           <div><h2>固定判断规则</h2><p>先写规则，再看结果；不因短期盈亏临时修改。</p></div>
         </div>
         <div className="rule-grid">
@@ -215,7 +343,7 @@ export default function Home() {
         <span>{analysis?.source ?? "腾讯财经前复权日线"}</span>
       </section>
 
-      <footer className="simple-footer">3000元持仓助手 · 研究信号，不是自动交易指令</footer>
+      <footer className="simple-footer">3000元每日荐股助手 · 研究信号，不是自动交易指令</footer>
     </main>
   );
 }
