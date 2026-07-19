@@ -13,24 +13,26 @@ async function render() {
   );
 }
 
-test("server-renders the 3000 yuan holding monitor", async () => {
+test("server-renders the investment research dashboard", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /<title>3000元每日荐股助手/);
-  assert.match(html, /今天看什么/);
-  assert.match(html, /今日系统荐股/);
-  assert.match(html, /持有还是卖出/);
-  assert.match(html, /固定判断规则/);
+  assert.match(html, /<title>证衡研究台/);
+  assert.match(html, /市场概览/);
+  assert.match(html, /持仓台账/);
+  assert.match(html, /研究工作台/);
+  assert.match(html, /回测实验/);
+  assert.match(html, /审计记录/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/);
 });
 
-test("recommendation view explains its score and coverage boundary", async () => {
+test("dashboard preserves evidence labels and execution boundary", async () => {
   const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
-  assert.match(source, /评分拆解/);
-  assert.match(source, /覆盖边界/);
+  assert.match(source, /FACT/);
+  assert.match(source, /INFERENCE/);
+  assert.match(source, /UNKNOWN/);
   assert.match(source, /建议股数/);
-  assert.match(source, /止损最大亏损/);
-  assert.match(source, /三浪模型/);
-  assert.match(source, /暂不纳入总分/);
+  assert.match(source, /计划最大亏损/);
+  assert.match(source, /不连接券商/);
+  assert.match(source, /禁止自动下单/);
 });
