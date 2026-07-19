@@ -49,6 +49,19 @@ type Candidate = {
   risks: string[];
   coverageGap: string;
   scoreBreakdown: { label: string; score: number; note: string }[];
+  threeWave: {
+    detected: boolean;
+    stage: "CONFIRMED" | "READY" | "NONE";
+    score: number;
+    wave1StartDate: string | null;
+    wave1PeakDate: string | null;
+    wave2LowDate: string | null;
+    retracement: number;
+    breakout: number;
+    volumeRatio: number;
+    reasons: string[];
+    risks: string[];
+  };
   status: "CANDIDATE" | "WAIT";
   stopPrice: number;
   targetPrice: number;
@@ -62,6 +75,17 @@ type RecommendationResult = {
   method: string;
   notice: string;
   sourceMode: string;
+  waveEvaluation: {
+    sample: string;
+    baselineAverage20d: number;
+    waveAverage20d: number;
+    baselinePositiveRate: number;
+    wavePositiveRate: number;
+    baselineHit10Rate: number;
+    waveHit10Rate: number;
+    decision: "AUXILIARY_ONLY";
+    conclusion: string;
+  };
 };
 
 const STORAGE_KEY = "a-share-holding-v2";
@@ -217,6 +241,22 @@ export default function Home() {
                         <span>{item.label}</span><i><em style={{ width: `${item.score}%` }} /></i><strong>{item.score}</strong>
                       </div>
                     ))}
+                  </div>
+                  <div className={`wave-card ${recommendations.recommendation.threeWave.detected ? "active" : "inactive"}`}>
+                    <div>
+                      <b>三浪模型 <small>实验</small></b>
+                      <strong>{recommendations.recommendation.threeWave.score}分</strong>
+                    </div>
+                    <p>{recommendations.recommendation.threeWave.stage === "CONFIRMED" ? "第三浪突破已确认" : recommendations.recommendation.threeWave.stage === "READY" ? "接近第一浪高点，等待突破" : "当前未确认第三浪"}</p>
+                    {recommendations.recommendation.threeWave.reasons.slice(0, 3).map((reason) => <span key={reason}>↗ {reason}</span>)}
+                    {recommendations.recommendation.threeWave.risks.slice(0, 1).map((risk) => <span className="wave-risk" key={risk}>! {risk}</span>)}
+                    <div className="wave-backtest">
+                      <b>小样本回测：暂不纳入总分</b>
+                      <span>20日均值 {(recommendations.waveEvaluation.baselineAverage20d * 100).toFixed(1)}% → {(recommendations.waveEvaluation.waveAverage20d * 100).toFixed(1)}%</span>
+                      <span>正收益率 {(recommendations.waveEvaluation.baselinePositiveRate * 100).toFixed(1)}% → {(recommendations.waveEvaluation.wavePositiveRate * 100).toFixed(1)}%</span>
+                      <span>达到10% {(recommendations.waveEvaluation.baselineHit10Rate * 100).toFixed(1)}% → {(recommendations.waveEvaluation.waveHit10Rate * 100).toFixed(1)}%</span>
+                      <small>{recommendations.waveEvaluation.conclusion}</small>
+                    </div>
                   </div>
                   <div className="pick-columns">
                     <div><b>推荐逻辑</b>{recommendations.recommendation.reasons.map((reason) => <p key={reason}>✓ {reason}</p>)}</div>

@@ -31,4 +31,6 @@ test("recommendation view explains its score and coverage boundary", async () =>
   assert.match(source, /覆盖边界/);
   assert.match(source, /建议股数/);
   assert.match(source, /止损最大亏损/);
+  assert.match(source, /三浪模型/);
+  assert.match(source, /暂不纳入总分/);
 });

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { detectThreeWave } from "../../../lib/threeWave";
 
 type MarketRow = {
   f12: string;
@@ -43,7 +44,13 @@ async function enrich(row: MarketRow) {
   const quote = stock?.qt?.[symbol] ?? [];
   const rawBars = stock?.qfqday ?? stock?.day ?? [];
   const bars = rawBars
-    .map((item: unknown[]) => ({ date: String(item[0]), close: Number(item[2]) }))
+    .map((item: unknown[]) => ({
+      date: String(item[0]),
+      close: Number(item[2]),
+      high: Number(item[3]),
+      low: Number(item[4]),
+      volume: Number(item[5]),
+    }))
     .filter((item: { close: number }) => Number.isFinite(item.close));
   if (bars.length < 40) return null;
 
@@ -83,6 +90,7 @@ async function enrich(row: MarketRow) {
   const valuationScore = pe <= 15 ? 90 : pe <= 25 ? 78 : pe <= 40 ? 58 : 38;
   const liquidityScore = turnover >= 1 && turnover <= 5 ? 85 : turnover <= 8 ? 72 : 58;
   const riskScore = volatility20 <= 0.02 ? 90 : volatility20 <= 0.03 ? 78 : volatility20 <= 0.04 ? 62 : 38;
+  const threeWave = detectThreeWave(bars);
   const normalizedTrendScore = clampScore(trendScore);
   const score = clampScore(
     normalizedTrendScore * 0.45 + valuationScore * 0.2 + liquidityScore * 0.15 + riskScore * 0.2,
@@ -119,6 +127,7 @@ async function enrich(row: MarketRow) {
       { label: "流动性", score: liquidityScore, note: "换手率是否适合短期进出" },
       { label: "风险", score: riskScore, note: "近20日收益波动" },
     ],
+    threeWave,
     status: score >= 72 ? "CANDIDATE" : "WAIT",
     stopPrice,
     targetPrice: latest * 1.5,
@@ -174,6 +183,17 @@ export async function GET() {
       universe: "沪深主板，排除北交所、科创板、ST、退市整理和一手超过3000元的股票",
       method: "全市场价格/估值/流动性初筛 + 腾讯前复权60日趋势复核",
       sourceMode,
+      waveEvaluation: {
+        sample: "12只候选、28个滚动样本、每5个交易日取样、观察后续20日",
+        baselineAverage20d: 0.0849,
+        waveAverage20d: 0.0904,
+        baselinePositiveRate: 0.714,
+        wavePositiveRate: 0.607,
+        baselineHit10Rate: 0.464,
+        waveHit10Rate: 0.286,
+        decision: "AUXILIARY_ONLY",
+        conclusion: "平均收益略升，但正收益率和10%命中率下降；三浪暂不纳入总推荐分。",
+      },
       notice: "50%是高风险目标线，不是预计收益或保证。",
     });
   } catch (error) {

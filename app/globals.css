@@ -68,6 +68,19 @@ button, input { font: inherit; }
 .score-breakdown em { display: block; height: 100%; background: var(--green); }
 .score-breakdown strong { text-align: right; font: 800 11px Consolas, monospace; }
 .coverage-gap { margin: -4px 0 18px; padding: 11px 13px; border-left: 3px solid var(--yellow); background: #fff8d8; color: #675d34; font-size: 10px; line-height: 1.6; }
+.wave-card { margin: 0 0 24px; padding: 16px 18px; border: 1px solid var(--line); }
+.wave-card.active { border-color: var(--green); background: var(--green-soft); }
+.wave-card.inactive { background: #f0eee7; }
+.wave-card > div { display: flex; justify-content: space-between; align-items: center; }
+.wave-card b { font-size: 12px; }
+.wave-card b small { margin-left: 5px; padding: 2px 5px; background: var(--yellow); color: var(--ink); }
+.wave-card strong { font: 900 18px Consolas, monospace; }
+.wave-card p { margin: 10px 0; font-weight: 800; font-size: 13px; }
+.wave-card span { display: block; margin: 5px 0; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.wave-card .wave-risk { color: #8a4c25; }
+.wave-backtest { margin-top: 13px; padding-top: 12px; border-top: 1px solid rgba(23,32,25,.18); }
+.wave-backtest b, .wave-backtest small { display: block; }
+.wave-backtest small { margin-top: 8px; color: #675d34; font-size: 9px; line-height: 1.5; }
 .pick-data > button, .watchlist button { border: 0; background: var(--green); color: white; padding: 14px 18px; font-weight: 800; cursor: pointer; }
 .watchlist { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
 .watchlist article { padding: 18px; border: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px 20px; }
