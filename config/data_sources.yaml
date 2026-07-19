@@ -1,0 +1,7 @@
+mode: synthetic_only
+sources:
+  - name: mock
+    enabled: true
+    network_access: false
+    purpose: deterministic_tests
+live_sources: []

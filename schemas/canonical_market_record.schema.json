@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CanonicalMarketRecord",
+  "type": "object",
+  "required": ["symbol", "trade_date", "open_raw", "high_raw", "low_raw", "close_raw", "volume_shares", "amount_cny", "adj_factor", "adjustment_type", "suspend_status", "listing_status", "source", "source_timestamp", "available_timestamp", "ingested_at", "schema_version"],
+  "properties": {
+    "symbol": {"type": "string", "pattern": "^[0-9]{6}\\.(SH|SZ|BJ)$"},
+    "trade_date": {"type": "string", "format": "date"},
+    "open_raw": {"type": "number", "minimum": 0},
+    "high_raw": {"type": "number", "minimum": 0},
+    "low_raw": {"type": "number", "minimum": 0},
+    "close_raw": {"type": "number", "minimum": 0},
+    "volume_shares": {"type": "integer", "minimum": 0},
+    "amount_cny": {"type": "number", "minimum": 0},
+    "adj_factor": {"type": "number", "exclusiveMinimum": 0},
+    "adjustment_type": {"enum": ["NONE", "QFQ", "HFQ"]},
+    "suspend_status": {"enum": ["TRADING", "SUSPENDED"]},
+    "listing_status": {"enum": ["LISTED", "DELISTING", "DELISTED"]},
+    "source": {"type": "string", "minLength": 1},
+    "source_timestamp": {"type": "string", "format": "date-time"},
+    "available_timestamp": {"type": "string", "format": "date-time"},
+    "ingested_at": {"type": "string", "format": "date-time"},
+    "schema_version": {"const": "1.0.0"}
+  }
+}

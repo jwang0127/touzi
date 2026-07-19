@@ -1,0 +1,7 @@
+research_horizons:
+  medium_term_months: [6, 18]
+  long_term_months: [18, 60]
+review_cadence:
+  scheduled: quarterly
+  event_driven: true
+as_of_required: true

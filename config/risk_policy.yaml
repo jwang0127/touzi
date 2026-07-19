@@ -1,0 +1,20 @@
+mode: research_and_paper_only
+portfolio:
+  max_single_name_weight: 0.10
+  max_sector_weight: 0.30
+  max_correlated_cluster_weight: 0.35
+  max_portfolio_drawdown: 0.15
+position:
+  max_initial_weight: 0.05
+  max_add_count: 2
+  liquidity_days_to_exit_limit: 5
+exit:
+  thesis_stop_rule: required
+  time_stop_rule: 365d_review
+abnormal_market:
+  suspend_new_entries: true
+  limit_up_down_handling: required
+  suspension_handling: required
+  extreme_volatility_handling: required
+execution:
+  auto_order_enabled: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "A股研究独立审计"
+  short_description: "用五道独立闸门审计A股研究证据、风险边界与回测完整性"
+  default_prompt: "Use $audit-a-share-research to audit this A-share research package and emit only PASS, REVIEW, or BLOCK."
