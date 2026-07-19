@@ -34,3 +34,14 @@ test("stock research cannot emit an automatic order verdict", () => {
   assert.match(route, /auditVerdict: "REVIEW"/);
   assert.doesNotMatch(route, /auditVerdict: "PASS"|placeOrder|broker/i);
 });
+
+test("GitHub Pages build is anonymous and uses public market data directly", () => {
+  const page = read("docs", "investment-platform", "index.html");
+  const workflow = read(".github", "workflows", "pages.yml");
+  assert.match(page, /qt\.gtimg\.cn/);
+  assert.match(page, /web\.ifzq\.gtimg\.cn/);
+  assert.match(page, /searchapi\.eastmoney\.com/);
+  assert.doesNotMatch(page, /chatgpt\.site|\/api\/platform\//);
+  assert.match(workflow, /actions\/deploy-pages@v4/);
+  assert.match(workflow, /enablement: true/);
+});

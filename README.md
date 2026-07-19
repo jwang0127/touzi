@@ -2,7 +2,9 @@
 
 一个面向 A 股研究、热点跟踪和纸面交易复盘的联网投资看板。公开页面位于 `/investment-platform`。
 
-在线访问：https://zhengheng-a-share-audit.nifty-eft-1349.chatgpt.site/investment-platform
+无需登录的公开地址：https://jwang0127.github.io/touzi/investment-platform/
+
+公开版直接从浏览器连接腾讯财经行情/日线与东方财富证券搜索，不依赖 ChatGPT 登录态。
 
 ## 已接通的数据能力
 
