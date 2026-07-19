@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "投资看板｜研究与纸面交易平台",
-  description: "基于视频框架复刻的市场、持仓、策略、个股与产业瓶颈研究工作台。",
+  title: "投资看板｜实时智能投研平台",
+  description: "连接腾讯财经与东方财富的实时行情、商业热点、股票搜索和结构化研究平台。",
   openGraph: {
-    title: "投资看板｜研究与纸面交易平台",
-    description: "把重复的信息整理交给 AI，把判断留给人。",
+    title: "投资看板｜实时智能投研平台",
+    description: "实时行情、商业热点、个股研究与产业链研究，事实和推断分开呈现。",
     images: ["/investment-platform-og.png"],
   },
 };
