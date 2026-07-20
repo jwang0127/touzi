@@ -41,6 +41,7 @@ test("collection adapters are separated from news impact research",()=>{
   const generator=read("scripts","update-market-intelligence.mjs");
   const workflow=read(".github","workflows","market-intelligence.yml");
   assert.match(adapter,/fetchGdeltArticles/);assert.match(adapter,/fetchGlobalAssets/);
+  assert.match(adapter,/response\.status!==429/);assert.match(adapter,/retry-after/);
   assert.doesNotMatch(adapter,/whyItMatters|relatedCodes|impact:/);
   assert.match(research,/whyItMatters/);assert.match(research,/relatedCodes/);
   assert.doesNotMatch(research,/api\.gdeltproject|qt\.gtimg|api\.coingecko/);
