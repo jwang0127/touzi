@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-20T07:32:00.238Z",
-  "newsUpdatedAt": "2026-07-20T06:59:05.065Z",
-  "assetsUpdatedAt": "2026-07-20T07:32:00.238Z",
+  "generatedAt": "2026-07-20T09:36:58.136Z",
+  "newsUpdatedAt": "2026-07-20T09:36:58.136Z",
+  "assetsUpdatedAt": "2026-07-20T09:36:58.136Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -22,7 +22,7 @@
       "price": 3796.28,
       "changePercent": 0.85,
       "unit": "CNY",
-      "asOf": "2026-07-20T15:32:02+08:00",
+      "asOf": "2026-07-20T16:14:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -33,7 +33,7 @@
       "price": 13610.23,
       "changePercent": -0.71,
       "unit": "CNY",
-      "asOf": "2026-07-20T15:32:30+08:00",
+      "asOf": "2026-07-20T16:14:30+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25037.13,
-      "changePercent": 1.93,
+      "price": 25143.05,
+      "changePercent": 2.36,
       "unit": "HKD",
-      "asOf": "2026-07-20T15:17:32+08:00",
+      "asOf": "2026-07-20T17:22:21+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8355.73,
-      "changePercent": 2.69,
+      "price": 8381.9,
+      "changePercent": 3.01,
       "unit": "HKD",
-      "asOf": "2026-07-20T15:17:32+08:00",
+      "asOf": "2026-07-20T16:08:48+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4015.09,
-      "changePercent": -0.09,
+      "price": 4024.7,
+      "changePercent": 0.15,
       "unit": "USD",
-      "asOf": "2026-07-20T15:32:08-04:00",
+      "asOf": "2026-07-20T17:37:43-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.93,
-      "changePercent": 1.4,
+      "price": 81.08,
+      "changePercent": -0.85,
       "unit": "USD",
-      "asOf": "2026-07-20T15:32:09-04:00",
+      "asOf": "2026-07-20T17:38:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 630.98,
-      "changePercent": 0.72,
+      "price": 631.56,
+      "changePercent": 0.81,
       "unit": "USD",
-      "asOf": "2026-07-20T15:32:08-04:00",
+      "asOf": "2026-07-20T17:37:12-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,174 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64087,
-      "changePercent": -0.9086272848466094,
+      "price": 64190,
+      "changePercent": -0.47356994254711376,
       "unit": "USD",
-      "asOf": "2026-07-20T07:32:27.000Z",
+      "asOf": "2026-07-20T09:37:46.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "bd66e088caaecbd1",
+      "category": "能源与航运",
+      "title": "Oil prices surpass 90 dollars a barrel after fresh attacks in US - Iran war",
+      "url": "https://www.rutland-times.co.uk/national/oil-prices-surpass-90-dollars-a-barrel-after-fresh-attacks-in-us-iran-war-169535/",
+      "source": "rutland-times.co.uk",
+      "publishedAt": "2026-07-20T09:15:00Z",
+      "fetchedAt": "2026-07-20T09:36:58.136Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rutland-times.co.uk/national/oil-prices-surpass-90-dollars-a-barrel-after-fresh-attacks-in-us-iran-war-169535/"
+    },
+    {
+      "id": "8584787f6f57cb5f",
+      "category": "全球与地区",
+      "title": "Sanctioned Heavy - Lift Ships Deliver Key Arctic LNG 2 Modules to Russia , Pointing to Construction Restart",
+      "url": "https://gcaptain.com/sanctioned-heavy-lift-ships-deliver-key-arctic-lng-2-modules-to-russia-pointing-to-construction-restart/",
+      "source": "gcaptain.com",
+      "publishedAt": "2026-07-20T09:15:00Z",
+      "fetchedAt": "2026-07-20T09:36:58.136Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcaptain.com/sanctioned-heavy-lift-ships-deliver-key-arctic-lng-2-modules-to-russia-pointing-to-construction-restart/"
+    },
+    {
+      "id": "e0916c153264c367",
+      "category": "A股与政策",
+      "title": "上周80家A股上市公司实施回购 _ 上市公司 _ 资本市场 _ 财经网 - CAIJING . COM . CN",
+      "url": "http://stock.caijing.com.cn/20260720/5172156.shtml",
+      "source": "stock.caijing.com.cn",
+      "publishedAt": "2026-07-20T09:15:00Z",
+      "fetchedAt": "2026-07-20T09:36:58.136Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600030"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://stock.caijing.com.cn/20260720/5172156.shtml"
+    },
+    {
+      "id": "7f08bd8125217ae9",
+      "category": "能源与航运",
+      "title": "US strikes Iran again , Iran says oil tankers exploded",
+      "url": "https://www.singletonargus.com.au/story/9313463/us-strikes-iran-again-iran-says-oil-tankers-exploded/",
+      "source": "singletonargus.com.au",
+      "publishedAt": "2026-07-20T09:15:00Z",
+      "fetchedAt": "2026-07-20T09:36:58.136Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.singletonargus.com.au/story/9313463/us-strikes-iran-again-iran-says-oil-tankers-exploded/"
+    },
+    {
+      "id": "9fcf5f767f6893a5",
+      "category": "数字资产",
+      "title": "VC Investors Just Valued This Company at $1 Billion . Does That Make Venice ( VVV ) the Best AI Crypto to Buy Right Now ?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/vc-investors-just-valued-company-001000402.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-07-20T09:15:00Z",
+      "fetchedAt": "2026-07-20T09:36:58.136Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/vc-investors-just-valued-company-001000402.html"
+    },
     {
       "id": "20d0558959e9207a",
       "category": "金属与资源",
