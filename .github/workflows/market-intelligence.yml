@@ -1,6 +1,13 @@
 name: Market intelligence refresh
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/market-intelligence.yml"
+      - "scripts/update-market-intelligence.mjs"
+      - "lib/market-data/intelligence-sources.mjs"
+      - "lib/research/news-impact.mjs"
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
