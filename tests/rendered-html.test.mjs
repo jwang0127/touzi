@@ -13,24 +13,19 @@ async function render() {
   );
 }
 
-test("server-renders the 3000 yuan holding monitor", async () => {
+test("server-renders the stock research workbench on the homepage", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /<title>3000元每日荐股助手/);
-  assert.match(html, /今天看什么/);
-  assert.match(html, /今日系统荐股/);
-  assert.match(html, /持有还是卖出/);
-  assert.match(html, /固定判断规则/);
+  assert.match(html, /<title>投资看板/);
+  assert.match(html, /市场概览/);
+  assert.match(html, /持仓概览/);
+  assert.match(html, /今日决策/);
+  assert.match(html, /不连接券商/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/);
 });
 
-test("recommendation view explains its score and coverage boundary", async () => {
+test("homepage reuses the audited live platform", async () => {
   const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
-  assert.match(source, /评分拆解/);
-  assert.match(source, /覆盖边界/);
-  assert.match(source, /建议股数/);
-  assert.match(source, /止损最大亏损/);
-  assert.match(source, /三浪模型/);
-  assert.match(source, /暂不纳入总分/);
+  assert.match(source, /LivePlatform/);
 });

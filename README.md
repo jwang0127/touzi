@@ -1,6 +1,6 @@
-# 投资看板：实时智能投研平台
+# 投资看板：股票研究与纸面交易工作台
 
-一个面向 A 股研究、热点跟踪和纸面交易复盘的联网投资看板。公开页面位于 `/investment-platform`。
+一个面向 A 股研究、热点跟踪和纸面交易复盘的联网投资看板。首页与 `/investment-platform` 均可直接进入完整工作台。
 
 无需登录的公开地址：https://jwang0127.github.io/touzi/investment-platform/
 
