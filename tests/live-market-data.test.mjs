@@ -41,4 +41,7 @@ test("GitHub Pages build is anonymous and uses public market data directly", () 
   assert.match(page, /web\.ifzq\.gtimg\.cn/);
   assert.match(page, /searchapi\.eastmoney\.com/);
   assert.doesNotMatch(page, /chatgpt\.site|\/api\/platform\//);
+  for (const label of ["今日决策", "买入", "持有", "卖出", "今日收盘推演", "实时五档盘口", "自动刷新", "触发条件", "失效条件"]) {
+    assert.ok(page.includes(label), `missing ${label}`);
+  }
 });

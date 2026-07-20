@@ -15,6 +15,10 @@ export type TencentQuote = {
   pe: number | null;
   pb: number | null;
   marketCapYi: number | null;
+  outerVolume: number;
+  innerVolume: number;
+  bids: Array<{ price: number; volume: number }>;
+  asks: Array<{ price: number; volume: number }>;
   asOf: string;
   source: "腾讯财经";
   provenanceUrl: string;
@@ -66,6 +70,10 @@ export function parseTencentPayload(body: string, labels: Record<string, string>
       pe: nullableNumber(fields[39]),
       marketCapYi: nullableNumber(fields[45]),
       pb: nullableNumber(fields[46]),
+      outerVolume: Number(fields[7] || 0),
+      innerVolume: Number(fields[8] || 0),
+      bids: [9,11,13,15,17].map(index => ({ price: Number(fields[index] || 0), volume: Number(fields[index + 1] || 0) })),
+      asks: [19,21,23,25,27].map(index => ({ price: Number(fields[index] || 0), volume: Number(fields[index + 1] || 0) })),
       source: "腾讯财经",
       provenanceUrl: `${TENCENT_QUOTE_URL}${symbol}`,
     });
@@ -90,4 +98,3 @@ export async function fetchTencentQuotes(symbols: string[], labels: Record<strin
   if (!quotes.length) throw new Error("腾讯财经未返回有效行情");
   return quotes;
 }
-
