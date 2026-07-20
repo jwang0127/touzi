@@ -18,9 +18,10 @@ test("server-renders the stock research workbench on the homepage", async () => 
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /<title>投资看板/);
-  assert.match(html, /市场概览/);
-  assert.match(html, /持仓概览/);
-  assert.match(html, /今日决策/);
+  assert.match(html, /市场首页/);
+  assert.match(html, /我的持仓/);
+  assert.match(html, /机会与研究/);
+  assert.match(html, /全球资产温度计/);
   assert.match(html, /不连接券商/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|Your site is taking shape/);
 });

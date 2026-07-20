@@ -4,7 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import styles from "./platform.module.css";
 
 type Evidence = "FACT" | "INFERENCE" | "UNKNOWN";
-type TabKey = "market" | "holdings" | "forecast" | "scores" | "trades" | "screening" | "strategy" | "stock" | "industry";
+type TabKey = "home" | "holdings" | "research" | "stock";
+type ResearchKey = "forecast" | "decision" | "strategy" | "screening" | "industry" | "records";
 type Quote = { symbol:string;code:string;name:string;price:number;previousClose:number;open:number;high:number;low:number;change:number;changePercent:number;volume:number;amount:number;turnoverRate:number|null;pe:number|null;pb:number|null;marketCapYi:number|null;outerVolume:number;innerVolume:number;bids:Array<{price:number;volume:number}>;asks:Array<{price:number;volume:number}>;asOf:string;source:string;provenanceUrl:string };
 type Hotspot = { id:string;name:string;averageChange:number;breadth:number;dispersion:number;score:number;state:string;evidence:Evidence;thesis:string;asOf:string;source:string;members:Array<Pick<Quote,"code"|"name"|"price"|"changePercent"|"asOf">> };
 type SearchResult = { code:string;name:string;market:string;quoteId:string;type:string;source:string;asOf:string };
@@ -14,14 +15,18 @@ type PaperEvent = { id:string;code:string;name:string;action:string;at:string;pr
 type CloseForecast = { label:string;direction:string;rangeLow:number;rangeHigh:number;confidence:string;reason:string };
 type ResearchRating = { label:"买入"|"持有"|"卖出";reason:string;confirm:string;invalidate:string };
 type DailyPick = { code:string;name:string;theme:string;price:number;changePercent:number;expected:number;rangeLow:number;rangeHigh:number;reason:string;risk:string;generatedAt?:string;edition?:string };
+type GlobalAsset = { id:string;name:string;price:number;changePercent:number|null;unit:string;asOf:string;source:string;provenanceUrl:string;evidence:Evidence };
+type NewsItem = { id:string;category:string;title:string;url:string;source:string;publishedAt:string;fetchedAt:string;evidence:Evidence;analysisEvidence:Evidence;topics:string[];industries:string[];regions:string[];relatedCodes:string[];impact:string;whyItMatters:string;nextCheck:string;provenanceUrl:string };
+type Intelligence = { schemaVersion:string;generatedAt:string;newsUpdatedAt:string|null;assetsUpdatedAt:string|null;sourceStatus:{state:"PASS"|"REVIEW"|"BLOCK";errors:string[];newsProvider:string;assetProviders:string[]};assets:GlobalAsset[];news:NewsItem[] };
 
 const tabs: Array<{key:TabKey;label:string}> = [
-  {key:"market",label:"市场概览"},{key:"holdings",label:"持仓概览"},{key:"forecast",label:"每日三股"},{key:"scores",label:"今日决策"},{key:"trades",label:"研究记录"},
-  {key:"screening",label:"热点筛选"},{key:"strategy",label:"策略研究"},{key:"stock",label:"个股研究"},{key:"industry",label:"产业链研究"},
+  {key:"home",label:"市场首页"},{key:"holdings",label:"我的持仓"},{key:"research",label:"机会与研究"},{key:"stock",label:"个股详情"},
 ];
+const researchTabs: Array<{key:ResearchKey;label:string}> = [{key:"forecast",label:"每日三股"},{key:"decision",label:"今日决策"},{key:"strategy",label:"策略验证"},{key:"screening",label:"热点筛选"},{key:"industry",label:"产业链"},{key:"records",label:"研究记录"}];
 const WATCHLIST_KEY="touzi-watchlist-v1";
 const EVENT_KEY="touzi-paper-events-v1";
 const DAILY_PICKS_URL="https://jwang0127.github.io/touzi/daily-picks.json";
+const INTELLIGENCE_URL="/market-intelligence.json";
 
 function Tag({kind}:{kind:Evidence}) { return <span className={`${styles.evidence} ${styles[kind.toLowerCase()]}`}>{kind}</span>; }
 function formatTime(value?:string) { if(!value)return "等待数据"; try{return new Date(value).toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});}catch{return value;} }
@@ -71,6 +76,39 @@ function Status({loading,error}:{loading:boolean;error:string}){
   return null;
 }
 
+const CODE_TOPICS:Record<string,string[]>={
+  "300750":["汽车","储能","电池","新能源"],"300308":["AI","光通信","半导体","数字资产"],"300502":["AI","光通信","半导体","数字资产"],
+  "600900":["电力","高股息","能源"],"600547":["黄金","贵金属","金属"],"000975":["黄金","贵金属","金属"],"601899":["铜","黄金","有色","金属"],
+  "600030":["券商","资本市场","政策"],"300059":["券商","金融科技","数字资产"],"600118":["商业航天","低空经济","军工"],"300474":["商业航天","低空经济","军工"],
+  "601857":["原油","石油石化","能源"],"600028":["原油","石油石化","能源"],"601088":["煤炭","能源","原油"],
+};
+function newsForStock(quote:Quote,items:NewsItem[]){
+  const terms=[quote.code,quote.name,...(CODE_TOPICS[quote.code]||[])].map(x=>x.toLowerCase());
+  return items.map(item=>{const haystack=[item.title,...item.topics,...item.industries].join(" ").toLowerCase();const exact=item.relatedCodes?.includes(quote.code);const hits=terms.filter(term=>term.length>1&&haystack.includes(term));return{item,score:(exact?5:0)+hits.length};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||String(b.item.publishedAt).localeCompare(String(a.item.publishedAt))).slice(0,2).map(x=>x.item);
+}
+
+function HomeView({quotes,hotspots,intelligence,loading,error,onStock,onNavigate}:{quotes:Quote[];hotspots:Hotspot[];intelligence:Intelligence|null;loading:boolean;error:string;onStock:(code:string)=>void;onNavigate:(tab:TabKey)=>void}){
+  const [category,setCategory]=useState("全部");
+  const breadth=quotes.length?quotes.filter(q=>q.changePercent>0).length/quotes.length:0;
+  const average=quotes.length?quotes.reduce((sum,q)=>sum+q.changePercent,0)/quotes.length:0;
+  const leader=hotspots[0]; const riskAssets=(intelligence?.assets||[]).filter(a=>a.changePercent!==null); const globalAverage=riskAssets.length?riskAssets.reduce((s,a)=>s+(a.changePercent||0),0)/riskAssets.length:0;
+  const posture=breadth>=.7&&average>.7?"进攻信号增加":breadth<.4||average<-.8?"先控制回撤":"等待方向确认";
+  const categories=["全部",...Array.from(new Set((intelligence?.news||[]).map(n=>n.category)))];
+  const visibleNews=(intelligence?.news||[]).filter(n=>category==="全部"||n.category===category).slice(0,8);
+  return <section>
+    <Status loading={loading} error={error}/>
+    <div className={styles.homeHero}><div><Tag kind="INFERENCE"/><span>今日市场结论</span><h2>{posture}</h2><p>A股指数平均 {signed(average)}，上涨覆盖率 {(breadth*100).toFixed(0)}%；全球资产样本平均 {signed(globalAverage)}。{leader?`当前热点优先看 ${leader.name}，但必须等价格和新闻证据互相确认。`:"热点数据仍在形成。"}</p><div className={styles.heroActions}><button onClick={()=>onNavigate("holdings")}>检查我的持仓</button><button onClick={()=>onNavigate("research")}>进入机会研究</button></div></div><aside><span>下一步只看三件事</span><ol><li>指数上涨覆盖率能否维持在 50% 以上</li><li>{leader?`${leader.name} 是否保持前三且不扩大分化`:`主线是否形成`}</li><li>全球资产与相关新闻是否出现同向二次确认</li></ol></aside></div>
+    <div className={styles.sectionTitle}><div><h2>全球资产温度计</h2><p>美股、黄金、原油、铜与比特币放在同一视野，观察风险偏好与成本压力</p></div><span><Tag kind="FACT"/>{formatTime(intelligence?.assetsUpdatedAt||undefined)}</span></div>
+    <div className={styles.assetGrid}>{(intelligence?.assets||[]).map(asset=><a key={asset.id} className={styles.assetCard} href={asset.provenanceUrl} target="_blank" rel="noreferrer"><span>{asset.name}</span><strong>{asset.price.toLocaleString("zh-CN",{maximumFractionDigits:2})}</strong><b className={(asset.changePercent||0)>=0?styles.red:styles.green}>{asset.changePercent===null?"涨跌待补":signed(asset.changePercent)}</b><small>{asset.source} · {formatTime(asset.asOf)}</small></a>)}</div>
+    <div className={styles.homeColumns}><div><div className={styles.sectionTitle}><div><h2>市场热点雷达</h2><p>行情强度负责发现，新闻证据负责解释，失效条件负责约束</p></div><button className={styles.textButton} onClick={()=>onNavigate("research")}>查看全部研究 →</button></div><div className={styles.radarList}>{hotspots.slice(0,5).map((h,i)=><article key={h.id}><span className={styles.radarRank}>0{i+1}</span><div><h3>{h.name}</h3><p>{h.thesis}</p><div className={styles.memberRow}>{h.members.map(m=><button key={m.code} onClick={()=>onStock(m.code)}>{m.name} {signed(m.changePercent,1)}</button>)}</div></div><aside><strong className={h.averageChange>=0?styles.red:styles.green}>{signed(h.averageChange)}</strong><small>覆盖率 {(h.breadth*100).toFixed(0)}%</small></aside></article>)}</div></div>
+      <aside className={styles.investorBrief}><div className={styles.sectionTitle}><div><h2>投资者行动清单</h2><p>把信息转成可验证动作</p></div><Tag kind="INFERENCE"/></div><article><b>盘前 / 当前</b><p>先读政策、国际局势和资产价格中出现的共同方向，再决定今天研究哪条主线。</p></article><article><b>盘中</b><p>只跟踪主线覆盖率、代表股是否守住开盘价，以及新闻后价格有没有真实响应。</p></article><article><b>收盘</b><p>记录触发、失效和未行动原因；单条新闻不能直接改变买入/持有/卖出评级。</p></article></aside></div>
+    <div className={styles.sectionTitle}><div><h2>新闻与全球事件</h2><p>标题是事实；影响方向和“为什么相关”是推断，点击可回到原始来源</p></div><span><Tag kind={intelligence?.sourceStatus.state==="PASS"?"FACT":"UNKNOWN"}/>{intelligence?.sourceStatus.state||"UNKNOWN"}</span></div>
+    <div className={styles.newsFilters}>{categories.map(item=><button key={item} className={category===item?styles.activeFilter:""} onClick={()=>setCategory(item)}>{item}</button>)}</div>
+    <div className={styles.newsGrid}>{visibleNews.map(item=><article className={styles.newsCard} key={item.id}><div><span>{item.category}</span><b className={item.impact==="偏负面"?styles.green:item.impact==="偏正面"?styles.red:""}>{item.impact}</b></div><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a><p><Tag kind="INFERENCE"/>{item.whyItMatters}</p><small>{item.source} · {formatTime(item.publishedAt)} · {item.industries.join(" / ")}</small><em>下一步核对：{item.nextCheck}</em></article>)}</div>
+    {intelligence?.sourceStatus.errors?.length?<div className={styles.callout}><Tag kind="UNKNOWN"/>数据源状态为 REVIEW：{intelligence.sourceStatus.errors[0]} 上一次有效快照仍会保留。</div>:null}
+  </section>;
+}
+
 function MarketView({quotes,hotspots,loading,error,onStock}:{quotes:Quote[];hotspots:Hotspot[];loading:boolean;error:string;onStock:(code:string)=>void}){
   return <section>
     <Status loading={loading} error={error}/>
@@ -80,11 +118,11 @@ function MarketView({quotes,hotspots,loading,error,onStock}:{quotes:Quote[];hots
   </section>;
 }
 
-function HoldingsView({codes,setCodes,refreshKey,onStock}:{codes:string[];setCodes:(codes:string[])=>void;refreshKey:number;onStock:(code:string)=>void}){
+function HoldingsView({codes,setCodes,refreshKey,onStock,news}:{codes:string[];setCodes:(codes:string[])=>void;refreshKey:number;onStock:(code:string)=>void;news:NewsItem[]}){
   const [rows,setRows]=useState<StockPayload[]>([]);const [error,setError]=useState("");const [loading,setLoading]=useState(false);
   useEffect(()=>{if(!codes.length){setRows([]);return;}const controller=new AbortController();setLoading(true);setError("");Promise.all(codes.map(code=>fetch(`/api/platform/stock?code=${code}`,{cache:"no-store",signal:controller.signal}).then(async r=>{const body=await r.json();if(!r.ok)throw new Error(body.error||"持仓研究数据暂不可用");return body as StockPayload;}))).then(setRows).catch(e=>{if(e.name!=="AbortError")setError(e.message||"持仓研究数据暂不可用");}).finally(()=>setLoading(false));return()=>controller.abort();},[codes,refreshKey]);
   if(!codes.length)return <div className={styles.empty}><h2>还没有自选研究标的</h2><p>在“个股研究”中搜索公司并加入观察，这里会按腾讯财经行情实时刷新。</p></div>;
-  return <section><Status loading={loading} error={error}/><div className={styles.holdingList}>{rows.map(row=>{const q=row.quote,a=row.analysis,f=closeForecast(row),rating=researchRating(row);return <article className={styles.holdingRow} key={q.code}><div className={styles.holdingIdentity}><div><h3>{q.name}</h3><small>{q.code} · {formatTime(q.asOf)}</small></div><strong className={q.changePercent>=0?styles.red:styles.green}>{q.price.toFixed(2)}</strong><b className={q.changePercent>=0?styles.red:styles.green}>{signed(q.changePercent)}</b><span><Tag kind="FACT"/>{q.source}</span></div><div className={styles.holdingGrowth}><span>价格成长率</span><b className={a.return20>=0?styles.red:styles.green}>20日 {signed(a.return20*100)}</b><b className={a.return60>=0?styles.red:styles.green}>60日 {signed(a.return60*100)}</b><small>这是价格变化，不代表营收或利润成长</small></div><div className={styles.holdingBasics}><span>基础行情</span><small>PE {q.pe?.toFixed(1)??"—"} · PB {q.pb?.toFixed(2)??"—"}</small><small>换手 {q.turnoverRate?.toFixed(2)??"—"}% · 市值 {q.marketCapYi?.toFixed(0)??"—"}亿</small><small>高/低 {q.high.toFixed(2)} / {q.low.toFixed(2)} · 波动 {(a.annualizedVolatility*100).toFixed(1)}%</small></div><div className={styles.holdingTrend}><span><Tag kind="INFERENCE"/>技术评级</span><strong className={styles[`rating${rating.label}`]}>{rating.label}</strong><small>{rating.reason}</small><small>改判：{rating.invalidate}</small></div><div className={styles.holdingForecast}><span><Tag kind="INFERENCE"/>{f.label}</span><strong>{f.direction} · {f.rangeLow.toFixed(2)}–{f.rangeHigh.toFixed(2)}</strong><small>置信度：{f.confidence}</small><small>{f.reason}</small></div><div className={styles.holdingActions}><button className={styles.primaryButton} onClick={()=>onStock(q.code)}>详细研究</button><button className={styles.removeButton} onClick={()=>setCodes(codes.filter(code=>code!==q.code))}>移除</button></div></article>;})}</div><div className={styles.callout}><Tag kind="UNKNOWN"/>买入/持有/卖出是只基于价格趋势的研究评级，不是交易指令；财报、公告和突发事件未补齐时必须人工 REVIEW。</div></section>;
+  return <section><div className={styles.pageIntro}><div><span>我的持仓</span><h2>行情、评级、收盘推演和相关新闻放在同一行</h2><p>新闻只负责提醒可能的影响链，评级仍由可验证的价格规则生成。</p></div><Tag kind="INFERENCE"/></div><Status loading={loading} error={error}/><div className={styles.holdingList}>{rows.map(row=>{const q=row.quote,a=row.analysis,f=closeForecast(row),rating=researchRating(row),related=newsForStock(q,news);return <article className={styles.holdingRow} key={q.code}><div className={styles.holdingMain}><div className={styles.holdingIdentity}><div><h3>{q.name}</h3><small>{q.code} · {formatTime(q.asOf)}</small></div><strong className={q.changePercent>=0?styles.red:styles.green}>{q.price.toFixed(2)}</strong><b className={q.changePercent>=0?styles.red:styles.green}>{signed(q.changePercent)}</b><span><Tag kind="FACT"/>{q.source}</span></div><div className={styles.holdingGrowth}><span>价格成长率</span><b className={a.return20>=0?styles.red:styles.green}>20日 {signed(a.return20*100)}</b><b className={a.return60>=0?styles.red:styles.green}>60日 {signed(a.return60*100)}</b><small>价格变化，不代表营收或利润成长</small></div><div className={styles.holdingBasics}><span>基础行情</span><small>PE {q.pe?.toFixed(1)??"—"} · PB {q.pb?.toFixed(2)??"—"}</small><small>换手 {q.turnoverRate?.toFixed(2)??"—"}% · 市值 {q.marketCapYi?.toFixed(0)??"—"}亿</small><small>高/低 {q.high.toFixed(2)} / {q.low.toFixed(2)} · 波动 {(a.annualizedVolatility*100).toFixed(1)}%</small></div><div className={styles.holdingTrend}><span><Tag kind="INFERENCE"/>技术评级</span><strong className={styles[`rating${rating.label}`]}>{rating.label}</strong><small>{rating.reason}</small><small>改判：{rating.invalidate}</small></div><div className={styles.holdingForecast}><span><Tag kind="INFERENCE"/>{f.label}</span><strong>{f.direction} · {f.rangeLow.toFixed(2)}–{f.rangeHigh.toFixed(2)}</strong><small>置信度：{f.confidence}</small><small>{f.reason}</small></div><div className={styles.holdingActions}><button className={styles.primaryButton} onClick={()=>onStock(q.code)}>详细研究</button><button className={styles.removeButton} onClick={()=>setCodes(codes.filter(code=>code!==q.code))}>移除</button></div></div><div className={styles.holdingNews}><div><b>与持仓相关的事件</b><small><Tag kind="INFERENCE"/>按公司、行业与资产主题自动命中</small></div>{related.length?related.map(item=><a key={item.id} href={item.url} target="_blank" rel="noreferrer"><span>{item.category} · {item.impact}</span><strong>{item.title}</strong><small>{item.source} · {formatTime(item.publishedAt)}</small><em>{item.whyItMatters}</em></a>):<p><Tag kind="UNKNOWN"/>暂未命中可靠新闻，不用无关标题填充。</p>}</div></article>;})}</div><div className={styles.callout}><Tag kind="UNKNOWN"/>买入/持有/卖出只基于价格趋势；相关新闻若缺少公告或第二来源确认，审计仍保持 REVIEW。</div></section>;
 }
 
 function ScoresView({quotes,hotspots}:{quotes:Quote[];hotspots:Hotspot[]}){
@@ -147,10 +185,15 @@ function IndustryView({hotspots,onStock}:{hotspots:Hotspot[];onStock:(code:strin
   return <section><div className={styles.sectionTitle}><div><h2>产业链研究队列</h2><p>从当日商业热点向订单、产能、技术、现金流四类证据下钻</p></div><Tag kind="INFERENCE"/></div><div className={styles.nodeList}>{hotspots.slice(0,8).map((h,i)=><article key={h.id}><div><b>0{i+1} · {h.name}</b><small>{h.state} · 得分 {h.score.toFixed(0)}</small></div><p>{h.thesis}</p><span>{h.members.map(m=><button className={styles.tableLink} key={m.code} onClick={()=>onStock(m.code)}>{m.name} {signed(m.changePercent,1)}</button>)}</span></article>)}</div><div className={styles.callout}><Tag kind="UNKNOWN"/>热点只能告诉我们资金正在关注什么；是否形成长期商业价值，仍需核对订单质量、产能利用率、客户集中度、现金流和竞争格局。</div></section>;
 }
 
+function ResearchHub({section,setSection,quotes,hotspots,events,onStock}:{section:ResearchKey;setSection:(section:ResearchKey)=>void;quotes:Quote[];hotspots:Hotspot[];events:PaperEvent[];onStock:(code:string)=>void}){
+  return <section><div className={styles.pageIntro}><div><span>机会与研究</span><h2>先发现机会，再写触发、失效和复盘</h2><p>六个研究工具收进同一个子页面，不再占满首页导航。</p></div><Tag kind="INFERENCE"/></div><nav className={styles.subtabs}>{researchTabs.map(item=><button key={item.key} className={section===item.key?styles.activeSub:""} onClick={()=>setSection(item.key)}>{item.label}</button>)}</nav>
+    {section==="forecast"&&<ForecastView hotspots={hotspots} onStock={onStock}/>} {section==="decision"&&<ScoresView quotes={quotes} hotspots={hotspots}/>} {section==="strategy"&&<StrategyView quotes={quotes} hotspots={hotspots}/>} {section==="screening"&&<ScreeningView hotspots={hotspots} onStock={onStock}/>} {section==="industry"&&<IndustryView hotspots={hotspots} onStock={onStock}/>} {section==="records"&&<EventsView events={events}/>}</section>;
+}
+
 export default function LivePlatform(){
-  const [tab,setTab]=useState<TabKey>("market"); const [refreshKey,setRefreshKey]=useState(0); const [autoRefresh,setAutoRefresh]=useState(true); const [countdown,setCountdown]=useState(15); const [query,setQuery]=useState(""); const [results,setResults]=useState<SearchResult[]>([]); const [searching,setSearching]=useState(false); const [selectedCode,setSelectedCode]=useState("300750");
+  const [tab,setTab]=useState<TabKey>("home"); const [researchSection,setResearchSection]=useState<ResearchKey>("forecast"); const [refreshKey,setRefreshKey]=useState(0); const [autoRefresh,setAutoRefresh]=useState(true); const [countdown,setCountdown]=useState(15); const [query,setQuery]=useState(""); const [results,setResults]=useState<SearchResult[]>([]); const [searching,setSearching]=useState(false); const [selectedCode,setSelectedCode]=useState("300750");
   const [watchlist,setWatchlistState]=useState<string[]>([]); const [events,setEventsState]=useState<PaperEvent[]>([]);
-  const market=useJson<{quotes:Quote[];asOf:string;fetchedAt:string;source:string}>("/api/platform/market",refreshKey); const hotspot=useJson<{hotspots:Hotspot[];asOf:string;fetchedAt:string}>("/api/platform/hotspots",refreshKey); const stock=useJson<StockPayload>(`/api/platform/stock?code=${selectedCode}`,refreshKey);
+  const market=useJson<{quotes:Quote[];asOf:string;fetchedAt:string;source:string}>("/api/platform/market",refreshKey); const hotspot=useJson<{hotspots:Hotspot[];asOf:string;fetchedAt:string}>("/api/platform/hotspots",refreshKey); const stock=useJson<StockPayload>(`/api/platform/stock?code=${selectedCode}`,refreshKey); const intelligence=useJson<Intelligence>(INTELLIGENCE_URL,refreshKey);
   useEffect(()=>{try{setWatchlistState(JSON.parse(localStorage.getItem(WATCHLIST_KEY)||"[]"));setEventsState(JSON.parse(localStorage.getItem(EVENT_KEY)||"[]"));}catch{}},[]);
   useEffect(()=>{if(!autoRefresh)return;const timer=window.setInterval(()=>setCountdown(value=>{if(value<=1){if(!document.hidden)setRefreshKey(key=>key+1);return 15;}return value-1;}),1000);return()=>window.clearInterval(timer);},[autoRefresh]);
   const setWatchlist=useCallback((codes:string[])=>{setWatchlistState(codes);localStorage.setItem(WATCHLIST_KEY,JSON.stringify(codes));},[]);
@@ -162,16 +205,11 @@ export default function LivePlatform(){
     <header className={styles.header}><div className={styles.brand}><span className={styles.logo}>↗</span><h1>投资看板</h1><small>最新行情：{formatTime(dataAsOf)}</small></div><div className={styles.actions}><button onClick={()=>{setRefreshKey(k=>k+1);setCountdown(15)}}>↻ 立即刷新</button><button className={autoRefresh?styles.autoOn:""} onClick={()=>setAutoRefresh(value=>!value)}>{autoRefresh?`● ${countdown}s 自动刷新`:`▶ 恢复自动刷新`}</button><a href="/">返回</a></div></header>
     <div className={styles.globalSearch}><div><span>⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="搜索股票名称或代码，例如：宁德时代 / 300750" aria-label="搜索股票"/>{searching&&<small>搜索中…</small>}</div>{results.length>0&&<div className={styles.searchResults}>{results.map(r=><button key={r.quoteId} onClick={()=>openStock(r.code)}><b>{r.name}</b><span>{r.code} · {r.market} · {r.type}</span></button>)}</div>}</div>
     <nav className={styles.tabs}>{tabs.map(item=><button key={item.key} className={tab===item.key?styles.activeTab:""} onClick={()=>setTab(item.key)}>{item.label}</button>)}</nav>
-    <div className={styles.provenance}><span className={market.error||hotspot.error?styles.offlineDot:styles.liveDot}/>{market.error||hotspot.error?"部分数据源异常":"实时轮询中"}：腾讯财经即时报价/五档盘口 + 东方财富搜索<span>行情时间 {formatTime(dataAsOf)}</span><span>页面获取 {formatTime(market.data?.fetchedAt)}</span></div>
-    {tab==="market"&&<MarketView quotes={quotes} hotspots={hotspots} loading={market.loading||hotspot.loading} error={market.error||hotspot.error} onStock={openStock}/>} 
-    {tab==="holdings"&&<HoldingsView codes={watchlist} setCodes={setWatchlist} refreshKey={refreshKey} onStock={openStock}/>} 
-    {tab==="forecast"&&<ForecastView hotspots={hotspots} onStock={openStock}/>}
-    {tab==="scores"&&<ScoresView quotes={quotes} hotspots={hotspots}/>} 
-    {tab==="trades"&&<EventsView events={events}/>} 
-    {tab==="screening"&&<ScreeningView hotspots={hotspots} onStock={openStock}/>} 
-    {tab==="strategy"&&<StrategyView quotes={quotes} hotspots={hotspots}/>}
+    <div className={styles.provenance}><span className={market.error||hotspot.error?styles.offlineDot:styles.liveDot}/>{market.error||hotspot.error?"部分数据源异常":"行情每15秒轮询"} · 新闻与全球资产每小时更新<span>行情 {formatTime(dataAsOf)}</span><span>情报 {formatTime(intelligence.data?.generatedAt)}</span><span>腾讯财经 / 东方财富 / GDELT / CoinGecko</span></div>
+    {tab==="home"&&<HomeView quotes={quotes} hotspots={hotspots} intelligence={intelligence.data} loading={market.loading||hotspot.loading||intelligence.loading} error={market.error||hotspot.error} onStock={openStock} onNavigate={setTab}/>}
+    {tab==="holdings"&&<HoldingsView codes={watchlist} setCodes={setWatchlist} refreshKey={refreshKey} onStock={openStock} news={intelligence.data?.news||[]}/>}
+    {tab==="research"&&<ResearchHub section={researchSection} setSection={setResearchSection} quotes={quotes} hotspots={hotspots} events={events} onStock={openStock}/>}
     {tab==="stock"&&<StockView payload={stock.data} loading={stock.loading} error={stock.error} onAdd={addWatch} isAdded={!!stock.data&&watchlist.includes(stock.data.quote.code)}/>} 
-    {tab==="industry"&&<IndustryView hotspots={hotspots} onStock={openStock}/>} 
-    <footer className={styles.footer}><p>把重复的信息整理交给系统，把判断和责任留给人。</p><small>研究、回测与纸面交易支持；不连接券商，不自动下单。行情来自第三方公开页面接口，交易前请核对交易所、券商行情与公司公告。</small></footer>
+    <footer className={styles.footer}><p>把重复的信息整理交给系统，把判断和责任留给人。</p><small>行情与新闻来自可追溯的公开来源；影响判断属于研究推断，交易前请核对交易所、券商行情与公司公告。</small></footer>
   </div></main>;
 }

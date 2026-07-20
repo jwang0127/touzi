@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "market-intelligence.v1",
+  "generatedAt": "2026-07-20T05:47:35.000Z",
+  "newsUpdatedAt": "2026-07-20T05:47:35.000Z",
+  "assetsUpdatedAt": "2026-07-20T05:46:03.000Z",
+  "sourceStatus": {
+    "state": "REVIEW",
+    "errors": ["初始快照由公开来源核验；自动任务将在每小时第17分钟刷新。"],
+    "newsProvider": "公开来源初始快照；后续 GDELT DOC 2.0",
+    "assetProviders": ["腾讯财经全球行情", "CoinGecko"]
+  },
+  "assets": [
+    {"id":"usINX","name":"标普500","price":7457.69,"changePercent":-1.01,"unit":"USD","asOf":"2026-07-17T16:43:30-04:00","source":"腾讯财经全球行情","provenanceUrl":"https://qt.gtimg.cn/","evidence":"FACT"},
+    {"id":"usIXIC","name":"纳斯达克","price":25520.24,"changePercent":-1.40,"unit":"USD","asOf":"2026-07-17T17:15:59-04:00","source":"腾讯财经全球行情","provenanceUrl":"https://qt.gtimg.cn/","evidence":"FACT"},
+    {"id":"hf_GC","name":"纽约黄金","price":4014.97,"changePercent":-0.10,"unit":"USD","asOf":"2026-07-20T13:46:00-04:00","source":"腾讯财经国际期货","provenanceUrl":"https://qt.gtimg.cn/","evidence":"FACT"},
+    {"id":"hf_CL","name":"纽约原油","price":83.64,"changePercent":2.28,"unit":"USD","asOf":"2026-07-20T13:46:03-04:00","source":"腾讯财经国际期货","provenanceUrl":"https://qt.gtimg.cn/","evidence":"FACT"},
+    {"id":"hf_HG","name":"美铜","price":625.54,"changePercent":-0.15,"unit":"USD","asOf":"2026-07-20T13:46:00-04:00","source":"腾讯财经国际期货","provenanceUrl":"https://qt.gtimg.cn/","evidence":"FACT"},
+    {"id":"bitcoin","name":"比特币","price":64142,"changePercent":-0.81,"unit":"USD","asOf":"2026-07-20T05:46:00.000Z","source":"CoinGecko","provenanceUrl":"https://www.coingecko.com/en/coins/bitcoin","evidence":"FACT"}
+  ],
+  "news": [
+    {
+      "id":"20260719-yicai-calendar","category":"A股与政策","title":"下周关注：LPR公布、汽车论坛与低空经济博览会进入事件窗口","url":"https://www.yicai.com/news/103281256.html","source":"第一财经","publishedAt":"2026-07-19T08:54:45+08:00","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["LPR","汽车","低空经济"],"industries":["银行","汽车","商业航天"],"regions":["中国","上海"],"relatedCodes":["600118","300474","300750"],"impact":"待观察","whyItMatters":"利率报价影响资金成本预期，行业会议则可能提高汽车和低空经济的短期关注度。","nextCheck":"核对LPR实际结果、会议是否出现新增政策或订单；只有价格与基本面同时确认才升级优先级。","provenanceUrl":"https://www.yicai.com/news/103281256.html"
+    },
+    {
+      "id":"20260717-cme-oil","category":"能源与航运","title":"WTI测试80美元关口：地缘溢价与供需基本面出现拉扯","url":"https://www.cmegroup.com/cn-s/insights/media-partners/jlc/crude-oil-weekly-report-2026-07-17.html","source":"CME Group","publishedAt":"2026-07-17T08:00:00+08:00","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["原油","OPEC","地缘政治"],"industries":["石油石化","煤炭","航运","化工"],"regions":["中东","全球"],"relatedCodes":["601857","600028","601088"],"impact":"偏正面","whyItMatters":"油价上行可能改善上游利润，但也会抬升制造、运输和化工成本，必须区分产业链位置。","nextCheck":"观察原油是否站稳关键位、OPEC需求预测和库存数据是否同向。","provenanceUrl":"https://www.cmegroup.com/cn-s/insights/media-partners/jlc/crude-oil-weekly-report-2026-07-17.html"
+    },
+    {
+      "id":"20260708-xinhua-oil","category":"全球与地区","title":"欧佩克+计划8月继续增产，油市焦点转向供需再平衡","url":"https://www.xinhuanet.com/20260708/94c56c4a23b64696a0c1612bd125ad7c/c.html","source":"新华社","publishedAt":"2026-07-08T08:00:00+08:00","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["欧佩克+","原油","国际局势"],"industries":["石油石化","航运","化工"],"regions":["中东","全球"],"relatedCodes":["601857","600028"],"impact":"待观察","whyItMatters":"增产压低供给风险溢价的同时，地缘变化仍可能造成短期跳价。","nextCheck":"同时核对实际增产执行、全球需求与关键航道通行状态。","provenanceUrl":"https://www.xinhuanet.com/20260708/94c56c4a23b64696a0c1612bd125ad7c/c.html"
+    },
+    {
+      "id":"202607-cme-metals","category":"金属与资源","title":"CME微型黄金、白银和铜产品7月市场快报更新","url":"https://www.cmegroup.com/cn-s/newsletters/micro-gold-silver-and-copper-monthly-update/2026-07-micro-metals-products-update.html","source":"CME Group","publishedAt":"2026-07-15T08:00:00+08:00","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["黄金","白银","铜","波动率"],"industries":["贵金属","工业金属","有色"],"regions":["全球"],"relatedCodes":["600547","000975","601899"],"impact":"待观察","whyItMatters":"黄金更偏利率与避险，铜更偏全球制造需求；同涨同跌时才可能形成更强的资源板块共振。","nextCheck":"核对美元、实际利率、库存与中国需求，避免只根据单日价格追逐资源股。","provenanceUrl":"https://www.cmegroup.com/cn-s/newsletters/micro-gold-silver-and-copper-monthly-update/2026-07-micro-metals-products-update.html"
+    },
+    {
+      "id":"20260710-coindesk-btc","category":"数字资产","title":"比特币接近64000美元，市场同时观察美元、AI与半导体风险偏好","url":"https://www.coindesk.com/zh/markets/2026/07/10/bitcoin-zips-to-nearly-usd64-000-as-chip-rally-and-yen-strength-drive-gains","source":"CoinDesk","publishedAt":"2026-07-10T03:57:00Z","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["比特币","美元","AI","半导体"],"industries":["数字资产","半导体","光通信"],"regions":["全球","美国","亚洲"],"relatedCodes":["300308","300502"],"impact":"待观察","whyItMatters":"比特币与科技股同步走强时更像全球风险偏好信号，背离时则要警惕流动性分化。","nextCheck":"比较比特币、纳斯达克、美元与AI龙头的两日方向，不把单一资产涨跌直接等同于A股信号。","provenanceUrl":"https://www.coindesk.com/zh/markets/2026/07/10/bitcoin-zips-to-nearly-usd64-000-as-chip-rally-and-yen-strength-drive-gains"
+    },
+    {
+      "id":"20260206-csrc-crypto","category":"数字资产","title":"八部门进一步明确防范和处置虚拟货币相关风险","url":"https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml","source":"中国证监会","publishedAt":"2026-02-06T08:00:00+08:00","fetchedAt":"2026-07-20T05:47:35.000Z","evidence":"FACT","analysisEvidence":"INFERENCE","topics":["虚拟货币","监管","比特币"],"industries":["数字资产","金融科技"],"regions":["中国"],"relatedCodes":["300059"],"impact":"偏负面","whyItMatters":"境内监管边界决定数字资产信息只能作为全球流动性观察，不能被包装成境内可执行交易机会。","nextCheck":"以监管部门最新文件为准，并区分海外资产价格与境内上市公司真实业务收入。","provenanceUrl":"https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml"
+    }
+  ]
+}

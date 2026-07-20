@@ -1,0 +1,32 @@
+name: Market intelligence refresh
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-intelligence-refresh
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh global assets and event radar
+        run: node scripts/update-market-intelligence.mjs
+      - name: Publish changed intelligence snapshot
+        run: |
+          if git diff --quiet -- docs/market-intelligence.json public/market-intelligence.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/market-intelligence.json public/market-intelligence.json
+          git commit -m "refresh market intelligence radar"
+          git push
