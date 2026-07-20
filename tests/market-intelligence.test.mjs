@@ -45,5 +45,7 @@ test("collection adapters are separated from news impact research",()=>{
   assert.match(research,/whyItMatters/);assert.match(research,/relatedCodes/);
   assert.doesNotMatch(research,/api\.gdeltproject|qt\.gtimg|api\.coingecko/);
   assert.match(generator,/intelligence-sources\.mjs/);assert.match(generator,/news-impact\.mjs/);
+  assert.match(generator,/combinedQuery/);assert.match(generator,/ranked\[0\]\?\.score>0/);
+  assert.doesNotMatch(generator,/for\(const topic of TOPICS\).*fetchGdeltArticles/s);
   assert.match(workflow,/cron: "17 \* \* \* \*"/);
 });
