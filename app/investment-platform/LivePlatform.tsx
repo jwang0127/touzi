@@ -13,7 +13,7 @@ type StockPayload = { quote:Quote;history:{name:string;bars:Bar[];asOf:string;so
 type PaperEvent = { id:string;code:string;name:string;action:string;at:string;price:number };
 type CloseForecast = { label:string;direction:string;rangeLow:number;rangeHigh:number;confidence:string;reason:string };
 type ResearchRating = { label:"买入"|"持有"|"卖出";reason:string;confirm:string;invalidate:string };
-type DailyPick = { code:string;name:string;theme:string;price:number;changePercent:number;expected:number;rangeLow:number;rangeHigh:number;reason:string;risk:string;generatedAt:string;edition:string };
+type DailyPick = { code:string;name:string;theme:string;price:number;changePercent:number;expected:number;rangeLow:number;rangeHigh:number;reason:string;risk:string;generatedAt?:string;edition?:string };
 
 const tabs: Array<{key:TabKey;label:string}> = [
   {key:"market",label:"市场概览"},{key:"holdings",label:"持仓概览"},{key:"forecast",label:"每日三股"},{key:"scores",label:"今日决策"},{key:"trades",label:"研究记录"},
@@ -21,6 +21,7 @@ const tabs: Array<{key:TabKey;label:string}> = [
 ];
 const WATCHLIST_KEY="touzi-watchlist-v1";
 const EVENT_KEY="touzi-paper-events-v1";
+const DAILY_PICKS_URL="https://jwang0127.github.io/touzi/daily-picks.json";
 
 function Tag({kind}:{kind:Evidence}) { return <span className={`${styles.evidence} ${styles[kind.toLowerCase()]}`}>{kind}</span>; }
 function formatTime(value?:string) { if(!value)return "等待数据"; try{return new Date(value).toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});}catch{return value;} }
@@ -105,7 +106,7 @@ function ScoresView({quotes,hotspots}:{quotes:Quote[];hotspots:Hotspot[]}){
 function ForecastView({hotspots,onStock}:{hotspots:Hotspot[];onStock:(code:string)=>void}){
   const edition=shanghaiEdition();
   const [picks,setPicks]=useState<DailyPick[]>([]);
-  useEffect(()=>{if(!hotspots.length)return;const key=`touzi-daily-picks-${edition}`;try{const cached=JSON.parse(localStorage.getItem(key)||"[]") as DailyPick[];if(cached.length===3){setPicks(cached);return;}}catch{}const next=buildDailyPicks(hotspots,edition);setPicks(next);if(next.length===3)localStorage.setItem(key,JSON.stringify(next));},[hotspots,edition]);
+  useEffect(()=>{if(!hotspots.length)return;const key=`touzi-daily-picks-${edition}`;const fallback=()=>{try{const cached=JSON.parse(localStorage.getItem(key)||"[]") as DailyPick[];if(cached.length===3){setPicks(cached);return;}}catch{}const next=buildDailyPicks(hotspots,edition);setPicks(next);if(next.length===3)localStorage.setItem(key,JSON.stringify(next));};fetch(`${DAILY_PICKS_URL}?edition=${edition}`,{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(body=>{if(body.edition===edition&&body.picks?.length===3){setPicks(body.picks);localStorage.setItem(key,JSON.stringify(body.picks));}else fallback();}).catch(fallback);},[hotspots,edition]);
   return <section><div className={styles.forecastHero}><div><Tag kind="INFERENCE"/><span>{edition} · 09:00 版</span><h2>明日三股预测</h2><p>从当前商业热点样本池中筛出三只普通 A 股或创业板股票，科创板与北交所已在进入模型前排除。</p></div><div><span>下次固定刷新</span><strong>{nextNineText()}</strong><small>行情仍按 15 秒更新，但当日名单不追涨换股</small></div></div>{!picks.length?<Status loading error=""/>:<div className={styles.pickGrid}>{picks.map((p,i)=><article className={styles.pickCard} key={p.code}><div className={styles.pickTop}><span>0{i+1}</span><Tag kind="INFERENCE"/></div><h3>{p.name}<small>{p.code} · {p.theme}</small></h3><div className={styles.pickPrice}><span>参考价 {p.price.toFixed(2)}</span><b className={p.changePercent>=0?styles.red:styles.green}>{signed(p.changePercent)}</b></div><div className={styles.expectedMove}><span>明日预测涨幅</span><strong>+{p.expected.toFixed(2)}%</strong><small>推演区间 {signed(p.rangeLow)} 至 {signed(p.rangeHigh)}</small></div><div className={styles.pickReason}><b>涨幅理由</b><p>{p.reason}</p><b>取消条件</b><p>{p.risk}</p></div><button className={styles.primaryButton} onClick={()=>onStock(p.code)}>查看实时盘口与评级</button></article>)}</div>}<div className={styles.forecastRules}><article><b>入选规则</b><span>主题强度、上涨覆盖率、个股动量与分化风险综合排序</span></article><article><b>明确排除</b><span>科创板 688 开头、北交所 4/8/9 开头及 ST 股票</span></article><article><b>名单纪律</b><span>每天 09:00 更新一次，盘中不因短时上涨更换名单</span></article></div><div className={styles.callout}><Tag kind="UNKNOWN"/>预测涨幅是基于点时行情的统计推演，不等于实际收益；公告、停复牌、业绩突变和市场跳空可能使预测失效。</div></section>;
 }
 
