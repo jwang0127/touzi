@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import styles from "./platform.module.css";
 
 type Evidence = "FACT" | "INFERENCE" | "UNKNOWN";
-type TabKey = "market" | "holdings" | "scores" | "trades" | "screening" | "strategy" | "stock" | "industry";
+type TabKey = "market" | "holdings" | "forecast" | "scores" | "trades" | "screening" | "strategy" | "stock" | "industry";
 type Quote = { symbol:string;code:string;name:string;price:number;previousClose:number;open:number;high:number;low:number;change:number;changePercent:number;volume:number;amount:number;turnoverRate:number|null;pe:number|null;pb:number|null;marketCapYi:number|null;outerVolume:number;innerVolume:number;bids:Array<{price:number;volume:number}>;asks:Array<{price:number;volume:number}>;asOf:string;source:string;provenanceUrl:string };
 type Hotspot = { id:string;name:string;averageChange:number;breadth:number;dispersion:number;score:number;state:string;evidence:Evidence;thesis:string;asOf:string;source:string;members:Array<Pick<Quote,"code"|"name"|"price"|"changePercent"|"asOf">> };
 type SearchResult = { code:string;name:string;market:string;quoteId:string;type:string;source:string;asOf:string };
@@ -13,9 +13,10 @@ type StockPayload = { quote:Quote;history:{name:string;bars:Bar[];asOf:string;so
 type PaperEvent = { id:string;code:string;name:string;action:string;at:string;price:number };
 type CloseForecast = { label:string;direction:string;rangeLow:number;rangeHigh:number;confidence:string;reason:string };
 type ResearchRating = { label:"买入"|"持有"|"卖出";reason:string;confirm:string;invalidate:string };
+type DailyPick = { code:string;name:string;theme:string;price:number;changePercent:number;expected:number;rangeLow:number;rangeHigh:number;reason:string;risk:string;generatedAt:string;edition:string };
 
 const tabs: Array<{key:TabKey;label:string}> = [
-  {key:"market",label:"市场概览"},{key:"holdings",label:"持仓概览"},{key:"scores",label:"今日决策"},{key:"trades",label:"研究记录"},
+  {key:"market",label:"市场概览"},{key:"holdings",label:"持仓概览"},{key:"forecast",label:"每日三股"},{key:"scores",label:"今日决策"},{key:"trades",label:"研究记录"},
   {key:"screening",label:"热点筛选"},{key:"strategy",label:"策略研究"},{key:"stock",label:"个股研究"},{key:"industry",label:"产业链研究"},
 ];
 const WATCHLIST_KEY="touzi-watchlist-v1";
@@ -42,6 +43,19 @@ function researchRating(payload:StockPayload):ResearchRating{
   if(bullish&&a.trendScore>=65)return{label:"买入",reason:"价格站上 MA20、MA5 不低于 MA20，且 20 日动量为正。",confirm:`收盘继续站稳 MA20 ${a.ma20.toFixed(2)}`,invalidate:`跌破 MA20 ${a.ma20.toFixed(2)} 或 20 日动量转负`};
   if(bearish&&a.trendScore<=45)return{label:"卖出",reason:"价格低于 MA20、短期均线弱于中期均线，且 20 日动量为负。",confirm:`反弹仍无法站回 MA20 ${a.ma20.toFixed(2)}`,invalidate:`重新站上 MA20 ${a.ma20.toFixed(2)} 且 MA5 转强`};
   return{label:"持有",reason:"趋势信号没有形成一致方向，暂不扩大暴露。",confirm:`收盘站稳 MA20 ${a.ma20.toFixed(2)} 且 20 日动量为正`,invalidate:`跌破当日低点 ${q.low.toFixed(2)}`};
+}
+function shanghaiEdition(){
+  const now=new Date();const dateFmt=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"});
+  const hour=Number(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Shanghai",hour:"2-digit",hour12:false}).format(now));
+  return hour>=9?dateFmt.format(now):dateFmt.format(new Date(now.getTime()-86400000));
+}
+function nextNineText(){
+  const now=new Date();const parts=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(now);const hour=Number(parts.find(p=>p.type==="hour")?.value||0);
+  return hour<9?"今天 09:00": "明天 09:00";
+}
+function buildDailyPicks(hotspots:Hotspot[],edition:string):DailyPick[]{
+  const generatedAt=new Date().toISOString();const seen=new Set<string>();
+  return hotspots.flatMap(h=>h.members.map(m=>({h,m}))).filter(({m})=>!/^688/.test(m.code)&&!/^[489]/.test(m.code)&&!/ST/i.test(m.name)&&m.price>0).filter(({m})=>{if(seen.has(m.code))return false;seen.add(m.code);return true;}).map(({h,m})=>{const chasePenalty=Math.max(0,m.changePercent-6)*1.4;const rank=h.score+m.changePercent*1.6+h.breadth*14-h.dispersion*2.2-chasePenalty;const expected=Math.max(.2,Math.min(4.8,.65+h.averageChange*.28+m.changePercent*.1+(h.breadth-.5)*1.25-h.dispersion*.08));const band=.65+Math.min(1.2,h.dispersion*.14);return{code:m.code,name:m.name,theme:h.name,price:m.price,changePercent:m.changePercent,expected,rangeLow:Math.max(-1.5,expected-band),rangeHigh:Math.min(7.5,expected+band),reason:`${h.name}主题覆盖率 ${(h.breadth*100).toFixed(0)}%，主题平均 ${signed(h.averageChange)}，个股当日 ${signed(m.changePercent)}。`,risk:`若次日高开超过预测上沿，或主题覆盖率降至 50% 以下，则取消观察。`,generatedAt,edition,rank};}).sort((a,b)=>b.rank-a.rank).slice(0,3).map(({rank:_,...pick})=>pick);
 }
 
 function useJson<T>(url:string,refreshKey:number){
@@ -86,6 +100,13 @@ function ScoresView({quotes,hotspots}:{quotes:Quote[];hotspots:Hotspot[]}){
     <div className={styles.reviewGrid}><article><h3>今天不做什么</h3><p>不追涨幅超过 7% 的标的；市场转弱时不扩大研究仓位；财报与公告未核验前不下确定结论。</p></article><article><h3>收盘复盘</h3><p>核对主线是否仍在前三、候选是否收在开盘价上方、触发与失效是否真实发生，并记录未执行原因。</p></article></div>
     <div className={styles.callout}><Tag kind="UNKNOWN"/>行情只能回答“价格正在发生什么”。订单、现金流、公告与估值口径尚未补齐的候选，审计结论保持 REVIEW。</div>
   </section>;
+}
+
+function ForecastView({hotspots,onStock}:{hotspots:Hotspot[];onStock:(code:string)=>void}){
+  const edition=shanghaiEdition();
+  const [picks,setPicks]=useState<DailyPick[]>([]);
+  useEffect(()=>{if(!hotspots.length)return;const key=`touzi-daily-picks-${edition}`;try{const cached=JSON.parse(localStorage.getItem(key)||"[]") as DailyPick[];if(cached.length===3){setPicks(cached);return;}}catch{}const next=buildDailyPicks(hotspots,edition);setPicks(next);if(next.length===3)localStorage.setItem(key,JSON.stringify(next));},[hotspots,edition]);
+  return <section><div className={styles.forecastHero}><div><Tag kind="INFERENCE"/><span>{edition} · 09:00 版</span><h2>明日三股预测</h2><p>从当前商业热点样本池中筛出三只普通 A 股或创业板股票，科创板与北交所已在进入模型前排除。</p></div><div><span>下次固定刷新</span><strong>{nextNineText()}</strong><small>行情仍按 15 秒更新，但当日名单不追涨换股</small></div></div>{!picks.length?<Status loading error=""/>:<div className={styles.pickGrid}>{picks.map((p,i)=><article className={styles.pickCard} key={p.code}><div className={styles.pickTop}><span>0{i+1}</span><Tag kind="INFERENCE"/></div><h3>{p.name}<small>{p.code} · {p.theme}</small></h3><div className={styles.pickPrice}><span>参考价 {p.price.toFixed(2)}</span><b className={p.changePercent>=0?styles.red:styles.green}>{signed(p.changePercent)}</b></div><div className={styles.expectedMove}><span>明日预测涨幅</span><strong>+{p.expected.toFixed(2)}%</strong><small>推演区间 {signed(p.rangeLow)} 至 {signed(p.rangeHigh)}</small></div><div className={styles.pickReason}><b>涨幅理由</b><p>{p.reason}</p><b>取消条件</b><p>{p.risk}</p></div><button className={styles.primaryButton} onClick={()=>onStock(p.code)}>查看实时盘口与评级</button></article>)}</div>}<div className={styles.forecastRules}><article><b>入选规则</b><span>主题强度、上涨覆盖率、个股动量与分化风险综合排序</span></article><article><b>明确排除</b><span>科创板 688 开头、北交所 4/8/9 开头及 ST 股票</span></article><article><b>名单纪律</b><span>每天 09:00 更新一次，盘中不因短时上涨更换名单</span></article></div><div className={styles.callout}><Tag kind="UNKNOWN"/>预测涨幅是基于点时行情的统计推演，不等于实际收益；公告、停复牌、业绩突变和市场跳空可能使预测失效。</div></section>;
 }
 
 function EventsView({events}:{events:PaperEvent[]}){
@@ -143,6 +164,7 @@ export default function LivePlatform(){
     <div className={styles.provenance}><span className={market.error||hotspot.error?styles.offlineDot:styles.liveDot}/>{market.error||hotspot.error?"部分数据源异常":"实时轮询中"}：腾讯财经即时报价/五档盘口 + 东方财富搜索<span>行情时间 {formatTime(dataAsOf)}</span><span>页面获取 {formatTime(market.data?.fetchedAt)}</span></div>
     {tab==="market"&&<MarketView quotes={quotes} hotspots={hotspots} loading={market.loading||hotspot.loading} error={market.error||hotspot.error} onStock={openStock}/>} 
     {tab==="holdings"&&<HoldingsView codes={watchlist} setCodes={setWatchlist} refreshKey={refreshKey} onStock={openStock}/>} 
+    {tab==="forecast"&&<ForecastView hotspots={hotspots} onStock={openStock}/>}
     {tab==="scores"&&<ScoresView quotes={quotes} hotspots={hotspots}/>} 
     {tab==="trades"&&<EventsView events={events}/>} 
     {tab==="screening"&&<ScreeningView hotspots={hotspots} onStock={openStock}/>} 
