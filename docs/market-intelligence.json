@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-20T15:22:42.582Z",
-  "newsUpdatedAt": "2026-07-20T12:27:03.356Z",
-  "assetsUpdatedAt": "2026-07-20T15:22:42.582Z",
+  "generatedAt": "2026-07-20T18:22:36.352Z",
+  "newsUpdatedAt": "2026-07-20T18:22:36.352Z",
+  "assetsUpdatedAt": "2026-07-20T18:22:36.352Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52040.85,
-      "changePercent": -0.2,
+      "price": 51976.41,
+      "changePercent": -0.33,
       "unit": "USD",
-      "asOf": "2026-07-20T11:23:20-04:00",
+      "asOf": "2026-07-20T14:23:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25680.85,
-      "changePercent": 0.63,
+      "price": 25645.76,
+      "changePercent": 0.49,
       "unit": "USD",
-      "asOf": "2026-07-20T11:23:20-04:00",
+      "asOf": "2026-07-20T14:23:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7483.44,
-      "changePercent": 0.35,
+      "price": 7471.66,
+      "changePercent": 0.19,
       "unit": "USD",
-      "asOf": "2026-07-20T11:23:20-04:00",
+      "asOf": "2026-07-20T14:23:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4020.97,
-      "changePercent": 0.05,
+      "price": 4005.9,
+      "changePercent": -0.32,
       "unit": "USD",
-      "asOf": "2026-07-20T23:23:10-04:00",
+      "asOf": "2026-07-21T02:23:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.47,
-      "changePercent": -0.38,
+      "price": 82.52,
+      "changePercent": 0.91,
       "unit": "USD",
-      "asOf": "2026-07-20T23:23:10-04:00",
+      "asOf": "2026-07-21T02:23:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 634.07,
-      "changePercent": 1.21,
+      "price": 635.56,
+      "changePercent": 1.45,
       "unit": "USD",
-      "asOf": "2026-07-20T23:23:00-04:00",
+      "asOf": "2026-07-21T02:22:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,209 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64898,
-      "changePercent": 0.641979479910873,
+      "price": 65594,
+      "changePercent": 1.8466931558336472,
       "unit": "USD",
-      "asOf": "2026-07-20T15:22:41.000Z",
+      "asOf": "2026-07-20T18:22:38.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "bbbc757cd8377daa",
+      "category": "能源与航运",
+      "title": "Sensex closes 443 points down , Nifty slips 0 . 3 % as rising crude prices and West Asia tensions weigh on markets",
+      "url": "http://www.neworleanssun.com/news/279199057/sensex-closes-443-points-down-nifty-slips-03-as-rising-crude-prices-and-west-asia-tensions-weigh-on-markets",
+      "source": "neworleanssun.com",
+      "publishedAt": "2026-07-20T18:00:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.neworleanssun.com/news/279199057/sensex-closes-443-points-down-nifty-slips-03-as-rising-crude-prices-and-west-asia-tensions-weigh-on-markets"
+    },
+    {
+      "id": "0ffb73670bacdd21",
+      "category": "能源与航运",
+      "title": "Yemen Houthis declare naval blockade against Saudi Arabia amid Strait of Hormuz fighting",
+      "url": "https://www.independent.co.uk/news/world/middle-east/yemen-houthi-blockade-saudi-arabia-b3018262.html",
+      "source": "independent.co.uk",
+      "publishedAt": "2026-07-20T18:00:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.independent.co.uk/news/world/middle-east/yemen-houthi-blockade-saudi-arabia-b3018262.html"
+    },
+    {
+      "id": "c86d935fce578414",
+      "category": "A股与政策",
+      "title": "AI is new engine keeping Chinese economy from harder landing",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/07/21/2003861086",
+      "source": "taipeitimes.com",
+      "publishedAt": "2026-07-20T18:00:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/07/21/2003861086"
+    },
+    {
+      "id": "b2fd6558aaf02535",
+      "category": "全球与地区",
+      "title": "Yemen Iranian - backed Houthi rebels say they will block Saudi shipping",
+      "url": "https://www.wsbradio.com/news/world/yemens-houthis/MGMKKBXNSQ6MTAG4SN4D45KZAA/",
+      "source": "wsbradio.com",
+      "publishedAt": "2026-07-20T18:00:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wsbradio.com/news/world/yemens-houthis/MGMKKBXNSQ6MTAG4SN4D45KZAA/"
+    },
+    {
+      "id": "c6da2655305ede70",
+      "category": "能源与航运",
+      "title": "Energy Stocks Worth Watching – July 20th",
+      "url": "https://www.dailypolitical.com/2026/07/20/energy-stocks-worth-watching-july-20th.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-07-20T17:45:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/07/20/energy-stocks-worth-watching-july-20th.html"
+    },
+    {
+      "id": "682d6669ecedaa36",
+      "category": "金属与资源",
+      "title": "President Donald Trump to be featured on new $1 gold coin",
+      "url": "https://www.hometownregister.com/news/national/president-donald-trump-to-be-featured-on-new-1-gold-coin/article_b5a92f03-465d-51de-943c-22def99615bc.html",
+      "source": "hometownregister.com",
+      "publishedAt": "2026-07-20T17:45:00Z",
+      "fetchedAt": "2026-07-20T18:22:36.352Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hometownregister.com/news/national/president-donald-trump-to-be-featured-on-new-1-gold-coin/article_b5a92f03-465d-51de-943c-22def99615bc.html"
+    },
     {
       "id": "79bc41d878c40a18",
       "category": "能源与航运",
