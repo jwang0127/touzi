@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-20T09:36:58.136Z",
-  "newsUpdatedAt": "2026-07-20T09:36:58.136Z",
-  "assetsUpdatedAt": "2026-07-20T09:36:58.136Z",
+  "generatedAt": "2026-07-20T12:27:03.356Z",
+  "newsUpdatedAt": "2026-07-20T12:27:03.356Z",
+  "assetsUpdatedAt": "2026-07-20T12:27:03.356Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -44,7 +44,7 @@
       "price": 25143.05,
       "changePercent": 2.36,
       "unit": "HKD",
-      "asOf": "2026-07-20T17:22:21+08:00",
+      "asOf": "2026-07-20T18:31:21+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4024.7,
-      "changePercent": 0.15,
+      "price": 4011.95,
+      "changePercent": -0.17,
       "unit": "USD",
-      "asOf": "2026-07-20T17:37:43-04:00",
+      "asOf": "2026-07-20T20:28:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.08,
-      "changePercent": -0.85,
+      "price": 81.62,
+      "changePercent": -0.19,
       "unit": "USD",
-      "asOf": "2026-07-20T17:38:00-04:00",
+      "asOf": "2026-07-20T20:28:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 631.56,
-      "changePercent": 0.81,
+      "price": 632.02,
+      "changePercent": 0.88,
       "unit": "USD",
-      "asOf": "2026-07-20T17:37:12-04:00",
+      "asOf": "2026-07-20T20:28:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,188 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64190,
-      "changePercent": -0.47356994254711376,
+      "price": 64639,
+      "changePercent": 0.5662212240069493,
       "unit": "USD",
-      "asOf": "2026-07-20T09:37:46.000Z",
+      "asOf": "2026-07-20T12:27:45.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "79bc41d878c40a18",
+      "category": "能源与航运",
+      "title": "Iran Vows US Cannot Overturn Strategic Win in Strait of Hormuz , Says IRGC Commander",
+      "url": "https://www.islamicinvitationturkey.com/iran-vows-us-cannot-overturn-strategic-win-in-strait-of-hormuz-says-irgc-commander/",
+      "source": "islamicinvitationturkey.com",
+      "publishedAt": "2026-07-20T12:00:00Z",
+      "fetchedAt": "2026-07-20T12:27:03.356Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.islamicinvitationturkey.com/iran-vows-us-cannot-overturn-strategic-win-in-strait-of-hormuz-says-irgc-commander/"
+    },
+    {
+      "id": "4cd1ca4c119385b5",
+      "category": "金属与资源",
+      "title": "Gold Prices Rise Further , Silver Also Becomes More Expensive",
+      "url": "https://www.express.pk/story/2823115/gold-prices-rise-further-silver-also-becomes-more-expensive-2823115",
+      "source": "express.pk",
+      "publishedAt": "2026-07-20T12:00:00Z",
+      "fetchedAt": "2026-07-20T12:27:03.356Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.express.pk/story/2823115/gold-prices-rise-further-silver-also-becomes-more-expensive-2823115"
+    },
+    {
+      "id": "1d7deca63bbc7b7e",
+      "category": "能源与航运",
+      "title": "Brent crude tops USD 90 , reviving India energy shock risks ; rupee , FPI flows in focus",
+      "url": "http://www.jamaicantimes.com/news/279198568/brent-crude-tops-usd-90-reviving-india-energy-shock-risks-rupee-fpi-flows-in-focus",
+      "source": "jamaicantimes.com",
+      "publishedAt": "2026-07-20T12:00:00Z",
+      "fetchedAt": "2026-07-20T12:27:03.356Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Jamaica"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.jamaicantimes.com/news/279198568/brent-crude-tops-usd-90-reviving-india-energy-shock-risks-rupee-fpi-flows-in-focus"
+    },
+    {
+      "id": "905a11bddac9d98b",
+      "category": "能源与航运",
+      "title": "West energy trade with Russian ally must address rights : jailed dissident",
+      "url": "https://www.newsweek.com/west-azerbaijan-energy-trade-rights-jailed-dissident-12203681",
+      "source": "newsweek.com",
+      "publishedAt": "2026-07-20T12:00:00Z",
+      "fetchedAt": "2026-07-20T12:27:03.356Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newsweek.com/west-azerbaijan-energy-trade-rights-jailed-dissident-12203681"
+    },
+    {
+      "id": "5e9b08f5669eb842",
+      "category": "能源与航运",
+      "title": "Rupee hits two - month low , oil prices remain focal point",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-hits-two-month-low-oil-prices-remain-focal-point/articleshow/132513954.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-07-20T12:00:00Z",
+      "fetchedAt": "2026-07-20T12:27:03.356Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-hits-two-month-low-oil-prices-remain-focal-point/articleshow/132513954.cms"
+    },
     {
       "id": "bd66e088caaecbd1",
       "category": "能源与航运",
