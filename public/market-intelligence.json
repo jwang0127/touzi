@@ -1,11 +1,16 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-20T06:15:56.978Z",
-  "newsUpdatedAt": "2026-07-20T06:15:56.978Z",
-  "assetsUpdatedAt": "2026-07-20T06:15:56.978Z",
+  "generatedAt": "2026-07-20T07:01:26.978Z",
+  "newsUpdatedAt": "2026-07-20T06:59:05.065Z",
+  "assetsUpdatedAt": "2026-07-20T07:01:26.978Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed",
+      "CoinGecko：fetch failed",
+      "Coinbase：fetch failed",
+      "Binance：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -15,8 +20,52 @@
   },
   "assets": [
     {
+      "id": "sh000001",
+      "name": "上证指数",
+      "price": 3796.28,
+      "changePercent": 0.85,
+      "unit": "CNY",
+      "asOf": "2026-07-20T15:02:00+08:00",
+      "source": "腾讯财经A股指数",
+      "provenanceUrl": "https://qt.gtimg.cn/",
+      "evidence": "FACT"
+    },
+    {
+      "id": "sz399001",
+      "name": "深证成指",
+      "price": 13610.23,
+      "changePercent": -0.71,
+      "unit": "CNY",
+      "asOf": "2026-07-20T15:01:30+08:00",
+      "source": "腾讯财经A股指数",
+      "provenanceUrl": "https://qt.gtimg.cn/",
+      "evidence": "FACT"
+    },
+    {
+      "id": "hkHSI",
+      "name": "恒生指数",
+      "price": 25076.1,
+      "changePercent": 2.09,
+      "unit": "HKD",
+      "asOf": "2026-07-20T14:47:07+08:00",
+      "source": "腾讯财经港股指数",
+      "provenanceUrl": "https://qt.gtimg.cn/",
+      "evidence": "FACT"
+    },
+    {
+      "id": "hkHSCEI",
+      "name": "恒生国企指数",
+      "price": 8371.28,
+      "changePercent": 2.88,
+      "unit": "HKD",
+      "asOf": "2026-07-20T14:47:06+08:00",
+      "source": "腾讯财经港股指数",
+      "provenanceUrl": "https://qt.gtimg.cn/",
+      "evidence": "FACT"
+    },
+    {
       "id": "usDJI",
-      "name": "����˹",
+      "name": "道琼斯",
       "price": 52146.42,
       "changePercent": -0.77,
       "unit": "USD",
@@ -27,7 +76,7 @@
     },
     {
       "id": "usIXIC",
-      "name": "��˹���",
+      "name": "纳斯达克",
       "price": 25520.24,
       "changePercent": -1.4,
       "unit": "USD",
@@ -38,7 +87,7 @@
     },
     {
       "id": "usINX",
-      "name": "����500",
+      "name": "标普500",
       "price": 7457.69,
       "changePercent": -1.01,
       "unit": "USD",
@@ -49,50 +98,337 @@
     },
     {
       "id": "hf_GC",
-      "name": "ŦԼ�ƽ�",
-      "price": 4014.31,
-      "changePercent": -0.11,
+      "name": "纽约黄金",
+      "price": 4007.94,
+      "changePercent": -0.27,
       "unit": "USD",
-      "asOf": "2026-07-20T14:16:07-04:00",
+      "asOf": "2026-07-20T15:01:50-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
     },
     {
       "id": "hf_CL",
-      "name": "ŦԼԭ��",
-      "price": 84.08,
-      "changePercent": 2.81,
+      "name": "纽约原油",
+      "price": 83.64,
+      "changePercent": 2.28,
       "unit": "USD",
-      "asOf": "2026-07-20T14:16:07-04:00",
+      "asOf": "2026-07-20T15:02:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
     },
     {
       "id": "hf_HG",
-      "name": "��ͭ",
-      "price": 628.8,
-      "changePercent": 0.37,
+      "name": "纽约铜",
+      "price": 627.48,
+      "changePercent": 0.16,
       "unit": "USD",
-      "asOf": "2026-07-20T14:16:09-04:00",
+      "asOf": "2026-07-20T15:02:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
-      "evidence": "FACT"
-    },
-    {
-      "id": "bitcoin",
-      "name": "比特币",
-      "price": 64132,
-      "changePercent": -0.8382662780442394,
-      "unit": "USD",
-      "asOf": "2026-07-20T06:15:26.000Z",
-      "source": "CoinGecko",
-      "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "20d0558959e9207a",
+      "category": "金属与资源",
+      "title": "Goldpreis Prognose : Jetzt entscheidet die 4 . 000 - Dollar - Marke über die nächste große Bewegung",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69066476-goldpreis-prognose-jetzt-entscheidet-die-4-000-dollar-marke-ueber-die-naechste-grosse-bewegung-545.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69066476-goldpreis-prognose-jetzt-entscheidet-die-4-000-dollar-marke-ueber-die-naechste-grosse-bewegung-545.htm"
+    },
+    {
+      "id": "9f1f1bf8a5af4b6e",
+      "category": "能源与航运",
+      "title": "Sensex sinks over 700 points as HDFC Bank slumps , oil spikes",
+      "url": "https://www.theweek.in/news/biz-tech/2026/07/20/indian-stock-market-tumbles.html",
+      "source": "theweek.in",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theweek.in/news/biz-tech/2026/07/20/indian-stock-market-tumbles.html"
+    },
+    {
+      "id": "7eb94aab9771247b",
+      "category": "能源与航运",
+      "title": "Stock markets tumble in early trade dragged by HDFC Bank , spike in crude oil prices",
+      "url": "https://www.thehindu.com/business/markets/stock-markets-tumble-in-early-trade-dragged-by-hdfc-bank-spike-in-crude-oil-prices/article71244016.ece",
+      "source": "thehindu.com",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindu.com/business/markets/stock-markets-tumble-in-early-trade-dragged-by-hdfc-bank-spike-in-crude-oil-prices/article71244016.ece"
+    },
+    {
+      "id": "9045c2ae765865a7",
+      "category": "能源与航运",
+      "title": "Oil rebound seen pressuring Asian currencies , MUFG says . Indian rupee hit hard .",
+      "url": "https://investinglive.com:443/forex/oil-rebound-seen-pressuring-asian-currencies-mufg-says-indian-rupee-hit-hard",
+      "source": "investinglive.com",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://investinglive.com:443/forex/oil-rebound-seen-pressuring-asian-currencies-mufg-says-indian-rupee-hit-hard"
+    },
+    {
+      "id": "7dd850e6efd744e4",
+      "category": "能源与航运",
+      "title": "South Korea Kospi drops nearly 5 % as some AI stocks swoon , while oil keeps climbing",
+      "url": "https://www.thepeterboroughexaminer.com/business/south-koreas-kospi-drops-nearly-5-as-some-ai-stocks-swoon-while-oil-keeps-climbing/article_77b4b8b1-5c34-5440-8709-53eeb33a2ec5.html",
+      "source": "thepeterboroughexaminer.com",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thepeterboroughexaminer.com/business/south-koreas-kospi-drops-nearly-5-as-some-ai-stocks-swoon-while-oil-keeps-climbing/article_77b4b8b1-5c34-5440-8709-53eeb33a2ec5.html"
+    },
+    {
+      "id": "59d00e859e944558",
+      "category": "金属与资源",
+      "title": "Mit HEXAGON als JV - Partner bei American Innovation Metals in die Geburt der chinaunabhängigen REE",
+      "url": "https://www.wallstreet-online.de/diskussion/1322730-1/hexagon-jv-partner-american-innovation-metals-geburt-chinaunabhaengigen-ree",
+      "source": "wallstreet-online.de",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wallstreet-online.de/diskussion/1322730-1/hexagon-jv-partner-american-innovation-metals-geburt-chinaunabhaengigen-ree"
+    },
+    {
+      "id": "976eb50e18bc82cd",
+      "category": "全球与地区",
+      "title": "16 US service members have died in the Iran war , reflecting a conflict fought largely in the air",
+      "url": "https://www.ktsa.com/16-us-service-members-have-died-in-the-iran-war-reflecting-a-conflict-fought-largely-in-the-air/",
+      "source": "ktsa.com",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ktsa.com/16-us-service-members-have-died-in-the-iran-war-reflecting-a-conflict-fought-largely-in-the-air/"
+    },
+    {
+      "id": "2cb6bb2c562addba",
+      "category": "金属与资源",
+      "title": "Argentina Metals : Argentiniens Bergbau boomt : Rohstoffexplorer drücken unter Milei aufs Tempo",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69066406-argentiniens-bergbau-boomt-rohstoffexplorer-druecken-unter-milei-aufs-tempo-248.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69066406-argentiniens-bergbau-boomt-rohstoffexplorer-druecken-unter-milei-aufs-tempo-248.htm"
+    },
+    {
+      "id": "d9482b22ec182077",
+      "category": "能源与航运",
+      "title": "Crude Oil Above $90 : US - Iran Tensions Fuel Supply Fears",
+      "url": "https://www.newkerala.com/news/a/global-crude-oil-prices-climb-above-90-escalating-414.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-07-20T06:30:00Z",
+      "fetchedAt": "2026-07-20T06:59:05.065Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/global-crude-oil-prices-climb-above-90-escalating-414.htm"
+    },
     {
       "id": "dca6da741c8432be",
       "category": "能源与航运",
