@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-21T18:42:31.769Z",
-  "newsUpdatedAt": "2026-07-21T18:42:31.769Z",
-  "assetsUpdatedAt": "2026-07-21T18:42:31.769Z",
+  "generatedAt": "2026-07-21T20:37:58.976Z",
+  "newsUpdatedAt": "2026-07-21T20:37:58.976Z",
+  "assetsUpdatedAt": "2026-07-21T20:37:58.976Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -61,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52198.52,
-      "changePercent": 0.69,
+      "price": 52224.64,
+      "changePercent": 0.74,
       "unit": "USD",
-      "asOf": "2026-07-21T14:43:21-04:00",
+      "asOf": "2026-07-21T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25855.68,
-      "changePercent": 1.36,
+      "price": 25837.21,
+      "changePercent": 1.29,
       "unit": "USD",
-      "asOf": "2026-07-21T14:43:21-04:00",
+      "asOf": "2026-07-21T16:38:30-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7508.19,
-      "changePercent": 0.87,
+      "price": 7509.2,
+      "changePercent": 0.89,
       "unit": "USD",
-      "asOf": "2026-07-21T14:43:21-04:00",
+      "asOf": "2026-07-21T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4087.77,
+      "price": 4087.59,
       "changePercent": 1.79,
       "unit": "USD",
-      "asOf": "2026-07-22T02:43:07-04:00",
+      "asOf": "2026-07-22T04:37:48-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.28,
-      "changePercent": 2.19,
+      "price": 84.46,
+      "changePercent": 2.4,
       "unit": "USD",
-      "asOf": "2026-07-22T02:43:09-04:00",
+      "asOf": "2026-07-22T04:38:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 652.83,
-      "changePercent": 2.95,
+      "price": 653.1,
+      "changePercent": 3,
       "unit": "USD",
-      "asOf": "2026-07-22T02:42:46-04:00",
+      "asOf": "2026-07-22T04:37:15-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,379 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 66213,
-      "changePercent": 1.3338431365369714,
+      "price": 66409,
+      "changePercent": 1.6552677847612423,
       "unit": "USD",
-      "asOf": "2026-07-21T18:42:31.000Z",
+      "asOf": "2026-07-21T20:38:33.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "74d5702c92ed2b5a",
+      "category": "全球与地区",
+      "title": "Pakistan steps in as US - Iran war widens and Hormuz shipping stalls - International",
+      "url": "https://www.dailymirror.lk/breaking-news/Pakistan-steps-in-as-US-Iran-war-widens-and-Hormuz-shipping-stalls/108-346241",
+      "source": "dailymirror.lk",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Sri Lanka"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailymirror.lk/breaking-news/Pakistan-steps-in-as-US-Iran-war-widens-and-Hormuz-shipping-stalls/108-346241"
+    },
+    {
+      "id": "be2fd5b83386b766",
+      "category": "全球与地区",
+      "title": "What to know about the 50 % tariffs Trump is imposing on Canada",
+      "url": "https://www.mainlinemedianews.com/2026/07/21/trump-canada-tariffs-what-to-know/",
+      "source": "mainlinemedianews.com",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.mainlinemedianews.com/2026/07/21/trump-canada-tariffs-what-to-know/"
+    },
+    {
+      "id": "2320e5406aa216ce",
+      "category": "能源与航运",
+      "title": "Germany , Azerbaijan push closer energy cooperation",
+      "url": "https://www.bssnews.net/international/407799",
+      "source": "bssnews.net",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Bangladesh"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bssnews.net/international/407799"
+    },
+    {
+      "id": "a74c40eaff1195a4",
+      "category": "数字资产",
+      "title": "Bitcoin Hits $66 , 000 on Clarity Act Hopes But Bitwise Jeff Park Says the Market Is Getting Ahead of I",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60591331/bitcoin-hits-66000-on-clarity-act-hopes-but-bitwises-jeff-park-says-the-market-is-getting-ahead-of-itself",
+      "source": "benzinga.com",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60591331/bitcoin-hits-66000-on-clarity-act-hopes-but-bitwises-jeff-park-says-the-market-is-getting-ahead-of-itself"
+    },
+    {
+      "id": "54a0d03be18624b4",
+      "category": "能源与航运",
+      "title": "Global oil supplies have a new possible pinch point . Here what could happen next",
+      "url": "https://www.sbs.com.au/news/article/a-new-front-has-just-emerged-in-global-oil-supply-concerns-heres-what-could-happen-next/oehsnkgj8",
+      "source": "sbs.com.au",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sbs.com.au/news/article/a-new-front-has-just-emerged-in-global-oil-supply-concerns-heres-what-could-happen-next/oehsnkgj8"
+    },
+    {
+      "id": "4c4fd6fb13821180",
+      "category": "全球与地区",
+      "title": "U . S . announces new 50 % tariffs on Canadian goods as trade dispute deepens",
+      "url": "https://www.logisticsmgmt.com/article/u.s_announces_new_50_tariffs_on_canadian_goods_as_trade_dispute_deepens",
+      "source": "logisticsmgmt.com",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.logisticsmgmt.com/article/u.s_announces_new_50_tariffs_on_canadian_goods_as_trade_dispute_deepens"
+    },
+    {
+      "id": "7776858bb88aa8a0",
+      "category": "能源与航运",
+      "title": "IPSA se acerca a los 11 . 000 puntos y se acopla al optimismo global pese al recrudecimiento de las tensiones comerciales y la guerra en Irán",
+      "url": "https://www.df.cl/mercados/bolsa-monedas/ipsa-sube-este-martes-y-se-acopla-al-optimismo-global-pese-al",
+      "source": "df.cl",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Chile"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.df.cl/mercados/bolsa-monedas/ipsa-sube-este-martes-y-se-acopla-al-optimismo-global-pese-al"
+    },
+    {
+      "id": "9f88d62b157dd4e4",
+      "category": "全球与地区",
+      "title": "Trump new tariffs crack open CUSMA shield , experts warn",
+      "url": "https://www.wellandtribune.ca/business/trumps-new-tariffs-crack-open-cusmas-shield-experts-and-business-leaders-warn/article_07045420-301e-5a6a-bcb6-0e116d91d5a9.html",
+      "source": "wellandtribune.ca",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wellandtribune.ca/business/trumps-new-tariffs-crack-open-cusmas-shield-experts-and-business-leaders-warn/article_07045420-301e-5a6a-bcb6-0e116d91d5a9.html"
+    },
+    {
+      "id": "56822ed739d3b97b",
+      "category": "全球与地区",
+      "title": "Trump new tariffs target about 5 per cent of Canada exports to U . S .: economists",
+      "url": "https://www.kelownadailycourier.ca/news/national_news/article_0d8880df-1fd2-5069-95c7-386bafe8dfae.html",
+      "source": "kelownadailycourier.ca",
+      "publishedAt": "2026-07-21T20:15:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kelownadailycourier.ca/news/national_news/article_0d8880df-1fd2-5069-95c7-386bafe8dfae.html"
+    },
+    {
+      "id": "3a9bd01504ee6904",
+      "category": "能源与航运",
+      "title": "Petroleum Commission trained 174 against 6000 oil and gas target – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/07/21/petroleum-commission-trained-174-against-6000-oil-and-gas-target/",
+      "source": "ghanamma.com",
+      "publishedAt": "2026-07-21T20:00:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Ghana"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ghanamma.com/2026/07/21/petroleum-commission-trained-174-against-6000-oil-and-gas-target/"
+    },
+    {
+      "id": "4a74031bc3263c58",
+      "category": "数字资产",
+      "title": "Washington Ranks Among States Most Vulnerable to Crypto Scams",
+      "url": "https://929thebull.com/ixp/137/p/washington-crypto-scams/",
+      "source": "929thebull.com",
+      "publishedAt": "2026-07-21T20:00:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://929thebull.com/ixp/137/p/washington-crypto-scams/"
+    },
+    {
+      "id": "bdf15b8114616ac0",
+      "category": "能源与航运",
+      "title": "AI stocks lead Wall Street higher , even as Brent oil price nears $92",
+      "url": "http://www.rockymounttelegram.com/news/world/ai-stocks-lead-wall-street-higher-even-as-brent-oils-price-nears-92/article_040db3ae-82a0-5b88-b70f-05b64f98c502.html",
+      "source": "rockymounttelegram.com",
+      "publishedAt": "2026-07-21T20:00:00Z",
+      "fetchedAt": "2026-07-21T20:37:58.976Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.rockymounttelegram.com/news/world/ai-stocks-lead-wall-street-higher-even-as-brent-oils-price-nears-92/article_040db3ae-82a0-5b88-b70f-05b64f98c502.html"
+    },
     {
       "id": "70436eb9b43f6d01",
       "category": "金属与资源",
@@ -1304,402 +1667,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5511811"
-    },
-    {
-      "id": "c9f67fcbceb922f9",
-      "category": "金属与资源",
-      "title": "Gold chains snatched from women in Salem",
-      "url": "https://www.thehindu.com/news/cities/Coimbatore/gold-chains-snatched-from-women-in-salem/article71244285.ece",
-      "source": "thehindu.com",
-      "publishedAt": "2026-07-20T20:15:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindu.com/news/cities/Coimbatore/gold-chains-snatched-from-women-in-salem/article71244285.ece"
-    },
-    {
-      "id": "20a89536f47f9f61",
-      "category": "能源与航运",
-      "title": "Hawaiian Electric seeks to expand renewables , energy storage on Oʻahu , Hawaiʻi Island and Maui : Maui Now",
-      "url": "https://mauinow.com/2026/07/20/hawaiian-electric-seeks-to-expand-renewables-energy-storage-on-o%CA%BBahu-hawai%CA%BBi-island-and-maui/",
-      "source": "mauinow.com",
-      "publishedAt": "2026-07-20T20:15:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://mauinow.com/2026/07/20/hawaiian-electric-seeks-to-expand-renewables-energy-storage-on-o%CA%BBahu-hawai%CA%BBi-island-and-maui/"
-    },
-    {
-      "id": "5ebe946c85d5573d",
-      "category": "数字资产",
-      "title": "CleanSpark Stock Rises as Bitcoin Hits 2 - Month High and Data Center Deals Lift AI Infrastructure Names -",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60562919/cleanspark-stock-rises-as-bitcoin-hits-2-month-high-and-data-center-deals-lift-ai-infrastructure-names",
-      "source": "benzinga.com",
-      "publishedAt": "2026-07-20T20:15:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.benzinga.com/trading-ideas/movers/26/07/60562919/cleanspark-stock-rises-as-bitcoin-hits-2-month-high-and-data-center-deals-lift-ai-infrastructure-names"
-    },
-    {
-      "id": "f14d4b1b903cf773",
-      "category": "金属与资源",
-      "title": "Rusiya qızıllarını əridir – bu il 34 ton sarı metal satıb",
-      "url": "https://musavat.com/news/rusiya-qizillarini-eridir-bu-il-34-ton-sari-metal-satib_1276601.html",
-      "source": "musavat.com",
-      "publishedAt": "2026-07-20T20:00:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://musavat.com/news/rusiya-qizillarini-eridir-bu-il-34-ton-sari-metal-satib_1276601.html"
-    },
-    {
-      "id": "3b7191f9e96c0474",
-      "category": "金属与资源",
-      "title": "Gold Rate Today - Gold Prices - Rise | పసిడికి మళ్లీ మెరుపు .. దేశీయ మార్కెట్‌లో పెరిగిన బంగారం ధ‌ర‌ - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
-      "url": "https://prabhanews.com/gold-rate-today-gold-prices-rise/",
-      "source": "prabhanews.com",
-      "publishedAt": "2026-07-20T20:00:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://prabhanews.com/gold-rate-today-gold-prices-rise/"
-    },
-    {
-      "id": "03401ff437e53985",
-      "category": "能源与航运",
-      "title": "Peso falls as US - Iran clashes push up oil - BusinessWorld Online",
-      "url": "https://bworldonline.com/banking-finance/2026/07/21/764652/peso-falls-as-us-iran-clashes-push-up-oil/",
-      "source": "bworldonline.com",
-      "publishedAt": "2026-07-20T20:00:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://bworldonline.com/banking-finance/2026/07/21/764652/peso-falls-as-us-iran-clashes-push-up-oil/"
-    },
-    {
-      "id": "bbbc757cd8377daa",
-      "category": "能源与航运",
-      "title": "Sensex closes 443 points down , Nifty slips 0 . 3 % as rising crude prices and West Asia tensions weigh on markets",
-      "url": "http://www.neworleanssun.com/news/279199057/sensex-closes-443-points-down-nifty-slips-03-as-rising-crude-prices-and-west-asia-tensions-weigh-on-markets",
-      "source": "neworleanssun.com",
-      "publishedAt": "2026-07-20T18:00:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.neworleanssun.com/news/279199057/sensex-closes-443-points-down-nifty-slips-03-as-rising-crude-prices-and-west-asia-tensions-weigh-on-markets"
-    },
-    {
-      "id": "0ffb73670bacdd21",
-      "category": "能源与航运",
-      "title": "Yemen Houthis declare naval blockade against Saudi Arabia amid Strait of Hormuz fighting",
-      "url": "https://www.independent.co.uk/news/world/middle-east/yemen-houthi-blockade-saudi-arabia-b3018262.html",
-      "source": "independent.co.uk",
-      "publishedAt": "2026-07-20T18:00:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.independent.co.uk/news/world/middle-east/yemen-houthi-blockade-saudi-arabia-b3018262.html"
-    },
-    {
-      "id": "c86d935fce578414",
-      "category": "A股与政策",
-      "title": "AI is new engine keeping Chinese economy from harder landing",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/07/21/2003861086",
-      "source": "taipeitimes.com",
-      "publishedAt": "2026-07-20T18:00:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/07/21/2003861086"
-    },
-    {
-      "id": "b2fd6558aaf02535",
-      "category": "全球与地区",
-      "title": "Yemen Iranian - backed Houthi rebels say they will block Saudi shipping",
-      "url": "https://www.wsbradio.com/news/world/yemens-houthis/MGMKKBXNSQ6MTAG4SN4D45KZAA/",
-      "source": "wsbradio.com",
-      "publishedAt": "2026-07-20T18:00:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wsbradio.com/news/world/yemens-houthis/MGMKKBXNSQ6MTAG4SN4D45KZAA/"
-    },
-    {
-      "id": "c6da2655305ede70",
-      "category": "能源与航运",
-      "title": "Energy Stocks Worth Watching – July 20th",
-      "url": "https://www.dailypolitical.com/2026/07/20/energy-stocks-worth-watching-july-20th.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-07-20T17:45:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/07/20/energy-stocks-worth-watching-july-20th.html"
-    },
-    {
-      "id": "682d6669ecedaa36",
-      "category": "金属与资源",
-      "title": "President Donald Trump to be featured on new $1 gold coin",
-      "url": "https://www.hometownregister.com/news/national/president-donald-trump-to-be-featured-on-new-1-gold-coin/article_b5a92f03-465d-51de-943c-22def99615bc.html",
-      "source": "hometownregister.com",
-      "publishedAt": "2026-07-20T17:45:00Z",
-      "fetchedAt": "2026-07-20T18:22:36.352Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hometownregister.com/news/national/president-donald-trump-to-be-featured-on-new-1-gold-coin/article_b5a92f03-465d-51de-943c-22def99615bc.html"
     }
   ]
 }
