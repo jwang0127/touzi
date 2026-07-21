@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-21T20:37:58.976Z",
-  "newsUpdatedAt": "2026-07-21T20:37:58.976Z",
-  "assetsUpdatedAt": "2026-07-21T20:37:58.976Z",
+  "generatedAt": "2026-07-21T22:13:41.734Z",
+  "newsUpdatedAt": "2026-07-21T22:13:41.734Z",
+  "assetsUpdatedAt": "2026-07-21T22:13:41.734Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -64,7 +66,7 @@
       "price": 52224.64,
       "changePercent": 0.74,
       "unit": "USD",
-      "asOf": "2026-07-21T16:20:01-04:00",
+      "asOf": "2026-07-21T16:43:37-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -75,7 +77,7 @@
       "price": 25837.21,
       "changePercent": 1.29,
       "unit": "USD",
-      "asOf": "2026-07-21T16:38:30-04:00",
+      "asOf": "2026-07-21T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -86,7 +88,7 @@
       "price": 7509.2,
       "changePercent": 0.89,
       "unit": "USD",
-      "asOf": "2026-07-21T16:20:01-04:00",
+      "asOf": "2026-07-21T16:39:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4087.59,
-      "changePercent": 1.79,
+      "price": 4082.51,
+      "changePercent": 0.15,
       "unit": "USD",
-      "asOf": "2026-07-22T04:37:48-04:00",
+      "asOf": "2026-07-22T06:15:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.46,
-      "changePercent": 2.4,
+      "price": 84.64,
+      "changePercent": 0.36,
       "unit": "USD",
-      "asOf": "2026-07-22T04:38:02-04:00",
+      "asOf": "2026-07-22T06:14:28-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 653.1,
-      "changePercent": 3,
+      "price": 653.08,
+      "changePercent": -0.33,
       "unit": "USD",
-      "asOf": "2026-07-22T04:37:15-04:00",
+      "asOf": "2026-07-22T06:14:11-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,80 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 66409,
-      "changePercent": 1.6552677847612423,
+      "price": 66283,
+      "changePercent": 1.730724406951515,
       "unit": "USD",
-      "asOf": "2026-07-21T20:38:33.000Z",
+      "asOf": "2026-07-21T22:14:01.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "155677638e2cec8a",
+      "category": "能源与航运",
+      "title": "Is that food really made with 100 % avocado oil ? Likely not",
+      "url": "https://radio.wpsu.org/2026-07-21/is-that-food-really-made-with-100-avocado-oil-likely-not",
+      "source": "radio.wpsu.org",
+      "publishedAt": "2026-07-21T21:45:00Z",
+      "fetchedAt": "2026-07-21T22:13:41.734Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://radio.wpsu.org/2026-07-21/is-that-food-really-made-with-100-avocado-oil-likely-not"
+    },
+    {
+      "id": "226cbeeb8d4723c5",
+      "category": "全球与地区",
+      "title": "Hormuz Strait Shipping Tension : होर्मुज में हमलों से बढ़ा भारी तनाव , जहाजों की आवाजाही 50 % घटी ; भारत ने 59 जहाज निकाले - hormuz strait tensions trigger 50 percent drop in shipping traffic",
+      "url": "https://hindi.business-standard.com/international/hormuz-strait-tensions-trigger-50-percent-drop-in-shipping-traffic-id-538725",
+      "source": "hindi.business-standard.com",
+      "publishedAt": "2026-07-21T21:45:00Z",
+      "fetchedAt": "2026-07-21T22:13:41.734Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hindi.business-standard.com/international/hormuz-strait-tensions-trigger-50-percent-drop-in-shipping-traffic-id-538725"
+    },
     {
       "id": "74d5702c92ed2b5a",
       "category": "全球与地区",
@@ -1599,74 +1665,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress"
-    },
-    {
-      "id": "0be3d4f25cb0f4bb",
-      "category": "能源与航运",
-      "title": "Oil jumps 3 % as US , Iran expand strikes in the Middle East",
-      "url": "https://auto.economictimes.indiatimes.com/news/oil-and-lubes/oil-jumps-3-as-us-iran-expand-strikes-in-the-middle-east/132520461",
-      "source": "auto.economictimes.indiatimes.com",
-      "publishedAt": "2026-07-20T20:15:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://auto.economictimes.indiatimes.com/news/oil-and-lubes/oil-jumps-3-as-us-iran-expand-strikes-in-the-middle-east/132520461"
-    },
-    {
-      "id": "e670f85512029df7",
-      "category": "能源与航运",
-      "title": "《 TAIPEI TIMES 》 Seven raw cooking oil batches fail safety tests - 焦點",
-      "url": "https://news.ltn.com.tw/news/focus/breakingnews/5511811",
-      "source": "news.ltn.com.tw",
-      "publishedAt": "2026-07-20T20:15:00Z",
-      "fetchedAt": "2026-07-20T20:43:29.161Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5511811"
     }
   ]
 }
