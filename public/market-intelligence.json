@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-21T03:50:08.731Z",
-  "newsUpdatedAt": "2026-07-20T20:43:29.161Z",
-  "assetsUpdatedAt": "2026-07-21T03:50:08.731Z",
+  "generatedAt": "2026-07-21T06:43:24.468Z",
+  "newsUpdatedAt": "2026-07-21T06:43:24.468Z",
+  "assetsUpdatedAt": "2026-07-21T06:43:24.468Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3819.66,
-      "changePercent": 0.62,
+      "price": 3860.2,
+      "changePercent": 1.68,
       "unit": "CNY",
-      "asOf": "2026-07-21T11:50:00+08:00",
+      "asOf": "2026-07-21T14:44:30+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14074.22,
-      "changePercent": 3.41,
+      "price": 14256.12,
+      "changePercent": 4.75,
       "unit": "CNY",
-      "asOf": "2026-07-21T11:50:18+08:00",
+      "asOf": "2026-07-21T14:44:27+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25113.44,
-      "changePercent": -0.12,
+      "price": 25160.74,
+      "changePercent": 0.07,
       "unit": "HKD",
-      "asOf": "2026-07-21T11:35:46+08:00",
+      "asOf": "2026-07-21T14:29:30+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8353.53,
-      "changePercent": -0.34,
+      "price": 8370.27,
+      "changePercent": -0.14,
       "unit": "HKD",
-      "asOf": "2026-07-21T11:35:46+08:00",
+      "asOf": "2026-07-21T14:29:30+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4050.97,
-      "changePercent": 0.87,
+      "price": 4082.49,
+      "changePercent": 1.66,
       "unit": "USD",
-      "asOf": "2026-07-21T11:50:02-04:00",
+      "asOf": "2026-07-21T14:44:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.22,
-      "changePercent": -0.32,
+      "price": 82.09,
+      "changePercent": -0.48,
       "unit": "USD",
-      "asOf": "2026-07-21T11:49:35-04:00",
+      "asOf": "2026-07-21T14:44:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 640.88,
-      "changePercent": 1.07,
+      "price": 646.47,
+      "changePercent": 1.95,
       "unit": "USD",
-      "asOf": "2026-07-21T11:49:49-04:00",
+      "asOf": "2026-07-21T14:44:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,307 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65442,
-      "changePercent": 0.9539639170144738,
+      "price": 65891,
+      "changePercent": 3.3258395146639503,
       "unit": "USD",
-      "asOf": "2026-07-21T03:50:03.000Z",
+      "asOf": "2026-07-21T06:43:36.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f75005a35228a9fb",
+      "category": "科技与产业",
+      "title": "From quadruped to humanoid : New transformable robot unveiled in Shanghai - Xinhua",
+      "url": "https://english.news.cn/20260721/a4aa6500d7634e65947dbe2d0c9ee531/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260721/a4aa6500d7634e65947dbe2d0c9ee531/c.html"
+    },
+    {
+      "id": "0d6231c58374153e",
+      "category": "能源与航运",
+      "title": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th night",
+      "url": "https://www.warringtonguardian.co.uk/news/national/26296603.another-tanker-attacked-strait-hormuz-us-strikes-iran-10th-night/",
+      "source": "warringtonguardian.co.uk",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.warringtonguardian.co.uk/news/national/26296603.another-tanker-attacked-strait-hormuz-us-strikes-iran-10th-night/"
+    },
+    {
+      "id": "3f7da9a0fafd0ecd",
+      "category": "金属与资源",
+      "title": "India wins 2 gold , 4 silver medals at International Mathematics Olympiad 2026",
+      "url": "https://www.moneycontrol.com/education/india-wins-2-gold-4-silver-medals-at-international-mathematics-olympiad-2026-article-13979268.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/education/india-wins-2-gold-4-silver-medals-at-international-mathematics-olympiad-2026-article-13979268.html"
+    },
+    {
+      "id": "5a721676740d109a",
+      "category": "全球与地区",
+      "title": "Can the Trans - Caspian Gas pipeline become reality ? Expert assesses geopolitical and commercial challenges",
+      "url": "https://news.az/news/can-the-trans-caspian-gas-pipeline-become-reality-expert-assesses-geopolitical-and-commercial-challenges",
+      "source": "news.az",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.az/news/can-the-trans-caspian-gas-pipeline-become-reality-expert-assesses-geopolitical-and-commercial-challenges"
+    },
+    {
+      "id": "f6fda4d738e0d74a",
+      "category": "金属与资源",
+      "title": "Copper isotope shows promise for early childhood anemia detection",
+      "url": "https://www.news-medical.net/news/20260721/Copper-isotope-shows-promise-for-early-childhood-anemia-detection.aspx",
+      "source": "news-medical.net",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.news-medical.net/news/20260721/Copper-isotope-shows-promise-for-early-childhood-anemia-detection.aspx"
+    },
+    {
+      "id": "9f75523025d115e1",
+      "category": "能源与航运",
+      "title": "Indian equity markets open flat amid Middle East tensions , lower crude prices",
+      "url": "https://www.prokerala.com/news/articles/a1790435.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1790435.html"
+    },
+    {
+      "id": "86166a7c0975ebe7",
+      "category": "金属与资源",
+      "title": "Payal Bichiya Cleaning Tips , सावन से पहले बिना खर्च चमकाएं चांदी की पायल , अपनाएं ये 7 आसान और असरदार घरेलू तरीके , लौटेगी नई जैसी चमक - sawan 2026 how to clean silver anklets toe rings at home payal bichiya cleaning tips - Fashion News",
+      "url": "https://navbharattimes.indiatimes.com/lifestyle/fashion/sawan-2026-how-to-clean-silver-anklets-toe-rings-at-home-payal-bichiya-cleaning-tips/articleshow/132528354.cms",
+      "source": "navbharattimes.indiatimes.com",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://navbharattimes.indiatimes.com/lifestyle/fashion/sawan-2026-how-to-clean-silver-anklets-toe-rings-at-home-payal-bichiya-cleaning-tips/articleshow/132528354.cms"
+    },
+    {
+      "id": "9cbb38d183cf91ae",
+      "category": "金属与资源",
+      "title": "Gold Rates in Pakistan today ( 21 July 2026 ), Per Tola Gold Prices",
+      "url": "https://en.dailypakistan.com.pk/21-Jul-2026/gold-rates-in-pakistan-today-21-july-2026-per-tola-gold-prices",
+      "source": "en.dailypakistan.com.pk",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.dailypakistan.com.pk/21-Jul-2026/gold-rates-in-pakistan-today-21-july-2026-per-tola-gold-prices"
+    },
+    {
+      "id": "3de9e3a1154f97b3",
+      "category": "数字资产",
+      "title": "Elizabeth Warren Says Dark Money Groups Linked to Crypto , AI Spending Million to Hand - Pick Congres",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress",
+      "source": "benzinga.com",
+      "publishedAt": "2026-07-21T06:15:00Z",
+      "fetchedAt": "2026-07-21T06:43:24.468Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress"
+    },
     {
       "id": "0be3d4f25cb0f4bb",
       "category": "能源与航运",
@@ -1427,69 +1716,6 @@
       "whyItMatters": "比特币与科技股同步走强时更像全球风险偏好信号，背离时则要警惕流动性分化。",
       "nextCheck": "比较比特币、纳斯达克、美元与AI龙头的两日方向，不把单一资产涨跌直接等同于A股信号。",
       "provenanceUrl": "https://www.coindesk.com/zh/markets/2026/07/10/bitcoin-zips-to-nearly-usd64-000-as-chip-rally-and-yen-strength-drive-gains"
-    },
-    {
-      "id": "20260708-xinhua-oil",
-      "category": "全球与地区",
-      "title": "欧佩克+计划8月继续增产，油市焦点转向供需再平衡",
-      "url": "https://www.xinhuanet.com/20260708/94c56c4a23b64696a0c1612bd125ad7c/c.html",
-      "source": "新华社",
-      "publishedAt": "2026-07-08T08:00:00+08:00",
-      "fetchedAt": "2026-07-20T05:47:35.000Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "欧佩克+",
-        "原油",
-        "国际局势"
-      ],
-      "industries": [
-        "石油石化",
-        "航运",
-        "化工"
-      ],
-      "regions": [
-        "中东",
-        "全球"
-      ],
-      "relatedCodes": [
-        "601857",
-        "600028"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "增产压低供给风险溢价的同时，地缘变化仍可能造成短期跳价。",
-      "nextCheck": "同时核对实际增产执行、全球需求与关键航道通行状态。",
-      "provenanceUrl": "https://www.xinhuanet.com/20260708/94c56c4a23b64696a0c1612bd125ad7c/c.html"
-    },
-    {
-      "id": "20260206-csrc-crypto",
-      "category": "数字资产",
-      "title": "八部门进一步明确防范和处置虚拟货币相关风险",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml",
-      "source": "中国证监会",
-      "publishedAt": "2026-02-06T08:00:00+08:00",
-      "fetchedAt": "2026-07-20T05:47:35.000Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "虚拟货币",
-        "监管",
-        "比特币"
-      ],
-      "industries": [
-        "数字资产",
-        "金融科技"
-      ],
-      "regions": [
-        "中国"
-      ],
-      "relatedCodes": [
-        "300059"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "境内监管边界决定数字资产信息只能作为全球流动性观察，不能被包装成境内可执行交易机会。",
-      "nextCheck": "以监管部门最新文件为准，并区分海外资产价格与境内上市公司真实业务收入。",
-      "provenanceUrl": "https://www.csrc.gov.cn/csrc/c100028/c7614318/content.shtml"
     }
   ]
 }
