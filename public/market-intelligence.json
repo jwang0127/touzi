@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-22T14:27:08.572Z",
-  "newsUpdatedAt": "2026-07-22T14:27:08.572Z",
-  "assetsUpdatedAt": "2026-07-22T14:27:08.572Z",
+  "generatedAt": "2026-07-22T16:50:50.415Z",
+  "newsUpdatedAt": "2026-07-22T16:50:50.415Z",
+  "assetsUpdatedAt": "2026-07-22T16:50:50.415Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -61,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52322.08,
-      "changePercent": 0.19,
+      "price": 52390.09,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-07-22T10:27:40-04:00",
+      "asOf": "2026-07-22T12:52:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25702.71,
-      "changePercent": -0.52,
+      "price": 25802.39,
+      "changePercent": -0.13,
       "unit": "USD",
-      "asOf": "2026-07-22T10:27:40-04:00",
+      "asOf": "2026-07-22T12:52:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7497.58,
-      "changePercent": -0.15,
+      "price": 7520.91,
+      "changePercent": 0.16,
       "unit": "USD",
-      "asOf": "2026-07-22T10:27:40-04:00",
+      "asOf": "2026-07-22T12:52:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4152.87,
-      "changePercent": 1.88,
+      "price": 4153.33,
+      "changePercent": 1.89,
       "unit": "USD",
-      "asOf": "2026-07-22T22:27:01-04:00",
+      "asOf": "2026-07-23T00:52:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 87.11,
-      "changePercent": 3.28,
+      "price": 86.14,
+      "changePercent": 2.14,
       "unit": "USD",
-      "asOf": "2026-07-22T22:26:58-04:00",
+      "asOf": "2026-07-23T00:52:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 649.93,
-      "changePercent": -0.81,
+      "price": 648.7,
+      "changePercent": -1,
       "unit": "USD",
-      "asOf": "2026-07-22T22:26:52-04:00",
+      "asOf": "2026-07-23T00:52:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,330 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65656,
-      "changePercent": -1.481482591757828,
+      "price": 66184,
+      "changePercent": -0.47095241296510554,
       "unit": "USD",
-      "asOf": "2026-07-22T14:27:30.000Z",
+      "asOf": "2026-07-22T16:52:24.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "bd92eeb85004960f",
+      "category": "能源与航运",
+      "title": "European Forces Intercept Shadow Fleet Oil Tanker in Mediterranean Sea",
+      "url": "https://www.themoscowtimes.com/2026/07/22/european-forces-intercept-shadow-fleet-oil-tanker-in-mediterranean-sea-a93311",
+      "source": "themoscowtimes.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themoscowtimes.com/2026/07/22/european-forces-intercept-shadow-fleet-oil-tanker-in-mediterranean-sea-a93311"
+    },
+    {
+      "id": "23fdb815ae6fff64",
+      "category": "科技与产业",
+      "title": "KARL STORZ Expands Its Robotics Ecosystem Through Strategic Partnerships in the US",
+      "url": "https://thestarphoenix.com/press-releases/business-wire/karl-storz-expands-its-robotics-ecosystem-through-strategic-partnerships-in-the-us/",
+      "source": "thestarphoenix.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://thestarphoenix.com/press-releases/business-wire/karl-storz-expands-its-robotics-ecosystem-through-strategic-partnerships-in-the-us/"
+    },
+    {
+      "id": "628d39930e4b573a",
+      "category": "能源与航运",
+      "title": "Magnolia Oil & Gas купує WildFire Energy за $4 , 06 млрд",
+      "url": "https://www.fixygen.ua/news/20260722/magnolia-oil-gas-kupue-wildfire-energy-za-406-mlrd.html",
+      "source": "fixygen.ua",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Ukraine"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fixygen.ua/news/20260722/magnolia-oil-gas-kupue-wildfire-energy-za-406-mlrd.html"
+    },
+    {
+      "id": "fc72cc3f971afc51",
+      "category": "能源与航运",
+      "title": "Irão : Trump ameaça bombardear Teerão por cada ataque iraniano em Hormuz",
+      "url": "https://pt.euronews.com/2026/07/22/irao-trump-ameaca-bombardear-teerao-por-cada-ataque-iraniano-em-hormuz",
+      "source": "pt.euronews.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pt.euronews.com/2026/07/22/irao-trump-ameaca-bombardear-teerao-por-cada-ataque-iraniano-em-hormuz"
+    },
+    {
+      "id": "cf40a4b0670c6032",
+      "category": "能源与航运",
+      "title": "Trump says US will destroy a bridge or power plant for each Iranian attack in the Strait of Hormuz",
+      "url": "https://www.kimt.com/news/trump-says-us-will-destroy-a-bridge-or-power-plant-for-each-iranian-attack-in/article_5640e55c-467f-48b8-b4d6-9518d69cf20d.html",
+      "source": "kimt.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kimt.com/news/trump-says-us-will-destroy-a-bridge-or-power-plant-for-each-iranian-attack-in/article_5640e55c-467f-48b8-b4d6-9518d69cf20d.html"
+    },
+    {
+      "id": "69c62db3f522b225",
+      "category": "能源与航运",
+      "title": "Udalosť dňa : Trump vyhlásil , že united states zničia most či elektráreň v Iráne vždy , keď zaútočí na loď v Hormuze | Svet | . týždeň",
+      "url": "https://www.tyzden.sk/svet/137384/udalost-dna-trump-vyhlasil-ze-usa-znicia-most-ci-elektraren-v-irane-vzdy-ked-zautoci-na-lod-v-hormuze/",
+      "source": "tyzden.sk",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Slovak Republic"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tyzden.sk/svet/137384/udalost-dna-trump-vyhlasil-ze-usa-znicia-most-ci-elektraren-v-irane-vzdy-ked-zautoci-na-lod-v-hormuze/"
+    },
+    {
+      "id": "6bae556032546829",
+      "category": "全球与地区",
+      "title": "Trump Threatens 100 Percent Generic Drug Tariffs",
+      "url": "https://945wpti.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
+      "source": "945wpti.iheart.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://945wpti.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
+    },
+    {
+      "id": "02c31f2f76d8404e",
+      "category": "全球与地区",
+      "title": "Trump Threatens 100 Percent Generic Drug Tariffs | Newsradio WOOD 1300 and 106 . 9 FM",
+      "url": "https://woodradio.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
+      "source": "woodradio.iheart.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://woodradio.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
+    },
+    {
+      "id": "e17e9687086cdc71",
+      "category": "全球与地区",
+      "title": "Trump Threatens 100 Percent Generic Drug Tariffs | NewsTalk WMEQ",
+      "url": "https://wmeq.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
+      "source": "wmeq.iheart.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wmeq.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
+    },
+    {
+      "id": "b95de969a9c16240",
+      "category": "全球与地区",
+      "title": "Column : The air conditioner paradox : Europe is too hot for tariffs on China",
+      "url": "http://www.shanghaisun.com/news/279202862/column-the-air-conditioner-paradox-europe-is-too-hot-for-tariffs-on-china",
+      "source": "shanghaisun.com",
+      "publishedAt": "2026-07-22T16:30:00Z",
+      "fetchedAt": "2026-07-22T16:50:50.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.shanghaisun.com/news/279202862/column-the-air-conditioner-paradox-europe-is-too-hot-for-tariffs-on-china"
+    },
     {
       "id": "bc2f6a61a5f68012",
       "category": "能源与航运",
@@ -1324,333 +1638,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.messengernewspapers.co.uk/news/national/26300024.ocado-rebounds-striking-deal-build-new-robotic-warehouse/"
-    },
-    {
-      "id": "cfde175650ca07e5",
-      "category": "金属与资源",
-      "title": "Mammoth regional tailings dam is centrepiece of DRDGOLD R10bn expansion",
-      "url": "https://www.engineeringnews.co.za/article/mammoth-regional-tailings-dam-is-centrepiece-of-drdgolds-r10bn-expansion-2026-07-21",
-      "source": "engineeringnews.co.za",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.engineeringnews.co.za/article/mammoth-regional-tailings-dam-is-centrepiece-of-drdgolds-r10bn-expansion-2026-07-21"
-    },
-    {
-      "id": "b60b2d4487087c40",
-      "category": "能源与航运",
-      "title": "Christchurch red zone : New research offers cheaper alternative to soil removal",
-      "url": "https://www.nzherald.co.nz/nz/christchurch-red-zone-new-research-offers-cheaper-alternative-to-soil-removal/GVTB2GLAE5ACLG7E765OXS3QPI/",
-      "source": "nzherald.co.nz",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nzherald.co.nz/nz/christchurch-red-zone-new-research-offers-cheaper-alternative-to-soil-removal/GVTB2GLAE5ACLG7E765OXS3QPI/"
-    },
-    {
-      "id": "589a34af6db4a808",
-      "category": "能源与航运",
-      "title": "Tankers with Saudi crude turn back as Houthis open new front in US - Iran war",
-      "url": "https://www.moneycontrol.com/world/tankers-with-saudi-crude-turn-back-as-houthis-open-new-front-in-us-iran-war-article-13979921.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/world/tankers-with-saudi-crude-turn-back-as-houthis-open-new-front-in-us-iran-war-article-13979921.html"
-    },
-    {
-      "id": "aa60da8456282021",
-      "category": "能源与航运",
-      "title": "AI stocks gather more strength , even as Brent oil price nears $92",
-      "url": "https://www.timescall.com/2026/07/21/ai-stock-gains-wall-street-oil-prices-inflation/",
-      "source": "timescall.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.timescall.com/2026/07/21/ai-stock-gains-wall-street-oil-prices-inflation/"
-    },
-    {
-      "id": "28515657b8281293",
-      "category": "能源与航运",
-      "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
-      "url": "http://www.southeastasiapost.com/news/279201140/could-the-us-iran-battle-for-hormuz-be-a-win-for-russia-and-china",
-      "source": "southeastasiapost.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.southeastasiapost.com/news/279201140/could-the-us-iran-battle-for-hormuz-be-a-win-for-russia-and-china"
-    },
-    {
-      "id": "0d426b73e0217841",
-      "category": "能源与航运",
-      "title": "Energy Stocks To Watch Now – July 21st",
-      "url": "https://www.themarketsdaily.com/2026/07/21/energy-stocks-to-watch-now-july-21st.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/07/21/energy-stocks-to-watch-now-july-21st.html"
-    },
-    {
-      "id": "710dd6375357fbc6",
-      "category": "数字资产",
-      "title": "Wild West of untested peptides has Americans paying in crypto to get their fix – The Mercury News",
-      "url": "https://www.mercurynews.com/2026/07/21/wild-west-of-untested-peptides-has-americans-paying-in-crypto-to-get-their-fix/",
-      "source": "mercurynews.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mercurynews.com/2026/07/21/wild-west-of-untested-peptides-has-americans-paying-in-crypto-to-get-their-fix/"
-    },
-    {
-      "id": "20e7b8c66d1ce222",
-      "category": "能源与航运",
-      "title": "Indian refiners come to the rescue of Russia oil exporters",
-      "url": "https://www.moneycontrol.com/news/business/indian-refiners-come-to-the-rescue-of-russia-s-oil-exporters-13979915.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/news/business/indian-refiners-come-to-the-rescue-of-russia-s-oil-exporters-13979915.html"
-    },
-    {
-      "id": "1963cf7cdb80ede4",
-      "category": "能源与航运",
-      "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-      "url": "http://www.southeastasiapost.com/news/279201294/rubio-attends-asean-as-iran-war-fuels-energy-security-fears",
-      "source": "southeastasiapost.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.southeastasiapost.com/news/279201294/rubio-attends-asean-as-iran-war-fuels-energy-security-fears"
-    },
-    {
-      "id": "6c82499683f0d045",
-      "category": "科技与产业",
-      "title": "SpaceX : The Artificial Intelligence ( AI ) Infrastructure Build - out Just Got Interesting ( NASDAQ : SPCX )",
-      "url": "https://www.fool.com/investing/2026/07/21/spacex-the-artificial-intelligence-ai-infrastructu/",
-      "source": "fool.com",
-      "publishedAt": "2026-07-21T18:00:00Z",
-      "fetchedAt": "2026-07-21T18:42:31.769Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/07/21/spacex-the-artificial-intelligence-ai-infrastructu/"
     }
   ]
 }
