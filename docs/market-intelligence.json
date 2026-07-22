@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-22T18:36:24.616Z",
+  "generatedAt": "2026-07-22T20:33:30.039Z",
   "newsUpdatedAt": "2026-07-22T16:50:50.415Z",
-  "assetsUpdatedAt": "2026-07-22T18:36:24.616Z",
+  "assetsUpdatedAt": "2026-07-22T20:33:30.039Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52287.24,
-      "changePercent": 0.12,
+      "price": 52218.58,
+      "changePercent": -0.01,
       "unit": "USD",
-      "asOf": "2026-07-22T14:37:00-04:00",
+      "asOf": "2026-07-22T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25747.49,
-      "changePercent": -0.35,
+      "price": 25690.9,
+      "changePercent": -0.57,
       "unit": "USD",
-      "asOf": "2026-07-22T14:37:00-04:00",
+      "asOf": "2026-07-22T16:34:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7509.37,
-      "changePercent": 0,
+      "price": 7498.96,
+      "changePercent": -0.14,
       "unit": "USD",
-      "asOf": "2026-07-22T14:37:00-04:00",
+      "asOf": "2026-07-22T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4143.34,
+      "price": 4143.28,
       "changePercent": 1.64,
       "unit": "USD",
-      "asOf": "2026-07-23T02:37:04-04:00",
+      "asOf": "2026-07-23T04:34:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 87.12,
-      "changePercent": 3.3,
+      "price": 86.29,
+      "changePercent": 2.31,
       "unit": "USD",
-      "asOf": "2026-07-23T02:37:05-04:00",
+      "asOf": "2026-07-23T04:34:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 647.3,
-      "changePercent": -1.21,
+      "price": 648.88,
+      "changePercent": -0.97,
       "unit": "USD",
-      "asOf": "2026-07-23T02:37:05-04:00",
+      "asOf": "2026-07-23T04:34:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65737,
-      "changePercent": -0.7537317831135817,
+      "price": 65902,
+      "changePercent": -0.7210819060641922,
       "unit": "USD",
-      "asOf": "2026-07-22T18:36:03.000Z",
+      "asOf": "2026-07-22T20:33:37.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
