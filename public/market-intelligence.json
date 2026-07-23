@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-23T09:39:30.894Z",
-  "newsUpdatedAt": "2026-07-23T06:41:34.487Z",
-  "assetsUpdatedAt": "2026-07-23T09:39:30.894Z",
+  "generatedAt": "2026-07-23T12:04:26.665Z",
+  "newsUpdatedAt": "2026-07-23T12:04:26.665Z",
+  "assetsUpdatedAt": "2026-07-23T12:04:26.665Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -22,7 +20,7 @@
       "price": 3876.78,
       "changePercent": 0.25,
       "unit": "CNY",
-      "asOf": "2026-07-23T16:14:02+08:00",
+      "asOf": "2026-07-23T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -44,7 +42,7 @@
       "price": 25210.81,
       "changePercent": 1.28,
       "unit": "HKD",
-      "asOf": "2026-07-23T17:25:05+08:00",
+      "asOf": "2026-07-23T18:31:05+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4092.87,
-      "changePercent": -1.42,
+      "price": 4084.34,
+      "changePercent": -1.63,
       "unit": "USD",
-      "asOf": "2026-07-23T17:40:01-04:00",
+      "asOf": "2026-07-23T20:04:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 90.14,
-      "changePercent": 3.81,
+      "price": 90.72,
+      "changePercent": 4.48,
       "unit": "USD",
-      "asOf": "2026-07-23T17:40:03-04:00",
+      "asOf": "2026-07-23T20:04:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 646.22,
-      "changePercent": -0.48,
+      "price": 645.46,
+      "changePercent": -0.6,
       "unit": "USD",
-      "asOf": "2026-07-23T17:39:45-04:00",
+      "asOf": "2026-07-23T20:03:33-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,276 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65669,
-      "changePercent": -0.2529965874622711,
+      "price": 65511,
+      "changePercent": -0.595681636633546,
       "unit": "USD",
-      "asOf": "2026-07-23T09:38:50.000Z",
+      "asOf": "2026-07-23T12:03:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "7a52c55020010c85",
+      "category": "能源与航运",
+      "title": "Houthis say they attacked 2 Saudi oil tankers in the Red Sea as US carries out 12th night of strikes",
+      "url": "http://www.postregister.com/businessreport/technology/houthis-say-they-attacked-2-saudi-oil-tankers-in-the-red-sea-as-us-carries/article_7df8fd48-97ce-559a-96c3-65f880703c69.html",
+      "source": "postregister.com",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.postregister.com/businessreport/technology/houthis-say-they-attacked-2-saudi-oil-tankers-in-the-red-sea-as-us-carries/article_7df8fd48-97ce-559a-96c3-65f880703c69.html"
+    },
+    {
+      "id": "4b94e453422245e9",
+      "category": "全球与地区",
+      "title": "Bab al - Mandab Near Yemen Emerges as Next Major Threat to Global Shipping Routes",
+      "url": "https://horseedmedia.net/bab-al-mandab-near-yemen-emerges-as-next-major-threat-to-global-shipping-routes/424041/",
+      "source": "horseedmedia.net",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Somalia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://horseedmedia.net/bab-al-mandab-near-yemen-emerges-as-next-major-threat-to-global-shipping-routes/424041/"
+    },
+    {
+      "id": "b2a0888e0a4b88f9",
+      "category": "金属与资源",
+      "title": "MasterOfCrafts | Weaving the golden legacy of Nanjing : a Yunjin inheritor story",
+      "url": "http://www.chinanationalnews.com/news/279204825/masterofcrafts-weaving-the-golden-legacy-of-nanjing-a-yunjin-inheritor-story",
+      "source": "chinanationalnews.com",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.chinanationalnews.com/news/279204825/masterofcrafts-weaving-the-golden-legacy-of-nanjing-a-yunjin-inheritor-story"
+    },
+    {
+      "id": "2171b73446479598",
+      "category": "金属与资源",
+      "title": "SPDR Gold Shares $GLD Shares Sold by Levin Capital Strategies L . P .",
+      "url": "https://www.themarketsdaily.com/2026/07/23/spdr-gold-shares-gld-shares-sold-by-levin-capital-strategies-l-p.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/07/23/spdr-gold-shares-gld-shares-sold-by-levin-capital-strategies-l-p.html"
+    },
+    {
+      "id": "691f80343713fc14",
+      "category": "金属与资源",
+      "title": "Mizuho Markets Cayman LP Makes New Investment in VanEck Gold Miners ETF $GDX",
+      "url": "https://www.dailypolitical.com/2026/07/23/mizuho-markets-cayman-lp-makes-new-investment-in-vaneck-gold-miners-etf-gdx.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/07/23/mizuho-markets-cayman-lp-makes-new-investment-in-vaneck-gold-miners-etf-gdx.html"
+    },
+    {
+      "id": "b8d6759f03b7841f",
+      "category": "科技与产业",
+      "title": "Bakary Marong : A Gambian driving innovation through Artificial Intelligence",
+      "url": "https://thepoint.gm/africa/gambia/headlines/bakary-marong-a-gambian-driving-innovation-through-artificial-intelligence",
+      "source": "thepoint.gm",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Gambia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://thepoint.gm/africa/gambia/headlines/bakary-marong-a-gambian-driving-innovation-through-artificial-intelligence"
+    },
+    {
+      "id": "890e188b583389ef",
+      "category": "科技与产业",
+      "title": "Millionenförderung für Robotik - Simulationen in Baden - Württemberg – Stuttgart Journal",
+      "url": "https://stuttgart-journal.de/tp3/2026/07/23/millionenfoerderung-fuer-robotik-simulationen-in-baden-wuerttemberg/",
+      "source": "stuttgart-journal.de",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stuttgart-journal.de/tp3/2026/07/23/millionenfoerderung-fuer-robotik-simulationen-in-baden-wuerttemberg/"
+    },
+    {
+      "id": "73f3830a3d3c2905",
+      "category": "能源与航运",
+      "title": "Houthis say they attacked Saudi oil tankers in the Red Sea – NBC Bay Area",
+      "url": "https://www.nbcbayarea.com/news/national-international/houthis-attack-saudi-tankers-red-sea-us-12th-night-strikes/4117788/",
+      "source": "nbcbayarea.com",
+      "publishedAt": "2026-07-23T11:15:00Z",
+      "fetchedAt": "2026-07-23T12:04:26.665Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nbcbayarea.com/news/national-international/houthis-attack-saudi-tankers-red-sea-us-12th-night-strikes/4117788/"
+    },
     {
       "id": "fcb9c142859af842",
       "category": "能源与航运",
@@ -1392,258 +1650,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://wtvbam.com/2026/07/21/trump-to-seek-congress-approval-for-saudi-arabia-nuclear-energy-pact-that-lacks-safeguards-sources-say/"
-    },
-    {
-      "id": "a86fcc219db6a26b",
-      "category": "全球与地区",
-      "title": "Spanish hotel chain Meliá leaving Cuba over legal , financial hurdles from sanctions",
-      "url": "https://abcnews.com/Business/wireStory/spanish-hotel-chain-meli-leaving-cuba-legal-financial-134968660",
-      "source": "abcnews.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abcnews.com/Business/wireStory/spanish-hotel-chain-meli-leaving-cuba-legal-financial-134968660"
-    },
-    {
-      "id": "45b26ee207076c1e",
-      "category": "科技与产业",
-      "title": "Humanoid Global Highlights Formic Role in Launching Robots for America and Announces Leadership and Membership Updates for the U . S . Robotics Coalition",
-      "url": "https://leaderpost.com/press-releases/globe-newswire/humanoid-global-highlights-formics-role-in-launching-robots-for-america-and-announces-leadership-and-membership-updates-for-the-u-s-robotics-coalition/",
-      "source": "leaderpost.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://leaderpost.com/press-releases/globe-newswire/humanoid-global-highlights-formics-role-in-launching-robots-for-america-and-announces-leadership-and-membership-updates-for-the-u-s-robotics-coalition/"
-    },
-    {
-      "id": "6c1a5142f795703f",
-      "category": "全球与地区",
-      "title": "Sensex falls over 400 points , Nifty slips below 24 , 150 amid crude surge , pharma stocks under pressure following Trump tariff announcement",
-      "url": "http://www.asiabulletin.com/news/279202479/sensex-falls-over-400-points-nifty-slips-below-24150-amid-crude-surge-pharma-stocks-under-pressure-following-trump-tariff-announcement",
-      "source": "asiabulletin.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.asiabulletin.com/news/279202479/sensex-falls-over-400-points-nifty-slips-below-24150-amid-crude-surge-pharma-stocks-under-pressure-following-trump-tariff-announcement"
-    },
-    {
-      "id": "02fe2d46bcecee4f",
-      "category": "金属与资源",
-      "title": "భారీగా పెరిగిన పసిడి ధరలు .. ప్రస్తుతం మీ నగరంలో ఎలా ఉన్నాయంటే .. | Gold Prices increases in India Today Latest 22K 24K Rates on July 22nd 2026 sgr",
-      "url": "https://www.andhrajyothy.com/2026/business/gold-prices-increases-in-india-today-latest-22k-24k-rates-on-july-22nd-2026-sgr-1543868.html",
-      "source": "andhrajyothy.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.andhrajyothy.com/2026/business/gold-prices-increases-in-india-today-latest-22k-24k-rates-on-july-22nd-2026-sgr-1543868.html"
-    },
-    {
-      "id": "8f8155713044cbd6",
-      "category": "全球与地区",
-      "title": "Gold Hits Two - Week High as Fed Outlook , Middle East Conflict Stay in Focus",
-      "url": "https://english.aawsat.com/business/5298763-gold-hits-two-week-high-fed-outlook-middle-east-conflict-stay-focus",
-      "source": "english.aawsat.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.aawsat.com/business/5298763-gold-hits-two-week-high-fed-outlook-middle-east-conflict-stay-focus"
-    },
-    {
-      "id": "3d505ad2d6ba92f6",
-      "category": "全球与地区",
-      "title": "Conflicts and Energy Shocks Threaten Progress Against Global Hunger , UN Agency Head Warns",
-      "url": "https://english.aawsat.com/world/5298762-conflicts-and-energy-shocks-threaten-progress-against-global-hunger-un-agency-head",
-      "source": "english.aawsat.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.aawsat.com/world/5298762-conflicts-and-energy-shocks-threaten-progress-against-global-hunger-un-agency-head"
-    },
-    {
-      "id": "7461a59d2de7ee0c",
-      "category": "能源与航运",
-      "title": "Rubio warns ASEAN against Iran demands for Hormuz",
-      "url": "https://www.perthnow.com.au/news/politics/rubio-warns-asean-against-irans-demands-for-hormuz-c-22613499",
-      "source": "perthnow.com.au",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.perthnow.com.au/news/politics/rubio-warns-asean-against-irans-demands-for-hormuz-c-22613499"
-    },
-    {
-      "id": "155677638e2cec8a",
-      "category": "能源与航运",
-      "title": "Is that food really made with 100 % avocado oil ? Likely not",
-      "url": "https://radio.wpsu.org/2026-07-21/is-that-food-really-made-with-100-avocado-oil-likely-not",
-      "source": "radio.wpsu.org",
-      "publishedAt": "2026-07-21T21:45:00Z",
-      "fetchedAt": "2026-07-21T22:13:41.734Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://radio.wpsu.org/2026-07-21/is-that-food-really-made-with-100-avocado-oil-likely-not"
     }
   ]
 }
