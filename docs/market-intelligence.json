@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-23T22:16:50.095Z",
-  "newsUpdatedAt": "2026-07-23T12:04:26.665Z",
-  "assetsUpdatedAt": "2026-07-23T22:16:50.095Z",
+  "generatedAt": "2026-07-23T23:16:16.163Z",
+  "newsUpdatedAt": "2026-07-23T23:16:16.163Z",
+  "assetsUpdatedAt": "2026-07-23T23:16:16.163Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4051.46,
-      "changePercent": 0.03,
+      "price": 4051.02,
+      "changePercent": 0.02,
       "unit": "USD",
-      "asOf": "2026-07-24T06:17:09-04:00",
+      "asOf": "2026-07-24T07:16:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.25,
-      "changePercent": 0.07,
+      "price": 92.18,
+      "changePercent": -0.02,
       "unit": "USD",
-      "asOf": "2026-07-24T06:17:08-04:00",
+      "asOf": "2026-07-24T07:16:55-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.16,
-      "changePercent": -0.19,
+      "price": 632.8,
+      "changePercent": -0.24,
       "unit": "USD",
-      "asOf": "2026-07-24T06:16:22-04:00",
+      "asOf": "2026-07-24T07:12:28-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,407 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65063,
-      "changePercent": -1.3786651318340395,
+      "price": 65136,
+      "changePercent": -1.1181885074488327,
       "unit": "USD",
-      "asOf": "2026-07-23T22:15:50.000Z",
+      "asOf": "2026-07-23T23:15:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "6c176a9e74cb7802",
+      "category": "能源与航运",
+      "title": "Gas , groceries and back - to - school items are where shoppers might see higher oil prices surface",
+      "url": "https://krmg.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/",
+      "source": "krmg.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://krmg.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/"
+    },
+    {
+      "id": "81f3d9f949e9438a",
+      "category": "全球与地区",
+      "title": "Trump imposes double - digit tariffs on dozens of countries as his 10 % levies are set to expire Friday",
+      "url": "https://krmg.com/2026/07/23/trump-imposes-double-digit-tariffs-on-dozens-of-countries-as-his-10-levies-are-set-to-expire-friday/",
+      "source": "krmg.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://krmg.com/2026/07/23/trump-imposes-double-digit-tariffs-on-dozens-of-countries-as-his-10-levies-are-set-to-expire-friday/"
+    },
+    {
+      "id": "2b6a70c4a6123324",
+      "category": "全球与地区",
+      "title": "Nuovi dazi united states dal 10 al 12 . 5 % per oltre 60 Paesi , c è anche lUe . Le tariffe in vigore da oggi",
+      "url": "https://www.ilmessaggero.it/economia/news/dazi_usa_nuove_tariffe_europa_cosa_cambia-9668881.html",
+      "source": "ilmessaggero.it",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ilmessaggero.it/economia/news/dazi_usa_nuove_tariffe_europa_cosa_cambia-9668881.html"
+    },
+    {
+      "id": "68e18a2cc49a868f",
+      "category": "能源与航运",
+      "title": "Oil Surges Above $100 | Rigzone",
+      "url": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/",
+      "source": "rigzone.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/"
+    },
+    {
+      "id": "1d4ee241d431f54f",
+      "category": "全球与地区",
+      "title": "South Korea faces possible new U . S . forced - labor tariff",
+      "url": "https://www.upi.com/Top_News/World-News/2026/07/23/ustr-could-impose-additional-tariff/5351784844406/",
+      "source": "upi.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.upi.com/Top_News/World-News/2026/07/23/ustr-could-impose-additional-tariff/5351784844406/"
+    },
+    {
+      "id": "a6e5ed7fa5296d27",
+      "category": "全球与地区",
+      "title": "Trump to impose double - digit tariffs on dozens of countries",
+      "url": "https://www.houstonpublicmedia.org/npr/2026/07/23/g-s1-135388/trump-to-impose-double-digit-tariffs-on-dozens-of-countries/",
+      "source": "houstonpublicmedia.org",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.houstonpublicmedia.org/npr/2026/07/23/g-s1-135388/trump-to-impose-double-digit-tariffs-on-dozens-of-countries/"
+    },
+    {
+      "id": "8c4ee171180e870d",
+      "category": "科技与产业",
+      "title": "AI Chip Stocks Just Got Crushed . 3 Semiconductor ETFs to Buy the Dip On",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-just-got-221404136.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-just-got-221404136.html"
+    },
+    {
+      "id": "72e6a9202cd0dfee",
+      "category": "数字资产",
+      "title": "Man Claims $14K Crypto Was Stolen After Phone Exchange",
+      "url": "https://dailydot.com/man-claims-flirting-cost-him-14k-in-crypto-while-in-bali",
+      "source": "dailydot.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://dailydot.com/man-claims-flirting-cost-him-14k-in-crypto-while-in-bali"
+    },
+    {
+      "id": "3367651b51fe740d",
+      "category": "能源与航运",
+      "title": "War escalates , oil prices surge as Iran - backed Houthis strike Saudi tankers in Red Sea",
+      "url": "https://www.latimes.com/politics/story/2026-07-23/war-escalates-oil-prices-surge-as-iran-backed-houthis-strike-saudi-tankers-in-red-sea",
+      "source": "latimes.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.latimes.com/politics/story/2026-07-23/war-escalates-oil-prices-surge-as-iran-backed-houthis-strike-saudi-tankers-in-red-sea"
+    },
+    {
+      "id": "4fd56e06ff49f3d8",
+      "category": "能源与航运",
+      "title": "Dover fuel oil bid surges 36 %",
+      "url": "http://www.deerfieldvalleynews.org/news/dover-fuel-oil-bid-surges-36",
+      "source": "deerfieldvalleynews.org",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.deerfieldvalleynews.org/news/dover-fuel-oil-bid-surges-36"
+    },
+    {
+      "id": "a5942b306a342fd1",
+      "category": "全球与地区",
+      "title": "As bridge tariffs expire , Trump pivots to new legal authority to keep duties in place",
+      "url": "https://cnycentral.com/news/nation-world/as-bridge-tariffs-expire-trump-pivots-to-new-legal-authority-to-keep-duties-in-place-section-301-trade-act-of-1974-ieepa-section-122-trade-policy-economy",
+      "source": "cnycentral.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cnycentral.com/news/nation-world/as-bridge-tariffs-expire-trump-pivots-to-new-legal-authority-to-keep-duties-in-place-section-301-trade-act-of-1974-ieepa-section-122-trade-policy-economy"
+    },
+    {
+      "id": "eff647c276cfc425",
+      "category": "科技与产业",
+      "title": "AI robot enters Salamanca classrooms , sparking questions about teachers and student ties",
+      "url": "https://cnycentral.com/news/local/ai-robot-enters-salamanca-classrooms-sparking-questions-about-teachers-and-student-ties",
+      "source": "cnycentral.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cnycentral.com/news/local/ai-robot-enters-salamanca-classrooms-sparking-questions-about-teachers-and-student-ties"
+    },
+    {
+      "id": "6c54d5d844b9de63",
+      "category": "全球与地区",
+      "title": "Trump set to impose sweeping tariffs on 60 trade partners",
+      "url": "https://abcnews.com/Business/trump-set-impose-sweeping-tariffs-60-trade-partners/story?id=135020049",
+      "source": "abcnews.com",
+      "publishedAt": "2026-07-23T22:45:00Z",
+      "fetchedAt": "2026-07-23T23:16:16.163Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://abcnews.com/Business/trump-set-impose-sweeping-tariffs-60-trade-partners/story?id=135020049"
+    },
     {
       "id": "7a52c55020010c85",
       "category": "能源与航运",
@@ -1245,413 +1634,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.moneycontrol.com/news/business/indigo-q1-results-profit-to-fall-13980811.html"
-    },
-    {
-      "id": "eef4b8d2d3b580d2",
-      "category": "金属与资源",
-      "title": "Die 10 goldenen Dinner - Regeln für den Italienurlaub",
-      "url": "https://www.kreiszeitung.de/leben/reisen/die-10-goldenen-dinner-regeln-fuer-den-italienurlaub-zr-94408764.html",
-      "source": "kreiszeitung.de",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kreiszeitung.de/leben/reisen/die-10-goldenen-dinner-regeln-fuer-den-italienurlaub-zr-94408764.html"
-    },
-    {
-      "id": "69f4f8e44daa2274",
-      "category": "A股与政策",
-      "title": "A股三大指數漲跌互現 貴金屬板塊狂飆6 % - 財經",
-      "url": "https://www.wenweipo.com/a/202607/22/AP6a6077fae4b0c1e50021c302.html",
-      "source": "wenweipo.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wenweipo.com/a/202607/22/AP6a6077fae4b0c1e50021c302.html"
-    },
-    {
-      "id": "3a1dd40aa2b1e18c",
-      "category": "全球与地区",
-      "title": "The Picture Behind the Numbers : Refugees , Power and the Human Cost of Geopolitics",
-      "url": "https://www.fairobserver.com/region/latin_america/the-picture-behind-the-numbers-refugees-power-and-the-human-cost-of-geopolitics/",
-      "source": "fairobserver.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fairobserver.com/region/latin_america/the-picture-behind-the-numbers-refugees-power-and-the-human-cost-of-geopolitics/"
-    },
-    {
-      "id": "243485705e52a016",
-      "category": "能源与航运",
-      "title": "Trumpas : už kiekvieną Irano ataką Hormuzo sąsiauryje JAV sunaikins po tiltą ar jėgainę",
-      "url": "https://kauno.diena.lt/naujienos/pasaulis/konfliktai-nelaimes/trumpas-uz-kiekviena-irano-ataka-hormuzo-sasiauryje-jav-sunaikins-po-tilta-ar-jegaine-1766873",
-      "source": "kauno.diena.lt",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Lithuania"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://kauno.diena.lt/naujienos/pasaulis/konfliktai-nelaimes/trumpas-uz-kiekviena-irano-ataka-hormuzo-sasiauryje-jav-sunaikins-po-tilta-ar-jegaine-1766873"
-    },
-    {
-      "id": "96c883aa9327b7e4",
-      "category": "能源与航运",
-      "title": "Baystreet . ca - China Next Move Could Decide Where Oil Prices Go This Year",
-      "url": "http://baystreet.ca/commodities/8845/Chinas-Next-Move-Could-Decide-Where-Oil-Prices-Go-This-Year",
-      "source": "baystreet.ca",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://baystreet.ca/commodities/8845/Chinas-Next-Move-Could-Decide-Where-Oil-Prices-Go-This-Year"
-    },
-    {
-      "id": "5aa4626e03aad62f",
-      "category": "能源与航运",
-      "title": "Martin Lewis says it isnt enough after Andy Burnham energy bills update",
-      "url": "https://www.chroniclelive.co.uk/news/cost-of-living/martin-lewis-says-it-isnt-34332817",
-      "source": "chroniclelive.co.uk",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chroniclelive.co.uk/news/cost-of-living/martin-lewis-says-it-isnt-34332817"
-    },
-    {
-      "id": "bcd9b27c90a5dcc0",
-      "category": "科技与产业",
-      "title": "San Diego biotechs outperform San Francisco but cant raise money – San Diego Union - Tribune",
-      "url": "https://www.sandiegouniontribune.com/2026/07/22/san-diego-biotechs-outperform-san-franciscos-but-cant-raise-money/",
-      "source": "sandiegouniontribune.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sandiegouniontribune.com/2026/07/22/san-diego-biotechs-outperform-san-franciscos-but-cant-raise-money/"
-    },
-    {
-      "id": "7d9e4cde278bf37a",
-      "category": "全球与地区",
-      "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
-      "url": "http://www.newyorkstatesman.com/news/279201796/trump-unveils-new-50-tariffs-on-wide-range-of-canadian-goods",
-      "source": "newyorkstatesman.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newyorkstatesman.com/news/279201796/trump-unveils-new-50-tariffs-on-wide-range-of-canadian-goods"
-    },
-    {
-      "id": "7c366ab06030a068",
-      "category": "全球与地区",
-      "title": "Proposed US tariffs on generic drugs unfeasible for Indian manufacturers , say pharma leaders",
-      "url": "http://www.austinglobe.com/news/279202889/proposed-us-tariffs-on-generic-drugs-unfeasible-for-indian-manufacturers-say-pharma-leaders",
-      "source": "austinglobe.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.austinglobe.com/news/279202889/proposed-us-tariffs-on-generic-drugs-unfeasible-for-indian-manufacturers-say-pharma-leaders"
-    },
-    {
-      "id": "28fdcb538fcd50b0",
-      "category": "能源与航运",
-      "title": "Not serious about talks : Rubio slams Iran , warns of dangerous precedent if Tehran controls Hormuz",
-      "url": "http://www.newyorkstatesman.com/news/279202881/not-serious-about-talks-rubio-slams-iran-warns-of-dangerous-precedent-if-tehran-controls-hormuz",
-      "source": "newyorkstatesman.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newyorkstatesman.com/news/279202881/not-serious-about-talks-rubio-slams-iran-warns-of-dangerous-precedent-if-tehran-controls-hormuz"
-    },
-    {
-      "id": "7741219341955266",
-      "category": "全球与地区",
-      "title": "Lawmakers press Sec . Hegseth as Iran conflict ramps back up",
-      "url": "https://www.kcra.com/article/you-dont-have-a-plan-to-win-this-war-lawmakers-press-hegseth-on-iran/73228030",
-      "source": "kcra.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kcra.com/article/you-dont-have-a-plan-to-win-this-war-lawmakers-press-hegseth-on-iran/73228030"
-    },
-    {
-      "id": "51896200f469600c",
-      "category": "能源与航运",
-      "title": "Asian shares edge higher after Wall Street climb , even as Brent oil keeps rising",
-      "url": "https://www.smdailyjournal.com/business/asian-shares-edge-higher-after-wall-street-climb-even-as-brent-oil-keeps-rising/article_6648d1f1-3404-5a23-be69-e69bba6fb4a4.html",
-      "source": "smdailyjournal.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.smdailyjournal.com/business/asian-shares-edge-higher-after-wall-street-climb-even-as-brent-oil-keeps-rising/article_6648d1f1-3404-5a23-be69-e69bba6fb4a4.html"
-    },
-    {
-      "id": "de81281b0d85f518",
-      "category": "能源与航运",
-      "title": "Trump to seek Congress approval for Saudi Arabia nuclear energy pact that lacks safeguards , sources say",
-      "url": "https://wtvbam.com/2026/07/21/trump-to-seek-congress-approval-for-saudi-arabia-nuclear-energy-pact-that-lacks-safeguards-sources-say/",
-      "source": "wtvbam.com",
-      "publishedAt": "2026-07-22T06:15:00Z",
-      "fetchedAt": "2026-07-22T06:44:14.995Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wtvbam.com/2026/07/21/trump-to-seek-congress-approval-for-saudi-arabia-nuclear-energy-pact-that-lacks-safeguards-sources-say/"
     }
   ]
 }
