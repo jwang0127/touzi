@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-24T14:16:03.925Z",
-  "newsUpdatedAt": "2026-07-24T14:16:03.925Z",
-  "assetsUpdatedAt": "2026-07-24T14:16:03.925Z",
+  "generatedAt": "2026-07-24T15:49:27.945Z",
+  "newsUpdatedAt": "2026-07-24T15:49:27.945Z",
+  "assetsUpdatedAt": "2026-07-24T15:49:27.945Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -61,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51871.92,
-      "changePercent": 0.31,
+      "price": 52059.15,
+      "changePercent": 0.67,
       "unit": "USD",
-      "asOf": "2026-07-24T10:16:59-04:00",
+      "asOf": "2026-07-24T11:49:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25012.8,
-      "changePercent": -0.5,
+      "price": 25129.84,
+      "changePercent": -0.03,
       "unit": "USD",
-      "asOf": "2026-07-24T10:16:59-04:00",
+      "asOf": "2026-07-24T11:49:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7414.36,
-      "changePercent": 0.08,
+      "price": 7444.85,
+      "changePercent": 0.49,
       "unit": "USD",
-      "asOf": "2026-07-24T10:16:59-04:00",
+      "asOf": "2026-07-24T11:49:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4061.78,
-      "changePercent": 0.29,
+      "price": 4076.37,
+      "changePercent": 0.65,
       "unit": "USD",
-      "asOf": "2026-07-24T22:17:03-04:00",
+      "asOf": "2026-07-24T23:48:54-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 89.66,
-      "changePercent": -2.74,
+      "price": 88.49,
+      "changePercent": -4.01,
       "unit": "USD",
-      "asOf": "2026-07-24T22:17:03-04:00",
+      "asOf": "2026-07-24T23:49:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.81,
-      "changePercent": -0.08,
+      "price": 635.96,
+      "changePercent": 0.25,
       "unit": "USD",
-      "asOf": "2026-07-24T22:17:01-04:00",
+      "asOf": "2026-07-24T23:48:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,244 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63927,
-      "changePercent": -1.6567759649712201,
+      "price": 64099,
+      "changePercent": -1.2317570020050765,
       "unit": "USD",
-      "asOf": "2026-07-24T14:16:19.000Z",
+      "asOf": "2026-07-24T15:48:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "9b4effa3cac367a1",
+      "category": "全球与地区",
+      "title": "Explosive drones target US forces as Iran conflict widens",
+      "url": "https://abc3340.com/news/nation-world/explosive-drones-target-us-forces-irbil-iraq-as-iran-war-conflict-widens-bahrain-central-command-american-military-strait-of-hormuz-shipping-oil-prices-houthi-rebels-oil-tankers-red-sea-president-trump",
+      "source": "abc3340.com",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://abc3340.com/news/nation-world/explosive-drones-target-us-forces-irbil-iraq-as-iran-war-conflict-widens-bahrain-central-command-american-military-strait-of-hormuz-shipping-oil-prices-houthi-rebels-oil-tankers-red-sea-president-trump"
+    },
+    {
+      "id": "e65501b8ea1ffebc",
+      "category": "全球与地区",
+      "title": "Trumps new forced - labor tariffs met with bewilderment",
+      "url": "http://www.shanghaisun.com/news/279207527/trumps-new-forced-labor-tariffs-met-with-bewilderment",
+      "source": "shanghaisun.com",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.shanghaisun.com/news/279207527/trumps-new-forced-labor-tariffs-met-with-bewilderment"
+    },
+    {
+      "id": "853398f953c46d53",
+      "category": "数字资产",
+      "title": "Zhibao Plans 3 , 500 Bitcoin Treasury with Proposed PIPE Financing",
+      "url": "https://www.chinamoneynetwork.com/2026/07/24/zhibao-plans-3500-bitcoin-treasury-with-proposed-pipe-financing",
+      "source": "chinamoneynetwork.com",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chinamoneynetwork.com/2026/07/24/zhibao-plans-3500-bitcoin-treasury-with-proposed-pipe-financing"
+    },
+    {
+      "id": "95a93404dfc14efe",
+      "category": "全球与地区",
+      "title": "Experts say Trump new Canada tariffs are already doomed",
+      "url": "https://www.niagarafallsreview.ca/thestar/business/trumps-new-tariffs-on-canada-are-legally-shaky-and-trade-lawyers-say-they-know-how-this-ends/article_3373f884-f721-566d-a382-af31075061bb.html",
+      "source": "niagarafallsreview.ca",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.niagarafallsreview.ca/thestar/business/trumps-new-tariffs-on-canada-are-legally-shaky-and-trade-lawyers-say-they-know-how-this-ends/article_3373f884-f721-566d-a382-af31075061bb.html"
+    },
+    {
+      "id": "0e0c3223a2a24368",
+      "category": "全球与地区",
+      "title": "Gordie Howe Bridge set to open Monday amid new 50 % U . S . tariffs on Canada",
+      "url": "https://wset.com/news/nation-world/gordie-howe-bridge-open-tariffs-canada-politics-michigan-detroit-windsor-trump-ontario-auto-united-states-president-threat",
+      "source": "wset.com",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wset.com/news/nation-world/gordie-howe-bridge-open-tariffs-canada-politics-michigan-detroit-windsor-trump-ontario-auto-united-states-president-threat"
+    },
+    {
+      "id": "983b9bac8d33034c",
+      "category": "全球与地区",
+      "title": "U . S . allies hit with new tariffs object to Trump forced labor claims",
+      "url": "https://www.kasu.org/business-economy/2026-07-24/u-s-allies-hit-with-new-tariffs-object-to-trumps-forced-labor-claims",
+      "source": "kasu.org",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kasu.org/business-economy/2026-07-24/u-s-allies-hit-with-new-tariffs-object-to-trumps-forced-labor-claims"
+    },
+    {
+      "id": "d220668aff7f4ca4",
+      "category": "全球与地区",
+      "title": "US Sec 301 tariffs unlikely to hit India exports , textiles need close watch , says FIEO chief",
+      "url": "http://www.bruneinews.net/news/279207360/us-sec-301-tariffs-unlikely-to-hit-india-exports-textiles-need-close-watch-says-fieo-chief",
+      "source": "bruneinews.net",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bruneinews.net/news/279207360/us-sec-301-tariffs-unlikely-to-hit-india-exports-textiles-need-close-watch-says-fieo-chief"
+    },
+    {
+      "id": "fdb5f504a79c0c92",
+      "category": "全球与地区",
+      "title": "US tariff hikes linked to claims of foreign forced labor dismay and anger trading partners – Inside INdiana Business",
+      "url": "https://www.insideindianabusiness.com/articles/us-tariff-hikes-linked-to-claims-of-foreign-forced-labor-dismay-and-anger-trading-partners",
+      "source": "insideindianabusiness.com",
+      "publishedAt": "2026-07-24T15:15:00Z",
+      "fetchedAt": "2026-07-24T15:49:27.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.insideindianabusiness.com/articles/us-tariff-hikes-linked-to-claims-of-foreign-forced-labor-dismay-and-anger-trading-partners"
+    },
     {
       "id": "5b698d4f6f0c8f3c",
       "category": "能源与航运",
@@ -511,34 +739,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wgcu.org/2026-07-24/us-allies-hit-with-new-tariffs-object-to-trumps-forced-labor-claims"
-    },
-    {
-      "id": "0b5a78aad859a9b5",
-      "category": "全球与地区",
-      "title": "Gordie Howe Bridge set to open Monday amid new 50 % U . S . tariffs on Canada",
-      "url": "https://wchstv.com/news/nation-world/gordie-howe-bridge-open-tariffs-canada-politics-michigan-detroit-windsor-trump-ontario-auto-united-states-president-threat",
-      "source": "wchstv.com",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wchstv.com/news/nation-world/gordie-howe-bridge-open-tariffs-canada-politics-michigan-detroit-windsor-trump-ontario-auto-united-states-president-threat"
     },
     {
       "id": "7c62d2e39150b392",
@@ -1399,229 +1599,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://cnycentral.com/news/nation-world/as-bridge-tariffs-expire-trump-pivots-to-new-legal-authority-to-keep-duties-in-place-section-301-trade-act-of-1974-ieepa-section-122-trade-policy-economy"
-    },
-    {
-      "id": "eff647c276cfc425",
-      "category": "科技与产业",
-      "title": "AI robot enters Salamanca classrooms , sparking questions about teachers and student ties",
-      "url": "https://cnycentral.com/news/local/ai-robot-enters-salamanca-classrooms-sparking-questions-about-teachers-and-student-ties",
-      "source": "cnycentral.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cnycentral.com/news/local/ai-robot-enters-salamanca-classrooms-sparking-questions-about-teachers-and-student-ties"
-    },
-    {
-      "id": "6c54d5d844b9de63",
-      "category": "全球与地区",
-      "title": "Trump set to impose sweeping tariffs on 60 trade partners",
-      "url": "https://abcnews.com/Business/trump-set-impose-sweeping-tariffs-60-trade-partners/story?id=135020049",
-      "source": "abcnews.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abcnews.com/Business/trump-set-impose-sweeping-tariffs-60-trade-partners/story?id=135020049"
-    },
-    {
-      "id": "7a52c55020010c85",
-      "category": "能源与航运",
-      "title": "Houthis say they attacked 2 Saudi oil tankers in the Red Sea as US carries out 12th night of strikes",
-      "url": "http://www.postregister.com/businessreport/technology/houthis-say-they-attacked-2-saudi-oil-tankers-in-the-red-sea-as-us-carries/article_7df8fd48-97ce-559a-96c3-65f880703c69.html",
-      "source": "postregister.com",
-      "publishedAt": "2026-07-23T11:15:00Z",
-      "fetchedAt": "2026-07-23T12:04:26.665Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.postregister.com/businessreport/technology/houthis-say-they-attacked-2-saudi-oil-tankers-in-the-red-sea-as-us-carries/article_7df8fd48-97ce-559a-96c3-65f880703c69.html"
-    },
-    {
-      "id": "4b94e453422245e9",
-      "category": "全球与地区",
-      "title": "Bab al - Mandab Near Yemen Emerges as Next Major Threat to Global Shipping Routes",
-      "url": "https://horseedmedia.net/bab-al-mandab-near-yemen-emerges-as-next-major-threat-to-global-shipping-routes/424041/",
-      "source": "horseedmedia.net",
-      "publishedAt": "2026-07-23T11:15:00Z",
-      "fetchedAt": "2026-07-23T12:04:26.665Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Somalia"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://horseedmedia.net/bab-al-mandab-near-yemen-emerges-as-next-major-threat-to-global-shipping-routes/424041/"
-    },
-    {
-      "id": "b2a0888e0a4b88f9",
-      "category": "金属与资源",
-      "title": "MasterOfCrafts | Weaving the golden legacy of Nanjing : a Yunjin inheritor story",
-      "url": "http://www.chinanationalnews.com/news/279204825/masterofcrafts-weaving-the-golden-legacy-of-nanjing-a-yunjin-inheritor-story",
-      "source": "chinanationalnews.com",
-      "publishedAt": "2026-07-23T11:15:00Z",
-      "fetchedAt": "2026-07-23T12:04:26.665Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.chinanationalnews.com/news/279204825/masterofcrafts-weaving-the-golden-legacy-of-nanjing-a-yunjin-inheritor-story"
-    },
-    {
-      "id": "2171b73446479598",
-      "category": "金属与资源",
-      "title": "SPDR Gold Shares $GLD Shares Sold by Levin Capital Strategies L . P .",
-      "url": "https://www.themarketsdaily.com/2026/07/23/spdr-gold-shares-gld-shares-sold-by-levin-capital-strategies-l-p.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-07-23T11:15:00Z",
-      "fetchedAt": "2026-07-23T12:04:26.665Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/07/23/spdr-gold-shares-gld-shares-sold-by-levin-capital-strategies-l-p.html"
-    },
-    {
-      "id": "691f80343713fc14",
-      "category": "金属与资源",
-      "title": "Mizuho Markets Cayman LP Makes New Investment in VanEck Gold Miners ETF $GDX",
-      "url": "https://www.dailypolitical.com/2026/07/23/mizuho-markets-cayman-lp-makes-new-investment-in-vaneck-gold-miners-etf-gdx.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-07-23T11:15:00Z",
-      "fetchedAt": "2026-07-23T12:04:26.665Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/07/23/mizuho-markets-cayman-lp-makes-new-investment-in-vaneck-gold-miners-etf-gdx.html"
     }
   ]
 }
