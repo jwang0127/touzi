@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-24T06:41:40.041Z",
-  "newsUpdatedAt": "2026-07-23T23:16:16.163Z",
-  "assetsUpdatedAt": "2026-07-24T06:41:40.041Z",
+  "generatedAt": "2026-07-24T09:37:12.945Z",
+  "newsUpdatedAt": "2026-07-24T09:37:12.945Z",
+  "assetsUpdatedAt": "2026-07-24T09:37:12.945Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3816.08,
-      "changePercent": -1.57,
+      "price": 3814.2,
+      "changePercent": -1.61,
       "unit": "CNY",
-      "asOf": "2026-07-24T14:42:24+08:00",
+      "asOf": "2026-07-24T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13818.55,
-      "changePercent": -2.16,
+      "price": 13774.68,
+      "changePercent": -2.47,
       "unit": "CNY",
-      "asOf": "2026-07-24T14:42:24+08:00",
+      "asOf": "2026-07-24T16:14:36+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24884.26,
-      "changePercent": -1.3,
+      "price": 24963.23,
+      "changePercent": -0.98,
       "unit": "HKD",
-      "asOf": "2026-07-24T14:27:23+08:00",
+      "asOf": "2026-07-24T17:23:03+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8256.07,
-      "changePercent": -1.16,
+      "price": 8271.06,
+      "changePercent": -0.98,
       "unit": "HKD",
-      "asOf": "2026-07-24T14:27:22+08:00",
+      "asOf": "2026-07-24T16:08:30+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4036.74,
-      "changePercent": -0.33,
+      "price": 4058.22,
+      "changePercent": 0.2,
       "unit": "USD",
-      "asOf": "2026-07-24T14:41:53-04:00",
+      "asOf": "2026-07-24T17:37:48-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 91.17,
-      "changePercent": -1.11,
+      "price": 88.91,
+      "changePercent": -3.55,
       "unit": "USD",
-      "asOf": "2026-07-24T14:42:03-04:00",
+      "asOf": "2026-07-24T17:38:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.87,
-      "changePercent": -0.08,
+      "price": 635.74,
+      "changePercent": 0.22,
       "unit": "USD",
-      "asOf": "2026-07-24T14:42:03-04:00",
+      "asOf": "2026-07-24T17:38:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,177 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65446,
-      "changePercent": -0.4125155023926391,
+      "price": 64958,
+      "changePercent": -1.09460920212543,
       "unit": "USD",
-      "asOf": "2026-07-24T06:40:20.000Z",
+      "asOf": "2026-07-24T09:37:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "62224a1674b42e65",
+      "category": "全球与地区",
+      "title": "Lysol Maker Reckitt to Offload Sanctions - Hit Russian Hygiene Business Update",
+      "url": "https://www.morningstar.com/news/dow-jones/202607241680/lysol-maker-reckitt-to-offload-sanctions-hit-russian-hygiene-business-update",
+      "source": "morningstar.com",
+      "publishedAt": "2026-07-24T09:15:00Z",
+      "fetchedAt": "2026-07-24T09:37:12.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.morningstar.com/news/dow-jones/202607241680/lysol-maker-reckitt-to-offload-sanctions-hit-russian-hygiene-business-update"
+    },
+    {
+      "id": "78310a94f25ab366",
+      "category": "金属与资源",
+      "title": "Teck Shares Driven by the Booming Copper Price and Its Upcoming Merger With Anglo American",
+      "url": "https://www.morningstar.com/company-reports/1489914-teck-shares-driven-by-the-booming-copper-price-and-its-upcoming-merger-with-anglo-american",
+      "source": "morningstar.com",
+      "publishedAt": "2026-07-24T09:15:00Z",
+      "fetchedAt": "2026-07-24T09:37:12.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.morningstar.com/company-reports/1489914-teck-shares-driven-by-the-booming-copper-price-and-its-upcoming-merger-with-anglo-american"
+    },
+    {
+      "id": "0de45bcc72b5eef7",
+      "category": "科技与产业",
+      "title": "Shanghai Electric showcases embodied intelligence robot matrix and AI - native smart factory solutions at WAIC 2026",
+      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/24/1864389/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026/",
+      "source": "portal.sina.com.hk",
+      "publishedAt": "2026-07-24T09:15:00Z",
+      "fetchedAt": "2026-07-24T09:37:12.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Hong Kong"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/24/1864389/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026/"
+    },
+    {
+      "id": "fc28da8a462f2f5e",
+      "category": "金属与资源",
+      "title": "Heavy Metal am Herd",
+      "url": "http://www.op-online.de/unterhaltung/heavy-metal-am-herd-zr-94412817.html",
+      "source": "op-online.de",
+      "publishedAt": "2026-07-24T09:00:00Z",
+      "fetchedAt": "2026-07-24T09:37:12.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.op-online.de/unterhaltung/heavy-metal-am-herd-zr-94412817.html"
+    },
+    {
+      "id": "cfc9237b93ec1671",
+      "category": "能源与航运",
+      "title": "When Good Oils Go Bad",
+      "url": "https://cbn.co.za/industry-news/maintenance-services-news/when-good-oils-go-bad-2/",
+      "source": "cbn.co.za",
+      "publishedAt": "2026-07-24T09:00:00Z",
+      "fetchedAt": "2026-07-24T09:37:12.945Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cbn.co.za/industry-news/maintenance-services-news/when-good-oils-go-bad-2/"
+    },
     {
       "id": "6c176a9e74cb7802",
       "category": "能源与航运",
@@ -1486,156 +1647,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.tyzden.sk/svet/137384/udalost-dna-trump-vyhlasil-ze-usa-znicia-most-ci-elektraren-v-irane-vzdy-ked-zautoci-na-lod-v-hormuze/"
-    },
-    {
-      "id": "6bae556032546829",
-      "category": "全球与地区",
-      "title": "Trump Threatens 100 Percent Generic Drug Tariffs",
-      "url": "https://945wpti.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
-      "source": "945wpti.iheart.com",
-      "publishedAt": "2026-07-22T16:30:00Z",
-      "fetchedAt": "2026-07-22T16:50:50.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://945wpti.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
-    },
-    {
-      "id": "02c31f2f76d8404e",
-      "category": "全球与地区",
-      "title": "Trump Threatens 100 Percent Generic Drug Tariffs | Newsradio WOOD 1300 and 106 . 9 FM",
-      "url": "https://woodradio.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
-      "source": "woodradio.iheart.com",
-      "publishedAt": "2026-07-22T16:30:00Z",
-      "fetchedAt": "2026-07-22T16:50:50.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://woodradio.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
-    },
-    {
-      "id": "e17e9687086cdc71",
-      "category": "全球与地区",
-      "title": "Trump Threatens 100 Percent Generic Drug Tariffs | NewsTalk WMEQ",
-      "url": "https://wmeq.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/",
-      "source": "wmeq.iheart.com",
-      "publishedAt": "2026-07-22T16:30:00Z",
-      "fetchedAt": "2026-07-22T16:50:50.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wmeq.iheart.com/content/2026-07-22-trump-threatens-100-percent-generic-drug-tariffs/"
-    },
-    {
-      "id": "b95de969a9c16240",
-      "category": "全球与地区",
-      "title": "Column : The air conditioner paradox : Europe is too hot for tariffs on China",
-      "url": "http://www.shanghaisun.com/news/279202862/column-the-air-conditioner-paradox-europe-is-too-hot-for-tariffs-on-china",
-      "source": "shanghaisun.com",
-      "publishedAt": "2026-07-22T16:30:00Z",
-      "fetchedAt": "2026-07-22T16:50:50.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.shanghaisun.com/news/279202862/column-the-air-conditioner-paradox-europe-is-too-hot-for-tariffs-on-china"
-    },
-    {
-      "id": "bc2f6a61a5f68012",
-      "category": "能源与航运",
-      "title": "IndiGo Q1 preview : Profits seen falling despite higher airfares amid crude price surge",
-      "url": "https://www.moneycontrol.com/news/business/indigo-q1-results-profit-to-fall-13980811.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-07-22T14:00:00Z",
-      "fetchedAt": "2026-07-22T14:27:08.572Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/news/business/indigo-q1-results-profit-to-fall-13980811.html"
     }
   ]
 }
