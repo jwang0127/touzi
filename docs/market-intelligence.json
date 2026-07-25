@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-25T09:13:57.761Z",
-  "newsUpdatedAt": "2026-07-24T17:54:36.934Z",
-  "assetsUpdatedAt": "2026-07-25T09:13:57.761Z",
+  "generatedAt": "2026-07-25T10:47:18.083Z",
+  "newsUpdatedAt": "2026-07-25T10:47:18.083Z",
+  "assetsUpdatedAt": "2026-07-25T10:47:18.083Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,349 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63802,
-      "changePercent": -1.9409976003938998,
+      "price": 63961,
+      "changePercent": -1.5849319788408776,
       "unit": "USD",
-      "asOf": "2026-07-25T09:12:40.000Z",
+      "asOf": "2026-07-25T10:46:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "20c5ec86192a9364",
+      "category": "金属与资源",
+      "title": "Entropy Technologies LP Has $6 . 93 Million Stock Holdings in Kinross Gold Corporation $KGC",
+      "url": "https://www.themarketsdaily.com/2026/07/25/entropy-technologies-lp-has-6-93-million-stock-holdings-in-kinross-gold-corporation-kgc.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/07/25/entropy-technologies-lp-has-6-93-million-stock-holdings-in-kinross-gold-corporation-kgc.html"
+    },
+    {
+      "id": "15b73f72d6f16c5d",
+      "category": "能源与航运",
+      "title": "Avertisment AIE : Economia mondială riscă o nouă criză energetică dacă blocajele din Strâmtoarea Hormuz continuă",
+      "url": "https://www.dailybusiness.ro/economie/avertisment-aie-economia-mondiala-risca-o-noua-criza-energetica-daca-blocajele-din-stramtoarea-hormuz-continua-546733/",
+      "source": "dailybusiness.ro",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailybusiness.ro/economie/avertisment-aie-economia-mondiala-risca-o-noua-criza-energetica-daca-blocajele-din-stramtoarea-hormuz-continua-546733/"
+    },
+    {
+      "id": "74900a0895648405",
+      "category": "能源与航运",
+      "title": "Trust before pipelines : Why credibility has become the Middle East most valuable energy asset – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260725-trust-before-pipelines-why-credibility-has-become-the-middle-easts-most-valuable-energy-asset/",
+      "source": "middleeastmonitor.com",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeastmonitor.com/20260725-trust-before-pipelines-why-credibility-has-become-the-middle-easts-most-valuable-energy-asset/"
+    },
+    {
+      "id": "e93917141bcc42f0",
+      "category": "金属与资源",
+      "title": "Dont dig anything less than gold - Actress Bukky Wright tells ladies",
+      "url": "https://dailypost.ng/2026/07/25/dont-dig-anything-less-than-gold-actress-bukky-wright-tells-ladies/",
+      "source": "dailypost.ng",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://dailypost.ng/2026/07/25/dont-dig-anything-less-than-gold-actress-bukky-wright-tells-ladies/"
+    },
+    {
+      "id": "262ae7550a939bc5",
+      "category": "全球与地区",
+      "title": "UN chief deeply alarmed over attacks on vessels in Red Sea , warns Yemen risks deeper regional conflict",
+      "url": "https://news.webindia123.com/news/Articles/World/20260725/4479035.html",
+      "source": "news.webindia123.com",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20260725/4479035.html"
+    },
+    {
+      "id": "6a0470277ba568a5",
+      "category": "金属与资源",
+      "title": "East of England Ambulance Service receives gold award",
+      "url": "https://www.echo-news.co.uk/news/26299507.east-england-ambulance-service-receives-gold-award/",
+      "source": "echo-news.co.uk",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.echo-news.co.uk/news/26299507.east-england-ambulance-service-receives-gold-award/"
+    },
+    {
+      "id": "501f5209c4978e51",
+      "category": "能源与航运",
+      "title": "China oil stockpiles cushion global market volatility amid rising crude prices : Sparta Commoditie June Goh",
+      "url": "http://www.middleeaststar.com/news/279208823/china-oil-stockpiles-cushion-global-market-volatility-amid-rising-crude-prices-sparta-commodities-june-goh",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279208823/china-oil-stockpiles-cushion-global-market-volatility-amid-rising-crude-prices-sparta-commodities-june-goh"
+    },
+    {
+      "id": "2727c1c0d8b37573",
+      "category": "科技与产业",
+      "title": "Künstliche Intelligenz : Roboter können eines niemals ersetzen",
+      "url": "https://www.braunschweiger-zeitung.de/politik/article412644117/die-menschheit-verliert-wenn-sie-die-pflege-der-ki-ueberlaesst.html",
+      "source": "braunschweiger-zeitung.de",
+      "publishedAt": "2026-07-25T10:15:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.braunschweiger-zeitung.de/politik/article412644117/die-menschheit-verliert-wenn-sie-die-pflege-der-ki-ueberlaesst.html"
+    },
+    {
+      "id": "610dbecca9f4b3e4",
+      "category": "金属与资源",
+      "title": "Barrow band The Silver Bars to open Kendal Calling main stage",
+      "url": "https://www.bbc.com/news/articles/c8endlnzeg4o",
+      "source": "bbc.com",
+      "publishedAt": "2026-07-25T09:30:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bbc.com/news/articles/c8endlnzeg4o"
+    },
+    {
+      "id": "56c4ccaa42f6d563",
+      "category": "金属与资源",
+      "title": "Unlocking Hidden Wealth : America Coal Ash Could Yield Billions in Rare Earth Elements |",
+      "url": "https://timesofindia.indiatimes.com/science/americas-coal-plants-left-behind-1-87-billion-tonnes-of-ash-researchers-say-it-could-yield-8-4-billion-in-rare-earth-elements/articleshow/132602678.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-07-25T09:30:00Z",
+      "fetchedAt": "2026-07-25T10:47:18.083Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/science/americas-coal-plants-left-behind-1-87-billion-tonnes-of-ash-researchers-say-it-could-yield-8-4-billion-in-rare-earth-elements/articleshow/132602678.cms"
+    },
     {
       "id": "32f99d40ca5dfe1c",
       "category": "全球与地区",
@@ -1289,321 +1620,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.dailysabah.com/business/economy/what-it-costs-oil-tankers-to-flee-hormuz-bab-el-mandeb"
-    },
-    {
-      "id": "62224a1674b42e65",
-      "category": "全球与地区",
-      "title": "Lysol Maker Reckitt to Offload Sanctions - Hit Russian Hygiene Business Update",
-      "url": "https://www.morningstar.com/news/dow-jones/202607241680/lysol-maker-reckitt-to-offload-sanctions-hit-russian-hygiene-business-update",
-      "source": "morningstar.com",
-      "publishedAt": "2026-07-24T09:15:00Z",
-      "fetchedAt": "2026-07-24T09:37:12.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.morningstar.com/news/dow-jones/202607241680/lysol-maker-reckitt-to-offload-sanctions-hit-russian-hygiene-business-update"
-    },
-    {
-      "id": "78310a94f25ab366",
-      "category": "金属与资源",
-      "title": "Teck Shares Driven by the Booming Copper Price and Its Upcoming Merger With Anglo American",
-      "url": "https://www.morningstar.com/company-reports/1489914-teck-shares-driven-by-the-booming-copper-price-and-its-upcoming-merger-with-anglo-american",
-      "source": "morningstar.com",
-      "publishedAt": "2026-07-24T09:15:00Z",
-      "fetchedAt": "2026-07-24T09:37:12.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.morningstar.com/company-reports/1489914-teck-shares-driven-by-the-booming-copper-price-and-its-upcoming-merger-with-anglo-american"
-    },
-    {
-      "id": "0de45bcc72b5eef7",
-      "category": "科技与产业",
-      "title": "Shanghai Electric showcases embodied intelligence robot matrix and AI - native smart factory solutions at WAIC 2026",
-      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/24/1864389/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026/",
-      "source": "portal.sina.com.hk",
-      "publishedAt": "2026-07-24T09:15:00Z",
-      "fetchedAt": "2026-07-24T09:37:12.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Hong Kong"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/07/24/1864389/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026/"
-    },
-    {
-      "id": "fc28da8a462f2f5e",
-      "category": "金属与资源",
-      "title": "Heavy Metal am Herd",
-      "url": "http://www.op-online.de/unterhaltung/heavy-metal-am-herd-zr-94412817.html",
-      "source": "op-online.de",
-      "publishedAt": "2026-07-24T09:00:00Z",
-      "fetchedAt": "2026-07-24T09:37:12.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.op-online.de/unterhaltung/heavy-metal-am-herd-zr-94412817.html"
-    },
-    {
-      "id": "cfc9237b93ec1671",
-      "category": "能源与航运",
-      "title": "When Good Oils Go Bad",
-      "url": "https://cbn.co.za/industry-news/maintenance-services-news/when-good-oils-go-bad-2/",
-      "source": "cbn.co.za",
-      "publishedAt": "2026-07-24T09:00:00Z",
-      "fetchedAt": "2026-07-24T09:37:12.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cbn.co.za/industry-news/maintenance-services-news/when-good-oils-go-bad-2/"
-    },
-    {
-      "id": "6c176a9e74cb7802",
-      "category": "能源与航运",
-      "title": "Gas , groceries and back - to - school items are where shoppers might see higher oil prices surface",
-      "url": "https://krmg.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/",
-      "source": "krmg.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://krmg.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/"
-    },
-    {
-      "id": "2b6a70c4a6123324",
-      "category": "全球与地区",
-      "title": "Nuovi dazi united states dal 10 al 12 . 5 % per oltre 60 Paesi , c è anche lUe . Le tariffe in vigore da oggi",
-      "url": "https://www.ilmessaggero.it/economia/news/dazi_usa_nuove_tariffe_europa_cosa_cambia-9668881.html",
-      "source": "ilmessaggero.it",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ilmessaggero.it/economia/news/dazi_usa_nuove_tariffe_europa_cosa_cambia-9668881.html"
-    },
-    {
-      "id": "68e18a2cc49a868f",
-      "category": "能源与航运",
-      "title": "Oil Surges Above $100 | Rigzone",
-      "url": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/",
-      "source": "rigzone.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/"
-    },
-    {
-      "id": "1d4ee241d431f54f",
-      "category": "全球与地区",
-      "title": "South Korea faces possible new U . S . forced - labor tariff",
-      "url": "https://www.upi.com/Top_News/World-News/2026/07/23/ustr-could-impose-additional-tariff/5351784844406/",
-      "source": "upi.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.upi.com/Top_News/World-News/2026/07/23/ustr-could-impose-additional-tariff/5351784844406/"
-    },
-    {
-      "id": "8c4ee171180e870d",
-      "category": "科技与产业",
-      "title": "AI Chip Stocks Just Got Crushed . 3 Semiconductor ETFs to Buy the Dip On",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-just-got-221404136.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-07-23T22:45:00Z",
-      "fetchedAt": "2026-07-23T23:16:16.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-just-got-221404136.html"
     }
   ]
 }
