@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-25T12:11:17.785Z",
-  "newsUpdatedAt": "2026-07-25T12:11:17.785Z",
-  "assetsUpdatedAt": "2026-07-25T12:11:17.785Z",
+  "generatedAt": "2026-07-25T14:04:41.359Z",
+  "newsUpdatedAt": "2026-07-25T14:04:41.359Z",
+  "assetsUpdatedAt": "2026-07-25T14:04:41.359Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,83 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64001,
-      "changePercent": -1.5986554182631925,
+      "price": 64077,
+      "changePercent": 0.13494943821354677,
       "unit": "USD",
-      "asOf": "2026-07-25T12:11:10.000Z",
+      "asOf": "2026-07-25T14:03:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "7f44e22dac0f7a5f",
+      "category": "能源与航运",
+      "title": "Opposition rallies in Taipei over tainted cooking oil scandal",
+      "url": "https://focustaiwan.tw:443/politics/202607250014",
+      "source": "focustaiwan.tw",
+      "publishedAt": "2026-07-25T13:30:00Z",
+      "fetchedAt": "2026-07-25T14:04:41.359Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://focustaiwan.tw:443/politics/202607250014"
+    },
+    {
+      "id": "28a6256caa3803cc",
+      "category": "科技与产业",
+      "title": "NVIDIA releases major collection of open - source physical AI skills for robots , AVs and factories through Agent Toolkit",
+      "url": "https://gcn.com/agent-toolkit-nvidia-releases-major-collection/20023/",
+      "source": "gcn.com",
+      "publishedAt": "2026-07-25T13:30:00Z",
+      "fetchedAt": "2026-07-25T14:04:41.359Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcn.com/agent-toolkit-nvidia-releases-major-collection/20023/"
+    },
     {
       "id": "5f173a75285529e9",
       "category": "金属与资源",
@@ -1574,66 +1643,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.upr.org/npr-news/2026-07-24/trump-refuses-to-give-up-on-tariffs-a-pillar-of-his-economic-legacy"
-    },
-    {
-      "id": "d9f2cdcaad9e0f7c",
-      "category": "全球与地区",
-      "title": "Trump tariffs : Canada , Mexico among countries getting hit",
-      "url": "https://www.bnnbloomberg.ca/tariffs/2026/07/24/citing-forced-labour-trump-hits-canada-and-dozens-of-countries-with-new-tariffs/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/tariffs/2026/07/24/citing-forced-labour-trump-hits-canada-and-dozens-of-countries-with-new-tariffs/"
-    },
-    {
-      "id": "7d90718df9f94ec5",
-      "category": "科技与产业",
-      "title": "Men twice as likely as women to fall in love with a robot",
-      "url": "http://www.wataugademocrat.com/news/national/men-twice-as-likely-as-women-to-fall-in-love-with-a-robot/article_e70023c1-b179-5ee6-866b-c63e3cdd2bde.html",
-      "source": "wataugademocrat.com",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.wataugademocrat.com/news/national/men-twice-as-likely-as-women-to-fall-in-love-with-a-robot/article_e70023c1-b179-5ee6-866b-c63e3cdd2bde.html"
     }
   ]
 }
