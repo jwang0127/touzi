@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-26T07:46:52.632Z",
-  "newsUpdatedAt": "2026-07-26T07:46:52.632Z",
-  "assetsUpdatedAt": "2026-07-26T07:46:52.632Z",
+  "generatedAt": "2026-07-26T10:13:50.412Z",
+  "newsUpdatedAt": "2026-07-26T10:13:50.412Z",
+  "assetsUpdatedAt": "2026-07-26T10:13:50.412Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,178 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64303,
-      "changePercent": 0.49927858914945583,
+      "price": 64451,
+      "changePercent": 0.7517312418777933,
       "unit": "USD",
-      "asOf": "2026-07-26T07:46:00.000Z",
+      "asOf": "2026-07-26T10:14:51.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e791d15d5c78fa67",
+      "category": "金属与资源",
+      "title": "Gold theft raigad : कामोठ्यात पुन्हा चैन स्नॅचिंगचा धुमाकूळ ; सोसायटीच्या आवारात महिलेच्या गळ्यातील १८ ग्रॅम सोन्याची चैन लंपास",
+      "url": "https://pudhari.news/maharashtra/raigad/gold-theft-raigad-kamothe-chain-snatching-incident-mk94",
+      "source": "pudhari.news",
+      "publishedAt": "2026-07-26T09:45:00Z",
+      "fetchedAt": "2026-07-26T10:13:50.412Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pudhari.news/maharashtra/raigad/gold-theft-raigad-kamothe-chain-snatching-incident-mk94"
+    },
+    {
+      "id": "c2e16f83eb67d4ed",
+      "category": "能源与航运",
+      "title": "Ukraine Attacks on Caspian Oil Pipeline are Acts of Energy Terrorism",
+      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260725-sputnik04.htm",
+      "source": "globalsecurity.org",
+      "publishedAt": "2026-07-26T09:45:00Z",
+      "fetchedAt": "2026-07-26T10:13:50.412Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260725-sputnik04.htm"
+    },
+    {
+      "id": "2eebfe704e94af50",
+      "category": "金属与资源",
+      "title": "Rheinmetall Aktie : China verhängt Exportbeschränkungen gegen 14 Firmen",
+      "url": "https://www.boerse-express.com/news/articles/rheinmetall-aktie-china-verhaengt-exportbeschraenkungen-gegen-14-firmen-932315",
+      "source": "boerse-express.com",
+      "publishedAt": "2026-07-26T09:45:00Z",
+      "fetchedAt": "2026-07-26T10:13:50.412Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boerse-express.com/news/articles/rheinmetall-aktie-china-verhaengt-exportbeschraenkungen-gegen-14-firmen-932315"
+    },
+    {
+      "id": "8c45787a50a7954a",
+      "category": "能源与航运",
+      "title": "The great gas race : Who is holding the keys to Europes energy future",
+      "url": "http://www.northkoreatimes.com/news/279210803/the-great-gas-race-who-is-holding-the-keys-to-europes-energy-future",
+      "source": "northkoreatimes.com",
+      "publishedAt": "2026-07-26T09:45:00Z",
+      "fetchedAt": "2026-07-26T10:13:50.412Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "North Korea"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.northkoreatimes.com/news/279210803/the-great-gas-race-who-is-holding-the-keys-to-europes-energy-future"
+    },
+    {
+      "id": "f6d3c206ec86e180",
+      "category": "数字资产",
+      "title": "Trump made a big Bitcoin push . Investors arent biting",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-made-big-bitcoin-push-090547713.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-07-26T09:45:00Z",
+      "fetchedAt": "2026-07-26T10:13:50.412Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/trump-made-big-bitcoin-push-090547713.html"
+    },
     {
       "id": "4fc6233ecd1c69ef",
       "category": "金属与资源",
@@ -1501,165 +1665,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.iraqsun.com/news/279207409/sustained-oil-rally-may-pressure-indian-equity-market-rupee-renewables-evs-could-gain-experts"
-    },
-    {
-      "id": "7f7779b304332615",
-      "category": "全球与地区",
-      "title": "Trump imposes double - digit tariffs on dozens of countries as his 10 % levies are set to expire Friday",
-      "url": "https://www.kfvs12.com/2026/07/23/trump-imposes-double-digit-tariffs-dozens-countries-his-10-levies-are-set-expire-friday/",
-      "source": "kfvs12.com",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kfvs12.com/2026/07/23/trump-imposes-double-digit-tariffs-dozens-countries-his-10-levies-are-set-expire-friday/"
-    },
-    {
-      "id": "2870ddc4a368cdb2",
-      "category": "全球与地区",
-      "title": "Wall Street inches higher as markets absorb war , tariffs , AI anxiety",
-      "url": "https://www.dailylocal.com/2026/07/24/wall-street-iran-war-ai/",
-      "source": "dailylocal.com",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailylocal.com/2026/07/24/wall-street-iran-war-ai/"
-    },
-    {
-      "id": "d7c36975db436116",
-      "category": "能源与航运",
-      "title": "Energy sector wants powerful reset from Andy Burnham Government",
-      "url": "https://www.newsshopper.co.uk/news/national/26407278.energy-sector-wants-powerful-reset-andy-burnhams-government/",
-      "source": "newsshopper.co.uk",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newsshopper.co.uk/news/national/26407278.energy-sector-wants-powerful-reset-andy-burnhams-government/"
-    },
-    {
-      "id": "2a2048445e488518",
-      "category": "金属与资源",
-      "title": "Newmont tops profit estimates on higher gold prices",
-      "url": "https://www.bnnbloomberg.ca/markets/gold/2026/07/24/newmont-tops-profit-estimates-on-higher-gold-prices-sees-steady-output/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/markets/gold/2026/07/24/newmont-tops-profit-estimates-on-higher-gold-prices-sees-steady-output/"
-    },
-    {
-      "id": "5a049f3bbb58dea7",
-      "category": "能源与航运",
-      "title": "Gold inches up on oil pullback",
-      "url": "https://www.bnnbloomberg.ca/markets/gold/2026/07/24/gold-inches-up-on-oil-pullback-investors-monitor-mideast-developments/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-07-24T13:45:00Z",
-      "fetchedAt": "2026-07-24T14:16:03.925Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/markets/gold/2026/07/24/gold-inches-up-on-oil-pullback-investors-monitor-mideast-developments/"
     }
   ]
 }
