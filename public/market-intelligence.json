@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-26T11:38:47.643Z",
-  "newsUpdatedAt": "2026-07-26T11:38:47.643Z",
-  "assetsUpdatedAt": "2026-07-26T11:38:47.643Z",
+  "generatedAt": "2026-07-26T14:01:42.673Z",
+  "newsUpdatedAt": "2026-07-26T14:01:42.673Z",
+  "assetsUpdatedAt": "2026-07-26T14:01:42.673Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -127,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64455,
-      "changePercent": 0.684750903243824,
+      "price": 64473,
+      "changePercent": 0.6153516774611969,
       "unit": "USD",
-      "asOf": "2026-07-26T11:38:10.000Z",
+      "asOf": "2026-07-26T14:01:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -138,13 +138,13 @@
   ],
   "news": [
     {
-      "id": "2972b472b7012bf0",
+      "id": "dde1681da560d524",
       "category": "科技与产业",
       "title": "Meet the robots programmed by kids to speak their Indigenous languages",
-      "url": "https://www.wknofm.org/culture-npr/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages",
-      "source": "wknofm.org",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
+      "url": "https://www.capeandislands.org/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages",
+      "source": "capeandislands.org",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -167,7 +167,202 @@
       "impact": "待观察",
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wknofm.org/culture-npr/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages"
+      "provenanceUrl": "https://www.capeandislands.org/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages"
+    },
+    {
+      "id": "3856d61f0daf08fa",
+      "category": "能源与航运",
+      "title": "Energy corridors to Europe : Former colonies are taking the valve",
+      "url": "http://www.japanherald.com/news/279210948/energy-corridors-to-europe-former-colonies-are-taking-the-valve",
+      "source": "japanherald.com",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Japan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.japanherald.com/news/279210948/energy-corridors-to-europe-former-colonies-are-taking-the-valve"
+    },
+    {
+      "id": "4c85a6be047397e0",
+      "category": "金属与资源",
+      "title": "LKA Gold ( OTCMKTS : LKAI ) Stock Price Crosses Above 50 - Day Moving Average – Here Why",
+      "url": "https://www.dailypolitical.com/2026/07/26/lka-gold-otcmktslkai-stock-price-crosses-above-50-day-moving-average-heres-why.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/07/26/lka-gold-otcmktslkai-stock-price-crosses-above-50-day-moving-average-heres-why.html"
+    },
+    {
+      "id": "1c06fa3ee140cb5c",
+      "category": "科技与产业",
+      "title": "De la Lune aux champs de bataille | Des robots sur tous les fronts",
+      "url": "https://www.lapresse.ca/actualites/sciences/2026-07-26/de-la-lune-aux-champs-de-bataille/des-robots-sur-tous-les-fronts.php",
+      "source": "lapresse.ca",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.lapresse.ca/actualites/sciences/2026-07-26/de-la-lune-aux-champs-de-bataille/des-robots-sur-tous-les-fronts.php"
+    },
+    {
+      "id": "ac88141fe33f9327",
+      "category": "金属与资源",
+      "title": "Gold : JPMorgan sieht 8 . 000 bis 8 . 500 Dollar",
+      "url": "https://www.boerse-express.com/news/articles/gold-jpmorgan-sieht-8000-bis-8500-dollar-932369",
+      "source": "boerse-express.com",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boerse-express.com/news/articles/gold-jpmorgan-sieht-8000-bis-8500-dollar-932369"
+    },
+    {
+      "id": "64dc17fdf29b9f04",
+      "category": "数字资产",
+      "title": "SpaceX and Tesla CEO Elon Musk Issues Stark 2036 Prediction That Could Be About To Blow Up The Bitcoin Price",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/07/26/elon-musks-stark-2036-prediction-could-be-about-to-change-everything/",
+      "source": "forbes.com",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.forbes.com/sites/digital-assets/2026/07/26/elon-musks-stark-2036-prediction-could-be-about-to-change-everything/"
+    },
+    {
+      "id": "1e7841c9eb780047",
+      "category": "金属与资源",
+      "title": "Rishikanta Singh CWG 2026 Silver Medal Win",
+      "url": "https://www.newkerala.com/news/a/rishikanta-singh-delighted-cwg-2026-silver-vows-more-951.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-07-26T13:15:00Z",
+      "fetchedAt": "2026-07-26T14:01:42.673Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/rishikanta-singh-delighted-cwg-2026-silver-vows-more-951.htm"
     },
     {
       "id": "7f4fc1bb77968a4e",
@@ -1517,180 +1712,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://theturtleislandnews.com/index.php/2026/07/24/brazil-uses-forensic-science-to-trace-golds-origin-and-tackle-illegal-mining-in-the-amazon/"
-    },
-    {
-      "id": "e32a6147184e06d3",
-      "category": "金属与资源",
-      "title": "Smythson Returns to Heathrow Terminal 5 With a Gold - stamping Station",
-      "url": "https://wwd.com/accessories-news/leather-goods/smythson-reopens-heathrow-high-end-traveler-gold-stamping-1239081558/",
-      "source": "wwd.com",
-      "publishedAt": "2026-07-24T17:30:00Z",
-      "fetchedAt": "2026-07-24T17:54:36.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wwd.com/accessories-news/leather-goods/smythson-reopens-heathrow-high-end-traveler-gold-stamping-1239081558/"
-    },
-    {
-      "id": "d14a043eeeee848e",
-      "category": "全球与地区",
-      "title": "Trump imposes new tariffs accounting for 99 % of US imports",
-      "url": "https://www.wtae.com/article/trump-administration-imposes-new-tariffs-99-us-imports/73254826",
-      "source": "wtae.com",
-      "publishedAt": "2026-07-24T17:30:00Z",
-      "fetchedAt": "2026-07-24T17:54:36.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wtae.com/article/trump-administration-imposes-new-tariffs-99-us-imports/73254826"
-    },
-    {
-      "id": "bc2246a3c1f5dacd",
-      "category": "全球与地区",
-      "title": "Bruxelles sanctionne très fortement Google pour favoritisme et limitations imposées aux développeurs",
-      "url": "https://www.telesatellite.com/actu/69428-bruxelles-sanctionne-tres-fortement-google-pour-favoritisme-et-limitations-imposees-aux.html",
-      "source": "telesatellite.com",
-      "publishedAt": "2026-07-24T17:30:00Z",
-      "fetchedAt": "2026-07-24T17:54:36.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "France"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.telesatellite.com/actu/69428-bruxelles-sanctionne-tres-fortement-google-pour-favoritisme-et-limitations-imposees-aux.html"
-    },
-    {
-      "id": "ab2627d6b21f5f7d",
-      "category": "全球与地区",
-      "title": "US tariff hikes set by Trump dismay and anger trading partners",
-      "url": "https://www.dailycamera.com/2026/07/24/us-tariff-hikes-trading-partner-reaction/",
-      "source": "dailycamera.com",
-      "publishedAt": "2026-07-24T17:30:00Z",
-      "fetchedAt": "2026-07-24T17:54:36.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailycamera.com/2026/07/24/us-tariff-hikes-trading-partner-reaction/"
-    },
-    {
-      "id": "9b4effa3cac367a1",
-      "category": "全球与地区",
-      "title": "Explosive drones target US forces as Iran conflict widens",
-      "url": "https://abc3340.com/news/nation-world/explosive-drones-target-us-forces-irbil-iraq-as-iran-war-conflict-widens-bahrain-central-command-american-military-strait-of-hormuz-shipping-oil-prices-houthi-rebels-oil-tankers-red-sea-president-trump",
-      "source": "abc3340.com",
-      "publishedAt": "2026-07-24T15:15:00Z",
-      "fetchedAt": "2026-07-24T15:49:27.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abc3340.com/news/nation-world/explosive-drones-target-us-forces-irbil-iraq-as-iran-war-conflict-widens-bahrain-central-command-american-military-strait-of-hormuz-shipping-oil-prices-houthi-rebels-oil-tankers-red-sea-president-trump"
-    },
-    {
-      "id": "e65501b8ea1ffebc",
-      "category": "全球与地区",
-      "title": "Trumps new forced - labor tariffs met with bewilderment",
-      "url": "http://www.shanghaisun.com/news/279207527/trumps-new-forced-labor-tariffs-met-with-bewilderment",
-      "source": "shanghaisun.com",
-      "publishedAt": "2026-07-24T15:15:00Z",
-      "fetchedAt": "2026-07-24T15:49:27.945Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.shanghaisun.com/news/279207527/trumps-new-forced-labor-tariffs-met-with-bewilderment"
     }
   ]
 }
