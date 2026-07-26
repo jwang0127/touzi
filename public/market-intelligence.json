@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-26T19:37:51.669Z",
+  "generatedAt": "2026-07-26T21:13:35.721Z",
   "newsUpdatedAt": "2026-07-26T19:37:51.669Z",
-  "assetsUpdatedAt": "2026-07-26T19:37:51.669Z",
+  "assetsUpdatedAt": "2026-07-26T21:13:35.721Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -22,7 +22,7 @@
       "price": 3814.2,
       "changePercent": -1.61,
       "unit": "CNY",
-      "asOf": "2026-07-24T16:14:20+08:00",
+      "asOf": "2026-07-24T16:14:01+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64683,
-      "changePercent": 0.512420746387408,
+      "price": 64619,
+      "changePercent": 0.6041996929185914,
       "unit": "USD",
-      "asOf": "2026-07-26T19:37:20.000Z",
+      "asOf": "2026-07-26T21:12:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
