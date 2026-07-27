@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-27T15:54:45.925Z",
-  "newsUpdatedAt": "2026-07-27T12:38:16.626Z",
-  "assetsUpdatedAt": "2026-07-27T15:54:45.925Z",
+  "generatedAt": "2026-07-27T17:57:46.892Z",
+  "newsUpdatedAt": "2026-07-27T17:57:46.892Z",
+  "assetsUpdatedAt": "2026-07-27T17:57:46.892Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52035.41,
-      "changePercent": 0.17,
+      "price": 52089.49,
+      "changePercent": 0.27,
       "unit": "USD",
-      "asOf": "2026-07-27T11:55:20-04:00",
+      "asOf": "2026-07-27T13:58:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24844.73,
-      "changePercent": -0.52,
+      "price": 24874.35,
+      "changePercent": -0.41,
       "unit": "USD",
-      "asOf": "2026-07-27T11:55:20-04:00",
+      "asOf": "2026-07-27T13:58:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7393.54,
-      "changePercent": -0.25,
+      "price": 7399.81,
+      "changePercent": -0.16,
       "unit": "USD",
-      "asOf": "2026-07-27T11:55:20-04:00",
+      "asOf": "2026-07-27T13:58:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4078.75,
-      "changePercent": 0.2,
+      "price": 4076.82,
+      "changePercent": 0.15,
       "unit": "USD",
-      "asOf": "2026-07-27T23:55:04-04:00",
+      "asOf": "2026-07-28T01:58:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.15,
-      "changePercent": -6.9,
+      "price": 82.63,
+      "changePercent": -7.48,
       "unit": "USD",
-      "asOf": "2026-07-27T23:55:06-04:00",
+      "asOf": "2026-07-28T01:58:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 638.2,
-      "changePercent": 0.39,
+      "price": 639.3,
+      "changePercent": 0.56,
       "unit": "USD",
-      "asOf": "2026-07-27T23:55:03-04:00",
+      "asOf": "2026-07-28T01:58:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,291 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64542,
-      "changePercent": -0.2589710949933792,
+      "price": 64937,
+      "changePercent": 0.4801629387826783,
       "unit": "USD",
-      "asOf": "2026-07-27T15:54:00.000Z",
+      "asOf": "2026-07-27T17:56:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "80daefa38252e27f",
+      "category": "金属与资源",
+      "title": "Australian gymnast claims back - to - back Glasgow gold",
+      "url": "https://www.easternriverinachronicle.com.au/story/9318648/australian-gymnast-claims-back-to-back-glasgow-gold/",
+      "source": "easternriverinachronicle.com.au",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.easternriverinachronicle.com.au/story/9318648/australian-gymnast-claims-back-to-back-glasgow-gold/"
+    },
+    {
+      "id": "e4e2d086b7c85731",
+      "category": "金属与资源",
+      "title": "Rajnath , Shah Hail Gyaneshwari Yadav CWG Silver",
+      "url": "https://www.newkerala.com/news/a/rajnath-singh-amit-shah-congratulate-gyaneshwari-yadav-cwg-971.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/rajnath-singh-amit-shah-congratulate-gyaneshwari-yadav-cwg-971.htm"
+    },
+    {
+      "id": "fa160919d1be0457",
+      "category": "金属与资源",
+      "title": "CWG 26 : PM Modi applauds Raja Muthupandi silver as India weightlifting medal haul wins widespread praise",
+      "url": "http://www.bignewsnetwork.com/news/279212355/cwg-26-pm-modi-applauds-raja-muthupandi-silver-as-india-weightlifting-medal-haul-wins-widespread-praise",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279212355/cwg-26-pm-modi-applauds-raja-muthupandi-silver-as-india-weightlifting-medal-haul-wins-widespread-praise"
+    },
+    {
+      "id": "aee59485816457b4",
+      "category": "科技与产业",
+      "title": "Mitsubishi Motors Tancap Gas Produksi Robot Humanoid , Jepang Bidik Produksi Massal AI Fisik",
+      "url": "https://www.jawapos.com/oto-dan-tekno/2607270481/mitsubishi-motors-tancap-gas-produksi-robot-humanoid-jepang-bidik-produksi-massal-ai-fisik",
+      "source": "jawapos.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.jawapos.com/oto-dan-tekno/2607270481/mitsubishi-motors-tancap-gas-produksi-robot-humanoid-jepang-bidik-produksi-massal-ai-fisik"
+    },
+    {
+      "id": "d07263225126def4",
+      "category": "金属与资源",
+      "title": "PM Modi Hails Gyaneshwari Yadav CWG Silver Medal",
+      "url": "https://www.newkerala.com/news/a/pm-modi-congratulates-gyaneshwari-yadav-silver-medal-cwg-232.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/pm-modi-congratulates-gyaneshwari-yadav-silver-medal-cwg-232.htm"
+    },
+    {
+      "id": "abf26690c5a9f079",
+      "category": "科技与产业",
+      "title": "Is Canada building enough robots ?",
+      "url": "https://betakit.com/is-canada-building-enough-robots/",
+      "source": "betakit.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://betakit.com/is-canada-building-enough-robots/"
+    },
+    {
+      "id": "846188a8f9580226",
+      "category": "能源与航运",
+      "title": "Stocks waver on Wall Street , crude oil prices drop as tensions cool",
+      "url": "https://www.dailynews.com/2026/07/27/wall-street-crude-oil-prices/",
+      "source": "dailynews.com",
+      "publishedAt": "2026-07-27T17:30:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailynews.com/2026/07/27/wall-street-crude-oil-prices/"
+    },
+    {
+      "id": "0e1572bc75335501",
+      "category": "金属与资源",
+      "title": "Gold steigt , weil der Ölpreis die Zinsangst verdrängt",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69135210-gold-steigt-weil-der-oelpreis-die-zinsangst-verdraengt-665.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-07-27T17:15:00Z",
+      "fetchedAt": "2026-07-27T17:57:46.892Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69135210-gold-steigt-weil-der-oelpreis-die-zinsangst-verdraengt-665.htm"
+    },
     {
       "id": "f186dd8ae4dc2d9e",
       "category": "能源与航运",
@@ -1424,266 +1699,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://toutelatele.ouest-france.fr/un-si-grand-soleil-spoiler-flore-touche-le-pactole-le-cauchemar-continue-pour-la-ferme-188395"
-    },
-    {
-      "id": "e791d15d5c78fa67",
-      "category": "金属与资源",
-      "title": "Gold theft raigad : कामोठ्यात पुन्हा चैन स्नॅचिंगचा धुमाकूळ ; सोसायटीच्या आवारात महिलेच्या गळ्यातील १८ ग्रॅम सोन्याची चैन लंपास",
-      "url": "https://pudhari.news/maharashtra/raigad/gold-theft-raigad-kamothe-chain-snatching-incident-mk94",
-      "source": "pudhari.news",
-      "publishedAt": "2026-07-26T09:45:00Z",
-      "fetchedAt": "2026-07-26T10:13:50.412Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://pudhari.news/maharashtra/raigad/gold-theft-raigad-kamothe-chain-snatching-incident-mk94"
-    },
-    {
-      "id": "c2e16f83eb67d4ed",
-      "category": "能源与航运",
-      "title": "Ukraine Attacks on Caspian Oil Pipeline are Acts of Energy Terrorism",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260725-sputnik04.htm",
-      "source": "globalsecurity.org",
-      "publishedAt": "2026-07-26T09:45:00Z",
-      "fetchedAt": "2026-07-26T10:13:50.412Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260725-sputnik04.htm"
-    },
-    {
-      "id": "2eebfe704e94af50",
-      "category": "金属与资源",
-      "title": "Rheinmetall Aktie : China verhängt Exportbeschränkungen gegen 14 Firmen",
-      "url": "https://www.boerse-express.com/news/articles/rheinmetall-aktie-china-verhaengt-exportbeschraenkungen-gegen-14-firmen-932315",
-      "source": "boerse-express.com",
-      "publishedAt": "2026-07-26T09:45:00Z",
-      "fetchedAt": "2026-07-26T10:13:50.412Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Austria"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.boerse-express.com/news/articles/rheinmetall-aktie-china-verhaengt-exportbeschraenkungen-gegen-14-firmen-932315"
-    },
-    {
-      "id": "f6d3c206ec86e180",
-      "category": "数字资产",
-      "title": "Trump made a big Bitcoin push . Investors arent biting",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-made-big-bitcoin-push-090547713.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-07-26T09:45:00Z",
-      "fetchedAt": "2026-07-26T10:13:50.412Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/trump-made-big-bitcoin-push-090547713.html"
-    },
-    {
-      "id": "4fc6233ecd1c69ef",
-      "category": "金属与资源",
-      "title": "Gold Price Today : सोना हुआ सस्ता , चांदी का रेट 20 दिन में 12256 रुपये गिरा",
-      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellow-metal-2755-rupee-cheaper-white-metal-falls-12256-rupee-check-201785044333446.html",
-      "source": "livehindustan.com",
-      "publishedAt": "2026-07-26T07:15:00Z",
-      "fetchedAt": "2026-07-26T07:46:52.632Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellow-metal-2755-rupee-cheaper-white-metal-falls-12256-rupee-check-201785044333446.html"
-    },
-    {
-      "id": "bde32a0c1434f23a",
-      "category": "全球与地区",
-      "title": "This wave of Trump tariffs is likely here to stay ; more are coming",
-      "url": "https://japantoday.com/category/business/this-wave-of-trump-tariffs-is-likely-here-to-stay-more-are-coming",
-      "source": "japantoday.com",
-      "publishedAt": "2026-07-26T07:15:00Z",
-      "fetchedAt": "2026-07-26T07:46:52.632Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Japan"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://japantoday.com/category/business/this-wave-of-trump-tariffs-is-likely-here-to-stay-more-are-coming"
-    },
-    {
-      "id": "ddeb5c67cc8693bc",
-      "category": "能源与航运",
-      "title": "Τεράστια ανατροπή - Ο Trump παγώνει επίθεση κατά Ιράν , εκλιπαρεί για deal - Μήνυμα - σοκ Araghchi : Στα χέρια μας τo Hormuz",
-      "url": "https://www.bankingnews.gr/diethni/articles/890442/terastia-anatropi-o-trump-pagonei-stratiotika-sxedia-kata-iran-ekliparei-gia-deal-minyma-sok-araghchi-sta-xeria-mas-to-hormuz%20title=",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-07-26T07:15:00Z",
-      "fetchedAt": "2026-07-26T07:46:52.632Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/890442/terastia-anatropi-o-trump-pagonei-stratiotika-sxedia-kata-iran-ekliparei-gia-deal-minyma-sok-araghchi-sta-xeria-mas-to-hormuz%20title="
-    },
-    {
-      "id": "ff0e66e3de109245",
-      "category": "金属与资源",
-      "title": "India next commodity cycle could be driven by scrap as organised metal recycling gains momentum",
-      "url": "https://news.webindia123.com/news/Articles/Business/20260726/4479332.html",
-      "source": "news.webindia123.com",
-      "publishedAt": "2026-07-26T07:15:00Z",
-      "fetchedAt": "2026-07-26T07:46:52.632Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.webindia123.com/news/Articles/Business/20260726/4479332.html"
     }
   ]
 }
