@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-27T17:57:46.892Z",
-  "newsUpdatedAt": "2026-07-27T17:57:46.892Z",
-  "assetsUpdatedAt": "2026-07-27T17:57:46.892Z",
+  "generatedAt": "2026-07-27T19:58:01.490Z",
+  "newsUpdatedAt": "2026-07-27T19:58:01.490Z",
+  "assetsUpdatedAt": "2026-07-27T19:58:01.490Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52089.49,
-      "changePercent": 0.27,
+      "price": 52186.96,
+      "changePercent": 0.46,
       "unit": "USD",
-      "asOf": "2026-07-27T13:58:40-04:00",
+      "asOf": "2026-07-27T15:59:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24874.35,
-      "changePercent": -0.41,
+      "price": 24930.49,
+      "changePercent": -0.18,
       "unit": "USD",
-      "asOf": "2026-07-27T13:58:40-04:00",
+      "asOf": "2026-07-27T15:59:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7399.81,
-      "changePercent": -0.16,
+      "price": 7412.5,
+      "changePercent": 0.01,
       "unit": "USD",
-      "asOf": "2026-07-27T13:58:40-04:00",
+      "asOf": "2026-07-27T15:59:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4076.82,
-      "changePercent": 0.15,
+      "price": 4083.93,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-07-28T01:58:04-04:00",
+      "asOf": "2026-07-28T03:59:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.63,
-      "changePercent": -7.48,
+      "price": 81.92,
+      "changePercent": -8.28,
       "unit": "USD",
-      "asOf": "2026-07-28T01:58:05-04:00",
+      "asOf": "2026-07-28T03:59:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 639.3,
-      "changePercent": 0.56,
+      "price": 640.57,
+      "changePercent": 0.76,
       "unit": "USD",
-      "asOf": "2026-07-28T01:58:00-04:00",
+      "asOf": "2026-07-28T03:58:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,181 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64937,
-      "changePercent": 0.4801629387826783,
+      "price": 64889,
+      "changePercent": 0.38755188571992916,
       "unit": "USD",
-      "asOf": "2026-07-27T17:56:50.000Z",
+      "asOf": "2026-07-27T19:58:39.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "ab3cdca039e8a3a4",
+      "category": "能源与航运",
+      "title": "Oil shock could be worse than the first , Treasury warns",
+      "url": "https://www.begadistrictnews.com.au/story/9318656/oil-shock-could-be-worse-than-the-first-treasury-warns/",
+      "source": "begadistrictnews.com.au",
+      "publishedAt": "2026-07-27T19:30:00Z",
+      "fetchedAt": "2026-07-27T19:58:01.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.begadistrictnews.com.au/story/9318656/oil-shock-could-be-worse-than-the-first-treasury-warns/"
+    },
+    {
+      "id": "9b3120a96b1a2883",
+      "category": "能源与航运",
+      "title": "UAE strongly condemns hostile attacks attempting to target oil facilities in Saudi Arabia",
+      "url": "http://www.middleeaststar.com/news/279212499/uae-strongly-condemns-hostile-attacks-attempting-to-target-oil-facilities-in-saudi-arabia",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-07-27T19:30:00Z",
+      "fetchedAt": "2026-07-27T19:58:01.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279212499/uae-strongly-condemns-hostile-attacks-attempting-to-target-oil-facilities-in-saudi-arabia"
+    },
+    {
+      "id": "c57b7f42c036b63e",
+      "category": "能源与航运",
+      "title": "Govt forms committee to address oil tanker owner concerns",
+      "url": "https://www.geo.tv/latest/674971-govt-forms-committee-to-address-oil-tanker-owners-concerns",
+      "source": "geo.tv",
+      "publishedAt": "2026-07-27T19:30:00Z",
+      "fetchedAt": "2026-07-27T19:58:01.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.geo.tv/latest/674971-govt-forms-committee-to-address-oil-tanker-owners-concerns"
+    },
+    {
+      "id": "f9f2a38dcb8f542e",
+      "category": "能源与航运",
+      "title": "Stocks are drifting on Wall Street and crude oil prices drop 6 % as Mideast tensions cool",
+      "url": "https://www.local10.com/news/2026/07/27/stocks-are-drifting-on-wall-street-and-crude-oil-prices-drop-6-as-mideast-tensions-cool/",
+      "source": "local10.com",
+      "publishedAt": "2026-07-27T19:30:00Z",
+      "fetchedAt": "2026-07-27T19:58:01.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.local10.com/news/2026/07/27/stocks-are-drifting-on-wall-street-and-crude-oil-prices-drop-6-as-mideast-tensions-cool/"
+    },
+    {
+      "id": "df95d4a20893039c",
+      "category": "能源与航运",
+      "title": "Russia Novorossiysk Resumed Crude Loadings After Days of Halt",
+      "url": "https://gcaptain.com/russias-novorossiysk-resumed-crude-loadings-after-days-of-halt/",
+      "source": "gcaptain.com",
+      "publishedAt": "2026-07-27T19:30:00Z",
+      "fetchedAt": "2026-07-27T19:58:01.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcaptain.com/russias-novorossiysk-resumed-crude-loadings-after-days-of-halt/"
+    },
     {
       "id": "80daefa38252e27f",
       "category": "金属与资源",
@@ -1532,173 +1697,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://timesofindia.indiatimes.com/city/amaravati/burqa-clad-railway-loco-pilot-killed-woman-for-gold-jewellery-cash-in-andhra-pradesh-arrested/articleshow/132639564.cms"
-    },
-    {
-      "id": "33f4cddf8a0b9357",
-      "category": "能源与航运",
-      "title": "US puts Iran strikes on a hold for talks on peace , Strait of Hormuz",
-      "url": "https://www.foxnews.com/live-news/us-iran-peace-strait-hormuz-talks-strikes-hold-july-26",
-      "source": "foxnews.com",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.foxnews.com/live-news/us-iran-peace-strait-hormuz-talks-strikes-hold-july-26"
-    },
-    {
-      "id": "c41e78be6f64afe2",
-      "category": "能源与航运",
-      "title": "Amid Hormuz Crisis , China plans 50 % Increase in Green Energy by 2030 | Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/generalideas/amid-hormuz-crisis-china-plans-50-increase-in-green-energy-by-2030",
-      "source": "peakoil.com",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/generalideas/amid-hormuz-crisis-china-plans-50-increase-in-green-energy-by-2030"
-    },
-    {
-      "id": "bdf2c7f52be2bd65",
-      "category": "能源与航运",
-      "title": "The great gas race : Who is holding the keys to Europe energy future ?",
-      "url": "http://www.bangladeshsun.com/news/279210816/the-great-gas-race-who-is-holding-the-keys-to-europe-energy-future",
-      "source": "bangladeshsun.com",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bangladeshsun.com/news/279210816/the-great-gas-race-who-is-holding-the-keys-to-europe-energy-future"
-    },
-    {
-      "id": "be2224665e759664",
-      "category": "能源与航运",
-      "title": "After Strait of Hormuz and Red Sea , has Iran war now reached Caspian Sea ?",
-      "url": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea",
-      "source": "aljazeera.com",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea"
-    },
-    {
-      "id": "69074d69f29d609d",
-      "category": "能源与航运",
-      "title": "Un si grand soleil ( spoiler ) : Flore touche le pactole , le cauchemar continue pour la ferme",
-      "url": "https://toutelatele.ouest-france.fr/un-si-grand-soleil-spoiler-flore-touche-le-pactole-le-cauchemar-continue-pour-la-ferme-188395",
-      "source": "toutelatele.ouest-france.fr",
-      "publishedAt": "2026-07-26T11:15:00Z",
-      "fetchedAt": "2026-07-26T11:38:47.643Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://toutelatele.ouest-france.fr/un-si-grand-soleil-spoiler-flore-touche-le-pactole-le-cauchemar-continue-pour-la-ferme-188395"
     }
   ]
 }
