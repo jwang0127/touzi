@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-28T18:49:28.024Z",
-  "newsUpdatedAt": "2026-07-28T18:49:28.024Z",
-  "assetsUpdatedAt": "2026-07-28T18:49:28.024Z",
+  "generatedAt": "2026-07-28T20:35:59.300Z",
+  "newsUpdatedAt": "2026-07-28T20:35:59.300Z",
+  "assetsUpdatedAt": "2026-07-28T20:35:59.300Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -22,7 +22,7 @@
       "price": 3813.31,
       "changePercent": -1.16,
       "unit": "CNY",
-      "asOf": "2026-07-28T16:14:02+08:00",
+      "asOf": "2026-07-28T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52812.53,
-      "changePercent": 1.15,
+      "price": 52747.32,
+      "changePercent": 1.03,
       "unit": "USD",
-      "asOf": "2026-07-28T14:50:21-04:00",
+      "asOf": "2026-07-28T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24909.78,
-      "changePercent": -0.09,
+      "price": 24876.91,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-07-28T14:50:21-04:00",
+      "asOf": "2026-07-28T16:37:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7437.1,
-      "changePercent": 0.32,
+      "price": 7428.78,
+      "changePercent": 0.21,
       "unit": "USD",
-      "asOf": "2026-07-28T14:50:21-04:00",
+      "asOf": "2026-07-28T16:20:01-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4082.1,
-      "changePercent": -1.31,
+      "price": 4087.29,
+      "changePercent": -1.19,
       "unit": "USD",
-      "asOf": "2026-07-29T02:49:53-04:00",
+      "asOf": "2026-07-29T04:36:46-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 79.09,
-      "changePercent": -4.26,
+      "price": 78.83,
+      "changePercent": -4.58,
       "unit": "USD",
-      "asOf": "2026-07-29T02:50:10-04:00",
+      "asOf": "2026-07-29T04:36:50-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.17,
-      "changePercent": -0.74,
+      "price": 633.36,
+      "changePercent": -0.71,
       "unit": "USD",
-      "asOf": "2026-07-29T02:50:09-04:00",
+      "asOf": "2026-07-29T04:37:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,220 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63726,
-      "changePercent": -1.5607326616784511,
+      "price": 63867,
+      "changePercent": -1.6743085511610332,
       "unit": "USD",
-      "asOf": "2026-07-28T18:49:10.000Z",
+      "asOf": "2026-07-28T20:35:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5c0732ae87d7fa96",
+      "category": "能源与航运",
+      "title": "Wall Street flip from AI to less - loved stocks accelerates , while oil prices keep easing",
+      "url": "https://www.ncnewsonline.com/news/national/wall-streets-flip-from-ai-to-less-loved-stocks-accelerates-while-oil-prices-keep-easing/article_0c2f5ad1-43b7-5826-9740-64156e0d206c.html",
+      "source": "ncnewsonline.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ncnewsonline.com/news/national/wall-streets-flip-from-ai-to-less-loved-stocks-accelerates-while-oil-prices-keep-easing/article_0c2f5ad1-43b7-5826-9740-64156e0d206c.html"
+    },
+    {
+      "id": "4e8132dd7a1259ec",
+      "category": "能源与航运",
+      "title": "Crude oil futures settle at $79 . 26",
+      "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settle-at-79-26/",
+      "source": "investinglive.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://investinglive.com/technical-analysis/crude-oil-futures-settle-at-79-26/"
+    },
+    {
+      "id": "4951d4fc8f09b52d",
+      "category": "金属与资源",
+      "title": "Gold declines as traders weigh interest rate prospects",
+      "url": "https://windsorstar.com:443/commodities/gold-declines-traders-weigh-inrerest-rate-moves",
+      "source": "windsorstar.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://windsorstar.com:443/commodities/gold-declines-traders-weigh-inrerest-rate-moves"
+    },
+    {
+      "id": "aa06dbcfd1f29b92",
+      "category": "能源与航运",
+      "title": "Reps , oil marketers kick against imposition of dollar billing on locally refined petroleum products",
+      "url": "https://tribuneonlineng.com/reps-oil-marketers-kick-against-imposition-of-dollar-billing-on-locally-refined-petroleum-products/",
+      "source": "tribuneonlineng.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tribuneonlineng.com/reps-oil-marketers-kick-against-imposition-of-dollar-billing-on-locally-refined-petroleum-products/"
+    },
+    {
+      "id": "bb176d5f1c244532",
+      "category": "金属与资源",
+      "title": "Cameroon Says Undeclared Gold Exports Cost State CFAF577 Billion in Five Years",
+      "url": "https://www.businessincameroon.com/mining/2807-16535-cameroon-says-undeclared-gold-exports-cost-state-cfaf577-billion-in-five-years",
+      "source": "businessincameroon.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Cameroon"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.businessincameroon.com/mining/2807-16535-cameroon-says-undeclared-gold-exports-cost-state-cfaf577-billion-in-five-years"
+    },
+    {
+      "id": "8068d0fbbac93d1e",
+      "category": "能源与航运",
+      "title": "Oil tops $100 again amid Red Sea attacks ; stock markets down",
+      "url": "https://tradearabia.com:443/News/465549/Oil-tops-$100-again-amid-Red-Sea-attacks-stock-markets-down",
+      "source": "tradearabia.com",
+      "publishedAt": "2026-07-28T20:15:00Z",
+      "fetchedAt": "2026-07-28T20:35:59.300Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Arab Emirates"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tradearabia.com:443/News/465549/Oil-tops-$100-again-amid-Red-Sea-attacks-stock-markets-down"
+    },
     {
       "id": "90ce015bc359fc2e",
       "category": "科技与产业",
@@ -1516,192 +1720,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.coindesk.com/daybook-us/2026/07/27/ballooning-u-s-debt-sends-investors-to-bitcoin-gold-to-shelter-from-dollar-devaluation"
-    },
-    {
-      "id": "898a85fb9496b386",
-      "category": "数字资产",
-      "title": "Bitcoin ETFs post third straight weekly inflows despite $465 million in late - week losses",
-      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-etfs-record-third-consecutive-weekly-inflows-despite-losses-of-usd465-million-to-end-week",
-      "source": "coindesk.com",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.coindesk.com/markets/2026/07/27/bitcoin-etfs-record-third-consecutive-weekly-inflows-despite-losses-of-usd465-million-to-end-week"
-    },
-    {
-      "id": "504f59d43ecc2ec4",
-      "category": "A股与政策",
-      "title": "瞬间超越工商银行 、 敲钟即登顶 ， 工行年内已两度让出A股老大宝座",
-      "url": "https://www.163.com/dy/article/L2RBATFP0552FWS9.html",
-      "source": "163.com",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.163.com/dy/article/L2RBATFP0552FWS9.html"
-    },
-    {
-      "id": "faad44f9dc216713",
-      "category": "A股与政策",
-      "title": "2026年A股环境责任榜单 ： 谁立标杆谁藏隐忧 ？ |ESG榜单",
-      "url": "https://www.163.com/money/article/L2RBMN2D00259SDO.html",
-      "source": "163.com",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.163.com/money/article/L2RBMN2D00259SDO.html"
-    },
-    {
-      "id": "932312bbbed80bca",
-      "category": "金属与资源",
-      "title": "Das Comeback von Gold und Silber steht kurz bevor ! Lahontan Gold , Newmont und First Majestic in der Favoritenrolle ?",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69126645-das-comeback-von-gold-und-silber-steht-kurz-bevor-lahontan-gold-newmont-und-first-majestic-in-der-favoritenrolle-700.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69126645-das-comeback-von-gold-und-silber-steht-kurz-bevor-lahontan-gold-newmont-und-first-majestic-in-der-favoritenrolle-700.htm"
-    },
-    {
-      "id": "efa07cc37e96416e",
-      "category": "A股与政策",
-      "title": "2026年A股公司治理榜单 ： 谁列先锋谁待改善 ？ |ESG榜单",
-      "url": "https://www.163.com/money/article/L2RBJQE500259SDO.html",
-      "source": "163.com",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.163.com/money/article/L2RBJQE500259SDO.html"
-    },
-    {
-      "id": "247fe8be571ede54",
-      "category": "金属与资源",
-      "title": "Her gold medal at Commonwealth Games 2026 was historic , but Mirabai Chanu tears during the national anthem stole every heart",
-      "url": "https://timesofindia.indiatimes.com/etimes/trending/her-gold-medal-at-commonwealth-games-2026-was-historic-but-mirabai-chanus-tears-during-the-national-anthem-stole-every-heart/articleshow/132651327.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/etimes/trending/her-gold-medal-at-commonwealth-games-2026-was-historic-but-mirabai-chanus-tears-during-the-national-anthem-stole-every-heart/articleshow/132651327.cms"
     }
   ]
 }
