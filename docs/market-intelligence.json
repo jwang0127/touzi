@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-28T06:43:19.753Z",
-  "newsUpdatedAt": "2026-07-27T23:29:05.759Z",
-  "assetsUpdatedAt": "2026-07-28T06:43:19.753Z",
+  "generatedAt": "2026-07-28T09:57:40.004Z",
+  "newsUpdatedAt": "2026-07-28T09:57:40.004Z",
+  "assetsUpdatedAt": "2026-07-28T09:57:40.004Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3799.92,
-      "changePercent": -1.51,
+      "price": 3813.31,
+      "changePercent": -1.16,
       "unit": "CNY",
-      "asOf": "2026-07-28T14:44:03+08:00",
+      "asOf": "2026-07-28T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13482.9,
-      "changePercent": -4.71,
+      "price": 13509.68,
+      "changePercent": -4.52,
       "unit": "CNY",
-      "asOf": "2026-07-28T14:44:03+08:00",
+      "asOf": "2026-07-28T16:14:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25180.83,
-      "changePercent": -0.1,
+      "price": 25310.85,
+      "changePercent": 0.41,
       "unit": "HKD",
-      "asOf": "2026-07-28T14:29:01+08:00",
+      "asOf": "2026-07-28T17:43:23+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8390.07,
-      "changePercent": 0.3,
+      "price": 8436.25,
+      "changePercent": 0.85,
       "unit": "HKD",
-      "asOf": "2026-07-28T14:29:00+08:00",
+      "asOf": "2026-07-28T16:08:44+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4109.33,
-      "changePercent": -0.65,
+      "price": 4079.36,
+      "changePercent": -1.38,
       "unit": "USD",
-      "asOf": "2026-07-28T14:42:59-04:00",
+      "asOf": "2026-07-28T17:58:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.04,
-      "changePercent": -1.91,
+      "price": 80.47,
+      "changePercent": -2.59,
       "unit": "USD",
-      "asOf": "2026-07-28T14:43:03-04:00",
+      "asOf": "2026-07-28T17:58:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 634.68,
-      "changePercent": -0.5,
+      "price": 632.1,
+      "changePercent": -0.91,
       "unit": "USD",
-      "asOf": "2026-07-28T14:43:03-04:00",
+      "asOf": "2026-07-28T17:57:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,278 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63495,
-      "changePercent": -3.010624776601954,
+      "price": 63355,
+      "changePercent": -2.8549417619144672,
       "unit": "USD",
-      "asOf": "2026-07-28T06:42:10.000Z",
+      "asOf": "2026-07-28T09:56:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "600059c748b9d37d",
+      "category": "科技与产业",
+      "title": "Windtech International - Perceptual Robotics secures funding to expand wind turbine inspection technology",
+      "url": "https://www.windtech-international.com/company-news/perceptual-robotics-secures-funding-to-expand-wind-turbine-inspection-technology",
+      "source": "windtech-international.com",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.windtech-international.com/company-news/perceptual-robotics-secures-funding-to-expand-wind-turbine-inspection-technology"
+    },
+    {
+      "id": "0c332fda68726bed",
+      "category": "全球与地区",
+      "title": "Trump rebuilds tariff agenda on firmer legal footing",
+      "url": "http://www.cambodiantimes.com/news/279209556/trump-rebuilds-tariff-agenda-on-firmer-legal-footing",
+      "source": "cambodiantimes.com",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Cambodia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cambodiantimes.com/news/279209556/trump-rebuilds-tariff-agenda-on-firmer-legal-footing"
+    },
+    {
+      "id": "8268478d68cbcb71",
+      "category": "金属与资源",
+      "title": "An emotional home gold for Angharad Evans in front of Scotland",
+      "url": "https://www.sthelensstar.co.uk/news/26414942.emotional-home-gold-angharad-evans-front-scotland/",
+      "source": "sthelensstar.co.uk",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sthelensstar.co.uk/news/26414942.emotional-home-gold-angharad-evans-front-scotland/"
+    },
+    {
+      "id": "9a3ca902b1f4a2f8",
+      "category": "能源与航运",
+      "title": "Rupee jumps 61 paise to 95 . 92 against US dollar as crude oil prices tumble",
+      "url": "https://dailypioneer.com/news/rupee-surges-61-paise-to-settle-at-95-92-against-us-dollar",
+      "source": "dailypioneer.com",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://dailypioneer.com/news/rupee-surges-61-paise-to-settle-at-95-92-against-us-dollar"
+    },
+    {
+      "id": "154feaa600a66939",
+      "category": "能源与航运",
+      "title": "Caspian Sea : Terror as the wars in Iran and Ukraine merge – Impending shock with Hormuz transit fees",
+      "url": "https://www.bankingnews.gr/diethni/articles/890801/caspian-sea-terror-as-the-wars-in-iran-and-ukraine-merge-impending-shock-with-hormuz-transit-fees%20title=",
+      "source": "bankingnews.gr",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Greece"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/890801/caspian-sea-terror-as-the-wars-in-iran-and-ukraine-merge-impending-shock-with-hormuz-transit-fees%20title="
+    },
+    {
+      "id": "e956e6b95c56738c",
+      "category": "科技与产业",
+      "title": "Alianța din Zalău a câștigat competiția de robotică CNAPSys Cash Cup Sălăjeanul",
+      "url": "https://salajeanul.ro/alianta-din-zalau-a-castigat-competitia-de-robotica-cnapsys-cash-cup/",
+      "source": "salajeanul.ro",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://salajeanul.ro/alianta-din-zalau-a-castigat-competitia-de-robotica-cnapsys-cash-cup/"
+    },
+    {
+      "id": "4359d7e017b32d2c",
+      "category": "金属与资源",
+      "title": "Is aluminium the new gold for India MSMEs ? Industry scrambles for alternate sources after Middle East ban",
+      "url": "https://www.moneycontrol.com/news/business/economy/is-aluminium-the-new-gold-for-india-s-msmes-industry-scrambles-for-alternate-sources-after-middle-east-ban-13985696.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/business/economy/is-aluminium-the-new-gold-for-india-s-msmes-industry-scrambles-for-alternate-sources-after-middle-east-ban-13985696.html"
+    },
+    {
+      "id": "2cbb0688b8b0fdd1",
+      "category": "科技与产业",
+      "title": "El debut de CXMT con una OPV histórica en el mercado A impulsa la confianza en la capacidad semiconductora y la innovación sostenida de China",
+      "url": "http://spanish.china.org.cn/txt/2026-07/28/content_118621925.htm",
+      "source": "spanish.china.org.cn",
+      "publishedAt": "2026-07-28T09:30:00Z",
+      "fetchedAt": "2026-07-28T09:57:40.004Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://spanish.china.org.cn/txt/2026-07/28/content_118621925.htm"
+    },
     {
       "id": "1631241b1f339dae",
       "category": "能源与航运",
@@ -1444,255 +1706,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.southeastasiapost.com/news/279211232/rishikanta-singh-delighted-with-cwg-2026-silver-vows-more-medals-in-future"
-    },
-    {
-      "id": "9534524769ffe5bf",
-      "category": "金属与资源",
-      "title": "PM Modi hails Mirabai Chanu after her Gold win at Commonwealth Games 2026",
-      "url": "http://www.bignewsnetwork.com/news/279211333/pm-modi-hails-mirabai-chanu-after-her-gold-win-at-commonwealth-games-2026",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-07-26T19:15:00Z",
-      "fetchedAt": "2026-07-26T19:37:51.669Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279211333/pm-modi-hails-mirabai-chanu-after-her-gold-win-at-commonwealth-games-2026"
-    },
-    {
-      "id": "eb38c8e81be604c5",
-      "category": "全球与地区",
-      "title": "THINK Ahead : How markets are right – and wrong – about rate hikes | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/think-ahead-how-markets-are-right-and-wrong-about-rate-hikes/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-07-26T19:15:00Z",
-      "fetchedAt": "2026-07-26T19:37:51.669Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/think-ahead-how-markets-are-right-and-wrong-about-rate-hikes/"
-    },
-    {
-      "id": "65b1090a82d39ecc",
-      "category": "全球与地区",
-      "title": "Iran says it sold US$18b of oil during war , ceasefire | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/iran-says-it-sold-us18b-of-oil-during-war-ceasefire/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-07-26T19:15:00Z",
-      "fetchedAt": "2026-07-26T19:37:51.669Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/iran-says-it-sold-us18b-of-oil-during-war-ceasefire/"
-    },
-    {
-      "id": "482d38059a6230a8",
-      "category": "全球与地区",
-      "title": "Wall Street Week Ahead : Fed decision , big tech earnings and Middle East conflict in focus",
-      "url": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-fed-decision-big-tech-earnings-and-middle-east-conflict-in-focus-11785081332754.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-07-26T19:15:00Z",
-      "fetchedAt": "2026-07-26T19:37:51.669Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-fed-decision-big-tech-earnings-and-middle-east-conflict-in-focus-11785081332754.html"
-    },
-    {
-      "id": "11fdc0d5979b0d8e",
-      "category": "全球与地区",
-      "title": "Here what Trump sweeping new tariffs mean for your pocketbook",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-unleashes-wave-tariffs-consumers-192252783.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-07-26T19:15:00Z",
-      "fetchedAt": "2026-07-26T19:37:51.669Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/economy/policy/articles/trump-unleashes-wave-tariffs-consumers-192252783.html"
-    },
-    {
-      "id": "dde1681da560d524",
-      "category": "科技与产业",
-      "title": "Meet the robots programmed by kids to speak their Indigenous languages",
-      "url": "https://www.capeandislands.org/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages",
-      "source": "capeandislands.org",
-      "publishedAt": "2026-07-26T13:15:00Z",
-      "fetchedAt": "2026-07-26T14:01:42.673Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.capeandislands.org/2026-07-26/meet-the-robots-programmed-by-kids-to-speak-their-indigenous-languages"
-    },
-    {
-      "id": "3856d61f0daf08fa",
-      "category": "能源与航运",
-      "title": "Energy corridors to Europe : Former colonies are taking the valve",
-      "url": "http://www.japanherald.com/news/279210948/energy-corridors-to-europe-former-colonies-are-taking-the-valve",
-      "source": "japanherald.com",
-      "publishedAt": "2026-07-26T13:15:00Z",
-      "fetchedAt": "2026-07-26T14:01:42.673Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Japan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.japanherald.com/news/279210948/energy-corridors-to-europe-former-colonies-are-taking-the-valve"
-    },
-    {
-      "id": "4c85a6be047397e0",
-      "category": "金属与资源",
-      "title": "LKA Gold ( OTCMKTS : LKAI ) Stock Price Crosses Above 50 - Day Moving Average – Here Why",
-      "url": "https://www.dailypolitical.com/2026/07/26/lka-gold-otcmktslkai-stock-price-crosses-above-50-day-moving-average-heres-why.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-07-26T13:15:00Z",
-      "fetchedAt": "2026-07-26T14:01:42.673Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/07/26/lka-gold-otcmktslkai-stock-price-crosses-above-50-day-moving-average-heres-why.html"
     }
   ]
 }
