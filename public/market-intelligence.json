@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-28T20:35:59.300Z",
-  "newsUpdatedAt": "2026-07-28T20:35:59.300Z",
-  "assetsUpdatedAt": "2026-07-28T20:35:59.300Z",
+  "generatedAt": "2026-07-28T22:18:31.796Z",
+  "newsUpdatedAt": "2026-07-28T22:18:31.796Z",
+  "assetsUpdatedAt": "2026-07-28T22:18:31.796Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -66,7 +64,7 @@
       "price": 52747.32,
       "changePercent": 1.03,
       "unit": "USD",
-      "asOf": "2026-07-28T16:20:01-04:00",
+      "asOf": "2026-07-28T17:10:23-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -77,7 +75,7 @@
       "price": 24876.91,
       "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-07-28T16:37:00-04:00",
+      "asOf": "2026-07-28T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -88,7 +86,7 @@
       "price": 7428.78,
       "changePercent": 0.21,
       "unit": "USD",
-      "asOf": "2026-07-28T16:20:01-04:00",
+      "asOf": "2026-07-28T17:10:14-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4087.29,
-      "changePercent": -1.19,
+      "price": 4082,
+      "changePercent": -0.41,
       "unit": "USD",
-      "asOf": "2026-07-29T04:36:46-04:00",
+      "asOf": "2026-07-29T06:18:49-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 78.83,
-      "changePercent": -4.58,
+      "price": 81.53,
+      "changePercent": 2.87,
       "unit": "USD",
-      "asOf": "2026-07-29T04:36:50-04:00",
+      "asOf": "2026-07-29T06:19:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.36,
-      "changePercent": -0.71,
+      "price": 633.72,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-07-29T04:37:00-04:00",
+      "asOf": "2026-07-29T06:18:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,556 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63867,
-      "changePercent": -1.6743085511610332,
+      "price": 63944,
+      "changePercent": -1.1471095108087785,
       "unit": "USD",
-      "asOf": "2026-07-28T20:35:40.000Z",
+      "asOf": "2026-07-28T22:17:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1675fa85e493214f",
+      "category": "科技与产业",
+      "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
+      "url": "https://www.wral.com/news/ap/c2126-new-york-school-pauses-plan-to-deploy-humanlike-ai-robot-teacher-after-backlash/",
+      "source": "wral.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wral.com/news/ap/c2126-new-york-school-pauses-plan-to-deploy-humanlike-ai-robot-teacher-after-backlash/"
+    },
+    {
+      "id": "a4a58f4226440040",
+      "category": "金属与资源",
+      "title": "Canadian Copper expands New Brunswick mining operation , over 100 jobs expected",
+      "url": "https://www.stcatharinesstandard.ca/news/canada/canadian-copper-grows-new-brunswick-mining-operation-over-100-jobs-expected/article_57898ab7-5232-5810-9322-c006a6a65f4f.html",
+      "source": "stcatharinesstandard.ca",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.stcatharinesstandard.ca/news/canada/canadian-copper-grows-new-brunswick-mining-operation-over-100-jobs-expected/article_57898ab7-5232-5810-9322-c006a6a65f4f.html"
+    },
+    {
+      "id": "ecf8457aca109b62",
+      "category": "能源与航运",
+      "title": "Gold rises above $4 , 100 as U . S .- Iran ceasefire pause cuts oil prices",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-above-4-100-131924415.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-above-4-100-131924415.html"
+    },
+    {
+      "id": "a1adb1b08133fe92",
+      "category": "金属与资源",
+      "title": "Centerra Gold Announces Quarterly Dividend of C$0 . 07 per Common Share",
+      "url": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/centerra-gold-announces-quarterly-dividend-of-c007-per-common-share/2393567",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/centerra-gold-announces-quarterly-dividend-of-c007-per-common-share/2393567"
+    },
+    {
+      "id": "73161d78814aac6f",
+      "category": "金属与资源",
+      "title": "Streets shut down after man climbs crane on Gold Coast",
+      "url": "https://www.smh.com.au/national/streets-shut-down-after-man-climbs-crane-on-gold-coast-20260729-p60jgu.html",
+      "source": "smh.com.au",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.smh.com.au/national/streets-shut-down-after-man-climbs-crane-on-gold-coast-20260729-p60jgu.html"
+    },
+    {
+      "id": "79abcadd6b79a95c",
+      "category": "金属与资源",
+      "title": "Ben Carroll : Loyalty pledge to Allan reveals political golden rule | Narooma News",
+      "url": "https://www.naroomanewsonline.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/",
+      "source": "naroomanewsonline.com.au",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.naroomanewsonline.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/"
+    },
+    {
+      "id": "6ea1c53a95ecc9d9",
+      "category": "能源与航运",
+      "title": "Stocks mixed amid AI rout as oil plummets on US - Iran optimism - Newsquawk US Market Wrap",
+      "url": "https://www.zerohedge.com/markets/stocks-mixed-amid-ai-rout-oil-plummets-us-iran-optimism-newsquawk-us-market-wrap",
+      "source": "zerohedge.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zerohedge.com/markets/stocks-mixed-amid-ai-rout-oil-plummets-us-iran-optimism-newsquawk-us-market-wrap"
+    },
+    {
+      "id": "7e42a6619e1649bf",
+      "category": "金属与资源",
+      "title": "Harjinder Kaur Wins Silver in 69 kg Weightlifting at CWG 2026",
+      "url": "https://udaipurkiran.com/harjinder-kaur-wins-silver-in-69-kg-weightlifting-at-cwg-2026/",
+      "source": "udaipurkiran.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://udaipurkiran.com/harjinder-kaur-wins-silver-in-69-kg-weightlifting-at-cwg-2026/"
+    },
+    {
+      "id": "70d01d2ccc6001f1",
+      "category": "金属与资源",
+      "title": "Ben Carroll : Loyalty pledge to Allan reveals political golden rule | The Armidale Express",
+      "url": "https://www.armidaleexpress.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/",
+      "source": "armidaleexpress.com.au",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.armidaleexpress.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/"
+    },
+    {
+      "id": "e0c28674072b96a8",
+      "category": "能源与航运",
+      "title": "Gran Tierra Energy Inc . Provides Release Date for its 2026 Second Quarter Results",
+      "url": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/gran-tierra-energy-inc-provides-release-date-for-its-2026-second-quarter-results/2393570",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/gran-tierra-energy-inc-provides-release-date-for-its-2026-second-quarter-results/2393570"
+    },
+    {
+      "id": "52573f58d9b7abd4",
+      "category": "能源与航运",
+      "title": "Oman presents Iran with Gulf - backed plan for voluntary fees to use Hormuz",
+      "url": "https://japantoday.com/category/world/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz4",
+      "source": "japantoday.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Japan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://japantoday.com/category/world/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz4"
+    },
+    {
+      "id": "7d1353cf28f93860",
+      "category": "能源与航运",
+      "title": "5 states offer to accept nuclear waste in exchange for help developing nuclear energy",
+      "url": "https://www.clickorlando.com/health/2026/07/28/5-states-offer-to-accept-nuclear-waste-in-exchange-for-help-developing-nuclear-energy/",
+      "source": "clickorlando.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.clickorlando.com/health/2026/07/28/5-states-offer-to-accept-nuclear-waste-in-exchange-for-help-developing-nuclear-energy/"
+    },
+    {
+      "id": "a730d21954815f75",
+      "category": "金属与资源",
+      "title": "Kenny Chesney Shot a Car Into Space for Silver Sands Marina | Y102",
+      "url": "https://krny.com/2026/07/28/kenny-chesney-shot-a-car-into-space-for-silver-sands-marina/",
+      "source": "krny.com",
+      "publishedAt": "2026-07-28T22:00:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://krny.com/2026/07/28/kenny-chesney-shot-a-car-into-space-for-silver-sands-marina/"
+    },
+    {
+      "id": "b768a57ebad3108d",
+      "category": "能源与航运",
+      "title": "Canadian Stocks Advance As Tech Sector Gains Offset Materials , Energy Losses",
+      "url": "https://www.rttnews.com/3671538/canadian-stocks-advance-as-tech-sector-gains-offset-materials-energy-losses.aspx",
+      "source": "rttnews.com",
+      "publishedAt": "2026-07-28T21:45:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rttnews.com/3671538/canadian-stocks-advance-as-tech-sector-gains-offset-materials-energy-losses.aspx"
+    },
+    {
+      "id": "34bb69a017522295",
+      "category": "金属与资源",
+      "title": "Ben Carroll : Loyalty pledge to Allan reveals political golden rule | Western Advocate",
+      "url": "https://www.westernadvocate.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/",
+      "source": "westernadvocate.com.au",
+      "publishedAt": "2026-07-28T21:45:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.westernadvocate.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/"
+    },
+    {
+      "id": "0c05539577c57fb4",
+      "category": "金属与资源",
+      "title": "Madagaskar i fokus när jakten på jordartsmetaller hårdnar",
+      "url": "https://www.realtid.se/bors-finans/makro/madagaskar-i-fokus-nar-jakten-pa-jordartsmetaller-hardnar/",
+      "source": "realtid.se",
+      "publishedAt": "2026-07-28T21:45:00Z",
+      "fetchedAt": "2026-07-28T22:18:31.796Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Sweden"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.realtid.se/bors-finans/makro/madagaskar-i-fokus-nar-jakten-pa-jordartsmetaller-hardnar/"
+    },
     {
       "id": "5c0732ae87d7fa96",
       "category": "能源与航运",
@@ -1183,543 +1721,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.middleeaststar.com/news/279212499/uae-strongly-condemns-hostile-attacks-attempting-to-target-oil-facilities-in-saudi-arabia"
-    },
-    {
-      "id": "c57b7f42c036b63e",
-      "category": "能源与航运",
-      "title": "Govt forms committee to address oil tanker owner concerns",
-      "url": "https://www.geo.tv/latest/674971-govt-forms-committee-to-address-oil-tanker-owners-concerns",
-      "source": "geo.tv",
-      "publishedAt": "2026-07-27T19:30:00Z",
-      "fetchedAt": "2026-07-27T19:58:01.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.geo.tv/latest/674971-govt-forms-committee-to-address-oil-tanker-owners-concerns"
-    },
-    {
-      "id": "f9f2a38dcb8f542e",
-      "category": "能源与航运",
-      "title": "Stocks are drifting on Wall Street and crude oil prices drop 6 % as Mideast tensions cool",
-      "url": "https://www.local10.com/news/2026/07/27/stocks-are-drifting-on-wall-street-and-crude-oil-prices-drop-6-as-mideast-tensions-cool/",
-      "source": "local10.com",
-      "publishedAt": "2026-07-27T19:30:00Z",
-      "fetchedAt": "2026-07-27T19:58:01.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.local10.com/news/2026/07/27/stocks-are-drifting-on-wall-street-and-crude-oil-prices-drop-6-as-mideast-tensions-cool/"
-    },
-    {
-      "id": "df95d4a20893039c",
-      "category": "能源与航运",
-      "title": "Russia Novorossiysk Resumed Crude Loadings After Days of Halt",
-      "url": "https://gcaptain.com/russias-novorossiysk-resumed-crude-loadings-after-days-of-halt/",
-      "source": "gcaptain.com",
-      "publishedAt": "2026-07-27T19:30:00Z",
-      "fetchedAt": "2026-07-27T19:58:01.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://gcaptain.com/russias-novorossiysk-resumed-crude-loadings-after-days-of-halt/"
-    },
-    {
-      "id": "80daefa38252e27f",
-      "category": "金属与资源",
-      "title": "Australian gymnast claims back - to - back Glasgow gold",
-      "url": "https://www.easternriverinachronicle.com.au/story/9318648/australian-gymnast-claims-back-to-back-glasgow-gold/",
-      "source": "easternriverinachronicle.com.au",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.easternriverinachronicle.com.au/story/9318648/australian-gymnast-claims-back-to-back-glasgow-gold/"
-    },
-    {
-      "id": "e4e2d086b7c85731",
-      "category": "金属与资源",
-      "title": "Rajnath , Shah Hail Gyaneshwari Yadav CWG Silver",
-      "url": "https://www.newkerala.com/news/a/rajnath-singh-amit-shah-congratulate-gyaneshwari-yadav-cwg-971.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/rajnath-singh-amit-shah-congratulate-gyaneshwari-yadav-cwg-971.htm"
-    },
-    {
-      "id": "fa160919d1be0457",
-      "category": "金属与资源",
-      "title": "CWG 26 : PM Modi applauds Raja Muthupandi silver as India weightlifting medal haul wins widespread praise",
-      "url": "http://www.bignewsnetwork.com/news/279212355/cwg-26-pm-modi-applauds-raja-muthupandi-silver-as-india-weightlifting-medal-haul-wins-widespread-praise",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279212355/cwg-26-pm-modi-applauds-raja-muthupandi-silver-as-india-weightlifting-medal-haul-wins-widespread-praise"
-    },
-    {
-      "id": "aee59485816457b4",
-      "category": "科技与产业",
-      "title": "Mitsubishi Motors Tancap Gas Produksi Robot Humanoid , Jepang Bidik Produksi Massal AI Fisik",
-      "url": "https://www.jawapos.com/oto-dan-tekno/2607270481/mitsubishi-motors-tancap-gas-produksi-robot-humanoid-jepang-bidik-produksi-massal-ai-fisik",
-      "source": "jawapos.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Indonesia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jawapos.com/oto-dan-tekno/2607270481/mitsubishi-motors-tancap-gas-produksi-robot-humanoid-jepang-bidik-produksi-massal-ai-fisik"
-    },
-    {
-      "id": "d07263225126def4",
-      "category": "金属与资源",
-      "title": "PM Modi Hails Gyaneshwari Yadav CWG Silver Medal",
-      "url": "https://www.newkerala.com/news/a/pm-modi-congratulates-gyaneshwari-yadav-silver-medal-cwg-232.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/pm-modi-congratulates-gyaneshwari-yadav-silver-medal-cwg-232.htm"
-    },
-    {
-      "id": "abf26690c5a9f079",
-      "category": "科技与产业",
-      "title": "Is Canada building enough robots ?",
-      "url": "https://betakit.com/is-canada-building-enough-robots/",
-      "source": "betakit.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://betakit.com/is-canada-building-enough-robots/"
-    },
-    {
-      "id": "846188a8f9580226",
-      "category": "能源与航运",
-      "title": "Stocks waver on Wall Street , crude oil prices drop as tensions cool",
-      "url": "https://www.dailynews.com/2026/07/27/wall-street-crude-oil-prices/",
-      "source": "dailynews.com",
-      "publishedAt": "2026-07-27T17:30:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailynews.com/2026/07/27/wall-street-crude-oil-prices/"
-    },
-    {
-      "id": "0e1572bc75335501",
-      "category": "金属与资源",
-      "title": "Gold steigt , weil der Ölpreis die Zinsangst verdrängt",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69135210-gold-steigt-weil-der-oelpreis-die-zinsangst-verdraengt-665.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-07-27T17:15:00Z",
-      "fetchedAt": "2026-07-27T17:57:46.892Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69135210-gold-steigt-weil-der-oelpreis-die-zinsangst-verdraengt-665.htm"
-    },
-    {
-      "id": "f186dd8ae4dc2d9e",
-      "category": "能源与航运",
-      "title": "An energy company growing production and rewarding shareholders at the same time",
-      "url": "https://finance.yahoo.com/energy/articles/energy-company-growing-production-rewarding-112145062.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/energy/articles/energy-company-growing-production-rewarding-112145062.html"
-    },
-    {
-      "id": "829302fdba0e5d64",
-      "category": "能源与航运",
-      "title": "FTSE Stocks - FTSE 100 Live : Index Opened 43 points Higher at 10 , 779 Amid Easing Tensions in the Middle East , 6 . 26 % Fall in Brent Crude Prices",
-      "url": "https://www.livecharts.co.uk/share_prices/FTSE-Stocks---FTSE-100-Live--Index-Opened-43--news1785147510.html",
-      "source": "livecharts.co.uk",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livecharts.co.uk/share_prices/FTSE-Stocks---FTSE-100-Live--Index-Opened-43--news1785147510.html"
-    },
-    {
-      "id": "d6cdcab4e35cd23a",
-      "category": "能源与航运",
-      "title": "Crude Oil - Oil prices fall as US pauses strikes on Iran over strait of Hormuz",
-      "url": "https://www.livecharts.co.uk/share_prices/Crude-Oil---Oil-prices-fall-as-US-pauses-stri-news1785147788.html",
-      "source": "livecharts.co.uk",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livecharts.co.uk/share_prices/Crude-Oil---Oil-prices-fall-as-US-pauses-stri-news1785147788.html"
-    },
-    {
-      "id": "53644f049ce1c47e",
-      "category": "能源与航运",
-      "title": "Indonesia Energy Corporation Commences Drilling of K - 29 Well",
-      "url": "https://www.manilatimes.net/2026/07/27/tmt-newswire/globenewswire/indonesia-energy-corporation-commences-drilling-of-k-29-well/2392024",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/07/27/tmt-newswire/globenewswire/indonesia-energy-corporation-commences-drilling-of-k-29-well/2392024"
-    },
-    {
-      "id": "c758d2baf19d052e",
-      "category": "数字资产",
-      "title": "Ballooning U . S . debt sends investors to bitcoin ( BTC ), gold to shelter from dollar devaluation : Crypto Daily",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/27/ballooning-u-s-debt-sends-investors-to-bitcoin-gold-to-shelter-from-dollar-devaluation",
-      "source": "coindesk.com",
-      "publishedAt": "2026-07-27T12:15:00Z",
-      "fetchedAt": "2026-07-27T12:38:16.626Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.coindesk.com/daybook-us/2026/07/27/ballooning-u-s-debt-sends-investors-to-bitcoin-gold-to-shelter-from-dollar-devaluation"
     }
   ]
 }
