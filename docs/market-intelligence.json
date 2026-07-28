@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-28T16:52:44.392Z",
-  "newsUpdatedAt": "2026-07-28T12:16:00.268Z",
-  "assetsUpdatedAt": "2026-07-28T16:52:44.392Z",
+  "generatedAt": "2026-07-28T18:49:28.024Z",
+  "newsUpdatedAt": "2026-07-28T18:49:28.024Z",
+  "assetsUpdatedAt": "2026-07-28T18:49:28.024Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -22,7 +22,7 @@
       "price": 3813.31,
       "changePercent": -1.16,
       "unit": "CNY",
-      "asOf": "2026-07-28T16:14:20+08:00",
+      "asOf": "2026-07-28T16:14:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52868.4,
-      "changePercent": 1.26,
+      "price": 52812.53,
+      "changePercent": 1.15,
       "unit": "USD",
-      "asOf": "2026-07-28T12:53:20-04:00",
+      "asOf": "2026-07-28T14:50:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24981.9,
-      "changePercent": 0.2,
+      "price": 24909.78,
+      "changePercent": -0.09,
       "unit": "USD",
-      "asOf": "2026-07-28T12:53:20-04:00",
+      "asOf": "2026-07-28T14:50:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7450.88,
-      "changePercent": 0.51,
+      "price": 7437.1,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-07-28T12:53:20-04:00",
+      "asOf": "2026-07-28T14:50:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4095.21,
-      "changePercent": -1,
+      "price": 4082.1,
+      "changePercent": -1.31,
       "unit": "USD",
-      "asOf": "2026-07-29T00:53:01-04:00",
+      "asOf": "2026-07-29T02:49:53-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 78.45,
-      "changePercent": -5.03,
+      "price": 79.09,
+      "changePercent": -4.26,
       "unit": "USD",
-      "asOf": "2026-07-29T00:53:01-04:00",
+      "asOf": "2026-07-29T02:50:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 636.53,
-      "changePercent": -0.21,
+      "price": 633.17,
+      "changePercent": -0.74,
       "unit": "USD",
-      "asOf": "2026-07-29T00:53:00-04:00",
+      "asOf": "2026-07-29T02:50:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,109 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63896,
-      "changePercent": -1.4055820175584777,
+      "price": 63726,
+      "changePercent": -1.5607326616784511,
       "unit": "USD",
-      "asOf": "2026-07-28T16:51:20.000Z",
+      "asOf": "2026-07-28T18:49:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "90ce015bc359fc2e",
+      "category": "科技与产业",
+      "title": "Robots humanoides realizan con éxito la primera cirugía teledirigida en un animal vivo",
+      "url": "https://www.infobae.com/tecno/2026/07/28/robots-humanoides-realizan-con-exito-la-primera-cirugia-teledirigida-en-un-animal-vivo/",
+      "source": "infobae.com",
+      "publishedAt": "2026-07-28T18:15:00Z",
+      "fetchedAt": "2026-07-28T18:49:28.024Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.infobae.com/tecno/2026/07/28/robots-humanoides-realizan-con-exito-la-primera-cirugia-teledirigida-en-un-animal-vivo/"
+    },
+    {
+      "id": "74f24c2cefd38b51",
+      "category": "全球与地区",
+      "title": "American confidence in US economy falls as Iran conflict sends gas prices higher",
+      "url": "https://www.kake.com/news/business/americans-confidence-in-us-economy-falls-as-iran-conflict-sends-gas-prices-higher/article_40117ce9-dade-574f-8eb9-d8999b6914a4.html",
+      "source": "kake.com",
+      "publishedAt": "2026-07-28T18:15:00Z",
+      "fetchedAt": "2026-07-28T18:49:28.024Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kake.com/news/business/americans-confidence-in-us-economy-falls-as-iran-conflict-sends-gas-prices-higher/article_40117ce9-dade-574f-8eb9-d8999b6914a4.html"
+    },
+    {
+      "id": "55cb7499390f2283",
+      "category": "能源与航运",
+      "title": "Draco Pad fracking deal is a win for Erie closing existing oil and gas wells",
+      "url": "https://www.denverpost.com/2026/07/28/draco-pad-erie-sm-energy-deal/",
+      "source": "denverpost.com",
+      "publishedAt": "2026-07-28T18:15:00Z",
+      "fetchedAt": "2026-07-28T18:49:28.024Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.denverpost.com/2026/07/28/draco-pad-erie-sm-energy-deal/"
+    },
     {
       "id": "4aed898451ae6ccb",
       "category": "全球与地区",
@@ -1609,100 +1702,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://timesofindia.indiatimes.com/etimes/trending/her-gold-medal-at-commonwealth-games-2026-was-historic-but-mirabai-chanus-tears-during-the-national-anthem-stole-every-heart/articleshow/132651327.cms"
-    },
-    {
-      "id": "db8311cc18d01a02",
-      "category": "A股与政策",
-      "title": "清晨 ， 全线拉升 ！ 中美 、 人工智能 ， 重磅 ！ 6万亿 ， 超级大单 ！ A股史上最大回购",
-      "url": "https://stock.jrj.com.cn/2026/07/27083057906137.shtml",
-      "source": "stock.jrj.com.cn",
-      "publishedAt": "2026-07-27T03:30:00Z",
-      "fetchedAt": "2026-07-27T04:55:01.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.jrj.com.cn/2026/07/27083057906137.shtml"
-    },
-    {
-      "id": "904314d1c0724a5b",
-      "category": "金属与资源",
-      "title": "CWG 2026 : Raja Muthupandi wins weightlifting silver as India medal rush continues in Glasgow",
-      "url": "https://www.2lt.com.au/cwg-2026-raja-muthupandi-wins-weightlifting-silver-as-indias-medal-rush-continues-in-glasgow/",
-      "source": "2lt.com.au",
-      "publishedAt": "2026-07-26T22:45:00Z",
-      "fetchedAt": "2026-07-26T23:16:43.520Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.2lt.com.au/cwg-2026-raja-muthupandi-wins-weightlifting-silver-as-indias-medal-rush-continues-in-glasgow/"
-    },
-    {
-      "id": "94eddefa499fbd5f",
-      "category": "全球与地区",
-      "title": "Tanker Market : Freight Rates Increasing Again | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/tanker-market-freight-rates-increasing-again/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-07-26T22:45:00Z",
-      "fetchedAt": "2026-07-26T23:16:43.520Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/tanker-market-freight-rates-increasing-again/"
     }
   ]
 }
