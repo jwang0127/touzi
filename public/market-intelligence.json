@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-29T17:40:59.946Z",
-  "newsUpdatedAt": "2026-07-29T06:47:16.235Z",
-  "assetsUpdatedAt": "2026-07-29T17:40:59.946Z",
+  "generatedAt": "2026-07-29T19:47:11.415Z",
+  "newsUpdatedAt": "2026-07-29T19:47:11.415Z",
+  "assetsUpdatedAt": "2026-07-29T19:47:11.415Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -22,7 +22,7 @@
       "price": 3828.47,
       "changePercent": 0.4,
       "unit": "CNY",
-      "asOf": "2026-07-29T16:14:20+08:00",
+      "asOf": "2026-07-29T16:14:01+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51980.58,
-      "changePercent": -1.45,
+      "price": 51586.24,
+      "changePercent": -2.2,
       "unit": "USD",
-      "asOf": "2026-07-29T13:41:20-04:00",
+      "asOf": "2026-07-29T15:48:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24704.79,
-      "changePercent": -0.69,
+      "price": 24542.81,
+      "changePercent": -1.34,
       "unit": "USD",
-      "asOf": "2026-07-29T13:41:20-04:00",
+      "asOf": "2026-07-29T15:48:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7380.28,
-      "changePercent": -0.65,
+      "price": 7334.66,
+      "changePercent": -1.27,
       "unit": "USD",
-      "asOf": "2026-07-29T13:41:20-04:00",
+      "asOf": "2026-07-29T15:48:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4100.67,
-      "changePercent": 0.05,
+      "price": 4132.64,
+      "changePercent": 0.83,
       "unit": "USD",
-      "asOf": "2026-07-30T01:40:57-04:00",
+      "asOf": "2026-07-30T03:48:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.54,
-      "changePercent": 6.66,
+      "price": 84.76,
+      "changePercent": 6.94,
       "unit": "USD",
-      "asOf": "2026-07-30T01:41:06-04:00",
+      "asOf": "2026-07-30T03:48:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 632.43,
-      "changePercent": -0.55,
+      "price": 636.94,
+      "changePercent": 0.16,
       "unit": "USD",
-      "asOf": "2026-07-30T01:41:01-04:00",
+      "asOf": "2026-07-30T03:48:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,208 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63768,
-      "changePercent": 0.4337070575850026,
+      "price": 63601,
+      "changePercent": -0.08708163124091066,
       "unit": "USD",
-      "asOf": "2026-07-29T17:39:40.000Z",
+      "asOf": "2026-07-29T19:48:41.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f7432fed7e8692cd",
+      "category": "能源与航运",
+      "title": "US Energy Secretary Says Ukraine Conflict Did Not Reduce Russian Oil Exports",
+      "url": "https://sputnikglobe.com/20260729/us-energy-secretary-says-ukraine-conflict-did-not-reduce-russian-oil-exports-1124516122.html",
+      "source": "sputnikglobe.com",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://sputnikglobe.com/20260729/us-energy-secretary-says-ukraine-conflict-did-not-reduce-russian-oil-exports-1124516122.html"
+    },
+    {
+      "id": "33e39b83828a7757",
+      "category": "全球与地区",
+      "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+      "url": "https://790waeb.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/",
+      "source": "790waeb.iheart.com",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://790waeb.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/"
+    },
+    {
+      "id": "73bcd11274940fe0",
+      "category": "能源与航运",
+      "title": "Baker Hughes expects modest decline in oil , gas investment",
+      "url": "http://www.shanghainews.net/news/279212516/baker-hughes-expects-modest-decline-in-oil-gas-investment",
+      "source": "shanghainews.net",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.shanghainews.net/news/279212516/baker-hughes-expects-modest-decline-in-oil-gas-investment"
+    },
+    {
+      "id": "b7ef7b9a787957c9",
+      "category": "能源与航运",
+      "title": "OMCs prioritize supply security over margins amid global crude volatility : Ambit analyst",
+      "url": "http://www.jamaicantimes.com/news/279215021/omcs-prioritize-supply-security-over-margins-amid-global-crude-volatility-ambit-analyst",
+      "source": "jamaicantimes.com",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Jamaica"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.jamaicantimes.com/news/279215021/omcs-prioritize-supply-security-over-margins-amid-global-crude-volatility-ambit-analyst"
+    },
+    {
+      "id": "0babb483f40544e8",
+      "category": "能源与航运",
+      "title": "Trump Says united states Will Strike Iran Hard | Peak Oil News and Message Boards",
+      "url": "https://peakoil.com/publicpolicy/trump-says-usa-will-strike-iran-hard",
+      "source": "peakoil.com",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://peakoil.com/publicpolicy/trump-says-usa-will-strike-iran-hard"
+    },
+    {
+      "id": "f685d4c427d1e0fa",
+      "category": "科技与产业",
+      "title": "Semiconductor Crash : 3 Stocks to Buy Now While They Are Still on Sale",
+      "url": "https://www.fool.com/investing/2026/07/29/semiconductor-crash-3-stocks-to-buy-now-while-they/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "publishedAt": "2026-07-29T19:15:00Z",
+      "fetchedAt": "2026-07-29T19:47:11.415Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fool.com/investing/2026/07/29/semiconductor-crash-3-stocks-to-buy-now-while-they/?source=iedfolrf0000001"
+    },
     {
       "id": "1dc0b024ca09acb2",
       "category": "数字资产",
@@ -1501,207 +1693,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.ncnewsonline.com/news/national/wall-streets-flip-from-ai-to-less-loved-stocks-accelerates-while-oil-prices-keep-easing/article_0c2f5ad1-43b7-5826-9740-64156e0d206c.html"
-    },
-    {
-      "id": "4e8132dd7a1259ec",
-      "category": "能源与航运",
-      "title": "Crude oil futures settle at $79 . 26",
-      "url": "https://investinglive.com/technical-analysis/crude-oil-futures-settle-at-79-26/",
-      "source": "investinglive.com",
-      "publishedAt": "2026-07-28T20:15:00Z",
-      "fetchedAt": "2026-07-28T20:35:59.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://investinglive.com/technical-analysis/crude-oil-futures-settle-at-79-26/"
-    },
-    {
-      "id": "4951d4fc8f09b52d",
-      "category": "金属与资源",
-      "title": "Gold declines as traders weigh interest rate prospects",
-      "url": "https://windsorstar.com:443/commodities/gold-declines-traders-weigh-inrerest-rate-moves",
-      "source": "windsorstar.com",
-      "publishedAt": "2026-07-28T20:15:00Z",
-      "fetchedAt": "2026-07-28T20:35:59.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://windsorstar.com:443/commodities/gold-declines-traders-weigh-inrerest-rate-moves"
-    },
-    {
-      "id": "aa06dbcfd1f29b92",
-      "category": "能源与航运",
-      "title": "Reps , oil marketers kick against imposition of dollar billing on locally refined petroleum products",
-      "url": "https://tribuneonlineng.com/reps-oil-marketers-kick-against-imposition-of-dollar-billing-on-locally-refined-petroleum-products/",
-      "source": "tribuneonlineng.com",
-      "publishedAt": "2026-07-28T20:15:00Z",
-      "fetchedAt": "2026-07-28T20:35:59.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribuneonlineng.com/reps-oil-marketers-kick-against-imposition-of-dollar-billing-on-locally-refined-petroleum-products/"
-    },
-    {
-      "id": "bb176d5f1c244532",
-      "category": "金属与资源",
-      "title": "Cameroon Says Undeclared Gold Exports Cost State CFAF577 Billion in Five Years",
-      "url": "https://www.businessincameroon.com/mining/2807-16535-cameroon-says-undeclared-gold-exports-cost-state-cfaf577-billion-in-five-years",
-      "source": "businessincameroon.com",
-      "publishedAt": "2026-07-28T20:15:00Z",
-      "fetchedAt": "2026-07-28T20:35:59.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Cameroon"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.businessincameroon.com/mining/2807-16535-cameroon-says-undeclared-gold-exports-cost-state-cfaf577-billion-in-five-years"
-    },
-    {
-      "id": "8068d0fbbac93d1e",
-      "category": "能源与航运",
-      "title": "Oil tops $100 again amid Red Sea attacks ; stock markets down",
-      "url": "https://tradearabia.com:443/News/465549/Oil-tops-$100-again-amid-Red-Sea-attacks-stock-markets-down",
-      "source": "tradearabia.com",
-      "publishedAt": "2026-07-28T20:15:00Z",
-      "fetchedAt": "2026-07-28T20:35:59.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Arab Emirates"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tradearabia.com:443/News/465549/Oil-tops-$100-again-amid-Red-Sea-attacks-stock-markets-down"
-    },
-    {
-      "id": "90ce015bc359fc2e",
-      "category": "科技与产业",
-      "title": "Robots humanoides realizan con éxito la primera cirugía teledirigida en un animal vivo",
-      "url": "https://www.infobae.com/tecno/2026/07/28/robots-humanoides-realizan-con-exito-la-primera-cirugia-teledirigida-en-un-animal-vivo/",
-      "source": "infobae.com",
-      "publishedAt": "2026-07-28T18:15:00Z",
-      "fetchedAt": "2026-07-28T18:49:28.024Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.infobae.com/tecno/2026/07/28/robots-humanoides-realizan-con-exito-la-primera-cirugia-teledirigida-en-un-animal-vivo/"
     }
   ]
 }
