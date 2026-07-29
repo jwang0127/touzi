@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-28T22:18:31.796Z",
-  "newsUpdatedAt": "2026-07-28T22:18:31.796Z",
-  "assetsUpdatedAt": "2026-07-28T22:18:31.796Z",
+  "generatedAt": "2026-07-29T00:11:50.046Z",
+  "newsUpdatedAt": "2026-07-29T00:11:50.046Z",
+  "assetsUpdatedAt": "2026-07-29T00:11:50.046Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4082,
-      "changePercent": -0.41,
+      "price": 4078.55,
+      "changePercent": -0.49,
       "unit": "USD",
-      "asOf": "2026-07-29T06:18:49-04:00",
+      "asOf": "2026-07-29T08:11:41-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.53,
-      "changePercent": 2.87,
+      "price": 82.31,
+      "changePercent": 3.85,
       "unit": "USD",
-      "asOf": "2026-07-29T06:19:06-04:00",
+      "asOf": "2026-07-29T08:12:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 633.72,
-      "changePercent": -0.35,
+      "price": 634.53,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-07-29T06:18:03-04:00",
+      "asOf": "2026-07-29T08:11:48-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,439 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63944,
-      "changePercent": -1.1471095108087785,
+      "price": 63983,
+      "changePercent": 0.6348437044313767,
       "unit": "USD",
-      "asOf": "2026-07-28T22:17:30.000Z",
+      "asOf": "2026-07-29T00:11:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "7189d3bb5565c247",
+      "category": "金属与资源",
+      "title": "This Volcano in Antarctica Is Spewing out $6 , 000 Worth of Gold Dust Per Day But You Cant Go Get It",
+      "url": "https://www.zmescience.com/science/news-science/erebus-volcano-antarctica-gold-rep/",
+      "source": "zmescience.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zmescience.com/science/news-science/erebus-volcano-antarctica-gold-rep/"
+    },
+    {
+      "id": "94e69b4f1406b950",
+      "category": "能源与航运",
+      "title": "Erie residents are petitioning to bring town SM Energy deal to ballot . What happens if they succeed ?",
+      "url": "https://www.timescall.com/2026/07/28/erie-petition-deal-oil-gas-smenergy-draco/",
+      "source": "timescall.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.timescall.com/2026/07/28/erie-petition-deal-oil-gas-smenergy-draco/"
+    },
+    {
+      "id": "4cb5ff6ddeecf385",
+      "category": "金属与资源",
+      "title": "Ben Carroll : Loyalty pledge to Allan reveals political golden rule | The Rural",
+      "url": "https://www.therural.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/",
+      "source": "therural.com.au",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.therural.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/"
+    },
+    {
+      "id": "1c2df20f9c12581d",
+      "category": "金属与资源",
+      "title": "Metallic Minerals ( CVE : MMG ) Shares Down 2 . 6 % – Here Why",
+      "url": "https://www.dailypolitical.com/2026/07/28/metallic-minerals-cvemmg-shares-down-2-6-heres-why.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/07/28/metallic-minerals-cvemmg-shares-down-2-6-heres-why.html"
+    },
+    {
+      "id": "3ba2d5c3cc6700ca",
+      "category": "能源与航运",
+      "title": "World News : Omani Strait of Hormuz push includes joint management",
+      "url": "https://www.gdnonline.com:443/Details/1401935",
+      "source": "gdnonline.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.gdnonline.com:443/Details/1401935"
+    },
+    {
+      "id": "4059c4897e30ea37",
+      "category": "金属与资源",
+      "title": "Ben Carroll : Loyalty pledge to Allan reveals political golden rule | The Advocate - Hepburn",
+      "url": "https://www.hepburnadvocate.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/",
+      "source": "hepburnadvocate.com.au",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hepburnadvocate.com.au/story/9319011/ben-carroll-loyalty-pledge-to-allan-reveals-political-golden-rule/"
+    },
+    {
+      "id": "ab567e8cf7e1fac6",
+      "category": "全球与地区",
+      "title": "Oil and gas market perilous dilemma | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/oil-and-gas-markets-perilous-dilemma/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/oil-and-gas-markets-perilous-dilemma/"
+    },
+    {
+      "id": "ef30a7222c02fbbe",
+      "category": "科技与产业",
+      "title": "White House Bans Foreign Humanoid Robots in Bid to Slow China Tech Explosion",
+      "url": "https://gizmodo.com/white-house-bans-foreign-humanoid-robots-in-bid-to-slow-chinas-tech-explosion-2000792090",
+      "source": "gizmodo.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gizmodo.com/white-house-bans-foreign-humanoid-robots-in-bid-to-slow-chinas-tech-explosion-2000792090"
+    },
+    {
+      "id": "8bbc453602c747cb",
+      "category": "能源与航运",
+      "title": "Power struggle : data centre energy rules spark concerns",
+      "url": "https://www.inverelltimes.com.au/story/9319571/power-struggle-data-centre-energy-rules-spark-concerns/",
+      "source": "inverelltimes.com.au",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.inverelltimes.com.au/story/9319571/power-struggle-data-centre-energy-rules-spark-concerns/"
+    },
+    {
+      "id": "a8d7f7e4c0599a0a",
+      "category": "能源与航运",
+      "title": "ABS Awards Approval in Principle to Samsung Heavy Industries and Conrad Shipyard for U . S .- Built LNG Bunkering ATB",
+      "url": "https://www.hellenicshippingnews.com/abs-awards-approval-in-principle-to-samsung-heavy-industries-and-conrad-shipyard-for-u-s-built-lng-bunkering-atb/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/abs-awards-approval-in-principle-to-samsung-heavy-industries-and-conrad-shipyard-for-u-s-built-lng-bunkering-atb/"
+    },
+    {
+      "id": "ed1bd41d24fea06c",
+      "category": "能源与航运",
+      "title": "5 states offer to accept nuclear waste in exchange for help developing nuclear energy",
+      "url": "https://www.capitalgazette.com/2026/07/28/trump-nuclear-waste/",
+      "source": "capitalgazette.com",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.capitalgazette.com/2026/07/28/trump-nuclear-waste/"
+    },
+    {
+      "id": "9abc5ffd26638cea",
+      "category": "科技与产业",
+      "title": "Mỹ dự kiến cấm nhập khẩu robot và bộ biến tần mới của Trung Quốc",
+      "url": "http://vov.vn/cong-nghe/tin-cong-nghe/my-du-kien-cam-nhap-khau-robot-va-bo-bien-tan-moi-cua-trung-quoc-post1319368.vov",
+      "source": "vov.vn",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://vov.vn/cong-nghe/tin-cong-nghe/my-du-kien-cam-nhap-khau-robot-va-bo-bien-tan-moi-cua-trung-quoc-post1319368.vov"
+    },
+    {
+      "id": "b8d9b6d5142d28b9",
+      "category": "全球与地区",
+      "title": "No , Trump tariffs havent reshored manufacturing jobs",
+      "url": "https://www.marketplace.org/episode/2026/07/28/no-trumps-tariffs-havent-reshored-manufacturing-jobs",
+      "source": "marketplace.org",
+      "publishedAt": "2026-07-28T23:45:00Z",
+      "fetchedAt": "2026-07-29T00:11:50.046Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.marketplace.org/episode/2026/07/28/no-trumps-tariffs-havent-reshored-manufacturing-jobs"
+    },
     {
       "id": "1675fa85e493214f",
       "category": "科技与产业",
@@ -506,39 +929,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://japantoday.com/category/world/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz4"
-    },
-    {
-      "id": "7d1353cf28f93860",
-      "category": "能源与航运",
-      "title": "5 states offer to accept nuclear waste in exchange for help developing nuclear energy",
-      "url": "https://www.clickorlando.com/health/2026/07/28/5-states-offer-to-accept-nuclear-waste-in-exchange-for-help-developing-nuclear-energy/",
-      "source": "clickorlando.com",
-      "publishedAt": "2026-07-28T22:00:00Z",
-      "fetchedAt": "2026-07-28T22:18:31.796Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.clickorlando.com/health/2026/07/28/5-states-offer-to-accept-nuclear-waste-in-exchange-for-help-developing-nuclear-energy/"
     },
     {
       "id": "a730d21954815f75",
@@ -1331,396 +1721,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://dailypioneer.com/news/rupee-surges-61-paise-to-settle-at-95-92-against-us-dollar"
-    },
-    {
-      "id": "154feaa600a66939",
-      "category": "能源与航运",
-      "title": "Caspian Sea : Terror as the wars in Iran and Ukraine merge – Impending shock with Hormuz transit fees",
-      "url": "https://www.bankingnews.gr/diethni/articles/890801/caspian-sea-terror-as-the-wars-in-iran-and-ukraine-merge-impending-shock-with-hormuz-transit-fees%20title=",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/890801/caspian-sea-terror-as-the-wars-in-iran-and-ukraine-merge-impending-shock-with-hormuz-transit-fees%20title="
-    },
-    {
-      "id": "e956e6b95c56738c",
-      "category": "科技与产业",
-      "title": "Alianța din Zalău a câștigat competiția de robotică CNAPSys Cash Cup Sălăjeanul",
-      "url": "https://salajeanul.ro/alianta-din-zalau-a-castigat-competitia-de-robotica-cnapsys-cash-cup/",
-      "source": "salajeanul.ro",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://salajeanul.ro/alianta-din-zalau-a-castigat-competitia-de-robotica-cnapsys-cash-cup/"
-    },
-    {
-      "id": "4359d7e017b32d2c",
-      "category": "金属与资源",
-      "title": "Is aluminium the new gold for India MSMEs ? Industry scrambles for alternate sources after Middle East ban",
-      "url": "https://www.moneycontrol.com/news/business/economy/is-aluminium-the-new-gold-for-india-s-msmes-industry-scrambles-for-alternate-sources-after-middle-east-ban-13985696.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/news/business/economy/is-aluminium-the-new-gold-for-india-s-msmes-industry-scrambles-for-alternate-sources-after-middle-east-ban-13985696.html"
-    },
-    {
-      "id": "2cbb0688b8b0fdd1",
-      "category": "科技与产业",
-      "title": "El debut de CXMT con una OPV histórica en el mercado A impulsa la confianza en la capacidad semiconductora y la innovación sostenida de China",
-      "url": "http://spanish.china.org.cn/txt/2026-07/28/content_118621925.htm",
-      "source": "spanish.china.org.cn",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://spanish.china.org.cn/txt/2026-07/28/content_118621925.htm"
-    },
-    {
-      "id": "1631241b1f339dae",
-      "category": "能源与航运",
-      "title": "Perché il rialzo di gas e petrolio è contenuto nonostante la chiusura di Hormuz ? La risposta degli economisti Bce",
-      "url": "https://www.milanofinanza.it/news/energia-perche-il-rialzo-di-gas-e-petrolio-contenuto-nonostante-chiusura-hormuz-economisti-bce-ecb-202607271805536539",
-      "source": "milanofinanza.it",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.milanofinanza.it/news/energia-perche-il-rialzo-di-gas-e-petrolio-contenuto-nonostante-chiusura-hormuz-economisti-bce-ecb-202607271805536539"
-    },
-    {
-      "id": "ae19934b59868a8f",
-      "category": "金属与资源",
-      "title": "Nude run startles diners on Gold Coast",
-      "url": "https://www.theage.com.au/national/nude-run-startles-diners-on-gold-coast-20260728-p60j3w.html",
-      "source": "theage.com.au",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theage.com.au/national/nude-run-startles-diners-on-gold-coast-20260728-p60j3w.html"
-    },
-    {
-      "id": "f810ae3b3b186d68",
-      "category": "金属与资源",
-      "title": "CWG 2026 : Sharmila Dhankar wins shot put F57 gold , takes country medal tally to eight",
-      "url": "http://www.bignewsnetwork.com/news/279212629/cwg-2026-sharmila-dhankar-wins-shot-put-f57-gold-takes-country-medal-tally-to-eight",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279212629/cwg-2026-sharmila-dhankar-wins-shot-put-f57-gold-takes-country-medal-tally-to-eight"
-    },
-    {
-      "id": "1aef223e01b4f31d",
-      "category": "全球与地区",
-      "title": "Idaho gas prices skyrocketing with no relief in sight as Middle East conflict spirals",
-      "url": "http://www.rexburgstandardjournal.com/news/local/idaho-gas-prices-skyrocketing-with-no-relief-in-sight-as-middle-east-conflict-spirals/article_2d78c10b-5bdf-4541-a1b6-fe4f2f4f6488.html",
-      "source": "rexburgstandardjournal.com",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.rexburgstandardjournal.com/news/local/idaho-gas-prices-skyrocketing-with-no-relief-in-sight-as-middle-east-conflict-spirals/article_2d78c10b-5bdf-4541-a1b6-fe4f2f4f6488.html"
-    },
-    {
-      "id": "74c04f9ed4ec8c0f",
-      "category": "全球与地区",
-      "title": "Zelenskiy to meet US senators , Russia sanctions vote expected",
-      "url": "https://hot96.com/2026/07/27/zelenskiy-to-meet-us-senators-russia-sanctions-vote-expected/",
-      "source": "hot96.com",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hot96.com/2026/07/27/zelenskiy-to-meet-us-senators-russia-sanctions-vote-expected/"
-    },
-    {
-      "id": "f89657c3f20eeec6",
-      "category": "金属与资源",
-      "title": "Bayhorse Silver Inc .: Bayhorse Silver Underground Drilling Operations Suspended Due to Wildfires",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69136807-bayhorse-silver-inc-bayhorse-silver-underground-drilling-operations-suspended-due-to-wildfires-296.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-07-27T23:00:00Z",
-      "fetchedAt": "2026-07-27T23:29:05.759Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69136807-bayhorse-silver-inc-bayhorse-silver-underground-drilling-operations-suspended-due-to-wildfires-296.htm"
-    },
-    {
-      "id": "ab3cdca039e8a3a4",
-      "category": "能源与航运",
-      "title": "Oil shock could be worse than the first , Treasury warns",
-      "url": "https://www.begadistrictnews.com.au/story/9318656/oil-shock-could-be-worse-than-the-first-treasury-warns/",
-      "source": "begadistrictnews.com.au",
-      "publishedAt": "2026-07-27T19:30:00Z",
-      "fetchedAt": "2026-07-27T19:58:01.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.begadistrictnews.com.au/story/9318656/oil-shock-could-be-worse-than-the-first-treasury-warns/"
-    },
-    {
-      "id": "9b3120a96b1a2883",
-      "category": "能源与航运",
-      "title": "UAE strongly condemns hostile attacks attempting to target oil facilities in Saudi Arabia",
-      "url": "http://www.middleeaststar.com/news/279212499/uae-strongly-condemns-hostile-attacks-attempting-to-target-oil-facilities-in-saudi-arabia",
-      "source": "middleeaststar.com",
-      "publishedAt": "2026-07-27T19:30:00Z",
-      "fetchedAt": "2026-07-27T19:58:01.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.middleeaststar.com/news/279212499/uae-strongly-condemns-hostile-attacks-attempting-to-target-oil-facilities-in-saudi-arabia"
     }
   ]
 }
