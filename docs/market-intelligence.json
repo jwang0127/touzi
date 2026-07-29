@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-29T00:11:50.046Z",
-  "newsUpdatedAt": "2026-07-29T00:11:50.046Z",
-  "assetsUpdatedAt": "2026-07-29T00:11:50.046Z",
+  "generatedAt": "2026-07-29T03:44:32.930Z",
+  "newsUpdatedAt": "2026-07-29T03:44:32.930Z",
+  "assetsUpdatedAt": "2026-07-29T03:44:32.930Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -17,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3813.31,
-      "changePercent": -1.16,
+      "price": 3793.18,
+      "changePercent": -0.53,
       "unit": "CNY",
-      "asOf": "2026-07-28T16:14:20+08:00",
+      "asOf": "2026-07-29T11:45:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -28,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13509.68,
-      "changePercent": -4.52,
+      "price": 13452.05,
+      "changePercent": -0.43,
       "unit": "CNY",
-      "asOf": "2026-07-28T16:14:33+08:00",
+      "asOf": "2026-07-29T11:45:21+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25310.85,
-      "changePercent": 0.41,
+      "price": 25675.59,
+      "changePercent": 1.44,
       "unit": "HKD",
-      "asOf": "2026-07-28T18:31:23+08:00",
+      "asOf": "2026-07-29T11:30:26+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8436.25,
-      "changePercent": 0.85,
+      "price": 8598.87,
+      "changePercent": 1.93,
       "unit": "HKD",
-      "asOf": "2026-07-28T16:08:44+08:00",
+      "asOf": "2026-07-29T11:30:26+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4078.55,
-      "changePercent": -0.49,
+      "price": 4085.11,
+      "changePercent": -0.33,
       "unit": "USD",
-      "asOf": "2026-07-29T08:11:41-04:00",
+      "asOf": "2026-07-29T11:45:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.31,
-      "changePercent": 3.85,
+      "price": 82.63,
+      "changePercent": 4.26,
       "unit": "USD",
-      "asOf": "2026-07-29T08:12:04-04:00",
+      "asOf": "2026-07-29T11:44:47-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 634.53,
-      "changePercent": -0.22,
+      "price": 630.88,
+      "changePercent": -0.8,
       "unit": "USD",
-      "asOf": "2026-07-29T08:11:48-04:00",
+      "asOf": "2026-07-29T11:44:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,329 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63983,
-      "changePercent": 0.6348437044313767,
+      "price": 63709,
+      "changePercent": 0.6355927734120944,
       "unit": "USD",
-      "asOf": "2026-07-29T00:11:10.000Z",
+      "asOf": "2026-07-29T03:43:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "0e058443ff4d7dd3",
+      "category": "能源与航运",
+      "title": "Iran melder at have angrebet tre olietankere i Hormuzstrædet",
+      "url": "https://www.bt.dk/udland/iran-melder-at-have-angrebet-tre-olietankere-i-hormuzstraedet",
+      "source": "bt.dk",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Denmark"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bt.dk/udland/iran-melder-at-have-angrebet-tre-olietankere-i-hormuzstraedet"
+    },
+    {
+      "id": "69ee282212f7bdd8",
+      "category": "能源与航运",
+      "title": "Commodity Corner : Crude gains over 2 % as US inventories shrink ; gold slips ahead of Fed decision",
+      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-rebounds-over-2-on-shrinking-us-inventories-gold-slips-ahead-of-fed-decision-13986414.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-rebounds-over-2-on-shrinking-us-inventories-gold-slips-ahead-of-fed-decision-13986414.html"
+    },
+    {
+      "id": "2c76ce923b0db851",
+      "category": "全球与地区",
+      "title": "First step toward peace : Zelenskyy welcomes US Senate 86 - vote move on Russia sanctions bill",
+      "url": "http://www.bignewsnetwork.com/news/279214252/first-step-toward-peace-zelenskyy-welcomes-us-senate-86-vote-move-on-russia-sanctions-bill",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279214252/first-step-toward-peace-zelenskyy-welcomes-us-senate-86-vote-move-on-russia-sanctions-bill"
+    },
+    {
+      "id": "4e4a7c95166c6e6a",
+      "category": "全球与地区",
+      "title": "The Senate advances Russia and Iran sanctions bill in 86 - 12 bipartisan procedural vote",
+      "url": "https://foxreno.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran",
+      "source": "foxreno.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://foxreno.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran"
+    },
+    {
+      "id": "b64957d76bb757af",
+      "category": "全球与地区",
+      "title": "US Senate advances Russia sanctions bill ; India could face tariffs of up to 100 %",
+      "url": "https://www.moneycontrol.com/world/us-senate-advances-russia-sanctions-bill-india-could-face-tariffs-of-up-to-100-article-13986382.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/world/us-senate-advances-russia-sanctions-bill-india-could-face-tariffs-of-up-to-100-article-13986382.html"
+    },
+    {
+      "id": "a0ec2d03a56dd401",
+      "category": "能源与航运",
+      "title": "Oil prices fall 5 % to two - week low after several days without US - Iran strikes",
+      "url": "https://www.asiaone.com/money/oil-prices-fall-5-two-week-low-after-several-days-without-us-iran-strikes",
+      "source": "asiaone.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Singapore"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.asiaone.com/money/oil-prices-fall-5-two-week-low-after-several-days-without-us-iran-strikes"
+    },
+    {
+      "id": "5af12acd14818911",
+      "category": "能源与航运",
+      "title": "Oman presents Iran with Gulf - backed plan for voluntary fees to use Hormuz",
+      "url": "https://www.asiaone.com/asia/oman-presents-iran-gulf-backed-plan-voluntary-fees-use-hormuz",
+      "source": "asiaone.com",
+      "publishedAt": "2026-07-29T03:15:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Singapore"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.asiaone.com/asia/oman-presents-iran-gulf-backed-plan-voluntary-fees-use-hormuz"
+    },
+    {
+      "id": "8e4f47b69049b23c",
+      "category": "能源与航运",
+      "title": "OPEC+ üretim artışını durdurmaya hazırlanıyor",
+      "url": "https://www.malatyaguncel.com/opec-uretim-artisini-durdurmaya-hazirlaniyor-3103688h.htm",
+      "source": "malatyaguncel.com",
+      "publishedAt": "2026-07-29T03:00:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Turkey"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.malatyaguncel.com/opec-uretim-artisini-durdurmaya-hazirlaniyor-3103688h.htm"
+    },
+    {
+      "id": "5268ca2c4bf3b396",
+      "category": "能源与航运",
+      "title": "Stocks in news : L & T , Tata Capital , Ambuja Cements , Suzlon Energy , RVNL",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-lt-tata-capital-ambuja-cements-suzlon-energy-rvnl/articleshow/132687151.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-07-29T03:00:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-lt-tata-capital-ambuja-cements-suzlon-energy-rvnl/articleshow/132687151.cms"
+    },
+    {
+      "id": "0e1ac18251582860",
+      "category": "数字资产",
+      "title": "OnchainCrypto件の引き出しが凍結されました 18 . - 真実観測所",
+      "url": "https://blog.udn.com:443/88311853/191735654",
+      "source": "blog.udn.com",
+      "publishedAt": "2026-07-29T03:00:00Z",
+      "fetchedAt": "2026-07-29T03:44:32.930Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://blog.udn.com:443/88311853/191735654"
+    },
     {
       "id": "7189d3bb5565c247",
       "category": "金属与资源",
@@ -898,39 +1213,6 @@
       "provenanceUrl": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/gran-tierra-energy-inc-provides-release-date-for-its-2026-second-quarter-results/2393570"
     },
     {
-      "id": "52573f58d9b7abd4",
-      "category": "能源与航运",
-      "title": "Oman presents Iran with Gulf - backed plan for voluntary fees to use Hormuz",
-      "url": "https://japantoday.com/category/world/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz4",
-      "source": "japantoday.com",
-      "publishedAt": "2026-07-28T22:00:00Z",
-      "fetchedAt": "2026-07-28T22:18:31.796Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Japan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://japantoday.com/category/world/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz4"
-    },
-    {
       "id": "a730d21954815f75",
       "category": "金属与资源",
       "title": "Kenny Chesney Shot a Car Into Space for Silver Sands Marina | Y102",
@@ -1425,302 +1707,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wallstreet-online.de/nachricht/21159476-goldpreis-goldpreis-stuerzt-1-34-4-026-42-usd"
-    },
-    {
-      "id": "13e318db96ee816b",
-      "category": "金属与资源",
-      "title": "Sophie Hahn mindset sparks Commonwealth Gold",
-      "url": "https://www.northwalespioneer.co.uk/news/26415527.sophie-hahns-mindset-sparks-commonwealth-gold/",
-      "source": "northwalespioneer.co.uk",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.northwalespioneer.co.uk/news/26415527.sophie-hahns-mindset-sparks-commonwealth-gold/"
-    },
-    {
-      "id": "e9fa0f887d77190c",
-      "category": "金属与资源",
-      "title": "Olivia Breen celebrates 30th birthday with Commonwealth silver",
-      "url": "https://www.gazetteherald.co.uk/news/26415622.olivia-breen-celebrates-30th-birthday-commonwealth-silver/",
-      "source": "gazetteherald.co.uk",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.gazetteherald.co.uk/news/26415622.olivia-breen-celebrates-30th-birthday-commonwealth-silver/"
-    },
-    {
-      "id": "1406d0547e3586bb",
-      "category": "全球与地区",
-      "title": "Cosmin Cernat , dezvăluiri despre viața de familie . Cum menține echilibrul în cuplu : „ Important este să vezi rădăcinile conflictului",
-      "url": "https://www.ziarulprofit.ro/cosmin-cernat-dezvaluiri-despre-viata-de-familie-cum-mentine-echilibrul-in-cuplu-important-este-sa-vezi-radacinile-conflictului/",
-      "source": "ziarulprofit.ro",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ziarulprofit.ro/cosmin-cernat-dezvaluiri-despre-viata-de-familie-cum-mentine-echilibrul-in-cuplu-important-este-sa-vezi-radacinile-conflictului/"
-    },
-    {
-      "id": "e21be18239973593",
-      "category": "能源与航运",
-      "title": "Zaljevske države podržale plan da Iran naplaćuje dobrovoljne naknade za Hormuz",
-      "url": "https://www.index.hr/vijesti/clanak/iran-bi-mogao-poceti-naplacivati-prolaz-kroz-hormuski-tjesnac/2818429.aspx",
-      "source": "index.hr",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Croatia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.index.hr/vijesti/clanak/iran-bi-mogao-poceti-naplacivati-prolaz-kroz-hormuski-tjesnac/2818429.aspx"
-    },
-    {
-      "id": "6c1076d0cbf90228",
-      "category": "能源与航运",
-      "title": "Stocks drift on Wall Street and crude oil prices drop as Mideast tensions cool",
-      "url": "https://wlec.com/uncategorized/stocks-drift-on-wall-street-and-crude-oil-prices-drop-as-mideast-tensions-cool/",
-      "source": "wlec.com",
-      "publishedAt": "2026-07-28T11:15:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wlec.com/uncategorized/stocks-drift-on-wall-street-and-crude-oil-prices-drop-as-mideast-tensions-cool/"
-    },
-    {
-      "id": "a7861430e39ac79a",
-      "category": "能源与航运",
-      "title": "Oil Prices Fall as U . S . and Iran Pause Attacks and Continue Talks",
-      "url": "https://www.1290wlby.com/2026/07/28/oil-prices-fall-as-u-s-and-iran-pause-attacks-and-continue-talks/",
-      "source": "1290wlby.com",
-      "publishedAt": "2026-07-28T11:15:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.1290wlby.com/2026/07/28/oil-prices-fall-as-u-s-and-iran-pause-attacks-and-continue-talks/"
-    },
-    {
-      "id": "600059c748b9d37d",
-      "category": "科技与产业",
-      "title": "Windtech International - Perceptual Robotics secures funding to expand wind turbine inspection technology",
-      "url": "https://www.windtech-international.com/company-news/perceptual-robotics-secures-funding-to-expand-wind-turbine-inspection-technology",
-      "source": "windtech-international.com",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.windtech-international.com/company-news/perceptual-robotics-secures-funding-to-expand-wind-turbine-inspection-technology"
-    },
-    {
-      "id": "8268478d68cbcb71",
-      "category": "金属与资源",
-      "title": "An emotional home gold for Angharad Evans in front of Scotland",
-      "url": "https://www.sthelensstar.co.uk/news/26414942.emotional-home-gold-angharad-evans-front-scotland/",
-      "source": "sthelensstar.co.uk",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sthelensstar.co.uk/news/26414942.emotional-home-gold-angharad-evans-front-scotland/"
-    },
-    {
-      "id": "9a3ca902b1f4a2f8",
-      "category": "能源与航运",
-      "title": "Rupee jumps 61 paise to 95 . 92 against US dollar as crude oil prices tumble",
-      "url": "https://dailypioneer.com/news/rupee-surges-61-paise-to-settle-at-95-92-against-us-dollar",
-      "source": "dailypioneer.com",
-      "publishedAt": "2026-07-28T09:30:00Z",
-      "fetchedAt": "2026-07-28T09:57:40.004Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dailypioneer.com/news/rupee-surges-61-paise-to-settle-at-95-92-against-us-dollar"
     }
   ]
 }
