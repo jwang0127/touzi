@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-29T03:44:32.930Z",
-  "newsUpdatedAt": "2026-07-29T03:44:32.930Z",
-  "assetsUpdatedAt": "2026-07-29T03:44:32.930Z",
+  "generatedAt": "2026-07-29T06:47:16.235Z",
+  "newsUpdatedAt": "2026-07-29T06:47:16.235Z",
+  "assetsUpdatedAt": "2026-07-29T06:47:16.235Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3793.18,
-      "changePercent": -0.53,
+      "price": 3828.66,
+      "changePercent": 0.4,
       "unit": "CNY",
-      "asOf": "2026-07-29T11:45:00+08:00",
+      "asOf": "2026-07-29T14:48:39+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13452.05,
-      "changePercent": -0.43,
+      "price": 13662.44,
+      "changePercent": 1.13,
       "unit": "CNY",
-      "asOf": "2026-07-29T11:45:21+08:00",
+      "asOf": "2026-07-29T14:48:36+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25675.59,
-      "changePercent": 1.44,
+      "price": 25735.93,
+      "changePercent": 1.68,
       "unit": "HKD",
-      "asOf": "2026-07-29T11:30:26+08:00",
+      "asOf": "2026-07-29T14:33:38+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8598.87,
-      "changePercent": 1.93,
+      "price": 8603.87,
+      "changePercent": 1.99,
       "unit": "HKD",
-      "asOf": "2026-07-29T11:30:26+08:00",
+      "asOf": "2026-07-29T14:33:38+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4085.11,
-      "changePercent": -0.33,
+      "price": 4100.66,
+      "changePercent": 0.05,
       "unit": "USD",
-      "asOf": "2026-07-29T11:45:01-04:00",
+      "asOf": "2026-07-29T14:48:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.63,
-      "changePercent": 4.26,
+      "price": 82,
+      "changePercent": 3.46,
       "unit": "USD",
-      "asOf": "2026-07-29T11:44:47-04:00",
+      "asOf": "2026-07-29T14:48:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 630.88,
-      "changePercent": -0.8,
+      "price": 633.85,
+      "changePercent": -0.33,
       "unit": "USD",
-      "asOf": "2026-07-29T11:44:59-04:00",
+      "asOf": "2026-07-29T14:47:30-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,162 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63709,
-      "changePercent": 0.6355927734120944,
+      "price": 64362,
+      "changePercent": 1.3522267156439713,
       "unit": "USD",
-      "asOf": "2026-07-29T03:43:30.000Z",
+      "asOf": "2026-07-29T06:46:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1dc0b024ca09acb2",
+      "category": "数字资产",
+      "title": "Beyond Bitcoin : Crypto trends investors should watch over the next 6 months",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/beyond-bitcoin-crypto-trends-investors-should-watch-over-the-next-6-months/articleshow/132701499.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-07-29T06:15:00Z",
+      "fetchedAt": "2026-07-29T06:47:16.235Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/beyond-bitcoin-crypto-trends-investors-should-watch-over-the-next-6-months/articleshow/132701499.cms"
+    },
+    {
+      "id": "e8d04ae12cbd12a4",
+      "category": "能源与航运",
+      "title": "Bangladesh Plans New Floating Storage and Regasification Unit ( FSRU ) | Govt braces for costly LNG future",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/govt-braces-costly-lng-future-4235196",
+      "source": "thedailystar.net",
+      "publishedAt": "2026-07-29T06:15:00Z",
+      "fetchedAt": "2026-07-29T06:47:16.235Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Bangladesh"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thedailystar.net/news/bangladesh/news/govt-braces-costly-lng-future-4235196"
+    },
+    {
+      "id": "c724a0bb64d0cd45",
+      "category": "数字资产",
+      "title": "Bitcoin Falls Back Ahead of the High - Stakes Fed Decision",
+      "url": "https://www.actionforex.com/contributors/technical-analysis/648761-bitcoin-falls-back-ahead-of-the-high-stakes-fed-decision/",
+      "source": "actionforex.com",
+      "publishedAt": "2026-07-29T06:00:00Z",
+      "fetchedAt": "2026-07-29T06:47:16.235Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.actionforex.com/contributors/technical-analysis/648761-bitcoin-falls-back-ahead-of-the-high-stakes-fed-decision/"
+    },
+    {
+      "id": "3b2fc3a412770bc8",
+      "category": "全球与地区",
+      "title": "The Senate advances Russia and Iran sanctions bill in 86 - 12 bipartisan procedural vote",
+      "url": "https://wjactv.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran",
+      "source": "wjactv.com",
+      "publishedAt": "2026-07-29T06:00:00Z",
+      "fetchedAt": "2026-07-29T06:47:16.235Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wjactv.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran"
+    },
+    {
+      "id": "b6c019c8a3e3e8fa",
+      "category": "能源与航运",
+      "title": "DAX schwächer erwartet : Infineon , Siemens Energy , SAP und Mercedes - Benz im Blickpunkt ()",
+      "url": "https://www.aktiencheck.de/analysen/Artikel-DAX_schwaecher_erwartet_Infineon_Siemens_Energy_SAP_und_Mercedes_Benz_Blickpunkt-19969771",
+      "source": "aktiencheck.de",
+      "publishedAt": "2026-07-29T06:00:00Z",
+      "fetchedAt": "2026-07-29T06:47:16.235Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aktiencheck.de/analysen/Artikel-DAX_schwaecher_erwartet_Infineon_Siemens_Energy_SAP_und_Mercedes_Benz_Blickpunkt-19969771"
+    },
     {
       "id": "0e058443ff4d7dd3",
       "category": "能源与航运",
@@ -234,34 +378,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.bignewsnetwork.com/news/279214252/first-step-toward-peace-zelenskyy-welcomes-us-senate-86-vote-move-on-russia-sanctions-bill"
-    },
-    {
-      "id": "4e4a7c95166c6e6a",
-      "category": "全球与地区",
-      "title": "The Senate advances Russia and Iran sanctions bill in 86 - 12 bipartisan procedural vote",
-      "url": "https://foxreno.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran",
-      "source": "foxreno.com",
-      "publishedAt": "2026-07-29T03:15:00Z",
-      "fetchedAt": "2026-07-29T03:44:32.930Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://foxreno.com/news/nation-world/the-senate-advances-russia-and-iran-sanctions-bill-in-86-12-bipartisan-procedural-vote-lindsey-graham-zelenskyy-rand-paul-oil-shadow-fleet-tankers-negotiator-white-house-bill-secondary-tariffs-gas-iran"
     },
     {
       "id": "b64957d76bb757af",
@@ -1584,129 +1700,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.infobae.com/tecno/2026/07/28/robots-humanoides-realizan-con-exito-la-primera-cirugia-teledirigida-en-un-animal-vivo/"
-    },
-    {
-      "id": "74f24c2cefd38b51",
-      "category": "全球与地区",
-      "title": "American confidence in US economy falls as Iran conflict sends gas prices higher",
-      "url": "https://www.kake.com/news/business/americans-confidence-in-us-economy-falls-as-iran-conflict-sends-gas-prices-higher/article_40117ce9-dade-574f-8eb9-d8999b6914a4.html",
-      "source": "kake.com",
-      "publishedAt": "2026-07-28T18:15:00Z",
-      "fetchedAt": "2026-07-28T18:49:28.024Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kake.com/news/business/americans-confidence-in-us-economy-falls-as-iran-conflict-sends-gas-prices-higher/article_40117ce9-dade-574f-8eb9-d8999b6914a4.html"
-    },
-    {
-      "id": "55cb7499390f2283",
-      "category": "能源与航运",
-      "title": "Draco Pad fracking deal is a win for Erie closing existing oil and gas wells",
-      "url": "https://www.denverpost.com/2026/07/28/draco-pad-erie-sm-energy-deal/",
-      "source": "denverpost.com",
-      "publishedAt": "2026-07-28T18:15:00Z",
-      "fetchedAt": "2026-07-28T18:49:28.024Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.denverpost.com/2026/07/28/draco-pad-erie-sm-energy-deal/"
-    },
-    {
-      "id": "4aed898451ae6ccb",
-      "category": "全球与地区",
-      "title": "Trump rebuilds tariff agenda on firmer legal footing",
-      "url": "http://www.brazilsun.com/news/279209556/trump-rebuilds-tariff-agenda-on-firmer-legal-footing",
-      "source": "brazilsun.com",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Brazil"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.brazilsun.com/news/279209556/trump-rebuilds-tariff-agenda-on-firmer-legal-footing"
-    },
-    {
-      "id": "1d8c906060189159",
-      "category": "金属与资源",
-      "title": "Goldpreis : Goldpreis stürzt ab - 1 , 34 % auf 4 . 026 , 42 USD | wallstreetONLINE",
-      "url": "https://www.wallstreet-online.de/nachricht/21159476-goldpreis-goldpreis-stuerzt-1-34-4-026-42-usd",
-      "source": "wallstreet-online.de",
-      "publishedAt": "2026-07-28T11:45:00Z",
-      "fetchedAt": "2026-07-28T12:16:00.268Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wallstreet-online.de/nachricht/21159476-goldpreis-goldpreis-stuerzt-1-34-4-026-42-usd"
     }
   ]
 }
