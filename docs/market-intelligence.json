@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-07-30T16:51:43.726Z",
-  "newsUpdatedAt": "2026-07-30T14:35:38.279Z",
-  "assetsUpdatedAt": "2026-07-30T16:51:43.726Z",
+  "generatedAt": "2026-07-30T18:49:42.988Z",
+  "newsUpdatedAt": "2026-07-30T18:49:42.988Z",
+  "assetsUpdatedAt": "2026-07-30T18:49:42.988Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -22,7 +22,7 @@
       "price": 3804.69,
       "changePercent": -0.62,
       "unit": "CNY",
-      "asOf": "2026-07-30T16:14:01+08:00",
+      "asOf": "2026-07-30T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52073.36,
-      "changePercent": 0.93,
+      "price": 52178.3,
+      "changePercent": 1.13,
       "unit": "USD",
-      "asOf": "2026-07-30T12:52:21-04:00",
+      "asOf": "2026-07-30T14:51:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25029.67,
-      "changePercent": 2.4,
+      "price": 25084.16,
+      "changePercent": 2.62,
       "unit": "USD",
-      "asOf": "2026-07-30T12:52:21-04:00",
+      "asOf": "2026-07-30T14:51:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7412.88,
-      "changePercent": 1.32,
+      "price": 7429.23,
+      "changePercent": 1.55,
       "unit": "USD",
-      "asOf": "2026-07-30T12:52:21-04:00",
+      "asOf": "2026-07-30T14:51:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4168.98,
-      "changePercent": 1.76,
+      "price": 4162.13,
+      "changePercent": 1.59,
       "unit": "USD",
-      "asOf": "2026-07-31T00:52:05-04:00",
+      "asOf": "2026-07-31T02:50:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.88,
-      "changePercent": -0.69,
+      "price": 83.67,
+      "changePercent": -0.93,
       "unit": "USD",
-      "asOf": "2026-07-31T00:52:06-04:00",
+      "asOf": "2026-07-31T02:51:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 647.74,
-      "changePercent": 2.63,
+      "price": 648.62,
+      "changePercent": 2.77,
       "unit": "USD",
-      "asOf": "2026-07-31T00:52:05-04:00",
+      "asOf": "2026-07-31T02:50:52-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,206 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64752,
-      "changePercent": 1.712951209134383,
+      "price": 64661,
+      "changePercent": 0.4420018189909317,
       "unit": "USD",
-      "asOf": "2026-07-30T16:50:20.000Z",
+      "asOf": "2026-07-30T18:49:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "a0d0e4ba69bc3434",
+      "category": "数字资产",
+      "title": "Bitcoin Stress Index Spikes for Second Time in Three Days : What Happening ?",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60809943/bitcoin-stress-index-spikes-for-second-time-in-three-days-whats-happening",
+      "source": "benzinga.com",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60809943/bitcoin-stress-index-spikes-for-second-time-in-three-days-whats-happening"
+    },
+    {
+      "id": "86d739762215f309",
+      "category": "金属与资源",
+      "title": "Copper Box Solar returns with revised rezoning petition",
+      "url": "http://www.journalreview.com/stories/copper-box-solar-returns-with-revised-rezoning-petition,402856",
+      "source": "journalreview.com",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.journalreview.com/stories/copper-box-solar-returns-with-revised-rezoning-petition,402856"
+    },
+    {
+      "id": "c2503063233c3da3",
+      "category": "能源与航运",
+      "title": "Peanut butter cup balls offer instant energy for kids at camp",
+      "url": "https://www.peninsulaclarion.com/2026/07/30/peanut-butter-cup-balls-offer-instant-energy-for-kids-at-camp/",
+      "source": "peninsulaclarion.com",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.peninsulaclarion.com/2026/07/30/peanut-butter-cup-balls-offer-instant-energy-for-kids-at-camp/"
+    },
+    {
+      "id": "7975052111478dcd",
+      "category": "数字资产",
+      "title": "Amplify ETFs Introduces Next Generation Bitcoin ETF with Launch of the Amplify Fairlead Tactical Bitcoin ETF ( BNAV )",
+      "url": "https://www.etftrends.com/etf-strategist-content-hub/amplify-etfs-introduces-next-generation-bitcoin-etf-with-launch-of-the-amplify-fairlead-tactical-bitcoin-etf-bnav/",
+      "source": "etftrends.com",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.etftrends.com/etf-strategist-content-hub/amplify-etfs-introduces-next-generation-bitcoin-etf-with-launch-of-the-amplify-fairlead-tactical-bitcoin-etf-bnav/"
+    },
+    {
+      "id": "2d21adf55bacf85c",
+      "category": "金属与资源",
+      "title": "Considerații privind iazurile de la Moldova Nouă și de la Bor . Un proiect româno - sârb ce are în studiu povestea metalelor grele de la granița Dunării",
+      "url": "https://www.ziuadevest.ro/consideratii-privind-iazurile-de-la-moldova-noua-si-de-la-bor-un-proiect-romano-sarb-ce-are-in-studiu-povestea-metalelor-grele-de-la-granita-dunarii/",
+      "source": "ziuadevest.ro",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ziuadevest.ro/consideratii-privind-iazurile-de-la-moldova-noua-si-de-la-bor-un-proiect-romano-sarb-ce-are-in-studiu-povestea-metalelor-grele-de-la-granita-dunarii/"
+    },
+    {
+      "id": "320ae0a0e4de6aea",
+      "category": "金属与资源",
+      "title": "Minco Silver ( TSE : MSV ) Hits New 1 - Year High – What Next ?",
+      "url": "https://www.tickerreport.com/banking-finance/13522936/minco-silver-tsemsv-hits-new-1-year-high-whats-next.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-07-30T18:15:00Z",
+      "fetchedAt": "2026-07-30T18:49:42.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13522936/minco-silver-tsemsv-hits-new-1-year-high-whats-next.html"
+    },
     {
       "id": "75adeb51027116c5",
       "category": "金属与资源",
@@ -1478,196 +1668,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://sputnikglobe.com/20260729/us-energy-secretary-says-ukraine-conflict-did-not-reduce-russian-oil-exports-1124516122.html"
-    },
-    {
-      "id": "73bcd11274940fe0",
-      "category": "能源与航运",
-      "title": "Baker Hughes expects modest decline in oil , gas investment",
-      "url": "http://www.shanghainews.net/news/279212516/baker-hughes-expects-modest-decline-in-oil-gas-investment",
-      "source": "shanghainews.net",
-      "publishedAt": "2026-07-29T19:15:00Z",
-      "fetchedAt": "2026-07-29T19:47:11.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.shanghainews.net/news/279212516/baker-hughes-expects-modest-decline-in-oil-gas-investment"
-    },
-    {
-      "id": "b7ef7b9a787957c9",
-      "category": "能源与航运",
-      "title": "OMCs prioritize supply security over margins amid global crude volatility : Ambit analyst",
-      "url": "http://www.jamaicantimes.com/news/279215021/omcs-prioritize-supply-security-over-margins-amid-global-crude-volatility-ambit-analyst",
-      "source": "jamaicantimes.com",
-      "publishedAt": "2026-07-29T19:15:00Z",
-      "fetchedAt": "2026-07-29T19:47:11.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Jamaica"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.jamaicantimes.com/news/279215021/omcs-prioritize-supply-security-over-margins-amid-global-crude-volatility-ambit-analyst"
-    },
-    {
-      "id": "0babb483f40544e8",
-      "category": "能源与航运",
-      "title": "Trump Says united states Will Strike Iran Hard | Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/publicpolicy/trump-says-usa-will-strike-iran-hard",
-      "source": "peakoil.com",
-      "publishedAt": "2026-07-29T19:15:00Z",
-      "fetchedAt": "2026-07-29T19:47:11.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/publicpolicy/trump-says-usa-will-strike-iran-hard"
-    },
-    {
-      "id": "f685d4c427d1e0fa",
-      "category": "科技与产业",
-      "title": "Semiconductor Crash : 3 Stocks to Buy Now While They Are Still on Sale",
-      "url": "https://www.fool.com/investing/2026/07/29/semiconductor-crash-3-stocks-to-buy-now-while-they/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "publishedAt": "2026-07-29T19:15:00Z",
-      "fetchedAt": "2026-07-29T19:47:11.415Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/07/29/semiconductor-crash-3-stocks-to-buy-now-while-they/?source=iedfolrf0000001"
-    },
-    {
-      "id": "1dc0b024ca09acb2",
-      "category": "数字资产",
-      "title": "Beyond Bitcoin : Crypto trends investors should watch over the next 6 months",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/beyond-bitcoin-crypto-trends-investors-should-watch-over-the-next-6-months/articleshow/132701499.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-07-29T06:15:00Z",
-      "fetchedAt": "2026-07-29T06:47:16.235Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/beyond-bitcoin-crypto-trends-investors-should-watch-over-the-next-6-months/articleshow/132701499.cms"
-    },
-    {
-      "id": "e8d04ae12cbd12a4",
-      "category": "能源与航运",
-      "title": "Bangladesh Plans New Floating Storage and Regasification Unit ( FSRU ) | Govt braces for costly LNG future",
-      "url": "https://www.thedailystar.net/news/bangladesh/news/govt-braces-costly-lng-future-4235196",
-      "source": "thedailystar.net",
-      "publishedAt": "2026-07-29T06:15:00Z",
-      "fetchedAt": "2026-07-29T06:47:16.235Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thedailystar.net/news/bangladesh/news/govt-braces-costly-lng-future-4235196"
     }
   ]
 }
