@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-01T11:36:12.759Z",
-  "newsUpdatedAt": "2026-08-01T09:23:53.988Z",
-  "assetsUpdatedAt": "2026-08-01T11:36:12.759Z",
+  "generatedAt": "2026-08-01T13:58:41.269Z",
+  "newsUpdatedAt": "2026-08-01T13:58:41.269Z",
+  "assetsUpdatedAt": "2026-08-01T13:58:41.269Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,307 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63027,
-      "changePercent": -1.2321136144825604,
+      "price": 63011,
+      "changePercent": -0.30363844410939705,
       "unit": "USD",
-      "asOf": "2026-08-01T11:34:50.000Z",
+      "asOf": "2026-08-01T13:58:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "862877b6502521b0",
+      "category": "金属与资源",
+      "title": "No hay aleación de metal capaz de soportar carga a más de 2 . 400 ºC sin ceder . China acaba de decir sujétame el cubata",
+      "url": "https://www.xataka.com/materiales/no-hay-aleacion-metal-capaz-soportar-carga-a-2-400-oc-ceder-china-acaba-decir-sujetame-cubata",
+      "source": "xataka.com",
+      "publishedAt": "2026-08-01T13:30:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.xataka.com/materiales/no-hay-aleacion-metal-capaz-soportar-carga-a-2-400-oc-ceder-china-acaba-decir-sujetame-cubata"
+    },
+    {
+      "id": "bdd2be32711e7b14",
+      "category": "能源与航运",
+      "title": "Iran Security Chief Accuses US of Warmongering and Intensifying Control Over Strait of Hormuz",
+      "url": "https://www.islamicinvitationturkey.com/irans-security-chief-accuses-us-of-warmongering-and-intensifying-control-over-strait-of-hormuz/",
+      "source": "islamicinvitationturkey.com",
+      "publishedAt": "2026-08-01T13:30:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.islamicinvitationturkey.com/irans-security-chief-accuses-us-of-warmongering-and-intensifying-control-over-strait-of-hormuz/"
+    },
+    {
+      "id": "a4301057e22fccb6",
+      "category": "全球与地区",
+      "title": "Trump Threatens Further Strikes as Iran Conflict Deepens",
+      "url": "https://www.newsradio1029.com/2026/08/01/trump-threatens-further-strikes-as-iran-conflict-deepens/",
+      "source": "newsradio1029.com",
+      "publishedAt": "2026-08-01T13:30:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newsradio1029.com/2026/08/01/trump-threatens-further-strikes-as-iran-conflict-deepens/"
+    },
+    {
+      "id": "82e95cc8872fc211",
+      "category": "金属与资源",
+      "title": "EM - Gold nach 13 Jahren für Ruderer - Zeidler mit Bestzeit",
+      "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-emgold-nach-13-jahren-fuer-ruderer-zeidler-mit-bestzeit-_arid,1009612.html",
+      "source": "berchtesgadener-anzeiger.de",
+      "publishedAt": "2026-08-01T13:30:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-emgold-nach-13-jahren-fuer-ruderer-zeidler-mit-bestzeit-_arid,1009612.html"
+    },
+    {
+      "id": "8bd0afef7781d725",
+      "category": "能源与航运",
+      "title": "Oil companies report sky - high profits thanks to wartime crude prices",
+      "url": "https://www.klcc.org/npr-news/2026-07-31/oil-companies-report-sky-high-profits-thanks-to-wartime-crude-prices",
+      "source": "klcc.org",
+      "publishedAt": "2026-08-01T13:30:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.klcc.org/npr-news/2026-07-31/oil-companies-report-sky-high-profits-thanks-to-wartime-crude-prices"
+    },
+    {
+      "id": "1c4e002373afa75c",
+      "category": "能源与航运",
+      "title": "Trump considering attacks on Iran energy infrastructure , report says",
+      "url": "https://www.livemint.com/news/us-news/trump-considering-attacks-on-irans-energy-infrastructure-report-says-11785587578235.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-01T13:15:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/us-news/trump-considering-attacks-on-irans-energy-infrastructure-report-says-11785587578235.html"
+    },
+    {
+      "id": "f9bac2e29220f472",
+      "category": "数字资产",
+      "title": "Skimmers , scammers and crypto ATM rackets : Ways to avoid rising fraud in New Hampshire",
+      "url": "https://www.concordmonitor.com/2026/08/01/concord-police-fraud-scam-prevention/",
+      "source": "concordmonitor.com",
+      "publishedAt": "2026-08-01T13:15:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.concordmonitor.com/2026/08/01/concord-police-fraud-scam-prevention/"
+    },
+    {
+      "id": "55fb528b4d7d2a36",
+      "category": "能源与航运",
+      "title": "Iran war drives oil profits to highest levels in years - Hawaii Tribune - Herald",
+      "url": "https://www.hawaiitribune-herald.com/2026/08/01/nation-world-news/iran-war-drives-oil-profits-to-highest-levels-in-years/",
+      "source": "hawaiitribune-herald.com",
+      "publishedAt": "2026-08-01T13:15:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hawaiitribune-herald.com/2026/08/01/nation-world-news/iran-war-drives-oil-profits-to-highest-levels-in-years/"
+    },
+    {
+      "id": "c1da5e3ba712277c",
+      "category": "能源与航运",
+      "title": "E20 petrol saved consumers nearly ₹30 per litre during crude price spike : Govt",
+      "url": "https://www.hindustantimes.com/india-news/e20-petrol-saved-consumers-nearly-rs-30-per-litre-during-crude-price-spike-government-101785585946933.html",
+      "source": "hindustantimes.com",
+      "publishedAt": "2026-08-01T13:15:00Z",
+      "fetchedAt": "2026-08-01T13:58:41.269Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hindustantimes.com/india-news/e20-petrol-saved-consumers-nearly-rs-30-per-litre-during-crude-price-spike-government-101785585946933.html"
+    },
     {
       "id": "139e0b812038b250",
       "category": "能源与航运",
@@ -1390,287 +1681,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.bostonstar.com/news/279212516/baker-hughes-warns-of-softer-energy-spending-this-year"
-    },
-    {
-      "id": "15a2672a5ee9f608",
-      "category": "全球与地区",
-      "title": "Strait of Hormuz shipping hits crisis - era low as conflict risks spreading",
-      "url": "https://www.wimbledonguardian.co.uk/news/national/26421523.strait-hormuz-shipping-hits-crisis-era-lows-conflict-risks-spreading/",
-      "source": "wimbledonguardian.co.uk",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wimbledonguardian.co.uk/news/national/26421523.strait-hormuz-shipping-hits-crisis-era-lows-conflict-risks-spreading/"
-    },
-    {
-      "id": "eadc04cefbe9d297",
-      "category": "能源与航运",
-      "title": "Calgary oil driller says demand for rigs up 20 % as strong prices fuel activity",
-      "url": "https://calgarysun.com/commodities/energy/oil-gas/calgary-oil-driller-rigs-demand-up-20/wcm/20cd182f-0207-40a6-b807-0e012e2d7c9b",
-      "source": "calgarysun.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://calgarysun.com/commodities/energy/oil-gas/calgary-oil-driller-rigs-demand-up-20/wcm/20cd182f-0207-40a6-b807-0e012e2d7c9b"
-    },
-    {
-      "id": "34130d09167e1b22",
-      "category": "全球与地区",
-      "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
-      "url": "https://wiba.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/",
-      "source": "wiba.iheart.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wiba.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/"
-    },
-    {
-      "id": "807830207e04efbd",
-      "category": "全球与地区",
-      "title": "us sanctions iran related 10 entities oil tankers",
-      "url": "https://www.express.pk/story/2824715/us-sanctions-iran-related-10-entities-oil-tankers-2824715",
-      "source": "express.pk",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.express.pk/story/2824715/us-sanctions-iran-related-10-entities-oil-tankers-2824715"
-    },
-    {
-      "id": "e49041841d991796",
-      "category": "能源与航运",
-      "title": "Islam Makhachev feels bad for Conor McGregor over knee injury that spoiled UFC 329 return",
-      "url": "https://www.bjpenn.com/mma-news/ufc/islam-makhachev-feels-bad-for-conor-mcgregor-over-knee-injury-that-spoiled-ufc-329-return/",
-      "source": "bjpenn.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bjpenn.com/mma-news/ufc/islam-makhachev-feels-bad-for-conor-mcgregor-over-knee-injury-that-spoiled-ufc-329-return/"
-    },
-    {
-      "id": "4588e65e635c6854",
-      "category": "金属与资源",
-      "title": "Iconic Gold Announces Voluntary Delisting from TSX Venture Exchange",
-      "url": "http://www.torontotelegraph.com/news/279215371/iconic-gold-announces-voluntary-delisting-from-tsx-venture-exchange",
-      "source": "torontotelegraph.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.torontotelegraph.com/news/279215371/iconic-gold-announces-voluntary-delisting-from-tsx-venture-exchange"
-    },
-    {
-      "id": "b0783307802fcf88",
-      "category": "能源与航运",
-      "title": "Donald Trump says PM Andy Burnham told him he will open up North Sea oil",
-      "url": "https://www.aol.co.uk/articles/donald-trump-says-pm-andy-201552000.html",
-      "source": "aol.co.uk",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.co.uk/articles/donald-trump-says-pm-andy-201552000.html"
-    },
-    {
-      "id": "2437293e176ccf68",
-      "category": "能源与航运",
-      "title": "Cenovus profits triple on higher prices , oilsands production",
-      "url": "https://edmontonjournal.com/commodities/energy/cenovus-energy-says-profits-tripled-record-oilsands-production",
-      "source": "edmontonjournal.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://edmontonjournal.com/commodities/energy/cenovus-energy-says-profits-tripled-record-oilsands-production"
-    },
-    {
-      "id": "be731b6936f482cc",
-      "category": "全球与地区",
-      "title": "Carney rules out cutting oil exports to hit back at U . S . tariffs",
-      "url": "https://nationalpost.com/news/canada/carney-rules-out-cutting-oil-exports-to-hit-back-at-u-s-tariffs",
-      "source": "nationalpost.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://nationalpost.com/news/canada/carney-rules-out-cutting-oil-exports-to-hit-back-at-u-s-tariffs"
     }
   ]
 }
