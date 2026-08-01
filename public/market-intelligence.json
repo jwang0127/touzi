@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-01T06:42:25.454Z",
-  "newsUpdatedAt": "2026-08-01T06:42:25.454Z",
-  "assetsUpdatedAt": "2026-08-01T06:42:25.454Z",
+  "generatedAt": "2026-08-01T09:23:53.988Z",
+  "newsUpdatedAt": "2026-08-01T09:23:53.988Z",
+  "assetsUpdatedAt": "2026-08-01T09:23:53.988Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,112 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63011,
-      "changePercent": -1.9820857492804416,
+      "price": 63056,
+      "changePercent": -0.9429584444612213,
       "unit": "USD",
-      "asOf": "2026-08-01T06:41:30.000Z",
+      "asOf": "2026-08-01T09:22:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "139e0b812038b250",
+      "category": "能源与航运",
+      "title": "How many ships are transiting through Hormuz and Bab Al Mandeb ?",
+      "url": "https://www.thenationalnews.com/business/energy/2026/08/01/how-many-ships-are-transiting-through-hormuz-and-bab-al-mandeb/",
+      "source": "thenationalnews.com",
+      "publishedAt": "2026-08-01T09:00:00Z",
+      "fetchedAt": "2026-08-01T09:23:53.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thenationalnews.com/business/energy/2026/08/01/how-many-ships-are-transiting-through-hormuz-and-bab-al-mandeb/"
+    },
+    {
+      "id": "8e1286413d11446f",
+      "category": "科技与产业",
+      "title": "PROCEPT BioRobotics Corporation ( NASDAQ : PRCT ) Receives Consensus Rating of Hold from Brokerages",
+      "url": "https://www.dailypolitical.com/2026/08/01/procept-biorobotics-corporation-nasdaqprct-receives-consensus-rating-of-hold-from-brokerages.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-08-01T09:00:00Z",
+      "fetchedAt": "2026-08-01T09:23:53.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/08/01/procept-biorobotics-corporation-nasdaqprct-receives-consensus-rating-of-hold-from-brokerages.html"
+    },
+    {
+      "id": "d8a4eea459c06c37",
+      "category": "能源与航运",
+      "title": "Avant de prendre la route des vacances , passer aux toilettes au cas o nest pas une si bonne idée",
+      "url": "https://www.huffingtonpost.fr/life/article/avant-de-prendre-la-route-des-vacances-passer-aux-toilettes-au-cas-ou-n-est-pas-une-si-bonne-idee_296804.html",
+      "source": "huffingtonpost.fr",
+      "publishedAt": "2026-08-01T09:00:00Z",
+      "fetchedAt": "2026-08-01T09:23:53.988Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "France"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.huffingtonpost.fr/life/article/avant-de-prendre-la-route-des-vacances-passer-aux-toilettes-au-cas-ou-n-est-pas-une-si-bonne-idee_296804.html"
+    },
     {
       "id": "7a08a916d202d619",
       "category": "金属与资源",
@@ -1575,101 +1671,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://nationalpost.com/news/canada/carney-rules-out-cutting-oil-exports-to-hit-back-at-u-s-tariffs"
-    },
-    {
-      "id": "86b03f17ff290c39",
-      "category": "金属与资源",
-      "title": "Nouveau Monde Graphite ( NYSE : NMG ) vs . Wheaton Precious Metals ( NYSE : WPM ) Critical Review",
-      "url": "https://www.tickerreport.com/banking-finance/13521163/nouveau-monde-graphite-nysenmg-vs-wheaton-precious-metals-nysewpm-critical-review.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13521163/nouveau-monde-graphite-nysenmg-vs-wheaton-precious-metals-nysewpm-critical-review.html"
-    },
-    {
-      "id": "0a849411cbfda902",
-      "category": "全球与地区",
-      "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict | WJBO Newsradio 1150 AM & 98 . 7 FM",
-      "url": "https://wjbo.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/",
-      "source": "wjbo.iheart.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wjbo.iheart.com/content/2026-07-29-fed-holds-interest-rates-steady-amid-inflation-from-iran-conflict/"
-    },
-    {
-      "id": "318d38eeb460162b",
-      "category": "能源与航运",
-      "title": "Cenovus chief says pipeline plans benefit Canada oilpatch",
-      "url": "https://leaderpost.com/news/saskatchewan-news/cenovus-chief-says-pipeline-plans-make-canadas-oilpatch-ripe-for-major-investment/",
-      "source": "leaderpost.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://leaderpost.com/news/saskatchewan-news/cenovus-chief-says-pipeline-plans-make-canadas-oilpatch-ripe-for-major-investment/"
     }
   ]
 }
