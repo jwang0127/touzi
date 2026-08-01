@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-01T03:53:54.084Z",
-  "newsUpdatedAt": "2026-07-31T03:56:52.203Z",
-  "assetsUpdatedAt": "2026-08-01T03:53:54.084Z",
+  "generatedAt": "2026-08-01T06:42:25.454Z",
+  "newsUpdatedAt": "2026-08-01T06:42:25.454Z",
+  "assetsUpdatedAt": "2026-08-01T06:42:25.454Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -22,7 +22,7 @@
       "price": 3832.26,
       "changePercent": 0.72,
       "unit": "CNY",
-      "asOf": "2026-07-31T16:14:01+08:00",
+      "asOf": "2026-07-31T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,151 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62948,
-      "changePercent": -2.1997829975429095,
+      "price": 63011,
+      "changePercent": -1.9820857492804416,
       "unit": "USD",
-      "asOf": "2026-08-01T03:52:20.000Z",
+      "asOf": "2026-08-01T06:41:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "7a08a916d202d619",
+      "category": "金属与资源",
+      "title": "Gold setzt Korrektur fort : Dieser Goldproduzent überrascht positiv mit Quartalsbericht",
+      "url": "https://www.boersennews.de/nachrichten/artikel/boersennews/gold-setzt-korrektur-fort-dieser-goldproduzent-ueberrascht-positiv-mit-quartalsbericht/5228601/",
+      "source": "boersennews.de",
+      "publishedAt": "2026-08-01T06:15:00Z",
+      "fetchedAt": "2026-08-01T06:42:25.454Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boersennews.de/nachrichten/artikel/boersennews/gold-setzt-korrektur-fort-dieser-goldproduzent-ueberrascht-positiv-mit-quartalsbericht/5228601/"
+    },
+    {
+      "id": "45e968ddbd419260",
+      "category": "金属与资源",
+      "title": "Hikal Wins EcoVadis Gold Medal , Ranks Among Top 5 % Companies Globally for Sustainability Performance",
+      "url": "https://www.deccanchronicle.com/business/hikal-wins-ecovadis-gold-medal-ranks-among-top-5-companies-globally-for-sustainability-performance-1975687",
+      "source": "deccanchronicle.com",
+      "publishedAt": "2026-08-01T06:00:00Z",
+      "fetchedAt": "2026-08-01T06:42:25.454Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.deccanchronicle.com/business/hikal-wins-ecovadis-gold-medal-ranks-among-top-5-companies-globally-for-sustainability-performance-1975687"
+    },
+    {
+      "id": "a37cedb1f9afb0a1",
+      "category": "金属与资源",
+      "title": "Baystreet . ca - The U . S . Army Just Called China Bluff in the Rare Earth War",
+      "url": "http://baystreet.ca/articles/commodities/122696/The-US-Army-Just-Called-Chinas-Bluff-in-the-Rare-Earth-War",
+      "source": "baystreet.ca",
+      "publishedAt": "2026-08-01T06:00:00Z",
+      "fetchedAt": "2026-08-01T06:42:25.454Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://baystreet.ca/articles/commodities/122696/The-US-Army-Just-Called-Chinas-Bluff-in-the-Rare-Earth-War"
+    },
+    {
+      "id": "d18ab3212884a10f",
+      "category": "全球与地区",
+      "title": "Drone strike in Egypt raises fears for shipping in Suez Canal",
+      "url": "http://www.torontotelegraph.com/news/279216755/attack-on-ship-in-egypt-s-damietta-port-signals-wider-us-iran-conflict",
+      "source": "torontotelegraph.com",
+      "publishedAt": "2026-08-01T06:00:00Z",
+      "fetchedAt": "2026-08-01T06:42:25.454Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.torontotelegraph.com/news/279216755/attack-on-ship-in-egypt-s-damietta-port-signals-wider-us-iran-conflict"
+    },
     {
       "id": "034657474b0d7619",
       "category": "能源与航运",
@@ -1535,138 +1670,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://leaderpost.com/news/saskatchewan-news/cenovus-chief-says-pipeline-plans-make-canadas-oilpatch-ripe-for-major-investment/"
-    },
-    {
-      "id": "362c8bad9ee27c29",
-      "category": "能源与航运",
-      "title": "In Defense of the Kardashev Scale . Energy usage as the universal observable of a civilization .",
-      "url": "http://science20.com/quantum_gravity/20260729/in_defense_of_the_kardashev_scale_energy_usage_as_the_universal_observable",
-      "source": "science20.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://science20.com/quantum_gravity/20260729/in_defense_of_the_kardashev_scale_energy_usage_as_the_universal_observable"
-    },
-    {
-      "id": "2c9d3fc9f1d6b98d",
-      "category": "金属与资源",
-      "title": "Major injury concern for Silver Ferns with Catherine Hall wheelchaired off in Wales win",
-      "url": "https://www.rnz.co.nz/news/sport/836603/major-injury-concern-for-silver-ferns-with-catherine-hall-wheelchaired-off-in-wales-win",
-      "source": "rnz.co.nz",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rnz.co.nz/news/sport/836603/major-injury-concern-for-silver-ferns-with-catherine-hall-wheelchaired-off-in-wales-win"
-    },
-    {
-      "id": "ebfd940d89cb1b28",
-      "category": "能源与航运",
-      "title": "Drone attack triggers explosion on US - owned LNG tanker at Egyptian port",
-      "url": "http://www.argentinastar.com/news/279215450/drone-attack-triggers-explosion-on-us-owned-lng-tanker-at-egyptian-port",
-      "source": "argentinastar.com",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.argentinastar.com/news/279215450/drone-attack-triggers-explosion-on-us-owned-lng-tanker-at-egyptian-port"
-    },
-    {
-      "id": "94941372c1270a88",
-      "category": "科技与产业",
-      "title": "AXIS Specialty US Services Inc .: AXIS Appoints Rahil Jogani as Head of Technology & Artificial Intelligence Strategy",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69160948-axis-specialty-us-services-inc-axis-appoints-rahil-jogani-as-head-of-technology-artificial-intelligence-strategy-399.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-07-29T20:45:00Z",
-      "fetchedAt": "2026-07-29T21:14:25.997Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69160948-axis-specialty-us-services-inc-axis-appoints-rahil-jogani-as-head-of-technology-artificial-intelligence-strategy-399.htm"
     }
   ]
 }
