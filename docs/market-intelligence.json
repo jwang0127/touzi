@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-01T19:36:55.277Z",
-  "newsUpdatedAt": "2026-08-01T17:17:50.630Z",
-  "assetsUpdatedAt": "2026-08-01T19:36:55.277Z",
+  "generatedAt": "2026-08-01T21:11:41.358Z",
+  "newsUpdatedAt": "2026-08-01T21:11:41.358Z",
+  "assetsUpdatedAt": "2026-08-01T21:11:41.358Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,320 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62473,
-      "changePercent": -0.712473185812889,
+      "price": 62711,
+      "changePercent": -0.32012799666784003,
       "unit": "USD",
-      "asOf": "2026-08-01T19:35:40.000Z",
+      "asOf": "2026-08-01T21:11:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5ecab837f0d1f0b7",
+      "category": "金属与资源",
+      "title": "Jon McConnell claims gold at Commonwealth Games after turning down Love Island",
+      "url": "https://www.meathchronicle.ie/2026/08/01/jon-mcconnell-claims-gold-at-commonwealth-games-after-turning-down-love-island/",
+      "source": "meathchronicle.ie",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Ireland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.meathchronicle.ie/2026/08/01/jon-mcconnell-claims-gold-at-commonwealth-games-after-turning-down-love-island/"
+    },
+    {
+      "id": "f6b15842ca2c8882",
+      "category": "金属与资源",
+      "title": "Kennedy leads Aussie men to Games relay gold",
+      "url": "https://www.cootamundraherald.com.au/story/9321994/kennedy-leads-aussie-men-to-games-relay-gold/",
+      "source": "cootamundraherald.com.au",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cootamundraherald.com.au/story/9321994/kennedy-leads-aussie-men-to-games-relay-gold/"
+    },
+    {
+      "id": "da9156b177299844",
+      "category": "金属与资源",
+      "title": "Booster Gold Creator Dan Jurgens Puts It All Into Proper Perspective",
+      "url": "https://bleedingcool.com/tv/booster-gold-creator-dan-jurgens-puts-it-all-into-proper-perspective/",
+      "source": "bleedingcool.com",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://bleedingcool.com/tv/booster-gold-creator-dan-jurgens-puts-it-all-into-proper-perspective/"
+    },
+    {
+      "id": "d2d144a59f98e499",
+      "category": "金属与资源",
+      "title": "Bhiwani four girls win gold in boxing",
+      "url": "https://www.tribuneindia.com/news/haryana/bhiwanis-four-girls-win-gold-in-boxing/",
+      "source": "tribuneindia.com",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tribuneindia.com/news/haryana/bhiwanis-four-girls-win-gold-in-boxing/"
+    },
+    {
+      "id": "fb0341aeffe3eac0",
+      "category": "金属与资源",
+      "title": "CWG 2026 : Boxer Narender Berwal wins silver , Gulveer Singh scripts history with bronze in 5000m",
+      "url": "http://www.calcuttanews.net/news/279218880/cwg-2026-boxer-narender-berwal-wins-silver-gulveer-singh-scripts-history-with-bronze-in-5000m",
+      "source": "calcuttanews.net",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.calcuttanews.net/news/279218880/cwg-2026-boxer-narender-berwal-wins-silver-gulveer-singh-scripts-history-with-bronze-in-5000m"
+    },
+    {
+      "id": "b02d4d6b803a28a8",
+      "category": "能源与航运",
+      "title": "Iraq and Trkiye sign one - year agreement to pump 750 , 000 barrels of oil per day via port of Ceyhan",
+      "url": "http://www.iraqsun.com/news/279218752/iraq-and-trkiye-sign-one-year-agreement-to-pump-750000-barrels-of-oil-per-day-via-port-of-ceyhan",
+      "source": "iraqsun.com",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iraq"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iraqsun.com/news/279218752/iraq-and-trkiye-sign-one-year-agreement-to-pump-750000-barrels-of-oil-per-day-via-port-of-ceyhan"
+    },
+    {
+      "id": "a34a66572ea9bd7a",
+      "category": "A股与政策",
+      "title": "U . S .- WASHINGTON , D . C .- USCBC - PRESIDENT - CHINESE ECONOMY AND INNOVATION SYSTEM",
+      "url": "http://www.beijingbulletin.com/news/279218737/us-washington-dc-uscbc-president-chinese-economy-and-innovation-system",
+      "source": "beijingbulletin.com",
+      "publishedAt": "2026-08-01T21:00:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.beijingbulletin.com/news/279218737/us-washington-dc-uscbc-president-chinese-economy-and-innovation-system"
+    },
+    {
+      "id": "389475c660e1415e",
+      "category": "金属与资源",
+      "title": "CWG 2026 : Preeti , Jaismine , Sakshi , Sachin win as India rule boxing ring with seven gold ( Ld )",
+      "url": "https://ianslive.in/cwg-2026-preeti-jaismine-sakshi-sachin-win-as-india-rule-boxing-ring-with-seven-gold-ld--20260802005640",
+      "source": "ianslive.in",
+      "publishedAt": "2026-08-01T20:30:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ianslive.in/cwg-2026-preeti-jaismine-sakshi-sachin-win-as-india-rule-boxing-ring-with-seven-gold-ld--20260802005640"
+    },
+    {
+      "id": "060001e8f51c6755",
+      "category": "金属与资源",
+      "title": "CWG 2026 : Lovlina joins elite group of Indian boxers by winning silver in Glasgow",
+      "url": "https://ianslive.in/cwg-2026-lovlina-joins-elite-group-of-indian-boxers-by-winning-silver-in-glasgow--20260802010828",
+      "source": "ianslive.in",
+      "publishedAt": "2026-08-01T20:30:00Z",
+      "fetchedAt": "2026-08-01T21:11:41.358Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ianslive.in/cwg-2026-lovlina-joins-elite-group-of-indian-boxers-by-winning-silver-in-glasgow--20260802010828"
+    },
     {
       "id": "2efea12000a6313a",
       "category": "能源与航运",
@@ -1389,300 +1693,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.skai.gr/news/world/aigyptos-se-pligma-me-drone-ofeiletai-i-pyrkagia-se-dyo-ploia-apothikeysis-lng"
-    },
-    {
-      "id": "d3360565b15f475a",
-      "category": "金属与资源",
-      "title": "Fancamp and Goldera Complete Spin - Out Transaction and $5 . 5 Million Financing in Goldera ; to Commence Trading August 5 , 2026",
-      "url": "https://montrealgazette.com/press-releases/globe-newswire/fancamp-and-goldera-complete-spin-out-transaction-and-5-5-million-financing-in-goldera-to-commence-trading-august-5-2026/",
-      "source": "montrealgazette.com",
-      "publishedAt": "2026-07-30T11:30:00Z",
-      "fetchedAt": "2026-07-30T12:06:19.055Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://montrealgazette.com/press-releases/globe-newswire/fancamp-and-goldera-complete-spin-out-transaction-and-5-5-million-financing-in-goldera-to-commence-trading-august-5-2026/"
-    },
-    {
-      "id": "715410e2d3b6a693",
-      "category": "金属与资源",
-      "title": "Thorner claims Steeplechase Silver at Glasgow",
-      "url": "https://www.hillingdontimes.co.uk/news/26422800.thorner-claims-steeplechase-silver-glasgow/",
-      "source": "hillingdontimes.co.uk",
-      "publishedAt": "2026-07-30T11:30:00Z",
-      "fetchedAt": "2026-07-30T12:06:19.055Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hillingdontimes.co.uk/news/26422800.thorner-claims-steeplechase-silver-glasgow/"
-    },
-    {
-      "id": "0e7c8b6bf347339f",
-      "category": "金属与资源",
-      "title": "India gold demand : వన్నె తగ్గిన పసిడి .. 6 శాతం పడిపోయిన డిమాండ్‌",
-      "url": "https://www.eenadu.net/telugu-news/business/indias-gold-demand-falls-6pc-in-april-june/0101/126134956",
-      "source": "eenadu.net",
-      "publishedAt": "2026-07-30T11:30:00Z",
-      "fetchedAt": "2026-07-30T12:06:19.055Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.eenadu.net/telugu-news/business/indias-gold-demand-falls-6pc-in-april-june/0101/126134956"
-    },
-    {
-      "id": "884a294608e1a963",
-      "category": "科技与产业",
-      "title": "MetaOptics and Elsoft partner to scale next - generation semiconductor optics manufacturing equipment",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/metaoptics-and-elsoft-partner-to-scale-next-generation-semiconductor-optics-manufacturing-equipment/article71285623.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-07-30T11:30:00Z",
-      "fetchedAt": "2026-07-30T12:06:19.055Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/brandhub/pr-release/metaoptics-and-elsoft-partner-to-scale-next-generation-semiconductor-optics-manufacturing-equipment/article71285623.ece"
-    },
-    {
-      "id": "ca4f62281be1f75d",
-      "category": "能源与航运",
-      "title": "Oil prices slip and world shares are mixed as investors sell AI stocks in Asia",
-      "url": "http://www.goskagit.com/news/ap_business/oil-prices-slip-and-world-shares-are-mixed-as-investors-sell-ai-stocks-in-asia/article_43f0f931-ebf6-5395-bef4-e93859de7168.html",
-      "source": "goskagit.com",
-      "publishedAt": "2026-07-30T11:30:00Z",
-      "fetchedAt": "2026-07-30T12:06:19.055Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.goskagit.com/news/ap_business/oil-prices-slip-and-world-shares-are-mixed-as-investors-sell-ai-stocks-in-asia/article_43f0f931-ebf6-5395-bef4-e93859de7168.html"
-    },
-    {
-      "id": "c3b181ddf2abc163",
-      "category": "能源与航运",
-      "title": "Donald Trump says Andy Burnham told him he will open up North Sea oil",
-      "url": "https://www.southwalesargus.co.uk/news/national/26421560.donald-trump-says-andy-burnham-told-will-open-north-sea-oil/",
-      "source": "southwalesargus.co.uk",
-      "publishedAt": "2026-07-30T06:15:00Z",
-      "fetchedAt": "2026-07-30T06:44:02.827Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.southwalesargus.co.uk/news/national/26421560.donald-trump-says-andy-burnham-told-will-open-north-sea-oil/"
-    },
-    {
-      "id": "700460b6851ad846",
-      "category": "全球与地区",
-      "title": "സംഘർഷം മെഡിറ്ററേനിയനിലേക്കും പടരുന്നോ ?; ഈജിപ്ത് തുറമുഖത്ത് യു . എസ് ഗ്യാസ് കപ്പലിന് നേരെ ഡ്രോൺ ആക്രമണം | Is the conflict spreading to the Mediterranean ?; Drone attack on US gas ship in Egyptian port",
-      "url": "https://www.madhyamam.com/world/is-the-conflict-spreading-to-the-mediterranean-drone-attack-on-us-gas-ship-in-egyptian-port-1541716",
-      "source": "madhyamam.com",
-      "publishedAt": "2026-07-30T06:15:00Z",
-      "fetchedAt": "2026-07-30T06:44:02.827Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.madhyamam.com/world/is-the-conflict-spreading-to-the-mediterranean-drone-attack-on-us-gas-ship-in-egyptian-port-1541716"
-    },
-    {
-      "id": "bc11de5db5abe585",
-      "category": "数字资产",
-      "title": "Bitcoin price today rises after US Fed holds rate - What does it mean for the cryptocurrency ? Key levels to watch",
-      "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-today-rises-after-us-fed-holds-rate-what-does-it-mean-for-the-cryptocurrency-key-levels-to-watch-11785384882133.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-07-30T06:15:00Z",
-      "fetchedAt": "2026-07-30T06:44:02.827Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-today-rises-after-us-fed-holds-rate-what-does-it-mean-for-the-cryptocurrency-key-levels-to-watch-11785384882133.html"
-    },
-    {
-      "id": "e5119e338c110f66",
-      "category": "金属与资源",
-      "title": "Starke Nachfrage : Fairchild Gold erhöht Privatplatzierung auf 2 , 2 Mio . CAD",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69163295-starke-nachfrage-fairchild-gold-erhoeht-privatplatzierung-auf-2-2-mio-cad-463.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-07-30T06:15:00Z",
-      "fetchedAt": "2026-07-30T06:44:02.827Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-07/69163295-starke-nachfrage-fairchild-gold-erhoeht-privatplatzierung-auf-2-2-mio-cad-463.htm"
     }
   ]
 }
