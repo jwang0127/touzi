@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-02T19:37:19.854Z",
-  "newsUpdatedAt": "2026-08-02T17:19:30.248Z",
-  "assetsUpdatedAt": "2026-08-02T19:37:19.854Z",
+  "generatedAt": "2026-08-02T21:12:26.911Z",
+  "newsUpdatedAt": "2026-08-02T21:12:26.911Z",
+  "assetsUpdatedAt": "2026-08-02T21:12:26.911Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,148 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63285,
-      "changePercent": 1.3141017323303839,
+      "price": 63480,
+      "changePercent": 1.241228456199276,
       "unit": "USD",
-      "asOf": "2026-08-02T19:36:00.000Z",
+      "asOf": "2026-08-02T21:11:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "3288ab5f6c332fc7",
+      "category": "科技与产业",
+      "title": "Im still me : East Bay patient undergoes newly cleared robotic mastectomy – Marin Independent Journal",
+      "url": "https://www.marinij.com/2026/08/02/east-bay-robotic-mastectomy-breast-cancer/",
+      "source": "marinij.com",
+      "publishedAt": "2026-08-02T21:00:00Z",
+      "fetchedAt": "2026-08-02T21:12:26.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.marinij.com/2026/08/02/east-bay-robotic-mastectomy-breast-cancer/"
+    },
+    {
+      "id": "9c1cbda60b78e85e",
+      "category": "金属与资源",
+      "title": "Aussie Louise Hoskins wins gold at 76 after partner Serena Bonnell produces shot of a lifetime at Commonwealth Games",
+      "url": "https://balticbusinessnews.com/aussie-louise-hoskins-wins-gold-at-76-after-partner-serena-bonnell-produces-shot-of-a-lifetime-at-commonwealth-games/",
+      "source": "balticbusinessnews.com",
+      "publishedAt": "2026-08-02T20:45:00Z",
+      "fetchedAt": "2026-08-02T21:12:26.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Estonia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://balticbusinessnews.com/aussie-louise-hoskins-wins-gold-at-76-after-partner-serena-bonnell-produces-shot-of-a-lifetime-at-commonwealth-games/"
+    },
+    {
+      "id": "b3e94e4d9cf4c7e7",
+      "category": "金属与资源",
+      "title": "Matthew Bostock wins Game final gold for the Isle of Man at the Commonwealth Games 2026 Closing Ceremony",
+      "url": "https://www.el-balad.com/17038140",
+      "source": "el-balad.com",
+      "publishedAt": "2026-08-02T20:45:00Z",
+      "fetchedAt": "2026-08-02T21:12:26.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Egypt"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.el-balad.com/17038140"
+    },
+    {
+      "id": "94ae5e00d9220ea4",
+      "category": "科技与产业",
+      "title": "Amazon warehouse fleet crossed 1 million robots with a new machine that can feel what it touches , and the gap in automation that kept humans irreplaceable for decades finally has an answer",
+      "url": "https://gcn.com/amazon-s-warehouse-fleet-crossed-million/20362/",
+      "source": "gcn.com",
+      "publishedAt": "2026-08-02T20:45:00Z",
+      "fetchedAt": "2026-08-02T21:12:26.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcn.com/amazon-s-warehouse-fleet-crossed-million/20362/"
+    },
     {
       "id": "c807e2ac0a956772",
       "category": "能源与航运",
@@ -1574,142 +1706,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.boersennews.de/nachrichten/artikel/boersennews/gold-setzt-korrektur-fort-dieser-goldproduzent-ueberrascht-positiv-mit-quartalsbericht/5228601/"
-    },
-    {
-      "id": "45e968ddbd419260",
-      "category": "金属与资源",
-      "title": "Hikal Wins EcoVadis Gold Medal , Ranks Among Top 5 % Companies Globally for Sustainability Performance",
-      "url": "https://www.deccanchronicle.com/business/hikal-wins-ecovadis-gold-medal-ranks-among-top-5-companies-globally-for-sustainability-performance-1975687",
-      "source": "deccanchronicle.com",
-      "publishedAt": "2026-08-01T06:00:00Z",
-      "fetchedAt": "2026-08-01T06:42:25.454Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.deccanchronicle.com/business/hikal-wins-ecovadis-gold-medal-ranks-among-top-5-companies-globally-for-sustainability-performance-1975687"
-    },
-    {
-      "id": "a37cedb1f9afb0a1",
-      "category": "金属与资源",
-      "title": "Baystreet . ca - The U . S . Army Just Called China Bluff in the Rare Earth War",
-      "url": "http://baystreet.ca/articles/commodities/122696/The-US-Army-Just-Called-Chinas-Bluff-in-the-Rare-Earth-War",
-      "source": "baystreet.ca",
-      "publishedAt": "2026-08-01T06:00:00Z",
-      "fetchedAt": "2026-08-01T06:42:25.454Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://baystreet.ca/articles/commodities/122696/The-US-Army-Just-Called-Chinas-Bluff-in-the-Rare-Earth-War"
-    },
-    {
-      "id": "d18ab3212884a10f",
-      "category": "全球与地区",
-      "title": "Drone strike in Egypt raises fears for shipping in Suez Canal",
-      "url": "http://www.torontotelegraph.com/news/279216755/attack-on-ship-in-egypt-s-damietta-port-signals-wider-us-iran-conflict",
-      "source": "torontotelegraph.com",
-      "publishedAt": "2026-08-01T06:00:00Z",
-      "fetchedAt": "2026-08-01T06:42:25.454Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.torontotelegraph.com/news/279216755/attack-on-ship-in-egypt-s-damietta-port-signals-wider-us-iran-conflict"
-    },
-    {
-      "id": "034657474b0d7619",
-      "category": "能源与航运",
-      "title": "Energy facility and warehouses in Russia Volgograd region on fire after Ukrainian drone strike | World News",
-      "url": "https://indianexpress.com/article/world/russia-volgograd-energy-facility-warehouse-fire-drone-attack-10811405/",
-      "source": "indianexpress.com",
-      "publishedAt": "2026-07-31T03:30:00Z",
-      "fetchedAt": "2026-07-31T03:56:52.203Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://indianexpress.com/article/world/russia-volgograd-energy-facility-warehouse-fire-drone-attack-10811405/"
     }
   ]
 }
