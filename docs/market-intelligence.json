@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-02T15:30:12.276Z",
-  "newsUpdatedAt": "2026-08-02T11:36:09.865Z",
-  "assetsUpdatedAt": "2026-08-02T15:30:12.276Z",
+  "generatedAt": "2026-08-02T17:19:30.248Z",
+  "newsUpdatedAt": "2026-08-02T17:19:30.248Z",
+  "assetsUpdatedAt": "2026-08-02T17:19:30.248Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,312 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63067,
-      "changePercent": 0.09980235785291382,
+      "price": 63145,
+      "changePercent": 0.525621208184464,
       "unit": "USD",
-      "asOf": "2026-08-02T15:28:40.000Z",
+      "asOf": "2026-08-02T17:18:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c807e2ac0a956772",
+      "category": "能源与航运",
+      "title": "OPEC+ hæver produktionskvoter yderligere – klar til mere olie efter Iran - krig",
+      "url": "https://npinvestor.dk/nyheder/opec-haever-produktionskvoter-yderligere-klar-til-mere-olie-efter-iran-krig/",
+      "source": "npinvestor.dk",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Denmark"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://npinvestor.dk/nyheder/opec-haever-produktionskvoter-yderligere-klar-til-mere-olie-efter-iran-krig/"
+    },
+    {
+      "id": "3dd4b90e503437fe",
+      "category": "科技与产业",
+      "title": "ASML vs . TSMC : Which Semiconductor Supply Chain Stock Is the Better AI Play ?",
+      "url": "https://www.fool.com/investing/2026/08/02/asml-vs-tsmc-which-semiconductor-supply-chain-stoc/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fool.com/investing/2026/08/02/asml-vs-tsmc-which-semiconductor-supply-chain-stoc/"
+    },
+    {
+      "id": "0cb5013729d4b6ac",
+      "category": "能源与航运",
+      "title": "Kuwait Oil Company awards $7 . 2bn contracts in H1",
+      "url": "https://tradearabia.com:443/News/466089/Kuwait-Oil-Company-awards-$7.2bn-contracts-in-H1/CONS",
+      "source": "tradearabia.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Arab Emirates"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tradearabia.com:443/News/466089/Kuwait-Oil-Company-awards-$7.2bn-contracts-in-H1/CONS"
+    },
+    {
+      "id": "3b8b5d3b2ec16f47",
+      "category": "能源与航运",
+      "title": "Opec+ approves September output increase of 188 , 000 bpd",
+      "url": "https://tradearabia.com:443/News/466083/Opec-approves-September-output-increase-of-188-000-bpd",
+      "source": "tradearabia.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Arab Emirates"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tradearabia.com:443/News/466083/Opec-approves-September-output-increase-of-188-000-bpd"
+    },
+    {
+      "id": "521fffc30be79edf",
+      "category": "能源与航运",
+      "title": "OPEC+ continues to raise oil production by 188 , 000 bpd in September",
+      "url": "http://www.chinanationalnews.com/news/279219701/opec-continues-to-raise-oil-production-by-188000-bpd-in-september",
+      "source": "chinanationalnews.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.chinanationalnews.com/news/279219701/opec-continues-to-raise-oil-production-by-188000-bpd-in-september"
+    },
+    {
+      "id": "4d71201f1bc3d34b",
+      "category": "金属与资源",
+      "title": "Kazakhstan billion - dollar rare earths push faces familiar obstacles",
+      "url": "https://www.thenationalnews.com/business/energy/2026/08/02/kazakhstans-billion-dollar-rare-earths-push-faces-familiar-obstacles/",
+      "source": "thenationalnews.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thenationalnews.com/business/energy/2026/08/02/kazakhstans-billion-dollar-rare-earths-push-faces-familiar-obstacles/"
+    },
+    {
+      "id": "67f21838d21e04e3",
+      "category": "全球与地区",
+      "title": "Monkeys in geopolitics - BusinessWorld Online",
+      "url": "https://bworldonline.com/opinion/2026/08/03/767514/monkeys-in-geopolitics/",
+      "source": "bworldonline.com",
+      "publishedAt": "2026-08-02T17:00:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://bworldonline.com/opinion/2026/08/03/767514/monkeys-in-geopolitics/"
+    },
+    {
+      "id": "e5f374058793a1b7",
+      "category": "金属与资源",
+      "title": "Max Gregory wins Commonwealth judo silver and targets LA 2028",
+      "url": "https://www.hillingdontimes.co.uk/news/26429965.max-gregory-wins-commonwealth-judo-silver-targets-la-2028/",
+      "source": "hillingdontimes.co.uk",
+      "publishedAt": "2026-08-02T16:45:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hillingdontimes.co.uk/news/26429965.max-gregory-wins-commonwealth-judo-silver-targets-la-2028/"
+    },
+    {
+      "id": "1614d545e540217c",
+      "category": "金属与资源",
+      "title": "Jon McConnell wins Commonwealth Gold after rejecting Love Island",
+      "url": "https://www.hillingdontimes.co.uk/news/26429134.jon-mcconnell-wins-commonwealth-gold-rejecting-love-island/",
+      "source": "hillingdontimes.co.uk",
+      "publishedAt": "2026-08-02T16:45:00Z",
+      "fetchedAt": "2026-08-02T17:19:30.248Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hillingdontimes.co.uk/news/26429134.jon-mcconnell-wins-commonwealth-gold-rejecting-love-island/"
+    },
     {
       "id": "860e0cb87599bdfe",
       "category": "科技与产业",
@@ -1414,294 +1708,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://indianexpress.com/article/world/russia-volgograd-energy-facility-warehouse-fire-drone-attack-10811405/"
-    },
-    {
-      "id": "581a6ecf302d773a",
-      "category": "全球与地区",
-      "title": "US sanctions global entities aiding Iran IRGC | Israel National News",
-      "url": "https://www.israelnationalnews.com/flashes/690909",
-      "source": "israelnationalnews.com",
-      "publishedAt": "2026-07-31T03:30:00Z",
-      "fetchedAt": "2026-07-31T03:56:52.203Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.israelnationalnews.com/flashes/690909"
-    },
-    {
-      "id": "ee12b1778ab9cfc1",
-      "category": "能源与航运",
-      "title": "Palm opens lower on weaker rival oils , crude oil prices – MPOC",
-      "url": "https://www.mpoc.org.my/palm-opens-lower-on-weaker-rival-oils-crude-oil-prices/",
-      "source": "mpoc.org.my",
-      "publishedAt": "2026-07-31T03:30:00Z",
-      "fetchedAt": "2026-07-31T03:56:52.203Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mpoc.org.my/palm-opens-lower-on-weaker-rival-oils-crude-oil-prices/"
-    },
-    {
-      "id": "a0d0e4ba69bc3434",
-      "category": "数字资产",
-      "title": "Bitcoin Stress Index Spikes for Second Time in Three Days : What Happening ?",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60809943/bitcoin-stress-index-spikes-for-second-time-in-three-days-whats-happening",
-      "source": "benzinga.com",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60809943/bitcoin-stress-index-spikes-for-second-time-in-three-days-whats-happening"
-    },
-    {
-      "id": "86d739762215f309",
-      "category": "金属与资源",
-      "title": "Copper Box Solar returns with revised rezoning petition",
-      "url": "http://www.journalreview.com/stories/copper-box-solar-returns-with-revised-rezoning-petition,402856",
-      "source": "journalreview.com",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.journalreview.com/stories/copper-box-solar-returns-with-revised-rezoning-petition,402856"
-    },
-    {
-      "id": "c2503063233c3da3",
-      "category": "能源与航运",
-      "title": "Peanut butter cup balls offer instant energy for kids at camp",
-      "url": "https://www.peninsulaclarion.com/2026/07/30/peanut-butter-cup-balls-offer-instant-energy-for-kids-at-camp/",
-      "source": "peninsulaclarion.com",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.peninsulaclarion.com/2026/07/30/peanut-butter-cup-balls-offer-instant-energy-for-kids-at-camp/"
-    },
-    {
-      "id": "7975052111478dcd",
-      "category": "数字资产",
-      "title": "Amplify ETFs Introduces Next Generation Bitcoin ETF with Launch of the Amplify Fairlead Tactical Bitcoin ETF ( BNAV )",
-      "url": "https://www.etftrends.com/etf-strategist-content-hub/amplify-etfs-introduces-next-generation-bitcoin-etf-with-launch-of-the-amplify-fairlead-tactical-bitcoin-etf-bnav/",
-      "source": "etftrends.com",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.etftrends.com/etf-strategist-content-hub/amplify-etfs-introduces-next-generation-bitcoin-etf-with-launch-of-the-amplify-fairlead-tactical-bitcoin-etf-bnav/"
-    },
-    {
-      "id": "2d21adf55bacf85c",
-      "category": "金属与资源",
-      "title": "Considerații privind iazurile de la Moldova Nouă și de la Bor . Un proiect româno - sârb ce are în studiu povestea metalelor grele de la granița Dunării",
-      "url": "https://www.ziuadevest.ro/consideratii-privind-iazurile-de-la-moldova-noua-si-de-la-bor-un-proiect-romano-sarb-ce-are-in-studiu-povestea-metalelor-grele-de-la-granita-dunarii/",
-      "source": "ziuadevest.ro",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ziuadevest.ro/consideratii-privind-iazurile-de-la-moldova-noua-si-de-la-bor-un-proiect-romano-sarb-ce-are-in-studiu-povestea-metalelor-grele-de-la-granita-dunarii/"
-    },
-    {
-      "id": "320ae0a0e4de6aea",
-      "category": "金属与资源",
-      "title": "Minco Silver ( TSE : MSV ) Hits New 1 - Year High – What Next ?",
-      "url": "https://www.tickerreport.com/banking-finance/13522936/minco-silver-tsemsv-hits-new-1-year-high-whats-next.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-07-30T18:15:00Z",
-      "fetchedAt": "2026-07-30T18:49:42.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13522936/minco-silver-tsemsv-hits-new-1-year-high-whats-next.html"
-    },
-    {
-      "id": "75adeb51027116c5",
-      "category": "金属与资源",
-      "title": "Anillo De Acero Inoxidable Para Mujer Jude Jewelers Platinum Plated 3 . 0 Carat Princess Cut Cubic Zircon Simulated Diamond Wedding Engagement Proposal Ring Silver 9 Faux Wedding Rings",
-      "url": "https://roarmag.org/Platinum-Plated-3-0-Carat-Princess-Cut-Cubic-Zircon-Simulated-b-960333",
-      "source": "roarmag.org",
-      "publishedAt": "2026-07-30T14:15:00Z",
-      "fetchedAt": "2026-07-30T14:35:38.279Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://roarmag.org/Platinum-Plated-3-0-Carat-Princess-Cut-Cubic-Zircon-Simulated-b-960333"
     }
   ]
 }
