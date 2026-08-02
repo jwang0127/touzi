@@ -1,13 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-02T22:13:11.857Z",
-  "newsUpdatedAt": "2026-08-02T21:12:26.911Z",
-  "assetsUpdatedAt": "2026-08-02T22:13:11.857Z",
+  "generatedAt": "2026-08-02T23:15:37.416Z",
+  "newsUpdatedAt": "2026-08-02T23:15:37.416Z",
+  "assetsUpdatedAt": "2026-08-02T23:15:37.416Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429",
-      "腾讯全球行情：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -18,23 +17,12 @@
   },
   "assets": [
     {
-      "id": "bitcoin",
-      "name": "比特币",
-      "price": 63694,
-      "changePercent": 1.4268738909866656,
-      "unit": "USD",
-      "asOf": "2026-08-02T22:11:40.000Z",
-      "source": "CoinGecko",
-      "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
-      "evidence": "FACT"
-    },
-    {
       "id": "sh000001",
       "name": "上证指数",
       "price": 3832.26,
       "changePercent": 0.72,
       "unit": "CNY",
-      "asOf": "2026-07-31T16:14:01+08:00",
+      "asOf": "2026-07-31T16:14:20+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -108,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4096.38,
-      "changePercent": -1.54,
+      "price": 4122.47,
+      "changePercent": 0.38,
       "unit": "USD",
-      "asOf": "2026-08-01T04:59:54-04:00",
+      "asOf": "2026-08-03T07:16:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -119,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 86.84,
-      "changePercent": 3.89,
+      "price": 80.98,
+      "changePercent": -4.35,
       "unit": "USD",
-      "asOf": "2026-08-01T04:59:59-04:00",
+      "asOf": "2026-08-03T07:16:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -130,16 +118,287 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 651.09,
-      "changePercent": 0.56,
+      "price": 654.27,
+      "changePercent": 1.19,
       "unit": "USD",
-      "asOf": "2026-08-01T04:59:55-04:00",
+      "asOf": "2026-08-03T07:16:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
+      "evidence": "FACT"
+    },
+    {
+      "id": "bitcoin",
+      "name": "比特币",
+      "price": 63304,
+      "changePercent": 0.8802386827677887,
+      "unit": "USD",
+      "asOf": "2026-08-02T23:15:30.000Z",
+      "source": "CoinGecko",
+      "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "70630911ae68fae7",
+      "category": "数字资产",
+      "title": "Al Crypto Investmentの仕組みを解説 ！ トラブルを未然に防ぐコツ - バランス実験室",
+      "url": "https://blog.udn.com:443/19bda565/191840471",
+      "source": "blog.udn.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://blog.udn.com:443/19bda565/191840471"
+    },
+    {
+      "id": "4960525a88537039",
+      "category": "金属与资源",
+      "title": "Mueller Sales Jumped 25 % as Copper Climbed . Here How to Read the CFO Latest Insider Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/muellers-sales-jumped-25-copper-222204029.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/muellers-sales-jumped-25-copper-222204029.html"
+    },
+    {
+      "id": "7a7d17dfd5a519d5",
+      "category": "能源与航运",
+      "title": "Iran says talks with Oman on Strait of Hormuz in final stages",
+      "url": "http://www.batonrougepost.com/news/279220012/iran-says-talks-with-oman-on-strait-of-hormuz-in-final-stages",
+      "source": "batonrougepost.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.batonrougepost.com/news/279220012/iran-says-talks-with-oman-on-strait-of-hormuz-in-final-stages"
+    },
+    {
+      "id": "050b9f73feb16de4",
+      "category": "金属与资源",
+      "title": "Inspiration for young athletes of state : Assam Minister Atul Bora hails Lovlina Borgohain CWG silver",
+      "url": "http://www.sydneysun.com/news/279219928/inspiration-for-young-athletes-of-state-assam-minister-atul-bora-hails-lovlina-borgohain-cwg-silver",
+      "source": "sydneysun.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.sydneysun.com/news/279219928/inspiration-for-young-athletes-of-state-assam-minister-atul-bora-hails-lovlina-borgohain-cwg-silver"
+    },
+    {
+      "id": "322c45b17cf02a76",
+      "category": "全球与地区",
+      "title": "Top Shipping Stocks To Watch Today – August 1st",
+      "url": "https://www.tickerreport.com/banking-finance/13527451/top-shipping-stocks-to-watch-today-august-1st.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13527451/top-shipping-stocks-to-watch-today-august-1st.html"
+    },
+    {
+      "id": "496afcfc7df77428",
+      "category": "科技与产业",
+      "title": "Critical Survey : NXP Semiconductors ( NASDAQ : NXPI ) and Impinj ( NASDAQ : PI )",
+      "url": "https://www.tickerreport.com/banking-finance/13527456/critical-survey-nxp-semiconductors-nasdaqnxpi-and-impinj-nasdaqpi.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13527456/critical-survey-nxp-semiconductors-nasdaqnxpi-and-impinj-nasdaqpi.html"
+    },
+    {
+      "id": "eeeacbd982d25750",
+      "category": "金属与资源",
+      "title": "She has brought pride and honour to Kota : Om Birla hails CWG gold medallist Arundhati Choudhary",
+      "url": "http://www.sydneysun.com/news/279219920/she-has-brought-pride-and-honour-to-kota-om-birla-hails-cwg-gold-medallist-arundhati-choudhary",
+      "source": "sydneysun.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.sydneysun.com/news/279219920/she-has-brought-pride-and-honour-to-kota-om-birla-hails-cwg-gold-medallist-arundhati-choudhary"
+    },
+    {
+      "id": "5233688cddcf2e18",
+      "category": "能源与航运",
+      "title": "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil",
+      "url": "https://www.fool.com/investing/2026/08/02/4-dividend-energy-stocks-to-buy-this-month-startin/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-02T22:45:00Z",
+      "fetchedAt": "2026-08-02T23:15:37.416Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fool.com/investing/2026/08/02/4-dividend-energy-stocks-to-buy-this-month-startin/"
+    },
     {
       "id": "3288ab5f6c332fc7",
       "category": "科技与产业",
@@ -1450,263 +1709,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.klcc.org/npr-news/2026-07-31/oil-companies-report-sky-high-profits-thanks-to-wartime-crude-prices"
-    },
-    {
-      "id": "1c4e002373afa75c",
-      "category": "能源与航运",
-      "title": "Trump considering attacks on Iran energy infrastructure , report says",
-      "url": "https://www.livemint.com/news/us-news/trump-considering-attacks-on-irans-energy-infrastructure-report-says-11785587578235.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-08-01T13:15:00Z",
-      "fetchedAt": "2026-08-01T13:58:41.269Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/news/us-news/trump-considering-attacks-on-irans-energy-infrastructure-report-says-11785587578235.html"
-    },
-    {
-      "id": "f9bac2e29220f472",
-      "category": "数字资产",
-      "title": "Skimmers , scammers and crypto ATM rackets : Ways to avoid rising fraud in New Hampshire",
-      "url": "https://www.concordmonitor.com/2026/08/01/concord-police-fraud-scam-prevention/",
-      "source": "concordmonitor.com",
-      "publishedAt": "2026-08-01T13:15:00Z",
-      "fetchedAt": "2026-08-01T13:58:41.269Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.concordmonitor.com/2026/08/01/concord-police-fraud-scam-prevention/"
-    },
-    {
-      "id": "55fb528b4d7d2a36",
-      "category": "能源与航运",
-      "title": "Iran war drives oil profits to highest levels in years - Hawaii Tribune - Herald",
-      "url": "https://www.hawaiitribune-herald.com/2026/08/01/nation-world-news/iran-war-drives-oil-profits-to-highest-levels-in-years/",
-      "source": "hawaiitribune-herald.com",
-      "publishedAt": "2026-08-01T13:15:00Z",
-      "fetchedAt": "2026-08-01T13:58:41.269Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hawaiitribune-herald.com/2026/08/01/nation-world-news/iran-war-drives-oil-profits-to-highest-levels-in-years/"
-    },
-    {
-      "id": "c1da5e3ba712277c",
-      "category": "能源与航运",
-      "title": "E20 petrol saved consumers nearly ₹30 per litre during crude price spike : Govt",
-      "url": "https://www.hindustantimes.com/india-news/e20-petrol-saved-consumers-nearly-rs-30-per-litre-during-crude-price-spike-government-101785585946933.html",
-      "source": "hindustantimes.com",
-      "publishedAt": "2026-08-01T13:15:00Z",
-      "fetchedAt": "2026-08-01T13:58:41.269Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hindustantimes.com/india-news/e20-petrol-saved-consumers-nearly-rs-30-per-litre-during-crude-price-spike-government-101785585946933.html"
-    },
-    {
-      "id": "139e0b812038b250",
-      "category": "能源与航运",
-      "title": "How many ships are transiting through Hormuz and Bab Al Mandeb ?",
-      "url": "https://www.thenationalnews.com/business/energy/2026/08/01/how-many-ships-are-transiting-through-hormuz-and-bab-al-mandeb/",
-      "source": "thenationalnews.com",
-      "publishedAt": "2026-08-01T09:00:00Z",
-      "fetchedAt": "2026-08-01T09:23:53.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thenationalnews.com/business/energy/2026/08/01/how-many-ships-are-transiting-through-hormuz-and-bab-al-mandeb/"
-    },
-    {
-      "id": "8e1286413d11446f",
-      "category": "科技与产业",
-      "title": "PROCEPT BioRobotics Corporation ( NASDAQ : PRCT ) Receives Consensus Rating of Hold from Brokerages",
-      "url": "https://www.dailypolitical.com/2026/08/01/procept-biorobotics-corporation-nasdaqprct-receives-consensus-rating-of-hold-from-brokerages.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-08-01T09:00:00Z",
-      "fetchedAt": "2026-08-01T09:23:53.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/08/01/procept-biorobotics-corporation-nasdaqprct-receives-consensus-rating-of-hold-from-brokerages.html"
-    },
-    {
-      "id": "d8a4eea459c06c37",
-      "category": "能源与航运",
-      "title": "Avant de prendre la route des vacances , passer aux toilettes au cas o nest pas une si bonne idée",
-      "url": "https://www.huffingtonpost.fr/life/article/avant-de-prendre-la-route-des-vacances-passer-aux-toilettes-au-cas-ou-n-est-pas-une-si-bonne-idee_296804.html",
-      "source": "huffingtonpost.fr",
-      "publishedAt": "2026-08-01T09:00:00Z",
-      "fetchedAt": "2026-08-01T09:23:53.988Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "France"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.huffingtonpost.fr/life/article/avant-de-prendre-la-route-des-vacances-passer-aux-toilettes-au-cas-ou-n-est-pas-une-si-bonne-idee_296804.html"
-    },
-    {
-      "id": "7a08a916d202d619",
-      "category": "金属与资源",
-      "title": "Gold setzt Korrektur fort : Dieser Goldproduzent überrascht positiv mit Quartalsbericht",
-      "url": "https://www.boersennews.de/nachrichten/artikel/boersennews/gold-setzt-korrektur-fort-dieser-goldproduzent-ueberrascht-positiv-mit-quartalsbericht/5228601/",
-      "source": "boersennews.de",
-      "publishedAt": "2026-08-01T06:15:00Z",
-      "fetchedAt": "2026-08-01T06:42:25.454Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.boersennews.de/nachrichten/artikel/boersennews/gold-setzt-korrektur-fort-dieser-goldproduzent-ueberrascht-positiv-mit-quartalsbericht/5228601/"
     }
   ]
 }
