@@ -1,12 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-02T21:12:26.911Z",
+  "generatedAt": "2026-08-02T22:13:11.857Z",
   "newsUpdatedAt": "2026-08-02T21:12:26.911Z",
-  "assetsUpdatedAt": "2026-08-02T21:12:26.911Z",
+  "assetsUpdatedAt": "2026-08-02T22:13:11.857Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：HTTP 429",
+      "腾讯全球行情：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -16,6 +17,17 @@
     ]
   },
   "assets": [
+    {
+      "id": "bitcoin",
+      "name": "比特币",
+      "price": 63694,
+      "changePercent": 1.4268738909866656,
+      "unit": "USD",
+      "asOf": "2026-08-02T22:11:40.000Z",
+      "source": "CoinGecko",
+      "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
+      "evidence": "FACT"
+    },
     {
       "id": "sh000001",
       "name": "上证指数",
@@ -124,17 +136,6 @@
       "asOf": "2026-08-01T04:59:55-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
-      "evidence": "FACT"
-    },
-    {
-      "id": "bitcoin",
-      "name": "比特币",
-      "price": 63480,
-      "changePercent": 1.241228456199276,
-      "unit": "USD",
-      "asOf": "2026-08-02T21:11:20.000Z",
-      "source": "CoinGecko",
-      "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
