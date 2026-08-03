@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-03T07:50:12.202Z",
-  "newsUpdatedAt": "2026-08-03T00:17:03.425Z",
-  "assetsUpdatedAt": "2026-08-03T07:50:12.202Z",
+  "generatedAt": "2026-08-03T11:47:50.699Z",
+  "newsUpdatedAt": "2026-08-03T11:47:50.699Z",
+  "assetsUpdatedAt": "2026-08-03T11:47:50.699Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -22,7 +22,7 @@
       "price": 3809.66,
       "changePercent": -0.59,
       "unit": "CNY",
-      "asOf": "2026-08-03T15:50:03+08:00",
+      "asOf": "2026-08-03T16:14:03+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -33,7 +33,7 @@
       "price": 13448.29,
       "changePercent": -0.96,
       "unit": "CNY",
-      "asOf": "2026-08-03T15:50:45+08:00",
+      "asOf": "2026-08-03T16:14:45+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25988.29,
-      "changePercent": 0.4,
+      "price": 26009.4,
+      "changePercent": 0.48,
       "unit": "HKD",
-      "asOf": "2026-08-03T15:35:57+08:00",
+      "asOf": "2026-08-03T18:31:11+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8645.63,
-      "changePercent": 0.39,
+      "price": 8652.15,
+      "changePercent": 0.46,
       "unit": "HKD",
-      "asOf": "2026-08-03T15:35:56+08:00",
+      "asOf": "2026-08-03T16:08:32+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4113.62,
-      "changePercent": 0.16,
+      "price": 4110.8,
+      "changePercent": 0.09,
       "unit": "USD",
-      "asOf": "2026-08-03T15:49:57-04:00",
+      "asOf": "2026-08-03T19:48:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 79.53,
-      "changePercent": -6.08,
+      "price": 79.41,
+      "changePercent": -6.21,
       "unit": "USD",
-      "asOf": "2026-08-03T15:50:00-04:00",
+      "asOf": "2026-08-03T19:48:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 656.58,
-      "changePercent": 1.55,
+      "price": 651.03,
+      "changePercent": 0.69,
       "unit": "USD",
-      "asOf": "2026-08-03T15:49:49-04:00",
+      "asOf": "2026-08-03T19:48:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,83 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62592,
-      "changePercent": -1.344959773957155,
+      "price": 62625,
+      "changePercent": -0.7618237809927041,
       "unit": "USD",
-      "asOf": "2026-08-03T07:49:30.000Z",
+      "asOf": "2026-08-03T11:47:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "122fe1085fd58acb",
+      "category": "金属与资源",
+      "title": "Uzbekistan invites Indian investment in mining , rare earths ; targets USD 2 bn trade with India next year",
+      "url": "http://www.vietnamtribune.com/news/279220582/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year",
+      "source": "vietnamtribune.com",
+      "publishedAt": "2026-08-03T11:15:00Z",
+      "fetchedAt": "2026-08-03T11:47:50.699Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.vietnamtribune.com/news/279220582/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year"
+    },
+    {
+      "id": "3d242fa0e59341b3",
+      "category": "能源与航运",
+      "title": "OPEC+ approves 188 , 000 barrels / day production increase for September",
+      "url": "http://www.trinidadtimes.com/news/279220590/opec-approves-188000-barrelsday-production-increase-for-september",
+      "source": "trinidadtimes.com",
+      "publishedAt": "2026-08-03T11:15:00Z",
+      "fetchedAt": "2026-08-03T11:47:50.699Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Trinidad and Tobago"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.trinidadtimes.com/news/279220590/opec-approves-188000-barrelsday-production-increase-for-september"
+    },
     {
       "id": "389cae5523efd4e5",
       "category": "金属与资源",
@@ -1640,76 +1707,6 @@
       "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.beijingbulletin.com/news/279218737/us-washington-dc-uscbc-president-chinese-economy-and-innovation-system"
-    },
-    {
-      "id": "389475c660e1415e",
-      "category": "金属与资源",
-      "title": "CWG 2026 : Preeti , Jaismine , Sakshi , Sachin win as India rule boxing ring with seven gold ( Ld )",
-      "url": "https://ianslive.in/cwg-2026-preeti-jaismine-sakshi-sachin-win-as-india-rule-boxing-ring-with-seven-gold-ld--20260802005640",
-      "source": "ianslive.in",
-      "publishedAt": "2026-08-01T20:30:00Z",
-      "fetchedAt": "2026-08-01T21:11:41.358Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ianslive.in/cwg-2026-preeti-jaismine-sakshi-sachin-win-as-india-rule-boxing-ring-with-seven-gold-ld--20260802005640"
-    },
-    {
-      "id": "060001e8f51c6755",
-      "category": "金属与资源",
-      "title": "CWG 2026 : Lovlina joins elite group of Indian boxers by winning silver in Glasgow",
-      "url": "https://ianslive.in/cwg-2026-lovlina-joins-elite-group-of-indian-boxers-by-winning-silver-in-glasgow--20260802010828",
-      "source": "ianslive.in",
-      "publishedAt": "2026-08-01T20:30:00Z",
-      "fetchedAt": "2026-08-01T21:11:41.358Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ianslive.in/cwg-2026-lovlina-joins-elite-group-of-indian-boxers-by-winning-silver-in-glasgow--20260802010828"
     }
   ]
 }
