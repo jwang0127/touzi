@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-04T15:38:27.462Z",
-  "newsUpdatedAt": "2026-08-04T03:41:39.099Z",
-  "assetsUpdatedAt": "2026-08-04T15:38:27.462Z",
+  "generatedAt": "2026-08-04T18:05:47.080Z",
+  "newsUpdatedAt": "2026-08-04T18:05:47.080Z",
+  "assetsUpdatedAt": "2026-08-04T18:05:47.080Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53989.35,
-      "changePercent": 1.52,
+      "price": 54182.67,
+      "changePercent": 1.89,
       "unit": "USD",
-      "asOf": "2026-08-04T11:39:00-04:00",
+      "asOf": "2026-08-04T14:06:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26415.84,
-      "changePercent": 1.94,
+      "price": 26578.54,
+      "changePercent": 2.56,
       "unit": "USD",
-      "asOf": "2026-08-04T11:39:00-04:00",
+      "asOf": "2026-08-04T14:06:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7703.34,
-      "changePercent": 1.35,
+      "price": 7740.84,
+      "changePercent": 1.85,
       "unit": "USD",
-      "asOf": "2026-08-04T11:39:00-04:00",
+      "asOf": "2026-08-04T14:06:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4143.86,
-      "changePercent": 1.3,
+      "price": 4146.97,
+      "changePercent": 1.38,
       "unit": "USD",
-      "asOf": "2026-08-04T23:39:09-04:00",
+      "asOf": "2026-08-05T02:07:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 75.45,
-      "changePercent": -6.08,
+      "price": 75.69,
+      "changePercent": -5.78,
       "unit": "USD",
-      "asOf": "2026-08-04T23:39:09-04:00",
+      "asOf": "2026-08-05T02:07:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 665.54,
-      "changePercent": 1.76,
+      "price": 664.75,
+      "changePercent": 1.64,
       "unit": "USD",
-      "asOf": "2026-08-04T23:39:08-04:00",
+      "asOf": "2026-08-05T02:07:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,239 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63784,
-      "changePercent": 0.10562019536106121,
+      "price": 64031,
+      "changePercent": 0.27041436438833305,
       "unit": "USD",
-      "asOf": "2026-08-04T15:37:20.000Z",
+      "asOf": "2026-08-04T18:05:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "66f9c3935802414c",
+      "category": "能源与航运",
+      "title": "ONGC Q1 net profit surges 112 % to Rs 17 , 034 cr on higher crude oil realisations",
+      "url": "https://news.webindia123.com/news/Articles/Business/20260804/4483237.html",
+      "source": "news.webindia123.com",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.webindia123.com/news/Articles/Business/20260804/4483237.html"
+    },
+    {
+      "id": "70aa7ffa950ec2b0",
+      "category": "金属与资源",
+      "title": "Gold may slide 37 % from January high ; stronger Yen may offer relief : Report",
+      "url": "http://www.myanmarnews.net/news/279222054/gold-may-slide-37-from-january-high-stronger-yen-may-offer-relief-report",
+      "source": "myanmarnews.net",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Myanmar"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.myanmarnews.net/news/279222054/gold-may-slide-37-from-january-high-stronger-yen-may-offer-relief-report"
+    },
+    {
+      "id": "f8c7b98b6a2062a1",
+      "category": "金属与资源",
+      "title": "West Point Gold ( TSXV : WPG ) Appoints Seasoned Capital Markets Leader Anthony Paterson as Executive Chairman Ahead of Maiden Resource Estimate",
+      "url": "https://www.investorideas.com/CO/WPG/news/2026/08041-west-point-gold-appoints-anthony-paterson-executive-chairman.asp",
+      "source": "investorideas.com",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.investorideas.com/CO/WPG/news/2026/08041-west-point-gold-appoints-anthony-paterson-executive-chairman.asp"
+    },
+    {
+      "id": "c1ce501878b417e3",
+      "category": "全球与地区",
+      "title": "Emami Q1 net down 15 % at ₹138 . 94 crore on higher input costs due to West Asia conflict",
+      "url": "https://www.thehindubusinessline.com/companies/emami-q1-net-down-15-at-13894-crore-on-higher-input-costs-due-to-west-asia-conflict/article71306365.ece",
+      "source": "thehindubusinessline.com",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindubusinessline.com/companies/emami-q1-net-down-15-at-13894-crore-on-higher-input-costs-due-to-west-asia-conflict/article71306365.ece"
+    },
+    {
+      "id": "923368368f42f1ee",
+      "category": "全球与地区",
+      "title": "India record Russian oil buys expose limits of U . S . sanctions – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-08-04-india-russian-oil-imports-washington-sanctions.html",
+      "source": "naturalnews.com",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.naturalnews.com/2026-08-04-india-russian-oil-imports-washington-sanctions.html"
+    },
+    {
+      "id": "e407009bfd2732cd",
+      "category": "全球与地区",
+      "title": "Conflict in Ukraine pulls the world into the abyss",
+      "url": "https://www.thestandard.co.zw/standard-people/article/200059016/conflict-in-ukraine-pulls-the-world-into-the-abyss",
+      "source": "thestandard.co.zw",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Zimbabwe"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thestandard.co.zw/standard-people/article/200059016/conflict-in-ukraine-pulls-the-world-into-the-abyss"
+    },
+    {
+      "id": "e53da0282f1720b6",
+      "category": "能源与航运",
+      "title": "Crude Oil Price : कच्चे तेल की कीमतें औंधे मुंह गिरीं , क्या सस्ता होगा पेट्रोल - डीजल ? गिरावट के पीछे 2 बड़े कारण - mcx crude oil price crash reasons outlook expert advice",
+      "url": "https://www.jagran.com/business/commodity-mcx-crude-oil-price-crash-reasons-outlook-expert-advice-40329786.html",
+      "source": "jagran.com",
+      "publishedAt": "2026-08-04T17:45:00Z",
+      "fetchedAt": "2026-08-04T18:05:47.080Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.jagran.com/business/commodity-mcx-crude-oil-price-crash-reasons-outlook-expert-advice-40329786.html"
+    },
     {
       "id": "bbb1a3233526b03d",
       "category": "能源与航运",
@@ -1478,234 +1701,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://tradearabia.com:443/News/466089/Kuwait-Oil-Company-awards-$7.2bn-contracts-in-H1/CONS"
-    },
-    {
-      "id": "3b8b5d3b2ec16f47",
-      "category": "能源与航运",
-      "title": "Opec+ approves September output increase of 188 , 000 bpd",
-      "url": "https://tradearabia.com:443/News/466083/Opec-approves-September-output-increase-of-188-000-bpd",
-      "source": "tradearabia.com",
-      "publishedAt": "2026-08-02T17:00:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Arab Emirates"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tradearabia.com:443/News/466083/Opec-approves-September-output-increase-of-188-000-bpd"
-    },
-    {
-      "id": "521fffc30be79edf",
-      "category": "能源与航运",
-      "title": "OPEC+ continues to raise oil production by 188 , 000 bpd in September",
-      "url": "http://www.chinanationalnews.com/news/279219701/opec-continues-to-raise-oil-production-by-188000-bpd-in-september",
-      "source": "chinanationalnews.com",
-      "publishedAt": "2026-08-02T17:00:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.chinanationalnews.com/news/279219701/opec-continues-to-raise-oil-production-by-188000-bpd-in-september"
-    },
-    {
-      "id": "4d71201f1bc3d34b",
-      "category": "金属与资源",
-      "title": "Kazakhstan billion - dollar rare earths push faces familiar obstacles",
-      "url": "https://www.thenationalnews.com/business/energy/2026/08/02/kazakhstans-billion-dollar-rare-earths-push-faces-familiar-obstacles/",
-      "source": "thenationalnews.com",
-      "publishedAt": "2026-08-02T17:00:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thenationalnews.com/business/energy/2026/08/02/kazakhstans-billion-dollar-rare-earths-push-faces-familiar-obstacles/"
-    },
-    {
-      "id": "67f21838d21e04e3",
-      "category": "全球与地区",
-      "title": "Monkeys in geopolitics - BusinessWorld Online",
-      "url": "https://bworldonline.com/opinion/2026/08/03/767514/monkeys-in-geopolitics/",
-      "source": "bworldonline.com",
-      "publishedAt": "2026-08-02T17:00:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://bworldonline.com/opinion/2026/08/03/767514/monkeys-in-geopolitics/"
-    },
-    {
-      "id": "e5f374058793a1b7",
-      "category": "金属与资源",
-      "title": "Max Gregory wins Commonwealth judo silver and targets LA 2028",
-      "url": "https://www.hillingdontimes.co.uk/news/26429965.max-gregory-wins-commonwealth-judo-silver-targets-la-2028/",
-      "source": "hillingdontimes.co.uk",
-      "publishedAt": "2026-08-02T16:45:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hillingdontimes.co.uk/news/26429965.max-gregory-wins-commonwealth-judo-silver-targets-la-2028/"
-    },
-    {
-      "id": "1614d545e540217c",
-      "category": "金属与资源",
-      "title": "Jon McConnell wins Commonwealth Gold after rejecting Love Island",
-      "url": "https://www.hillingdontimes.co.uk/news/26429134.jon-mcconnell-wins-commonwealth-gold-rejecting-love-island/",
-      "source": "hillingdontimes.co.uk",
-      "publishedAt": "2026-08-02T16:45:00Z",
-      "fetchedAt": "2026-08-02T17:19:30.248Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hillingdontimes.co.uk/news/26429134.jon-mcconnell-wins-commonwealth-gold-rejecting-love-island/"
-    },
-    {
-      "id": "860e0cb87599bdfe",
-      "category": "科技与产业",
-      "title": "Mersinli Gençlerden Büyk Başarı : Rubik Küp zen Robot Geliştirdiler",
-      "url": "https://www.mersinhaber.com/haber-mersinli-genclerden-buyuk-basari-rubik-kup-cozen-robot-gelistirdiler/727888",
-      "source": "mersinhaber.com",
-      "publishedAt": "2026-08-02T11:15:00Z",
-      "fetchedAt": "2026-08-02T11:36:09.865Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Turkey"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mersinhaber.com/haber-mersinli-genclerden-buyuk-basari-rubik-kup-cozen-robot-gelistirdiler/727888"
     }
   ]
 }
