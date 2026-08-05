@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-05T17:55:35.263Z",
-  "newsUpdatedAt": "2026-08-05T09:58:48.175Z",
-  "assetsUpdatedAt": "2026-08-05T17:55:35.263Z",
+  "generatedAt": "2026-08-05T19:57:38.725Z",
+  "newsUpdatedAt": "2026-08-05T19:57:38.725Z",
+  "assetsUpdatedAt": "2026-08-05T19:57:38.725Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 54573.94,
-      "changePercent": 0.9,
+      "price": 54413.91,
+      "changePercent": 0.61,
       "unit": "USD",
-      "asOf": "2026-08-05T13:56:00-04:00",
+      "asOf": "2026-08-05T15:58:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26451.39,
-      "changePercent": -0.5,
+      "price": 26405.48,
+      "changePercent": -0.68,
       "unit": "USD",
-      "asOf": "2026-08-05T13:56:00-04:00",
+      "asOf": "2026-08-05T15:58:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7739.43,
-      "changePercent": 0.04,
+      "price": 7733.73,
+      "changePercent": -0.04,
       "unit": "USD",
-      "asOf": "2026-08-05T13:55:59-04:00",
+      "asOf": "2026-08-05T15:58:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4312.34,
-      "changePercent": 3.85,
+      "price": 4310.29,
+      "changePercent": 3.8,
       "unit": "USD",
-      "asOf": "2026-08-06T01:56:03-04:00",
+      "asOf": "2026-08-06T03:58:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 74.7,
-      "changePercent": -1.41,
+      "price": 75,
+      "changePercent": -1.01,
       "unit": "USD",
-      "asOf": "2026-08-06T01:56:07-04:00",
+      "asOf": "2026-08-06T03:58:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 673.67,
-      "changePercent": 1.4,
+      "price": 674.43,
+      "changePercent": 1.52,
       "unit": "USD",
-      "asOf": "2026-08-06T01:55:58-04:00",
+      "asOf": "2026-08-06T03:58:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,307 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64667,
-      "changePercent": 1.1640542464874826,
+      "price": 64855,
+      "changePercent": 0.922734739267236,
       "unit": "USD",
-      "asOf": "2026-08-05T17:54:00.000Z",
+      "asOf": "2026-08-05T19:57:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "8c7bcc5773d779fd",
+      "category": "全球与地区",
+      "title": "Iran , Oman agree on new Strait of Hormuz shipping corridor",
+      "url": "https://www.albawaba.net/news/iran-oman-agree-new-strait-hormuz-1634504",
+      "source": "albawaba.net",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.albawaba.net/news/iran-oman-agree-new-strait-hormuz-1634504"
+    },
+    {
+      "id": "83b08ae750b84034",
+      "category": "全球与地区",
+      "title": "50 से ज्यादा देश , 3 महाद्वीप और हथियारों का जखीरा ... क्या ये तृतीय विश्व युद्ध की आहट है ? - is this world war 3 global conflicts interconnected wars",
+      "url": "https://www.jagran.com/news/national-is-this-world-war-3-global-conflicts-interconnected-wars-40330987.html",
+      "source": "jagran.com",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.jagran.com/news/national-is-this-world-war-3-global-conflicts-interconnected-wars-40330987.html"
+    },
+    {
+      "id": "c363d976a188c009",
+      "category": "能源与航运",
+      "title": "Houthis claim strike on Saudi oil vessel near Gulf of Aden",
+      "url": "https://news.az/news/houthis-claim-strike-on-saudi-oil-vessel-near-gulf-of-aden",
+      "source": "news.az",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.az/news/houthis-claim-strike-on-saudi-oil-vessel-near-gulf-of-aden"
+    },
+    {
+      "id": "3a312c29808130ae",
+      "category": "能源与航运",
+      "title": "Hormuz Crisis Is Rewriting the Global LPG Trade",
+      "url": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Crisis-Is-Rewriting-the-Global-LPG-Trade.html",
+      "source": "oilprice.com",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Crisis-Is-Rewriting-the-Global-LPG-Trade.html"
+    },
+    {
+      "id": "07522e217ad126e3",
+      "category": "能源与航运",
+      "title": "Insider Buying : Tourmaline Oil ( TSE : TOU ) Insider Buys C$300 , 000 . 00 in Stock",
+      "url": "https://www.dailypolitical.com/2026/08/05/insider-buying-tourmaline-oil-tsetou-insider-buys-c300000-00-in-stock.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/08/05/insider-buying-tourmaline-oil-tsetou-insider-buys-c300000-00-in-stock.html"
+    },
+    {
+      "id": "e181cd8597578d75",
+      "category": "金属与资源",
+      "title": "Gold & Silver Prices Surge in India ; Sona Chandi Ka Bhav Update",
+      "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-india-latest-update-2026-138641495.html",
+      "source": "divyabhaskar.co.in",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-india-latest-update-2026-138641495.html"
+    },
+    {
+      "id": "66fee0b643485a84",
+      "category": "能源与航运",
+      "title": "Iran and Oman reach preliminary deal on future Strait of Hormuz transit",
+      "url": "https://news.az/news/iran-and-oman-reach-preliminary-deal-on-future-strait-of-hormuz-transit",
+      "source": "news.az",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.az/news/iran-and-oman-reach-preliminary-deal-on-future-strait-of-hormuz-transit"
+    },
+    {
+      "id": "13a3bf0921b6703a",
+      "category": "全球与地区",
+      "title": "Vaibhav Global Ltd ( BOM : 532156 ) ( Q1 2027 ) Earnings Call Highlights : Digital Growth and Tariff ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vaibhav-global-ltd-bom-532156-190437967.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/vaibhav-global-ltd-bom-532156-190437967.html"
+    },
+    {
+      "id": "30f91d2da7151a6b",
+      "category": "能源与航运",
+      "title": "Iran - Oman Hormuz Deal Final Stages",
+      "url": "https://www.newkerala.com/news/a/hormuz-deal-oman-final-stages-iran-425.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-08-05T19:30:00Z",
+      "fetchedAt": "2026-08-05T19:57:38.725Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/hormuz-deal-oman-final-stages-iran-425.htm"
+    },
     {
       "id": "5c789c0660b479a5",
       "category": "能源与航运",
@@ -1397,308 +1686,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://en.people.cn/n3/2026/0804/c90000-20484869.html"
-    },
-    {
-      "id": "0055097629c58f09",
-      "category": "科技与产业",
-      "title": "When expressive humanoid robots are awkward , people become wary – new brain study - 04 - Aug - 2026",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451255",
-      "source": "home.nzcity.co.nz",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=451255"
-    },
-    {
-      "id": "8da95119e80d1af3",
-      "category": "科技与产业",
-      "title": "Miva Open University Strengthens Robotics Education Through Partnership with Terra Industries – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/08/03/miva-open-university-strengthens-robotics-education-through-partnership-with-terra-industries/",
-      "source": "thisdaylive.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thisdaylive.com/2026/08/03/miva-open-university-strengthens-robotics-education-through-partnership-with-terra-industries/"
-    },
-    {
-      "id": "ac5828fbc48834fe",
-      "category": "金属与资源",
-      "title": "Tate McRae Covered Herself in Gold at Lollapalooza",
-      "url": "https://www.allure.com/story/tate-mcrae-gold-body-makeup-lollapalooza",
-      "source": "allure.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.allure.com/story/tate-mcrae-gold-body-makeup-lollapalooza"
-    },
-    {
-      "id": "5bc83de590c78223",
-      "category": "能源与航运",
-      "title": "Without Trump administration , Oil Industry would be dead !: Trump slams Chevron CEO , demands immediate retail energy price cuts",
-      "url": "http://www.haitisun.com/news/279221246/without-trump-administration-oil-industry-would-be-dead-trump-slams-chevron-ceo-demands-immediate-retail-energy-price-cuts",
-      "source": "haitisun.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.haitisun.com/news/279221246/without-trump-administration-oil-industry-would-be-dead-trump-slams-chevron-ceo-demands-immediate-retail-energy-price-cuts"
-    },
-    {
-      "id": "ae66885f969795d6",
-      "category": "金属与资源",
-      "title": "Gold still glitters despite fall from all - time high",
-      "url": "https://www.therural.com.au/story/9323204/gold-still-glitters-despite-fall-from-all-time-high/",
-      "source": "therural.com.au",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.therural.com.au/story/9323204/gold-still-glitters-despite-fall-from-all-time-high/"
-    },
-    {
-      "id": "36366b71184e0b34",
-      "category": "金属与资源",
-      "title": "More than $140K worth of copper wire stolen – Times News Online",
-      "url": "https://www.tnonline.com/20260803/more-than-140k-worth-of-copper-wire-stolen/",
-      "source": "tnonline.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tnonline.com/20260803/more-than-140k-worth-of-copper-wire-stolen/"
-    },
-    {
-      "id": "2c7ca32a840d9cd6",
-      "category": "能源与航运",
-      "title": "Lost Soldier Oil and Gas Selects EquiDeFi for Accredited Investor Offering",
-      "url": "http://www.memphissun.com/news/279221328/lost-soldier-oil-and-gas-selects-equidefi-for-accredited-investor-offering",
-      "source": "memphissun.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.memphissun.com/news/279221328/lost-soldier-oil-and-gas-selects-equidefi-for-accredited-investor-offering"
-    },
-    {
-      "id": "56dd5a2eadcc66a7",
-      "category": "能源与航运",
-      "title": "Bankrupt Britain needs to tap into North Sea oil gold , says Donald Trump",
-      "url": "https://www.gazetteandherald.co.uk/news/national/26433695.bankrupt-britain-needs-tap-north-sea-oil-gold-says-donald-trump/",
-      "source": "gazetteandherald.co.uk",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.gazetteandherald.co.uk/news/national/26433695.bankrupt-britain-needs-tap-north-sea-oil-gold-says-donald-trump/"
-    },
-    {
-      "id": "ada847941e6a0a91",
-      "category": "能源与航运",
-      "title": "US stocks rally near a record as falling oil prices ease Wall Street worries about inflation",
-      "url": "http://www.thegazette.com/news/world/us-stocks-rally-near-a-record-as-falling-oil-prices-ease-wall-streets-worries-about/article_3cab6e1b-8cc5-5d45-85be-dafe4e3906ea.html",
-      "source": "thegazette.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.thegazette.com/news/world/us-stocks-rally-near-a-record-as-falling-oil-prices-ease-wall-streets-worries-about/article_3cab6e1b-8cc5-5d45-85be-dafe4e3906ea.html"
     }
   ]
 }
