@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-05T03:37:09.398Z",
-  "newsUpdatedAt": "2026-08-05T03:37:09.398Z",
-  "assetsUpdatedAt": "2026-08-05T03:37:09.398Z",
+  "generatedAt": "2026-08-05T06:44:23.968Z",
+  "newsUpdatedAt": "2026-08-05T06:44:23.968Z",
+  "assetsUpdatedAt": "2026-08-05T06:44:23.968Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -17,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3873.56,
-      "changePercent": 1.34,
+      "price": 3874.66,
+      "changePercent": 1.37,
       "unit": "CNY",
-      "asOf": "2026-08-05T11:38:00+08:00",
+      "asOf": "2026-08-05T14:45:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -28,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14101.9,
-      "changePercent": 1.56,
+      "price": 14118.89,
+      "changePercent": 1.68,
       "unit": "CNY",
-      "asOf": "2026-08-05T11:38:39+08:00",
+      "asOf": "2026-08-05T14:45:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25874.97,
-      "changePercent": 0.09,
+      "price": 25938.29,
+      "changePercent": 0.33,
       "unit": "HKD",
-      "asOf": "2026-08-05T11:23:46+08:00",
+      "asOf": "2026-08-05T14:30:33+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8594.06,
-      "changePercent": 0.23,
+      "price": 8600.34,
+      "changePercent": 0.3,
       "unit": "HKD",
-      "asOf": "2026-08-05T11:23:46+08:00",
+      "asOf": "2026-08-05T14:30:32+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4186.52,
-      "changePercent": 0.82,
+      "price": 4235.37,
+      "changePercent": 1.99,
       "unit": "USD",
-      "asOf": "2026-08-05T11:38:07-04:00",
+      "asOf": "2026-08-05T14:45:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 74.53,
-      "changePercent": -1.64,
+      "price": 75.25,
+      "changePercent": -0.69,
       "unit": "USD",
-      "asOf": "2026-08-05T11:38:03-04:00",
+      "asOf": "2026-08-05T14:45:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.72,
-      "changePercent": 0.06,
+      "price": 666.2,
+      "changePercent": 0.28,
       "unit": "USD",
-      "asOf": "2026-08-05T11:37:49-04:00",
+      "asOf": "2026-08-05T14:45:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,117 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64101,
-      "changePercent": 0.541542060189456,
+      "price": 64265,
+      "changePercent": 0.9637538413319562,
       "unit": "USD",
-      "asOf": "2026-08-05T03:36:40.000Z",
+      "asOf": "2026-08-05T06:43:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "05108f8febf12afa",
+      "category": "金属与资源",
+      "title": "China YunTuo Single Malt Whisky Strikes Gold on Debut at The World Whisky Masters 2026",
+      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/chinas-yuntuo-single-malt-whisky-strikes-gold-on-debut-at-the-world-whisky-masters-2026/2398636",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-08-05T06:15:00Z",
+      "fetchedAt": "2026-08-05T06:44:23.968Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/chinas-yuntuo-single-malt-whisky-strikes-gold-on-debut-at-the-world-whisky-masters-2026/2398636"
+    },
+    {
+      "id": "4341e0e2c68e0a83",
+      "category": "金属与资源",
+      "title": "Trump Hails Manufacturing And Market Surge As America Golden Age",
+      "url": "https://www.worthynews.com/116473-trump-hails-manufacturing-and-market-surge-as-americas-golden-age",
+      "source": "worthynews.com",
+      "publishedAt": "2026-08-05T06:15:00Z",
+      "fetchedAt": "2026-08-05T06:44:23.968Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.worthynews.com/116473-trump-hails-manufacturing-and-market-surge-as-americas-golden-age"
+    },
+    {
+      "id": "fa70eaf1b4728f71",
+      "category": "全球与地区",
+      "title": "DAX - FLASH : Weiterer Rekord in Sicht - Geopolitische Entspannung , Berichtssaison | wallstreetONLINE",
+      "url": "https://www.wallstreet-online.de/nachricht/21197529-dax-flash-rekord-sicht-geopolitische-entspannung-berichtssaison",
+      "source": "wallstreet-online.de",
+      "publishedAt": "2026-08-05T06:15:00Z",
+      "fetchedAt": "2026-08-05T06:44:23.968Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wallstreet-online.de/nachricht/21197529-dax-flash-rekord-sicht-geopolitische-entspannung-berichtssaison"
+    },
     {
       "id": "56726a822c5fe262",
       "category": "能源与航运",
@@ -1592,95 +1695,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=451217"
-    },
-    {
-      "id": "b420263efa1d2e62",
-      "category": "A股与政策",
-      "title": "Editorial | Politburo meeting signals cautious confidence in China economy",
-      "url": "https://www.scmp.com/opinion/comment/article/3362679/politburo-meeting-signals-cautious-confidence-chinas-economy",
-      "source": "scmp.com",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.scmp.com/opinion/comment/article/3362679/politburo-meeting-signals-cautious-confidence-chinas-economy"
-    },
-    {
-      "id": "009aa67cf2936c31",
-      "category": "金属与资源",
-      "title": "Italien - Gold für Einer - Ruderer Zeidler bei WM - Deutschland - Achter holt Silber",
-      "url": "https://www.deutschlandfunk.de/gold-fuer-einer-ruderer-zeidler-bei-wm-deutschland-achter-holt-silber-114.html",
-      "source": "deutschlandfunk.de",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.deutschlandfunk.de/gold-fuer-einer-ruderer-zeidler-bei-wm-deutschland-achter-holt-silber-114.html"
-    },
-    {
-      "id": "70630911ae68fae7",
-      "category": "数字资产",
-      "title": "Al Crypto Investmentの仕組みを解説 ！ トラブルを未然に防ぐコツ - バランス実験室",
-      "url": "https://blog.udn.com:443/19bda565/191840471",
-      "source": "blog.udn.com",
-      "publishedAt": "2026-08-02T22:45:00Z",
-      "fetchedAt": "2026-08-02T23:15:37.416Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://blog.udn.com:443/19bda565/191840471"
     }
   ]
 }
