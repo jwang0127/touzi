@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-05T19:57:38.725Z",
-  "newsUpdatedAt": "2026-08-05T19:57:38.725Z",
-  "assetsUpdatedAt": "2026-08-05T19:57:38.725Z",
+  "generatedAt": "2026-08-05T21:35:47.485Z",
+  "newsUpdatedAt": "2026-08-05T21:35:47.485Z",
+  "assetsUpdatedAt": "2026-08-05T21:35:47.485Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -61,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 54413.91,
-      "changePercent": 0.61,
+      "price": 54349.12,
+      "changePercent": 0.49,
       "unit": "USD",
-      "asOf": "2026-08-05T15:58:20-04:00",
+      "asOf": "2026-08-05T17:22:16-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26405.48,
-      "changePercent": -0.68,
+      "price": 26363.44,
+      "changePercent": -0.83,
       "unit": "USD",
-      "asOf": "2026-08-05T15:58:20-04:00",
+      "asOf": "2026-08-05T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7733.73,
-      "changePercent": -0.04,
+      "price": 7723.55,
+      "changePercent": -0.17,
       "unit": "USD",
-      "asOf": "2026-08-05T15:58:20-04:00",
+      "asOf": "2026-08-05T16:41:45-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4310.29,
+      "price": 4310.22,
       "changePercent": 3.8,
       "unit": "USD",
-      "asOf": "2026-08-06T03:58:07-04:00",
+      "asOf": "2026-08-06T04:59:55-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 75,
-      "changePercent": -1.01,
+      "price": 74.99,
+      "changePercent": -1.03,
       "unit": "USD",
-      "asOf": "2026-08-06T03:58:03-04:00",
+      "asOf": "2026-08-06T04:59:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 674.43,
-      "changePercent": 1.52,
+      "price": 674.98,
+      "changePercent": 1.6,
       "unit": "USD",
-      "asOf": "2026-08-06T03:58:00-04:00",
+      "asOf": "2026-08-06T04:59:45-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,331 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64855,
-      "changePercent": 0.922734739267236,
+      "price": 64648,
+      "changePercent": 0.7210563787670992,
       "unit": "USD",
-      "asOf": "2026-08-05T19:57:20.000Z",
+      "asOf": "2026-08-05T21:35:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "91c9f52245d7d698",
+      "category": "全球与地区",
+      "title": "Carney says Canada backs ICC but stays mum on Trump - sanctioned Canadian judge",
+      "url": "https://www.stcatharinesstandard.ca/news/canada/carney-says-canada-backs-icc-but-stays-mum-on-trump-sanctioned-canadian-judge/article_46f5d8e8-26b2-57e2-b8c6-f8d0af25e21b.html",
+      "source": "stcatharinesstandard.ca",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.stcatharinesstandard.ca/news/canada/carney-says-canada-backs-icc-but-stays-mum-on-trump-sanctioned-canadian-judge/article_46f5d8e8-26b2-57e2-b8c6-f8d0af25e21b.html"
+    },
+    {
+      "id": "1a38dba35716969f",
+      "category": "能源与航运",
+      "title": "Oil sands MOU hasnt changed Suncor spending plans , CEO says",
+      "url": "https://www.theglobeandmail.com/business/article-suncor-ceo-rich-kruger-oil-sands-mou-spending-plans/",
+      "source": "theglobeandmail.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theglobeandmail.com/business/article-suncor-ceo-rich-kruger-oil-sands-mou-spending-plans/"
+    },
+    {
+      "id": "4ec4ba8701939e42",
+      "category": "数字资产",
+      "title": "В магазинах Duty Free в Дубае заработала оплата через Crypto . com Pay Новости « Серебряного Дождя »",
+      "url": "https://silver.ru/news/v-magazinakh-duty-free-v-dubae-zarabotala-oplata-cherez-crypto-com-pay/",
+      "source": "silver.ru",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://silver.ru/news/v-magazinakh-duty-free-v-dubae-zarabotala-oplata-cherez-crypto-com-pay/"
+    },
+    {
+      "id": "142d4a1f50e8678f",
+      "category": "能源与航运",
+      "title": "Helleniq Energy Holdings S . A . Annouces 2Q / 1H 26 Fin . Results",
+      "url": "http://www.newjerseytelegraph.com/news/279223989/helleniq-energy-holdings-sa-annouces-2q1h-26-fin-results",
+      "source": "newjerseytelegraph.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279223989/helleniq-energy-holdings-sa-annouces-2q1h-26-fin-results"
+    },
+    {
+      "id": "0f2e4c8d94df6f09",
+      "category": "能源与航运",
+      "title": "Solaris Energy Infrastructure ( NYSE : SEI ) Reports Upbeat Q2 CY2026",
+      "url": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-nyse-sei-202353671.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-nyse-sei-202353671.html"
+    },
+    {
+      "id": "d9bc51c021252979",
+      "category": "金属与资源",
+      "title": "Fortitude Gold Declares August 2026 Monthly Dividend",
+      "url": "http://www.newjerseytelegraph.com/news/279224005/fortitude-gold-declares-august-2026-monthly-dividend",
+      "source": "newjerseytelegraph.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279224005/fortitude-gold-declares-august-2026-monthly-dividend"
+    },
+    {
+      "id": "ea4680e7124846de",
+      "category": "数字资产",
+      "title": "FBI agent accused of stealing nearly $1 million in cryptocurrency",
+      "url": "https://www.turnto23.com/us-news/crime/fbi-agent-accused-of-stealing-nearly-1-million-in-cryptocurrency",
+      "source": "turnto23.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.turnto23.com/us-news/crime/fbi-agent-accused-of-stealing-nearly-1-million-in-cryptocurrency"
+    },
+    {
+      "id": "8ff24e1b06b64871",
+      "category": "能源与航运",
+      "title": "Kosmos Energy Ltd . Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-ltd-q2-2026-123000508.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-ltd-q2-2026-123000508.html"
+    },
+    {
+      "id": "039205bfb73494fa",
+      "category": "能源与航运",
+      "title": "Ethanol20 brings long - term energy gains",
+      "url": "https://www.tribuneindia.com/news/comment/ethanol20-brings-long-term-energy-gains/",
+      "source": "tribuneindia.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tribuneindia.com/news/comment/ethanol20-brings-long-term-energy-gains/"
+    },
+    {
+      "id": "cd8747824a0c6107",
+      "category": "金属与资源",
+      "title": "BCE in a RRIF , gold ETFs , geographic asset allocation , and more of your questions",
+      "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-pape-questions-rrif-gold-etfs-geographic-assets/",
+      "source": "theglobeandmail.com",
+      "publishedAt": "2026-08-05T21:00:00Z",
+      "fetchedAt": "2026-08-05T21:35:47.485Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-pape-questions-rrif-gold-etfs-geographic-assets/"
+    },
     {
       "id": "8c7bcc5773d779fd",
       "category": "全球与地区",
@@ -1382,310 +1699,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.investorideas.com/CO/WPG/news/2026/08041-west-point-gold-appoints-anthony-paterson-executive-chairman.asp"
-    },
-    {
-      "id": "c1ce501878b417e3",
-      "category": "全球与地区",
-      "title": "Emami Q1 net down 15 % at ₹138 . 94 crore on higher input costs due to West Asia conflict",
-      "url": "https://www.thehindubusinessline.com/companies/emami-q1-net-down-15-at-13894-crore-on-higher-input-costs-due-to-west-asia-conflict/article71306365.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-08-04T17:45:00Z",
-      "fetchedAt": "2026-08-04T18:05:47.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/companies/emami-q1-net-down-15-at-13894-crore-on-higher-input-costs-due-to-west-asia-conflict/article71306365.ece"
-    },
-    {
-      "id": "923368368f42f1ee",
-      "category": "全球与地区",
-      "title": "India record Russian oil buys expose limits of U . S . sanctions – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-08-04-india-russian-oil-imports-washington-sanctions.html",
-      "source": "naturalnews.com",
-      "publishedAt": "2026-08-04T17:45:00Z",
-      "fetchedAt": "2026-08-04T18:05:47.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.naturalnews.com/2026-08-04-india-russian-oil-imports-washington-sanctions.html"
-    },
-    {
-      "id": "e407009bfd2732cd",
-      "category": "全球与地区",
-      "title": "Conflict in Ukraine pulls the world into the abyss",
-      "url": "https://www.thestandard.co.zw/standard-people/article/200059016/conflict-in-ukraine-pulls-the-world-into-the-abyss",
-      "source": "thestandard.co.zw",
-      "publishedAt": "2026-08-04T17:45:00Z",
-      "fetchedAt": "2026-08-04T18:05:47.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Zimbabwe"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thestandard.co.zw/standard-people/article/200059016/conflict-in-ukraine-pulls-the-world-into-the-abyss"
-    },
-    {
-      "id": "e53da0282f1720b6",
-      "category": "能源与航运",
-      "title": "Crude Oil Price : कच्चे तेल की कीमतें औंधे मुंह गिरीं , क्या सस्ता होगा पेट्रोल - डीजल ? गिरावट के पीछे 2 बड़े कारण - mcx crude oil price crash reasons outlook expert advice",
-      "url": "https://www.jagran.com/business/commodity-mcx-crude-oil-price-crash-reasons-outlook-expert-advice-40329786.html",
-      "source": "jagran.com",
-      "publishedAt": "2026-08-04T17:45:00Z",
-      "fetchedAt": "2026-08-04T18:05:47.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jagran.com/business/commodity-mcx-crude-oil-price-crash-reasons-outlook-expert-advice-40329786.html"
-    },
-    {
-      "id": "bbb1a3233526b03d",
-      "category": "能源与航运",
-      "title": "Stocks surge 2 , 100 points on oil price dip",
-      "url": "https://tribune.com.pk/story/2621985/stocks-surge-2100-points-on-oil-price-dip",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2621985/stocks-surge-2100-points-on-oil-price-dip"
-    },
-    {
-      "id": "3d03d98a390e0e95",
-      "category": "数字资产",
-      "title": "What is the pig butchering scam ? How fake relationships lead to crypto theft",
-      "url": "https://www.wesh.com/article/pig-butchering-scam-crypto-theft-fake-dating-fraud/73338934",
-      "source": "wesh.com",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wesh.com/article/pig-butchering-scam-crypto-theft-fake-dating-fraud/73338934"
-    },
-    {
-      "id": "0960783c5a5e52d9",
-      "category": "数字资产",
-      "title": "Mthuli urges crypto currency market regulation – DailyNews",
-      "url": "https://dailynews.co.zw/mthuli-urges-crypto-currency-market-regulation/",
-      "source": "dailynews.co.zw",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Zimbabwe"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dailynews.co.zw/mthuli-urges-crypto-currency-market-regulation/"
-    },
-    {
-      "id": "83f1e9ec54a955bb",
-      "category": "能源与航运",
-      "title": "Shale profits surge as war on Iran lifts crude to $126",
-      "url": "https://tribune.com.pk/story/2621983/shale-profits-surge-as-war-on-iran-lifts-crude-to-126",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2621983/shale-profits-surge-as-war-on-iran-lifts-crude-to-126"
-    },
-    {
-      "id": "1d6a7b7f8f1339f0",
-      "category": "全球与地区",
-      "title": "25 U . S . states sue Trump administration over Section 301 tariffs",
-      "url": "http://en.people.cn/n3/2026/0804/c90000-20484967.html",
-      "source": "en.people.cn",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://en.people.cn/n3/2026/0804/c90000-20484967.html"
-    },
-    {
-      "id": "36e5df6ef3f1fc81",
-      "category": "能源与航运",
-      "title": "Trump confirms resumption of talks with Iran , Strait of Hormuz deal nears",
-      "url": "http://en.people.cn/n3/2026/0804/c90000-20484869.html",
-      "source": "en.people.cn",
-      "publishedAt": "2026-08-04T03:15:00Z",
-      "fetchedAt": "2026-08-04T03:41:39.099Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://en.people.cn/n3/2026/0804/c90000-20484869.html"
     }
   ]
 }
