@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-05T06:44:23.968Z",
-  "newsUpdatedAt": "2026-08-05T06:44:23.968Z",
-  "assetsUpdatedAt": "2026-08-05T06:44:23.968Z",
+  "generatedAt": "2026-08-05T09:58:48.175Z",
+  "newsUpdatedAt": "2026-08-05T09:58:48.175Z",
+  "assetsUpdatedAt": "2026-08-05T09:58:48.175Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3874.66,
-      "changePercent": 1.37,
+      "price": 3878.43,
+      "changePercent": 1.47,
       "unit": "CNY",
-      "asOf": "2026-08-05T14:45:33+08:00",
+      "asOf": "2026-08-05T16:14:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14118.89,
-      "changePercent": 1.68,
+      "price": 14144.2,
+      "changePercent": 1.86,
       "unit": "CNY",
-      "asOf": "2026-08-05T14:45:33+08:00",
+      "asOf": "2026-08-05T16:14:39+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25938.29,
-      "changePercent": 0.33,
+      "price": 25915.82,
+      "changePercent": 0.24,
       "unit": "HKD",
-      "asOf": "2026-08-05T14:30:33+08:00",
+      "asOf": "2026-08-05T17:43:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8600.34,
-      "changePercent": 0.3,
+      "price": 8603.73,
+      "changePercent": 0.34,
       "unit": "HKD",
-      "asOf": "2026-08-05T14:30:32+08:00",
+      "asOf": "2026-08-05T16:09:30+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4235.37,
-      "changePercent": 1.99,
+      "price": 4220.05,
+      "changePercent": 1.62,
       "unit": "USD",
-      "asOf": "2026-08-05T14:45:02-04:00",
+      "asOf": "2026-08-05T17:59:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 75.25,
-      "changePercent": -0.69,
+      "price": 76.51,
+      "changePercent": 0.98,
       "unit": "USD",
-      "asOf": "2026-08-05T14:45:02-04:00",
+      "asOf": "2026-08-05T17:59:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 666.2,
-      "changePercent": 0.28,
+      "price": 665.06,
+      "changePercent": 0.11,
       "unit": "USD",
-      "asOf": "2026-08-05T14:45:02-04:00",
+      "asOf": "2026-08-05T17:57:47-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,319 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64265,
-      "changePercent": 0.9637538413319562,
+      "price": 64110,
+      "changePercent": 0.9132796150259869,
       "unit": "USD",
-      "asOf": "2026-08-05T06:43:50.000Z",
+      "asOf": "2026-08-05T09:57:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5c789c0660b479a5",
+      "category": "能源与航运",
+      "title": "SHBA dhe Irani pranë marrëveshjes për Hormuzin , në lojë edhe Omani , ja çfarë fshihet pas negociatave që mund të ... - Sot News",
+      "url": "https://sot.com.al/bota/shba-dhe-irani-prane-marreveshjes-per-hormuzin-ne-loje-edhe-omani-ja-cfare-fshihet-pas-negociatave-qe-mund-te/",
+      "source": "sot.com.al",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Albania"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://sot.com.al/bota/shba-dhe-irani-prane-marreveshjes-per-hormuzin-ne-loje-edhe-omani-ja-cfare-fshihet-pas-negociatave-qe-mund-te/"
+    },
+    {
+      "id": "e7a4f389cab26a42",
+      "category": "科技与产业",
+      "title": "1 , 791 Shares in VanEck Semiconductor ETF $SMH Bought by GK Wealth Management LLC",
+      "url": "https://www.dailypolitical.com/2026/08/05/1791-shares-in-vaneck-semiconductor-etf-smh-bought-by-gk-wealth-management-llc.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/08/05/1791-shares-in-vaneck-semiconductor-etf-smh-bought-by-gk-wealth-management-llc.html"
+    },
+    {
+      "id": "9e43b360310028af",
+      "category": "能源与航运",
+      "title": "Trump : Strait Of Hormuz Open Very Soon | NewsRadio 1170 WWVA",
+      "url": "https://newsradio1170.iheart.com/content/2026-08-05-trump-strait-of-hormuz-open-very-soon/",
+      "source": "newsradio1170.iheart.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newsradio1170.iheart.com/content/2026-08-05-trump-strait-of-hormuz-open-very-soon/"
+    },
+    {
+      "id": "80aa756f89952302",
+      "category": "能源与航运",
+      "title": "U . S . says Strait of Hormuz is free and open as Bessent signals deal with Iran is close",
+      "url": "https://www.cnbcafrica.com/2026/u-s-says-strait-of-hormuz-is-free-and-open-as-bessent-signals-deal-with-iran-is-close",
+      "source": "cnbcafrica.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cnbcafrica.com/2026/u-s-says-strait-of-hormuz-is-free-and-open-as-bessent-signals-deal-with-iran-is-close"
+    },
+    {
+      "id": "b0ca3c1d45a063c3",
+      "category": "能源与航运",
+      "title": "Sky Quarry Advances $50 Million Nevada Oil Development Program to Support ...",
+      "url": "https://www.pr-inside.com/sky-quarry-advances-50-million-nevada-oil-development-program-to-support-r5208585.htm",
+      "source": "pr-inside.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.pr-inside.com/sky-quarry-advances-50-million-nevada-oil-development-program-to-support-r5208585.htm"
+    },
+    {
+      "id": "ffb546c687f26537",
+      "category": "能源与航运",
+      "title": "How Namibia Pulled Ahead In Africa Hottest Offshore Oil Basin",
+      "url": "https://finance.yahoo.com/energy/articles/namibia-pulled-ahead-africa-hottest-000000066.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/namibia-pulled-ahead-africa-hottest-000000066.html"
+    },
+    {
+      "id": "d9b1de6902d95281",
+      "category": "能源与航运",
+      "title": "Dow Jones Top Energy Headlines at 4 AM ET : Abu Dhabi Adnoc Distribution Profit Nearly Doubles on Fuel Demand , Inventory Gains | Siemens ...",
+      "url": "https://www.morningstar.com/news/dow-jones/202608052343/dow-jones-top-energy-headlines-at-4-am-et-abu-dhabis-adnoc-distribution-profit-nearly-doubles-on-fuel-demand-inventory-gains-siemens",
+      "source": "morningstar.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.morningstar.com/news/dow-jones/202608052343/dow-jones-top-energy-headlines-at-4-am-et-abu-dhabis-adnoc-distribution-profit-nearly-doubles-on-fuel-demand-inventory-gains-siemens"
+    },
+    {
+      "id": "54f136e6791b68a6",
+      "category": "能源与航运",
+      "title": "Trump calls on US companies to lower gasoline prices , Oil Prices Down , NOW ! MercoPress",
+      "url": "https://en.mercopress.com/2026/08/05/trump-calls-on-us-companies-to-lower-gasoline-prices-oil-prices-down-now",
+      "source": "en.mercopress.com",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.mercopress.com/2026/08/05/trump-calls-on-us-companies-to-lower-gasoline-prices-oil-prices-down-now"
+    },
+    {
+      "id": "b975011256aa42cc",
+      "category": "金属与资源",
+      "title": "CWG 2026 silver medallist Raja Muthupandi urges Tamil Nadu govt to expand weightlifting infrastructure",
+      "url": "http://www.australiannews.net/news/279222982/cwg-2026-silver-medallist-raja-muthupandi-urges-tamil-nadu-govt-to-expand-weightlifting-infrastructure",
+      "source": "australiannews.net",
+      "publishedAt": "2026-08-05T09:30:00Z",
+      "fetchedAt": "2026-08-05T09:58:48.175Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.australiannews.net/news/279222982/cwg-2026-silver-medallist-raja-muthupandi-urges-tamil-nadu-govt-to-expand-weightlifting-infrastructure"
+    },
     {
       "id": "05108f8febf12afa",
       "category": "金属与资源",
@@ -1396,305 +1699,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.thegazette.com/news/world/us-stocks-rally-near-a-record-as-falling-oil-prices-ease-wall-streets-worries-about/article_3cab6e1b-8cc5-5d45-85be-dafe4e3906ea.html"
-    },
-    {
-      "id": "14839091bb4ca8d3",
-      "category": "全球与地区",
-      "title": "US states sue Trump administration over new tariffs on 60 trading partners",
-      "url": "https://www.theguardian.com/us-news/2026/aug/03/states-sue-trump-administration-tariffs",
-      "source": "theguardian.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theguardian.com/us-news/2026/aug/03/states-sue-trump-administration-tariffs"
-    },
-    {
-      "id": "8cc88cbd2394c68c",
-      "category": "能源与航运",
-      "title": "Down 38 % From Its High , Is Bloom Energy Stock a Buy ?",
-      "url": "https://www.fool.com/investing/2026/08/03/down-38-from-its-high-is-bloom-energy-stock-a-buy/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "publishedAt": "2026-08-03T23:00:00Z",
-      "fetchedAt": "2026-08-03T23:28:52.630Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/08/03/down-38-from-its-high-is-bloom-energy-stock-a-buy/?source=iedfolrf0000001"
-    },
-    {
-      "id": "122fe1085fd58acb",
-      "category": "金属与资源",
-      "title": "Uzbekistan invites Indian investment in mining , rare earths ; targets USD 2 bn trade with India next year",
-      "url": "http://www.vietnamtribune.com/news/279220582/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year",
-      "source": "vietnamtribune.com",
-      "publishedAt": "2026-08-03T11:15:00Z",
-      "fetchedAt": "2026-08-03T11:47:50.699Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.vietnamtribune.com/news/279220582/uzbekistan-invites-indian-investment-in-mining-rare-earths-targets-usd-2-bn-trade-with-india-next-year"
-    },
-    {
-      "id": "3d242fa0e59341b3",
-      "category": "能源与航运",
-      "title": "OPEC+ approves 188 , 000 barrels / day production increase for September",
-      "url": "http://www.trinidadtimes.com/news/279220590/opec-approves-188000-barrelsday-production-increase-for-september",
-      "source": "trinidadtimes.com",
-      "publishedAt": "2026-08-03T11:15:00Z",
-      "fetchedAt": "2026-08-03T11:47:50.699Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Trinidad and Tobago"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.trinidadtimes.com/news/279220590/opec-approves-188000-barrelsday-production-increase-for-september"
-    },
-    {
-      "id": "389cae5523efd4e5",
-      "category": "金属与资源",
-      "title": "【 見極め必須 】 Gold . Marketの怪しい特徴を見破るポイント - 覚醒ハンドブック",
-      "url": "https://blog.udn.com:443/2518d4e5/191841028",
-      "source": "blog.udn.com",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://blog.udn.com:443/2518d4e5/191841028"
-    },
-    {
-      "id": "d95277ffc2d9a6f8",
-      "category": "能源与航运",
-      "title": "Bonga SW Tax Incentive : Unlocking Nigeria Stranded Oil",
-      "url": "https://punchng.com/100-of-zero-nlng-and-the-bonga-sw-tax-incentive/",
-      "source": "punchng.com",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://punchng.com/100-of-zero-nlng-and-the-bonga-sw-tax-incentive/"
-    },
-    {
-      "id": "1a3acfcbfe6e9a86",
-      "category": "能源与航运",
-      "title": "Column : Will the Iran war deliver the final blow to OPEC ?",
-      "url": "https://www.dailypress.com/2026/08/02/column-will-the-iran-war-deliver-the-final-blow-to-opec/",
-      "source": "dailypress.com",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypress.com/2026/08/02/column-will-the-iran-war-deliver-the-final-blow-to-opec/"
-    },
-    {
-      "id": "0689286c4d9a7ae4",
-      "category": "能源与航运",
-      "title": "Pakistan oil security gap laid bare",
-      "url": "https://tribune.com.pk/story/2621738/pakistans-oil-security-gap-laid-bare-1",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2621738/pakistans-oil-security-gap-laid-bare-1"
-    },
-    {
-      "id": "9b910793576c5134",
-      "category": "金属与资源",
-      "title": "Commonwealth Games quick hits : Delta Goodrem stuns with closing ceremony performance , 76yo Louise Hoskins claims gold - 03 - Aug - 2026",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451217",
-      "source": "home.nzcity.co.nz",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "fetchedAt": "2026-08-03T00:17:03.425Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=451217"
     }
   ]
 }
