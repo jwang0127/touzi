@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-07T22:56:57.736Z",
-  "newsUpdatedAt": "2026-08-07T21:57:41.475Z",
-  "assetsUpdatedAt": "2026-08-07T22:56:57.736Z",
+  "generatedAt": "2026-08-07T23:49:59.154Z",
+  "newsUpdatedAt": "2026-08-07T23:49:59.154Z",
+  "assetsUpdatedAt": "2026-08-07T23:49:59.154Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64856,
-      "changePercent": 0.8558270749025454,
+      "price": 64870,
+      "changePercent": 1.0661105450727772,
       "unit": "USD",
-      "asOf": "2026-08-07T22:55:40.000Z",
+      "asOf": "2026-08-07T23:48:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +138,13 @@
   ],
   "news": [
     {
-      "id": "e348da87ce4c9db9",
+      "id": "71ed658a796cef9b",
       "category": "全球与地区",
-      "title": "Senate Passes Bill On Russia Sanctions",
-      "url": "https://wccfradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "source": "wccfradio.iheart.com",
-      "publishedAt": "2026-08-07T21:30:00Z",
-      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "title": "Senate Passes Bill On Russia Sanctions | PowerTalk 1460 AM & 101 . 1 FM",
+      "url": "https://powertalk1460.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "source": "powertalk1460.iheart.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -165,7 +163,371 @@
       "impact": "偏负面",
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wccfradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
+      "provenanceUrl": "https://powertalk1460.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
+    },
+    {
+      "id": "715c2b1b0dc8b521",
+      "category": "金属与资源",
+      "title": "NevGold Announces Change of Auditor and Continuance to British Columbia",
+      "url": "https://montrealgazette.com/press-releases/globe-newswire/nevgold-announces-change-of-auditor-and-continuance-to-british-columbia/",
+      "source": "montrealgazette.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://montrealgazette.com/press-releases/globe-newswire/nevgold-announces-change-of-auditor-and-continuance-to-british-columbia/"
+    },
+    {
+      "id": "f4fb9a2ef4b7b4f3",
+      "category": "全球与地区",
+      "title": "US Senate passes Lindsey Grahams Russia sanctions bill",
+      "url": "http://www.iranherald.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill",
+      "source": "iranherald.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iranherald.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill"
+    },
+    {
+      "id": "2afa0697fb5e9484",
+      "category": "全球与地区",
+      "title": "Senate Passes Bill On Russia Sanctions",
+      "url": "https://720thevoice.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "source": "720thevoice.iheart.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://720thevoice.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
+    },
+    {
+      "id": "83e1c9e4e6abe6cc",
+      "category": "全球与地区",
+      "title": "Senate Passes Bill On Russia Sanctions | Newsradio WOOD 1300 and 106 . 9 FM",
+      "url": "https://woodradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "source": "woodradio.iheart.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://woodradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
+    },
+    {
+      "id": "e567c36ff639baf9",
+      "category": "金属与资源",
+      "title": "Pecco Bagnaia core problem remains at Silverstone MotoGP",
+      "url": "https://www.crash.net/motogp/news/1102218/1/pecco-bagnaias-core-problem-remains-silverstone-motogp",
+      "source": "crash.net",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.crash.net/motogp/news/1102218/1/pecco-bagnaias-core-problem-remains-silverstone-motogp"
+    },
+    {
+      "id": "7af89f2030e7534e",
+      "category": "全球与地区",
+      "title": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
+      "url": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
+      "source": "iranherald.com",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks"
+    },
+    {
+      "id": "065c7e234f4fd5df",
+      "category": "金属与资源",
+      "title": "The fate of Silverstone unusual MotoGP win stat rests in Aprilia hands",
+      "url": "https://www.crash.net/motogp/feature/1102220/1/fate-silverstones-unusual-motogp-win-stat-rests-aprilias-hands",
+      "source": "crash.net",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.crash.net/motogp/feature/1102220/1/fate-silverstones-unusual-motogp-win-stat-rests-aprilias-hands"
+    },
+    {
+      "id": "97b2258df9509cc1",
+      "category": "能源与航运",
+      "title": "Merchant vessel catches fire after attack near Strait of Hormuz - Xinhua",
+      "url": "https://english.news.cn/20260808/27662208033141649fbe823125f32461/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260808/27662208033141649fbe823125f32461/c.html"
+    },
+    {
+      "id": "1d3dcaa57c69987e",
+      "category": "全球与地区",
+      "title": "UN envoy warns Yemen at growing risk of large - scale conflict amid Houthi attacks - Xinhua",
+      "url": "https://english.news.cn/20260808/4bd489063086433f8e304e7a2849c5c6/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260808/4bd489063086433f8e304e7a2849c5c6/c.html"
+    },
+    {
+      "id": "932528ddf93d7839",
+      "category": "科技与产业",
+      "title": "Robot , IA e farmaci innovativi trainano lexport della Cina - il Fatto Nisseno - Caltanissetta notizie , cronaca , attualità",
+      "url": "https://www.ilfattonisseno.it/2026/08/robot-ia-e-farmaci-innovativi-trainano-lexport-della-cina/",
+      "source": "ilfattonisseno.it",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ilfattonisseno.it/2026/08/robot-ia-e-farmaci-innovativi-trainano-lexport-della-cina/"
+    },
+    {
+      "id": "abc2d7a58d321c81",
+      "category": "全球与地区",
+      "title": "UN envoy warns Yemen faces greater risk of renewed large - scale conflict since 2022 truce",
+      "url": "https://aa.com.tr/en/middle-east/un-envoy-warns-yemen-faces-greater-risk-of-renewed-large-scale-conflict-since-2022-truce/4021553",
+      "source": "aa.com.tr",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Turkey"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aa.com.tr/en/middle-east/un-envoy-warns-yemen-faces-greater-risk-of-renewed-large-scale-conflict-since-2022-truce/4021553"
+    },
+    {
+      "id": "b6ff6de455b13f5a",
+      "category": "数字资产",
+      "title": "Ethereum Prognose August 2026 , warum der ETH Kurs dreimal an derselben Marke gescheitert ist",
+      "url": "https://www.wallstreet-online.de/nachricht/21218100-ethereum-prognose-august-2026-eth-kurs-dreimal-marke-gescheitert",
+      "source": "wallstreet-online.de",
+      "publishedAt": "2026-08-07T23:30:00Z",
+      "fetchedAt": "2026-08-07T23:49:59.154Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wallstreet-online.de/nachricht/21218100-ethereum-prognose-august-2026-eth-kurs-dreimal-marke-gescheitert"
     },
     {
       "id": "b0c9707279fee9bf",
@@ -1304,382 +1666,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69244735-iraempire-llc-how-to-move-401k-to-gold-ira-2026-gold-ira-rollover-guide-released-200.htm"
-    },
-    {
-      "id": "fc87b84580ed005a",
-      "category": "能源与航运",
-      "title": "Floating wind power platform feeds green energy to offshore oilfield -- China Economic Net",
-      "url": "http://en.ce.cn/main/latest/202608/t20260807_3134247.shtml",
-      "source": "en.ce.cn",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://en.ce.cn/main/latest/202608/t20260807_3134247.shtml"
-    },
-    {
-      "id": "2fc444d0baad41b7",
-      "category": "科技与产业",
-      "title": "Stanford researchers create viruses not found in nature using genomes designed by artificial intelligence - 07 - Aug - 2026",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451520",
-      "source": "home.nzcity.co.nz",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=451520"
-    },
-    {
-      "id": "e077abf745aa3647",
-      "category": "科技与产业",
-      "title": "Ono Pharma Enters into a Drug Discovery Partnership with Mediar Therapeutics to Create Novel Antibody Therapeutics ... - Pharma / BioTech / Nutrition - ONO Pharmaceutical Co ., Ltd",
-      "url": "https://www.newswiretoday.com/news/186646/Ono-Pharma-Enters-into-a-Drug-Discovery-Partnership-with-Mediar-Therapeutics-to-Create-Novel-Antibody-Therapeutics-for-Fibro-inflammatory-Diseases/",
-      "source": "newswiretoday.com",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newswiretoday.com/news/186646/Ono-Pharma-Enters-into-a-Drug-Discovery-Partnership-with-Mediar-Therapeutics-to-Create-Novel-Antibody-Therapeutics-for-Fibro-inflammatory-Diseases/"
-    },
-    {
-      "id": "aa6e5e1af26ca893",
-      "category": "能源与航运",
-      "title": "Lukijoilta | Pitkäjänteisyyden ja ennakoitavuuden on ohjattava veropolitiikkaa",
-      "url": "https://www.ts.fi/a/7050920",
-      "source": "ts.fi",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Finland"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ts.fi/a/7050920"
-    },
-    {
-      "id": "91c9f52245d7d698",
-      "category": "全球与地区",
-      "title": "Carney says Canada backs ICC but stays mum on Trump - sanctioned Canadian judge",
-      "url": "https://www.stcatharinesstandard.ca/news/canada/carney-says-canada-backs-icc-but-stays-mum-on-trump-sanctioned-canadian-judge/article_46f5d8e8-26b2-57e2-b8c6-f8d0af25e21b.html",
-      "source": "stcatharinesstandard.ca",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.stcatharinesstandard.ca/news/canada/carney-says-canada-backs-icc-but-stays-mum-on-trump-sanctioned-canadian-judge/article_46f5d8e8-26b2-57e2-b8c6-f8d0af25e21b.html"
-    },
-    {
-      "id": "1a38dba35716969f",
-      "category": "能源与航运",
-      "title": "Oil sands MOU hasnt changed Suncor spending plans , CEO says",
-      "url": "https://www.theglobeandmail.com/business/article-suncor-ceo-rich-kruger-oil-sands-mou-spending-plans/",
-      "source": "theglobeandmail.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theglobeandmail.com/business/article-suncor-ceo-rich-kruger-oil-sands-mou-spending-plans/"
-    },
-    {
-      "id": "4ec4ba8701939e42",
-      "category": "数字资产",
-      "title": "В магазинах Duty Free в Дубае заработала оплата через Crypto . com Pay Новости « Серебряного Дождя »",
-      "url": "https://silver.ru/news/v-magazinakh-duty-free-v-dubae-zarabotala-oplata-cherez-crypto-com-pay/",
-      "source": "silver.ru",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Russia"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://silver.ru/news/v-magazinakh-duty-free-v-dubae-zarabotala-oplata-cherez-crypto-com-pay/"
-    },
-    {
-      "id": "142d4a1f50e8678f",
-      "category": "能源与航运",
-      "title": "Helleniq Energy Holdings S . A . Annouces 2Q / 1H 26 Fin . Results",
-      "url": "http://www.newjerseytelegraph.com/news/279223989/helleniq-energy-holdings-sa-annouces-2q1h-26-fin-results",
-      "source": "newjerseytelegraph.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279223989/helleniq-energy-holdings-sa-annouces-2q1h-26-fin-results"
-    },
-    {
-      "id": "0f2e4c8d94df6f09",
-      "category": "能源与航运",
-      "title": "Solaris Energy Infrastructure ( NYSE : SEI ) Reports Upbeat Q2 CY2026",
-      "url": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-nyse-sei-202353671.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-nyse-sei-202353671.html"
-    },
-    {
-      "id": "d9bc51c021252979",
-      "category": "金属与资源",
-      "title": "Fortitude Gold Declares August 2026 Monthly Dividend",
-      "url": "http://www.newjerseytelegraph.com/news/279224005/fortitude-gold-declares-august-2026-monthly-dividend",
-      "source": "newjerseytelegraph.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279224005/fortitude-gold-declares-august-2026-monthly-dividend"
-    },
-    {
-      "id": "ea4680e7124846de",
-      "category": "数字资产",
-      "title": "FBI agent accused of stealing nearly $1 million in cryptocurrency",
-      "url": "https://www.turnto23.com/us-news/crime/fbi-agent-accused-of-stealing-nearly-1-million-in-cryptocurrency",
-      "source": "turnto23.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.turnto23.com/us-news/crime/fbi-agent-accused-of-stealing-nearly-1-million-in-cryptocurrency"
-    },
-    {
-      "id": "8ff24e1b06b64871",
-      "category": "能源与航运",
-      "title": "Kosmos Energy Ltd . Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-ltd-q2-2026-123000508.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-ltd-q2-2026-123000508.html"
     }
   ]
 }
