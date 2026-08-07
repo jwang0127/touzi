@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-07T16:10:41.738Z",
-  "newsUpdatedAt": "2026-08-07T16:10:41.738Z",
-  "assetsUpdatedAt": "2026-08-07T16:10:41.738Z",
+  "generatedAt": "2026-08-07T17:10:51.833Z",
+  "newsUpdatedAt": "2026-08-07T17:10:51.833Z",
+  "assetsUpdatedAt": "2026-08-07T17:10:51.833Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53986.71,
-      "changePercent": 0.19,
+      "price": 53980.26,
+      "changePercent": 0.18,
       "unit": "USD",
-      "asOf": "2026-08-07T12:12:00-04:00",
+      "asOf": "2026-08-07T13:11:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26681.02,
-      "changePercent": 1.26,
+      "price": 26608.96,
+      "changePercent": 0.99,
       "unit": "USD",
-      "asOf": "2026-08-07T12:12:00-04:00",
+      "asOf": "2026-08-07T13:11:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7757.19,
-      "changePercent": 0.61,
+      "price": 7746.55,
+      "changePercent": 0.47,
       "unit": "USD",
-      "asOf": "2026-08-07T12:12:00-04:00",
+      "asOf": "2026-08-07T13:11:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4408.63,
-      "changePercent": 2.54,
+      "price": 4399.63,
+      "changePercent": 2.33,
       "unit": "USD",
-      "asOf": "2026-08-08T00:12:00-04:00",
+      "asOf": "2026-08-08T01:11:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 78.27,
-      "changePercent": 1.27,
+      "price": 78.12,
+      "changePercent": 1.08,
       "unit": "USD",
-      "asOf": "2026-08-08T00:12:04-04:00",
+      "asOf": "2026-08-08T01:11:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.14,
-      "changePercent": -1.6,
+      "price": 659.02,
+      "changePercent": -1.77,
       "unit": "USD",
-      "asOf": "2026-08-08T00:12:05-04:00",
+      "asOf": "2026-08-08T01:11:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,147 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64966,
-      "changePercent": 0.49438420942008116,
+      "price": 64738,
+      "changePercent": 0.07741365767323219,
       "unit": "USD",
-      "asOf": "2026-08-07T16:10:30.000Z",
+      "asOf": "2026-08-07T17:10:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "8ab0347e413c1187",
+      "category": "数字资产",
+      "title": "FriendsGroove Relaunches as a Human - First Social Network for Music - No Algorithm , No Crypto , No AI - Generated Songs",
+      "url": "http://www.newjerseytelegraph.com/news/279226373/friendsgroove-relaunches-as-a-human-first-social-network-for-music-no-algorithm-no-crypto-no-ai-generated-songs",
+      "source": "newjerseytelegraph.com",
+      "publishedAt": "2026-08-07T16:45:00Z",
+      "fetchedAt": "2026-08-07T17:10:51.833Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279226373/friendsgroove-relaunches-as-a-human-first-social-network-for-music-no-algorithm-no-crypto-no-ai-generated-songs"
+    },
+    {
+      "id": "7df8d920f3c16d84",
+      "category": "金属与资源",
+      "title": "Schmeckt Frau Floß ? Em Golde Kappes – Kölscher wird es kaum",
+      "url": "https://www.ksta.de:443/freizeit/geniessen/schmeckt-s-frau-floss-em-golde-kappes-koelscher-wird-es-kaum-1343673",
+      "source": "ksta.de",
+      "publishedAt": "2026-08-07T16:45:00Z",
+      "fetchedAt": "2026-08-07T17:10:51.833Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ksta.de:443/freizeit/geniessen/schmeckt-s-frau-floss-em-golde-kappes-koelscher-wird-es-kaum-1343673"
+    },
+    {
+      "id": "2778cc540f26614e",
+      "category": "能源与航运",
+      "title": "Strait of Hormuz framework agreed with Oman , says Iranian official amid US - Iran war : When will it completely reopen ?",
+      "url": "https://www.livemint.com/news/world/strait-of-hormuz-framework-agreed-with-oman-says-iranian-official-amid-us-iran-war-what-happens-next-explained-11786107247400.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-07T16:45:00Z",
+      "fetchedAt": "2026-08-07T17:10:51.833Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/world/strait-of-hormuz-framework-agreed-with-oman-says-iranian-official-amid-us-iran-war-what-happens-next-explained-11786107247400.html"
+    },
+    {
+      "id": "34bac8b589d23ad3",
+      "category": "能源与航运",
+      "title": "10 ways oregano oil could benefit your health",
+      "url": "https://www.dailyfreeman.com/2026/08/07/10-ways-oregano-oil-could-benefit-your-health/",
+      "source": "dailyfreeman.com",
+      "publishedAt": "2026-08-07T16:45:00Z",
+      "fetchedAt": "2026-08-07T17:10:51.833Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailyfreeman.com/2026/08/07/10-ways-oregano-oil-could-benefit-your-health/"
+    },
     {
       "id": "84325540c57e0bde",
       "category": "能源与航运",
@@ -1558,141 +1687,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://news.az/news/houthis-claim-strike-on-saudi-oil-vessel-near-gulf-of-aden"
-    },
-    {
-      "id": "3a312c29808130ae",
-      "category": "能源与航运",
-      "title": "Hormuz Crisis Is Rewriting the Global LPG Trade",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Crisis-Is-Rewriting-the-Global-LPG-Trade.html",
-      "source": "oilprice.com",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Crisis-Is-Rewriting-the-Global-LPG-Trade.html"
-    },
-    {
-      "id": "07522e217ad126e3",
-      "category": "能源与航运",
-      "title": "Insider Buying : Tourmaline Oil ( TSE : TOU ) Insider Buys C$300 , 000 . 00 in Stock",
-      "url": "https://www.dailypolitical.com/2026/08/05/insider-buying-tourmaline-oil-tsetou-insider-buys-c300000-00-in-stock.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/08/05/insider-buying-tourmaline-oil-tsetou-insider-buys-c300000-00-in-stock.html"
-    },
-    {
-      "id": "e181cd8597578d75",
-      "category": "金属与资源",
-      "title": "Gold & Silver Prices Surge in India ; Sona Chandi Ka Bhav Update",
-      "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-india-latest-update-2026-138641495.html",
-      "source": "divyabhaskar.co.in",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-hike-india-latest-update-2026-138641495.html"
-    },
-    {
-      "id": "66fee0b643485a84",
-      "category": "能源与航运",
-      "title": "Iran and Oman reach preliminary deal on future Strait of Hormuz transit",
-      "url": "https://news.az/news/iran-and-oman-reach-preliminary-deal-on-future-strait-of-hormuz-transit",
-      "source": "news.az",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.az/news/iran-and-oman-reach-preliminary-deal-on-future-strait-of-hormuz-transit"
     }
   ]
 }
