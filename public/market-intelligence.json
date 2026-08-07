@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-07T21:02:22.578Z",
-  "newsUpdatedAt": "2026-08-07T17:10:51.833Z",
-  "assetsUpdatedAt": "2026-08-07T21:02:22.578Z",
+  "generatedAt": "2026-08-07T21:57:41.475Z",
+  "newsUpdatedAt": "2026-08-07T21:57:41.475Z",
+  "assetsUpdatedAt": "2026-08-07T21:57:41.475Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -77,7 +75,7 @@
       "price": 26690.62,
       "changePercent": 1.3,
       "unit": "USD",
-      "asOf": "2026-08-07T17:02:30-04:00",
+      "asOf": "2026-08-07T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,168 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64933,
-      "changePercent": 0.824956285173921,
+      "price": 64914,
+      "changePercent": 0.8045761671438122,
       "unit": "USD",
-      "asOf": "2026-08-07T21:00:40.000Z",
+      "asOf": "2026-08-07T21:56:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e348da87ce4c9db9",
+      "category": "全球与地区",
+      "title": "Senate Passes Bill On Russia Sanctions",
+      "url": "https://wccfradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "source": "wccfradio.iheart.com",
+      "publishedAt": "2026-08-07T21:30:00Z",
+      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wccfradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
+    },
+    {
+      "id": "b0c9707279fee9bf",
+      "category": "金属与资源",
+      "title": "Marvel Gold 76 Writer Stephanie Phillips Teases Bullseye Wildest Job Yet in New Anniversary Adventure [ EXCLUSIVE ]",
+      "url": "https://comicbook.com/comics/news/marvel-gold-76-writer-stephanie-phillips-teases-bullseyes-wildest-job-yet-in-new-anniversary-adventure-exclusive/",
+      "source": "comicbook.com",
+      "publishedAt": "2026-08-07T21:30:00Z",
+      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://comicbook.com/comics/news/marvel-gold-76-writer-stephanie-phillips-teases-bullseyes-wildest-job-yet-in-new-anniversary-adventure-exclusive/"
+    },
+    {
+      "id": "2a5b64da1621a931",
+      "category": "全球与地区",
+      "title": "US Senate passes sweeping Russia sanctions bill",
+      "url": "https://www.bssnews.net/international/412667",
+      "source": "bssnews.net",
+      "publishedAt": "2026-08-07T21:30:00Z",
+      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Bangladesh"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bssnews.net/international/412667"
+    },
+    {
+      "id": "ce148db0fc77f17c",
+      "category": "金属与资源",
+      "title": "Hercules Metals Corp .: Hercules Metals Grants Stock Options",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69254831-hercules-metals-corp-hercules-metals-grants-stock-options-296.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-07T21:30:00Z",
+      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69254831-hercules-metals-corp-hercules-metals-grants-stock-options-296.htm"
+    },
+    {
+      "id": "5a97fd9b17fe3f9d",
+      "category": "全球与地区",
+      "title": "Senate passes Russia sanctions bill that was long championed by Lindsey Graham",
+      "url": "https://www.wvtf.org/2026-08-07/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+      "source": "wvtf.org",
+      "publishedAt": "2026-08-07T21:30:00Z",
+      "fetchedAt": "2026-08-07T21:57:41.475Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wvtf.org/2026-08-07/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham"
+    },
     {
       "id": "8ab0347e413c1187",
       "category": "数字资产",
@@ -1528,167 +1678,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-ltd-q2-2026-123000508.html"
-    },
-    {
-      "id": "039205bfb73494fa",
-      "category": "能源与航运",
-      "title": "Ethanol20 brings long - term energy gains",
-      "url": "https://www.tribuneindia.com/news/comment/ethanol20-brings-long-term-energy-gains/",
-      "source": "tribuneindia.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tribuneindia.com/news/comment/ethanol20-brings-long-term-energy-gains/"
-    },
-    {
-      "id": "cd8747824a0c6107",
-      "category": "金属与资源",
-      "title": "BCE in a RRIF , gold ETFs , geographic asset allocation , and more of your questions",
-      "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-pape-questions-rrif-gold-etfs-geographic-assets/",
-      "source": "theglobeandmail.com",
-      "publishedAt": "2026-08-05T21:00:00Z",
-      "fetchedAt": "2026-08-05T21:35:47.485Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-pape-questions-rrif-gold-etfs-geographic-assets/"
-    },
-    {
-      "id": "8c7bcc5773d779fd",
-      "category": "全球与地区",
-      "title": "Iran , Oman agree on new Strait of Hormuz shipping corridor",
-      "url": "https://www.albawaba.net/news/iran-oman-agree-new-strait-hormuz-1634504",
-      "source": "albawaba.net",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.albawaba.net/news/iran-oman-agree-new-strait-hormuz-1634504"
-    },
-    {
-      "id": "83b08ae750b84034",
-      "category": "全球与地区",
-      "title": "50 से ज्यादा देश , 3 महाद्वीप और हथियारों का जखीरा ... क्या ये तृतीय विश्व युद्ध की आहट है ? - is this world war 3 global conflicts interconnected wars",
-      "url": "https://www.jagran.com/news/national-is-this-world-war-3-global-conflicts-interconnected-wars-40330987.html",
-      "source": "jagran.com",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jagran.com/news/national-is-this-world-war-3-global-conflicts-interconnected-wars-40330987.html"
-    },
-    {
-      "id": "c363d976a188c009",
-      "category": "能源与航运",
-      "title": "Houthis claim strike on Saudi oil vessel near Gulf of Aden",
-      "url": "https://news.az/news/houthis-claim-strike-on-saudi-oil-vessel-near-gulf-of-aden",
-      "source": "news.az",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.az/news/houthis-claim-strike-on-saudi-oil-vessel-near-gulf-of-aden"
     }
   ]
 }
