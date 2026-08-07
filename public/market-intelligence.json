@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-07T15:11:09.652Z",
-  "newsUpdatedAt": "2026-08-07T11:59:43.333Z",
-  "assetsUpdatedAt": "2026-08-07T15:11:09.652Z",
+  "generatedAt": "2026-08-07T16:10:41.738Z",
+  "newsUpdatedAt": "2026-08-07T16:10:41.738Z",
+  "assetsUpdatedAt": "2026-08-07T16:10:41.738Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 54036.05,
-      "changePercent": 0.28,
+      "price": 53986.71,
+      "changePercent": 0.19,
       "unit": "USD",
-      "asOf": "2026-08-07T11:12:00-04:00",
+      "asOf": "2026-08-07T12:12:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26643.41,
-      "changePercent": 1.12,
+      "price": 26681.02,
+      "changePercent": 1.26,
       "unit": "USD",
-      "asOf": "2026-08-07T11:12:00-04:00",
+      "asOf": "2026-08-07T12:12:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7753.64,
-      "changePercent": 0.57,
+      "price": 7757.19,
+      "changePercent": 0.61,
       "unit": "USD",
-      "asOf": "2026-08-07T11:12:00-04:00",
+      "asOf": "2026-08-07T12:12:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4413.31,
-      "changePercent": 2.64,
+      "price": 4408.63,
+      "changePercent": 2.54,
       "unit": "USD",
-      "asOf": "2026-08-07T23:11:02-04:00",
+      "asOf": "2026-08-08T00:12:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 78.2,
-      "changePercent": 1.18,
+      "price": 78.27,
+      "changePercent": 1.27,
       "unit": "USD",
-      "asOf": "2026-08-07T23:11:01-04:00",
+      "asOf": "2026-08-08T00:12:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.8,
-      "changePercent": -1.51,
+      "price": 660.14,
+      "changePercent": -1.6,
       "unit": "USD",
-      "asOf": "2026-08-07T23:11:00-04:00",
+      "asOf": "2026-08-08T00:12:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,111 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64943,
-      "changePercent": 0.10115060756282304,
+      "price": 64966,
+      "changePercent": 0.49438420942008116,
       "unit": "USD",
-      "asOf": "2026-08-07T15:10:10.000Z",
+      "asOf": "2026-08-07T16:10:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "84325540c57e0bde",
+      "category": "能源与航运",
+      "title": "London - listed Genel Energy rejects £202m takeover bid",
+      "url": "https://www.dailymail.com/money/markets/article-16036145/London-listed-Genel-Energy-rejects-202m-takeover-bid-Norwegian-rival-DNO.html",
+      "source": "dailymail.com",
+      "publishedAt": "2026-08-07T15:45:00Z",
+      "fetchedAt": "2026-08-07T16:10:41.738Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailymail.com/money/markets/article-16036145/London-listed-Genel-Energy-rejects-202m-takeover-bid-Norwegian-rival-DNO.html"
+    },
+    {
+      "id": "db53e3aada95e18d",
+      "category": "金属与资源",
+      "title": "B2Gold Granted Fekola Regional Exploitation Permit by the State of Mali",
+      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/b2gold-granted-fekola-regional-exploitation-permit-by-the-state-of-mali/2401134",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-08-07T15:45:00Z",
+      "fetchedAt": "2026-08-07T16:10:41.738Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/b2gold-granted-fekola-regional-exploitation-permit-by-the-state-of-mali/2401134"
+    },
+    {
+      "id": "5b14f6666d1627ec",
+      "category": "全球与地区",
+      "title": "DPA : Exporturile Chinei au crescut în iulie , în ciuda tensiunilor geopolitice",
+      "url": "https://www.bursa.ro/dpa-exporturile-chinei-au-crescut-in-iulie-in-ciuda-tensiunilor-geopolitice-07518955",
+      "source": "bursa.ro",
+      "publishedAt": "2026-08-07T15:45:00Z",
+      "fetchedAt": "2026-08-07T16:10:41.738Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bursa.ro/dpa-exporturile-chinei-au-crescut-in-iulie-in-ciuda-tensiunilor-geopolitice-07518955"
+    },
     {
       "id": "849dc9ddd0d3c5e1",
       "category": "能源与航运",
@@ -1598,103 +1693,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://news.az/news/iran-and-oman-reach-preliminary-deal-on-future-strait-of-hormuz-transit"
-    },
-    {
-      "id": "13a3bf0921b6703a",
-      "category": "全球与地区",
-      "title": "Vaibhav Global Ltd ( BOM : 532156 ) ( Q1 2027 ) Earnings Call Highlights : Digital Growth and Tariff ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vaibhav-global-ltd-bom-532156-190437967.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/vaibhav-global-ltd-bom-532156-190437967.html"
-    },
-    {
-      "id": "30f91d2da7151a6b",
-      "category": "能源与航运",
-      "title": "Iran - Oman Hormuz Deal Final Stages",
-      "url": "https://www.newkerala.com/news/a/hormuz-deal-oman-final-stages-iran-425.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-08-05T19:30:00Z",
-      "fetchedAt": "2026-08-05T19:57:38.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/hormuz-deal-oman-final-stages-iran-425.htm"
-    },
-    {
-      "id": "5c789c0660b479a5",
-      "category": "能源与航运",
-      "title": "SHBA dhe Irani pranë marrëveshjes për Hormuzin , në lojë edhe Omani , ja çfarë fshihet pas negociatave që mund të ... - Sot News",
-      "url": "https://sot.com.al/bota/shba-dhe-irani-prane-marreveshjes-per-hormuzin-ne-loje-edhe-omani-ja-cfare-fshihet-pas-negociatave-qe-mund-te/",
-      "source": "sot.com.al",
-      "publishedAt": "2026-08-05T09:30:00Z",
-      "fetchedAt": "2026-08-05T09:58:48.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Albania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://sot.com.al/bota/shba-dhe-irani-prane-marreveshjes-per-hormuzin-ne-loje-edhe-omani-ja-cfare-fshihet-pas-negociatave-qe-mund-te/"
     }
   ]
 }
