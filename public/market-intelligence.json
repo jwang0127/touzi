@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T05:59:13.964Z",
-  "newsUpdatedAt": "2026-08-07T23:49:59.154Z",
-  "assetsUpdatedAt": "2026-08-08T05:59:13.964Z",
+  "generatedAt": "2026-08-08T07:17:58.768Z",
+  "newsUpdatedAt": "2026-08-08T07:17:58.768Z",
+  "assetsUpdatedAt": "2026-08-08T07:17:58.768Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,404 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64951,
-      "changePercent": 1.0050412333889442,
+      "price": 64958,
+      "changePercent": 1.0314736679170342,
       "unit": "USD",
-      "asOf": "2026-08-08T05:58:10.000Z",
+      "asOf": "2026-08-08T07:16:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "dbb0eb451e29bfda",
+      "category": "能源与航运",
+      "title": "Breakthrough possible on Strait of Hormuz as Iran finalizes deal",
+      "url": "http://www.sydneysun.com/news/279225268/iran-nears-strait-of-hormuz-deal-as-trump-signals-announcement",
+      "source": "sydneysun.com",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.sydneysun.com/news/279225268/iran-nears-strait-of-hormuz-deal-as-trump-signals-announcement"
+    },
+    {
+      "id": "258aecc7f9f826c7",
+      "category": "科技与产业",
+      "title": "8月12日见 ！ 荣耀Robot Phone首发钛合金云台架构 / 电机 ： 最大转速360° / 秒",
+      "url": "https://www.chinaz.com/2026/0808/1769867.shtml",
+      "source": "chinaz.com",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chinaz.com/2026/0808/1769867.shtml"
+    },
+    {
+      "id": "4e37fcf0ae4dbead",
+      "category": "能源与航运",
+      "title": "US expects Iran - Oman talks to soon reopen Strait of Hormuz : Report",
+      "url": "http://www.bignewsnetwork.com/news/279227127/us-expects-iran-oman-talks-to-soon-reopen-strait-of-hormuz-report",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279227127/us-expects-iran-oman-talks-to-soon-reopen-strait-of-hormuz-report"
+    },
+    {
+      "id": "f2271fa421388587",
+      "category": "科技与产业",
+      "title": "Gigafactory Berlin : Tesla - Mitarbeiter trainieren Optimus - Roboter",
+      "url": "https://www.autobild.de/artikel/tesla-optimus-training-gigafactory-berlin-28712743.html",
+      "source": "autobild.de",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.autobild.de/artikel/tesla-optimus-training-gigafactory-berlin-28712743.html"
+    },
+    {
+      "id": "e6d76ae181c78414",
+      "category": "金属与资源",
+      "title": "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
+      "url": "http://www.mexicostar.com/news/279227124/metaoptics-sharpens-focus-on-metalens-commercialisation-withdraws-nasdaq-listing-application-and-defers-us-dual-listing-plan",
+      "source": "mexicostar.com",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Mexico"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.mexicostar.com/news/279227124/metaoptics-sharpens-focus-on-metalens-commercialisation-withdraws-nasdaq-listing-application-and-defers-us-dual-listing-plan"
+    },
+    {
+      "id": "46467de5af5b431c",
+      "category": "金属与资源",
+      "title": "Ashish Yadav Wins Silver at World U20 Championships - Pragativadi I Latest Odisha News in English I Breaking News",
+      "url": "https://pragativadi.com/ashish-yadav-wins-u20-worlds-silver-in-javelin-10-years-after-chopras-gold/",
+      "source": "pragativadi.com",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pragativadi.com/ashish-yadav-wins-u20-worlds-silver-in-javelin-10-years-after-chopras-gold/"
+    },
+    {
+      "id": "9c6d4a9bcda3d1c7",
+      "category": "金属与资源",
+      "title": "IRW - News : SAGA Metals Corp .: SAGA Metals gibt die Fortsetzung der Aktienanalyse durch die Alphabridge Group mit einem Outperform - Rating bekannt",
+      "url": "https://www.onvista.de/news/2026/08-08-irw-news-saga-metals-corp-saga-metals-gibt-die-fortsetzung-der-aktienanalyse-durch-die-alphabridge-group-mit-einem-outperform-rating-bekannt-0-10-26541043",
+      "source": "onvista.de",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.onvista.de/news/2026/08-08-irw-news-saga-metals-corp-saga-metals-gibt-die-fortsetzung-der-aktienanalyse-durch-die-alphabridge-group-mit-einem-outperform-rating-bekannt-0-10-26541043"
+    },
+    {
+      "id": "d91306e1a61c9cee",
+      "category": "全球与地区",
+      "title": "Houthis strike as UN warns Yemen nearing wider conflict",
+      "url": "https://www.newcastleherald.com.au/story/9326370/houthis-strike-as-un-warns-yemen-nearing-wider-conflict/",
+      "source": "newcastleherald.com.au",
+      "publishedAt": "2026-08-08T06:45:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newcastleherald.com.au/story/9326370/houthis-strike-as-un-warns-yemen-nearing-wider-conflict/"
+    },
+    {
+      "id": "d06fa4b2defa2804",
+      "category": "全球与地区",
+      "title": "US Senate passes Russia sanctions bill with 100 % tariff on India , 4 others | Rediff - TV",
+      "url": "https://tv.rediff.com/news/us-senate-passes-russia-sanctions-bill-with-100-tariff-on-india-4-others/399042",
+      "source": "tv.rediff.com",
+      "publishedAt": "2026-08-08T06:30:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tv.rediff.com/news/us-senate-passes-russia-sanctions-bill-with-100-tariff-on-india-4-others/399042"
+    },
+    {
+      "id": "9822af609b51e93b",
+      "category": "金属与资源",
+      "title": "Gold prices jump 7 % to log best weekly gain in 8 months . Start of another yellow metal bull run ?",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-7-to-log-best-weekly-gain-in-8-months-start-of-another-yellow-metal-bull-run/articleshow/133046536.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-08T06:30:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-7-to-log-best-weekly-gain-in-8-months-start-of-another-yellow-metal-bull-run/articleshow/133046536.cms"
+    },
+    {
+      "id": "6f9bf8ec31da136a",
+      "category": "全球与地区",
+      "title": "Guerra de Ucrania , en DIRECTO | Última hora del conflicto y las negociaciones",
+      "url": "https://www.elperiodico.com/es/internacional/20260808/directo-guerra-ucrania-rusia-ultima-126605559",
+      "source": "elperiodico.com",
+      "publishedAt": "2026-08-08T06:30:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elperiodico.com/es/internacional/20260808/directo-guerra-ucrania-rusia-ultima-126605559"
+    },
+    {
+      "id": "fae2e3c66cac2b65",
+      "category": "金属与资源",
+      "title": "Metal Input Exports Forge Ahead",
+      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/08/satet-front/metal-input-exports-forge-ahead/articleshow/133042218.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-08T06:30:00Z",
+      "fetchedAt": "2026-08-08T07:17:58.768Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/08/satet-front/metal-input-exports-forge-ahead/articleshow/133042218.cms"
+    },
     {
       "id": "71ed658a796cef9b",
       "category": "全球与地区",
@@ -1272,402 +1658,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://autonews.gasgoo.com/articles/news/renesas-electronics-to-showcase-embodied-robotics-solutions-at-eai-show-2085603438078435329"
-    },
-    {
-      "id": "35b2a25dfffd7c76",
-      "category": "金属与资源",
-      "title": "Ariana Resources targets 2028 gold production from rare Zimbabwe greenfield mine",
-      "url": "https://www.miningweekly.com/article/ariana-resources-targets-2028-gold-production-from-rare-zimbabwe-greenfield-mine-2026-08-07",
-      "source": "miningweekly.com",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.miningweekly.com/article/ariana-resources-targets-2028-gold-production-from-rare-zimbabwe-greenfield-mine-2026-08-07"
-    },
-    {
-      "id": "155af5aa64a38bbf",
-      "category": "金属与资源",
-      "title": "Aurum hits bonanza 367g / t gold in West Africa",
-      "url": "https://www.brisbanetimes.com.au/business/companies/aurum-hits-bonanza-367g-t-gold-in-west-africa-20260807-p60mh2.html",
-      "source": "brisbanetimes.com.au",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.brisbanetimes.com.au/business/companies/aurum-hits-bonanza-367g-t-gold-in-west-africa-20260807-p60mh2.html"
-    },
-    {
-      "id": "357ac4670bdd5887",
-      "category": "能源与航运",
-      "title": "New Analysis : Fuel Crisis Has Already Cost Fijians $45million As Oil Majors Post Record $48 Billion In Profits",
-      "url": "https://www.scoop.co.nz/stories/WO2608/S00050/new-analysis-fuel-crisis-has-already-cost-fijians-45million-as-oil-majors-post-record-48-billion-in-profits.htm",
-      "source": "scoop.co.nz",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.scoop.co.nz/stories/WO2608/S00050/new-analysis-fuel-crisis-has-already-cost-fijians-45million-as-oil-majors-post-record-48-billion-in-profits.htm"
-    },
-    {
-      "id": "3f867a42af1e68bb",
-      "category": "金属与资源",
-      "title": "Goldpreis , Ölpreis & Co . aktuell : So steht es am Vormittag um die Kurse der Commodities",
-      "url": "https://www.finanzen.ch/nachrichten/rohstoffe/goldpreis-oelpreis-&-co-aktuell-so-steht-es-am-vormittag-um-die-kurse-der-commodities-1036427867",
-      "source": "finanzen.ch",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Switzerland"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.ch/nachrichten/rohstoffe/goldpreis-oelpreis-&-co-aktuell-so-steht-es-am-vormittag-um-die-kurse-der-commodities-1036427867"
-    },
-    {
-      "id": "297d8898e0f737d8",
-      "category": "能源与航运",
-      "title": "Magnolia Oil & Gas Corp ( NYSE : MGY ) Given Consensus Rating of Moderate Buy by Brokerages",
-      "url": "https://www.tickerreport.com/banking-finance/13533291/magnolia-oil-gas-corp-nysemgy-given-consensus-rating-of-moderate-buy-by-brokerages.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13533291/magnolia-oil-gas-corp-nysemgy-given-consensus-rating-of-moderate-buy-by-brokerages.html"
-    },
-    {
-      "id": "4e0177fa556d59f5",
-      "category": "能源与航运",
-      "title": "Swiss Franc Rises Amid Uncertainty Over Hormuz Reopening",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69247460-swiss-franc-rises-amid-uncertainty-over-hormuz-reopening-020.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69247460-swiss-franc-rises-amid-uncertainty-over-hormuz-reopening-020.htm"
-    },
-    {
-      "id": "4ac81178aaa104f7",
-      "category": "数字资产",
-      "title": "Entscheidung vertagt : Bitcoin fällt : US - Senat verschiebt Clarity Act auf September",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69247513-entscheidung-vertagt-bitcoin-faellt-us-senat-verschiebt-clarity-act-auf-september-049.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69247513-entscheidung-vertagt-bitcoin-faellt-us-senat-verschiebt-clarity-act-auf-september-049.htm"
-    },
-    {
-      "id": "2908b5540650c8ba",
-      "category": "能源与航运",
-      "title": "國海院 《 Marine Research 》 刊登最新研究 揭示液化天然氣 （ LNG ） 航運減碳成供應韌性關鍵",
-      "url": "https://n.yam.com/Article/20260807962775",
-      "source": "n.yam.com",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://n.yam.com/Article/20260807962775"
-    },
-    {
-      "id": "dd94bc9b28e1bf09",
-      "category": "金属与资源",
-      "title": "Silver alert issued for missing Baton Rouge man",
-      "url": "https://www.katc.com/news/covering-louisiana/silver-alert-issued-for-missing-baton-rouge-man",
-      "source": "katc.com",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.katc.com/news/covering-louisiana/silver-alert-issued-for-missing-baton-rouge-man"
-    },
-    {
-      "id": "a83cad5563037868",
-      "category": "科技与产业",
-      "title": "Legend Biotech Corporation Sponsored ADR ( NASDAQ : LEGN ) Given Consensus Recommendation of Moderate Buy by Analysts",
-      "url": "https://www.tickerreport.com/banking-finance/13533294/legend-biotech-corporation-sponsored-adr-nasdaqlegn-given-consensus-recommendation-of-moderate-buy-by-analysts.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-07T08:45:00Z",
-      "fetchedAt": "2026-08-07T09:17:20.339Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13533294/legend-biotech-corporation-sponsored-adr-nasdaqlegn-given-consensus-recommendation-of-moderate-buy-by-analysts.html"
-    },
-    {
-      "id": "c21afa4d6d534784",
-      "category": "金属与资源",
-      "title": "Gold Price Today , August 7 : XAU / USD Holds Above $4 , 200",
-      "url": "https://www.markets.com/news/gold-price-today-august-7-2026",
-      "source": "markets.com",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Cyprus"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.markets.com/news/gold-price-today-august-7-2026"
-    },
-    {
-      "id": "fe1f6907d64e9eb0",
-      "category": "金属与资源",
-      "title": "IRAEmpire LLC : How to Move 401k to Gold IRA : 2026 Gold IRA Rollover Guide Released",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69244735-iraempire-llc-how-to-move-401k-to-gold-ira-2026-gold-ira-rollover-guide-released-200.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-07T05:30:00Z",
-      "fetchedAt": "2026-08-07T05:52:27.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69244735-iraempire-llc-how-to-move-401k-to-gold-ira-2026-gold-ira-rollover-guide-released-200.htm"
     }
   ]
 }
