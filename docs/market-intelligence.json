@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T20:50:49.820Z",
-  "newsUpdatedAt": "2026-08-08T19:46:44.130Z",
-  "assetsUpdatedAt": "2026-08-08T20:50:49.820Z",
+  "generatedAt": "2026-08-08T21:48:12.607Z",
+  "newsUpdatedAt": "2026-08-08T21:48:12.607Z",
+  "assetsUpdatedAt": "2026-08-08T21:48:12.607Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65038,
-      "changePercent": 0.17593940100922692,
+      "price": 64993,
+      "changePercent": 0.04745039969531878,
       "unit": "USD",
-      "asOf": "2026-08-08T20:49:40.000Z",
+      "asOf": "2026-08-08T21:46:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +138,80 @@
   ],
   "news": [
     {
-      "id": "784393374d59f8b4",
+      "id": "e0e13246ce8acea3",
       "category": "能源与航运",
       "title": "Iran makes new Strait of Hormuz demands as UAE says ship was targeted",
-      "url": "https://www.wirralglobe.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/",
-      "source": "wirralglobe.co.uk",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
+      "url": "https://www.countypress.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/",
+      "source": "countypress.co.uk",
+      "publishedAt": "2026-08-08T21:15:00Z",
+      "fetchedAt": "2026-08-08T21:48:12.607Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.countypress.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/"
+    },
+    {
+      "id": "73befdc860f1aa2c",
+      "category": "金属与资源",
+      "title": "MotoGP : Martin soars to Silverstone Saturday gold as Aprilia clinch first Sprint 1 - 2 - 3",
+      "url": "https://superbike-news.co.uk/motogp-martin-soars-to-silverstone-saturday-gold-as-aprilia-clinch-first-sprint-1-2-3/",
+      "source": "superbike-news.co.uk",
+      "publishedAt": "2026-08-08T21:15:00Z",
+      "fetchedAt": "2026-08-08T21:48:12.607Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://superbike-news.co.uk/motogp-martin-soars-to-silverstone-saturday-gold-as-aprilia-clinch-first-sprint-1-2-3/"
+    },
+    {
+      "id": "d3a5ea377022aba0",
+      "category": "能源与航运",
+      "title": "Iran says deal on Strait of Hormuz is close but is not enough to open the waterway",
+      "url": "https://japantoday.com/category/world/iran-says-deal-on-strait-of-hormuz-is-close-but-is-not-enough-to-open-the-waterway",
+      "source": "japantoday.com",
+      "publishedAt": "2026-08-08T21:15:00Z",
+      "fetchedAt": "2026-08-08T21:48:12.607Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -160,7 +225,7 @@
         "航运"
       ],
       "regions": [
-        "United Kingdom"
+        "Japan"
       ],
       "relatedCodes": [
         "300308",
@@ -172,7 +237,71 @@
       "impact": "待观察",
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wirralglobe.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/"
+      "provenanceUrl": "https://japantoday.com/category/world/iran-says-deal-on-strait-of-hormuz-is-close-but-is-not-enough-to-open-the-waterway"
+    },
+    {
+      "id": "25ec681b7fcc0a61",
+      "category": "能源与航运",
+      "title": "Iran War Day 162 : Iran Says Hormuz Will Reopen When U . S . Accepts Conditions",
+      "url": "https://www.theamericanconservative.com/iran-war-day-162-iran-says-hormuz-will-reopen-when-u-s-accepts-conditions/",
+      "source": "theamericanconservative.com",
+      "publishedAt": "2026-08-08T21:15:00Z",
+      "fetchedAt": "2026-08-08T21:48:12.607Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theamericanconservative.com/iran-war-day-162-iran-says-hormuz-will-reopen-when-u-s-accepts-conditions/"
+    },
+    {
+      "id": "355689e672b3beaf",
+      "category": "能源与航运",
+      "title": "Ngushtica e Hormuzit mbetet e mbyllur : Irani dhe Omani zhvillojnë bisedime për një marrëveshje",
+      "url": "https://klankosova.tv/ngushtica-e-hormuzit-mbetet-e-mbyllur-irani-dhe-omani-zhvillojne-bisedime-per-nje-marreveshje/",
+      "source": "klankosova.tv",
+      "publishedAt": "2026-08-08T21:15:00Z",
+      "fetchedAt": "2026-08-08T21:48:12.607Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://klankosova.tv/ngushtica-e-hormuzit-mbetet-e-mbyllur-irani-dhe-omani-zhvillojne-bisedime-per-nje-marreveshje/"
     },
     {
       "id": "a41ee2b708716b7b",
@@ -1601,139 +1730,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.theguardian.com/environment/2026/aug/08/sadiq-khan-calls-on-andy-burnham-to-commit-to-climate-action-as-pressure-grows-over-north-sea-oil"
-    },
-    {
-      "id": "b3399b7aa1f6c345",
-      "category": "金属与资源",
-      "title": "Rat caught on CCTV stealing $12 , 000 in gold jewellery from Indian shop , ornaments recovered from burrow",
-      "url": "https://gulfnews.com/world/asia/india/watch-rat-caught-on-cctv-stealing-12000-in-gold-jewellery-from-indian-shop-1.500634529",
-      "source": "gulfnews.com",
-      "publishedAt": "2026-08-08T09:30:00Z",
-      "fetchedAt": "2026-08-08T09:56:19.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Arab Emirates"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://gulfnews.com/world/asia/india/watch-rat-caught-on-cctv-stealing-12000-in-gold-jewellery-from-indian-shop-1.500634529"
-    },
-    {
-      "id": "4475ad236076c390",
-      "category": "金属与资源",
-      "title": "Gold Jumps 4 . 73 % Weekly on Weak US Jobs Data",
-      "url": "https://www.newkerala.com/news/a/gold-posts-473-pc-weekly-gain-as-us-803.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-08-08T09:30:00Z",
-      "fetchedAt": "2026-08-08T09:56:19.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/gold-posts-473-pc-weekly-gain-as-us-803.htm"
-    },
-    {
-      "id": "c7b622d04e950e0a",
-      "category": "全球与地区",
-      "title": "India needs to start de - risking from US : Foreign affairs experts warn of permanent shift in India - US relations after Russia Sanctions Bill",
-      "url": "http://www.austinglobe.com/news/279227251/india-needs-to-start-de-risking-from-us-foreign-affairs-experts-warn-of-permanent-shift-in-india-us-relations-after-russia-sanctions-bill",
-      "source": "austinglobe.com",
-      "publishedAt": "2026-08-08T09:30:00Z",
-      "fetchedAt": "2026-08-08T09:56:19.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.austinglobe.com/news/279227251/india-needs-to-start-de-risking-from-us-foreign-affairs-experts-warn-of-permanent-shift-in-india-us-relations-after-russia-sanctions-bill"
-    },
-    {
-      "id": "a5ff6a15f7cb531b",
-      "category": "金属与资源",
-      "title": "Pentagon to invest US$400mil in Australian rare earth mine",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/08/08/pentagon-to-invest-us-400mil-in-australian-rare-earth-mine",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-08-08T09:30:00Z",
-      "fetchedAt": "2026-08-08T09:56:19.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/business/2026/08/08/pentagon-to-invest-us-400mil-in-australian-rare-earth-mine"
     }
   ]
 }
