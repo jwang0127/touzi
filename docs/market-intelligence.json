@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T14:51:20.654Z",
-  "newsUpdatedAt": "2026-08-08T13:14:43.351Z",
-  "assetsUpdatedAt": "2026-08-08T14:51:20.654Z",
+  "generatedAt": "2026-08-08T15:48:45.432Z",
+  "newsUpdatedAt": "2026-08-08T15:48:45.432Z",
+  "assetsUpdatedAt": "2026-08-08T15:48:45.432Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,185 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65101,
-      "changePercent": 0.06612730586195958,
+      "price": 65015,
+      "changePercent": 0.09860441604764457,
       "unit": "USD",
-      "asOf": "2026-08-08T14:50:10.000Z",
+      "asOf": "2026-08-08T15:47:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "50ff01594a572308",
+      "category": "能源与航运",
+      "title": "Iran : Pasukan Asing Angkat Kaki , Selat Hormuz Dibuka Jika AS Penuhi Syarat Kami",
+      "url": "https://aceh.tribunnews.com/news/1037869/iran-pasukan-asing-angkat-kaki-selat-hormuz-dibuka-jika-as-penuhi-syarat-kami",
+      "source": "aceh.tribunnews.com",
+      "publishedAt": "2026-08-08T14:45:00Z",
+      "fetchedAt": "2026-08-08T15:48:45.432Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aceh.tribunnews.com/news/1037869/iran-pasukan-asing-angkat-kaki-selat-hormuz-dibuka-jika-as-penuhi-syarat-kami"
+    },
+    {
+      "id": "d33d14de4059cbb7",
+      "category": "能源与航运",
+      "title": "Gwadar port expansion pushes fishers into oil smuggling",
+      "url": "https://banglanews24.today/2026/08/08/gwadar-port-expansion-pushes-fishers-into-oil-smuggling/",
+      "source": "banglanews24.today",
+      "publishedAt": "2026-08-08T14:45:00Z",
+      "fetchedAt": "2026-08-08T15:48:45.432Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Bangladesh"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://banglanews24.today/2026/08/08/gwadar-port-expansion-pushes-fishers-into-oil-smuggling/"
+    },
+    {
+      "id": "60335832ea1b0467",
+      "category": "能源与航运",
+      "title": "Iran says Strait of Hormuz will reopen only if US accepts Tehran conditions",
+      "url": "https://www.livemint.com/news/world/iran-says-strait-of-hormuz-will-reopen-only-if-us-accepts-tehran-s-conditions-11786198411989.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-08T14:45:00Z",
+      "fetchedAt": "2026-08-08T15:48:45.432Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/world/iran-says-strait-of-hormuz-will-reopen-only-if-us-accepts-tehran-s-conditions-11786198411989.html"
+    },
+    {
+      "id": "7d4ec3cbf4be43dd",
+      "category": "能源与航运",
+      "title": "USK dan Mubadala Energy Jajaki Kerja Sama Pengembangan SDM",
+      "url": "https://aceh.tribunnews.com/nanggroe/1037865/usk-dan-mubadala-energy-jajaki-kerja-sama-pengembangan-sdm",
+      "source": "aceh.tribunnews.com",
+      "publishedAt": "2026-08-08T14:45:00Z",
+      "fetchedAt": "2026-08-08T15:48:45.432Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aceh.tribunnews.com/nanggroe/1037865/usk-dan-mubadala-energy-jajaki-kerja-sama-pengembangan-sdm"
+    },
+    {
+      "id": "6630b6de9fa45938",
+      "category": "能源与航运",
+      "title": "Iran says Strait of Hormuz deal is very close but will not free up waterway by itself – The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/08/08/iran-says-strait-of-hormuz-deal-is-very-close-but-will-not-free-up-waterway-by-itself/",
+      "source": "irishtimes.com",
+      "publishedAt": "2026-08-08T14:45:00Z",
+      "fetchedAt": "2026-08-08T15:48:45.432Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Ireland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.irishtimes.com/world/middle-east/2026/08/08/iran-says-strait-of-hormuz-deal-is-very-close-but-will-not-free-up-waterway-by-itself/"
+    },
     {
       "id": "6c457e8b859f6bbb",
       "category": "金属与资源",
@@ -1541,157 +1710,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://montrealgazette.com/press-releases/globe-newswire/nevgold-announces-change-of-auditor-and-continuance-to-british-columbia/"
-    },
-    {
-      "id": "f4fb9a2ef4b7b4f3",
-      "category": "全球与地区",
-      "title": "US Senate passes Lindsey Grahams Russia sanctions bill",
-      "url": "http://www.iranherald.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill",
-      "source": "iranherald.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Iran"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.iranherald.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill"
-    },
-    {
-      "id": "2afa0697fb5e9484",
-      "category": "全球与地区",
-      "title": "Senate Passes Bill On Russia Sanctions",
-      "url": "https://720thevoice.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "source": "720thevoice.iheart.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://720thevoice.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
-    },
-    {
-      "id": "83e1c9e4e6abe6cc",
-      "category": "全球与地区",
-      "title": "Senate Passes Bill On Russia Sanctions | Newsradio WOOD 1300 and 106 . 9 FM",
-      "url": "https://woodradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "source": "woodradio.iheart.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://woodradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
-    },
-    {
-      "id": "e567c36ff639baf9",
-      "category": "金属与资源",
-      "title": "Pecco Bagnaia core problem remains at Silverstone MotoGP",
-      "url": "https://www.crash.net/motogp/news/1102218/1/pecco-bagnaias-core-problem-remains-silverstone-motogp",
-      "source": "crash.net",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.crash.net/motogp/news/1102218/1/pecco-bagnaias-core-problem-remains-silverstone-motogp"
-    },
-    {
-      "id": "7af89f2030e7534e",
-      "category": "全球与地区",
-      "title": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
-      "url": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
-      "source": "iranherald.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Iran"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks"
     }
   ]
 }
