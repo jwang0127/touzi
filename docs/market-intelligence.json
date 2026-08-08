@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T10:52:58.941Z",
-  "newsUpdatedAt": "2026-08-08T10:52:58.941Z",
-  "assetsUpdatedAt": "2026-08-08T10:52:58.941Z",
+  "generatedAt": "2026-08-08T11:46:49.153Z",
+  "newsUpdatedAt": "2026-08-08T11:46:49.153Z",
+  "assetsUpdatedAt": "2026-08-08T11:46:49.153Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64969,
-      "changePercent": 0.1966640462400682,
+      "price": 64923,
+      "changePercent": -0.10653831752233767,
       "unit": "USD",
-      "asOf": "2026-08-08T10:52:50.000Z",
+      "asOf": "2026-08-08T11:46:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +140,13 @@
   ],
   "news": [
     {
-      "id": "1b90c6d84b3951f5",
+      "id": "9157648937f6c904",
       "category": "能源与航运",
-      "title": "Sinopec turns to Russian oil as Middle East supplies tighten",
-      "url": "http://www.azerbaijannews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten",
-      "source": "azerbaijannews.net",
-      "publishedAt": "2026-08-08T10:30:00Z",
-      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "title": "Sinopec ramps up Russian crude purchases amid Mideast turmoil",
+      "url": "http://www.californiatelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil",
+      "source": "californiatelegraph.com",
+      "publishedAt": "2026-08-08T11:15:00Z",
+      "fetchedAt": "2026-08-08T11:46:49.153Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -160,7 +160,7 @@
         "航运"
       ],
       "regions": [
-        "Azerbaijan"
+        "United States"
       ],
       "relatedCodes": [
         "600028",
@@ -170,7 +170,137 @@
       "impact": "待观察",
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.azerbaijannews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten"
+      "provenanceUrl": "http://www.californiatelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil"
+    },
+    {
+      "id": "b353c4d9ddf09729",
+      "category": "能源与航运",
+      "title": "ADNOC tanker attacked with missile in Strait of Hormuz , UAE condemns Iranian strike",
+      "url": "https://www.hindustantimes.com/world-news/adnoc-tanker-attacked-with-missile-in-strait-of-hormuz-uae-condemns-iranian-strike-101786186218570.html",
+      "source": "hindustantimes.com",
+      "publishedAt": "2026-08-08T11:15:00Z",
+      "fetchedAt": "2026-08-08T11:46:49.153Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hindustantimes.com/world-news/adnoc-tanker-attacked-with-missile-in-strait-of-hormuz-uae-condemns-iranian-strike-101786186218570.html"
+    },
+    {
+      "id": "650ac46dd2e5c4fa",
+      "category": "金属与资源",
+      "title": "NBFC gold loans continue near 70 % growth , reach Rs 3 . 41 lakh crore in June : RBI",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/nbfc-gold-loans-continue-near-70-growth-reach-rs-3-41-lakh-crore-in-june-rbi/articleshow/133050925.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-08T11:15:00Z",
+      "fetchedAt": "2026-08-08T11:46:49.153Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/industry/banking/finance/banking/nbfc-gold-loans-continue-near-70-growth-reach-rs-3-41-lakh-crore-in-june-rbi/articleshow/133050925.cms"
+    },
+    {
+      "id": "59bbe89e803fc97c",
+      "category": "能源与航运",
+      "title": "Sinopec turns to Russian oil as Middle East supplies tighten",
+      "url": "http://www.laosnews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten",
+      "source": "laosnews.net",
+      "publishedAt": "2026-08-08T11:15:00Z",
+      "fetchedAt": "2026-08-08T11:46:49.153Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.laosnews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten"
+    },
+    {
+      "id": "15f57cbc1aba3d55",
+      "category": "全球与地区",
+      "title": "US passes bill imposing 100 % tariffs on purchase of Russian oil and gas",
+      "url": "https://timesofoman.com/article/175373-us-passes-bill-imposing-100-tariffs-on-purchase-of-russian-oil-and-gas",
+      "source": "timesofoman.com",
+      "publishedAt": "2026-08-08T11:15:00Z",
+      "fetchedAt": "2026-08-08T11:46:49.153Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Oman"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofoman.com/article/175373-us-passes-bill-imposing-100-tariffs-on-purchase-of-russian-oil-and-gas"
     },
     {
       "id": "ded47c396a63332c",
@@ -468,39 +598,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.newkerala.com/news/a/gold-posts-473-pc-weekly-gain-as-us-803.htm"
-    },
-    {
-      "id": "690084e5ae3413e1",
-      "category": "能源与航运",
-      "title": "Sinopec ramps up Russian crude purchases amid Mideast turmoil",
-      "url": "http://www.newjerseytelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil",
-      "source": "newjerseytelegraph.com",
-      "publishedAt": "2026-08-08T09:30:00Z",
-      "fetchedAt": "2026-08-08T09:56:19.080Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil"
     },
     {
       "id": "c7b622d04e950e0a",
@@ -1577,96 +1674,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://comicbook.com/comics/news/marvel-gold-76-writer-stephanie-phillips-teases-bullseyes-wildest-job-yet-in-new-anniversary-adventure-exclusive/"
-    },
-    {
-      "id": "2a5b64da1621a931",
-      "category": "全球与地区",
-      "title": "US Senate passes sweeping Russia sanctions bill",
-      "url": "https://www.bssnews.net/international/412667",
-      "source": "bssnews.net",
-      "publishedAt": "2026-08-07T21:30:00Z",
-      "fetchedAt": "2026-08-07T21:57:41.475Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bssnews.net/international/412667"
-    },
-    {
-      "id": "ce148db0fc77f17c",
-      "category": "金属与资源",
-      "title": "Hercules Metals Corp .: Hercules Metals Grants Stock Options",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69254831-hercules-metals-corp-hercules-metals-grants-stock-options-296.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-07T21:30:00Z",
-      "fetchedAt": "2026-08-07T21:57:41.475Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69254831-hercules-metals-corp-hercules-metals-grants-stock-options-296.htm"
-    },
-    {
-      "id": "5a97fd9b17fe3f9d",
-      "category": "全球与地区",
-      "title": "Senate passes Russia sanctions bill that was long championed by Lindsey Graham",
-      "url": "https://www.wvtf.org/2026-08-07/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
-      "source": "wvtf.org",
-      "publishedAt": "2026-08-07T21:30:00Z",
-      "fetchedAt": "2026-08-07T21:57:41.475Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wvtf.org/2026-08-07/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham"
     }
   ]
 }
