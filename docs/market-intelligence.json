@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T09:56:19.080Z",
-  "newsUpdatedAt": "2026-08-08T09:56:19.080Z",
-  "assetsUpdatedAt": "2026-08-08T09:56:19.080Z",
+  "generatedAt": "2026-08-08T10:52:58.941Z",
+  "newsUpdatedAt": "2026-08-08T10:52:58.941Z",
+  "assetsUpdatedAt": "2026-08-08T10:52:58.941Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,245 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64954,
-      "changePercent": 0.24389350399773602,
+      "price": 64969,
+      "changePercent": 0.1966640462400682,
       "unit": "USD",
-      "asOf": "2026-08-08T09:55:20.000Z",
+      "asOf": "2026-08-08T10:52:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1b90c6d84b3951f5",
+      "category": "能源与航运",
+      "title": "Sinopec turns to Russian oil as Middle East supplies tighten",
+      "url": "http://www.azerbaijannews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten",
+      "source": "azerbaijannews.net",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.azerbaijannews.net/news/279225322/sinopec-turns-to-russian-oil-as-middle-east-supplies-tighten"
+    },
+    {
+      "id": "ded47c396a63332c",
+      "category": "金属与资源",
+      "title": "Gold Prices Rise 300 Syrian Pounds in Local Market",
+      "url": "https://sana.sy/en/economic/2335054/",
+      "source": "sana.sy",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://sana.sy/en/economic/2335054/"
+    },
+    {
+      "id": "94d8760da0a6fc39",
+      "category": "全球与地区",
+      "title": "US sanctions bill makes India - US trade deal more critical , may push up import bill : Economist",
+      "url": "http://www.afghanistannews.net/news/279227200/us-sanctions-bill-makes-india-us-trade-deal-more-critical-may-push-up-import-bill-economist",
+      "source": "afghanistannews.net",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Afghanistan"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.afghanistannews.net/news/279227200/us-sanctions-bill-makes-india-us-trade-deal-more-critical-may-push-up-import-bill-economist"
+    },
+    {
+      "id": "0ab1e548b0b9facf",
+      "category": "能源与航运",
+      "title": "Greenland : Greenland issues strong warning as Trump - linked US oil firm pushes ahead with Arctic drilling",
+      "url": "https://timesofindia.indiatimes.com/world/europe/greenland-issues-strong-warning-as-trump-linked-us-oil-firm-pushes-ahead-with-arctic-drilling/articleshow/133050012.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/world/europe/greenland-issues-strong-warning-as-trump-linked-us-oil-firm-pushes-ahead-with-arctic-drilling/articleshow/133050012.cms"
+    },
+    {
+      "id": "e6f6de4e8501cb26",
+      "category": "金属与资源",
+      "title": "Mali : B2Gold obtient le feu vert pour Menankoto - Sud",
+      "url": "https://bamada.net/mali-b2gold-obtient-le-feu-vert-pour-menankoto-sud",
+      "source": "bamada.net",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Mali"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://bamada.net/mali-b2gold-obtient-le-feu-vert-pour-menankoto-sud"
+    },
+    {
+      "id": "aef00e2e892070a2",
+      "category": "金属与资源",
+      "title": "Ashish Yadav wins javelin silver at World U20 Championships",
+      "url": "https://www.newkerala.com/news/a/ashish-yadav-wins-javelin-silver-world-u20-championships-771.htm",
+      "source": "newkerala.com",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newkerala.com/news/a/ashish-yadav-wins-javelin-silver-world-u20-championships-771.htm"
+    },
+    {
+      "id": "c0ced2f138903e63",
+      "category": "能源与航运",
+      "title": "Genie Energy Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/energy/articles/genie-energy-q2-earnings-call-100346167.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-08T10:30:00Z",
+      "fetchedAt": "2026-08-08T10:52:58.941Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/genie-energy-q2-earnings-call-100346167.html"
+    },
     {
       "id": "3f69600f450406ce",
       "category": "能源与航运",
@@ -1436,232 +1667,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wvtf.org/2026-08-07/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham"
-    },
-    {
-      "id": "8ab0347e413c1187",
-      "category": "数字资产",
-      "title": "FriendsGroove Relaunches as a Human - First Social Network for Music - No Algorithm , No Crypto , No AI - Generated Songs",
-      "url": "http://www.newjerseytelegraph.com/news/279226373/friendsgroove-relaunches-as-a-human-first-social-network-for-music-no-algorithm-no-crypto-no-ai-generated-songs",
-      "source": "newjerseytelegraph.com",
-      "publishedAt": "2026-08-07T16:45:00Z",
-      "fetchedAt": "2026-08-07T17:10:51.833Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newjerseytelegraph.com/news/279226373/friendsgroove-relaunches-as-a-human-first-social-network-for-music-no-algorithm-no-crypto-no-ai-generated-songs"
-    },
-    {
-      "id": "7df8d920f3c16d84",
-      "category": "金属与资源",
-      "title": "Schmeckt Frau Floß ? Em Golde Kappes – Kölscher wird es kaum",
-      "url": "https://www.ksta.de:443/freizeit/geniessen/schmeckt-s-frau-floss-em-golde-kappes-koelscher-wird-es-kaum-1343673",
-      "source": "ksta.de",
-      "publishedAt": "2026-08-07T16:45:00Z",
-      "fetchedAt": "2026-08-07T17:10:51.833Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ksta.de:443/freizeit/geniessen/schmeckt-s-frau-floss-em-golde-kappes-koelscher-wird-es-kaum-1343673"
-    },
-    {
-      "id": "2778cc540f26614e",
-      "category": "能源与航运",
-      "title": "Strait of Hormuz framework agreed with Oman , says Iranian official amid US - Iran war : When will it completely reopen ?",
-      "url": "https://www.livemint.com/news/world/strait-of-hormuz-framework-agreed-with-oman-says-iranian-official-amid-us-iran-war-what-happens-next-explained-11786107247400.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-08-07T16:45:00Z",
-      "fetchedAt": "2026-08-07T17:10:51.833Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/news/world/strait-of-hormuz-framework-agreed-with-oman-says-iranian-official-amid-us-iran-war-what-happens-next-explained-11786107247400.html"
-    },
-    {
-      "id": "34bac8b589d23ad3",
-      "category": "能源与航运",
-      "title": "10 ways oregano oil could benefit your health",
-      "url": "https://www.dailyfreeman.com/2026/08/07/10-ways-oregano-oil-could-benefit-your-health/",
-      "source": "dailyfreeman.com",
-      "publishedAt": "2026-08-07T16:45:00Z",
-      "fetchedAt": "2026-08-07T17:10:51.833Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailyfreeman.com/2026/08/07/10-ways-oregano-oil-could-benefit-your-health/"
-    },
-    {
-      "id": "84325540c57e0bde",
-      "category": "能源与航运",
-      "title": "London - listed Genel Energy rejects £202m takeover bid",
-      "url": "https://www.dailymail.com/money/markets/article-16036145/London-listed-Genel-Energy-rejects-202m-takeover-bid-Norwegian-rival-DNO.html",
-      "source": "dailymail.com",
-      "publishedAt": "2026-08-07T15:45:00Z",
-      "fetchedAt": "2026-08-07T16:10:41.738Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailymail.com/money/markets/article-16036145/London-listed-Genel-Energy-rejects-202m-takeover-bid-Norwegian-rival-DNO.html"
-    },
-    {
-      "id": "db53e3aada95e18d",
-      "category": "金属与资源",
-      "title": "B2Gold Granted Fekola Regional Exploitation Permit by the State of Mali",
-      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/b2gold-granted-fekola-regional-exploitation-permit-by-the-state-of-mali/2401134",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-08-07T15:45:00Z",
-      "fetchedAt": "2026-08-07T16:10:41.738Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/b2gold-granted-fekola-regional-exploitation-permit-by-the-state-of-mali/2401134"
-    },
-    {
-      "id": "5b14f6666d1627ec",
-      "category": "全球与地区",
-      "title": "DPA : Exporturile Chinei au crescut în iulie , în ciuda tensiunilor geopolitice",
-      "url": "https://www.bursa.ro/dpa-exporturile-chinei-au-crescut-in-iulie-in-ciuda-tensiunilor-geopolitice-07518955",
-      "source": "bursa.ro",
-      "publishedAt": "2026-08-07T15:45:00Z",
-      "fetchedAt": "2026-08-07T16:10:41.738Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bursa.ro/dpa-exporturile-chinei-au-crescut-in-iulie-in-ciuda-tensiunilor-geopolitice-07518955"
     }
   ]
 }
