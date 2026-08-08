@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-08T16:55:16.168Z",
-  "newsUpdatedAt": "2026-08-08T15:48:45.432Z",
-  "assetsUpdatedAt": "2026-08-08T16:55:16.168Z",
+  "generatedAt": "2026-08-08T17:48:21.601Z",
+  "newsUpdatedAt": "2026-08-08T17:48:21.601Z",
+  "assetsUpdatedAt": "2026-08-08T17:48:21.601Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,488 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65019,
-      "changePercent": 0.2751682546089559,
+      "price": 65074,
+      "changePercent": 0.7002180070380327,
       "unit": "USD",
-      "asOf": "2026-08-08T16:54:10.000Z",
+      "asOf": "2026-08-08T17:48:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e4296a2a0c7e64c8",
+      "category": "能源与航运",
+      "title": "Iran FM Araghchi says Hormuz reopening hinges on",
+      "url": "http://www.heraldglobe.com/news/279227632/iran-fm-araghchi-says-hormuz-reopening-hinges-on-other-conditions-compensation-for-us-violation",
+      "source": "heraldglobe.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.heraldglobe.com/news/279227632/iran-fm-araghchi-says-hormuz-reopening-hinges-on-other-conditions-compensation-for-us-violation"
+    },
+    {
+      "id": "6937ec9d87bd603c",
+      "category": "能源与航运",
+      "title": "Iran Issues Trump Long List Of Demands Over Strait Of Hormuz Reopening",
+      "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/08/iran-says-us-must-meet-demands-before-strait-of-hormuz-reopens/",
+      "source": "forbes.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.forbes.com/sites/maryroeloffs/2026/08/08/iran-says-us-must-meet-demands-before-strait-of-hormuz-reopens/"
+    },
+    {
+      "id": "41304eaef822ae1f",
+      "category": "能源与航运",
+      "title": "Iran makes new Strait of Hormuz demands as UAE says ship was targeted",
+      "url": "https://www.oxfordmail.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/",
+      "source": "oxfordmail.co.uk",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.oxfordmail.co.uk/news/national/26448120.iran-makes-new-strait-hormuz-demands-uae-says-ship-targeted/"
+    },
+    {
+      "id": "6fcd4d78e292455f",
+      "category": "能源与航运",
+      "title": "Egypt condemns attack on UAE oil tanker in Strait of Hormuz",
+      "url": "http://www.middleeaststar.com/news/279227603/egypt-condemns-attack-on-uae-oil-tanker-in-strait-of-hormuz",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279227603/egypt-condemns-attack-on-uae-oil-tanker-in-strait-of-hormuz"
+    },
+    {
+      "id": "3b3d583a461ec674",
+      "category": "能源与航运",
+      "title": "US accepting Iran conditions key to Hormuz reopening : IRGC , rules out Oman talks link",
+      "url": "http://www.heraldglobe.com/news/279227621/us-accepting-iran-conditions-key-to-hormuz-reopening-irgc-rules-out-oman-talks-link",
+      "source": "heraldglobe.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.heraldglobe.com/news/279227621/us-accepting-iran-conditions-key-to-hormuz-reopening-irgc-rules-out-oman-talks-link"
+    },
+    {
+      "id": "fe6b324893e7545d",
+      "category": "全球与地区",
+      "title": "America is actually hurting its own interest : India economy well - insulated against US tariffs on Russian oil , says Kotak Securities Expert",
+      "url": "http://www.caribbeanherald.com/news/279227532/america-is-actually-hurting-its-own-interest-india-economy-well-insulated-against-us-tariffs-on-russian-oil-says-kotak-securities-expert",
+      "source": "caribbeanherald.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.caribbeanherald.com/news/279227532/america-is-actually-hurting-its-own-interest-india-economy-well-insulated-against-us-tariffs-on-russian-oil-says-kotak-securities-expert"
+    },
+    {
+      "id": "ad9a7b59e5deaaf1",
+      "category": "能源与航运",
+      "title": "US Declared An Energy Emergency . Then Paid $4 Billion For Less Energy",
+      "url": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/",
+      "source": "forbes.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/"
+    },
+    {
+      "id": "37aa3437a6e52a71",
+      "category": "能源与航运",
+      "title": "Oman says Strait of Hormuz talks progressing in positive atmosphere – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260808-oman-says-strait-of-hormuz-talks-progressing-in-positive-atmosphere/",
+      "source": "middleeastmonitor.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeastmonitor.com/20260808-oman-says-strait-of-hormuz-talks-progressing-in-positive-atmosphere/"
+    },
+    {
+      "id": "62314a39f049c661",
+      "category": "金属与资源",
+      "title": "NBFC gold loans continue near 70 % growth , reach Rs 3 . 41 lakh crore in June : RBI",
+      "url": "http://www.caribbeanherald.com/news/279227506/nbfc-gold-loans-continue-near-70-growth-reach-rs-341-lakh-crore-in-june-rbi",
+      "source": "caribbeanherald.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.caribbeanherald.com/news/279227506/nbfc-gold-loans-continue-near-70-growth-reach-rs-341-lakh-crore-in-june-rbi"
+    },
+    {
+      "id": "153715b935279a83",
+      "category": "能源与航运",
+      "title": "US expects Iran to ensure safe oil flow through Strait of Hormuz : Vance",
+      "url": "https://www.middleeastmonitor.com/20260808-us-expects-iran-to-ensure-safe-oil-flow-through-strait-of-hormuz-vance/",
+      "source": "middleeastmonitor.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeastmonitor.com/20260808-us-expects-iran-to-ensure-safe-oil-flow-through-strait-of-hormuz-vance/"
+    },
+    {
+      "id": "6628cce22a92cff6",
+      "category": "科技与产业",
+      "title": "La IA que transforma robots : ¡ Llega Figure Zero Three !",
+      "url": "https://acentotv.acento.com.do/gikplus/la-ia-que-transforma-robots-llega-figure-zero-three-54472.html",
+      "source": "acentotv.acento.com.do",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Dominican Republic"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://acentotv.acento.com.do/gikplus/la-ia-que-transforma-robots-llega-figure-zero-three-54472.html"
+    },
+    {
+      "id": "1e861587e6334958",
+      "category": "能源与航运",
+      "title": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
+      "url": "http://www.middleeaststar.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz"
+    },
+    {
+      "id": "c844c1b7a5678f51",
+      "category": "能源与航运",
+      "title": "Trump pursues Iran negotiations as new Strait of Hormuz attacks raise stakes",
+      "url": "https://katv.com/news/nation-world/trump-pursues-iran-negotiations-as-new-strait-of-hormuz-attacks-raise-stakes-war-united-states-middle-east-oman-gasoline-gas-oil-fuel-nuclear-weapon-ceasefire-negotiations-peace-deal-israel-tehran-president-donald-trump",
+      "source": "katv.com",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://katv.com/news/nation-world/trump-pursues-iran-negotiations-as-new-strait-of-hormuz-attacks-raise-stakes-war-united-states-middle-east-oman-gasoline-gas-oil-fuel-nuclear-weapon-ceasefire-negotiations-peace-deal-israel-tehran-president-donald-trump"
+    },
+    {
+      "id": "293df00b524a4b09",
+      "category": "能源与航运",
+      "title": "Araghchi : Iran , Oman very close to Hormuz deal ; reopening depends on US complying with MoU",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/08/773955/Iran-Oman-Araghchi-Hormuz",
+      "source": "presstv.co.uk",
+      "publishedAt": "2026-08-08T17:15:00Z",
+      "fetchedAt": "2026-08-08T17:48:21.601Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.presstv.co.uk/Detail/2026/08/08/773955/Iran-Oman-Araghchi-Hormuz"
+    },
     {
       "id": "50ff01594a572308",
       "category": "能源与航运",
@@ -606,40 +1076,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.hindustantimes.com/world-news/adnoc-tanker-attacked-with-missile-in-strait-of-hormuz-uae-condemns-iranian-strike-101786186218570.html"
-    },
-    {
-      "id": "650ac46dd2e5c4fa",
-      "category": "金属与资源",
-      "title": "NBFC gold loans continue near 70 % growth , reach Rs 3 . 41 lakh crore in June : RBI",
-      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/nbfc-gold-loans-continue-near-70-growth-reach-rs-3-41-lakh-crore-in-june-rbi/articleshow/133050925.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-08T11:15:00Z",
-      "fetchedAt": "2026-08-08T11:46:49.153Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/industry/banking/finance/banking/nbfc-gold-loans-continue-near-70-growth-reach-rs-3-41-lakh-crore-in-june-rbi/articleshow/133050925.cms"
     },
     {
       "id": "59bbe89e803fc97c",
@@ -1295,421 +1731,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.sydneysun.com/news/279225268/iran-nears-strait-of-hormuz-deal-as-trump-signals-announcement"
-    },
-    {
-      "id": "258aecc7f9f826c7",
-      "category": "科技与产业",
-      "title": "8月12日见 ！ 荣耀Robot Phone首发钛合金云台架构 / 电机 ： 最大转速360° / 秒",
-      "url": "https://www.chinaz.com/2026/0808/1769867.shtml",
-      "source": "chinaz.com",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chinaz.com/2026/0808/1769867.shtml"
-    },
-    {
-      "id": "4e37fcf0ae4dbead",
-      "category": "能源与航运",
-      "title": "US expects Iran - Oman talks to soon reopen Strait of Hormuz : Report",
-      "url": "http://www.bignewsnetwork.com/news/279227127/us-expects-iran-oman-talks-to-soon-reopen-strait-of-hormuz-report",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279227127/us-expects-iran-oman-talks-to-soon-reopen-strait-of-hormuz-report"
-    },
-    {
-      "id": "f2271fa421388587",
-      "category": "科技与产业",
-      "title": "Gigafactory Berlin : Tesla - Mitarbeiter trainieren Optimus - Roboter",
-      "url": "https://www.autobild.de/artikel/tesla-optimus-training-gigafactory-berlin-28712743.html",
-      "source": "autobild.de",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.autobild.de/artikel/tesla-optimus-training-gigafactory-berlin-28712743.html"
-    },
-    {
-      "id": "e6d76ae181c78414",
-      "category": "金属与资源",
-      "title": "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
-      "url": "http://www.mexicostar.com/news/279227124/metaoptics-sharpens-focus-on-metalens-commercialisation-withdraws-nasdaq-listing-application-and-defers-us-dual-listing-plan",
-      "source": "mexicostar.com",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Mexico"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.mexicostar.com/news/279227124/metaoptics-sharpens-focus-on-metalens-commercialisation-withdraws-nasdaq-listing-application-and-defers-us-dual-listing-plan"
-    },
-    {
-      "id": "46467de5af5b431c",
-      "category": "金属与资源",
-      "title": "Ashish Yadav Wins Silver at World U20 Championships - Pragativadi I Latest Odisha News in English I Breaking News",
-      "url": "https://pragativadi.com/ashish-yadav-wins-u20-worlds-silver-in-javelin-10-years-after-chopras-gold/",
-      "source": "pragativadi.com",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://pragativadi.com/ashish-yadav-wins-u20-worlds-silver-in-javelin-10-years-after-chopras-gold/"
-    },
-    {
-      "id": "9c6d4a9bcda3d1c7",
-      "category": "金属与资源",
-      "title": "IRW - News : SAGA Metals Corp .: SAGA Metals gibt die Fortsetzung der Aktienanalyse durch die Alphabridge Group mit einem Outperform - Rating bekannt",
-      "url": "https://www.onvista.de/news/2026/08-08-irw-news-saga-metals-corp-saga-metals-gibt-die-fortsetzung-der-aktienanalyse-durch-die-alphabridge-group-mit-einem-outperform-rating-bekannt-0-10-26541043",
-      "source": "onvista.de",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.onvista.de/news/2026/08-08-irw-news-saga-metals-corp-saga-metals-gibt-die-fortsetzung-der-aktienanalyse-durch-die-alphabridge-group-mit-einem-outperform-rating-bekannt-0-10-26541043"
-    },
-    {
-      "id": "d91306e1a61c9cee",
-      "category": "全球与地区",
-      "title": "Houthis strike as UN warns Yemen nearing wider conflict",
-      "url": "https://www.newcastleherald.com.au/story/9326370/houthis-strike-as-un-warns-yemen-nearing-wider-conflict/",
-      "source": "newcastleherald.com.au",
-      "publishedAt": "2026-08-08T06:45:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newcastleherald.com.au/story/9326370/houthis-strike-as-un-warns-yemen-nearing-wider-conflict/"
-    },
-    {
-      "id": "d06fa4b2defa2804",
-      "category": "全球与地区",
-      "title": "US Senate passes Russia sanctions bill with 100 % tariff on India , 4 others | Rediff - TV",
-      "url": "https://tv.rediff.com/news/us-senate-passes-russia-sanctions-bill-with-100-tariff-on-india-4-others/399042",
-      "source": "tv.rediff.com",
-      "publishedAt": "2026-08-08T06:30:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tv.rediff.com/news/us-senate-passes-russia-sanctions-bill-with-100-tariff-on-india-4-others/399042"
-    },
-    {
-      "id": "9822af609b51e93b",
-      "category": "金属与资源",
-      "title": "Gold prices jump 7 % to log best weekly gain in 8 months . Start of another yellow metal bull run ?",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-7-to-log-best-weekly-gain-in-8-months-start-of-another-yellow-metal-bull-run/articleshow/133046536.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-08T06:30:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-7-to-log-best-weekly-gain-in-8-months-start-of-another-yellow-metal-bull-run/articleshow/133046536.cms"
-    },
-    {
-      "id": "6f9bf8ec31da136a",
-      "category": "全球与地区",
-      "title": "Guerra de Ucrania , en DIRECTO | Última hora del conflicto y las negociaciones",
-      "url": "https://www.elperiodico.com/es/internacional/20260808/directo-guerra-ucrania-rusia-ultima-126605559",
-      "source": "elperiodico.com",
-      "publishedAt": "2026-08-08T06:30:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Spain"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.elperiodico.com/es/internacional/20260808/directo-guerra-ucrania-rusia-ultima-126605559"
-    },
-    {
-      "id": "fae2e3c66cac2b65",
-      "category": "金属与资源",
-      "title": "Metal Input Exports Forge Ahead",
-      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/08/satet-front/metal-input-exports-forge-ahead/articleshow/133042218.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-08T06:30:00Z",
-      "fetchedAt": "2026-08-08T07:17:58.768Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/08/satet-front/metal-input-exports-forge-ahead/articleshow/133042218.cms"
-    },
-    {
-      "id": "71ed658a796cef9b",
-      "category": "全球与地区",
-      "title": "Senate Passes Bill On Russia Sanctions | PowerTalk 1460 AM & 101 . 1 FM",
-      "url": "https://powertalk1460.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "source": "powertalk1460.iheart.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://powertalk1460.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/"
-    },
-    {
-      "id": "715c2b1b0dc8b521",
-      "category": "金属与资源",
-      "title": "NevGold Announces Change of Auditor and Continuance to British Columbia",
-      "url": "https://montrealgazette.com/press-releases/globe-newswire/nevgold-announces-change-of-auditor-and-continuance-to-british-columbia/",
-      "source": "montrealgazette.com",
-      "publishedAt": "2026-08-07T23:30:00Z",
-      "fetchedAt": "2026-08-07T23:49:59.154Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://montrealgazette.com/press-releases/globe-newswire/nevgold-announces-change-of-auditor-and-continuance-to-british-columbia/"
     }
   ]
 }
