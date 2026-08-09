@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T19:50:28.184Z",
-  "newsUpdatedAt": "2026-08-09T19:04:08.295Z",
-  "assetsUpdatedAt": "2026-08-09T19:50:28.184Z",
+  "generatedAt": "2026-08-09T20:54:05.714Z",
+  "newsUpdatedAt": "2026-08-09T20:54:05.714Z",
+  "assetsUpdatedAt": "2026-08-09T20:54:05.714Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,117 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65142,
-      "changePercent": 0.2095826605383914,
+      "price": 65084,
+      "changePercent": 0.07742397417777167,
       "unit": "USD",
-      "asOf": "2026-08-09T19:49:50.000Z",
+      "asOf": "2026-08-09T20:54:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "da41b01deddc4af6",
+      "category": "能源与航运",
+      "title": "Hormuz deal close but will Trump accept it ?",
+      "url": "https://www.arabnews.com/node/2654012",
+      "source": "arabnews.com",
+      "publishedAt": "2026-08-09T20:30:00Z",
+      "fetchedAt": "2026-08-09T20:54:05.714Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Saudi Arabia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.arabnews.com/node/2654012"
+    },
+    {
+      "id": "0de7490a5627b303",
+      "category": "能源与航运",
+      "title": "Israel rejects Trump Gaza plan , more details emerge on Strait of Hormuz",
+      "url": "https://www.eppingforestguardian.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/",
+      "source": "eppingforestguardian.co.uk",
+      "publishedAt": "2026-08-09T20:30:00Z",
+      "fetchedAt": "2026-08-09T20:54:05.714Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.eppingforestguardian.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/"
+    },
+    {
+      "id": "f9a9a6823c709de2",
+      "category": "能源与航运",
+      "title": "Review : XO The Greek serves up outstanding seafood boil",
+      "url": "https://www.halsteadgazette.co.uk/news/26430891.review-xo-greek-serves-outstanding-seafood-boil/",
+      "source": "halsteadgazette.co.uk",
+      "publishedAt": "2026-08-09T20:30:00Z",
+      "fetchedAt": "2026-08-09T20:54:05.714Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.halsteadgazette.co.uk/news/26430891.review-xo-greek-serves-outstanding-seafood-boil/"
+    },
     {
       "id": "788c9d88afa5b62a",
       "category": "金属与资源",
@@ -242,39 +341,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.fnp.de/politik/aera-wiederbeleben-golden-dome-neue-weltraum-abfangsysteme-koennten-eine-vision-aus-der-reagan-zr-94434822.html"
-    },
-    {
-      "id": "d9b4f8c1d373c8eb",
-      "category": "能源与航运",
-      "title": "Israel rejects Trump Gaza plan , more details emerge on Strait of Hormuz",
-      "url": "https://www.london-now.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/",
-      "source": "london-now.co.uk",
-      "publishedAt": "2026-08-09T18:30:00Z",
-      "fetchedAt": "2026-08-09T19:04:08.295Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.london-now.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/"
     },
     {
       "id": "cf6729e679cf880c",
@@ -1644,74 +1710,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://klankosova.tv/ngushtica-e-hormuzit-mbetet-e-mbyllur-irani-dhe-omani-zhvillojne-bisedime-per-nje-marreveshje/"
-    },
-    {
-      "id": "a41ee2b708716b7b",
-      "category": "能源与航运",
-      "title": "Iran says Hormuz deal close , not close enough to open",
-      "url": "https://www.illawarramercury.com.au/story/9326459/iran-says-hormuz-deal-close-not-close-enough-to-open/",
-      "source": "illawarramercury.com.au",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.illawarramercury.com.au/story/9326459/iran-says-hormuz-deal-close-not-close-enough-to-open/"
-    },
-    {
-      "id": "9e880967dc3f6d67",
-      "category": "能源与航运",
-      "title": "Muslim Council of Elders strongly condemns targeting of ADNOC tanker while transiting Strait of Hormuz",
-      "url": "http://www.bignewsnetwork.com/news/279227730/muslim-council-of-elders-strongly-condemns-targeting-of-adnoc-tanker-while-transiting-strait-of-hormuz",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279227730/muslim-council-of-elders-strongly-condemns-targeting-of-adnoc-tanker-while-transiting-strait-of-hormuz"
     }
   ]
 }
