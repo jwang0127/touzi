@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T10:54:30.532Z",
-  "newsUpdatedAt": "2026-08-08T22:49:43.529Z",
-  "assetsUpdatedAt": "2026-08-09T10:54:30.532Z",
+  "generatedAt": "2026-08-09T11:48:00.767Z",
+  "newsUpdatedAt": "2026-08-09T11:48:00.767Z",
+  "assetsUpdatedAt": "2026-08-09T11:48:00.767Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,244 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64927,
-      "changePercent": -0.06853109756062872,
+      "price": 64941,
+      "changePercent": 0.032980660800456266,
       "unit": "USD",
-      "asOf": "2026-08-09T10:53:20.000Z",
+      "asOf": "2026-08-09T11:47:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "aff0ba540d1c5dd9",
+      "category": "能源与航运",
+      "title": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news",
+      "url": "https://www.news4jax.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
+      "source": "news4jax.com",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.news4jax.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/"
+    },
+    {
+      "id": "fd4aacd40c383bdf",
+      "category": "科技与产业",
+      "title": "Chirurgia robotica a Ferrara – Ferrara24ore . it",
+      "url": "https://www.ferrara24ore.it/notizie/sanita/2026/08/09/chirurgia-robotica-a-ferrara/",
+      "source": "ferrara24ore.it",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ferrara24ore.it/notizie/sanita/2026/08/09/chirurgia-robotica-a-ferrara/"
+    },
+    {
+      "id": "4a39fb022798c894",
+      "category": "金属与资源",
+      "title": "Kate Ferdinand insists she no gold digger and would have picked a man without kids",
+      "url": "https://www.mirror.co.uk/3am/celebrity-news/kate-ferdinand-insists-shes-no-37529873",
+      "source": "mirror.co.uk",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.mirror.co.uk/3am/celebrity-news/kate-ferdinand-insists-shes-no-37529873"
+    },
+    {
+      "id": "11eea5495a892b01",
+      "category": "能源与航运",
+      "title": "Media : Iran stelt Amerika voorwaarden voor heropening Hormuz",
+      "url": "https://www.belegger.nl/Nieuws/874098/Media-Iran-stelt-Amerika-voorwaarden-voor-heropening-Hormuz.aspx",
+      "source": "belegger.nl",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.belegger.nl/Nieuws/874098/Media-Iran-stelt-Amerika-voorwaarden-voor-heropening-Hormuz.aspx"
+    },
+    {
+      "id": "a77c3462dccfdcc9",
+      "category": "能源与航运",
+      "title": "Deal with Oman on Hormuz",
+      "url": "http://www.middleeaststar.com/news/279228018/deal-with-oman-on-hormuz-very-close-reopening-tied-to-us-compensation-for-mou-violations-says-iran",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279228018/deal-with-oman-on-hormuz-very-close-reopening-tied-to-us-compensation-for-mou-violations-says-iran"
+    },
+    {
+      "id": "a003783155078d68",
+      "category": "数字资产",
+      "title": "Bitcoin - Kurs & Digitalwährungen : Das ist der Stand am Mittag",
+      "url": "https://www.finanzen.net/nachricht/devisen/so-entwickeln-sich-bitcoin-ripple-co-am-mittag-am-kryptomarkt-15861425",
+      "source": "finanzen.net",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/nachricht/devisen/so-entwickeln-sich-bitcoin-ripple-co-am-mittag-am-kryptomarkt-15861425"
+    },
+    {
+      "id": "8e1c771beb49181f",
+      "category": "能源与航运",
+      "title": "Iran unlikely to ever give up Strait of Hormuz , head of INSS Iran program claims",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-904950",
+      "source": "jpost.com",
+      "publishedAt": "2026-08-09T11:15:00Z",
+      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.jpost.com/middle-east/iran-news/article-904950"
+    },
     {
       "id": "52d68b90f35a4522",
       "category": "A股与政策",
@@ -1498,245 +1726,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.newkerala.com/news/a/america-actually-hurting-its-own-interest-indias-economy-750.htm"
-    },
-    {
-      "id": "71dbba26a473623a",
-      "category": "能源与航运",
-      "title": "Iran Strikes UAE Tanker in Strait of Hormuz : UAE Condemns",
-      "url": "https://www.newkerala.com/news/a/iran-strikes-uaes-tanker-missiles-strait-hormuz-814.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-08-08T12:45:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/iran-strikes-uaes-tanker-missiles-strait-hormuz-814.htm"
-    },
-    {
-      "id": "b68432ff5e290c3e",
-      "category": "能源与航运",
-      "title": "Iran says Strait of Hormuz reopening depends on US accepting its conditions",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-revolutionary-guard-says-re-opening-strait-of-hormuz-does-not-depend-on-talks-with-oman/articleshow/133051817.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-08T12:30:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/world-news/irans-revolutionary-guard-says-re-opening-strait-of-hormuz-does-not-depend-on-talks-with-oman/articleshow/133051817.cms"
-    },
-    {
-      "id": "841846a4bffd6671",
-      "category": "科技与产业",
-      "title": "The Numbers Behind ON Semiconductor ( ON ) Higher Target and Unchanged Hold Rating",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/numbers-behind-semiconductor-higher-target-115228254.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-08T12:30:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/numbers-behind-semiconductor-higher-target-115228254.html"
-    },
-    {
-      "id": "ee072c2aa9eeda1b",
-      "category": "金属与资源",
-      "title": "Loans Against Gold Jewellery : Why NBFC gold loans are growing nearly 70 % despite tighter RBI regulations",
-      "url": "https://banglanews24.today/2026/08/08/loans-against-gold-jewellery-why-nbfc-gold-loans-are-growing-nearly-70-despite-tighter-rbi-regulations/",
-      "source": "banglanews24.today",
-      "publishedAt": "2026-08-08T12:30:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://banglanews24.today/2026/08/08/loans-against-gold-jewellery-why-nbfc-gold-loans-are-growing-nearly-70-despite-tighter-rbi-regulations/"
-    },
-    {
-      "id": "1fb31706d33ef653",
-      "category": "能源与航运",
-      "title": "WSJ : Iran Ingin Usir Kapal Perang AS Keluar dari Selat Hormuz , Akhiri Dominasi Militer AS di Teluk",
-      "url": "https://aceh.tribunnews.com/news/1037841/wsj-iran-ingin-usir-kapal-perang-as-keluar-dari-selat-hormuz-akhiri-dominasi-militer-as-di-teluk",
-      "source": "aceh.tribunnews.com",
-      "publishedAt": "2026-08-08T12:30:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Indonesia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aceh.tribunnews.com/news/1037841/wsj-iran-ingin-usir-kapal-perang-as-keluar-dari-selat-hormuz-akhiri-dominasi-militer-as-di-teluk"
-    },
-    {
-      "id": "9157648937f6c904",
-      "category": "能源与航运",
-      "title": "Sinopec ramps up Russian crude purchases amid Mideast turmoil",
-      "url": "http://www.californiatelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil",
-      "source": "californiatelegraph.com",
-      "publishedAt": "2026-08-08T11:15:00Z",
-      "fetchedAt": "2026-08-08T11:46:49.153Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.californiatelegraph.com/news/279225322/sinopec-ramps-up-russian-crude-purchases-amid-mideast-turmoil"
-    },
-    {
-      "id": "b353c4d9ddf09729",
-      "category": "能源与航运",
-      "title": "ADNOC tanker attacked with missile in Strait of Hormuz , UAE condemns Iranian strike",
-      "url": "https://www.hindustantimes.com/world-news/adnoc-tanker-attacked-with-missile-in-strait-of-hormuz-uae-condemns-iranian-strike-101786186218570.html",
-      "source": "hindustantimes.com",
-      "publishedAt": "2026-08-08T11:15:00Z",
-      "fetchedAt": "2026-08-08T11:46:49.153Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hindustantimes.com/world-news/adnoc-tanker-attacked-with-missile-in-strait-of-hormuz-uae-condemns-iranian-strike-101786186218570.html"
     }
   ]
 }
