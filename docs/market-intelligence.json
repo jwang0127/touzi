@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T17:49:59.282Z",
-  "newsUpdatedAt": "2026-08-09T16:57:26.640Z",
-  "assetsUpdatedAt": "2026-08-09T17:49:59.282Z",
+  "generatedAt": "2026-08-09T19:04:08.295Z",
+  "newsUpdatedAt": "2026-08-09T19:04:08.295Z",
+  "assetsUpdatedAt": "2026-08-09T19:04:08.295Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,187 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65173,
-      "changePercent": 0.1534298220003527,
+      "price": 65152,
+      "changePercent": 0.2390893936379742,
       "unit": "USD",
-      "asOf": "2026-08-09T17:48:40.000Z",
+      "asOf": "2026-08-09T19:02:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "788c9d88afa5b62a",
+      "category": "金属与资源",
+      "title": "Jaipur Treasure : जयपुर में मिले खजाने को लेकर बड़ा खुलासा , पुलिस के हाथ लगी 66 किलो वजनी चांदी की सिल्लियां | Jaipur Treasure 66 400 Kg Silver Bars 5 Arrested 1500 Coins",
+      "url": "https://www.patrika.com/jaipur-news/jaipur-treasure-66-400-kg-silver-bars-5-arrested-1500-coins-20819385",
+      "source": "patrika.com",
+      "publishedAt": "2026-08-09T18:30:00Z",
+      "fetchedAt": "2026-08-09T19:04:08.295Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.patrika.com/jaipur-news/jaipur-treasure-66-400-kg-silver-bars-5-arrested-1500-coins-20819385"
+    },
+    {
+      "id": "7d2de24e888c3368",
+      "category": "金属与资源",
+      "title": "Άννα Κορακάκη : 10 χρόνια από το χρυσό στο Ρίο – « Τα χέρια μου πλέον κρατάνε το πιο πολύτιμο μετάλλιό μου » - anna korakaki : 10 chronia apo to chryso sto rio – « ta cheria mou pleon kratane to pio polytimo metallio mou »",
+      "url": "https://www.inewsgr.com/182/anna-korakaki-10-chronia-apo-to-chryso-sto-rio--ta-cheria-mou-pleon-kratane-to-pio-polytimo-metallio-mou.htm",
+      "source": "inewsgr.com",
+      "publishedAt": "2026-08-09T18:30:00Z",
+      "fetchedAt": "2026-08-09T19:04:08.295Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Greece"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.inewsgr.com/182/anna-korakaki-10-chronia-apo-to-chryso-sto-rio--ta-cheria-mou-pleon-kratane-to-pio-polytimo-metallio-mou.htm"
+    },
+    {
+      "id": "8bbc2bcc36a9dc9b",
+      "category": "金属与资源",
+      "title": "Golden Dome neue Weltraum - Abfangsysteme könnten eine Vision aus der Reagan - Ära wiederbeleben",
+      "url": "http://www.fnp.de/politik/aera-wiederbeleben-golden-dome-neue-weltraum-abfangsysteme-koennten-eine-vision-aus-der-reagan-zr-94434822.html",
+      "source": "fnp.de",
+      "publishedAt": "2026-08-09T18:30:00Z",
+      "fetchedAt": "2026-08-09T19:04:08.295Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.fnp.de/politik/aera-wiederbeleben-golden-dome-neue-weltraum-abfangsysteme-koennten-eine-vision-aus-der-reagan-zr-94434822.html"
+    },
+    {
+      "id": "d9b4f8c1d373c8eb",
+      "category": "能源与航运",
+      "title": "Israel rejects Trump Gaza plan , more details emerge on Strait of Hormuz",
+      "url": "https://www.london-now.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/",
+      "source": "london-now.co.uk",
+      "publishedAt": "2026-08-09T18:30:00Z",
+      "fetchedAt": "2026-08-09T19:04:08.295Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.london-now.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/"
+    },
+    {
+      "id": "cf6729e679cf880c",
+      "category": "金属与资源",
+      "title": "76 Undeclared Gold Bars Detected by Panama Immigration Officials from Three Venezuelans",
+      "url": "https://newsroompanama.com/2026/08/09/76-undeclared-gold-bars-detected-by-panama-immigration-officials-from-three-venezuelans/",
+      "source": "newsroompanama.com",
+      "publishedAt": "2026-08-09T18:15:00Z",
+      "fetchedAt": "2026-08-09T19:04:08.295Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Panama"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newsroompanama.com/2026/08/09/76-undeclared-gold-bars-detected-by-panama-immigration-officials-from-three-venezuelans/"
+    },
     {
       "id": "b721a5ff1d097945",
       "category": "数字资产",
@@ -1541,176 +1710,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.bignewsnetwork.com/news/279227730/muslim-council-of-elders-strongly-condemns-targeting-of-adnoc-tanker-while-transiting-strait-of-hormuz"
-    },
-    {
-      "id": "147d35d85043f512",
-      "category": "能源与航运",
-      "title": "Strait of Hormuz Will Stay Closed Unless US Agrees to List of Demands , Iran Says",
-      "url": "https://www.theepochtimes.com/world/strait-of-hormuz-will-stay-closed-unless-us-agrees-to-list-of-demands-iran-says-6072825",
-      "source": "theepochtimes.com",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theepochtimes.com/world/strait-of-hormuz-will-stay-closed-unless-us-agrees-to-list-of-demands-iran-says-6072825"
-    },
-    {
-      "id": "6dccd931ed85f53c",
-      "category": "金属与资源",
-      "title": "Namayingo raises alarm over environmental risks from gold mining",
-      "url": "https://ntv.co.ug/news/national-news/namayingo-raises-alarm-over-environmental-risks-from-gold-mining",
-      "source": "ntv.co.ug",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Uganda"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ntv.co.ug/news/national-news/namayingo-raises-alarm-over-environmental-risks-from-gold-mining"
-    },
-    {
-      "id": "869770c551e8a2e6",
-      "category": "能源与航运",
-      "title": "Foreign Ministry condemns Iranian attack on UAE Oil tanker in Strait of Hormuz",
-      "url": "https://sana.sy/en/syria/2335106/",
-      "source": "sana.sy",
-      "publishedAt": "2026-08-08T19:15:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://sana.sy/en/syria/2335106/"
-    },
-    {
-      "id": "a37f63c9d0608261",
-      "category": "全球与地区",
-      "title": "US – Iran Conflict : Strait of Hormuz Disruption , ADNOC Vessel Attack and Key Updates UAE Residents Need Tonight ( August 8 )",
-      "url": "https://gulfnews.com/world/mena/us-iran-conflict-what-uae-residents-need-to-know-this-evening-august-8-1.500634819",
-      "source": "gulfnews.com",
-      "publishedAt": "2026-08-08T19:00:00Z",
-      "fetchedAt": "2026-08-08T19:46:44.130Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Arab Emirates"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://gulfnews.com/world/mena/us-iran-conflict-what-uae-residents-need-to-know-this-evening-august-8-1.500634819"
-    },
-    {
-      "id": "e4296a2a0c7e64c8",
-      "category": "能源与航运",
-      "title": "Iran FM Araghchi says Hormuz reopening hinges on",
-      "url": "http://www.heraldglobe.com/news/279227632/iran-fm-araghchi-says-hormuz-reopening-hinges-on-other-conditions-compensation-for-us-violation",
-      "source": "heraldglobe.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.heraldglobe.com/news/279227632/iran-fm-araghchi-says-hormuz-reopening-hinges-on-other-conditions-compensation-for-us-violation"
     }
   ]
 }
