@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T11:48:00.767Z",
-  "newsUpdatedAt": "2026-08-09T11:48:00.767Z",
-  "assetsUpdatedAt": "2026-08-09T11:48:00.767Z",
+  "generatedAt": "2026-08-09T13:18:14.774Z",
+  "newsUpdatedAt": "2026-08-09T13:18:14.774Z",
+  "assetsUpdatedAt": "2026-08-09T13:18:14.774Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64941,
-      "changePercent": 0.032980660800456266,
+      "price": 64993,
+      "changePercent": 0.020853746402939778,
       "unit": "USD",
-      "asOf": "2026-08-09T11:47:30.000Z",
+      "asOf": "2026-08-09T13:18:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +140,13 @@
   ],
   "news": [
     {
-      "id": "aff0ba540d1c5dd9",
+      "id": "72c40c1f50319350",
       "category": "能源与航运",
       "title": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news",
-      "url": "https://www.news4jax.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
-      "source": "news4jax.com",
-      "publishedAt": "2026-08-09T11:15:00Z",
-      "fetchedAt": "2026-08-09T11:48:00.767Z",
+      "url": "https://www.houstonpublicmedia.org/npr/2026/08/09/nx-s1-5926387/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
+      "source": "houstonpublicmedia.org",
+      "publishedAt": "2026-08-09T12:45:00Z",
+      "fetchedAt": "2026-08-09T13:18:14.774Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -172,7 +172,111 @@
       "impact": "待观察",
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.news4jax.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/"
+      "provenanceUrl": "https://www.houstonpublicmedia.org/npr/2026/08/09/nx-s1-5926387/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/"
+    },
+    {
+      "id": "426d11ec4dc9dc17",
+      "category": "能源与航运",
+      "title": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news | National & World",
+      "url": "http://www.dailyadvance.com/news/national/yemen-s-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle/article_595e8674-5c4a-598e-b924-7c47b1b79dff.html",
+      "source": "dailyadvance.com",
+      "publishedAt": "2026-08-09T12:45:00Z",
+      "fetchedAt": "2026-08-09T13:18:14.774Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.dailyadvance.com/news/national/yemen-s-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle/article_595e8674-5c4a-598e-b924-7c47b1b79dff.html"
+    },
+    {
+      "id": "5ad1fff0358ea298",
+      "category": "能源与航运",
+      "title": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news | National",
+      "url": "http://www.idahostatejournal.com/news/national/yemen-s-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle/article_13ecd719-a89d-5978-b0d9-03c2b3b9c54f.html",
+      "source": "idahostatejournal.com",
+      "publishedAt": "2026-08-09T12:45:00Z",
+      "fetchedAt": "2026-08-09T13:18:14.774Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.idahostatejournal.com/news/national/yemen-s-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle/article_13ecd719-a89d-5978-b0d9-03c2b3b9c54f.html"
+    },
+    {
+      "id": "5ca2d77c10c4171a",
+      "category": "金属与资源",
+      "title": "Gold Prices Prediction : Gold , silver prices seen rising next week as US inflation data , West Asia tensions guide markets",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-seen-rising-next-week-as-us-inflation-data-west-asia-tensions-guide-markets/articleshow/133067433.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-09T12:45:00Z",
+      "fetchedAt": "2026-08-09T13:18:14.774Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-seen-rising-next-week-as-us-inflation-data-west-asia-tensions-guide-markets/articleshow/133067433.cms"
     },
     {
       "id": "fd4aacd40c383bdf",
@@ -1631,101 +1735,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://aceh.tribunnews.com/nanggroe/1037865/usk-dan-mubadala-energy-jajaki-kerja-sama-pengembangan-sdm"
-    },
-    {
-      "id": "6630b6de9fa45938",
-      "category": "能源与航运",
-      "title": "Iran says Strait of Hormuz deal is very close but will not free up waterway by itself – The Irish Times",
-      "url": "https://www.irishtimes.com/world/middle-east/2026/08/08/iran-says-strait-of-hormuz-deal-is-very-close-but-will-not-free-up-waterway-by-itself/",
-      "source": "irishtimes.com",
-      "publishedAt": "2026-08-08T14:45:00Z",
-      "fetchedAt": "2026-08-08T15:48:45.432Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Ireland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.irishtimes.com/world/middle-east/2026/08/08/iran-says-strait-of-hormuz-deal-is-very-close-but-will-not-free-up-waterway-by-itself/"
-    },
-    {
-      "id": "6c457e8b859f6bbb",
-      "category": "金属与资源",
-      "title": "Edwards and Heymans win gold with world U20 leads in Oregon | News | Oregon 26 | World Athletics U20 Championships",
-      "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/report/day-three-evening-field-oregon-26",
-      "source": "worldathletics.org",
-      "publishedAt": "2026-08-08T12:45:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/report/day-three-evening-field-oregon-26"
-    },
-    {
-      "id": "45cf5e28c26c4e70",
-      "category": "全球与地区",
-      "title": "India Insulated From US Tariffs on Russian Oil : Expert",
-      "url": "https://www.newkerala.com/news/a/america-actually-hurting-its-own-interest-indias-economy-750.htm",
-      "source": "newkerala.com",
-      "publishedAt": "2026-08-08T12:45:00Z",
-      "fetchedAt": "2026-08-08T13:14:43.351Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newkerala.com/news/a/america-actually-hurting-its-own-interest-indias-economy-750.htm"
     }
   ]
 }
