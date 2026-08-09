@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T15:49:29.490Z",
-  "newsUpdatedAt": "2026-08-09T15:49:29.490Z",
-  "assetsUpdatedAt": "2026-08-09T15:49:29.490Z",
+  "generatedAt": "2026-08-09T16:57:26.640Z",
+  "newsUpdatedAt": "2026-08-09T16:57:26.640Z",
+  "assetsUpdatedAt": "2026-08-09T16:57:26.640Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,327 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65181,
-      "changePercent": 0.2553069164519104,
+      "price": 65195,
+      "changePercent": 0.25513655131352353,
       "unit": "USD",
-      "asOf": "2026-08-09T15:48:30.000Z",
+      "asOf": "2026-08-09T16:55:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "b721a5ff1d097945",
+      "category": "数字资产",
+      "title": "Tagesanalyse : So entwickeln sich Bitcoin & Co . am Sonntagnachmittag",
+      "url": "https://www.finanzen.net/nachricht/devisen/so-bewegen-sich-bitcoin-co-heute-15861513",
+      "source": "finanzen.net",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/nachricht/devisen/so-bewegen-sich-bitcoin-co-heute-15861513"
+    },
+    {
+      "id": "55fc4e2d41a50f45",
+      "category": "能源与航运",
+      "title": "कच्चे तेल की कीमतों और पश्चिम एशिया तनाव से तय होगी इस हफ्ते बाजार की चाल , इन आंकड़ों पर रखें नजर - crude oil prices and tensions in west asia will determine the market s direction this week",
+      "url": "https://hindi.business-standard.com/markets/crude-oil-prices-and-tensions-in-west-asia-will-determine-the-market-s-direction-this-week-id-543221/",
+      "source": "hindi.business-standard.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hindi.business-standard.com/markets/crude-oil-prices-and-tensions-in-west-asia-will-determine-the-market-s-direction-this-week-id-543221/"
+    },
+    {
+      "id": "0a8a356a75de2ecf",
+      "category": "能源与航运",
+      "title": "Iran nêu loạt điều kiện với Mỹ để mở lại eo biển Hormuz",
+      "url": "https://vietgiaitri.com/iran-neu-loat-dieu-kien-voi-my-de-mo-lai-eo-bien-hormuz-20260809i7750333/",
+      "source": "vietgiaitri.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://vietgiaitri.com/iran-neu-loat-dieu-kien-voi-my-de-mo-lai-eo-bien-hormuz-20260809i7750333/"
+    },
+    {
+      "id": "1d9620eafec645b5",
+      "category": "金属与资源",
+      "title": "Gold - Silver Outlook : सोने - चांदी में तेजी के आसार ; महंगाई , पश्चिम एशिया तनाव पर निवेशकों की नजर - gold and silver likely to rally investors keep a close watch on inflation and west asia tensions",
+      "url": "https://hindi.business-standard.com/commodities/gold-and-silver-likely-to-rally-investors-keep-a-close-watch-on-inflation-and-west-asia-tensions-id-543241/",
+      "source": "hindi.business-standard.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hindi.business-standard.com/commodities/gold-and-silver-likely-to-rally-investors-keep-a-close-watch-on-inflation-and-west-asia-tensions-id-543241/"
+    },
+    {
+      "id": "440885467671e19a",
+      "category": "能源与航运",
+      "title": "Action Energy Company Reports H1 2026 Financial Results",
+      "url": "https://www.prnewswire.com/news-releases/action-energy-company-reports-h1-2026-financial-results-302846634.html",
+      "source": "prnewswire.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prnewswire.com/news-releases/action-energy-company-reports-h1-2026-financial-results-302846634.html"
+    },
+    {
+      "id": "7b07ddba52d2c4f7",
+      "category": "数字资产",
+      "title": "Diese Entwicklung in Japan könnte Bitcoin belasten",
+      "url": "http://www.kreiszeitung.de/wirtschaft/diese-entwicklung-in-japan-koennte-bitcoin-belasten-zr-94432998.html",
+      "source": "kreiszeitung.de",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.kreiszeitung.de/wirtschaft/diese-entwicklung-in-japan-koennte-bitcoin-belasten-zr-94432998.html"
+    },
+    {
+      "id": "1895e5069fcc77e0",
+      "category": "能源与航运",
+      "title": "Houthis claim attacks on Saudi oil facility and Yemeni port , and other Mideast news",
+      "url": "http://www.reflector.com/news/national/houthis-claim-attacks-on-saudi-oil-facility-and-yemeni-port-and-other-mideast-news/article_d934ce82-5521-5174-a179-a381d3f1431f.html",
+      "source": "reflector.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.reflector.com/news/national/houthis-claim-attacks-on-saudi-oil-facility-and-yemeni-port-and-other-mideast-news/article_d934ce82-5521-5174-a179-a381d3f1431f.html"
+    },
+    {
+      "id": "28170d837530bcf3",
+      "category": "全球与地区",
+      "title": "India can diversify exports away from US if 100 % tariffs imposed , has $200 bn market in 15 other countries : Economist SP Sharma",
+      "url": "http://www.middleeaststar.com/news/279228363/india-can-diversify-exports-away-from-us-if-100-tariffs-imposed-has-200-bn-market-in-15-other-countries-economist-sp-sharma",
+      "source": "middleeaststar.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.middleeaststar.com/news/279228363/india-can-diversify-exports-away-from-us-if-100-tariffs-imposed-has-200-bn-market-in-15-other-countries-economist-sp-sharma"
+    },
+    {
+      "id": "0e1cf821fa11d064",
+      "category": "能源与航运",
+      "title": "PANDEF hails Tinubu over 15 - year gas supply deal for UTM FLNG",
+      "url": "https://www.vanguardngr.com/2026/08/pandef-hails-tinubu-over-15-year-gas-supply-deal-for-utm-flng/",
+      "source": "vanguardngr.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vanguardngr.com/2026/08/pandef-hails-tinubu-over-15-year-gas-supply-deal-for-utm-flng/"
+    },
+    {
+      "id": "ca0805cb4eae9f03",
+      "category": "全球与地区",
+      "title": "Poilievre tells Carney in letter to not concede to U . S . demands in tariff talks",
+      "url": "https://www.chroniclejournal.com/news/national/poilievre-tells-carney-in-letter-to-not-concede-to-u-s-demands-in-tariff-talks/article_f2b4a91c-f2fc-5a67-b471-867d64080220.html",
+      "source": "chroniclejournal.com",
+      "publishedAt": "2026-08-09T16:00:00Z",
+      "fetchedAt": "2026-08-09T16:57:26.640Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chroniclejournal.com/news/national/poilievre-tells-carney-in-letter-to-not-concede-to-u-s-demands-in-tariff-talks/article_f2b4a91c-f2fc-5a67-b471-867d64080220.html"
+    },
     {
       "id": "29f0302c86a9efcd",
       "category": "能源与航运",
@@ -307,32 +616,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.jpost.com/middle-east/iran-news/article-904974"
-    },
-    {
-      "id": "63aa854121c4d3de",
-      "category": "数字资产",
-      "title": "Diese Entwicklung in Japan könnte Bitcoin belasten",
-      "url": "http://www.wa.de/wirtschaft/diese-entwicklung-in-japan-koennte-bitcoin-belasten-zr-94432998.html",
-      "source": "wa.de",
-      "publishedAt": "2026-08-09T15:15:00Z",
-      "fetchedAt": "2026-08-09T15:49:29.490Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.wa.de/wirtschaft/diese-entwicklung-in-japan-koennte-bitcoin-belasten-zr-94432998.html"
     },
     {
       "id": "ff1ec6bd28cc3a0c",
@@ -1426,311 +1709,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.heraldglobe.com/news/279227632/iran-fm-araghchi-says-hormuz-reopening-hinges-on-other-conditions-compensation-for-us-violation"
-    },
-    {
-      "id": "6937ec9d87bd603c",
-      "category": "能源与航运",
-      "title": "Iran Issues Trump Long List Of Demands Over Strait Of Hormuz Reopening",
-      "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/08/iran-says-us-must-meet-demands-before-strait-of-hormuz-reopens/",
-      "source": "forbes.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.forbes.com/sites/maryroeloffs/2026/08/08/iran-says-us-must-meet-demands-before-strait-of-hormuz-reopens/"
-    },
-    {
-      "id": "6fcd4d78e292455f",
-      "category": "能源与航运",
-      "title": "Egypt condemns attack on UAE oil tanker in Strait of Hormuz",
-      "url": "http://www.middleeaststar.com/news/279227603/egypt-condemns-attack-on-uae-oil-tanker-in-strait-of-hormuz",
-      "source": "middleeaststar.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.middleeaststar.com/news/279227603/egypt-condemns-attack-on-uae-oil-tanker-in-strait-of-hormuz"
-    },
-    {
-      "id": "3b3d583a461ec674",
-      "category": "能源与航运",
-      "title": "US accepting Iran conditions key to Hormuz reopening : IRGC , rules out Oman talks link",
-      "url": "http://www.heraldglobe.com/news/279227621/us-accepting-iran-conditions-key-to-hormuz-reopening-irgc-rules-out-oman-talks-link",
-      "source": "heraldglobe.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.heraldglobe.com/news/279227621/us-accepting-iran-conditions-key-to-hormuz-reopening-irgc-rules-out-oman-talks-link"
-    },
-    {
-      "id": "fe6b324893e7545d",
-      "category": "全球与地区",
-      "title": "America is actually hurting its own interest : India economy well - insulated against US tariffs on Russian oil , says Kotak Securities Expert",
-      "url": "http://www.caribbeanherald.com/news/279227532/america-is-actually-hurting-its-own-interest-india-economy-well-insulated-against-us-tariffs-on-russian-oil-says-kotak-securities-expert",
-      "source": "caribbeanherald.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.caribbeanherald.com/news/279227532/america-is-actually-hurting-its-own-interest-india-economy-well-insulated-against-us-tariffs-on-russian-oil-says-kotak-securities-expert"
-    },
-    {
-      "id": "ad9a7b59e5deaaf1",
-      "category": "能源与航运",
-      "title": "US Declared An Energy Emergency . Then Paid $4 Billion For Less Energy",
-      "url": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/",
-      "source": "forbes.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/"
-    },
-    {
-      "id": "37aa3437a6e52a71",
-      "category": "能源与航运",
-      "title": "Oman says Strait of Hormuz talks progressing in positive atmosphere – Middle East Monitor",
-      "url": "https://www.middleeastmonitor.com/20260808-oman-says-strait-of-hormuz-talks-progressing-in-positive-atmosphere/",
-      "source": "middleeastmonitor.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeastmonitor.com/20260808-oman-says-strait-of-hormuz-talks-progressing-in-positive-atmosphere/"
-    },
-    {
-      "id": "62314a39f049c661",
-      "category": "金属与资源",
-      "title": "NBFC gold loans continue near 70 % growth , reach Rs 3 . 41 lakh crore in June : RBI",
-      "url": "http://www.caribbeanherald.com/news/279227506/nbfc-gold-loans-continue-near-70-growth-reach-rs-341-lakh-crore-in-june-rbi",
-      "source": "caribbeanherald.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.caribbeanherald.com/news/279227506/nbfc-gold-loans-continue-near-70-growth-reach-rs-341-lakh-crore-in-june-rbi"
-    },
-    {
-      "id": "153715b935279a83",
-      "category": "能源与航运",
-      "title": "US expects Iran to ensure safe oil flow through Strait of Hormuz : Vance",
-      "url": "https://www.middleeastmonitor.com/20260808-us-expects-iran-to-ensure-safe-oil-flow-through-strait-of-hormuz-vance/",
-      "source": "middleeastmonitor.com",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeastmonitor.com/20260808-us-expects-iran-to-ensure-safe-oil-flow-through-strait-of-hormuz-vance/"
-    },
-    {
-      "id": "6628cce22a92cff6",
-      "category": "科技与产业",
-      "title": "La IA que transforma robots : ¡ Llega Figure Zero Three !",
-      "url": "https://acentotv.acento.com.do/gikplus/la-ia-que-transforma-robots-llega-figure-zero-three-54472.html",
-      "source": "acentotv.acento.com.do",
-      "publishedAt": "2026-08-08T17:15:00Z",
-      "fetchedAt": "2026-08-08T17:48:21.601Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Dominican Republic"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://acentotv.acento.com.do/gikplus/la-ia-que-transforma-robots-llega-figure-zero-three-54472.html"
     }
   ]
 }
