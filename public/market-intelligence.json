@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-09T07:20:02.123Z",
+  "generatedAt": "2026-08-09T09:04:46.288Z",
   "newsUpdatedAt": "2026-08-08T22:49:43.529Z",
-  "assetsUpdatedAt": "2026-08-09T07:20:02.123Z",
+  "assetsUpdatedAt": "2026-08-09T09:04:46.288Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64807,
-      "changePercent": -0.22997823758513578,
+      "price": 64783,
+      "changePercent": -0.2775228717154302,
       "unit": "USD",
-      "asOf": "2026-08-09T07:19:00.000Z",
+      "asOf": "2026-08-09T09:03:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
