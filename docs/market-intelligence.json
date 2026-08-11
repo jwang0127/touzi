@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-11T02:30:03.657Z",
-  "newsUpdatedAt": "2026-08-10T21:04:10.625Z",
-  "assetsUpdatedAt": "2026-08-11T02:30:03.657Z",
+  "generatedAt": "2026-08-11T04:42:38.208Z",
+  "newsUpdatedAt": "2026-08-11T04:42:38.208Z",
+  "assetsUpdatedAt": "2026-08-11T04:42:38.208Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3956.12,
-      "changePercent": -0.26,
+      "price": 3964.79,
+      "changePercent": -0.05,
       "unit": "CNY",
-      "asOf": "2026-08-11T10:30:39+08:00",
+      "asOf": "2026-08-11T12:05:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14358.84,
-      "changePercent": 0.29,
+      "price": 14410.34,
+      "changePercent": 0.65,
       "unit": "CNY",
-      "asOf": "2026-08-11T10:30:39+08:00",
+      "asOf": "2026-08-11T12:05:45+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25915.82,
-      "changePercent": -0.08,
+      "price": 25773.56,
+      "changePercent": -0.63,
       "unit": "HKD",
-      "asOf": "2026-08-11T10:15:42+08:00",
+      "asOf": "2026-08-11T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8623.44,
-      "changePercent": 0.02,
+      "price": 8569.1,
+      "changePercent": -0.61,
       "unit": "HKD",
-      "asOf": "2026-08-11T10:15:42+08:00",
+      "asOf": "2026-08-11T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4488.81,
-      "changePercent": 1.56,
+      "price": 4466.68,
+      "changePercent": 1.06,
       "unit": "USD",
-      "asOf": "2026-08-11T10:30:02-04:00",
+      "asOf": "2026-08-11T12:43:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.3,
-      "changePercent": 0.21,
+      "price": 82.17,
+      "changePercent": 0.05,
       "unit": "USD",
-      "asOf": "2026-08-11T10:30:01-04:00",
+      "asOf": "2026-08-11T12:43:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 665.59,
-      "changePercent": 0.6,
+      "price": 664.93,
+      "changePercent": 0.5,
       "unit": "USD",
-      "asOf": "2026-08-11T10:30:02-04:00",
+      "asOf": "2026-08-11T12:42:53-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,268 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64002,
-      "changePercent": -1.4020620143404483,
+      "price": 64041,
+      "changePercent": -1.3668885325278637,
       "unit": "USD",
-      "asOf": "2026-08-11T02:28:30.000Z",
+      "asOf": "2026-08-11T04:41:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "ca476d15eafb5532",
+      "category": "数字资产",
+      "title": "US Senate advances bill creating crypto rulebook",
+      "url": "http://www.afghanistannews.net/news/279227792/us-senate-advances-bill-creating-crypto-rulebook",
+      "source": "afghanistannews.net",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Afghanistan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.afghanistannews.net/news/279227792/us-senate-advances-bill-creating-crypto-rulebook"
+    },
+    {
+      "id": "03b92a15d26f48b3",
+      "category": "能源与航运",
+      "title": "Singapore non - oil domestic exports surge 27 . 4 pct in Q2 - Xinhua",
+      "url": "https://english.news.cn/20260811/d4c28fe6fef7461f83e589f13239a840/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260811/d4c28fe6fef7461f83e589f13239a840/c.html"
+    },
+    {
+      "id": "5aa9af9928dc2ed4",
+      "category": "全球与地区",
+      "title": "Middle East conflict fears weigh on wall street as energy prices surge",
+      "url": "http://www.afghanistannews.net/news/279233699/middle-east-conflict-fears-weigh-on-wall-street-as-energy-prices-surge",
+      "source": "afghanistannews.net",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Afghanistan"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.afghanistannews.net/news/279233699/middle-east-conflict-fears-weigh-on-wall-street-as-energy-prices-surge"
+    },
+    {
+      "id": "6d36ad159e175b97",
+      "category": "科技与产业",
+      "title": "GCT Semiconductor Q2 Earnings Call Highlights",
+      "url": "https://www.tickerreport.com/banking-finance/13537964/gct-semiconductor-q2-earnings-call-highlights.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13537964/gct-semiconductor-q2-earnings-call-highlights.html"
+    },
+    {
+      "id": "93cce9ce5beece91",
+      "category": "科技与产业",
+      "title": "Figure 03 Humanoid Robot Climbs Ladder Autonomously in New Demo",
+      "url": "https://www.techrepublic.com/article/news-figure-03-robot-autonomous-ladder-climb/",
+      "source": "techrepublic.com",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.techrepublic.com/article/news-figure-03-robot-autonomous-ladder-climb/"
+    },
+    {
+      "id": "fc4c5c26d96effba",
+      "category": "能源与航运",
+      "title": "Trump Balik Tuntut Iran Bayar Kompensasi , Pembukaan Selat Hormuz Terancam Makin Rumit",
+      "url": "https://aceh.tribunnews.com/news/1038208/trump-balik-tuntut-iran-bayar-kompensasi-pembukaan-selat-hormuz-terancam-makin-rumit",
+      "source": "aceh.tribunnews.com",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aceh.tribunnews.com/news/1038208/trump-balik-tuntut-iran-bayar-kompensasi-pembukaan-selat-hormuz-terancam-makin-rumit"
+    },
+    {
+      "id": "8cfbfa1d585a7383",
+      "category": "金属与资源",
+      "title": "Promising Gold Stocks To Consider – August 9th",
+      "url": "https://www.themarketsdaily.com/2026/08/11/promising-gold-stocks-to-consider-august-9th.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/11/promising-gold-stocks-to-consider-august-9th.html"
+    },
+    {
+      "id": "bea78602dfe2a13f",
+      "category": "金属与资源",
+      "title": "Former Silver Fern captain Ana Noovao dies aged 58",
+      "url": "https://www.indianweekender.co.nz/news/former-silver-fern-captain-ana-noovao-dies-aged-58",
+      "source": "indianweekender.co.nz",
+      "publishedAt": "2026-08-11T04:15:00Z",
+      "fetchedAt": "2026-08-11T04:42:38.208Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "New Zealand"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.indianweekender.co.nz/news/former-silver-fern-captain-ana-noovao-dies-aged-58"
+    },
     {
       "id": "354de8e9007c0694",
       "category": "全球与地区",
@@ -1443,272 +1693,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.livemint.com/companies/exxon-links-new-80-billion-kazakh-oil-venture-to-feud-end-11786312972181.html"
-    },
-    {
-      "id": "716863c7409bf4cf",
-      "category": "能源与航运",
-      "title": "Oil extends gains as Hormuz deal remains elusive",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/08/10/oil-extends-gains-as-hormuz-deal-remains-elusive",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-08-09T23:30:00Z",
-      "fetchedAt": "2026-08-09T23:49:50.959Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/business/2026/08/10/oil-extends-gains-as-hormuz-deal-remains-elusive"
-    },
-    {
-      "id": "8e531a1f44a503f3",
-      "category": "能源与航运",
-      "title": "Israel rejects Trump Gaza plan , more details emerge on Strait of Hormuz",
-      "url": "https://www.ipswichstar.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/",
-      "source": "ipswichstar.co.uk",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ipswichstar.co.uk/news/national/26449119.israel-rejects-trumps-gaza-plan-details-emerge-strait-hormuz/"
-    },
-    {
-      "id": "74f3e8cb503640a4",
-      "category": "能源与航运",
-      "title": "Trump Iran Nuclear Deal Ceasefire Plan | Hormuz Strait Update",
-      "url": "https://www.bhaskar.com/international/news/trump-iran-hormuz-nuclear-deal-ceasefire-news-138680382.html",
-      "source": "bhaskar.com",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bhaskar.com/international/news/trump-iran-hormuz-nuclear-deal-ceasefire-news-138680382.html"
-    },
-    {
-      "id": "e713158e52111e6a",
-      "category": "能源与航运",
-      "title": "Markets live updates : ASX set to lift after Wall St record close , oil prices edge higher",
-      "url": "https://www.abc.net.au/news/2026-08-10/asx-markets-business-live-news/107014540",
-      "source": "abc.net.au",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.abc.net.au/news/2026-08-10/asx-markets-business-live-news/107014540"
-    },
-    {
-      "id": "7c8f7b0a72490037",
-      "category": "金属与资源",
-      "title": "Or du Mali : B2Gold obtient le permis dexploitation de la grande mine de Menankoto - Sud",
-      "url": "http://www.seneweb.com/fr/news/Afrique/or-du-mali-b2gold-obtient-le-permis-dexploitation-de-la-grande-mine-de-menankoto-sud_n_500849.html",
-      "source": "seneweb.com",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Senegal"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.seneweb.com/fr/news/Afrique/or-du-mali-b2gold-obtient-le-permis-dexploitation-de-la-grande-mine-de-menankoto-sud_n_500849.html"
-    },
-    {
-      "id": "fd85c5b07cb9ff2d",
-      "category": "金属与资源",
-      "title": "Prospectors unconvinced by World Heritage bid for Victorian goldfields",
-      "url": "https://www.abc.net.au/news/2026-08-10/goldfields-world-heritage-bid-gold-rush-prospectors-fears/106993404",
-      "source": "abc.net.au",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.abc.net.au/news/2026-08-10/goldfields-world-heritage-bid-gold-rush-prospectors-fears/106993404"
-    },
-    {
-      "id": "5fca8c37c30815bf",
-      "category": "数字资产",
-      "title": "Prediction : This Cryptocurrency Could Go Parabolic After the 2026 Midterm Elections",
-      "url": "https://www.fool.com/investing/2026/08/09/prediction-this-cryptocurrency-could-go-parabolic/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "publishedAt": "2026-08-09T22:30:00Z",
-      "fetchedAt": "2026-08-09T22:52:34.108Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/08/09/prediction-this-cryptocurrency-could-go-parabolic/?source=iedfolrf0000001"
-    },
-    {
-      "id": "3c331862bc965667",
-      "category": "金属与资源",
-      "title": "Maaden Q2 profit climbs 13pc on higher commodities , strong gold sales",
-      "url": "https://tradearabia.com:443/News/466362/Maaden-Q2-profit-climbs-13pc-on-higher-commodities-strong-gold-sales",
-      "source": "tradearabia.com",
-      "publishedAt": "2026-08-09T20:45:00Z",
-      "fetchedAt": "2026-08-09T21:50:14.283Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Arab Emirates"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tradearabia.com:443/News/466362/Maaden-Q2-profit-climbs-13pc-on-higher-commodities-strong-gold-sales"
     }
   ]
 }
