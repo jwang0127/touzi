@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-12T21:05:41.329Z",
-  "newsUpdatedAt": "2026-08-12T19:29:38.570Z",
-  "assetsUpdatedAt": "2026-08-12T21:05:41.329Z",
+  "generatedAt": "2026-08-12T22:05:36.189Z",
+  "newsUpdatedAt": "2026-08-12T22:05:36.189Z",
+  "assetsUpdatedAt": "2026-08-12T22:05:36.189Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -77,7 +75,7 @@
       "price": 26588.49,
       "changePercent": 0.54,
       "unit": "USD",
-      "asOf": "2026-08-12T17:06:00-04:00",
+      "asOf": "2026-08-12T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4471.51,
-      "changePercent": 0.68,
+      "price": 4462.48,
+      "changePercent": -0.11,
       "unit": "USD",
-      "asOf": "2026-08-13T04:59:55-04:00",
+      "asOf": "2026-08-13T06:06:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.56,
-      "changePercent": -0.77,
+      "price": 82.76,
+      "changePercent": -0.61,
       "unit": "USD",
-      "asOf": "2026-08-13T04:59:59-04:00",
+      "asOf": "2026-08-13T06:06:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.69,
-      "changePercent": -0.41,
+      "price": 660.19,
+      "changePercent": -0.21,
       "unit": "USD",
-      "asOf": "2026-08-13T04:59:59-04:00",
+      "asOf": "2026-08-13T06:06:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,317 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63552,
-      "changePercent": -0.20508216654576417,
+      "price": 63428,
+      "changePercent": -0.3970054664247524,
       "unit": "USD",
-      "asOf": "2026-08-12T21:03:50.000Z",
+      "asOf": "2026-08-12T22:04:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e08d3a2b8401dd88",
+      "category": "金属与资源",
+      "title": "Gold Prices Rise Across India Amid Strong Global Demand",
+      "url": "https://kashmirlife.net/gold-prices-rise-across-india-amid-strong-global-demand-447737/",
+      "source": "kashmirlife.net",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://kashmirlife.net/gold-prices-rise-across-india-amid-strong-global-demand-447737/"
+    },
+    {
+      "id": "4fe020118aead20d",
+      "category": "能源与航运",
+      "title": "Dangote Refinery : Domestic crude must be available , commercially viable",
+      "url": "https://hallmarknews.com/dangote-refinery-domestic-crude-must-be-available-commercially-viable/",
+      "source": "hallmarknews.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hallmarknews.com/dangote-refinery-domestic-crude-must-be-available-commercially-viable/"
+    },
+    {
+      "id": "9cb92c9c4aa86b1a",
+      "category": "科技与产业",
+      "title": "Pudu Robotics lanza PUDU ET1 , un robot fregador - secador compacto con IA para pequeños espacios comerciales ( 2 )",
+      "url": "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-pudu-robotics-lanza-pudu-et1-robot-fregador-secador-compacto-ia-pequenos-espacios-comerciales-20260812201833.html",
+      "source": "europapress.es",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-pudu-robotics-lanza-pudu-et1-robot-fregador-secador-compacto-ia-pequenos-espacios-comerciales-20260812201833.html"
+    },
+    {
+      "id": "ee5dca8af495931d",
+      "category": "金属与资源",
+      "title": "Team Brad Jacobs headlines Henderson Metal Fall Classic",
+      "url": "https://www.timminspress.com/news/team-brad-jacobs-headlines-henderson-metal-fall-classic",
+      "source": "timminspress.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.timminspress.com/news/team-brad-jacobs-headlines-henderson-metal-fall-classic"
+    },
+    {
+      "id": "a761d8b3960c957f",
+      "category": "能源与航运",
+      "title": "Trump doubles down on control of Strait of Hormuz as Iran pushes back",
+      "url": "https://www.kristv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back",
+      "source": "kristv.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kristv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back"
+    },
+    {
+      "id": "aea691249abbcb14",
+      "category": "科技与产业",
+      "title": "ACA Robotics Team Success at Chicago Invitational | Education",
+      "url": "https://www.dailygazette.com/ade/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html",
+      "source": "dailygazette.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailygazette.com/ade/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html"
+    },
+    {
+      "id": "f9b3458adb5fdb7d",
+      "category": "科技与产业",
+      "title": "Mechanicville students win at Chicago robotics meet | Education",
+      "url": "https://www.dailygazette.com/hv360/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html",
+      "source": "dailygazette.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailygazette.com/hv360/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html"
+    },
+    {
+      "id": "733aa8e491ed4a5f",
+      "category": "金属与资源",
+      "title": "Pan American Silver Reports Second Quarter 2026 Financial Results",
+      "url": "https://montrealgazette.com/press-releases/business-wire/pan-american-silver-reports-second-quarter-2026-financial-results/",
+      "source": "montrealgazette.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://montrealgazette.com/press-releases/business-wire/pan-american-silver-reports-second-quarter-2026-financial-results/"
+    },
+    {
+      "id": "045bfbd3c98b806a",
+      "category": "能源与航运",
+      "title": "T1 Energy Aktie : 88 Prozent Umsatzsprung übertrifft Analysten",
+      "url": "https://www.boerse-express.com/news/articles/t1-energy-aktie-88-prozent-umsatzsprung-uebertrifft-analysten-938084",
+      "source": "boerse-express.com",
+      "publishedAt": "2026-08-12T21:45:00Z",
+      "fetchedAt": "2026-08-12T22:05:36.189Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boerse-express.com/news/articles/t1-energy-aktie-88-prozent-umsatzsprung-uebertrifft-analysten-938084"
+    },
     {
       "id": "a6d740feb4e0d040",
       "category": "能源与航运",
@@ -229,41 +528,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.prnewswire.com/news-releases/equity-trust-launches-crypto-ira-lineup-with-automated-and-self-trading-investing-options-302850023.html"
-    },
-    {
-      "id": "7f0c0517ae9cb9fa",
-      "category": "能源与航运",
-      "title": "Trump doubles down on control of Strait of Hormuz as Iran pushes back",
-      "url": "https://www.krtv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back",
-      "source": "krtv.com",
-      "publishedAt": "2026-08-12T19:00:00Z",
-      "fetchedAt": "2026-08-12T19:29:38.570Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.krtv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back"
     },
     {
       "id": "e5f05b83b24545f0",
@@ -1436,270 +1700,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://navbharattimes.indiatimes.com/world/uae/iran-six-conditions-before-us-to-open-strait-of-hormuz-will-trump-agree/articleshow/133126697.cms"
-    },
-    {
-      "id": "20dba6315ef38f75",
-      "category": "全球与地区",
-      "title": "Trump says will demand conflict compensation from Iran",
-      "url": "https://www.euronews.com/2026/08/10/trump-says-will-demand-conflict-compensation-from-iran-as-part-of-peace-talks",
-      "source": "euronews.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.euronews.com/2026/08/10/trump-says-will-demand-conflict-compensation-from-iran-as-part-of-peace-talks"
-    },
-    {
-      "id": "70c52867a88ce1a2",
-      "category": "全球与地区",
-      "title": "Iran Sets Tough Conditions for Reopening Strait of Hormuz , Demands Sanctions Relief and War Reparations",
-      "url": "http://silverbirdtv.com/iran-sets-tough-conditions-for-reopening-strait-of-hormuz-demands-sanctions-relief-and-war-reparations/",
-      "source": "silverbirdtv.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://silverbirdtv.com/iran-sets-tough-conditions-for-reopening-strait-of-hormuz-demands-sanctions-relief-and-war-reparations/"
-    },
-    {
-      "id": "7d0c3daaaf8f51de",
-      "category": "金属与资源",
-      "title": "Manipur CM felicitates Commonwealth Games silver medallist Rishikanta Singh",
-      "url": "https://www.prokerala.com/news/articles/a1798803.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1798803.html"
-    },
-    {
-      "id": "ceef24d811165bed",
-      "category": "能源与航运",
-      "title": "Sensex , Nifty end flat as profit booking , rising crude offset early gains",
-      "url": "http://www.taiwansun.com/news/279229443/sensex-nifty-end-flat-as-profit-booking-rising-crude-offset-early-gains",
-      "source": "taiwansun.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.taiwansun.com/news/279229443/sensex-nifty-end-flat-as-profit-booking-rising-crude-offset-early-gains"
-    },
-    {
-      "id": "b3f2465c2d82e6de",
-      "category": "金属与资源",
-      "title": "Hindustan Copper Q1 net profit jumps 162 % to Rs 352 crore as revenue rises 81 %",
-      "url": "http://www.indiagazette.com/news/279229531/hindustan-copper-q1-net-profit-jumps-162-to-rs-352-crore-as-revenue-rises-81",
-      "source": "indiagazette.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.indiagazette.com/news/279229531/hindustan-copper-q1-net-profit-jumps-162-to-rs-352-crore-as-revenue-rises-81"
-    },
-    {
-      "id": "378563eebe34a89f",
-      "category": "能源与航运",
-      "title": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia",
-      "url": "https://www.bostonglobe.com/2026/08/09/world/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia/",
-      "source": "bostonglobe.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bostonglobe.com/2026/08/09/world/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia/"
-    },
-    {
-      "id": "5239b8a33467bac3",
-      "category": "能源与航运",
-      "title": "Trump extends Jones Act waiver 90 days for foreign ships moving energy , fertilizers",
-      "url": "https://www.newsday.com/news/nation/trump-jones-act-foreign-ships-waiver-w98630",
-      "source": "newsday.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newsday.com/news/nation/trump-jones-act-foreign-ships-waiver-w98630"
-    },
-    {
-      "id": "f6b3f0aa02b37024",
-      "category": "科技与产业",
-      "title": "Çin robot bazarını ələ keçirdi : Qlobal tədarükün 97 %- i Pekinin payına düşür",
-      "url": "https://musavat.com/news/cin-robot-bazarini-ele-kecirdi-qlobal-tedarukun-97-i-pekinin-payina-dusur_1281296.html",
-      "source": "musavat.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://musavat.com/news/cin-robot-bazarini-ele-kecirdi-qlobal-tedarukun-97-i-pekinin-payina-dusur_1281296.html"
     }
   ]
 }
