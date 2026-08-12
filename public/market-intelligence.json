@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-12T02:47:21.771Z",
-  "newsUpdatedAt": "2026-08-11T11:08:47.104Z",
-  "assetsUpdatedAt": "2026-08-12T02:47:21.771Z",
+  "generatedAt": "2026-08-12T05:07:25.859Z",
+  "newsUpdatedAt": "2026-08-12T05:07:25.859Z",
+  "assetsUpdatedAt": "2026-08-12T05:07:25.859Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3942.02,
-      "changePercent": 0.2,
+      "price": 3944.22,
+      "changePercent": 0.26,
       "unit": "CNY",
-      "asOf": "2026-08-12T10:48:03+08:00",
+      "asOf": "2026-08-12T13:09:03+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14411.11,
-      "changePercent": 1.06,
+      "price": 14432.07,
+      "changePercent": 1.21,
       "unit": "CNY",
-      "asOf": "2026-08-12T10:48:00+08:00",
+      "asOf": "2026-08-12T13:09:03+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25374.99,
-      "changePercent": -1.08,
+      "price": 25352.13,
+      "changePercent": -1.17,
       "unit": "HKD",
-      "asOf": "2026-08-12T10:32:58+08:00",
+      "asOf": "2026-08-12T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8424.22,
-      "changePercent": -1.22,
+      "price": 8420.08,
+      "changePercent": -1.27,
       "unit": "HKD",
-      "asOf": "2026-08-12T10:32:58+08:00",
+      "asOf": "2026-08-12T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4467.95,
-      "changePercent": 0.6,
+      "price": 4464.63,
+      "changePercent": 0.53,
       "unit": "USD",
-      "asOf": "2026-08-12T10:47:02-04:00",
+      "asOf": "2026-08-12T13:08:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.07,
-      "changePercent": 1.05,
+      "price": 83.75,
+      "changePercent": 0.66,
       "unit": "USD",
-      "asOf": "2026-08-12T10:47:06-04:00",
+      "asOf": "2026-08-12T13:07:46-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.55,
-      "changePercent": 0.17,
+      "price": 665.97,
+      "changePercent": 0.39,
       "unit": "USD",
-      "asOf": "2026-08-12T10:46:33-04:00",
+      "asOf": "2026-08-12T13:08:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,144 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63714,
-      "changePercent": -0.4369162479974309,
+      "price": 63678,
+      "changePercent": -0.4764022431643143,
       "unit": "USD",
-      "asOf": "2026-08-12T02:46:30.000Z",
+      "asOf": "2026-08-12T05:07:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f0a16e0ac6dadc58",
+      "category": "全球与地区",
+      "title": "Nirmala Sitharaman Vande Bharat ride : Economy , geopolitics and a candid youth conversation",
+      "url": "https://www.moneycontrol.com/news/india/fm-sitharaman-travels-by-vande-bharat-for-brics-meet-in-jaipur-engages-with-students-on-economy-geopolitics-14002602.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-08-12T04:45:00Z",
+      "fetchedAt": "2026-08-12T05:07:25.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/india/fm-sitharaman-travels-by-vande-bharat-for-brics-meet-in-jaipur-engages-with-students-on-economy-geopolitics-14002602.html"
+    },
+    {
+      "id": "e99fc954cf506844",
+      "category": "能源与航运",
+      "title": "Uganda , Tanzania Tanga regional energy hub could strengthen energy security , reduce exposure – Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/uganda-tanzania-tanga-regional-energy-hub-could-strengthen-energy-security-reduce-exposure/",
+      "source": "channelafrica.co.za",
+      "publishedAt": "2026-08-12T04:45:00Z",
+      "fetchedAt": "2026-08-12T05:07:25.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.channelafrica.co.za/channelafrica/news/uganda-tanzania-tanga-regional-energy-hub-could-strengthen-energy-security-reduce-exposure/"
+    },
+    {
+      "id": "7b781ec8e93861df",
+      "category": "能源与航运",
+      "title": "GIFT Nifty signals mildly positive start for Sensex , Nifty ; US inflation data , rising oil prices in focus",
+      "url": "https://www.moneycontrol.com/news/business/markets/gift-nifty-signals-mildly-positive-start-for-sensex-nifty-us-inflation-data-rising-oil-prices-in-focus-14002473.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-08-12T04:45:00Z",
+      "fetchedAt": "2026-08-12T05:07:25.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/business/markets/gift-nifty-signals-mildly-positive-start-for-sensex-nifty-us-inflation-data-rising-oil-prices-in-focus-14002473.html"
+    },
+    {
+      "id": "3d405b30af3d3d82",
+      "category": "金属与资源",
+      "title": "Miata Metals Announces Filing of Final Short Form Prospectus – Accessible on SEDAR+",
+      "url": "https://leaderpost.com/press-releases/globe-newswire/miata-metals-announces-filing-of-final-short-form-prospectus-accessible-on-sedar/",
+      "source": "leaderpost.com",
+      "publishedAt": "2026-08-12T04:45:00Z",
+      "fetchedAt": "2026-08-12T05:07:25.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://leaderpost.com/press-releases/globe-newswire/miata-metals-announces-filing-of-final-short-form-prospectus-accessible-on-sedar/"
+    },
     {
       "id": "c837f41d9e50f1d8",
       "category": "金属与资源",
@@ -1567,137 +1695,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.smh.com.au/business/companies/dalaroo-set-for-first-drilling-of-three-key-c-te-d-ivoire-gold-targets-20260810-p60n1b.html"
-    },
-    {
-      "id": "755f822fc959bb8d",
-      "category": "能源与航运",
-      "title": "Iran demands new U . S . concessions to reopen Strait of Hormuz",
-      "url": "https://www.koco.com/article/iran-demands-new-us-concessions-to-reopen-strait-of-hormuz/73385083",
-      "source": "koco.com",
-      "publishedAt": "2026-08-10T06:15:00Z",
-      "fetchedAt": "2026-08-10T06:44:18.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.koco.com/article/iran-demands-new-us-concessions-to-reopen-strait-of-hormuz/73385083"
-    },
-    {
-      "id": "a1d2fd6fa3636bd9",
-      "category": "金属与资源",
-      "title": "Gold eases from seven - week peak , US inflation data looms",
-      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-eases-seven-week-peak-us-inflation-data-looms",
-      "source": "businesstimes.com.sg",
-      "publishedAt": "2026-08-10T06:15:00Z",
-      "fetchedAt": "2026-08-10T06:44:18.163Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Singapore"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-eases-seven-week-peak-us-inflation-data-looms"
-    },
-    {
-      "id": "7b3a548b56b72ea4",
-      "category": "A股与政策",
-      "title": "股海导航 _ 2026年8月10日 _ 沪深股市公告与交易提示",
-      "url": "https://finance.sina.com.cn/stock/s/2026-08-10/doc-inimuriv8275911.shtml",
-      "source": "finance.sina.com.cn",
-      "publishedAt": "2026-08-09T23:30:00Z",
-      "fetchedAt": "2026-08-09T23:49:50.959Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.sina.com.cn/stock/s/2026-08-10/doc-inimuriv8275911.shtml"
-    },
-    {
-      "id": "420d22f6d61e6760",
-      "category": "能源与航运",
-      "title": "Iran Loading Port is Quiet , But Gulf Oil is Getting Through Hormuz",
-      "url": "https://maritime-executive.com/article/iran-s-loading-port-is-quiet-but-gulf-oil-is-getting-through-hormuz",
-      "source": "maritime-executive.com",
-      "publishedAt": "2026-08-09T23:30:00Z",
-      "fetchedAt": "2026-08-09T23:49:50.959Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://maritime-executive.com/article/iran-s-loading-port-is-quiet-but-gulf-oil-is-getting-through-hormuz"
     }
   ]
 }
