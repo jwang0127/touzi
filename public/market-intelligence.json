@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-12T17:16:29.161Z",
-  "newsUpdatedAt": "2026-08-12T16:14:02.373Z",
-  "assetsUpdatedAt": "2026-08-12T17:16:29.161Z",
+  "generatedAt": "2026-08-12T18:11:17.886Z",
+  "newsUpdatedAt": "2026-08-12T18:11:17.886Z",
+  "assetsUpdatedAt": "2026-08-12T18:11:17.886Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53794.55,
-      "changePercent": 0.01,
+      "price": 53810.57,
+      "changePercent": 0.03,
       "unit": "USD",
-      "asOf": "2026-08-12T13:17:00-04:00",
+      "asOf": "2026-08-12T14:12:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26609.34,
-      "changePercent": 0.62,
+      "price": 26616.35,
+      "changePercent": 0.65,
       "unit": "USD",
-      "asOf": "2026-08-12T13:17:00-04:00",
+      "asOf": "2026-08-12T14:12:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7750.15,
-      "changePercent": 0.28,
+      "price": 7754.31,
+      "changePercent": 0.34,
       "unit": "USD",
-      "asOf": "2026-08-12T13:16:59-04:00",
+      "asOf": "2026-08-12T14:12:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4467.33,
-      "changePercent": 0.59,
+      "price": 4469.13,
+      "changePercent": 0.63,
       "unit": "USD",
-      "asOf": "2026-08-13T01:16:00-04:00",
+      "asOf": "2026-08-13T02:11:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.03,
-      "changePercent": -0.2,
+      "price": 82.82,
+      "changePercent": -0.45,
       "unit": "USD",
-      "asOf": "2026-08-13T01:16:03-04:00",
+      "asOf": "2026-08-13T02:12:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.75,
-      "changePercent": -0.4,
+      "price": 661.18,
+      "changePercent": -0.33,
       "unit": "USD",
-      "asOf": "2026-08-13T01:16:02-04:00",
+      "asOf": "2026-08-13T02:12:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,149 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63474,
-      "changePercent": 0.04387824865534608,
+      "price": 63399,
+      "changePercent": -0.1637080885059796,
       "unit": "USD",
-      "asOf": "2026-08-12T17:15:30.000Z",
+      "asOf": "2026-08-12T18:10:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c6ec931f2e2b6a65",
+      "category": "科技与产业",
+      "title": "Чемпионат по робототехнике RobotChallenge 2026 : кадры встречи участников",
+      "url": "https://iz.ru/2148073/opublikovany-kadry-vstrechi-prizerov-mezhdunarodnogo-chempionata-po-robototekhnike-izi",
+      "source": "iz.ru",
+      "publishedAt": "2026-08-12T17:45:00Z",
+      "fetchedAt": "2026-08-12T18:11:17.886Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://iz.ru/2148073/opublikovany-kadry-vstrechi-prizerov-mezhdunarodnogo-chempionata-po-robototekhnike-izi"
+    },
+    {
+      "id": "037a7af964281995",
+      "category": "金属与资源",
+      "title": "516 copper coins unearthed during pond work near Pudukottai",
+      "url": "https://timesofindia.indiatimes.com/city/trichy/516-copper-coins-unearthed-during-pond-work-near-pudukottai/articleshow/133188721.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-12T17:30:00Z",
+      "fetchedAt": "2026-08-12T18:11:17.886Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/city/trichy/516-copper-coins-unearthed-during-pond-work-near-pudukottai/articleshow/133188721.cms"
+    },
+    {
+      "id": "30c18fd8b769833a",
+      "category": "能源与航运",
+      "title": "IEA e OPEP divergem nas previsões de procura de petróleo com fecho prolongado de Hormuz",
+      "url": "https://pt.euronews.com/business/2026/08/12/iea-e-opep-divergem-nas-previsoes-de-procura-de-petroleo-com-fecho-prolongado-de-hormuz",
+      "source": "pt.euronews.com",
+      "publishedAt": "2026-08-12T17:30:00Z",
+      "fetchedAt": "2026-08-12T18:11:17.886Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pt.euronews.com/business/2026/08/12/iea-e-opep-divergem-nas-previsoes-de-procura-de-petroleo-com-fecho-prolongado-de-hormuz"
+    },
+    {
+      "id": "a7e3aef94a4ca181",
+      "category": "科技与产业",
+      "title": "Mẫu điện thoại Trung Quốc Robot Phone tích hợp camera chống rung gimbal 200MP",
+      "url": "https://baomoi.com/mau-dien-thoai-trung-quoc-robot-phone-tich-hop-camera-chong-rung-gimbal-200mp-c55821009.epi",
+      "source": "baomoi.com",
+      "publishedAt": "2026-08-12T17:30:00Z",
+      "fetchedAt": "2026-08-12T18:11:17.886Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://baomoi.com/mau-dien-thoai-trung-quoc-robot-phone-tich-hop-camera-chong-rung-gimbal-200mp-c55821009.epi"
+    },
     {
       "id": "4afd4706a5feb88a",
       "category": "能源与航运",
@@ -1570,133 +1701,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20260810/4485324.html"
-    },
-    {
-      "id": "08fa9a3b1ba21d8b",
-      "category": "数字资产",
-      "title": "Hedge Funds Made Their Rarest Bitcoin Bet in Years , But 2 Charts Say Wait",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/hedge-funds-made-rarest-bitcoin-120000987.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "fetchedAt": "2026-08-10T13:47:47.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/hedge-funds-made-rarest-bitcoin-120000987.html"
-    },
-    {
-      "id": "bbbd661019e41901",
-      "category": "能源与航运",
-      "title": "Food Prices Rose In July Amid Heatwaves And Energy Price Hikes",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69265269-food-prices-rose-in-july-amid-heatwaves-and-energy-price-hikes-020.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "fetchedAt": "2026-08-10T13:47:47.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69265269-food-prices-rose-in-july-amid-heatwaves-and-energy-price-hikes-020.htm"
-    },
-    {
-      "id": "e02967f758bf9e05",
-      "category": "能源与航运",
-      "title": "Iran ties Hormuz reopening to US concessions on demands",
-      "url": "https://www.sconeadvocate.com.au/story/9326889/iran-ties-hormuz-reopening-to-us-concessions-on-demands/",
-      "source": "sconeadvocate.com.au",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "fetchedAt": "2026-08-10T13:47:47.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sconeadvocate.com.au/story/9326889/iran-ties-hormuz-reopening-to-us-concessions-on-demands/"
-    },
-    {
-      "id": "24fc539703979d81",
-      "category": "科技与产业",
-      "title": "Hanyang University ERICA Researchers Develop Electronic Skin That Brings Human - Like Touch to Robots and Prosthetics",
-      "url": "https://www.prnewswire.com:443/news-releases/hanyang-university-erica-researchers-develop-electronic-skin-that-brings-human-like-touch-to-robots-and-prosthetics-302846119.html",
-      "source": "prnewswire.com",
-      "publishedAt": "2026-08-10T13:00:00Z",
-      "fetchedAt": "2026-08-10T13:47:47.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prnewswire.com:443/news-releases/hanyang-university-erica-researchers-develop-electronic-skin-that-brings-human-like-touch-to-robots-and-prosthetics-302846119.html"
     }
   ]
 }
