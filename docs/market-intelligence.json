@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-12T22:05:36.189Z",
-  "newsUpdatedAt": "2026-08-12T22:05:36.189Z",
-  "assetsUpdatedAt": "2026-08-12T22:05:36.189Z",
+  "generatedAt": "2026-08-12T23:03:54.273Z",
+  "newsUpdatedAt": "2026-08-12T23:03:54.273Z",
+  "assetsUpdatedAt": "2026-08-12T23:03:54.273Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4462.48,
-      "changePercent": -0.11,
+      "price": 4461.22,
+      "changePercent": -0.14,
       "unit": "USD",
-      "asOf": "2026-08-13T06:06:00-04:00",
+      "asOf": "2026-08-13T07:05:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.76,
-      "changePercent": -0.61,
+      "price": 82.7,
+      "changePercent": -0.69,
       "unit": "USD",
-      "asOf": "2026-08-13T06:06:04-04:00",
+      "asOf": "2026-08-13T07:04:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.19,
-      "changePercent": -0.21,
+      "price": 660.37,
+      "changePercent": -0.18,
       "unit": "USD",
-      "asOf": "2026-08-13T06:06:03-04:00",
+      "asOf": "2026-08-13T07:01:33-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,340 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63428,
-      "changePercent": -0.3970054664247524,
+      "price": 63343,
+      "changePercent": -0.31834103172487016,
       "unit": "USD",
-      "asOf": "2026-08-12T22:04:20.000Z",
+      "asOf": "2026-08-12T23:03:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "eeff79bf09dd75a4",
+      "category": "全球与地区",
+      "title": "Oposición convoca de manera grave y urgente a jerarcas del gobierno por conflicto en el puerto",
+      "url": "https://www.elpais.com.uy/negocios/noticias/oposicion-convoca-de-manera-grave-y-urgente-a-jerarcas-del-gobierno-por-conflicto-en-el-puerto",
+      "source": "elpais.com.uy",
+      "publishedAt": "2026-08-12T22:45:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Uruguay"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elpais.com.uy/negocios/noticias/oposicion-convoca-de-manera-grave-y-urgente-a-jerarcas-del-gobierno-por-conflicto-en-el-puerto"
+    },
+    {
+      "id": "1844ba214a3421cb",
+      "category": "金属与资源",
+      "title": "KOUZELNÍK : David Copperfield v sedmdesáti - Neviditelný pes",
+      "url": "https://neviditelnypes.lidovky.cz/zahranici/kouzelnik-david-copperfield-v-sedmdesati.A260812_160435_p_zahranici_nef",
+      "source": "neviditelnypes.lidovky.cz",
+      "publishedAt": "2026-08-12T22:45:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Czech Republic"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://neviditelnypes.lidovky.cz/zahranici/kouzelnik-david-copperfield-v-sedmdesati.A260812_160435_p_zahranici_nef"
+    },
+    {
+      "id": "ba4ba69d5bb67cd3",
+      "category": "金属与资源",
+      "title": "Estafettegoud Oranje op 4x100 meter vrij : Nieuwe Golden Girls ? Beetje voorbarig",
+      "url": "https://nos.nl/artikel/2626581-estafettegoud-oranje-op-4x100-meter-vrij-nieuwe-golden-girls-beetje-voorbarig",
+      "source": "nos.nl",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://nos.nl/artikel/2626581-estafettegoud-oranje-op-4x100-meter-vrij-nieuwe-golden-girls-beetje-voorbarig"
+    },
+    {
+      "id": "9795f77ccda1f11b",
+      "category": "能源与航运",
+      "title": "Dune Oil advances Gabar exploration with new seismic program ahead of drilling",
+      "url": "https://finance.yahoo.com/energy/articles/dune-oil-advances-gabar-exploration-135300267.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/dune-oil-advances-gabar-exploration-135300267.html"
+    },
+    {
+      "id": "113af9c1bdd4a5f7",
+      "category": "科技与产业",
+      "title": "Nauticus Robotics , Inc . Reports Second Quarter 2026 Results and Advances Commercialization Strategy",
+      "url": "http://www.prnewswire.com/news-releases/nauticus-robotics-inc-reports-second-quarter-2026-results-and-advances-commercialization-strategy-302850169.html",
+      "source": "prnewswire.com",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.prnewswire.com/news-releases/nauticus-robotics-inc-reports-second-quarter-2026-results-and-advances-commercialization-strategy-302850169.html"
+    },
+    {
+      "id": "62dab74d8dcbbddd",
+      "category": "金属与资源",
+      "title": "Leichtathletik - EM live : Jason Joseph holt Gold über 110 m Hürden",
+      "url": "https://www.tagesanzeiger.ch/leichtathletik-em-live-jason-joseph-holt-gold-ueber-110-m-huerden-579373187951",
+      "source": "tagesanzeiger.ch",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Switzerland"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tagesanzeiger.ch/leichtathletik-em-live-jason-joseph-holt-gold-ueber-110-m-huerden-579373187951"
+    },
+    {
+      "id": "6aded85fb85a3722",
+      "category": "能源与航运",
+      "title": "PUC allows Hawaiian Electric to seek renewable energy project proposals",
+      "url": "https://www.hawaiitribune-herald.com/2026/08/12/hawaii-news/puc-allows-hawaiian-electric-to-seek-renewable-energy-project-proposals/",
+      "source": "hawaiitribune-herald.com",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hawaiitribune-herald.com/2026/08/12/hawaii-news/puc-allows-hawaiian-electric-to-seek-renewable-energy-project-proposals/"
+    },
+    {
+      "id": "d10503c36b1d06a2",
+      "category": "能源与航运",
+      "title": "Asia wants more Canadian oil , but Alberta only pipeline to the coast is running out of room",
+      "url": "https://calgarysun.com/business/asia-canada-oil-alberta-trans-mountain/wcm/88409ac8-20a4-44b0-b6fd-2ef702661cd6",
+      "source": "calgarysun.com",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://calgarysun.com/business/asia-canada-oil-alberta-trans-mountain/wcm/88409ac8-20a4-44b0-b6fd-2ef702661cd6"
+    },
+    {
+      "id": "f13771e5d25a8563",
+      "category": "能源与航运",
+      "title": "EFCC probe : 24 oil firms pay N115bn , $84m NDDC levies",
+      "url": "https://punchng.com/efcc-probe-forces-24-oil-firms-to-pay-n115bn-84m-nddc-levies/",
+      "source": "punchng.com",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://punchng.com/efcc-probe-forces-24-oil-firms-to-pay-n115bn-84m-nddc-levies/"
+    },
+    {
+      "id": "1324461b5a3c0cf5",
+      "category": "全球与地区",
+      "title": "Canadians are calling for ban on US ambassador in latest trade war salvo",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-petition-expel-ambassador-pete-hoekstra-trump-b3032134.html",
+      "source": "independent.co.uk",
+      "publishedAt": "2026-08-12T22:15:00Z",
+      "fetchedAt": "2026-08-12T23:03:54.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.independent.co.uk/news/world/americas/us-politics/canada-petition-expel-ambassador-pete-hoekstra-trump-b3032134.html"
+    },
     {
       "id": "e08d3a2b8401dd88",
       "category": "金属与资源",
@@ -1369,337 +1693,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.techrepublic.com/article/news-figure-03-robot-autonomous-ladder-climb/"
-    },
-    {
-      "id": "fc4c5c26d96effba",
-      "category": "能源与航运",
-      "title": "Trump Balik Tuntut Iran Bayar Kompensasi , Pembukaan Selat Hormuz Terancam Makin Rumit",
-      "url": "https://aceh.tribunnews.com/news/1038208/trump-balik-tuntut-iran-bayar-kompensasi-pembukaan-selat-hormuz-terancam-makin-rumit",
-      "source": "aceh.tribunnews.com",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Indonesia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aceh.tribunnews.com/news/1038208/trump-balik-tuntut-iran-bayar-kompensasi-pembukaan-selat-hormuz-terancam-makin-rumit"
-    },
-    {
-      "id": "8cfbfa1d585a7383",
-      "category": "金属与资源",
-      "title": "Promising Gold Stocks To Consider – August 9th",
-      "url": "https://www.themarketsdaily.com/2026/08/11/promising-gold-stocks-to-consider-august-9th.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/11/promising-gold-stocks-to-consider-august-9th.html"
-    },
-    {
-      "id": "bea78602dfe2a13f",
-      "category": "金属与资源",
-      "title": "Former Silver Fern captain Ana Noovao dies aged 58",
-      "url": "https://www.indianweekender.co.nz/news/former-silver-fern-captain-ana-noovao-dies-aged-58",
-      "source": "indianweekender.co.nz",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.indianweekender.co.nz/news/former-silver-fern-captain-ana-noovao-dies-aged-58"
-    },
-    {
-      "id": "354de8e9007c0694",
-      "category": "全球与地区",
-      "title": "Geopolitical challenges on tracks in connecting Russia to Indian Ocean by rail",
-      "url": "https://morungexpress.com/geopolitical-challenges-on-tracks-in-connecting-russia-to-indian-ocean-by-rail",
-      "source": "morungexpress.com",
-      "publishedAt": "2026-08-10T20:30:00Z",
-      "fetchedAt": "2026-08-10T21:04:10.625Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://morungexpress.com/geopolitical-challenges-on-tracks-in-connecting-russia-to-indian-ocean-by-rail"
-    },
-    {
-      "id": "8933dd4294eb9206",
-      "category": "能源与航运",
-      "title": "A Ford Maverick Hybrid Towed a Camper 5 , 000 Miles at 16 . 2 MPG , but Its Oil - Life Monitor Told a Harder Story",
-      "url": "https://www.torquenews.com/17998/ford-maverick-hybrid-towed-camper-5000-miles-162-mpg-its-oil-life-monitor-told-harder-story",
-      "source": "torquenews.com",
-      "publishedAt": "2026-08-10T20:30:00Z",
-      "fetchedAt": "2026-08-10T21:04:10.625Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.torquenews.com/17998/ford-maverick-hybrid-towed-camper-5000-miles-162-mpg-its-oil-life-monitor-told-harder-story"
-    },
-    {
-      "id": "a5480e2752f8d0d9",
-      "category": "能源与航运",
-      "title": "Crude supply to local refineries rises 88 . 4 % in Q2 NUPRC",
-      "url": "https://www.vanguardngr.com/2026/08/crude-supply-to-local-refineries-rises-88-4-in-q2-nuprc/",
-      "source": "vanguardngr.com",
-      "publishedAt": "2026-08-10T20:30:00Z",
-      "fetchedAt": "2026-08-10T21:04:10.625Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.vanguardngr.com/2026/08/crude-supply-to-local-refineries-rises-88-4-in-q2-nuprc/"
-    },
-    {
-      "id": "f698e6be44d66b9d",
-      "category": "能源与航运",
-      "title": "Cameco vs . Uranium Energy : Which Uranium Stock Wins the Nuclear Restart ?",
-      "url": "https://www.fool.com/investing/2026/08/10/cameco-vs-uranium-energy-which-uranium-stock-wins/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "publishedAt": "2026-08-10T20:30:00Z",
-      "fetchedAt": "2026-08-10T21:04:10.625Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/08/10/cameco-vs-uranium-energy-which-uranium-stock-wins/?source=iedfolrf0000001"
-    },
-    {
-      "id": "61dfe52ca275e33b",
-      "category": "全球与地区",
-      "title": "NetNewsLedger - Trump Aug . 19 tariffs could hit Northern Ontario forestry and SMEs",
-      "url": "https://www.netnewsledger.com/2026/08/10/trumps-aug-19-tariffs-could-hit-northern-ontario-forestry-and-smes/",
-      "source": "netnewsledger.com",
-      "publishedAt": "2026-08-10T20:30:00Z",
-      "fetchedAt": "2026-08-10T21:04:10.625Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.netnewsledger.com/2026/08/10/trumps-aug-19-tariffs-could-hit-northern-ontario-forestry-and-smes/"
-    },
-    {
-      "id": "846b437e1d20c64f",
-      "category": "能源与航运",
-      "title": "Ukrainian drone attack on an oil hub deep inside Russia kills 13 , officials say",
-      "url": "https://www.ledburyreporter.co.uk/news/national/26451935.ukrainian-drone-attack-oil-hub-deep-inside-russia-kills-13-officials-say/",
-      "source": "ledburyreporter.co.uk",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ledburyreporter.co.uk/news/national/26451935.ukrainian-drone-attack-oil-hub-deep-inside-russia-kills-13-officials-say/"
-    },
-    {
-      "id": "b9d545c7608f990e",
-      "category": "能源与航运",
-      "title": "Iran News , ईरान ने होर्मुज स्ट्रेट खोलने के लिए अमेरिका के सामने रखीं छह शर्तें , क्या तैयार होंगे ट्रंप ? - iran six conditions before us to open strait of hormuz will trump agree - Uae News",
-      "url": "https://navbharattimes.indiatimes.com/world/uae/iran-six-conditions-before-us-to-open-strait-of-hormuz-will-trump-agree/articleshow/133126697.cms",
-      "source": "navbharattimes.indiatimes.com",
-      "publishedAt": "2026-08-10T19:00:00Z",
-      "fetchedAt": "2026-08-10T19:19:23.732Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://navbharattimes.indiatimes.com/world/uae/iran-six-conditions-before-us-to-open-strait-of-hormuz-will-trump-agree/articleshow/133126697.cms"
     }
   ]
 }
