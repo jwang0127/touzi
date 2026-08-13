@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-13T13:51:11.697Z",
-  "newsUpdatedAt": "2026-08-12T23:03:54.273Z",
-  "assetsUpdatedAt": "2026-08-13T13:51:11.697Z",
+  "generatedAt": "2026-08-13T15:17:34.824Z",
+  "newsUpdatedAt": "2026-08-13T15:17:34.824Z",
+  "assetsUpdatedAt": "2026-08-13T15:17:34.824Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53850.93,
-      "changePercent": 0.15,
+      "price": 53700.82,
+      "changePercent": -0.13,
       "unit": "USD",
-      "asOf": "2026-08-13T09:51:40-04:00",
+      "asOf": "2026-08-13T11:19:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26800.98,
-      "changePercent": 0.8,
+      "price": 26793.2,
+      "changePercent": 0.77,
       "unit": "USD",
-      "asOf": "2026-08-13T09:51:40-04:00",
+      "asOf": "2026-08-13T11:19:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7792.39,
-      "changePercent": 0.57,
+      "price": 7790.98,
+      "changePercent": 0.55,
       "unit": "USD",
-      "asOf": "2026-08-13T09:51:40-04:00",
+      "asOf": "2026-08-13T11:18:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4431.58,
-      "changePercent": -0.8,
+      "price": 4419.84,
+      "changePercent": -1.07,
       "unit": "USD",
-      "asOf": "2026-08-13T21:51:06-04:00",
+      "asOf": "2026-08-13T23:19:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.12,
-      "changePercent": -2.58,
+      "price": 82.49,
+      "changePercent": -0.94,
       "unit": "USD",
-      "asOf": "2026-08-13T21:51:03-04:00",
+      "asOf": "2026-08-13T23:19:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 663.48,
-      "changePercent": 0.29,
+      "price": 660.97,
+      "changePercent": -0.09,
       "unit": "USD",
-      "asOf": "2026-08-13T21:51:05-04:00",
+      "asOf": "2026-08-13T23:19:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,176 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63739,
-      "changePercent": -0.26975750290978995,
+      "price": 63744,
+      "changePercent": 0.43463792513778216,
       "unit": "USD",
-      "asOf": "2026-08-13T13:49:40.000Z",
+      "asOf": "2026-08-13T15:16:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "be0305e8eaa7d93f",
+      "category": "能源与航运",
+      "title": "US stocks : US market opens higher as investors weigh weaker oil , PPI data",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-investors-weigh-weaker-oil-ppi-data/articleshow/133214216.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-13T14:45:00Z",
+      "fetchedAt": "2026-08-13T15:17:34.824Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-investors-weigh-weaker-oil-ppi-data/articleshow/133214216.cms"
+    },
+    {
+      "id": "726c7d797daf4969",
+      "category": "数字资产",
+      "title": "Cabinet passes draft to strengthen crypto money laundering controls",
+      "url": "https://focustaiwan.tw:443/politics/202608130015",
+      "source": "focustaiwan.tw",
+      "publishedAt": "2026-08-13T14:45:00Z",
+      "fetchedAt": "2026-08-13T15:17:34.824Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://focustaiwan.tw:443/politics/202608130015"
+    },
+    {
+      "id": "46416365211d7ff6",
+      "category": "金属与资源",
+      "title": "Aaleina Sen wins gold at Independence Cup - The Shillong Times",
+      "url": "https://theshillongtimes.com/2026/08/13/aaleina-sen-wins-gold-at-independence-cup/",
+      "source": "theshillongtimes.com",
+      "publishedAt": "2026-08-13T14:45:00Z",
+      "fetchedAt": "2026-08-13T15:17:34.824Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://theshillongtimes.com/2026/08/13/aaleina-sen-wins-gold-at-independence-cup/"
+    },
+    {
+      "id": "b7bba3c3802bea97",
+      "category": "能源与航运",
+      "title": "Russia oil exports drop in July – Shafaqna English | International Shia News & Fatwas",
+      "url": "https://en.shafaqna.com/470679/russias-oil-exports-drop-in-july/",
+      "source": "en.shafaqna.com",
+      "publishedAt": "2026-08-13T14:45:00Z",
+      "fetchedAt": "2026-08-13T15:17:34.824Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Saudi Arabia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.shafaqna.com/470679/russias-oil-exports-drop-in-july/"
+    },
+    {
+      "id": "2c606464b0c61868",
+      "category": "金属与资源",
+      "title": "Liberia : Sama Mineral Holdings Commends Ministry of Mines for Gold Traceability Reforms",
+      "url": "https://allafrica.com/stories/202608130278.html",
+      "source": "allafrica.com",
+      "publishedAt": "2026-08-13T14:45:00Z",
+      "fetchedAt": "2026-08-13T15:17:34.824Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://allafrica.com/stories/202608130278.html"
+    },
     {
       "id": "eeff79bf09dd75a4",
       "category": "全球与地区",
@@ -1546,155 +1706,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-nuclear-deal-oil-news-b3030821.html"
-    },
-    {
-      "id": "ca476d15eafb5532",
-      "category": "数字资产",
-      "title": "US Senate advances bill creating crypto rulebook",
-      "url": "http://www.afghanistannews.net/news/279227792/us-senate-advances-bill-creating-crypto-rulebook",
-      "source": "afghanistannews.net",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Afghanistan"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.afghanistannews.net/news/279227792/us-senate-advances-bill-creating-crypto-rulebook"
-    },
-    {
-      "id": "03b92a15d26f48b3",
-      "category": "能源与航运",
-      "title": "Singapore non - oil domestic exports surge 27 . 4 pct in Q2 - Xinhua",
-      "url": "https://english.news.cn/20260811/d4c28fe6fef7461f83e589f13239a840/c.html",
-      "source": "english.news.cn",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.news.cn/20260811/d4c28fe6fef7461f83e589f13239a840/c.html"
-    },
-    {
-      "id": "5aa9af9928dc2ed4",
-      "category": "全球与地区",
-      "title": "Middle East conflict fears weigh on wall street as energy prices surge",
-      "url": "http://www.afghanistannews.net/news/279233699/middle-east-conflict-fears-weigh-on-wall-street-as-energy-prices-surge",
-      "source": "afghanistannews.net",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Afghanistan"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.afghanistannews.net/news/279233699/middle-east-conflict-fears-weigh-on-wall-street-as-energy-prices-surge"
-    },
-    {
-      "id": "6d36ad159e175b97",
-      "category": "科技与产业",
-      "title": "GCT Semiconductor Q2 Earnings Call Highlights",
-      "url": "https://www.tickerreport.com/banking-finance/13537964/gct-semiconductor-q2-earnings-call-highlights.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13537964/gct-semiconductor-q2-earnings-call-highlights.html"
-    },
-    {
-      "id": "93cce9ce5beece91",
-      "category": "科技与产业",
-      "title": "Figure 03 Humanoid Robot Climbs Ladder Autonomously in New Demo",
-      "url": "https://www.techrepublic.com/article/news-figure-03-robot-autonomous-ladder-climb/",
-      "source": "techrepublic.com",
-      "publishedAt": "2026-08-11T04:15:00Z",
-      "fetchedAt": "2026-08-11T04:42:38.208Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.techrepublic.com/article/news-figure-03-robot-autonomous-ladder-climb/"
     }
   ]
 }
