@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-13T08:45:17.004Z",
+  "generatedAt": "2026-08-13T10:29:51.336Z",
   "newsUpdatedAt": "2026-08-12T23:03:54.273Z",
-  "assetsUpdatedAt": "2026-08-13T08:45:17.004Z",
+  "assetsUpdatedAt": "2026-08-13T10:29:51.336Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -44,7 +44,7 @@
       "price": 25396.51,
       "changePercent": -0.17,
       "unit": "HKD",
-      "asOf": "2026-08-13T16:30:12+08:00",
+      "asOf": "2026-08-13T18:15:13+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4428.84,
-      "changePercent": -0.87,
+      "price": 4442.41,
+      "changePercent": -0.56,
       "unit": "USD",
-      "asOf": "2026-08-13T16:45:07-04:00",
+      "asOf": "2026-08-13T18:29:55-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.82,
-      "changePercent": -1.74,
+      "price": 81.51,
+      "changePercent": -2.11,
       "unit": "USD",
-      "asOf": "2026-08-13T16:45:10-04:00",
+      "asOf": "2026-08-13T18:30:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 652.35,
-      "changePercent": -1.39,
+      "price": 658.17,
+      "changePercent": -0.51,
       "unit": "USD",
-      "asOf": "2026-08-13T16:45:10-04:00",
+      "asOf": "2026-08-13T18:30:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63740,
-      "changePercent": 0.03195213974001035,
+      "price": 63571,
+      "changePercent": -0.6937599675980577,
       "unit": "USD",
-      "asOf": "2026-08-13T08:43:20.000Z",
+      "asOf": "2026-08-13T10:28:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
