@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-14T11:59:17.562Z",
-  "newsUpdatedAt": "2026-08-14T10:19:08.140Z",
-  "assetsUpdatedAt": "2026-08-14T11:59:17.562Z",
+  "generatedAt": "2026-08-14T13:46:50.098Z",
+  "newsUpdatedAt": "2026-08-14T13:46:50.098Z",
+  "assetsUpdatedAt": "2026-08-14T13:46:50.098Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53839.99,
-      "changePercent": 0.13,
+      "price": 53798.03,
+      "changePercent": -0.08,
       "unit": "USD",
-      "asOf": "2026-08-13T16:39:34-04:00",
+      "asOf": "2026-08-14T09:48:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26803.03,
-      "changePercent": 0.81,
+      "price": 26829.74,
+      "changePercent": 0.1,
       "unit": "USD",
-      "asOf": "2026-08-13T17:15:59-04:00",
+      "asOf": "2026-08-14T09:48:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7798.99,
-      "changePercent": 0.65,
+      "price": 7802.15,
+      "changePercent": 0.04,
       "unit": "USD",
-      "asOf": "2026-08-13T16:35:03-04:00",
+      "asOf": "2026-08-14T09:47:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4424.17,
-      "changePercent": 0.09,
+      "price": 4448.5,
+      "changePercent": 0.64,
       "unit": "USD",
-      "asOf": "2026-08-14T19:59:03-04:00",
+      "asOf": "2026-08-14T21:48:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.53,
-      "changePercent": 0.34,
+      "price": 80.9,
+      "changePercent": -0.43,
       "unit": "USD",
-      "asOf": "2026-08-14T19:59:01-04:00",
+      "asOf": "2026-08-14T21:48:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 668.91,
-      "changePercent": -0.26,
+      "price": 671.06,
+      "changePercent": 0.06,
       "unit": "USD",
-      "asOf": "2026-08-14T19:58:42-04:00",
+      "asOf": "2026-08-14T21:48:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,413 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62852,
-      "changePercent": -0.8748362678637477,
+      "price": 62664,
+      "changePercent": -1.6227848440369965,
       "unit": "USD",
-      "asOf": "2026-08-14T11:58:00.000Z",
+      "asOf": "2026-08-14T13:46:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5ee7198855a3b2c7",
+      "category": "全球与地区",
+      "title": "Gvaramia on fuel deliveries to Abkhazia : Scheme likely created for Russia to circumvent sanctions",
+      "url": "https://georgiatoday.ge/gvaramia-abkhazia-fuel-scheme-may-be-linked-to-russian-sanctions-evasion/",
+      "source": "georgiatoday.ge",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Georgia"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://georgiatoday.ge/gvaramia-abkhazia-fuel-scheme-may-be-linked-to-russian-sanctions-evasion/"
+    },
+    {
+      "id": "2d50ba55c7ed43c1",
+      "category": "能源与航运",
+      "title": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as",
+      "url": "http://www.iranherald.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy",
+      "source": "iranherald.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iranherald.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy"
+    },
+    {
+      "id": "ad2019851b2075e9",
+      "category": "金属与资源",
+      "title": "Amundi Physical Metals plc : united kingdom Final Terms | Company Announcement",
+      "url": "https://www.investegate.co.uk/announcement/eqs/amundi-physical-metals-plc--glda/amundi-physical-metals-plc-uk-final-terms/9723109",
+      "source": "investegate.co.uk",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.investegate.co.uk/announcement/eqs/amundi-physical-metals-plc--glda/amundi-physical-metals-plc-uk-final-terms/9723109"
+    },
+    {
+      "id": "68096786ff5a3e74",
+      "category": "金属与资源",
+      "title": "Iamgold ( NYSE : IAG ) and Perenti ( OTCMKTS : AUSDF ) Financial Contrast",
+      "url": "https://www.themarketsdaily.com/2026/08/14/iamgold-nyseiag-and-perenti-otcmktsausdf-financial-contrast.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/14/iamgold-nyseiag-and-perenti-otcmktsausdf-financial-contrast.html"
+    },
+    {
+      "id": "158a007a138d4c2d",
+      "category": "数字资产",
+      "title": "Bitcoin and ethereum prices today , Friday , August 14 , 2026 : Crypto prices backing off further",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-14-2026-crypto-prices-backing-off-further-123636029.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-14-2026-crypto-prices-backing-off-further-123636029.html"
+    },
+    {
+      "id": "0915bf927353bdeb",
+      "category": "能源与航运",
+      "title": "Qatar strongly condemns Iranian attack on two ADNOC tankers in Strait of Hormuz",
+      "url": "http://www.heraldglobe.com/news/279241187/qatar-strongly-condemns-iranian-attack-on-two-adnoc-tankers-in-strait-of-hormuz",
+      "source": "heraldglobe.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.heraldglobe.com/news/279241187/qatar-strongly-condemns-iranian-attack-on-two-adnoc-tankers-in-strait-of-hormuz"
+    },
+    {
+      "id": "795e8db1e304b985",
+      "category": "能源与航运",
+      "title": "Flagrant violation : UAE blames Iran for drone attacks on two ADNOC vessels in Strait of Hormuz",
+      "url": "https://www.dailyexcelsior.com/flagrant-violation-uae-blames-iran-for-drone-attacks-on-two-adnoc-vessels-in-strait-of-hormuz/",
+      "source": "dailyexcelsior.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailyexcelsior.com/flagrant-violation-uae-blames-iran-for-drone-attacks-on-two-adnoc-vessels-in-strait-of-hormuz/"
+    },
+    {
+      "id": "fa5b747686604880",
+      "category": "能源与航运",
+      "title": "Egypt strongly condemns attack on two ADNOC vessels in Strait of Hormuz",
+      "url": "http://www.iranherald.com/news/279241277/egypt-strongly-condemns-attack-on-two-adnoc-vessels-in-strait-of-hormuz",
+      "source": "iranherald.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iranherald.com/news/279241277/egypt-strongly-condemns-attack-on-two-adnoc-vessels-in-strait-of-hormuz"
+    },
+    {
+      "id": "c2736f94f8dade4e",
+      "category": "金属与资源",
+      "title": "Silver car damaged in Sainsbury car park in Harrogate",
+      "url": "https://www.yorkpress.co.uk/news/26464482.silver-car-damaged-sainsburys-car-park-harrogate/",
+      "source": "yorkpress.co.uk",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.yorkpress.co.uk/news/26464482.silver-car-damaged-sainsburys-car-park-harrogate/"
+    },
+    {
+      "id": "dc3f74f3a0679078",
+      "category": "科技与产业",
+      "title": "Medicamen Biotech consolidated net profit declines 1 . 40 % in the June 2026 quarter",
+      "url": "https://www.business-standard.com/markets/capital-market-news/medicamen-biotech-consolidated-net-profit-declines-1-40-in-the-june-2026-quarter-126081401627_1.html",
+      "source": "business-standard.com",
+      "publishedAt": "2026-08-14T13:15:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.business-standard.com/markets/capital-market-news/medicamen-biotech-consolidated-net-profit-declines-1-40-in-the-june-2026-quarter-126081401627_1.html"
+    },
+    {
+      "id": "a62c5c9862954118",
+      "category": "能源与航运",
+      "title": "Căng thẳng Iran - UAE leo thang quanh tuyến hàng hải chiến lược Hormuz",
+      "url": "https://baomoi.com/cang-thang-iran-uae-leo-thang-quanh-tuyen-hang-hai-chien-luoc-hormuz-c55834862.epi",
+      "source": "baomoi.com",
+      "publishedAt": "2026-08-14T13:00:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://baomoi.com/cang-thang-iran-uae-leo-thang-quanh-tuyen-hang-hai-chien-luoc-hormuz-c55834862.epi"
+    },
+    {
+      "id": "9dcf1387ef4c56a9",
+      "category": "金属与资源",
+      "title": "Wie stabilisiert Edelmetall - Vermögen Inflationsphasen ? ( aktiencheck . de )",
+      "url": "https://www.aktiencheck.de/exklusiv/Artikel-Wie_stabilisiert_Edelmetall_Vermoegen_Inflationsphasen-20021357",
+      "source": "aktiencheck.de",
+      "publishedAt": "2026-08-14T13:00:00Z",
+      "fetchedAt": "2026-08-14T13:46:50.098Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aktiencheck.de/exklusiv/Artikel-Wie_stabilisiert_Edelmetall_Vermoegen_Inflationsphasen-20021357"
+    },
     {
       "id": "e47b108f9e27ffcd",
       "category": "能源与航运",
@@ -1307,398 +1702,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.cadena3.com/noticia/agtech-rio-cuarto-2026/rio-cuarto-sera-sede-de-la-agtech-week-2026-el-mayor-encuentro-de-tecnologia-agropecuaria_580806"
-    },
-    {
-      "id": "eafe7b4cfa26dab3",
-      "category": "科技与产业",
-      "title": "Pudu Robotics lanza PUDU ET1 , un robot fregador - secador compacto con IA para pequeños espacios comerciales",
-      "url": "http://www.prnewswire.com/news-releases/pudu-robotics-lanza-pudu-et1-un-robot-fregador-secador-compacto-con-ia-para-pequenos-espacios-comerciales-302850007.html",
-      "source": "prnewswire.com",
-      "publishedAt": "2026-08-12T19:00:00Z",
-      "fetchedAt": "2026-08-12T19:29:38.570Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.prnewswire.com/news-releases/pudu-robotics-lanza-pudu-et1-un-robot-fregador-secador-compacto-con-ia-para-pequenos-espacios-comerciales-302850007.html"
-    },
-    {
-      "id": "2f14cc5734b298e2",
-      "category": "数字资产",
-      "title": "Equity Trust Launches Crypto IRA Lineup with Automated and Self - Trading Investing Options",
-      "url": "http://www.prnewswire.com/news-releases/equity-trust-launches-crypto-ira-lineup-with-automated-and-self-trading-investing-options-302850023.html",
-      "source": "prnewswire.com",
-      "publishedAt": "2026-08-12T19:00:00Z",
-      "fetchedAt": "2026-08-12T19:29:38.570Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.prnewswire.com/news-releases/equity-trust-launches-crypto-ira-lineup-with-automated-and-self-trading-investing-options-302850023.html"
-    },
-    {
-      "id": "e5f05b83b24545f0",
-      "category": "能源与航运",
-      "title": "Trump Says US Has Total Control of Strait of Hormuz",
-      "url": "https://www.pakistantoday.com.pk/2026/08/12/trump-says-us-has-total-control-over-strait-of-hormuz",
-      "source": "pakistantoday.com.pk",
-      "publishedAt": "2026-08-12T19:00:00Z",
-      "fetchedAt": "2026-08-12T19:29:38.570Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.pakistantoday.com.pk/2026/08/12/trump-says-us-has-total-control-over-strait-of-hormuz"
-    },
-    {
-      "id": "c6ec931f2e2b6a65",
-      "category": "科技与产业",
-      "title": "Чемпионат по робототехнике RobotChallenge 2026 : кадры встречи участников",
-      "url": "https://iz.ru/2148073/opublikovany-kadry-vstrechi-prizerov-mezhdunarodnogo-chempionata-po-robototekhnike-izi",
-      "source": "iz.ru",
-      "publishedAt": "2026-08-12T17:45:00Z",
-      "fetchedAt": "2026-08-12T18:11:17.886Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Russia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://iz.ru/2148073/opublikovany-kadry-vstrechi-prizerov-mezhdunarodnogo-chempionata-po-robototekhnike-izi"
-    },
-    {
-      "id": "037a7af964281995",
-      "category": "金属与资源",
-      "title": "516 copper coins unearthed during pond work near Pudukottai",
-      "url": "https://timesofindia.indiatimes.com/city/trichy/516-copper-coins-unearthed-during-pond-work-near-pudukottai/articleshow/133188721.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-08-12T17:30:00Z",
-      "fetchedAt": "2026-08-12T18:11:17.886Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/city/trichy/516-copper-coins-unearthed-during-pond-work-near-pudukottai/articleshow/133188721.cms"
-    },
-    {
-      "id": "30c18fd8b769833a",
-      "category": "能源与航运",
-      "title": "IEA e OPEP divergem nas previsões de procura de petróleo com fecho prolongado de Hormuz",
-      "url": "https://pt.euronews.com/business/2026/08/12/iea-e-opep-divergem-nas-previsoes-de-procura-de-petroleo-com-fecho-prolongado-de-hormuz",
-      "source": "pt.euronews.com",
-      "publishedAt": "2026-08-12T17:30:00Z",
-      "fetchedAt": "2026-08-12T18:11:17.886Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://pt.euronews.com/business/2026/08/12/iea-e-opep-divergem-nas-previsoes-de-procura-de-petroleo-com-fecho-prolongado-de-hormuz"
-    },
-    {
-      "id": "a7e3aef94a4ca181",
-      "category": "科技与产业",
-      "title": "Mẫu điện thoại Trung Quốc Robot Phone tích hợp camera chống rung gimbal 200MP",
-      "url": "https://baomoi.com/mau-dien-thoai-trung-quoc-robot-phone-tich-hop-camera-chong-rung-gimbal-200mp-c55821009.epi",
-      "source": "baomoi.com",
-      "publishedAt": "2026-08-12T17:30:00Z",
-      "fetchedAt": "2026-08-12T18:11:17.886Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baomoi.com/mau-dien-thoai-trung-quoc-robot-phone-tich-hop-camera-chong-rung-gimbal-200mp-c55821009.epi"
-    },
-    {
-      "id": "4afd4706a5feb88a",
-      "category": "能源与航运",
-      "title": "Senate gives Seplat , oil firms 48 hours for NEITI queries",
-      "url": "https://punchng.com/senate-gives-seplat-three-oil-firms-48-hours-to-answer-neiti-queries/",
-      "source": "punchng.com",
-      "publishedAt": "2026-08-12T15:30:00Z",
-      "fetchedAt": "2026-08-12T16:14:02.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://punchng.com/senate-gives-seplat-three-oil-firms-48-hours-to-answer-neiti-queries/"
-    },
-    {
-      "id": "e3a3c593773e163b",
-      "category": "金属与资源",
-      "title": "Mexico Guards Avocado Gold as Cartels Tax the Harvest Again",
-      "url": "https://latinamericanpost.com/business-and-finance/mexico-guards-avocado-gold-as-cartels-tax-the-harvest-again/",
-      "source": "latinamericanpost.com",
-      "publishedAt": "2026-08-12T15:30:00Z",
-      "fetchedAt": "2026-08-12T16:14:02.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://latinamericanpost.com/business-and-finance/mexico-guards-avocado-gold-as-cartels-tax-the-harvest-again/"
-    },
-    {
-      "id": "4a228d17e683d8d4",
-      "category": "能源与航运",
-      "title": "Sensex ends 188 points lower , Nifty slips 36 points as elevated crude prices weigh on investor sentiment",
-      "url": "http://www.northkoreatimes.com/news/279237021/sensex-ends-188-points-lower-nifty-slips-36-points-as-elevated-crude-prices-weigh-on-investor-sentiment",
-      "source": "northkoreatimes.com",
-      "publishedAt": "2026-08-12T15:30:00Z",
-      "fetchedAt": "2026-08-12T16:14:02.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "North Korea"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.northkoreatimes.com/news/279237021/sensex-ends-188-points-lower-nifty-slips-36-points-as-elevated-crude-prices-weigh-on-investor-sentiment"
-    },
-    {
-      "id": "c1973fa60a53e0a9",
-      "category": "科技与产业",
-      "title": "Robotizao : o laboratório da resistência coreana",
-      "url": "https://www.esquerda.net/artigo/robotizacao-o-laboratorio-da-resistencia-coreana/98774",
-      "source": "esquerda.net",
-      "publishedAt": "2026-08-12T15:30:00Z",
-      "fetchedAt": "2026-08-12T16:14:02.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Portugal"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.esquerda.net/artigo/robotizacao-o-laboratorio-da-resistencia-coreana/98774"
-    },
-    {
-      "id": "75f39ac9e1190dff",
-      "category": "科技与产业",
-      "title": "Tech : Ilyen mobil eddig nem volt : Kínában néztük meg az új telefont , amiből egy robotkar nyúlik ki fotózni , videózni",
-      "url": "https://hvg.hu/tudomany/20260812_honor-robot-phone-bejelentes-specifikacio-arri-gimbal",
-      "source": "hvg.hu",
-      "publishedAt": "2026-08-12T15:30:00Z",
-      "fetchedAt": "2026-08-12T16:14:02.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Hungary"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hvg.hu/tudomany/20260812_honor-robot-phone-bejelentes-specifikacio-arri-gimbal"
     }
   ]
 }
