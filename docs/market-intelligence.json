@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-14T16:07:28.922Z",
-  "newsUpdatedAt": "2026-08-14T13:46:50.098Z",
-  "assetsUpdatedAt": "2026-08-14T16:07:28.922Z",
+  "generatedAt": "2026-08-14T17:14:14.089Z",
+  "newsUpdatedAt": "2026-08-14T17:14:14.089Z",
+  "assetsUpdatedAt": "2026-08-14T17:14:14.089Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53715.14,
-      "changePercent": -0.23,
+      "price": 53719.02,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-08-14T12:08:00-04:00",
+      "asOf": "2026-08-14T13:14:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26693.57,
-      "changePercent": -0.41,
+      "price": 26685.32,
+      "changePercent": -0.44,
       "unit": "USD",
-      "asOf": "2026-08-14T12:08:00-04:00",
+      "asOf": "2026-08-14T13:14:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7785.58,
-      "changePercent": -0.17,
+      "price": 7781.45,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-08-14T12:07:59-04:00",
+      "asOf": "2026-08-14T13:14:12-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4449.92,
-      "changePercent": 0.67,
+      "price": 4439.74,
+      "changePercent": 0.44,
       "unit": "USD",
-      "asOf": "2026-08-15T00:08:00-04:00",
+      "asOf": "2026-08-15T01:14:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.51,
-      "changePercent": 0.32,
+      "price": 82.28,
+      "changePercent": 1.27,
       "unit": "USD",
-      "asOf": "2026-08-15T00:08:02-04:00",
+      "asOf": "2026-08-15T01:14:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 671.3,
-      "changePercent": 0.1,
+      "price": 670.45,
+      "changePercent": -0.03,
       "unit": "USD",
-      "asOf": "2026-08-15T00:07:02-04:00",
+      "asOf": "2026-08-15T01:13:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,210 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62922,
-      "changePercent": -0.7655577957168972,
+      "price": 63069,
+      "changePercent": -0.019866772189134442,
       "unit": "USD",
-      "asOf": "2026-08-14T16:06:30.000Z",
+      "asOf": "2026-08-14T17:12:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "6e45b00da06ddd8e",
+      "category": "数字资产",
+      "title": "YieldMax Bitcoin Option Income ETF ( NYSEARCA : YBIT ) Short Interest Update",
+      "url": "https://www.tickerreport.com/banking-finance/13543334/yieldmax-bitcoin-option-income-etf-nysearcaybit-short-interest-update.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-14T16:45:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13543334/yieldmax-bitcoin-option-income-etf-nysearcaybit-short-interest-update.html"
+    },
+    {
+      "id": "e298ff9489cb9fe6",
+      "category": "金属与资源",
+      "title": "Americas Gold and Silver Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/americas-gold-silver-q2-earnings-160433114.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-14T16:45:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/americas-gold-silver-q2-earnings-160433114.html"
+    },
+    {
+      "id": "080eb1c8fa07c53f",
+      "category": "金属与资源",
+      "title": "Gold Silver Price Today | India Gold Rate Drop & Latest Market Update",
+      "url": "https://www.bhaskar.com/business/news/gold-silver-price-india-august-2026-rates-update-138728419.html",
+      "source": "bhaskar.com",
+      "publishedAt": "2026-08-14T16:45:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bhaskar.com/business/news/gold-silver-price-india-august-2026-rates-update-138728419.html"
+    },
+    {
+      "id": "c3abde007ea35851",
+      "category": "能源与航运",
+      "title": "Gulf of America Lease Sale Draws $99 Million in Bids , Boosting Louisiana Energy Outlook",
+      "url": "https://talk1073.com/2026/08/14/gulf-of-america-lease-sale-draws-99-million-in-bids-boosting-louisiana-energy-outlook/",
+      "source": "talk1073.com",
+      "publishedAt": "2026-08-14T16:45:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://talk1073.com/2026/08/14/gulf-of-america-lease-sale-draws-99-million-in-bids-boosting-louisiana-energy-outlook/"
+    },
+    {
+      "id": "e965f8ff58f7bbe2",
+      "category": "能源与航运",
+      "title": "Energy exploration talks with China moving forward",
+      "url": "https://www.philstar.com/headlines/2026/08/15/2549379/energy-exploration-talks-china-moving-forward",
+      "source": "philstar.com",
+      "publishedAt": "2026-08-14T16:30:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.philstar.com/headlines/2026/08/15/2549379/energy-exploration-talks-china-moving-forward"
+    },
+    {
+      "id": "a5113214a4dfbfff",
+      "category": "金属与资源",
+      "title": "Belgian student strikes gold worth €9m while digging sewers",
+      "url": "https://www.theguardian.com/world/2026/aug/14/belgian-student-strikes-gold-worth-9m-while-digging-sewers",
+      "source": "theguardian.com",
+      "publishedAt": "2026-08-14T16:30:00Z",
+      "fetchedAt": "2026-08-14T17:14:14.089Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theguardian.com/world/2026/aug/14/belgian-student-strikes-gold-worth-9m-while-digging-sewers"
+    },
     {
       "id": "5ee7198855a3b2c7",
       "category": "全球与地区",
@@ -1505,205 +1697,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.timminspress.com/news/team-brad-jacobs-headlines-henderson-metal-fall-classic"
-    },
-    {
-      "id": "a761d8b3960c957f",
-      "category": "能源与航运",
-      "title": "Trump doubles down on control of Strait of Hormuz as Iran pushes back",
-      "url": "https://www.kristv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back",
-      "source": "kristv.com",
-      "publishedAt": "2026-08-12T21:45:00Z",
-      "fetchedAt": "2026-08-12T22:05:36.189Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kristv.com/us-news/iran-war/trump-doubles-down-on-control-of-strait-of-hormuz-as-iran-pushes-back"
-    },
-    {
-      "id": "aea691249abbcb14",
-      "category": "科技与产业",
-      "title": "ACA Robotics Team Success at Chicago Invitational | Education",
-      "url": "https://www.dailygazette.com/ade/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html",
-      "source": "dailygazette.com",
-      "publishedAt": "2026-08-12T21:45:00Z",
-      "fetchedAt": "2026-08-12T22:05:36.189Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailygazette.com/ade/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html"
-    },
-    {
-      "id": "f9b3458adb5fdb7d",
-      "category": "科技与产业",
-      "title": "Mechanicville students win at Chicago robotics meet | Education",
-      "url": "https://www.dailygazette.com/hv360/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html",
-      "source": "dailygazette.com",
-      "publishedAt": "2026-08-12T21:45:00Z",
-      "fetchedAt": "2026-08-12T22:05:36.189Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailygazette.com/hv360/news/education/mechanicville-school-wins-robotic-event/article_2a5ceb26-424e-4f41-902f-be0426d82a39.html"
-    },
-    {
-      "id": "733aa8e491ed4a5f",
-      "category": "金属与资源",
-      "title": "Pan American Silver Reports Second Quarter 2026 Financial Results",
-      "url": "https://montrealgazette.com/press-releases/business-wire/pan-american-silver-reports-second-quarter-2026-financial-results/",
-      "source": "montrealgazette.com",
-      "publishedAt": "2026-08-12T21:45:00Z",
-      "fetchedAt": "2026-08-12T22:05:36.189Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://montrealgazette.com/press-releases/business-wire/pan-american-silver-reports-second-quarter-2026-financial-results/"
-    },
-    {
-      "id": "045bfbd3c98b806a",
-      "category": "能源与航运",
-      "title": "T1 Energy Aktie : 88 Prozent Umsatzsprung übertrifft Analysten",
-      "url": "https://www.boerse-express.com/news/articles/t1-energy-aktie-88-prozent-umsatzsprung-uebertrifft-analysten-938084",
-      "source": "boerse-express.com",
-      "publishedAt": "2026-08-12T21:45:00Z",
-      "fetchedAt": "2026-08-12T22:05:36.189Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Austria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.boerse-express.com/news/articles/t1-energy-aktie-88-prozent-umsatzsprung-uebertrifft-analysten-938084"
-    },
-    {
-      "id": "a6d740feb4e0d040",
-      "category": "能源与航运",
-      "title": "Río Cuarto será sede de la AgTech Week 2026 , el mayor encuentro de tecnología agropecuaria",
-      "url": "https://www.cadena3.com/noticia/agtech-rio-cuarto-2026/rio-cuarto-sera-sede-de-la-agtech-week-2026-el-mayor-encuentro-de-tecnologia-agropecuaria_580806",
-      "source": "cadena3.com",
-      "publishedAt": "2026-08-12T19:00:00Z",
-      "fetchedAt": "2026-08-12T19:29:38.570Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cadena3.com/noticia/agtech-rio-cuarto-2026/rio-cuarto-sera-sede-de-la-agtech-week-2026-el-mayor-encuentro-de-tecnologia-agropecuaria_580806"
     }
   ]
 }
