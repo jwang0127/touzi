@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-15T03:07:00.966Z",
-  "newsUpdatedAt": "2026-08-15T01:52:05.742Z",
-  "assetsUpdatedAt": "2026-08-15T03:07:00.966Z",
+  "generatedAt": "2026-08-15T03:56:23.173Z",
+  "newsUpdatedAt": "2026-08-15T03:56:23.173Z",
+  "assetsUpdatedAt": "2026-08-15T03:56:23.173Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,184 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63075,
-      "changePercent": -0.4863019123398627,
+      "price": 63017,
+      "changePercent": -0.4990403875332655,
       "unit": "USD",
-      "asOf": "2026-08-15T03:05:10.000Z",
+      "asOf": "2026-08-15T03:55:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "162b3ca08fdfff83",
+      "category": "能源与航运",
+      "title": "Hormuzstredet , Utenriks | Nytt skip angrepet i Hormuzstredet",
+      "url": "https://www.nettavisen.no/nyheter/nytt-skip-angrepet-i-hormuzstredet/s/80-95-1068",
+      "source": "nettavisen.no",
+      "publishedAt": "2026-08-15T03:30:00Z",
+      "fetchedAt": "2026-08-15T03:56:23.173Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Norway"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nettavisen.no/nyheter/nytt-skip-angrepet-i-hormuzstredet/s/80-95-1068"
+    },
+    {
+      "id": "e3ec6e7d5514f613",
+      "category": "能源与航运",
+      "title": "Fragile 5 no more , eyes on 100 GW nuclear energy target : Key numbers by PM Modi from Red Fort",
+      "url": "https://www.hindustantimes.com/india-news/fragile-5-no-more-eyes-on-200-gw-nuclear-energy-target-key-numbers-by-pm-modi-from-red-fort-80th-independence-day-101786760877352.html",
+      "source": "hindustantimes.com",
+      "publishedAt": "2026-08-15T03:30:00Z",
+      "fetchedAt": "2026-08-15T03:56:23.173Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hindustantimes.com/india-news/fragile-5-no-more-eyes-on-200-gw-nuclear-energy-target-key-numbers-by-pm-modi-from-red-fort-80th-independence-day-101786760877352.html"
+    },
+    {
+      "id": "cfa411879d33d57b",
+      "category": "能源与航运",
+      "title": "Live updates : Trump says he will declare Strait of Hormuz a U . S . territory when Iran war ends – Ya Libnan",
+      "url": "https://yalibnan.com/2026/08/15/live-updates-trump-says-he-will-declare-strait-of-hormuz-a-u-s-territory-when-iran-war-ends/",
+      "source": "yalibnan.com",
+      "publishedAt": "2026-08-15T03:30:00Z",
+      "fetchedAt": "2026-08-15T03:56:23.173Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://yalibnan.com/2026/08/15/live-updates-trump-says-he-will-declare-strait-of-hormuz-a-u-s-territory-when-iran-war-ends/"
+    },
+    {
+      "id": "8a25f5f0c0a64d66",
+      "category": "能源与航运",
+      "title": "UAE state oil company says vessel attacked in Hormuz Strait - Xinhua",
+      "url": "https://english.news.cn/20260815/489bc23eff3540239461183c727769ed/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-15T03:30:00Z",
+      "fetchedAt": "2026-08-15T03:56:23.173Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260815/489bc23eff3540239461183c727769ed/c.html"
+    },
+    {
+      "id": "2949cf64ba6d1588",
+      "category": "金属与资源",
+      "title": "Russia wins fifth gold , China adds bronze at junior artistic swimming worlds",
+      "url": "http://www.china.org.cn/2026-08/15/content_118648892.shtml",
+      "source": "china.org.cn",
+      "publishedAt": "2026-08-15T03:30:00Z",
+      "fetchedAt": "2026-08-15T03:56:23.173Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.china.org.cn/2026-08/15/content_118648892.shtml"
+    },
     {
       "id": "ae046c6a0bb0eaf7",
       "category": "金属与资源",
@@ -1531,176 +1699,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.dailyexcelsior.com/flagrant-violation-uae-blames-iran-for-drone-attacks-on-two-adnoc-vessels-in-strait-of-hormuz/"
-    },
-    {
-      "id": "fa5b747686604880",
-      "category": "能源与航运",
-      "title": "Egypt strongly condemns attack on two ADNOC vessels in Strait of Hormuz",
-      "url": "http://www.iranherald.com/news/279241277/egypt-strongly-condemns-attack-on-two-adnoc-vessels-in-strait-of-hormuz",
-      "source": "iranherald.com",
-      "publishedAt": "2026-08-14T13:15:00Z",
-      "fetchedAt": "2026-08-14T13:46:50.098Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Iran"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.iranherald.com/news/279241277/egypt-strongly-condemns-attack-on-two-adnoc-vessels-in-strait-of-hormuz"
-    },
-    {
-      "id": "c2736f94f8dade4e",
-      "category": "金属与资源",
-      "title": "Silver car damaged in Sainsbury car park in Harrogate",
-      "url": "https://www.yorkpress.co.uk/news/26464482.silver-car-damaged-sainsburys-car-park-harrogate/",
-      "source": "yorkpress.co.uk",
-      "publishedAt": "2026-08-14T13:15:00Z",
-      "fetchedAt": "2026-08-14T13:46:50.098Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.yorkpress.co.uk/news/26464482.silver-car-damaged-sainsburys-car-park-harrogate/"
-    },
-    {
-      "id": "dc3f74f3a0679078",
-      "category": "科技与产业",
-      "title": "Medicamen Biotech consolidated net profit declines 1 . 40 % in the June 2026 quarter",
-      "url": "https://www.business-standard.com/markets/capital-market-news/medicamen-biotech-consolidated-net-profit-declines-1-40-in-the-june-2026-quarter-126081401627_1.html",
-      "source": "business-standard.com",
-      "publishedAt": "2026-08-14T13:15:00Z",
-      "fetchedAt": "2026-08-14T13:46:50.098Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.business-standard.com/markets/capital-market-news/medicamen-biotech-consolidated-net-profit-declines-1-40-in-the-june-2026-quarter-126081401627_1.html"
-    },
-    {
-      "id": "a62c5c9862954118",
-      "category": "能源与航运",
-      "title": "Căng thẳng Iran - UAE leo thang quanh tuyến hàng hải chiến lược Hormuz",
-      "url": "https://baomoi.com/cang-thang-iran-uae-leo-thang-quanh-tuyen-hang-hai-chien-luoc-hormuz-c55834862.epi",
-      "source": "baomoi.com",
-      "publishedAt": "2026-08-14T13:00:00Z",
-      "fetchedAt": "2026-08-14T13:46:50.098Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baomoi.com/cang-thang-iran-uae-leo-thang-quanh-tuyen-hang-hai-chien-luoc-hormuz-c55834862.epi"
-    },
-    {
-      "id": "9dcf1387ef4c56a9",
-      "category": "金属与资源",
-      "title": "Wie stabilisiert Edelmetall - Vermögen Inflationsphasen ? ( aktiencheck . de )",
-      "url": "https://www.aktiencheck.de/exklusiv/Artikel-Wie_stabilisiert_Edelmetall_Vermoegen_Inflationsphasen-20021357",
-      "source": "aktiencheck.de",
-      "publishedAt": "2026-08-14T13:00:00Z",
-      "fetchedAt": "2026-08-14T13:46:50.098Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aktiencheck.de/exklusiv/Artikel-Wie_stabilisiert_Edelmetall_Vermoegen_Inflationsphasen-20021357"
     }
   ]
 }
