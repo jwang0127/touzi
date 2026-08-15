@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-15T20:41:45.777Z",
-  "newsUpdatedAt": "2026-08-15T19:37:29.589Z",
-  "assetsUpdatedAt": "2026-08-15T20:41:45.777Z",
+  "generatedAt": "2026-08-15T21:38:07.273Z",
+  "newsUpdatedAt": "2026-08-15T21:38:07.273Z",
+  "assetsUpdatedAt": "2026-08-15T21:38:07.273Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,325 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63018,
-      "changePercent": 0.26243894411686225,
+      "price": 63084,
+      "changePercent": 0.40506845698293664,
       "unit": "USD",
-      "asOf": "2026-08-15T20:40:50.000Z",
+      "asOf": "2026-08-15T21:37:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1de685685641710a",
+      "category": "能源与航运",
+      "title": "Emiratele Arabe Unite acuză Iranul după atacul asupra unei nave ADNOC în Strâmtoarea Hormuz",
+      "url": "https://business24.ro/stramtoarea-hormuz/acuzatie-iran-atac-nava-stramtoare-hormuz-1664028",
+      "source": "business24.ro",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://business24.ro/stramtoarea-hormuz/acuzatie-iran-atac-nava-stramtoare-hormuz-1664028"
+    },
+    {
+      "id": "2c371f67978a7bb0",
+      "category": "能源与航运",
+      "title": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
+      "url": "https://www.redditchadvertiser.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
+      "source": "redditchadvertiser.co.uk",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.redditchadvertiser.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/"
+    },
+    {
+      "id": "9b47bb0c16d50b55",
+      "category": "金属与资源",
+      "title": "2026 Camp Blog : Back in black and gold",
+      "url": "http://www.oklahomacitysun.com/news/279244070/2026-camp-blog-back-in-black-and-gold",
+      "source": "oklahomacitysun.com",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.oklahomacitysun.com/news/279244070/2026-camp-blog-back-in-black-and-gold"
+    },
+    {
+      "id": "65ef2472c6fdacfa",
+      "category": "金属与资源",
+      "title": "Turn - EM in Zagreb : Starker EM - Auftritt : Gold für Kevric , Silber für Schönmaier",
+      "url": "https://www.oz-online.de/artikel/1678756/Starker-EM-Auftritt-Gold-fuer-Kevric-Silber-fuer-Schoenmaier",
+      "source": "oz-online.de",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.oz-online.de/artikel/1678756/Starker-EM-Auftritt-Gold-fuer-Kevric-Silber-fuer-Schoenmaier"
+    },
+    {
+      "id": "85b15684e68a246c",
+      "category": "金属与资源",
+      "title": "Gold Coast coach Damien Hardwick accepts responsibility for Christian Petracca form slump",
+      "url": "https://balticbusinessnews.com/gold-coast-coach-damien-hardwick-accepts-responsibility-for-christian-petraccas-form-slump/",
+      "source": "balticbusinessnews.com",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Estonia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://balticbusinessnews.com/gold-coast-coach-damien-hardwick-accepts-responsibility-for-christian-petraccas-form-slump/"
+    },
+    {
+      "id": "c7dcb5b6addad97d",
+      "category": "能源与航运",
+      "title": "Trump wil Straat van Hormuz uitroepen tot VS - gebied",
+      "url": "https://www.dagelijksestandaard.nl/buitenland/trump-straat-van-hormuz-amerikaans-grondgebied-blunder-iran?comment=1018508",
+      "source": "dagelijksestandaard.nl",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dagelijksestandaard.nl/buitenland/trump-straat-van-hormuz-amerikaans-grondgebied-blunder-iran?comment=1018508"
+    },
+    {
+      "id": "ba9db4022a289dd3",
+      "category": "金属与资源",
+      "title": "« Mentales Biest »: Speerwerfer Weber gewinnt EM - Gold",
+      "url": "https://www.welt.de/newsticker/dpa_nt/afxline/topthemen/article6a80d5d2a87e8142c31d15ef/mentales-biest-speerwerfer-weber-gewinnt-em-gold.html",
+      "source": "welt.de",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.welt.de/newsticker/dpa_nt/afxline/topthemen/article6a80d5d2a87e8142c31d15ef/mentales-biest-speerwerfer-weber-gewinnt-em-gold.html"
+    },
+    {
+      "id": "64d3a40f47c86916",
+      "category": "能源与航运",
+      "title": "Two more ships attacked in Strait of Hormuz , US warns of more pressure",
+      "url": "https://www.2lt.com.au/two-more-ships-attacked-in-strait-of-hormuz-us-warns-of-more-pressure/",
+      "source": "2lt.com.au",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.2lt.com.au/two-more-ships-attacked-in-strait-of-hormuz-us-warns-of-more-pressure/"
+    },
+    {
+      "id": "d543623695725f15",
+      "category": "能源与航运",
+      "title": "Ship traffic grinds to a halt in Hormuz Strait , US warns Iran",
+      "url": "http://www.clevelandstar.com/news/279242101/attacks-nearly-halt-hormuz-strait-traffic-us-threatens-more-pressure",
+      "source": "clevelandstar.com",
+      "publishedAt": "2026-08-15T21:30:00Z",
+      "fetchedAt": "2026-08-15T21:38:07.273Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.clevelandstar.com/news/279242101/attacks-nearly-halt-hormuz-strait-traffic-us-threatens-more-pressure"
+    },
     {
       "id": "ef28a73fa370b34c",
       "category": "金属与资源",
@@ -238,41 +547,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.omanobserver.om/article/1194546/oman/no-oil-pollution-impact-on-masirah-islands-shores"
-    },
-    {
-      "id": "a4c8b9dd36bbf55a",
-      "category": "能源与航运",
-      "title": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "url": "https://www.theboltonnews.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
-      "source": "theboltonnews.co.uk",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theboltonnews.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/"
     },
     {
       "id": "342d0999cbb6c12f",
@@ -1450,261 +1724,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.bgnes.com/politics/soon-the-strait-of-hormuz-will-be-us-territory-trump-says"
-    },
-    {
-      "id": "5687ea49a40192ff",
-      "category": "全球与地区",
-      "title": "Diana Shipping Inc . Withdraws Offer to Acquire Genco Shipping & Trading Following Genco Board Outrageous Demands",
-      "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/diana-shipping-inc-withdraws-offer-to-acquire-genco-shipping-trading-following-genco-boards-outrageous-demands/2406043",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/diana-shipping-inc-withdraws-offer-to-acquire-genco-shipping-trading-following-genco-boards-outrageous-demands/2406043"
-    },
-    {
-      "id": "379b55c72c900361",
-      "category": "全球与地区",
-      "title": "If Indonesia support for Palestine never changes , why is Israel ZIM shipping company still reaching its ports ? – Middle East Monitor",
-      "url": "https://www.middleeastmonitor.com/20260814-if-indonesias-support-for-palestine-never-changes-why-is-israels-zim-shipping-company-still-reaching-its-ports/",
-      "source": "middleeastmonitor.com",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeastmonitor.com/20260814-if-indonesias-support-for-palestine-never-changes-why-is-israels-zim-shipping-company-still-reaching-its-ports/"
-    },
-    {
-      "id": "da75ffca03a19d35",
-      "category": "金属与资源",
-      "title": "Eduard Koler : „ Polonia construiește fregate . România se milogește de Rheinmetall să vină la Mangalia -",
-      "url": "https://www.amosnews.ro/eduard-koler-polonia-construieste-fregate-romania-se-milogeste-de-rheinmetall-sa-vina-la-mangalia/",
-      "source": "amosnews.ro",
-      "publishedAt": "2026-08-14T20:15:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.amosnews.ro/eduard-koler-polonia-construieste-fregate-romania-se-milogeste-de-rheinmetall-sa-vina-la-mangalia/"
-    },
-    {
-      "id": "70b91daf3c5c82d4",
-      "category": "科技与产业",
-      "title": "Cina , presenza di robot quadruplicata ai secondi World Humanoid Robot Games",
-      "url": "https://www.reggio2000.it/2026/08/14/cina-presenza-di-robot-quadruplicata-ai-secondi-world-humanoid-robot-games/",
-      "source": "reggio2000.it",
-      "publishedAt": "2026-08-14T20:15:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.reggio2000.it/2026/08/14/cina-presenza-di-robot-quadruplicata-ai-secondi-world-humanoid-robot-games/"
-    },
-    {
-      "id": "98a02967d15b803c",
-      "category": "能源与航运",
-      "title": "2 UAE tankers attacked while transiting Strait of Hormuz , and other news from the Middle East - Las Vegas Sun News",
-      "url": "https://lasvegassun.com/news/2026/aug/14/2-uae-tankers-attacked-while-transiting-strait-of-/",
-      "source": "lasvegassun.com",
-      "publishedAt": "2026-08-14T20:15:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://lasvegassun.com/news/2026/aug/14/2-uae-tankers-attacked-while-transiting-strait-of-/"
-    },
-    {
-      "id": "bbe354d65897a123",
-      "category": "全球与地区",
-      "title": "Strait of Hormuz : Canada sanctions five Iranian officials",
-      "url": "https://www.bnnbloomberg.ca/business/politics/2026/08/14/canada-sanctions-five-iranian-officials-over-blockade-of-strait-of-hormuz/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-08-14T20:15:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/business/politics/2026/08/14/canada-sanctions-five-iranian-officials-over-blockade-of-strait-of-hormuz/"
-    },
-    {
-      "id": "ffc3984e6d648a43",
-      "category": "能源与航运",
-      "title": "Brasil alcanza un récord histórico en sus exportaciones agropecuarias",
-      "url": "https://www.telesurtv.net/brasil-record-historico-exportaciones-agropecuarias/",
-      "source": "telesurtv.net",
-      "publishedAt": "2026-08-14T20:00:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.telesurtv.net/brasil-record-historico-exportaciones-agropecuarias/"
-    },
-    {
-      "id": "671eab46dfa8efe0",
-      "category": "金属与资源",
-      "title": "SLAM Reports 1 . 19 % Copper Equivalent Over 24 . 6 Metres in Hole GW26 - 29 From the Goodwin Copper - Nickel - Cobalt Project",
-      "url": "http://www.torontotelegraph.com/news/279241707/slam-reports-119-copper-equivalent-over-246-metres-in-hole-gw26-29-from-the-goodwin-copper-nickel-cobalt-project",
-      "source": "torontotelegraph.com",
-      "publishedAt": "2026-08-14T20:00:00Z",
-      "fetchedAt": "2026-08-14T20:48:15.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.torontotelegraph.com/news/279241707/slam-reports-119-copper-equivalent-over-246-metres-in-hole-gw26-29-from-the-goodwin-copper-nickel-cobalt-project"
     }
   ]
 }
