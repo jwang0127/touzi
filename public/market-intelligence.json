@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T01:59:15.189Z",
-  "newsUpdatedAt": "2026-08-15T21:38:07.273Z",
-  "assetsUpdatedAt": "2026-08-16T01:59:15.189Z",
+  "generatedAt": "2026-08-16T03:14:26.992Z",
+  "newsUpdatedAt": "2026-08-16T03:14:26.992Z",
+  "assetsUpdatedAt": "2026-08-16T03:14:26.992Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,176 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62997,
-      "changePercent": 0.04189210090034293,
+      "price": 63070,
+      "changePercent": -0.02835938376288311,
       "unit": "USD",
-      "asOf": "2026-08-16T01:58:10.000Z",
+      "asOf": "2026-08-16T03:13:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "25044c2fd2e62e69",
+      "category": "能源与航运",
+      "title": "Iran says Strait of Hormuz route agreed with Oman , but deal is yet to be finalised",
+      "url": "https://www.moneycontrol.com/world/iran-says-strait-of-hormuz-route-agreed-with-oman-but-deal-is-yet-to-be-finalised-article-14006528.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-08-16T03:00:00Z",
+      "fetchedAt": "2026-08-16T03:14:26.992Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/world/iran-says-strait-of-hormuz-route-agreed-with-oman-but-deal-is-yet-to-be-finalised-article-14006528.html"
+    },
+    {
+      "id": "f2ab864d1bfafb47",
+      "category": "A股与政策",
+      "title": "油气ETF大涨3 % A股宽基资金大幅流出 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260816000032.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-08-16T03:00:00Z",
+      "fetchedAt": "2026-08-16T03:14:26.992Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20260816000032.html"
+    },
+    {
+      "id": "64fd2431544d9e24",
+      "category": "能源与航运",
+      "title": "Hormuz deadlock , Fed pause bets set stage for two - way commodity volatility next week",
+      "url": "https://www.moneycontrol.com/news/opinion/hormuz-deadlock-fed-pause-bets-set-stage-for-two-way-commodity-volatility-next-week-14006519.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-08-16T03:00:00Z",
+      "fetchedAt": "2026-08-16T03:14:26.992Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/opinion/hormuz-deadlock-fed-pause-bets-set-stage-for-two-way-commodity-volatility-next-week-14006519.html"
+    },
+    {
+      "id": "bad86fa26b5d8701",
+      "category": "金属与资源",
+      "title": "Life at American gold mines in northern Korea [ 2 ]: Pulling teeth",
+      "url": "https://www.koreatimes.co.kr/opinion/20260816/life-at-american-gold-mines-in-northern-korea-2-pulling-teeth",
+      "source": "koreatimes.co.kr",
+      "publishedAt": "2026-08-16T03:00:00Z",
+      "fetchedAt": "2026-08-16T03:14:26.992Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "South Korea"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.koreatimes.co.kr/opinion/20260816/life-at-american-gold-mines-in-northern-korea-2-pulling-teeth"
+    },
+    {
+      "id": "8c80db0a940cb98e",
+      "category": "A股与政策",
+      "title": "流动性改善驱动A股修复 三大业绩主线配置机遇 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260816000072.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-08-16T03:00:00Z",
+      "fetchedAt": "2026-08-16T03:14:26.992Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20260816000072.html"
+    },
     {
       "id": "1de685685641710a",
       "category": "能源与航运",
@@ -1572,158 +1730,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.theuknews.com/news/279241756/uae-blames-iran-for-tanker-strikes-in-strait-of-hormuz"
-    },
-    {
-      "id": "55d381fda17a6cee",
-      "category": "全球与地区",
-      "title": "Canada sanctions five Iranian officials over Strait of Hormuz navigation",
-      "url": "https://en.apa.az/america/canada-sanctions-five-iranian-officials-over-strait-of-hormuz-navigation-520400",
-      "source": "en.apa.az",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://en.apa.az/america/canada-sanctions-five-iranian-officials-over-strait-of-hormuz-navigation-520400"
-    },
-    {
-      "id": "da60de2a439f2448",
-      "category": "金属与资源",
-      "title": "Gold , Silver Pull Back : One Pattern Every Trader Should Watch",
-      "url": "https://www.zerohedge.com/news/2026-08-14/gold-silver-pull-back-one-pattern-every-trader-should-watch-metals-minute-phil",
-      "source": "zerohedge.com",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.zerohedge.com/news/2026-08-14/gold-silver-pull-back-one-pattern-every-trader-should-watch-metals-minute-phil"
-    },
-    {
-      "id": "e575e80b54f89e40",
-      "category": "数字资产",
-      "title": "Rhino Bitcoin Provides Update on Plans to Complete SEC Filings and Strengthen Independent Governance to Enhance Transparency and Position for a Potential Exchange Uplisting",
-      "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/rhino-bitcoin-provides-update-on-plans-to-complete-sec-filings-and-strengthen-independent-governance-to-enhance-transparency-and-position-for-a-potential-exchange-uplisting/2405994",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/rhino-bitcoin-provides-update-on-plans-to-complete-sec-filings-and-strengthen-independent-governance-to-enhance-transparency-and-position-for-a-potential-exchange-uplisting/2405994"
-    },
-    {
-      "id": "e96770dcd70cab10",
-      "category": "数字资产",
-      "title": "Bitcoin scende verso nuovi minimi : 5 segnali che inquietano il mercato",
-      "url": "https://www.soldionline.it/notizie/forex-commodities/bitcoin-scende-verso-nuovi-minimi-5-segnali-che-inquietano-il-mercato",
-      "source": "soldionline.it",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.soldionline.it/notizie/forex-commodities/bitcoin-scende-verso-nuovi-minimi-5-segnali-che-inquietano-il-mercato"
-    },
-    {
-      "id": "b4f43d81fb4f8976",
-      "category": "能源与航运",
-      "title": "Soon the Strait of Hormuz Will Be US Territory , Trump Says",
-      "url": "http://www.bgnes.com/politics/soon-the-strait-of-hormuz-will-be-us-territory-trump-says",
-      "source": "bgnes.com",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Bulgaria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bgnes.com/politics/soon-the-strait-of-hormuz-will-be-us-territory-trump-says"
     }
   ]
 }
