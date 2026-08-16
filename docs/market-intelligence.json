@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T04:03:16.736Z",
-  "newsUpdatedAt": "2026-08-16T04:03:16.736Z",
-  "assetsUpdatedAt": "2026-08-16T04:03:16.736Z",
+  "generatedAt": "2026-08-16T04:51:36.803Z",
+  "newsUpdatedAt": "2026-08-16T04:51:36.803Z",
+  "assetsUpdatedAt": "2026-08-16T04:51:36.803Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -127,16 +127,236 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63078,
-      "changePercent": 0.09491301653508208,
+      "price": 63072,
+      "changePercent": -0.021924996692682573,
       "unit": "USD",
-      "asOf": "2026-08-16T04:01:30.000Z",
+      "asOf": "2026-08-16T04:50:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "2096f46e22b38988",
+      "category": "能源与航运",
+      "title": "Petrol and diesel prices today Aug 16 : Latest fuel rates in Delhi , Mumbai , Bengaluru amid US - Iran deadlock on Hormuz",
+      "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-aug-16-latest-fuel-rates-in-delhi-mumbai-bengaluru-amid-us-iran-deadlock-on-hormuz-11786843963540.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-aug-16-latest-fuel-rates-in-delhi-mumbai-bengaluru-amid-us-iran-deadlock-on-hormuz-11786843963540.html"
+    },
+    {
+      "id": "548abdc87f4cff51",
+      "category": "能源与航运",
+      "title": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
+      "url": "https://www.businesstoday.in/world/story/another-tanker-attacked-in-hormuz-iran-says-qatar-is-holding-3-missing-pilots-549440-2026-08-16",
+      "source": "businesstoday.in",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.businesstoday.in/world/story/another-tanker-attacked-in-hormuz-iran-says-qatar-is-holding-3-missing-pilots-549440-2026-08-16"
+    },
+    {
+      "id": "6f4e02e93ec0f9e7",
+      "category": "数字资产",
+      "title": "Tale of two crypto routs , and why no one saw them coming",
+      "url": "https://www.livemint.com/money/crypto-currency-crypto-platforms-virtual-digital-asset-bitcoin-11786700981148.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/money/crypto-currency-crypto-platforms-virtual-digital-asset-bitcoin-11786700981148.html"
+    },
+    {
+      "id": "97bfa9e4eb8ea06a",
+      "category": "全球与地区",
+      "title": "2 . 500 millones y mucho conflicto de interé : el Ibex se pone en guardia ante la tensión con Marruecos",
+      "url": "https://www.elconfidencial.com/empresas/2026-08-16/ibex-guardia-marruecos-2-500-millones-conflicto-interes_4405657/",
+      "source": "elconfidencial.com",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elconfidencial.com/empresas/2026-08-16/ibex-guardia-marruecos-2-500-millones-conflicto-interes_4405657/"
+    },
+    {
+      "id": "b7f1f4a044a3531b",
+      "category": "金属与资源",
+      "title": "Andhra Pradesh gold rush : State eyes 4 tonnes annual output , 40 , 000 critical - mineral jobs , says Mines Secretary",
+      "url": "https://www.livemint.com/news/india/andhra-pradesh-s-gold-rush-state-eyes-4-tonnes-annual-output-40-000-critical-mineral-jobs-says-mines-secretary-11786847907658.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/india/andhra-pradesh-s-gold-rush-state-eyes-4-tonnes-annual-output-40-000-critical-mineral-jobs-says-mines-secretary-11786847907658.html"
+    },
+    {
+      "id": "0fabc8e1303c48fa",
+      "category": "科技与产业",
+      "title": "Una calculadora de la probabilidad de que se automatice tu puesto de trabajo en el futuro con robots o inteligencias artificiales",
+      "url": "https://www.microsiervos.com/archivo/robots/calculadora-probabilidad-automatizacion-trabajo-futuro-robots-inteligencias-artificiales.html",
+      "source": "microsiervos.com",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.microsiervos.com/archivo/robots/calculadora-probabilidad-automatizacion-trabajo-futuro-robots-inteligencias-artificiales.html"
+    },
+    {
+      "id": "dec97559e29ae9b4",
+      "category": "科技与产业",
+      "title": "Cambodia garment industry needs AI , robotics to stay competitive",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/16/cambodia039s-garment-industry-needs-ai-robotics-to-stay-competitive",
+      "source": "thestar.com.my",
+      "publishedAt": "2026-08-16T04:00:00Z",
+      "fetchedAt": "2026-08-16T04:51:36.803Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/16/cambodia039s-garment-industry-needs-ai-robotics-to-stay-competitive"
+    },
     {
       "id": "db83da2d3d1b6ba2",
       "category": "能源与航运",
@@ -1503,232 +1723,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.bostonherald.com/2026/08/14/walmart-and-sams-club-are-buying-robots-at-record-numbers-heres-why-your-job-is-safe/"
-    },
-    {
-      "id": "9d8d32fea59a998a",
-      "category": "金属与资源",
-      "title": "Belgian construction workers stumble across $17 . 6m in gold bars and coins",
-      "url": "https://www.nzherald.co.nz/world/belgian-construction-workers-stumble-across-176m-in-gold-bars-and-coins/ZPPFH4N5RVDYNNR4FDXSGNGTXU/",
-      "source": "nzherald.co.nz",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nzherald.co.nz/world/belgian-construction-workers-stumble-across-176m-in-gold-bars-and-coins/ZPPFH4N5RVDYNNR4FDXSGNGTXU/"
-    },
-    {
-      "id": "259444473bd9a7ca",
-      "category": "能源与航运",
-      "title": "RIP Richard Heinberg : Peak Oil Discussion - Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/forums/viewtopic.php?p=1503891",
-      "source": "peakoil.com",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1503891"
-    },
-    {
-      "id": "50f52fb3cc32c895",
-      "category": "能源与航运",
-      "title": "Iran , Trump : Presto dichiarerò Hormuz territorio united states",
-      "url": "https://www.savonanews.it/2026/08/15/leggi-notizia/argomenti/ultimora/articolo/iran-trump-presto-dichiarero-hormuz-territorio-usa.html",
-      "source": "savonanews.it",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.savonanews.it/2026/08/15/leggi-notizia/argomenti/ultimora/articolo/iran-trump-presto-dichiarero-hormuz-territorio-usa.html"
-    },
-    {
-      "id": "7101dfdc42788647",
-      "category": "金属与资源",
-      "title": "Bitcoin News heute , Goldman Sachs zahlt 2 , 25 Milliarden für BTC Fonds und der Kurs bleibt stehen",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69320324-bitcoin-news-heute-goldman-sachs-zahlt-2-25-milliarden-fuer-btc-fonds-und-der-kurs-bleibt-stehen-712.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69320324-bitcoin-news-heute-goldman-sachs-zahlt-2-25-milliarden-fuer-btc-fonds-und-der-kurs-bleibt-stehen-712.htm"
-    },
-    {
-      "id": "23cbc90b837f4a6b",
-      "category": "全球与地区",
-      "title": "4 Questions On Excess Manufacturing Capacity Tariffs",
-      "url": "https://www.law360.com:443/articles/2513579",
-      "source": "law360.com",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.law360.com:443/articles/2513579"
-    },
-    {
-      "id": "6e45c73e2a4a8f17",
-      "category": "全球与地区",
-      "title": "Strait of Hormuz Shipping Near Standstill After New Vessel Attacks",
-      "url": "http://www.econotimes.com/Strait-of-Hormuz-Shipping-Near-Standstill-After-New-Vessel-Attacks-1749551",
-      "source": "econotimes.com",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.econotimes.com/Strait-of-Hormuz-Shipping-Near-Standstill-After-New-Vessel-Attacks-1749551"
-    },
-    {
-      "id": "a84e68cd7a1e6d6c",
-      "category": "能源与航运",
-      "title": "Motocicletă germană din al Doilea Război Mondial , descoperită în apele Dunării , la Budapesta",
-      "url": "https://historia.ro/sectiune/actualitate/motocicleta-germana-din-al-doilea-razboi-mondial-2550027.html",
-      "source": "historia.ro",
-      "publishedAt": "2026-08-14T21:15:00Z",
-      "fetchedAt": "2026-08-14T21:43:16.544Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://historia.ro/sectiune/actualitate/motocicleta-germana-din-al-doilea-razboi-mondial-2550027.html"
     }
   ]
 }
