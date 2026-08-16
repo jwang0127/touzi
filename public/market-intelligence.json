@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T14:41:55.577Z",
-  "newsUpdatedAt": "2026-08-16T14:41:55.577Z",
-  "assetsUpdatedAt": "2026-08-16T14:41:55.577Z",
+  "generatedAt": "2026-08-16T15:39:44.802Z",
+  "newsUpdatedAt": "2026-08-16T15:39:44.802Z",
+  "assetsUpdatedAt": "2026-08-16T15:39:44.802Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,187 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63042,
-      "changePercent": 0.10021185833155577,
+      "price": 63080,
+      "changePercent": 0.0361765588160114,
       "unit": "USD",
-      "asOf": "2026-08-16T14:41:00.000Z",
+      "asOf": "2026-08-16T15:39:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f918f4bebb2752f5",
+      "category": "能源与航运",
+      "title": "An Indiana pastor became an Illinois oilman . Spills and pollution followed .",
+      "url": "https://www.mainlinemedianews.com/2026/08/16/orphan-wells-oil-gas-illinois-indian-liberty/",
+      "source": "mainlinemedianews.com",
+      "publishedAt": "2026-08-16T15:15:00Z",
+      "fetchedAt": "2026-08-16T15:39:44.802Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.mainlinemedianews.com/2026/08/16/orphan-wells-oil-gas-illinois-indian-liberty/"
+    },
+    {
+      "id": "d95d1009063a00d5",
+      "category": "金属与资源",
+      "title": "Baden - Württemberg : Darja Varfolomeev holt WM - Gold mit dem Ball und mit dem Band",
+      "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-darja-varfolomeev-holt-wm-gold-mit-dem-ball-und-bronze-mit-dem-reifen-102.html",
+      "source": "tagesschau.de",
+      "publishedAt": "2026-08-16T15:15:00Z",
+      "fetchedAt": "2026-08-16T15:39:44.802Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-darja-varfolomeev-holt-wm-gold-mit-dem-ball-und-bronze-mit-dem-reifen-102.html"
+    },
+    {
+      "id": "e86ce7c428fed9fe",
+      "category": "能源与航运",
+      "title": "Iran Rejects Trump Strait Of Hormuz U . S . Territory Strategy",
+      "url": "https://wlac.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/",
+      "source": "wlac.iheart.com",
+      "publishedAt": "2026-08-16T15:15:00Z",
+      "fetchedAt": "2026-08-16T15:39:44.802Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wlac.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/"
+    },
+    {
+      "id": "ac0a556d9e1db4c7",
+      "category": "能源与航运",
+      "title": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "url": "http://www.russiaherald.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats",
+      "source": "russiaherald.com",
+      "publishedAt": "2026-08-16T15:15:00Z",
+      "fetchedAt": "2026-08-16T15:39:44.802Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.russiaherald.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats"
+    },
+    {
+      "id": "ce1e37f45ee3a57b",
+      "category": "金属与资源",
+      "title": "Sam Pang wins 2026 Gold Logie",
+      "url": "https://www.goulburnpost.com.au/story/9330955/sam-pang-wins-2026-gold-logie/",
+      "source": "goulburnpost.com.au",
+      "publishedAt": "2026-08-16T15:15:00Z",
+      "fetchedAt": "2026-08-16T15:39:44.802Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.goulburnpost.com.au/story/9330955/sam-pang-wins-2026-gold-logie/"
+    },
     {
       "id": "ef9a39f2c0e795b6",
       "category": "能源与航运",
@@ -204,41 +375,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.lemauricien.com/actualites/societe/approvisionnement-de-maurice-en-produits-petroliers-raffines-a-laube-dun-accord-stc-indian-oil-corporation-ltd/715322/"
-    },
-    {
-      "id": "05ff3bcb82d1a1d4",
-      "category": "能源与航运",
-      "title": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "url": "http://www.kenyastar.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats",
-      "source": "kenyastar.com",
-      "publishedAt": "2026-08-16T14:15:00Z",
-      "fetchedAt": "2026-08-16T14:41:55.577Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Kenya"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.kenyastar.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats"
     },
     {
       "id": "35b172abb3caac32",
@@ -1583,141 +1719,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.2lt.com.au/two-more-ships-attacked-in-strait-of-hormuz-us-warns-of-more-pressure/"
-    },
-    {
-      "id": "d543623695725f15",
-      "category": "能源与航运",
-      "title": "Ship traffic grinds to a halt in Hormuz Strait , US warns Iran",
-      "url": "http://www.clevelandstar.com/news/279242101/attacks-nearly-halt-hormuz-strait-traffic-us-threatens-more-pressure",
-      "source": "clevelandstar.com",
-      "publishedAt": "2026-08-15T21:30:00Z",
-      "fetchedAt": "2026-08-15T21:38:07.273Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.clevelandstar.com/news/279242101/attacks-nearly-halt-hormuz-strait-traffic-us-threatens-more-pressure"
-    },
-    {
-      "id": "ef28a73fa370b34c",
-      "category": "金属与资源",
-      "title": "OConnor takes heptathlon gold for Ireland third medal of European Championships",
-      "url": "https://www.thejournal.ie/kate-oconnor-heptathlon-gold-medal-european-championships-2-7132398-Aug2026/",
-      "source": "thejournal.ie",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Ireland"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thejournal.ie/kate-oconnor-heptathlon-gold-medal-european-championships-2-7132398-Aug2026/"
-    },
-    {
-      "id": "724d891d363ae35a",
-      "category": "能源与航运",
-      "title": "McTEAGUE : Canada could supply oil and gas the world needs now",
-      "url": "https://edmontonsun.com/opinion/columnists/mcteague-canada-could-supply-oil-and-gas-the-world-needs-now/wcm/ab290a8f-20da-4f9a-b7e9-adf44ab356c2",
-      "source": "edmontonsun.com",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://edmontonsun.com/opinion/columnists/mcteague-canada-could-supply-oil-and-gas-the-world-needs-now/wcm/ab290a8f-20da-4f9a-b7e9-adf44ab356c2"
-    },
-    {
-      "id": "85499ebe3ea2a51d",
-      "category": "能源与航运",
-      "title": "No oil pollution impact on Masirah Island shores",
-      "url": "https://www.omanobserver.om/article/1194546/oman/no-oil-pollution-impact-on-masirah-islands-shores",
-      "source": "omanobserver.om",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Oman"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.omanobserver.om/article/1194546/oman/no-oil-pollution-impact-on-masirah-islands-shores"
     }
   ]
 }
