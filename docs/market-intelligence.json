@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T09:44:53.954Z",
-  "newsUpdatedAt": "2026-08-16T08:49:15.069Z",
-  "assetsUpdatedAt": "2026-08-16T09:44:53.954Z",
+  "generatedAt": "2026-08-16T10:42:39.155Z",
+  "newsUpdatedAt": "2026-08-16T10:42:39.155Z",
+  "assetsUpdatedAt": "2026-08-16T10:42:39.155Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,320 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 62956,
-      "changePercent": -0.012152242747793862,
+      "price": 62954,
+      "changePercent": -0.02898190790599556,
       "unit": "USD",
-      "asOf": "2026-08-16T09:44:10.000Z",
+      "asOf": "2026-08-16T10:42:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "35b172abb3caac32",
+      "category": "科技与产业",
+      "title": "Digitalisierung und Robotik : Sachsen will von Südkoreas Gesundheitswesen lernen",
+      "url": "https://www.zeit.de/news/2026-08/16/sachsen-will-von-suedkoreas-gesundheitswesen-lernen",
+      "source": "zeit.de",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zeit.de/news/2026-08/16/sachsen-will-von-suedkoreas-gesundheitswesen-lernen"
+    },
+    {
+      "id": "f302e6ce101237d0",
+      "category": "能源与航运",
+      "title": "Gasoil et essence : Cette hausse que le pouvoir savait déjà inévitable",
+      "url": "https://www.dakaractu.com/Gasoil-et-essence-Cette-hausse-que-le-pouvoir-savait-deja-inevitable_a275020.html",
+      "source": "dakaractu.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Senegal"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dakaractu.com/Gasoil-et-essence-Cette-hausse-que-le-pouvoir-savait-deja-inevitable_a275020.html"
+    },
+    {
+      "id": "a4908c1910e638fb",
+      "category": "全球与地区",
+      "title": "Haiti Violence Leaves More Than 600 Dead as Gang Conflict Intensifies",
+      "url": "https://slguardian.org/haiti-violence-leaves-more-than-600-dead-as-gang-conflict-intensifies/",
+      "source": "slguardian.org",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Sri Lanka"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://slguardian.org/haiti-violence-leaves-more-than-600-dead-as-gang-conflict-intensifies/"
+    },
+    {
+      "id": "a6eefd2afd9da6d6",
+      "category": "金属与资源",
+      "title": "Iraq seizes another $20m cash , 60kgs gold and seven vehicles as corruption sweep continues",
+      "url": "https://www.thenationalnews.com/news/mena/2026/08/16/iraq-seizes-another-20m-cash-60kgs-gold-and-seven-vehicles-as-corruption-sweep-continues/",
+      "source": "thenationalnews.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thenationalnews.com/news/mena/2026/08/16/iraq-seizes-another-20m-cash-60kgs-gold-and-seven-vehicles-as-corruption-sweep-continues/"
+    },
+    {
+      "id": "484b55b1432ee40d",
+      "category": "金属与资源",
+      "title": "Who needs a Gold Logie ? asks five - time nominee",
+      "url": "https://www.areanews.com.au/story/9330955/who-needs-a-gold-logie-asks-five-time-nominee/",
+      "source": "areanews.com.au",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.areanews.com.au/story/9330955/who-needs-a-gold-logie-asks-five-time-nominee/"
+    },
+    {
+      "id": "761ebecafc501d15",
+      "category": "金属与资源",
+      "title": "Global AI investment $1 tln in 2026 , to reach 1 . 4 pc global GDP by 2028 : Goldman Sachs",
+      "url": "http://www.chinanationalnews.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs",
+      "source": "chinanationalnews.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.chinanationalnews.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs"
+    },
+    {
+      "id": "70390c2f0c98d33a",
+      "category": "能源与航运",
+      "title": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trumps-threats/articleshow/133272841.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/world-news/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trumps-threats/articleshow/133272841.cms"
+    },
+    {
+      "id": "887763c005c8631b",
+      "category": "能源与航运",
+      "title": "Iran Minta Trump Akui Kekalahan , Tantang Presiden AS soal Kendali Selat Hormuz",
+      "url": "https://www.kompas.com/global/read/2026/08/16/164843070/iran-minta-trump-akui-kekalahan-tantang-presiden-as-soal-kendali-selat",
+      "source": "kompas.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kompas.com/global/read/2026/08/16/164843070/iran-minta-trump-akui-kekalahan-tantang-presiden-as-soal-kendali-selat"
+    },
+    {
+      "id": "3890eb724fdd7381",
+      "category": "金属与资源",
+      "title": "Ukraine Mahuchikh Wins Third Consecutive European High Jump Gold",
+      "url": "https://www.kyivpost.com/post/82434",
+      "source": "kyivpost.com",
+      "publishedAt": "2026-08-16T10:15:00Z",
+      "fetchedAt": "2026-08-16T10:42:39.155Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Ukraine"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kyivpost.com/post/82434"
+    },
     {
       "id": "0ea387e7c3abf6ea",
       "category": "能源与航运",
@@ -330,42 +634,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-must-strengthen-shipping-capacity-naval-protection-amid-growing-chokepoints-gtri/articleshow/133271212.cms"
-    },
-    {
-      "id": "b19c84c8d31b9a89",
-      "category": "金属与资源",
-      "title": "Global AI investment $1 tln in 2026 , to reach 1 . 4 pc global GDP by 2028 : Goldman Sachs",
-      "url": "http://www.newzealandstar.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs",
-      "source": "newzealandstar.com",
-      "publishedAt": "2026-08-16T06:30:00Z",
-      "fetchedAt": "2026-08-16T07:02:24.994Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.newzealandstar.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs"
     },
     {
       "id": "8449f1c7ec16a6fc",
@@ -1451,261 +1719,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-weltrekord-liebmann-gewinnt-emgold-klemet-holt-bronze-_arid,1011776.html"
-    },
-    {
-      "id": "a1f73bae2b54ce2a",
-      "category": "数字资产",
-      "title": "Bitmine ( NASDAQ : BMNR ) Nears 5 % Ethereum Supply Target As Tom Lee Signals Confidence In ETH Trajectory",
-      "url": "https://www.foreignpolicyjournal.com/2026/08/15/bitmine-nasdaq-bmnr-nears-5-ethereum-supply-target-as-tom-lee-signals-confidence-in-eths-trajectory/",
-      "source": "foreignpolicyjournal.com",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.foreignpolicyjournal.com/2026/08/15/bitmine-nasdaq-bmnr-nears-5-ethereum-supply-target-as-tom-lee-signals-confidence-in-eths-trajectory/"
-    },
-    {
-      "id": "b5fea86b5b34920d",
-      "category": "全球与地区",
-      "title": "Tariffs , war and emission controls : What the state of California port economy ?",
-      "url": "https://www.ijpr.org/economy-and-finance/2026-08-15/tariffs-war-and-emission-controls-whats-the-state-of-californias-port-economy",
-      "source": "ijpr.org",
-      "publishedAt": "2026-08-15T19:15:00Z",
-      "fetchedAt": "2026-08-15T19:37:29.589Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ijpr.org/economy-and-finance/2026-08-15/tariffs-war-and-emission-controls-whats-the-state-of-californias-port-economy"
-    },
-    {
-      "id": "38683c1dd993fc02",
-      "category": "金属与资源",
-      "title": "Local bowler strikes pair of silvers in summer games - Medicine Hat NewsMedicine Hat News",
-      "url": "https://medicinehatnews.com/news/local-news/2026/08/15/local-bowler-strikes-pair-of-silvers-in-summer-games/",
-      "source": "medicinehatnews.com",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://medicinehatnews.com/news/local-news/2026/08/15/local-bowler-strikes-pair-of-silvers-in-summer-games/"
-    },
-    {
-      "id": "2678ccd656fc8791",
-      "category": "能源与航运",
-      "title": "Zion Oil & Gas ( OTCMKTS : ZNOG ) versus Extraction Oil & Gas ( OTCMKTS : XOGAQ ) Financial Comparison",
-      "url": "https://www.tickerreport.com/banking-finance/13544824/zion-oil-gas-otcmktsznog-versus-extraction-oil-gas-otcmktsxogaq-financial-comparison.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13544824/zion-oil-gas-otcmktsznog-versus-extraction-oil-gas-otcmktsxogaq-financial-comparison.html"
-    },
-    {
-      "id": "b9fb53c45228a374",
-      "category": "能源与航运",
-      "title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
-      "url": "https://kaieteurnewsonline.com/2026/08/15/two-slicks-appear-in-gulf-as-huge-oil-spill-off-oman-threatens-disaster/",
-      "source": "kaieteurnewsonline.com",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Guyana"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://kaieteurnewsonline.com/2026/08/15/two-slicks-appear-in-gulf-as-huge-oil-spill-off-oman-threatens-disaster/"
-    },
-    {
-      "id": "573889a9d8677cdd",
-      "category": "能源与航运",
-      "title": "Ông Trump nói sẽ đưa Eo biển Hormuz thành lãnh thổ Mỹ , Iran tuyên bố không bị khuất phục",
-      "url": "https://stockbiz.vn/tin-tuc/ong-trump-noi-se-dua-eo-bien-hormuz-thanh-lanh-tho-my-iran-tuyen-bo-khong-bi-khuat-phuc/41449134",
-      "source": "stockbiz.vn",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stockbiz.vn/tin-tuc/ong-trump-noi-se-dua-eo-bien-hormuz-thanh-lanh-tho-my-iran-tuyen-bo-khong-bi-khuat-phuc/41449134"
-    },
-    {
-      "id": "8d2499a3fd2830f4",
-      "category": "能源与航运",
-      "title": "Invesco DB Energy Fund ( NYSEARCA : DBE ) Shares Cross Above 200 Day Moving Average – Here What Happened",
-      "url": "https://www.tickerreport.com/banking-finance/13544810/invesco-db-energy-fund-nysearcadbe-shares-cross-above-200-day-moving-average-heres-what-happened.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13544810/invesco-db-energy-fund-nysearcadbe-shares-cross-above-200-day-moving-average-heres-what-happened.html"
-    },
-    {
-      "id": "501c46816470db57",
-      "category": "能源与航运",
-      "title": "Iran defiant on Hormuz with no sign of peace talks",
-      "url": "https://www.omanobserver.om/article/1194500/world/region/iran-defiant-on-hormuz-with-no-sign-of-peace-talks",
-      "source": "omanobserver.om",
-      "publishedAt": "2026-08-15T16:15:00Z",
-      "fetchedAt": "2026-08-15T16:43:41.300Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Oman"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.omanobserver.om/article/1194500/world/region/iran-defiant-on-hormuz-with-no-sign-of-peace-talks"
     }
   ]
 }
