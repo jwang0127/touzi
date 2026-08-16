@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T05:46:16.366Z",
-  "newsUpdatedAt": "2026-08-16T04:51:36.803Z",
-  "assetsUpdatedAt": "2026-08-16T05:46:16.366Z",
+  "generatedAt": "2026-08-16T07:02:24.994Z",
+  "newsUpdatedAt": "2026-08-16T07:02:24.994Z",
+  "assetsUpdatedAt": "2026-08-16T07:02:24.994Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,176 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63006,
-      "changePercent": -0.024407927093016847,
+      "price": 63016,
+      "changePercent": -0.06581769291181164,
       "unit": "USD",
-      "asOf": "2026-08-16T05:45:30.000Z",
+      "asOf": "2026-08-16T07:01:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "b19c84c8d31b9a89",
+      "category": "金属与资源",
+      "title": "Global AI investment $1 tln in 2026 , to reach 1 . 4 pc global GDP by 2028 : Goldman Sachs",
+      "url": "http://www.newzealandstar.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs",
+      "source": "newzealandstar.com",
+      "publishedAt": "2026-08-16T06:30:00Z",
+      "fetchedAt": "2026-08-16T07:02:24.994Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "New Zealand"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.newzealandstar.com/news/279244622/global-ai-investment-1-tln-in-2026-to-reach-14-pc-global-gdp-by-2028-goldman-sachs"
+    },
+    {
+      "id": "8449f1c7ec16a6fc",
+      "category": "科技与产业",
+      "title": "Jaia Robotics Is Harnessing Micro - Autonomous Systems",
+      "url": "https://www.marinetechnologynews.com/sponsored/pressrelease/jaia-robotics-is-harnessing-microautonomous-systems-for-coastal-100343",
+      "source": "marinetechnologynews.com",
+      "publishedAt": "2026-08-16T06:30:00Z",
+      "fetchedAt": "2026-08-16T07:02:24.994Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.marinetechnologynews.com/sponsored/pressrelease/jaia-robotics-is-harnessing-microautonomous-systems-for-coastal-100343"
+    },
+    {
+      "id": "42a678ccb937dc85",
+      "category": "能源与航运",
+      "title": "Suncor Energy ( TSE : SU ) Price Target Raised to C$114 . 00",
+      "url": "https://www.tickerreport.com/banking-finance/13545099/suncor-energy-tsesu-price-target-raised-to-c114-00.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-16T06:15:00Z",
+      "fetchedAt": "2026-08-16T07:02:24.994Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13545099/suncor-energy-tsesu-price-target-raised-to-c114-00.html"
+    },
+    {
+      "id": "26c2bad855894cb7",
+      "category": "数字资产",
+      "title": "仮想通貨詐欺の送金先追跡を1件9 , 800円で 。 株式会社ベストが暗号資産の資金追跡サービス 「 CryptoTracer 」 を提供開始",
+      "url": "https://www.the-miyanichi.co.jp/pressrelease/prtimes/997235.html",
+      "source": "the-miyanichi.co.jp",
+      "publishedAt": "2026-08-16T06:15:00Z",
+      "fetchedAt": "2026-08-16T07:02:24.994Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Japan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.the-miyanichi.co.jp/pressrelease/prtimes/997235.html"
+    },
+    {
+      "id": "1d75e7abb8d0676d",
+      "category": "A股与政策",
+      "title": "华金证券 ： A股短期反弹可能未结束 建议继续逢低配置科技成长 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202608163842482121.html",
+      "source": "finance.eastmoney.com",
+      "publishedAt": "2026-08-16T06:15:00Z",
+      "fetchedAt": "2026-08-16T07:02:24.994Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300059"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.eastmoney.com/a/202608163842482121.html"
+    },
     {
       "id": "2096f46e22b38988",
       "category": "能源与航运",
@@ -1558,173 +1718,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://english.news.cn/20260815/489bc23eff3540239461183c727769ed/c.html"
-    },
-    {
-      "id": "2949cf64ba6d1588",
-      "category": "金属与资源",
-      "title": "Russia wins fifth gold , China adds bronze at junior artistic swimming worlds",
-      "url": "http://www.china.org.cn/2026-08/15/content_118648892.shtml",
-      "source": "china.org.cn",
-      "publishedAt": "2026-08-15T03:30:00Z",
-      "fetchedAt": "2026-08-15T03:56:23.173Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.china.org.cn/2026-08/15/content_118648892.shtml"
-    },
-    {
-      "id": "ae046c6a0bb0eaf7",
-      "category": "金属与资源",
-      "title": "Gold , silver rise as weak retail sales cut Fed - hike odds - Kitco PM Report",
-      "url": "http://www.kitco.com/news/article/2026-08-14/gold-silver-rise-weak-retail-sales-cut-fed-hike-odds-kitco-pm-report",
-      "source": "kitco.com",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.kitco.com/news/article/2026-08-14/gold-silver-rise-weak-retail-sales-cut-fed-hike-odds-kitco-pm-report"
-    },
-    {
-      "id": "6234248e5a25f420",
-      "category": "能源与航运",
-      "title": "Hormuz slows as US threatens economic pressure on Iran",
-      "url": "https://www.westernadvocate.com.au/story/9330792/hormuz-slows-as-us-threatens-economic-pressure-on-iran/",
-      "source": "westernadvocate.com.au",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.westernadvocate.com.au/story/9330792/hormuz-slows-as-us-threatens-economic-pressure-on-iran/"
-    },
-    {
-      "id": "76522c867ac1bc4b",
-      "category": "科技与产业",
-      "title": "Walmart and Target are buying robots at record numbers . Here why your job is safe . – Reading Eagle",
-      "url": "https://www.readingeagle.com/2026/08/14/walmart-and-sams-club-are-buying-robots-at-record-numbers-heres-why-your-job-is-safe/",
-      "source": "readingeagle.com",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.readingeagle.com/2026/08/14/walmart-and-sams-club-are-buying-robots-at-record-numbers-heres-why-your-job-is-safe/"
-    },
-    {
-      "id": "54b26295a4d230db",
-      "category": "科技与产业",
-      "title": "Walmart and Target are buying robots at record numbers . Here why your job is safe . – Boston Herald",
-      "url": "https://www.bostonherald.com/2026/08/14/walmart-and-sams-club-are-buying-robots-at-record-numbers-heres-why-your-job-is-safe/",
-      "source": "bostonherald.com",
-      "publishedAt": "2026-08-15T01:45:00Z",
-      "fetchedAt": "2026-08-15T01:52:05.742Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bostonherald.com/2026/08/14/walmart-and-sams-club-are-buying-robots-at-record-numbers-heres-why-your-job-is-safe/"
     }
   ]
 }
