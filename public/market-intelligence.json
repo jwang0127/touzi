@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T17:36:58.538Z",
-  "newsUpdatedAt": "2026-08-16T17:36:58.538Z",
-  "assetsUpdatedAt": "2026-08-16T17:36:58.538Z",
+  "generatedAt": "2026-08-16T18:48:51.801Z",
+  "newsUpdatedAt": "2026-08-16T18:48:51.801Z",
+  "assetsUpdatedAt": "2026-08-16T18:48:51.801Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,230 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63111,
-      "changePercent": 0.15885198490186908,
+      "price": 63091,
+      "changePercent": 0.160886544736302,
       "unit": "USD",
-      "asOf": "2026-08-16T17:36:20.000Z",
+      "asOf": "2026-08-16T18:47:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "b70069adb93d72ba",
+      "category": "金属与资源",
+      "title": "Goldman Asks : Where Will Central Banks Store Their Gold ?",
+      "url": "https://www.zerohedge.com/news/2026-08-16/goldman-asks-where-will-central-banks-store-their-gold",
+      "source": "zerohedge.com",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zerohedge.com/news/2026-08-16/goldman-asks-where-will-central-banks-store-their-gold"
+    },
+    {
+      "id": "693e1a0a2f83e003",
+      "category": "能源与航运",
+      "title": "Iran Rejects Trump Strait Of Hormuz U . S . Territory Strategy",
+      "url": "https://1061fmtalk.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/",
+      "source": "1061fmtalk.iheart.com",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://1061fmtalk.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/"
+    },
+    {
+      "id": "e1e0f403bf87595e",
+      "category": "全球与地区",
+      "title": "Manitoba pork producers bring trade pitch to Iowa fair amid Canada - U . S . tariff tensions",
+      "url": "https://www.cbc.ca/news/canada/manitoba/manitoba-pork-canada-us-trade-9.7309045",
+      "source": "cbc.ca",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cbc.ca/news/canada/manitoba/manitoba-pork-canada-us-trade-9.7309045"
+    },
+    {
+      "id": "bd09dc0bf52c350e",
+      "category": "数字资产",
+      "title": "Bitcoin analysis shows what bulls need to do next to end this bearish 2026",
+      "url": "https://investinglive.com/cryptocurrency/bitcoin-analysis-shows-what-bulls-need-to-do-next-to-end-this-bearish-2026/",
+      "source": "investinglive.com",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://investinglive.com/cryptocurrency/bitcoin-analysis-shows-what-bulls-need-to-do-next-to-end-this-bearish-2026/"
+    },
+    {
+      "id": "682f0197dcf729e7",
+      "category": "金属与资源",
+      "title": "Sam Pang wins 2026 Gold Logie",
+      "url": "https://www.examiner.com.au/story/9330955/sam-pang-wins-2026-gold-logie/",
+      "source": "examiner.com.au",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.examiner.com.au/story/9330955/sam-pang-wins-2026-gold-logie/"
+    },
+    {
+      "id": "1976571f78f6bd6e",
+      "category": "全球与地区",
+      "title": "Colombia asks Trump for tariff relief post - quake",
+      "url": "https://www.centralwesterndaily.com.au/story/9331300/colombia-asks-trump-for-tariff-relief-post-quake/",
+      "source": "centralwesterndaily.com.au",
+      "publishedAt": "2026-08-16T18:15:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.centralwesterndaily.com.au/story/9331300/colombia-asks-trump-for-tariff-relief-post-quake/"
+    },
+    {
+      "id": "aced5e64cbb00fad",
+      "category": "全球与地区",
+      "title": "Clock ticks down to new tariffs as Canadian negotiators try to strike deal with U . S .",
+      "url": "https://www.theglobeandmail.com/canada/article-new-tariffs-trade-trump-leblanc-negotiations-washington/",
+      "source": "theglobeandmail.com",
+      "publishedAt": "2026-08-16T18:00:00Z",
+      "fetchedAt": "2026-08-16T18:48:51.801Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theglobeandmail.com/canada/article-new-tariffs-trade-trump-leblanc-negotiations-washington/"
+    },
     {
       "id": "b9a1124c103d2424",
       "category": "能源与航运",
@@ -237,41 +449,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.bssnews.net/news/415249"
-    },
-    {
-      "id": "c8471138c59f7819",
-      "category": "能源与航运",
-      "title": "Iran Rejects Trump Strait Of Hormuz U . S . Territory Strategy",
-      "url": "https://wsyr.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/",
-      "source": "wsyr.iheart.com",
-      "publishedAt": "2026-08-16T17:00:00Z",
-      "fetchedAt": "2026-08-16T17:36:58.538Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wsyr.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/"
     },
     {
       "id": "e0835b8c49876e21",
@@ -438,40 +615,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-darja-varfolomeev-holt-wm-gold-mit-dem-ball-und-bronze-mit-dem-reifen-102.html"
-    },
-    {
-      "id": "ce1e37f45ee3a57b",
-      "category": "金属与资源",
-      "title": "Sam Pang wins 2026 Gold Logie",
-      "url": "https://www.goulburnpost.com.au/story/9330955/sam-pang-wins-2026-gold-logie/",
-      "source": "goulburnpost.com.au",
-      "publishedAt": "2026-08-16T15:15:00Z",
-      "fetchedAt": "2026-08-16T15:39:44.802Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.goulburnpost.com.au/story/9330955/sam-pang-wins-2026-gold-logie/"
     },
     {
       "id": "ef9a39f2c0e795b6",
@@ -1545,170 +1688,6 @@
       "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.cfi.net.cn/p20260816000032.html"
-    },
-    {
-      "id": "64fd2431544d9e24",
-      "category": "能源与航运",
-      "title": "Hormuz deadlock , Fed pause bets set stage for two - way commodity volatility next week",
-      "url": "https://www.moneycontrol.com/news/opinion/hormuz-deadlock-fed-pause-bets-set-stage-for-two-way-commodity-volatility-next-week-14006519.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-08-16T03:00:00Z",
-      "fetchedAt": "2026-08-16T03:14:26.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/news/opinion/hormuz-deadlock-fed-pause-bets-set-stage-for-two-way-commodity-volatility-next-week-14006519.html"
-    },
-    {
-      "id": "bad86fa26b5d8701",
-      "category": "金属与资源",
-      "title": "Life at American gold mines in northern Korea [ 2 ]: Pulling teeth",
-      "url": "https://www.koreatimes.co.kr/opinion/20260816/life-at-american-gold-mines-in-northern-korea-2-pulling-teeth",
-      "source": "koreatimes.co.kr",
-      "publishedAt": "2026-08-16T03:00:00Z",
-      "fetchedAt": "2026-08-16T03:14:26.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "South Korea"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.koreatimes.co.kr/opinion/20260816/life-at-american-gold-mines-in-northern-korea-2-pulling-teeth"
-    },
-    {
-      "id": "8c80db0a940cb98e",
-      "category": "A股与政策",
-      "title": "流动性改善驱动A股修复 三大业绩主线配置机遇 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20260816000072.html",
-      "source": "cfi.net.cn",
-      "publishedAt": "2026-08-16T03:00:00Z",
-      "fetchedAt": "2026-08-16T03:14:26.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.cfi.net.cn/p20260816000072.html"
-    },
-    {
-      "id": "1de685685641710a",
-      "category": "能源与航运",
-      "title": "Emiratele Arabe Unite acuză Iranul după atacul asupra unei nave ADNOC în Strâmtoarea Hormuz",
-      "url": "https://business24.ro/stramtoarea-hormuz/acuzatie-iran-atac-nava-stramtoare-hormuz-1664028",
-      "source": "business24.ro",
-      "publishedAt": "2026-08-15T21:30:00Z",
-      "fetchedAt": "2026-08-15T21:38:07.273Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://business24.ro/stramtoarea-hormuz/acuzatie-iran-atac-nava-stramtoare-hormuz-1664028"
-    },
-    {
-      "id": "2c371f67978a7bb0",
-      "category": "能源与航运",
-      "title": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "url": "https://www.redditchadvertiser.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
-      "source": "redditchadvertiser.co.uk",
-      "publishedAt": "2026-08-15T21:30:00Z",
-      "fetchedAt": "2026-08-15T21:38:07.273Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.redditchadvertiser.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/"
     }
   ]
 }
