@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-16T07:02:24.994Z",
-  "newsUpdatedAt": "2026-08-16T07:02:24.994Z",
-  "assetsUpdatedAt": "2026-08-16T07:02:24.994Z",
+  "generatedAt": "2026-08-16T07:47:53.329Z",
+  "newsUpdatedAt": "2026-08-16T07:47:53.329Z",
+  "assetsUpdatedAt": "2026-08-16T07:47:53.329Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,109 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63016,
-      "changePercent": -0.06581769291181164,
+      "price": 63005,
+      "changePercent": -0.021205153082945342,
       "unit": "USD",
-      "asOf": "2026-08-16T07:01:50.000Z",
+      "asOf": "2026-08-16T07:47:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "d7f43feb636ad188",
+      "category": "金属与资源",
+      "title": "Goldene Aussichten : Das Comeback läuft",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69322481-goldene-aussichten-das-comeback-laeuft-124.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-16T07:15:00Z",
+      "fetchedAt": "2026-08-16T07:47:53.329Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69322481-goldene-aussichten-das-comeback-laeuft-124.htm"
+    },
+    {
+      "id": "a571491ecb6970cb",
+      "category": "全球与地区",
+      "title": "Industry minister again heads for Washington amid growing U . S . tariff pressure",
+      "url": "https://www.koreaherald.com/article/10842730",
+      "source": "koreaherald.com",
+      "publishedAt": "2026-08-16T07:15:00Z",
+      "fetchedAt": "2026-08-16T07:47:53.329Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "South Korea"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.koreaherald.com/article/10842730"
+    },
+    {
+      "id": "cc0d26f08f837e85",
+      "category": "全球与地区",
+      "title": "India must strengthen shipping capacity , naval protection amid growing chokepoints : GTRI",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-must-strengthen-shipping-capacity-naval-protection-amid-growing-chokepoints-gtri/articleshow/133271212.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-16T07:15:00Z",
+      "fetchedAt": "2026-08-16T07:47:53.329Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-must-strengthen-shipping-capacity-naval-protection-amid-growing-chokepoints-gtri/articleshow/133271212.cms"
+    },
     {
       "id": "b19c84c8d31b9a89",
       "category": "金属与资源",
@@ -1617,107 +1708,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.nettavisen.no/nyheter/nytt-skip-angrepet-i-hormuzstredet/s/80-95-1068"
-    },
-    {
-      "id": "e3ec6e7d5514f613",
-      "category": "能源与航运",
-      "title": "Fragile 5 no more , eyes on 100 GW nuclear energy target : Key numbers by PM Modi from Red Fort",
-      "url": "https://www.hindustantimes.com/india-news/fragile-5-no-more-eyes-on-200-gw-nuclear-energy-target-key-numbers-by-pm-modi-from-red-fort-80th-independence-day-101786760877352.html",
-      "source": "hindustantimes.com",
-      "publishedAt": "2026-08-15T03:30:00Z",
-      "fetchedAt": "2026-08-15T03:56:23.173Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hindustantimes.com/india-news/fragile-5-no-more-eyes-on-200-gw-nuclear-energy-target-key-numbers-by-pm-modi-from-red-fort-80th-independence-day-101786760877352.html"
-    },
-    {
-      "id": "cfa411879d33d57b",
-      "category": "能源与航运",
-      "title": "Live updates : Trump says he will declare Strait of Hormuz a U . S . territory when Iran war ends – Ya Libnan",
-      "url": "https://yalibnan.com/2026/08/15/live-updates-trump-says-he-will-declare-strait-of-hormuz-a-u-s-territory-when-iran-war-ends/",
-      "source": "yalibnan.com",
-      "publishedAt": "2026-08-15T03:30:00Z",
-      "fetchedAt": "2026-08-15T03:56:23.173Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://yalibnan.com/2026/08/15/live-updates-trump-says-he-will-declare-strait-of-hormuz-a-u-s-territory-when-iran-war-ends/"
-    },
-    {
-      "id": "8a25f5f0c0a64d66",
-      "category": "能源与航运",
-      "title": "UAE state oil company says vessel attacked in Hormuz Strait - Xinhua",
-      "url": "https://english.news.cn/20260815/489bc23eff3540239461183c727769ed/c.html",
-      "source": "english.news.cn",
-      "publishedAt": "2026-08-15T03:30:00Z",
-      "fetchedAt": "2026-08-15T03:56:23.173Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.news.cn/20260815/489bc23eff3540239461183c727769ed/c.html"
     }
   ]
 }
