@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-17T11:43:38.590Z",
-  "newsUpdatedAt": "2026-08-17T11:43:38.590Z",
-  "assetsUpdatedAt": "2026-08-17T11:43:38.590Z",
+  "generatedAt": "2026-08-17T13:08:57.594Z",
+  "newsUpdatedAt": "2026-08-17T13:08:57.594Z",
+  "assetsUpdatedAt": "2026-08-17T13:08:57.594Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4458.89,
-      "changePercent": 0.49,
+      "price": 4440.41,
+      "changePercent": 0.07,
       "unit": "USD",
-      "asOf": "2026-08-17T19:44:02-04:00",
+      "asOf": "2026-08-17T21:10:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.81,
-      "changePercent": 0.42,
+      "price": 81.98,
+      "changePercent": 0.63,
       "unit": "USD",
-      "asOf": "2026-08-17T19:44:04-04:00",
+      "asOf": "2026-08-17T21:10:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 679.61,
-      "changePercent": 1.22,
+      "price": 672.71,
+      "changePercent": 0.19,
       "unit": "USD",
-      "asOf": "2026-08-17T19:43:02-04:00",
+      "asOf": "2026-08-17T21:10:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,325 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63629,
-      "changePercent": 1.0799952718256782,
+      "price": 63483,
+      "changePercent": 0.7708910608366052,
       "unit": "USD",
-      "asOf": "2026-08-17T11:42:50.000Z",
+      "asOf": "2026-08-17T13:08:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "eef843a0bf2e6ff8",
+      "category": "科技与产业",
+      "title": "Massive growth ahead for humanoid robot market",
+      "url": "https://it-online.co.za/2026/08/17/massive-growth-ahead-for-humanoid-robot-market/",
+      "source": "it-online.co.za",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://it-online.co.za/2026/08/17/massive-growth-ahead-for-humanoid-robot-market/"
+    },
+    {
+      "id": "5fedbcb6f0c8bcf3",
+      "category": "能源与航运",
+      "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
+      "url": "http://www.iraqsun.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
+      "source": "iraqsun.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iraq"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.iraqsun.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall"
+    },
+    {
+      "id": "09c2121dc3873cbf",
+      "category": "金属与资源",
+      "title": "OceanaGold signs deal to buy Australian company Ausgold in offer valued at US$549M – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/business/2026/08/17/oceanagold-signs-deal-to-buy-australian-company-ausgold-in-offer-valued-at-us549m",
+      "source": "winnipegfreepress.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.winnipegfreepress.com/business/2026/08/17/oceanagold-signs-deal-to-buy-australian-company-ausgold-in-offer-valued-at-us549m"
+    },
+    {
+      "id": "88b9f1fdb7d1819a",
+      "category": "金属与资源",
+      "title": "NexMetals Mining Extends Trend of Thick Massive Sulphides to 1 . 45 Kilometres with Visual Intercept in Hole SMD - 26 - 219 at Selebi Main",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/886-tsx-venture/nexm/209206-nexmetals-extends-trend-of-thick-massive-sulphides-to-1-45-kilometres-with-visual-intercept-in-hole-smd-26-219-at-selebi-main.html",
+      "source": "juniorminingnetwork.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/886-tsx-venture/nexm/209206-nexmetals-extends-trend-of-thick-massive-sulphides-to-1-45-kilometres-with-visual-intercept-in-hole-smd-26-219-at-selebi-main.html"
+    },
+    {
+      "id": "bf8da3143cd11d10",
+      "category": "金属与资源",
+      "title": "Code Metal Awarded an $80M Contract to Transform the Department of War Modeling and Simulation Ecosystem with Provable AI",
+      "url": "https://ai-online.com/2026/08/code-metal-awarded-an-80m-contract-to-transform-the-department-of-wars-modeling-and-simulation-ecosystem-with-provable-ai/",
+      "source": "ai-online.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ai-online.com/2026/08/code-metal-awarded-an-80m-contract-to-transform-the-department-of-wars-modeling-and-simulation-ecosystem-with-provable-ai/"
+    },
+    {
+      "id": "200f2f79df046e33",
+      "category": "金属与资源",
+      "title": "Goldera Exploration Appoints IAMGOLD Founding Director Mahendra Naik to its Board of Directors",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3539-tsx-venture/gera/209197-goldera-appoints-iamgold-founding-director-mahendra-naik-to-its-board-of-directors.html",
+      "source": "juniorminingnetwork.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3539-tsx-venture/gera/209197-goldera-appoints-iamgold-founding-director-mahendra-naik-to-its-board-of-directors.html"
+    },
+    {
+      "id": "a0458b22c91b0819",
+      "category": "能源与航运",
+      "title": "Uganda Investment Prospects Strengthen as Oil , Coffee and Industrialisation Drive Growth",
+      "url": "https://chimpreports.com/ugandas-investment-prospects-strengthen-as-oil-coffee-and-industrialisation-drive-growth/",
+      "source": "chimpreports.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Uganda"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://chimpreports.com/ugandas-investment-prospects-strengthen-as-oil-coffee-and-industrialisation-drive-growth/"
+    },
+    {
+      "id": "232751eb98fbb566",
+      "category": "能源与航运",
+      "title": "Terra Clean Energy Announces Receipt of Utah Work Program Permits for the Marysvale Uranium Mines Project",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3266-cse/tcec/209214-terra-clean-energy-corp-announces-receipt-of-utah-work-program-permits-for-the-marysvale-uranium-mines-project.html",
+      "source": "juniorminingnetwork.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3266-cse/tcec/209214-terra-clean-energy-corp-announces-receipt-of-utah-work-program-permits-for-the-marysvale-uranium-mines-project.html"
+    },
+    {
+      "id": "7006643713b7e98b",
+      "category": "金属与资源",
+      "title": "Arizona Eagle Mining Completes Acquisition of Three Past - Producing High - Grade Silver Mines to Consolidate Eagle Silver Project",
+      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3302-tsx-venture/azem/209179-arizona-eagle-mining-corp-completes-acquisition-of-three-past-producing-high-grade-silver-mines-to-consolidate-eagle-silver-project.html",
+      "source": "juniorminingnetwork.com",
+      "publishedAt": "2026-08-17T12:45:00Z",
+      "fetchedAt": "2026-08-17T13:08:57.594Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3302-tsx-venture/azem/209179-arizona-eagle-mining-corp-completes-acquisition-of-three-past-producing-high-grade-silver-mines-to-consolidate-eagle-silver-project.html"
+    },
     {
       "id": "30361788fcf153ba",
       "category": "能源与航运",
@@ -1372,285 +1683,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.zerohedge.com/news/2026-08-16/goldman-asks-where-will-central-banks-store-their-gold"
-    },
-    {
-      "id": "693e1a0a2f83e003",
-      "category": "能源与航运",
-      "title": "Iran Rejects Trump Strait Of Hormuz U . S . Territory Strategy",
-      "url": "https://1061fmtalk.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/",
-      "source": "1061fmtalk.iheart.com",
-      "publishedAt": "2026-08-16T18:15:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://1061fmtalk.iheart.com/content/2026-08-16-iran-rejects-trump-strait-of-hormuz-us-territory-strategy/"
-    },
-    {
-      "id": "e1e0f403bf87595e",
-      "category": "全球与地区",
-      "title": "Manitoba pork producers bring trade pitch to Iowa fair amid Canada - U . S . tariff tensions",
-      "url": "https://www.cbc.ca/news/canada/manitoba/manitoba-pork-canada-us-trade-9.7309045",
-      "source": "cbc.ca",
-      "publishedAt": "2026-08-16T18:15:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cbc.ca/news/canada/manitoba/manitoba-pork-canada-us-trade-9.7309045"
-    },
-    {
-      "id": "bd09dc0bf52c350e",
-      "category": "数字资产",
-      "title": "Bitcoin analysis shows what bulls need to do next to end this bearish 2026",
-      "url": "https://investinglive.com/cryptocurrency/bitcoin-analysis-shows-what-bulls-need-to-do-next-to-end-this-bearish-2026/",
-      "source": "investinglive.com",
-      "publishedAt": "2026-08-16T18:15:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://investinglive.com/cryptocurrency/bitcoin-analysis-shows-what-bulls-need-to-do-next-to-end-this-bearish-2026/"
-    },
-    {
-      "id": "682f0197dcf729e7",
-      "category": "金属与资源",
-      "title": "Sam Pang wins 2026 Gold Logie",
-      "url": "https://www.examiner.com.au/story/9330955/sam-pang-wins-2026-gold-logie/",
-      "source": "examiner.com.au",
-      "publishedAt": "2026-08-16T18:15:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.examiner.com.au/story/9330955/sam-pang-wins-2026-gold-logie/"
-    },
-    {
-      "id": "1976571f78f6bd6e",
-      "category": "全球与地区",
-      "title": "Colombia asks Trump for tariff relief post - quake",
-      "url": "https://www.centralwesterndaily.com.au/story/9331300/colombia-asks-trump-for-tariff-relief-post-quake/",
-      "source": "centralwesterndaily.com.au",
-      "publishedAt": "2026-08-16T18:15:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.centralwesterndaily.com.au/story/9331300/colombia-asks-trump-for-tariff-relief-post-quake/"
-    },
-    {
-      "id": "aced5e64cbb00fad",
-      "category": "全球与地区",
-      "title": "Clock ticks down to new tariffs as Canadian negotiators try to strike deal with U . S .",
-      "url": "https://www.theglobeandmail.com/canada/article-new-tariffs-trade-trump-leblanc-negotiations-washington/",
-      "source": "theglobeandmail.com",
-      "publishedAt": "2026-08-16T18:00:00Z",
-      "fetchedAt": "2026-08-16T18:48:51.801Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theglobeandmail.com/canada/article-new-tariffs-trade-trump-leblanc-negotiations-washington/"
-    },
-    {
-      "id": "b9a1124c103d2424",
-      "category": "能源与航运",
-      "title": "THE Electric Vehicle ( EV ) Thread pt 16 : Energy Technology - Page 29 - Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/forums/viewtopic.php?p=1503920",
-      "source": "peakoil.com",
-      "publishedAt": "2026-08-16T17:00:00Z",
-      "fetchedAt": "2026-08-16T17:36:58.538Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1503920"
-    },
-    {
-      "id": "e7318dcf84168a12",
-      "category": "能源与航运",
-      "title": "Russian Peak : Peak Oil Discussion - Page 11 - Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/forums/viewtopic.php?p=1503919",
-      "source": "peakoil.com",
-      "publishedAt": "2026-08-16T17:00:00Z",
-      "fetchedAt": "2026-08-16T17:36:58.538Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1503919"
-    },
-    {
-      "id": "a184c48437fc7ac4",
-      "category": "能源与航运",
-      "title": "Turkmenistan offers energy support as Dhaka deepens ties",
-      "url": "https://www.bssnews.net/news/415249",
-      "source": "bssnews.net",
-      "publishedAt": "2026-08-16T17:00:00Z",
-      "fetchedAt": "2026-08-16T17:36:58.538Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bssnews.net/news/415249"
     }
   ]
 }
