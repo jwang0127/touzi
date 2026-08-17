@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-17T01:56:54.232Z",
-  "newsUpdatedAt": "2026-08-16T23:36:19.035Z",
-  "assetsUpdatedAt": "2026-08-17T01:56:54.232Z",
+  "generatedAt": "2026-08-17T03:14:24.343Z",
+  "newsUpdatedAt": "2026-08-17T03:14:24.343Z",
+  "assetsUpdatedAt": "2026-08-17T03:14:24.343Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3937.26,
-      "changePercent": 0.26,
+      "price": 3954.21,
+      "changePercent": 0.69,
       "unit": "CNY",
-      "asOf": "2026-08-17T09:57:36+08:00",
+      "asOf": "2026-08-17T11:14:54+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14366.24,
-      "changePercent": 0.08,
+      "price": 14497.11,
+      "changePercent": 0.99,
       "unit": "CNY",
-      "asOf": "2026-08-17T09:57:36+08:00",
+      "asOf": "2026-08-17T11:14:51+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25441.86,
-      "changePercent": 1.29,
+      "price": 25522.07,
+      "changePercent": 1.61,
       "unit": "HKD",
-      "asOf": "2026-08-17T09:42:34+08:00",
+      "asOf": "2026-08-17T10:59:48+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8448.51,
-      "changePercent": 1.29,
+      "price": 8470.05,
+      "changePercent": 1.55,
       "unit": "HKD",
-      "asOf": "2026-08-17T09:42:34+08:00",
+      "asOf": "2026-08-17T10:59:48+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4453.49,
-      "changePercent": 0.36,
+      "price": 4443.78,
+      "changePercent": 0.15,
       "unit": "USD",
-      "asOf": "2026-08-17T09:57:00-04:00",
+      "asOf": "2026-08-17T11:14:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.69,
-      "changePercent": 0.26,
+      "price": 81.42,
+      "changePercent": -0.06,
       "unit": "USD",
-      "asOf": "2026-08-17T09:56:59-04:00",
+      "asOf": "2026-08-17T11:14:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 681.03,
-      "changePercent": 1.43,
+      "price": 682.32,
+      "changePercent": 1.62,
       "unit": "USD",
-      "asOf": "2026-08-17T09:56:13-04:00",
+      "asOf": "2026-08-17T11:12:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,206 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 63082,
-      "changePercent": 0.1319550224187319,
+      "price": 63325,
+      "changePercent": 0.40528884796623327,
       "unit": "USD",
-      "asOf": "2026-08-17T01:56:00.000Z",
+      "asOf": "2026-08-17T03:12:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "29eccaaa5e9a2ba3",
+      "category": "能源与航运",
+      "title": "Tehran rejects Trump claim over Hormuz",
+      "url": "http://europe.chinadaily.com.cn/a/202608/17/WS6a826307a31073853ec5396e.html",
+      "source": "europe.chinadaily.com.cn",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://europe.chinadaily.com.cn/a/202608/17/WS6a826307a31073853ec5396e.html"
+    },
+    {
+      "id": "d707d5042ddd75cd",
+      "category": "金属与资源",
+      "title": "Great Southern hits high - grade gold below WA resource",
+      "url": "https://www.brisbanetimes.com.au/business/companies/great-southern-hits-high-grade-gold-below-wa-resource-20260817-p60p0f.html",
+      "source": "brisbanetimes.com.au",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.brisbanetimes.com.au/business/companies/great-southern-hits-high-grade-gold-below-wa-resource-20260817-p60p0f.html"
+    },
+    {
+      "id": "b5d7ee46c78aa160",
+      "category": "能源与航运",
+      "title": "खाड़ी देशों ने होर्मुज में नए सामान्य को स्वीकारा : नियंत्रण ईरान के पास - gulf countries accept new normal in hormuz iran in control",
+      "url": "https://www.punjabkesari.in/blogs/news/gulf-countries-accept--new-normal--in-hormuz-iran-in-control-2369503",
+      "source": "punjabkesari.in",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.punjabkesari.in/blogs/news/gulf-countries-accept--new-normal--in-hormuz-iran-in-control-2369503"
+    },
+    {
+      "id": "20feb7fa84f67b02",
+      "category": "全球与地区",
+      "title": "Brandstof uit Marokko geblokkeerd in Russische haven door prijsconflict",
+      "url": "https://www.bladna.nl/brandstof-marokko-geblokkeerd-russische-haven-prijsconflict,72142.html",
+      "source": "bladna.nl",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bladna.nl/brandstof-marokko-geblokkeerd-russische-haven-prijsconflict,72142.html"
+    },
+    {
+      "id": "6b160cd1d2848abd",
+      "category": "数字资产",
+      "title": "Trump - Appointed Regulator OKs Banking License for Trump - Linked Crypto Firm",
+      "url": "https://drudge.com/news/293930/trump-appointed-regulator-oks-banking",
+      "source": "drudge.com",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://drudge.com/news/293930/trump-appointed-regulator-oks-banking"
+    },
+    {
+      "id": "9ba747ec009ce458",
+      "category": "金属与资源",
+      "title": "SC Republican Party hosts 59th annual Silver Elephant Gala in Columbia",
+      "url": "https://www.wistv.com/2026/08/16/sc-republican-party-hosts-59th-annual-silver-elephant-gala-columbia/",
+      "source": "wistv.com",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "fetchedAt": "2026-08-17T03:14:24.343Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wistv.com/2026/08/16/sc-republican-party-hosts-59th-annual-silver-elephant-gala-columbia/"
+    },
     {
       "id": "9761563022a32c64",
       "category": "金属与资源",
@@ -1493,199 +1681,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://thepeninsulaqatar.com/article/16/08/2026/oil-climbs-over-1-on-tanker-attacks-no-progress-on-peace"
-    },
-    {
-      "id": "f5ca829596871af9",
-      "category": "能源与航运",
-      "title": "Israeli strikes kill 9 in Lebanon , tanker attacked in Hormuz",
-      "url": "https://www.bostonglobe.com/2026/08/15/world/us-iran-war-israeli-strike-kills-7-in-lebanon-tanker-attacked-in-hormuz/",
-      "source": "bostonglobe.com",
-      "publishedAt": "2026-08-16T08:15:00Z",
-      "fetchedAt": "2026-08-16T08:49:15.069Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bostonglobe.com/2026/08/15/world/us-iran-war-israeli-strike-kills-7-in-lebanon-tanker-attacked-in-hormuz/"
-    },
-    {
-      "id": "d7f43feb636ad188",
-      "category": "金属与资源",
-      "title": "Goldene Aussichten : Das Comeback läuft",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69322481-goldene-aussichten-das-comeback-laeuft-124.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-16T07:15:00Z",
-      "fetchedAt": "2026-08-16T07:47:53.329Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69322481-goldene-aussichten-das-comeback-laeuft-124.htm"
-    },
-    {
-      "id": "a571491ecb6970cb",
-      "category": "全球与地区",
-      "title": "Industry minister again heads for Washington amid growing U . S . tariff pressure",
-      "url": "https://www.koreaherald.com/article/10842730",
-      "source": "koreaherald.com",
-      "publishedAt": "2026-08-16T07:15:00Z",
-      "fetchedAt": "2026-08-16T07:47:53.329Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "South Korea"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.koreaherald.com/article/10842730"
-    },
-    {
-      "id": "cc0d26f08f837e85",
-      "category": "全球与地区",
-      "title": "India must strengthen shipping capacity , naval protection amid growing chokepoints : GTRI",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-must-strengthen-shipping-capacity-naval-protection-amid-growing-chokepoints-gtri/articleshow/133271212.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-16T07:15:00Z",
-      "fetchedAt": "2026-08-16T07:47:53.329Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-must-strengthen-shipping-capacity-naval-protection-amid-growing-chokepoints-gtri/articleshow/133271212.cms"
-    },
-    {
-      "id": "8449f1c7ec16a6fc",
-      "category": "科技与产业",
-      "title": "Jaia Robotics Is Harnessing Micro - Autonomous Systems",
-      "url": "https://www.marinetechnologynews.com/sponsored/pressrelease/jaia-robotics-is-harnessing-microautonomous-systems-for-coastal-100343",
-      "source": "marinetechnologynews.com",
-      "publishedAt": "2026-08-16T06:30:00Z",
-      "fetchedAt": "2026-08-16T07:02:24.994Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.marinetechnologynews.com/sponsored/pressrelease/jaia-robotics-is-harnessing-microautonomous-systems-for-coastal-100343"
-    },
-    {
-      "id": "42a678ccb937dc85",
-      "category": "能源与航运",
-      "title": "Suncor Energy ( TSE : SU ) Price Target Raised to C$114 . 00",
-      "url": "https://www.tickerreport.com/banking-finance/13545099/suncor-energy-tsesu-price-target-raised-to-c114-00.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-16T06:15:00Z",
-      "fetchedAt": "2026-08-16T07:02:24.994Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13545099/suncor-energy-tsesu-price-target-raised-to-c114-00.html"
     }
   ]
 }
