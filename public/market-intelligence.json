@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-18T13:11:08.724Z",
-  "newsUpdatedAt": "2026-08-18T07:56:17.156Z",
-  "assetsUpdatedAt": "2026-08-18T13:11:08.724Z",
+  "generatedAt": "2026-08-18T13:58:36.761Z",
+  "newsUpdatedAt": "2026-08-18T13:58:36.761Z",
+  "assetsUpdatedAt": "2026-08-18T13:58:36.761Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53459.78,
-      "changePercent": -0.51,
+      "price": 53411.36,
+      "changePercent": -0.09,
       "unit": "USD",
-      "asOf": "2026-08-17T16:42:57-04:00",
+      "asOf": "2026-08-18T10:00:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26644.91,
-      "changePercent": -0.32,
+      "price": 26317.33,
+      "changePercent": -1.23,
       "unit": "USD",
-      "asOf": "2026-08-17T17:15:59-04:00",
+      "asOf": "2026-08-18T10:00:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7745.06,
-      "changePercent": -0.52,
+      "price": 7704.04,
+      "changePercent": -0.53,
       "unit": "USD",
-      "asOf": "2026-08-17T16:42:27-04:00",
+      "asOf": "2026-08-18T10:00:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4446.5,
-      "changePercent": -0.61,
+      "price": 4449.26,
+      "changePercent": -0.55,
       "unit": "USD",
-      "asOf": "2026-08-18T21:11:05-04:00",
+      "asOf": "2026-08-18T22:00:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.43,
-      "changePercent": 0.82,
+      "price": 84.62,
+      "changePercent": 1.06,
       "unit": "USD",
-      "asOf": "2026-08-18T21:11:07-04:00",
+      "asOf": "2026-08-18T22:00:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.27,
-      "changePercent": -1.09,
+      "price": 663.08,
+      "changePercent": -1.27,
       "unit": "USD",
-      "asOf": "2026-08-18T21:11:05-04:00",
+      "asOf": "2026-08-18T21:59:50-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,244 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64123,
-      "changePercent": 0.9918079190433928,
+      "price": 64144,
+      "changePercent": 0.8506604178925357,
       "unit": "USD",
-      "asOf": "2026-08-18T13:09:50.000Z",
+      "asOf": "2026-08-18T13:58:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "39e2cfa7e3ab8de2",
+      "category": "能源与航运",
+      "title": "Hormuz Wont Open Until U . S . Meets Demands - Iran Negotiator",
+      "url": "https://www.informationng.com/2026/08/hormuz-wont-open-until-u-s-meets-demands-iran-negotiator.html",
+      "source": "informationng.com",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.informationng.com/2026/08/hormuz-wont-open-until-u-s-meets-demands-iran-negotiator.html"
+    },
+    {
+      "id": "f59a652ae2986821",
+      "category": "能源与航运",
+      "title": "Oil Supertanker Earnings on Mideast Route Near $510 , 000 a Day",
+      "url": "https://gcaptain.com/oil-supertanker-earnings-on-mideast-route-near-510000-a-day/",
+      "source": "gcaptain.com",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcaptain.com/oil-supertanker-earnings-on-mideast-route-near-510000-a-day/"
+    },
+    {
+      "id": "7f80bab8b3e73f2c",
+      "category": "金属与资源",
+      "title": "Trading Idee : HP Inc . - Golden Cross und KI - Boom befeuern den Hochlauf",
+      "url": "https://www.finanzen.net/nachricht/zertifikate/trading-idee-trading-idee-hp-inc-golden-cross-und-ki-boom-befeuern-den-hochlauf-15884546",
+      "source": "finanzen.net",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/nachricht/zertifikate/trading-idee-trading-idee-hp-inc-golden-cross-und-ki-boom-befeuern-den-hochlauf-15884546"
+    },
+    {
+      "id": "27d6b6f480b47db2",
+      "category": "科技与产业",
+      "title": "Smith+Nephew and Imperial College London Launch Centre to Accelerate Innovation in Surgical Robotics",
+      "url": "https://www.medindia.net/health-press-release/smithnephew-and-imperial-college-london-launch-centre-to-accelerate-innovation-in-surgical-robotics-758299-1.htm",
+      "source": "medindia.net",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.medindia.net/health-press-release/smithnephew-and-imperial-college-london-launch-centre-to-accelerate-innovation-in-surgical-robotics-758299-1.htm"
+    },
+    {
+      "id": "dbe667faf100a2d3",
+      "category": "能源与航运",
+      "title": "Iran - US war latest : Trump declares Strait of Hormuz as US territory with bizarre Truth Social map",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oman-hormuz-peace-nuclear-weapons-b3034640.html",
+      "source": "independent.co.uk",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oman-hormuz-peace-nuclear-weapons-b3034640.html"
+    },
+    {
+      "id": "476b06d98f3654ab",
+      "category": "全球与地区",
+      "title": "India challenges US tariffs on quartz products with WTO consultation bid",
+      "url": "https://www.business-standard.com/economy/news/india-challenges-us-tariffs-on-quartz-products-with-wto-consultation-bid-126081800973_1.html",
+      "source": "business-standard.com",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.business-standard.com/economy/news/india-challenges-us-tariffs-on-quartz-products-with-wto-consultation-bid-126081800973_1.html"
+    },
+    {
+      "id": "357a4dff13a1b847",
+      "category": "能源与航运",
+      "title": "If You Invested $2 , 000 in Bloom Energy at Its 52 - Week Low Here How Much Youd Have Now",
+      "url": "https://www.fool.com/investing/2026/08/18/if-you-invested-2000-in-bloom-energy-at-its-52-wee/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-18T13:30:00Z",
+      "fetchedAt": "2026-08-18T13:58:36.761Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fool.com/investing/2026/08/18/if-you-invested-2000-in-bloom-energy-at-its-52-wee/"
+    },
     {
       "id": "54a210c747e2aa32",
       "category": "能源与航运",
@@ -1479,225 +1705,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3302-tsx-venture/azem/209179-arizona-eagle-mining-corp-completes-acquisition-of-three-past-producing-high-grade-silver-mines-to-consolidate-eagle-silver-project.html"
-    },
-    {
-      "id": "30361788fcf153ba",
-      "category": "能源与航运",
-      "title": "$115 / bbl : CareEdge pegs oil level seen turning OMC operating profit red",
-      "url": "https://www.business-standard.com/markets/news/oil-prices-at-115-bbl-careedge-pegs-level-that-could-turn-omcs-operating-profit-negative-126081700591_1.html",
-      "source": "business-standard.com",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.business-standard.com/markets/news/oil-prices-at-115-bbl-careedge-pegs-level-that-could-turn-omcs-operating-profit-negative-126081700591_1.html"
-    },
-    {
-      "id": "509882213174c620",
-      "category": "能源与航运",
-      "title": "Stallo Iran , scade lultimatum di Trump : cosa succede ora a Hormuz , news",
-      "url": "https://www.adnkronos.com/internazionale/esteri/ira-usa-negoziati-stallo-hormuz-news-oggi_24oTI0PBMa7teARtn5TL51",
-      "source": "adnkronos.com",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.adnkronos.com/internazionale/esteri/ira-usa-negoziati-stallo-hormuz-news-oggi_24oTI0PBMa7teARtn5TL51"
-    },
-    {
-      "id": "09769d50ef1e0ae9",
-      "category": "A股与政策",
-      "title": "上周A股反弹攻势减弱 ， 混合型FOF成抗跌品种 ， 机构仍看好景气策略",
-      "url": "https://baijiahao.baidu.com/s?id=1873759413339906508",
-      "source": "baijiahao.baidu.com",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baijiahao.baidu.com/s?id=1873759413339906508"
-    },
-    {
-      "id": "934ea3f5360b6fc3",
-      "category": "全球与地区",
-      "title": "Top EU Diplomat Seeks Increase in Sanctioned Russian Entities",
-      "url": "https://www.kyivpost.com/post/82485",
-      "source": "kyivpost.com",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ukraine"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kyivpost.com/post/82485"
-    },
-    {
-      "id": "6449f334862cdd73",
-      "category": "金属与资源",
-      "title": "Chicago police issue alert on masked dirt bike rider involved in hit - and - run on Lakefront Trail bike path in Gold Coast",
-      "url": "https://abc7chicago.com/post/chicago-police-issue-alert-masked-dirt-bike-rider-involved-hit-run-lakefront-trail-path-gold-coast/19691157/",
-      "source": "abc7chicago.com",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abc7chicago.com/post/chicago-police-issue-alert-masked-dirt-bike-rider-involved-hit-run-lakefront-trail-path-gold-coast/19691157/"
-    },
-    {
-      "id": "daa4f0a481b979c5",
-      "category": "数字资产",
-      "title": "Tagesanalyse : So entwickeln sich Bitcoin & Co . am Montagmittag",
-      "url": "https://www.finanzen.net/nachricht/devisen/digitalwaehrungen-im-fokus-so-bewegen-sich-bitcoin-co-am-montagmittag-15882150",
-      "source": "finanzen.net",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.net/nachricht/devisen/digitalwaehrungen-im-fokus-so-bewegen-sich-bitcoin-co-am-montagmittag-15882150"
-    },
-    {
-      "id": "c0328a73df00fa35",
-      "category": "金属与资源",
-      "title": "Pablo Goldín : El principal problema del programa es que no hay suficiente liquidez para mover la economía :: Diario Pregon de Jujuy",
-      "url": "https://www.pregon.com.ar/nota/-70433/2026/08/pablo-goldin--el-principal-problema-del-programa-es-que-no-hay-suficiente-liquidez-para-mover-la-economia",
-      "source": "pregon.com.ar",
-      "publishedAt": "2026-08-17T11:00:00Z",
-      "fetchedAt": "2026-08-17T11:43:38.590Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.pregon.com.ar/nota/-70433/2026/08/pablo-goldin--el-principal-problema-del-programa-es-que-no-hay-suficiente-liquidez-para-mover-la-economia"
     }
   ]
 }
