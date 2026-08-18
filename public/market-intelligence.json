@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-18T05:47:45.100Z",
-  "newsUpdatedAt": "2026-08-18T03:10:18.062Z",
-  "assetsUpdatedAt": "2026-08-18T05:47:45.100Z",
+  "generatedAt": "2026-08-18T07:07:29.973Z",
+  "newsUpdatedAt": "2026-08-18T07:07:29.973Z",
+  "assetsUpdatedAt": "2026-08-18T07:07:29.973Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3972.74,
-      "changePercent": -0.25,
+      "price": 3990.3,
+      "changePercent": 0.19,
       "unit": "CNY",
-      "asOf": "2026-08-18T13:48:27+08:00",
+      "asOf": "2026-08-18T15:08:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14532.17,
-      "changePercent": -1.17,
+      "price": 14622.5,
+      "changePercent": -0.56,
       "unit": "CNY",
-      "asOf": "2026-08-18T13:48:24+08:00",
+      "asOf": "2026-08-18T15:08:12+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25337.65,
-      "changePercent": -0.45,
+      "price": 25487.82,
+      "changePercent": 0.14,
       "unit": "HKD",
-      "asOf": "2026-08-18T13:33:24+08:00",
+      "asOf": "2026-08-18T14:53:29+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8405.49,
-      "changePercent": -0.41,
+      "price": 8461.59,
+      "changePercent": 0.26,
       "unit": "HKD",
-      "asOf": "2026-08-18T13:33:24+08:00",
+      "asOf": "2026-08-18T14:53:28+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4449.41,
-      "changePercent": -0.54,
+      "price": 4452.56,
+      "changePercent": -0.47,
       "unit": "USD",
-      "asOf": "2026-08-18T13:48:04-04:00",
+      "asOf": "2026-08-18T15:08:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.27,
-      "changePercent": 0.64,
+      "price": 84.18,
+      "changePercent": 0.53,
       "unit": "USD",
-      "asOf": "2026-08-18T13:48:07-04:00",
+      "asOf": "2026-08-18T15:08:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 667.19,
-      "changePercent": -0.66,
+      "price": 668.13,
+      "changePercent": -0.52,
       "unit": "USD",
-      "asOf": "2026-08-18T13:46:42-04:00",
+      "asOf": "2026-08-18T15:04:24-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,186 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64173,
-      "changePercent": 1.2029868300802227,
+      "price": 64258,
+      "changePercent": 1.1311612368103692,
       "unit": "USD",
-      "asOf": "2026-08-18T05:46:10.000Z",
+      "asOf": "2026-08-18T07:06:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "210607fe71d303bc",
+      "category": "金属与资源",
+      "title": "Beaton Trainees Sweep OSS Gold At Mohawk",
+      "url": "https://standardbredcanada.ca/news/8-17-26/beaton-trainees-sweep-oss-gold-mohawk.html",
+      "source": "standardbredcanada.ca",
+      "publishedAt": "2026-08-18T06:45:00Z",
+      "fetchedAt": "2026-08-18T07:07:29.973Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://standardbredcanada.ca/news/8-17-26/beaton-trainees-sweep-oss-gold-mohawk.html"
+    },
+    {
+      "id": "5434074f32147921",
+      "category": "能源与航运",
+      "title": "Indian bonds wobble on oil strain , RBI swap pullback",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-wobble-on-oil-strain-rbi-swap-pullback/articleshow/133313452.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-18T06:45:00Z",
+      "fetchedAt": "2026-08-18T07:07:29.973Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-wobble-on-oil-strain-rbi-swap-pullback/articleshow/133313452.cms"
+    },
+    {
+      "id": "50081fb615fde96d",
+      "category": "全球与地区",
+      "title": "US , Canada hold last - minute talks to stop 50 % U . S . tariffs on $20 billion worth of Canadian goods",
+      "url": "https://mymotherlode.com/news/national/11074412/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods.html",
+      "source": "mymotherlode.com",
+      "publishedAt": "2026-08-18T06:45:00Z",
+      "fetchedAt": "2026-08-18T07:07:29.973Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://mymotherlode.com/news/national/11074412/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods.html"
+    },
+    {
+      "id": "7de7e517b9b39026",
+      "category": "能源与航运",
+      "title": "CNBC Daily Open : Higher oil , higher yields , lower volatility",
+      "url": "https://www.cnbc.com/2026/08/18/daily-open-oil-yields-volatility-iran-war.html",
+      "source": "cnbc.com",
+      "publishedAt": "2026-08-18T06:45:00Z",
+      "fetchedAt": "2026-08-18T07:07:29.973Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cnbc.com/2026/08/18/daily-open-oil-yields-volatility-iran-war.html"
+    },
+    {
+      "id": "5dfd022139b6fc8c",
+      "category": "金属与资源",
+      "title": "Paul Merchants Finance Launches Loan Against Silver , Becomes India First NBFC to Set Up Exclusive Silver Loan Branches",
+      "url": "https://aninews.in/news/business/paul-merchants-finance-launches-loan-against-silver-becomes-indias-first-nbfc-to-set-up-exclusive-silver-loan-branches20260818115510/",
+      "source": "aninews.in",
+      "publishedAt": "2026-08-18T06:45:00Z",
+      "fetchedAt": "2026-08-18T07:07:29.973Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/business/paul-merchants-finance-launches-loan-against-silver-becomes-indias-first-nbfc-to-set-up-exclusive-silver-loan-branches20260818115510/"
+    },
     {
       "id": "01e1c7dd12cf3397",
       "category": "金属与资源",
@@ -1544,169 +1712,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.belegger.nl/Nieuws/874771/WSJ-Trump-wil-Straat-van-Hormuz-inlijven.aspx"
-    },
-    {
-      "id": "dbee1b6a7a69fdde",
-      "category": "能源与航运",
-      "title": "Stop boiling broccoli when easier method makes it so much tastier",
-      "url": "https://www.walesonline.co.uk/whats-on/food-drink-news/how-to-make-broccoli-tastier-34454766",
-      "source": "walesonline.co.uk",
-      "publishedAt": "2026-08-17T05:30:00Z",
-      "fetchedAt": "2026-08-17T05:52:41.064Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.walesonline.co.uk/whats-on/food-drink-news/how-to-make-broccoli-tastier-34454766"
-    },
-    {
-      "id": "29eccaaa5e9a2ba3",
-      "category": "能源与航运",
-      "title": "Tehran rejects Trump claim over Hormuz",
-      "url": "http://europe.chinadaily.com.cn/a/202608/17/WS6a826307a31073853ec5396e.html",
-      "source": "europe.chinadaily.com.cn",
-      "publishedAt": "2026-08-17T02:30:00Z",
-      "fetchedAt": "2026-08-17T03:14:24.343Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://europe.chinadaily.com.cn/a/202608/17/WS6a826307a31073853ec5396e.html"
-    },
-    {
-      "id": "d707d5042ddd75cd",
-      "category": "金属与资源",
-      "title": "Great Southern hits high - grade gold below WA resource",
-      "url": "https://www.brisbanetimes.com.au/business/companies/great-southern-hits-high-grade-gold-below-wa-resource-20260817-p60p0f.html",
-      "source": "brisbanetimes.com.au",
-      "publishedAt": "2026-08-17T02:30:00Z",
-      "fetchedAt": "2026-08-17T03:14:24.343Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.brisbanetimes.com.au/business/companies/great-southern-hits-high-grade-gold-below-wa-resource-20260817-p60p0f.html"
-    },
-    {
-      "id": "b5d7ee46c78aa160",
-      "category": "能源与航运",
-      "title": "खाड़ी देशों ने होर्मुज में नए सामान्य को स्वीकारा : नियंत्रण ईरान के पास - gulf countries accept new normal in hormuz iran in control",
-      "url": "https://www.punjabkesari.in/blogs/news/gulf-countries-accept--new-normal--in-hormuz-iran-in-control-2369503",
-      "source": "punjabkesari.in",
-      "publishedAt": "2026-08-17T02:30:00Z",
-      "fetchedAt": "2026-08-17T03:14:24.343Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.punjabkesari.in/blogs/news/gulf-countries-accept--new-normal--in-hormuz-iran-in-control-2369503"
-    },
-    {
-      "id": "20feb7fa84f67b02",
-      "category": "全球与地区",
-      "title": "Brandstof uit Marokko geblokkeerd in Russische haven door prijsconflict",
-      "url": "https://www.bladna.nl/brandstof-marokko-geblokkeerd-russische-haven-prijsconflict,72142.html",
-      "source": "bladna.nl",
-      "publishedAt": "2026-08-17T02:30:00Z",
-      "fetchedAt": "2026-08-17T03:14:24.343Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Netherlands"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bladna.nl/brandstof-marokko-geblokkeerd-russische-haven-prijsconflict,72142.html"
     }
   ]
 }
