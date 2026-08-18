@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-18T16:50:46.416Z",
-  "newsUpdatedAt": "2026-08-18T13:58:36.761Z",
-  "assetsUpdatedAt": "2026-08-18T16:50:46.416Z",
+  "generatedAt": "2026-08-18T17:46:39.497Z",
+  "newsUpdatedAt": "2026-08-18T17:46:39.497Z",
+  "assetsUpdatedAt": "2026-08-18T17:46:39.497Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53381.35,
-      "changePercent": -0.15,
+      "price": 53362.22,
+      "changePercent": -0.18,
       "unit": "USD",
-      "asOf": "2026-08-18T12:51:20-04:00",
+      "asOf": "2026-08-18T13:47:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26380.06,
-      "changePercent": -0.99,
+      "price": 26327.86,
+      "changePercent": -1.19,
       "unit": "USD",
-      "asOf": "2026-08-18T12:51:20-04:00",
+      "asOf": "2026-08-18T13:47:41-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7707.69,
-      "changePercent": -0.48,
+      "price": 7700.32,
+      "changePercent": -0.58,
       "unit": "USD",
-      "asOf": "2026-08-18T12:51:19-04:00",
+      "asOf": "2026-08-18T13:47:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4418.36,
-      "changePercent": -1.24,
+      "price": 4413.92,
+      "changePercent": -1.34,
       "unit": "USD",
-      "asOf": "2026-08-19T00:51:05-04:00",
+      "asOf": "2026-08-19T01:47:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.27,
-      "changePercent": 0.63,
+      "price": 84.15,
+      "changePercent": 0.49,
       "unit": "USD",
-      "asOf": "2026-08-19T00:51:03-04:00",
+      "asOf": "2026-08-19T01:47:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 657.87,
-      "changePercent": -2.04,
+      "price": 656.67,
+      "changePercent": -2.22,
       "unit": "USD",
-      "asOf": "2026-08-19T00:50:46-04:00",
+      "asOf": "2026-08-19T01:46:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,332 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64780,
-      "changePercent": 1.1126464367625089,
+      "price": 64687,
+      "changePercent": 0.7233200176039536,
       "unit": "USD",
-      "asOf": "2026-08-18T16:49:30.000Z",
+      "asOf": "2026-08-18T17:45:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "6d074cd0eaf021e7",
+      "category": "金属与资源",
+      "title": "BHP Finds Its New Metal Machine",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/bhp-finds-metal-machine-153802766.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/commodities/articles/bhp-finds-metal-machine-153802766.html"
+    },
+    {
+      "id": "06ffc109a245a82f",
+      "category": "能源与航运",
+      "title": "Ecopetrol Completes $1 . 2 Billion Brazilian Oil Deal",
+      "url": "https://finance.yahoo.com/energy/articles/ecopetrol-completes-1-2-billion-163715015.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/ecopetrol-completes-1-2-billion-163715015.html"
+    },
+    {
+      "id": "822e8e0e24feec28",
+      "category": "金属与资源",
+      "title": "Das außergewöhnliche Comeback des „ Goldesels Johnny Depp",
+      "url": "https://www.hna.de/leute/das-aussergewoehnliche-comeback-des-goldesels-johnny-depp-zr-94448996.html",
+      "source": "hna.de",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hna.de/leute/das-aussergewoehnliche-comeback-des-goldesels-johnny-depp-zr-94448996.html"
+    },
+    {
+      "id": "5a18046bb273d6f2",
+      "category": "数字资产",
+      "title": "Nullára eshet a Bitcoin árfolyama ? Súlyos figyelmeztetés érkezett",
+      "url": "https://profitline.hu/nullara-eshet-a-bitcoin-ara-a-world-gold-council-vezerigazgatoja-szerint-igen-489847",
+      "source": "profitline.hu",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Hungary"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://profitline.hu/nullara-eshet-a-bitcoin-ara-a-world-gold-council-vezerigazgatoja-szerint-igen-489847"
+    },
+    {
+      "id": "2faa3cf077ed18a0",
+      "category": "能源与航运",
+      "title": "Crude is cheaper than it was in the spring , but diesel is not , forcing farms and drivers to pay the difference",
+      "url": "https://edmontonjournal.com:443/business/crude-oil-diesel-strait-of-hormuz/wcm/53e9852f-f848-4d26-a68a-f2b20ac9104c",
+      "source": "edmontonjournal.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://edmontonjournal.com:443/business/crude-oil-diesel-strait-of-hormuz/wcm/53e9852f-f848-4d26-a68a-f2b20ac9104c"
+    },
+    {
+      "id": "b9cfaa7af4b5ac98",
+      "category": "能源与航运",
+      "title": "Crude cheaper but not diesel , forcing farms , drivers to pay difference",
+      "url": "https://edmontonjournal.com:443/business/crude-oil-diesel-strait-of-hormuz",
+      "source": "edmontonjournal.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://edmontonjournal.com:443/business/crude-oil-diesel-strait-of-hormuz"
+    },
+    {
+      "id": "97cacade3fda5431",
+      "category": "金属与资源",
+      "title": "B2Gold ( BTO ) – Analyst Recent Ratings Changes",
+      "url": "https://www.themarketsdaily.com/2026/08/18/b2gold-bto-analysts-recent-ratings-changes.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/18/b2gold-bto-analysts-recent-ratings-changes.html"
+    },
+    {
+      "id": "014ebf773b1f74bc",
+      "category": "能源与航运",
+      "title": "Hormuz is America new territory , says Donald Trump with map",
+      "url": "https://www.sangbadpratidin.in/world/hormuz-is-americas-new-territory-says-donald-trump-with-map/pid/1296250/",
+      "source": "sangbadpratidin.in",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sangbadpratidin.in/world/hormuz-is-americas-new-territory-says-donald-trump-with-map/pid/1296250/"
+    },
+    {
+      "id": "28da15991a38609b",
+      "category": "全球与地区",
+      "title": "Baltic Dry Index falls to 2815 down 63 points | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2815-down-63-points/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2815-down-63-points/"
+    },
+    {
+      "id": "092630da0bfa96d8",
+      "category": "全球与地区",
+      "title": "As tariff deadline approaches , the job is not yet done",
+      "url": "https://nationalpost.com/news/as-tariff-deadline-approaches-the-job-is-not-yet-done-canadas-negotiators-say",
+      "source": "nationalpost.com",
+      "publishedAt": "2026-08-18T17:15:00Z",
+      "fetchedAt": "2026-08-18T17:46:39.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://nationalpost.com/news/as-tariff-deadline-approaches-the-job-is-not-yet-done-canadas-negotiators-say"
+    },
     {
       "id": "39e2cfa7e3ab8de2",
       "category": "能源与航运",
@@ -1363,350 +1677,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.kitco.com/opinion/2026-08-17/copper-hits-record-speculative-net-long-extreme-available-cot-history-gold-shows"
-    },
-    {
-      "id": "2311f5e44cfb5125",
-      "category": "能源与航运",
-      "title": "Iran live updates : Trump threatens to bomb Oman over Strait of Hormuz",
-      "url": "https://www.aol.com/articles/iran-live-updates-tehran-adopt-074458000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-08-17T14:15:00Z",
-      "fetchedAt": "2026-08-17T14:47:21.158Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/iran-live-updates-tehran-adopt-074458000.html"
-    },
-    {
-      "id": "eef843a0bf2e6ff8",
-      "category": "科技与产业",
-      "title": "Massive growth ahead for humanoid robot market",
-      "url": "https://it-online.co.za/2026/08/17/massive-growth-ahead-for-humanoid-robot-market/",
-      "source": "it-online.co.za",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://it-online.co.za/2026/08/17/massive-growth-ahead-for-humanoid-robot-market/"
-    },
-    {
-      "id": "5fedbcb6f0c8bcf3",
-      "category": "能源与航运",
-      "title": "Hormuz Traffic Grinds To Near Halt Again As Talks Stall",
-      "url": "http://www.iraqsun.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall",
-      "source": "iraqsun.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Iraq"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.iraqsun.com/news/279246654/hormuz-traffic-grinds-to-near-halt-again-as-talks-stall"
-    },
-    {
-      "id": "09c2121dc3873cbf",
-      "category": "金属与资源",
-      "title": "OceanaGold signs deal to buy Australian company Ausgold in offer valued at US$549M – Winnipeg Free Press",
-      "url": "https://www.winnipegfreepress.com/business/2026/08/17/oceanagold-signs-deal-to-buy-australian-company-ausgold-in-offer-valued-at-us549m",
-      "source": "winnipegfreepress.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.winnipegfreepress.com/business/2026/08/17/oceanagold-signs-deal-to-buy-australian-company-ausgold-in-offer-valued-at-us549m"
-    },
-    {
-      "id": "88b9f1fdb7d1819a",
-      "category": "金属与资源",
-      "title": "NexMetals Mining Extends Trend of Thick Massive Sulphides to 1 . 45 Kilometres with Visual Intercept in Hole SMD - 26 - 219 at Selebi Main",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/886-tsx-venture/nexm/209206-nexmetals-extends-trend-of-thick-massive-sulphides-to-1-45-kilometres-with-visual-intercept-in-hole-smd-26-219-at-selebi-main.html",
-      "source": "juniorminingnetwork.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/886-tsx-venture/nexm/209206-nexmetals-extends-trend-of-thick-massive-sulphides-to-1-45-kilometres-with-visual-intercept-in-hole-smd-26-219-at-selebi-main.html"
-    },
-    {
-      "id": "bf8da3143cd11d10",
-      "category": "金属与资源",
-      "title": "Code Metal Awarded an $80M Contract to Transform the Department of War Modeling and Simulation Ecosystem with Provable AI",
-      "url": "https://ai-online.com/2026/08/code-metal-awarded-an-80m-contract-to-transform-the-department-of-wars-modeling-and-simulation-ecosystem-with-provable-ai/",
-      "source": "ai-online.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ai-online.com/2026/08/code-metal-awarded-an-80m-contract-to-transform-the-department-of-wars-modeling-and-simulation-ecosystem-with-provable-ai/"
-    },
-    {
-      "id": "200f2f79df046e33",
-      "category": "金属与资源",
-      "title": "Goldera Exploration Appoints IAMGOLD Founding Director Mahendra Naik to its Board of Directors",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3539-tsx-venture/gera/209197-goldera-appoints-iamgold-founding-director-mahendra-naik-to-its-board-of-directors.html",
-      "source": "juniorminingnetwork.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3539-tsx-venture/gera/209197-goldera-appoints-iamgold-founding-director-mahendra-naik-to-its-board-of-directors.html"
-    },
-    {
-      "id": "a0458b22c91b0819",
-      "category": "能源与航运",
-      "title": "Uganda Investment Prospects Strengthen as Oil , Coffee and Industrialisation Drive Growth",
-      "url": "https://chimpreports.com/ugandas-investment-prospects-strengthen-as-oil-coffee-and-industrialisation-drive-growth/",
-      "source": "chimpreports.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Uganda"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://chimpreports.com/ugandas-investment-prospects-strengthen-as-oil-coffee-and-industrialisation-drive-growth/"
-    },
-    {
-      "id": "232751eb98fbb566",
-      "category": "能源与航运",
-      "title": "Terra Clean Energy Announces Receipt of Utah Work Program Permits for the Marysvale Uranium Mines Project",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3266-cse/tcec/209214-terra-clean-energy-corp-announces-receipt-of-utah-work-program-permits-for-the-marysvale-uranium-mines-project.html",
-      "source": "juniorminingnetwork.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3266-cse/tcec/209214-terra-clean-energy-corp-announces-receipt-of-utah-work-program-permits-for-the-marysvale-uranium-mines-project.html"
-    },
-    {
-      "id": "7006643713b7e98b",
-      "category": "金属与资源",
-      "title": "Arizona Eagle Mining Completes Acquisition of Three Past - Producing High - Grade Silver Mines to Consolidate Eagle Silver Project",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3302-tsx-venture/azem/209179-arizona-eagle-mining-corp-completes-acquisition-of-three-past-producing-high-grade-silver-mines-to-consolidate-eagle-silver-project.html",
-      "source": "juniorminingnetwork.com",
-      "publishedAt": "2026-08-17T12:45:00Z",
-      "fetchedAt": "2026-08-17T13:08:57.594Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3302-tsx-venture/azem/209179-arizona-eagle-mining-corp-completes-acquisition-of-three-past-producing-high-grade-silver-mines-to-consolidate-eagle-silver-project.html"
     }
   ]
 }
