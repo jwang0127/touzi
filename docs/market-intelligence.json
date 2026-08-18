@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-18T19:42:36.602Z",
-  "newsUpdatedAt": "2026-08-18T17:46:39.497Z",
-  "assetsUpdatedAt": "2026-08-18T19:42:36.602Z",
+  "generatedAt": "2026-08-18T20:42:23.500Z",
+  "newsUpdatedAt": "2026-08-18T20:42:23.500Z",
+  "assetsUpdatedAt": "2026-08-18T20:42:23.500Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53403.93,
-      "changePercent": -0.1,
+      "price": 53343.4,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-08-18T15:43:20-04:00",
+      "asOf": "2026-08-18T16:40:06-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26304.91,
-      "changePercent": -1.28,
+      "price": 26289.71,
+      "changePercent": -1.33,
       "unit": "USD",
-      "asOf": "2026-08-18T15:43:20-04:00",
+      "asOf": "2026-08-18T16:43:30-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7698.63,
-      "changePercent": -0.6,
+      "price": 7691.76,
+      "changePercent": -0.69,
       "unit": "USD",
-      "asOf": "2026-08-18T15:43:19-04:00",
+      "asOf": "2026-08-18T16:38:24-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4411.31,
-      "changePercent": -1.39,
+      "price": 4391,
+      "changePercent": -1.85,
       "unit": "USD",
-      "asOf": "2026-08-19T03:43:03-04:00",
+      "asOf": "2026-08-19T04:42:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.98,
-      "changePercent": 0.29,
+      "price": 84.27,
+      "changePercent": 0.63,
       "unit": "USD",
-      "asOf": "2026-08-19T03:43:02-04:00",
+      "asOf": "2026-08-19T04:42:57-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 656.12,
-      "changePercent": -2.3,
+      "price": 654.75,
+      "changePercent": -2.51,
       "unit": "USD",
-      "asOf": "2026-08-19T03:37:59-04:00",
+      "asOf": "2026-08-19T04:41:15-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,245 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64671,
-      "changePercent": 0.4992276688868307,
+      "price": 64586,
+      "changePercent": 0.381714356654513,
       "unit": "USD",
-      "asOf": "2026-08-18T19:41:30.000Z",
+      "asOf": "2026-08-18T20:41:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "667ae70395c529ae",
+      "category": "金属与资源",
+      "title": "L . P . Silver Point Capital Purchases 5 , 250 , 527 Shares of Rusoro Mining ( CVE : RML ) Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13548772/l-p-silver-point-capital-purchases-5250527-shares-of-rusoro-mining-cverml-stock.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13548772/l-p-silver-point-capital-purchases-5250527-shares-of-rusoro-mining-cverml-stock.html"
+    },
+    {
+      "id": "fd3da19b948a5f0a",
+      "category": "能源与航运",
+      "title": "Fuel hedge will shield Bahamians from global oil hikes , PM pledges",
+      "url": "https://www.tribune242.com/news/2026/aug/18/fuel-hedge-will-shield-bahamians-from-global-oil-hikes-pm-pledges/",
+      "source": "tribune242.com",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Bahamas"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tribune242.com/news/2026/aug/18/fuel-hedge-will-shield-bahamians-from-global-oil-hikes-pm-pledges/"
+    },
+    {
+      "id": "54a32fde1ab7d2b1",
+      "category": "金属与资源",
+      "title": "UTC Celebrates First Official Campus Beer with Launch of Mocs Gold Lager This Thursday ! - Hits 96",
+      "url": "https://www.hits96.com/utc-celebrates-first-official-campus-beer-with-launch-of-mocs-gold-lager-this-thursday/",
+      "source": "hits96.com",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hits96.com/utc-celebrates-first-official-campus-beer-with-launch-of-mocs-gold-lager-this-thursday/"
+    },
+    {
+      "id": "e3eb1a46495a102c",
+      "category": "金属与资源",
+      "title": "$1M copper - wire theft prompts appeal from OPP",
+      "url": "https://windsorstar.com:443/news/local-news/1m-copper-wire-theft-prompts-appeal-from-opp/wcm/923dd0b5-24d8-4d62-bdda-11bac5dae7ab",
+      "source": "windsorstar.com",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://windsorstar.com:443/news/local-news/1m-copper-wire-theft-prompts-appeal-from-opp/wcm/923dd0b5-24d8-4d62-bdda-11bac5dae7ab"
+    },
+    {
+      "id": "9eeaa8ad2f9804ab",
+      "category": "能源与航运",
+      "title": "Natural gas is cheaper and more efficient . Why wouldnt I vote to protect it ? ( Opinion ) – The Denver Post",
+      "url": "https://www.denverpost.com/2026/08/18/natural-gas-ballot-measure-colorado-vote/",
+      "source": "denverpost.com",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.denverpost.com/2026/08/18/natural-gas-ballot-measure-colorado-vote/"
+    },
+    {
+      "id": "aa0d75e156ae30a8",
+      "category": "全球与地区",
+      "title": "US imposes sanctions on ICC judges as tensions rise",
+      "url": "https://news.az/news/us-imposes-sanctions-on-icc-judges-as-tensions-rise",
+      "source": "news.az",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.az/news/us-imposes-sanctions-on-icc-judges-as-tensions-rise"
+    },
+    {
+      "id": "192b003234d6f9c4",
+      "category": "能源与航运",
+      "title": "Trump objavio kartu na kojoj je Hormuz označen kao teritorij SAD - a",
+      "url": "https://www.telegram.hr/vijesti/trump-objavio-kartu-hormuski-tjesnac-je-novi-americki-teritorij/",
+      "source": "telegram.hr",
+      "publishedAt": "2026-08-18T20:15:00Z",
+      "fetchedAt": "2026-08-18T20:42:23.500Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Croatia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.telegram.hr/vijesti/trump-objavio-kartu-hormuski-tjesnac-je-novi-americki-teritorij/"
+    },
     {
       "id": "6d074cd0eaf021e7",
       "category": "金属与资源",
@@ -1452,233 +1681,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://turnto10.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework"
-    },
-    {
-      "id": "e2ec74eeb7d7375f",
-      "category": "金属与资源",
-      "title": "Guy Ruins His Relationships With His Family Trying To Appease His Gold - Digger Girlfriend Who Then Dumps Him",
-      "url": "https://www.boredpanda.com/son-stole-late-mothers-will-ring/?cexp_id=159774&_f=homepage_featured&cexp_var=7",
-      "source": "boredpanda.com",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.boredpanda.com/son-stole-late-mothers-will-ring/?cexp_id=159774&_f=homepage_featured&cexp_var=7"
-    },
-    {
-      "id": "21b54871f4c06071",
-      "category": "金属与资源",
-      "title": "American Caper # 10 Preview : Vows Broken , Turds Gold - Plated",
-      "url": "https://bleedingcool.com/comics/american-caper-10-preview-vows-broken-turds-gold-plated/",
-      "source": "bleedingcool.com",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://bleedingcool.com/comics/american-caper-10-preview-vows-broken-turds-gold-plated/"
-    },
-    {
-      "id": "da8293f67bb92b3e",
-      "category": "能源与航运",
-      "title": "Τουρκική παρέμβαση για Hormuz με στόχο άνοιγμα και διατήρηση της εκεχειρίας",
-      "url": "https://www.bankingnews.gr/diethni/articles/894293/tourkiki-paremvasi-gia-hormuz-me-stoxo-anoigma-kai-diatirisi-tis-ekexeirias",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/894293/tourkiki-paremvasi-gia-hormuz-me-stoxo-anoigma-kai-diatirisi-tis-ekexeirias"
-    },
-    {
-      "id": "e662517910fea10d",
-      "category": "数字资产",
-      "title": "Bitcoin rritet në mbi 64 . 000 dollarë",
-      "url": "https://www.botasot.info/teknologji-shkence/2518039/bitcoin-rritet-ne-mbi-64-000-dollare/",
-      "source": "botasot.info",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Albania"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.botasot.info/teknologji-shkence/2518039/bitcoin-rritet-ne-mbi-64-000-dollare/"
-    },
-    {
-      "id": "54eae5f87975d680",
-      "category": "金属与资源",
-      "title": "Gold shows early signs of reclaiming safe - haven appeal after Iran war selloff",
-      "url": "https://arynews.tv/gold-shows-early-signs-of-reclaiming-safe-haven-appeal-after-iran-war-selloff",
-      "source": "arynews.tv",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://arynews.tv/gold-shows-early-signs-of-reclaiming-safe-haven-appeal-after-iran-war-selloff"
-    },
-    {
-      "id": "1aedca6cff7d69fa",
-      "category": "全球与地区",
-      "title": "Global stocks falter amid Middle East conflict and looming economic data",
-      "url": "https://www.irishtimes.com/business/2026/08/17/global-stokes-falter-amid-middle-east-conflict-and-looming-economic-data/",
-      "source": "irishtimes.com",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ireland"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.irishtimes.com/business/2026/08/17/global-stokes-falter-amid-middle-east-conflict-and-looming-economic-data/"
-    },
-    {
-      "id": "5b7d5b25f1ead9fa",
-      "category": "金属与资源",
-      "title": "Copper hits a record speculative net - long extreme in available COT history as gold shows a bearish weekly COT shift",
-      "url": "http://www.kitco.com/opinion/2026-08-17/copper-hits-record-speculative-net-long-extreme-available-cot-history-gold-shows",
-      "source": "kitco.com",
-      "publishedAt": "2026-08-17T21:15:00Z",
-      "fetchedAt": "2026-08-17T21:43:42.111Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.kitco.com/opinion/2026-08-17/copper-hits-record-speculative-net-long-extreme-available-cot-history-gold-shows"
     }
   ]
 }
