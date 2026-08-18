@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-18T07:07:29.973Z",
-  "newsUpdatedAt": "2026-08-18T07:07:29.973Z",
-  "assetsUpdatedAt": "2026-08-18T07:07:29.973Z",
+  "generatedAt": "2026-08-18T07:56:17.156Z",
+  "newsUpdatedAt": "2026-08-18T07:56:17.156Z",
+  "assetsUpdatedAt": "2026-08-18T07:56:17.156Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -20,7 +20,7 @@
       "price": 3990.3,
       "changePercent": 0.19,
       "unit": "CNY",
-      "asOf": "2026-08-18T15:08:00+08:00",
+      "asOf": "2026-08-18T15:57:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -31,7 +31,7 @@
       "price": 14622.5,
       "changePercent": -0.56,
       "unit": "CNY",
-      "asOf": "2026-08-18T15:08:12+08:00",
+      "asOf": "2026-08-18T15:57:12+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25487.82,
-      "changePercent": 0.14,
+      "price": 25509.23,
+      "changePercent": 0.22,
       "unit": "HKD",
-      "asOf": "2026-08-18T14:53:29+08:00",
+      "asOf": "2026-08-18T15:42:14+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8461.59,
-      "changePercent": 0.26,
+      "price": 8468.27,
+      "changePercent": 0.34,
       "unit": "HKD",
-      "asOf": "2026-08-18T14:53:28+08:00",
+      "asOf": "2026-08-18T15:42:14+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4452.56,
-      "changePercent": -0.47,
+      "price": 4451.61,
+      "changePercent": -0.49,
       "unit": "USD",
-      "asOf": "2026-08-18T15:08:06-04:00",
+      "asOf": "2026-08-18T15:57:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.18,
-      "changePercent": 0.53,
+      "price": 84.42,
+      "changePercent": 0.81,
       "unit": "USD",
-      "asOf": "2026-08-18T15:08:07-04:00",
+      "asOf": "2026-08-18T15:57:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 668.13,
-      "changePercent": -0.52,
+      "price": 664.84,
+      "changePercent": -1.01,
       "unit": "USD",
-      "asOf": "2026-08-18T15:04:24-04:00",
+      "asOf": "2026-08-18T15:57:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,285 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64258,
-      "changePercent": 1.1311612368103692,
+      "price": 64116,
+      "changePercent": 0.9881763209471354,
       "unit": "USD",
-      "asOf": "2026-08-18T07:06:50.000Z",
+      "asOf": "2026-08-18T07:55:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "54a210c747e2aa32",
+      "category": "能源与航运",
+      "title": "Stock markets decline in early trade as crude oil jumps to USD 91 per barrel",
+      "url": "https://www.tribuneindia.com/news/business/stock-markets-decline-in-early-trade-as-crude-oil-jumps-to-usd-91-per-barrel/",
+      "source": "tribuneindia.com",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tribuneindia.com/news/business/stock-markets-decline-in-early-trade-as-crude-oil-jumps-to-usd-91-per-barrel/"
+    },
+    {
+      "id": "40581a40e035c5ce",
+      "category": "数字资产",
+      "title": "Christian Haag & Florian Sondershausen : Warum viele bei Bitcoin als Altersvorsorge ...",
+      "url": "https://www.presseportal.de/pm/163289/6335257",
+      "source": "presseportal.de",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.presseportal.de/pm/163289/6335257"
+    },
+    {
+      "id": "59d2f6b467c06a96",
+      "category": "数字资产",
+      "title": "New Crypto Presale Pepeto Reveals Funds Update While Ethereum Price Prediction Targets $10 , 000",
+      "url": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/new-crypto-presale-pepeto-reveals-funds-update-while-ethereum-price-prediction-targets-10000/2407281",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/new-crypto-presale-pepeto-reveals-funds-update-while-ethereum-price-prediction-targets-10000/2407281"
+    },
+    {
+      "id": "f8eef23ba510d7b4",
+      "category": "科技与产业",
+      "title": "SEMICON India 2026 to bring 500+ exhibitors , firms from 40 countries to showcase India semiconductor push",
+      "url": "https://aninews.in/news/business/semicon-india-2026-to-bring-500-exhibitors-firms-from-40-countries-to-showcase-indias-semiconductor-push20260818115309/",
+      "source": "aninews.in",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/business/semicon-india-2026-to-bring-500-exhibitors-firms-from-40-countries-to-showcase-indias-semiconductor-push20260818115309/"
+    },
+    {
+      "id": "9522a26d8e03b747",
+      "category": "数字资产",
+      "title": "Christian Haag & Florian Sondershausen : Warum viele bei Bitcoin als Altersvorsorge falsch rechnen",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69337564-christian-haag-florian-sondershausen-warum-viele-bei-bitcoin-als-altersvorsorge-falsch-rechnen-007.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69337564-christian-haag-florian-sondershausen-warum-viele-bei-bitcoin-als-altersvorsorge-falsch-rechnen-007.htm"
+    },
+    {
+      "id": "d001f5130bd7c3e9",
+      "category": "A股与政策",
+      "title": "A股收盘 ： 沪指探底回升翻红 粮食概念领涨 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20260818/49683235.html",
+      "source": "news.china.com",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.china.com/socialgd/10000169/20260818/49683235.html"
+    },
+    {
+      "id": "ea0cb0ae350a9ea6",
+      "category": "能源与航运",
+      "title": "No price tag on Trump plan to claim the Strait of Hormuz",
+      "url": "https://homenewshere.com/national/news/article_977a94f9-d771-5b92-8ee8-bb5e6d4e846d.html",
+      "source": "homenewshere.com",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://homenewshere.com/national/news/article_977a94f9-d771-5b92-8ee8-bb5e6d4e846d.html"
+    },
+    {
+      "id": "4507d551d77c3f1a",
+      "category": "A股与政策",
+      "title": "A股午评来了 ， 大科技回调 ， 农业股全线走强",
+      "url": "https://news.ifeng.com/c/8vgmpDJLM0B",
+      "source": "news.ifeng.com",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.ifeng.com/c/8vgmpDJLM0B"
+    },
+    {
+      "id": "567e2821c55d410b",
+      "category": "能源与航运",
+      "title": "Bad political leadership is blocking Ireland path to energy efficiency – The Irish Times",
+      "url": "https://www.irishtimes.com/opinion/2026/08/18/bad-political-leadership-is-blocking-irelands-path-to-energy-efficiency/",
+      "source": "irishtimes.com",
+      "publishedAt": "2026-08-18T07:30:00Z",
+      "fetchedAt": "2026-08-18T07:56:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Ireland"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.irishtimes.com/opinion/2026/08/18/bad-political-leadership-is-blocking-irelands-path-to-energy-efficiency/"
+    },
     {
       "id": "210607fe71d303bc",
       "category": "金属与资源",
@@ -1427,291 +1696,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.pregon.com.ar/nota/-70433/2026/08/pablo-goldin--el-principal-problema-del-programa-es-que-no-hay-suficiente-liquidez-para-mover-la-economia"
-    },
-    {
-      "id": "f00d6e76cd0624b0",
-      "category": "能源与航运",
-      "title": "Pardubické novinky - Domácí - Trumpův výrok o Hormuzu odhaluje skutečný problém americké moci",
-      "url": "https://www.pardubickenovinky.cz/zpravy/politika/trumpuv-vyrok-o-hormuzu-odhaluje-skutecny-problem-americke-moci/",
-      "source": "pardubickenovinky.cz",
-      "publishedAt": "2026-08-17T08:15:00Z",
-      "fetchedAt": "2026-08-17T09:02:53.422Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Czech Republic"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.pardubickenovinky.cz/zpravy/politika/trumpuv-vyrok-o-hormuzu-odhaluje-skutecny-problem-americke-moci/"
-    },
-    {
-      "id": "0db9b1912a2db69e",
-      "category": "全球与地区",
-      "title": "Strait of Hormuz shipping slows as U . S .- Iran ceasefire nears end",
-      "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-      "source": "cnbc.com",
-      "publishedAt": "2026-08-17T08:15:00Z",
-      "fetchedAt": "2026-08-17T09:02:53.422Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html"
-    },
-    {
-      "id": "4f6f1e0fe3785b0c",
-      "category": "金属与资源",
-      "title": "Nicht Gold , nicht Öl , nicht Silber – dieser Rohstoff ist jetzt so teuer wie nie zuvor",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nicht-gold-nicht-oel-nicht-silber-dieser-rohstoff-ist-jetzt-so-teuer-wie-nie-zuvor-20406827.html",
-      "source": "deraktionaer.de",
-      "publishedAt": "2026-08-17T08:15:00Z",
-      "fetchedAt": "2026-08-17T09:02:53.422Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.deraktionaer.de/artikel/aktien/nicht-gold-nicht-oel-nicht-silber-dieser-rohstoff-ist-jetzt-so-teuer-wie-nie-zuvor-20406827.html"
-    },
-    {
-      "id": "59dc95dcd010040d",
-      "category": "金属与资源",
-      "title": "OceanaGold Announces Acquisition of Ausgold",
-      "url": "https://leaderpost.com/press-releases/pr-newswire/oceanagold-announces-acquisition-of-ausgold/",
-      "source": "leaderpost.com",
-      "publishedAt": "2026-08-17T08:15:00Z",
-      "fetchedAt": "2026-08-17T09:02:53.422Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://leaderpost.com/press-releases/pr-newswire/oceanagold-announces-acquisition-of-ausgold/"
-    },
-    {
-      "id": "b2dbe329b867098c",
-      "category": "数字资产",
-      "title": "Bitcoin se stabilizează la 63 500 de dolari pe fondul tensiunilor legate de Iran",
-      "url": "https://news.yam.md/ro/story/55072677",
-      "source": "news.yam.md",
-      "publishedAt": "2026-08-17T08:15:00Z",
-      "fetchedAt": "2026-08-17T09:02:53.422Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.yam.md/ro/story/55072677"
-    },
-    {
-      "id": "e895dfcf55d66553",
-      "category": "金属与资源",
-      "title": "Kincora Copper advances NSW drilling and partner strategy with A$12 million cash balance",
-      "url": "https://www.proactiveinvestors.com.au/companies/news/1097092/kincora-copper-advances-nsw-drilling-and-partner-strategy-with-a-12-million-cash-balance-1097092.html",
-      "source": "proactiveinvestors.com.au",
-      "publishedAt": "2026-08-17T05:30:00Z",
-      "fetchedAt": "2026-08-17T05:52:41.064Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.proactiveinvestors.com.au/companies/news/1097092/kincora-copper-advances-nsw-drilling-and-partner-strategy-with-a-12-million-cash-balance-1097092.html"
-    },
-    {
-      "id": "62a7474cb8d16c48",
-      "category": "全球与地区",
-      "title": "Washington farm team : Iran slams Canada for backing US amid conflict",
-      "url": "https://aninews.in/news/world/middle-east/washingtons-farm-team-iran-slams-canada-for-backing-us-amid-conflict20260817092649/",
-      "source": "aninews.in",
-      "publishedAt": "2026-08-17T05:30:00Z",
-      "fetchedAt": "2026-08-17T05:52:41.064Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/world/middle-east/washingtons-farm-team-iran-slams-canada-for-backing-us-amid-conflict20260817092649/"
-    },
-    {
-      "id": "e2c85e66d5ef4c24",
-      "category": "金属与资源",
-      "title": "Gold Roth IRA : How It Works , Rules , Taxes , Fees , and What Investors Should Know in 2026 ( Guide Released )",
-      "url": "http://www.albuquerqueexpress.com/news/279246204/gold-roth-ira-how-it-works-rules-taxes-fees-and-what-investors-should-know-in-2026-guide-released",
-      "source": "albuquerqueexpress.com",
-      "publishedAt": "2026-08-17T05:30:00Z",
-      "fetchedAt": "2026-08-17T05:52:41.064Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.albuquerqueexpress.com/news/279246204/gold-roth-ira-how-it-works-rules-taxes-fees-and-what-investors-should-know-in-2026-guide-released"
-    },
-    {
-      "id": "e23302bdad8ff398",
-      "category": "能源与航运",
-      "title": "WSJ : Trump wil Straat van Hormuz inlijven",
-      "url": "https://www.belegger.nl/Nieuws/874771/WSJ-Trump-wil-Straat-van-Hormuz-inlijven.aspx",
-      "source": "belegger.nl",
-      "publishedAt": "2026-08-17T05:30:00Z",
-      "fetchedAt": "2026-08-17T05:52:41.064Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Netherlands"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.belegger.nl/Nieuws/874771/WSJ-Trump-wil-Straat-van-Hormuz-inlijven.aspx"
     }
   ]
 }
