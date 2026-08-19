@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-19T19:42:24.336Z",
-  "newsUpdatedAt": "2026-08-19T18:55:43.989Z",
-  "assetsUpdatedAt": "2026-08-19T19:42:24.336Z",
+  "generatedAt": "2026-08-19T20:47:54.688Z",
+  "newsUpdatedAt": "2026-08-19T20:47:54.688Z",
+  "assetsUpdatedAt": "2026-08-19T20:47:54.688Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53447.78,
-      "changePercent": 0.2,
+      "price": 53463.05,
+      "changePercent": 0.22,
       "unit": "USD",
-      "asOf": "2026-08-19T15:43:00-04:00",
+      "asOf": "2026-08-19T16:38:37-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26341.66,
-      "changePercent": 0.2,
+      "price": 26331.09,
+      "changePercent": 0.16,
       "unit": "USD",
-      "asOf": "2026-08-19T15:43:00-04:00",
+      "asOf": "2026-08-19T16:48:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7711.54,
-      "changePercent": 0.26,
+      "price": 7707.98,
+      "changePercent": 0.21,
       "unit": "USD",
-      "asOf": "2026-08-19T15:42:59-04:00",
+      "asOf": "2026-08-19T16:38:31-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4563.5,
-      "changePercent": 3.23,
+      "price": 4580.06,
+      "changePercent": 3.61,
       "unit": "USD",
-      "asOf": "2026-08-20T03:43:04-04:00",
+      "asOf": "2026-08-20T04:48:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.92,
-      "changePercent": -0.17,
+      "price": 84.21,
+      "changePercent": 0.17,
       "unit": "USD",
-      "asOf": "2026-08-20T03:43:04-04:00",
+      "asOf": "2026-08-20T04:48:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 659.27,
-      "changePercent": 0.04,
+      "price": 660.77,
+      "changePercent": 0.27,
       "unit": "USD",
-      "asOf": "2026-08-20T03:42:23-04:00",
+      "asOf": "2026-08-20T04:47:49-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,397 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 68257,
-      "changePercent": 5.569826477876831,
+      "price": 68639,
+      "changePercent": 6.303027119058871,
       "unit": "USD",
-      "asOf": "2026-08-19T19:41:00.000Z",
+      "asOf": "2026-08-19T20:46:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "64d8aa684b3bcbd1",
+      "category": "金属与资源",
+      "title": "Gold Price Hits Two - Month High Here Why",
+      "url": "https://www.forbes.com/sites/conormurray/2026/08/19/gold-price-hits-two-month-high-after-mostly-stagnant-summer/",
+      "source": "forbes.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.forbes.com/sites/conormurray/2026/08/19/gold-price-hits-two-month-high-after-mostly-stagnant-summer/"
+    },
+    {
+      "id": "a7c1805283d6f03c",
+      "category": "科技与产业",
+      "title": "From robot dogs to helpers , China puts robotics ambitions on display at world conference",
+      "url": "https://krcgtv.com/news/offbeat/from-robot-dogs-to-helpers-china-puts-robotics-ambitions-on-display-at-world-conference",
+      "source": "krcgtv.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://krcgtv.com/news/offbeat/from-robot-dogs-to-helpers-china-puts-robotics-ambitions-on-display-at-world-conference"
+    },
+    {
+      "id": "783983f2249234d4",
+      "category": "数字资产",
+      "title": "Trump calls for passage of a key cryptocurrency bill as it falters in the Senate : We need Congress to take the next step",
+      "url": "https://www.morningstar.com/news/marketwatch/20260819179/trump-calls-for-passage-of-a-key-cryptocurrency-bill-as-it-falters-in-the-senate-we-need-congress-to-take-the-next-step",
+      "source": "morningstar.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.morningstar.com/news/marketwatch/20260819179/trump-calls-for-passage-of-a-key-cryptocurrency-bill-as-it-falters-in-the-senate-we-need-congress-to-take-the-next-step"
+    },
+    {
+      "id": "8803e96bd89fc63f",
+      "category": "能源与航运",
+      "title": "Purdue Welcomes New Students As Boiler Gold Rush 2026 Kicks Off",
+      "url": "https://www.wlfi.com:443/2026/08/19/purdue-welcomes-new-students-boiler-gold-rush-2026-kicks-off/",
+      "source": "wlfi.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wlfi.com:443/2026/08/19/purdue-welcomes-new-students-boiler-gold-rush-2026-kicks-off/"
+    },
+    {
+      "id": "e27ca63d566f3efd",
+      "category": "数字资产",
+      "title": "Trump hosts crypto , technology leaders at White House",
+      "url": "https://kfoxtv.com/news/nation-world/trump-hosts-crypto-technology-leaders-at-white-house-cryptocurrency-executives-financial-regulators-digital-assets-president-donald-trump-politics",
+      "source": "kfoxtv.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://kfoxtv.com/news/nation-world/trump-hosts-crypto-technology-leaders-at-white-house-cryptocurrency-executives-financial-regulators-digital-assets-president-donald-trump-politics"
+    },
+    {
+      "id": "3b3cff2a93562a5d",
+      "category": "全球与地区",
+      "title": "ICC condemns Rubio sanctions targeting court president and prosecutor",
+      "url": "https://www.washingtonexaminer.com/news/world/4693171/icc-condemn-rubio-sanction/",
+      "source": "washingtonexaminer.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.washingtonexaminer.com/news/world/4693171/icc-condemn-rubio-sanction/"
+    },
+    {
+      "id": "e53f9924c64a01e2",
+      "category": "科技与产业",
+      "title": "From robot dogs to helpers , China puts robotics ambitions on display",
+      "url": "https://www.thetimes-tribune.com/2026/08/19/china-robot-dogs-helpers-conference/",
+      "source": "thetimes-tribune.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thetimes-tribune.com/2026/08/19/china-robot-dogs-helpers-conference/"
+    },
+    {
+      "id": "25e706b0c3dc34e5",
+      "category": "能源与航运",
+      "title": "Sensex falls 326 points , Nifty slips 0 . 3 % amid rising crude oil prices",
+      "url": "http://www.taiwansun.com/news/279252096/sensex-falls-326-points-nifty-slips-03-amid-rising-crude-oil-prices",
+      "source": "taiwansun.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.taiwansun.com/news/279252096/sensex-falls-326-points-nifty-slips-03-amid-rising-crude-oil-prices"
+    },
+    {
+      "id": "bd9ccd33c0ffcf9f",
+      "category": "能源与航运",
+      "title": "Iran says Strait of Hormuz will stay closed till US meets terms",
+      "url": "http://www.taiwansun.com/news/279249814/iran-sets-conditions-on-us-to-reopen-strait-of-hormuz",
+      "source": "taiwansun.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.taiwansun.com/news/279249814/iran-sets-conditions-on-us-to-reopen-strait-of-hormuz"
+    },
+    {
+      "id": "088f363617b3976a",
+      "category": "金属与资源",
+      "title": "Central African Republic gold mine collapse kills more than 100",
+      "url": "http://www.bignewsnetwork.com/news/279252347/central-african-republic-gold-mine-collapse-kills-more-than-100",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279252347/central-african-republic-gold-mine-collapse-kills-more-than-100"
+    },
+    {
+      "id": "26b6d8022a0fa2dd",
+      "category": "能源与航运",
+      "title": "Avengers : Doomsday Star Drops Spoiler About Robert Downey Doctor Doom",
+      "url": "https://movieweb.com/avengers-doomsday-david-harbour-doctor-doom-tony-stark/",
+      "source": "movieweb.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://movieweb.com/avengers-doomsday-david-harbour-doctor-doom-tony-stark/"
+    },
+    {
+      "id": "7028e784a445f84f",
+      "category": "能源与航运",
+      "title": "India - Australia working on energy partnership ; want Strait of Hormuz opened soon : High Commissioner Philip Green",
+      "url": "http://www.asiabulletin.com/news/279251972/india-australia-working-on-energy-partnership-want-strait-of-hormuz-opened-soon-high-commissioner-philip-green",
+      "source": "asiabulletin.com",
+      "publishedAt": "2026-08-19T20:15:00Z",
+      "fetchedAt": "2026-08-19T20:47:54.688Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.asiabulletin.com/news/279251972/india-australia-working-on-energy-partnership-want-strait-of-hormuz-opened-soon-high-commissioner-philip-green"
+    },
     {
       "id": "02676e13434d7fbb",
       "category": "金属与资源",
@@ -174,41 +553,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://finance.yahoo.com/markets/options/articles/gold-options-traders-chase-more-091744908.html"
-    },
-    {
-      "id": "f49d2bca6c865553",
-      "category": "能源与航运",
-      "title": "Iran says Strait of Hormuz will stay closed till US meets terms",
-      "url": "http://www.ohiostandard.com/news/279249814/iran-sets-conditions-on-us-to-reopen-strait-of-hormuz",
-      "source": "ohiostandard.com",
-      "publishedAt": "2026-08-19T18:30:00Z",
-      "fetchedAt": "2026-08-19T18:55:43.989Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.ohiostandard.com/news/279249814/iran-sets-conditions-on-us-to-reopen-strait-of-hormuz"
     },
     {
       "id": "a06a12910f60cb37",
@@ -1308,336 +1652,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.aajsamaaj.com/business/haryana-punjab-gold-silver-rate-today-19-august-2026-aaj-ka-sone-chandi-ka-rate-in-hindi/533656/"
-    },
-    {
-      "id": "a9781d7f0bc7f38e",
-      "category": "金属与资源",
-      "title": "Gold Price Today : महंगा होता जा रहा गोल्ड , लगातार तीसरे दिन बढ़ी चमक , चेक करें 10 शहरों में 24 से 18 कैरट का भाव",
-      "url": "https://hindi.moneycontrol.com/news/your-money/gold-price-today-sone-ka-bhav-aaj-check-latest-gold-rates-in-delhi-mumbai-chennai-kolkata-10-gram-18-22-24-carat-rate-in-india-on-19-aug-2432254.html",
-      "source": "hindi.moneycontrol.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hindi.moneycontrol.com/news/your-money/gold-price-today-sone-ka-bhav-aaj-check-latest-gold-rates-in-delhi-mumbai-chennai-kolkata-10-gram-18-22-24-carat-rate-in-india-on-19-aug-2432254.html"
-    },
-    {
-      "id": "57d588fb6653fa71",
-      "category": "金属与资源",
-      "title": "130 Jahre Kyffhäuser - Denkmal über der Goldenen Aue",
-      "url": "https://www.thueringer-allgemeine.de/panorama/article412892807/130-jahre-kyffhaeuser-denkmal-ueber-der-goldenen-aue.html",
-      "source": "thueringer-allgemeine.de",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thueringer-allgemeine.de/panorama/article412892807/130-jahre-kyffhaeuser-denkmal-ueber-der-goldenen-aue.html"
-    },
-    {
-      "id": "26c933a32ffd764f",
-      "category": "全球与地区",
-      "title": "B . C . businesses bracing for severe consequence of 50 per cent tariffs",
-      "url": "https://theprovince.com/news/bc-businesses-bracing-for-severe-consequences-of-50-per-cent-tariffs/wcm/d58cdb22-f8e1-49d6-90c3-901a471a8c9f",
-      "source": "theprovince.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://theprovince.com/news/bc-businesses-bracing-for-severe-consequences-of-50-per-cent-tariffs/wcm/d58cdb22-f8e1-49d6-90c3-901a471a8c9f"
-    },
-    {
-      "id": "f20b7e6bba56b8a1",
-      "category": "全球与地区",
-      "title": "Trump 50 % Canada tariffs take effect Wednesday . What that means for Maine .",
-      "url": "https://www.bangordailynews.com/2026/08/18/state/trump-canada-tariffs-take-effect-maine/",
-      "source": "bangordailynews.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bangordailynews.com/2026/08/18/state/trump-canada-tariffs-take-effect-maine/"
-    },
-    {
-      "id": "2299a4122ec001c1",
-      "category": "全球与地区",
-      "title": "Trump Pauses Canada Tariffs Amid Deal Talks | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
-      "url": "https://newstalk1400online.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
-      "source": "newstalk1400online.iheart.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://newstalk1400online.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
-    },
-    {
-      "id": "253e2aefa92711a6",
-      "category": "全球与地区",
-      "title": "Urgent : Trump says U . S . pauses 50 pct tariffs against Canada for 3 days - Xinhua",
-      "url": "https://english.news.cn/20260819/7338da012b2f4436a5c14daf35868c18/c.html",
-      "source": "english.news.cn",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.news.cn/20260819/7338da012b2f4436a5c14daf35868c18/c.html"
-    },
-    {
-      "id": "2f3de04bbd2b5fae",
-      "category": "全球与地区",
-      "title": "Carney touts substantial progres after Trump delays tariffs",
-      "url": "https://www.winnipegsun.com/national-news/carney-touts-substantial-progress-after-trump-delays-tariffs/article_55ec4d6a-048e-5a74-bc45-89cdeb0d1735.html",
-      "source": "winnipegsun.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.winnipegsun.com/national-news/carney-touts-substantial-progress-after-trump-delays-tariffs/article_55ec4d6a-048e-5a74-bc45-89cdeb0d1735.html"
-    },
-    {
-      "id": "0d13b507eccc5677",
-      "category": "全球与地区",
-      "title": "Trump Pauses Canada Tariffs Amid Deal Talks | Talk Radio 98 . 3 WLAC",
-      "url": "https://wlac.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
-      "source": "wlac.iheart.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wlac.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
-    },
-    {
-      "id": "aeed6010d4d5588a",
-      "category": "全球与地区",
-      "title": "Threat of new U . S . tariffs has municipalities bracing for impact",
-      "url": "https://www.cbc.ca/player/play/video/9.7311698",
-      "source": "cbc.ca",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cbc.ca/player/play/video/9.7311698"
-    },
-    {
-      "id": "f9df47f98b742312",
-      "category": "全球与地区",
-      "title": "Trump Pauses Canada Tariffs Amid Deal Talks",
-      "url": "https://newsradio540.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
-      "source": "newsradio540.iheart.com",
-      "publishedAt": "2026-08-19T04:30:00Z",
-      "fetchedAt": "2026-08-19T04:54:22.253Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://newsradio540.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
-    },
-    {
-      "id": "667ae70395c529ae",
-      "category": "金属与资源",
-      "title": "L . P . Silver Point Capital Purchases 5 , 250 , 527 Shares of Rusoro Mining ( CVE : RML ) Stock",
-      "url": "https://www.tickerreport.com/banking-finance/13548772/l-p-silver-point-capital-purchases-5250527-shares-of-rusoro-mining-cverml-stock.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-08-18T20:15:00Z",
-      "fetchedAt": "2026-08-18T20:42:23.500Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13548772/l-p-silver-point-capital-purchases-5250527-shares-of-rusoro-mining-cverml-stock.html"
     }
   ]
 }
