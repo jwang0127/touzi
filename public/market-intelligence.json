@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-19T04:02:15.175Z",
-  "newsUpdatedAt": "2026-08-18T20:42:23.500Z",
-  "assetsUpdatedAt": "2026-08-19T04:02:15.175Z",
+  "generatedAt": "2026-08-19T04:54:22.253Z",
+  "newsUpdatedAt": "2026-08-19T04:54:22.253Z",
+  "assetsUpdatedAt": "2026-08-19T04:54:22.253Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -22,7 +20,7 @@
       "price": 3912.17,
       "changePercent": -1.96,
       "unit": "CNY",
-      "asOf": "2026-08-19T12:02:00+08:00",
+      "asOf": "2026-08-19T12:05:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -33,7 +31,7 @@
       "price": 14041.76,
       "changePercent": -3.97,
       "unit": "CNY",
-      "asOf": "2026-08-19T12:02:12+08:00",
+      "asOf": "2026-08-19T12:05:12+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25504.21,
-      "changePercent": 0.13,
+      "price": 25533.38,
+      "changePercent": 0.24,
       "unit": "HKD",
-      "asOf": "2026-08-19T11:47:51+08:00",
+      "asOf": "2026-08-19T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8493.54,
-      "changePercent": 0.48,
+      "price": 8505.38,
+      "changePercent": 0.62,
       "unit": "HKD",
-      "asOf": "2026-08-19T11:47:50+08:00",
+      "asOf": "2026-08-19T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4409.95,
-      "changePercent": -0.24,
+      "price": 4399.7,
+      "changePercent": -0.47,
       "unit": "USD",
-      "asOf": "2026-08-19T12:02:06-04:00",
+      "asOf": "2026-08-19T12:55:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 84.68,
-      "changePercent": 0.74,
+      "price": 84.65,
+      "changePercent": 0.7,
       "unit": "USD",
-      "asOf": "2026-08-19T12:01:43-04:00",
+      "asOf": "2026-08-19T12:55:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 656.33,
-      "changePercent": -0.41,
+      "price": 655.07,
+      "changePercent": -0.6,
       "unit": "USD",
-      "asOf": "2026-08-19T11:59:20-04:00",
+      "asOf": "2026-08-19T12:54:41-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,414 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64281,
-      "changePercent": 0.29971233214719056,
+      "price": 64291,
+      "changePercent": 0.22778148293279843,
       "unit": "USD",
-      "asOf": "2026-08-19T04:00:40.000Z",
+      "asOf": "2026-08-19T04:53:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "ba2bc762ece8a1d4",
+      "category": "金属与资源",
+      "title": "Sam Pang brings the gold to Cheap Seats",
+      "url": "https://tvtonight.com.au/2026/08/sam-pang-brings-the-gold-to-cheap-seats.html",
+      "source": "tvtonight.com.au",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tvtonight.com.au/2026/08/sam-pang-brings-the-gold-to-cheap-seats.html"
+    },
+    {
+      "id": "8e3dc752f908469c",
+      "category": "金属与资源",
+      "title": "4 , 9 Mio . Unzen Reserve : Warum Nevada noch immer neue Gold - Großprojekte hervorbringt",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69347360-4-9-mio-unzen-reserve-warum-nevada-noch-immer-neue-gold-grossprojekte-hervorbringt-176.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69347360-4-9-mio-unzen-reserve-warum-nevada-noch-immer-neue-gold-grossprojekte-hervorbringt-176.htm"
+    },
+    {
+      "id": "f011bbd7f3b61c6d",
+      "category": "金属与资源",
+      "title": "Punjab - Haryana Gold Price Today : हरियाणा - पंजाब में सोना - चांदी के दाम में बड़ा बदलाव , जानें आज का भाव",
+      "url": "https://www.aajsamaaj.com/business/haryana-punjab-gold-silver-rate-today-19-august-2026-aaj-ka-sone-chandi-ka-rate-in-hindi/533656/",
+      "source": "aajsamaaj.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aajsamaaj.com/business/haryana-punjab-gold-silver-rate-today-19-august-2026-aaj-ka-sone-chandi-ka-rate-in-hindi/533656/"
+    },
+    {
+      "id": "a9781d7f0bc7f38e",
+      "category": "金属与资源",
+      "title": "Gold Price Today : महंगा होता जा रहा गोल्ड , लगातार तीसरे दिन बढ़ी चमक , चेक करें 10 शहरों में 24 से 18 कैरट का भाव",
+      "url": "https://hindi.moneycontrol.com/news/your-money/gold-price-today-sone-ka-bhav-aaj-check-latest-gold-rates-in-delhi-mumbai-chennai-kolkata-10-gram-18-22-24-carat-rate-in-india-on-19-aug-2432254.html",
+      "source": "hindi.moneycontrol.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hindi.moneycontrol.com/news/your-money/gold-price-today-sone-ka-bhav-aaj-check-latest-gold-rates-in-delhi-mumbai-chennai-kolkata-10-gram-18-22-24-carat-rate-in-india-on-19-aug-2432254.html"
+    },
+    {
+      "id": "57d588fb6653fa71",
+      "category": "金属与资源",
+      "title": "130 Jahre Kyffhäuser - Denkmal über der Goldenen Aue",
+      "url": "https://www.thueringer-allgemeine.de/panorama/article412892807/130-jahre-kyffhaeuser-denkmal-ueber-der-goldenen-aue.html",
+      "source": "thueringer-allgemeine.de",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thueringer-allgemeine.de/panorama/article412892807/130-jahre-kyffhaeuser-denkmal-ueber-der-goldenen-aue.html"
+    },
+    {
+      "id": "26c933a32ffd764f",
+      "category": "全球与地区",
+      "title": "B . C . businesses bracing for severe consequence of 50 per cent tariffs",
+      "url": "https://theprovince.com/news/bc-businesses-bracing-for-severe-consequences-of-50-per-cent-tariffs/wcm/d58cdb22-f8e1-49d6-90c3-901a471a8c9f",
+      "source": "theprovince.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://theprovince.com/news/bc-businesses-bracing-for-severe-consequences-of-50-per-cent-tariffs/wcm/d58cdb22-f8e1-49d6-90c3-901a471a8c9f"
+    },
+    {
+      "id": "f20b7e6bba56b8a1",
+      "category": "全球与地区",
+      "title": "Trump 50 % Canada tariffs take effect Wednesday . What that means for Maine .",
+      "url": "https://www.bangordailynews.com/2026/08/18/state/trump-canada-tariffs-take-effect-maine/",
+      "source": "bangordailynews.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bangordailynews.com/2026/08/18/state/trump-canada-tariffs-take-effect-maine/"
+    },
+    {
+      "id": "2299a4122ec001c1",
+      "category": "全球与地区",
+      "title": "Trump Pauses Canada Tariffs Amid Deal Talks | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
+      "url": "https://newstalk1400online.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
+      "source": "newstalk1400online.iheart.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newstalk1400online.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
+    },
+    {
+      "id": "253e2aefa92711a6",
+      "category": "全球与地区",
+      "title": "Urgent : Trump says U . S . pauses 50 pct tariffs against Canada for 3 days - Xinhua",
+      "url": "https://english.news.cn/20260819/7338da012b2f4436a5c14daf35868c18/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260819/7338da012b2f4436a5c14daf35868c18/c.html"
+    },
+    {
+      "id": "2f3de04bbd2b5fae",
+      "category": "全球与地区",
+      "title": "Carney touts substantial progres after Trump delays tariffs",
+      "url": "https://www.winnipegsun.com/national-news/carney-touts-substantial-progress-after-trump-delays-tariffs/article_55ec4d6a-048e-5a74-bc45-89cdeb0d1735.html",
+      "source": "winnipegsun.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.winnipegsun.com/national-news/carney-touts-substantial-progress-after-trump-delays-tariffs/article_55ec4d6a-048e-5a74-bc45-89cdeb0d1735.html"
+    },
+    {
+      "id": "0d13b507eccc5677",
+      "category": "全球与地区",
+      "title": "Trump Pauses Canada Tariffs Amid Deal Talks | Talk Radio 98 . 3 WLAC",
+      "url": "https://wlac.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
+      "source": "wlac.iheart.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wlac.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
+    },
+    {
+      "id": "aeed6010d4d5588a",
+      "category": "全球与地区",
+      "title": "Threat of new U . S . tariffs has municipalities bracing for impact",
+      "url": "https://www.cbc.ca/player/play/video/9.7311698",
+      "source": "cbc.ca",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cbc.ca/player/play/video/9.7311698"
+    },
+    {
+      "id": "f9df47f98b742312",
+      "category": "全球与地区",
+      "title": "Trump Pauses Canada Tariffs Amid Deal Talks",
+      "url": "https://newsradio540.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/",
+      "source": "newsradio540.iheart.com",
+      "publishedAt": "2026-08-19T04:30:00Z",
+      "fetchedAt": "2026-08-19T04:54:22.253Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newsradio540.iheart.com/content/2026-08-19-trump-pauses-canada-tariffs-amid-deal-talks/"
+    },
     {
       "id": "667ae70395c529ae",
       "category": "金属与资源",
@@ -1251,436 +1647,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-wobble-on-oil-strain-rbi-swap-pullback/articleshow/133313452.cms"
-    },
-    {
-      "id": "50081fb615fde96d",
-      "category": "全球与地区",
-      "title": "US , Canada hold last - minute talks to stop 50 % U . S . tariffs on $20 billion worth of Canadian goods",
-      "url": "https://mymotherlode.com/news/national/11074412/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods.html",
-      "source": "mymotherlode.com",
-      "publishedAt": "2026-08-18T06:45:00Z",
-      "fetchedAt": "2026-08-18T07:07:29.973Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://mymotherlode.com/news/national/11074412/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods.html"
-    },
-    {
-      "id": "7de7e517b9b39026",
-      "category": "能源与航运",
-      "title": "CNBC Daily Open : Higher oil , higher yields , lower volatility",
-      "url": "https://www.cnbc.com/2026/08/18/daily-open-oil-yields-volatility-iran-war.html",
-      "source": "cnbc.com",
-      "publishedAt": "2026-08-18T06:45:00Z",
-      "fetchedAt": "2026-08-18T07:07:29.973Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cnbc.com/2026/08/18/daily-open-oil-yields-volatility-iran-war.html"
-    },
-    {
-      "id": "5dfd022139b6fc8c",
-      "category": "金属与资源",
-      "title": "Paul Merchants Finance Launches Loan Against Silver , Becomes India First NBFC to Set Up Exclusive Silver Loan Branches",
-      "url": "https://aninews.in/news/business/paul-merchants-finance-launches-loan-against-silver-becomes-indias-first-nbfc-to-set-up-exclusive-silver-loan-branches20260818115510/",
-      "source": "aninews.in",
-      "publishedAt": "2026-08-18T06:45:00Z",
-      "fetchedAt": "2026-08-18T07:07:29.973Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/business/paul-merchants-finance-launches-loan-against-silver-becomes-indias-first-nbfc-to-set-up-exclusive-silver-loan-branches20260818115510/"
-    },
-    {
-      "id": "01e1c7dd12cf3397",
-      "category": "金属与资源",
-      "title": "Numerous High - Grade Assays Extend Tolmer Silver Discovery",
-      "url": "http://www.californiatelegraph.com/news/279248333/numerous-high-grade-assays-extend-tolmer-silver-discovery",
-      "source": "californiatelegraph.com",
-      "publishedAt": "2026-08-18T02:45:00Z",
-      "fetchedAt": "2026-08-18T03:10:18.062Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.californiatelegraph.com/news/279248333/numerous-high-grade-assays-extend-tolmer-silver-discovery"
-    },
-    {
-      "id": "07da5c4b99c5464a",
-      "category": "全球与地区",
-      "title": "Clock is moving : US sanctions pose a threat to Iran economy , analyst says",
-      "url": "https://newschannel9.com/news/nation-world/clock-is-moving-us-sanctions-pose-a-threat-to-irans-economy-analyst-says-gasoline-oil-inflation",
-      "source": "newschannel9.com",
-      "publishedAt": "2026-08-18T02:45:00Z",
-      "fetchedAt": "2026-08-18T03:10:18.062Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://newschannel9.com/news/nation-world/clock-is-moving-us-sanctions-pose-a-threat-to-irans-economy-analyst-says-gasoline-oil-inflation"
-    },
-    {
-      "id": "afe76c3f3e2443a5",
-      "category": "能源与航运",
-      "title": "Solaris Energy Infrastructure , SM Energy , and Chord Energy Shares Are Soaring , What You Need To Know",
-      "url": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-sm-energy-020620676.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-18T02:45:00Z",
-      "fetchedAt": "2026-08-18T03:10:18.062Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/energy/articles/solaris-energy-infrastructure-sm-energy-020620676.html"
-    },
-    {
-      "id": "075aeb0208f82f51",
-      "category": "能源与航运",
-      "title": "Crude prices cross $90 as ceasefire hopes dim , Hormuz disruption weighs on supply",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-cross-90-as-ceasefire-hopes-dim-hormuz-disruption-weighs-on-supply/articleshow/133309397.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-08-18T02:45:00Z",
-      "fetchedAt": "2026-08-18T03:10:18.062Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-cross-90-as-ceasefire-hopes-dim-hormuz-disruption-weighs-on-supply/articleshow/133309397.cms"
-    },
-    {
-      "id": "443eb7085dcb5874",
-      "category": "能源与航运",
-      "title": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal , and other Middle East news",
-      "url": "https://www.niagarafallsreview.ca/news/iran-working-to-finalize-hormuz-agreement-with-oman-and-other-news-from-the-middle-east/article_e52fc8be-2fab-56bd-9431-31e35f6208e8.html",
-      "source": "niagarafallsreview.ca",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.niagarafallsreview.ca/news/iran-working-to-finalize-hormuz-agreement-with-oman-and-other-news-from-the-middle-east/article_e52fc8be-2fab-56bd-9431-31e35f6208e8.html"
-    },
-    {
-      "id": "ce26fb8dfb1a63b5",
-      "category": "金属与资源",
-      "title": "Schlussglocke : KI - Aktien drehen wieder auf , Gold und Silber stark – Nike - Aktie säuft ab",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-ki-aktien-drehen-wieder-auf-gold-und-silber-stark-nike-aktie-saeuft-ab-20406892.html",
-      "source": "deraktionaer.de",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-ki-aktien-drehen-wieder-auf-gold-und-silber-stark-nike-aktie-saeuft-ab-20406892.html"
-    },
-    {
-      "id": "9ee8522727d68c75",
-      "category": "能源与航运",
-      "title": "Stocks Slip as Oil Prices Rise",
-      "url": "https://www.newser.com/story/394794/stocks-decline-as-oil-prices-rise.html",
-      "source": "newser.com",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newser.com/story/394794/stocks-decline-as-oil-prices-rise.html"
-    },
-    {
-      "id": "b6abd091794f4e31",
-      "category": "能源与航运",
-      "title": "US stocks edge further from their record after oil prices rise",
-      "url": "https://www.2news.com/news/national/us-stocks-edge-further-from-their-record-after-oil-prices-rise/article_1341abec-1b72-5d6c-adf4-001f0753fe6d.html",
-      "source": "2news.com",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.2news.com/news/national/us-stocks-edge-further-from-their-record-after-oil-prices-rise/article_1341abec-1b72-5d6c-adf4-001f0753fe6d.html"
-    },
-    {
-      "id": "8fc96db0a2cdceec",
-      "category": "能源与航运",
-      "title": "Trump : I like the idea of declaring Strait of Hormuz a US territory",
-      "url": "https://turnto10.com/news/nation-world/trump-i-like-the-idea-of-declaring-strait-of-hormuz-us-territory-war",
-      "source": "turnto10.com",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://turnto10.com/news/nation-world/trump-i-like-the-idea-of-declaring-strait-of-hormuz-us-territory-war"
-    },
-    {
-      "id": "d6030cd676321763",
-      "category": "能源与航运",
-      "title": "Oil prices climb again as Iran tensions fuel supply fears",
-      "url": "https://turnto10.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework",
-      "source": "turnto10.com",
-      "publishedAt": "2026-08-17T22:15:00Z",
-      "fetchedAt": "2026-08-17T22:43:51.529Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://turnto10.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework"
     }
   ]
 }
