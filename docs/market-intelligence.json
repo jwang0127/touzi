@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-20T11:45:25.887Z",
-  "newsUpdatedAt": "2026-08-20T09:52:12.059Z",
-  "assetsUpdatedAt": "2026-08-20T11:45:25.887Z",
+  "generatedAt": "2026-08-20T13:13:42.216Z",
+  "newsUpdatedAt": "2026-08-20T13:13:42.216Z",
+  "assetsUpdatedAt": "2026-08-20T13:13:42.216Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4526.8,
-      "changePercent": -0.41,
+      "price": 4525.05,
+      "changePercent": -0.45,
       "unit": "USD",
-      "asOf": "2026-08-20T19:46:03-04:00",
+      "asOf": "2026-08-20T21:15:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 87.02,
-      "changePercent": 3.12,
+      "price": 86.77,
+      "changePercent": 2.82,
       "unit": "USD",
-      "asOf": "2026-08-20T19:46:01-04:00",
+      "asOf": "2026-08-20T21:15:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 652.59,
-      "changePercent": -1.06,
+      "price": 651.28,
+      "changePercent": -1.25,
       "unit": "USD",
-      "asOf": "2026-08-20T19:46:01-04:00",
+      "asOf": "2026-08-20T21:14:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,79 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 72187,
-      "changePercent": 12.052562097808952,
+      "price": 71971,
+      "changePercent": 10.8807401958225,
       "unit": "USD",
-      "asOf": "2026-08-20T11:43:50.000Z",
+      "asOf": "2026-08-20T13:13:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "4e143f413b83cad2",
+      "category": "能源与航运",
+      "title": "Expert Warns Against Palm , Vegetable Oil as Sexual Lubricant",
+      "url": "https://punchng.com/expert-warns-against-using-palm-vegetable-oil-as-sexual-lubricant/",
+      "source": "punchng.com",
+      "publishedAt": "2026-08-20T12:45:00Z",
+      "fetchedAt": "2026-08-20T13:13:42.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://punchng.com/expert-warns-against-using-palm-vegetable-oil-as-sexual-lubricant/"
+    },
+    {
+      "id": "53d9f84126290701",
+      "category": "全球与地区",
+      "title": "UK threatens sanctions over Israel E1 settlement expansion in West Bank",
+      "url": "http://www.jpost.com/diaspora/article-906075",
+      "source": "jpost.com",
+      "publishedAt": "2026-08-20T12:45:00Z",
+      "fetchedAt": "2026-08-20T13:13:42.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.jpost.com/diaspora/article-906075"
+    },
     {
       "id": "cfced3580df26ab9",
       "category": "全球与地区",
@@ -1581,66 +1644,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://kfoxtv.com/news/nation-world/trump-hosts-crypto-technology-leaders-at-white-house-cryptocurrency-executives-financial-regulators-digital-assets-president-donald-trump-politics"
-    },
-    {
-      "id": "3b3cff2a93562a5d",
-      "category": "全球与地区",
-      "title": "ICC condemns Rubio sanctions targeting court president and prosecutor",
-      "url": "https://www.washingtonexaminer.com/news/world/4693171/icc-condemn-rubio-sanction/",
-      "source": "washingtonexaminer.com",
-      "publishedAt": "2026-08-19T20:15:00Z",
-      "fetchedAt": "2026-08-19T20:47:54.688Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.washingtonexaminer.com/news/world/4693171/icc-condemn-rubio-sanction/"
-    },
-    {
-      "id": "e53f9924c64a01e2",
-      "category": "科技与产业",
-      "title": "From robot dogs to helpers , China puts robotics ambitions on display",
-      "url": "https://www.thetimes-tribune.com/2026/08/19/china-robot-dogs-helpers-conference/",
-      "source": "thetimes-tribune.com",
-      "publishedAt": "2026-08-19T20:15:00Z",
-      "fetchedAt": "2026-08-19T20:47:54.688Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thetimes-tribune.com/2026/08/19/china-robot-dogs-helpers-conference/"
     }
   ]
 }
