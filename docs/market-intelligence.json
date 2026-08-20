@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-20T07:08:58.246Z",
-  "newsUpdatedAt": "2026-08-20T05:48:56.775Z",
-  "assetsUpdatedAt": "2026-08-20T07:08:58.246Z",
+  "generatedAt": "2026-08-20T07:58:58.481Z",
+  "newsUpdatedAt": "2026-08-20T07:58:58.481Z",
+  "assetsUpdatedAt": "2026-08-20T07:58:58.481Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -22,7 +22,7 @@
       "price": 3903.72,
       "changePercent": 0.24,
       "unit": "CNY",
-      "asOf": "2026-08-20T15:09:00+08:00",
+      "asOf": "2026-08-20T16:00:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -33,7 +33,7 @@
       "price": 13972.78,
       "changePercent": 0.59,
       "unit": "CNY",
-      "asOf": "2026-08-20T15:08:51+08:00",
+      "asOf": "2026-08-20T15:59:51+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25814.94,
-      "changePercent": 1.25,
+      "price": 25747.64,
+      "changePercent": 0.99,
       "unit": "HKD",
-      "asOf": "2026-08-20T14:54:43+08:00",
+      "asOf": "2026-08-20T15:45:01+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8593.22,
-      "changePercent": 1.44,
+      "price": 8565.84,
+      "changePercent": 1.12,
       "unit": "HKD",
-      "asOf": "2026-08-20T14:54:42+08:00",
+      "asOf": "2026-08-20T15:45:00+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4545.54,
-      "changePercent": 0.01,
+      "price": 4546.63,
+      "changePercent": 0.03,
       "unit": "USD",
-      "asOf": "2026-08-20T15:09:09-04:00",
+      "asOf": "2026-08-20T16:00:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.08,
-      "changePercent": 0.82,
+      "price": 85.61,
+      "changePercent": 1.44,
       "unit": "USD",
-      "asOf": "2026-08-20T15:09:08-04:00",
+      "asOf": "2026-08-20T16:00:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 657.11,
-      "changePercent": -0.37,
+      "price": 655.96,
+      "changePercent": -0.54,
       "unit": "USD",
-      "asOf": "2026-08-20T15:09:04-04:00",
+      "asOf": "2026-08-20T16:00:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,176 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 69827,
-      "changePercent": 8.706332424219642,
+      "price": 69717,
+      "changePercent": 8.503264295333866,
       "unit": "USD",
-      "asOf": "2026-08-20T07:08:10.000Z",
+      "asOf": "2026-08-20T07:58:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "b35cd7c26b37bf58",
+      "category": "科技与产业",
+      "title": "Robot fuori controllo alla World Robot Conference 2026 di Pechino : il video diventa virale",
+      "url": "https://www.ilmessaggero.it:443/tecnologia/news/robot_fuori_controllo_world_robot_conference_2026_pechino-9716211.html",
+      "source": "ilmessaggero.it",
+      "publishedAt": "2026-08-20T07:30:00Z",
+      "fetchedAt": "2026-08-20T07:58:58.481Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ilmessaggero.it:443/tecnologia/news/robot_fuori_controllo_world_robot_conference_2026_pechino-9716211.html"
+    },
+    {
+      "id": "9e7c5c7ea6cef704",
+      "category": "金属与资源",
+      "title": "Why gold and Bitcoin surged together : What Treasury buybacks teach investors about dollar debasement",
+      "url": "https://investinglive.com/education/why-gold-and-bitcoin-surged-together-what-treasury-buybacks-teach-investors-about-dollar-debasement/",
+      "source": "investinglive.com",
+      "publishedAt": "2026-08-20T07:30:00Z",
+      "fetchedAt": "2026-08-20T07:58:58.481Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://investinglive.com/education/why-gold-and-bitcoin-surged-together-what-treasury-buybacks-teach-investors-about-dollar-debasement/"
+    },
+    {
+      "id": "396e4adb4a6ee943",
+      "category": "全球与地区",
+      "title": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "url": "https://aninews.in/news/world/us/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report20260820113628/",
+      "source": "aninews.in",
+      "publishedAt": "2026-08-20T07:30:00Z",
+      "fetchedAt": "2026-08-20T07:58:58.481Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/world/us/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report20260820113628/"
+    },
+    {
+      "id": "986642b719d46fec",
+      "category": "能源与航运",
+      "title": "Trump passa alle sanzioni | Da oggi guerra economica contro lIran e chi lo aiuta Axios | creato un corridoio united states per il petrolio a Hormuz – La diretta",
+      "url": "https://www.zazoom.it/2026-08-20/trump-passa-alle-sanzioni-da-oggi-guerra-economica-contro-liran-e-chi-lo-aiuta-axios-creato-un-corridoio-usa-per-il-petrolio-a-hormuz-la-diretta/19586467/",
+      "source": "zazoom.it",
+      "publishedAt": "2026-08-20T07:30:00Z",
+      "fetchedAt": "2026-08-20T07:58:58.481Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zazoom.it/2026-08-20/trump-passa-alle-sanzioni-da-oggi-guerra-economica-contro-liran-e-chi-lo-aiuta-axios-creato-un-corridoio-usa-per-il-petrolio-a-hormuz-la-diretta/19586467/"
+    },
+    {
+      "id": "b77a8e5ab86158d3",
+      "category": "能源与航运",
+      "title": "Trump says he wasnt happy when South Korea declined to help US with Hormuz",
+      "url": "https://aninews.in/news/world/us/trump-says-he-wasnt-happy-when-south-korea-declined-to-help-us-with-hormuz20260820105640/",
+      "source": "aninews.in",
+      "publishedAt": "2026-08-20T07:30:00Z",
+      "fetchedAt": "2026-08-20T07:58:58.481Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/world/us/trump-says-he-wasnt-happy-when-south-korea-declined-to-help-us-with-hormuz20260820105640/"
+    },
     {
       "id": "8d8c22c74b4b74ab",
       "category": "全球与地区",
@@ -1500,153 +1660,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.dailymail.com/news/article-16064581/Missing-British-gold-medal-winning-sprinter-Moroccan-prison-sexually-assaulting-minor.html"
-    },
-    {
-      "id": "905e876cec6303e2",
-      "category": "全球与地区",
-      "title": "Russia and Ukraine Continue Targeting Shipping with Claims of Nine Strikes",
-      "url": "https://maritime-executive.com/article/russia-and-ukraine-continue-targeting-shipping-with-claims-of-nine-strikes",
-      "source": "maritime-executive.com",
-      "publishedAt": "2026-08-19T18:30:00Z",
-      "fetchedAt": "2026-08-19T18:55:43.989Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://maritime-executive.com/article/russia-and-ukraine-continue-targeting-shipping-with-claims-of-nine-strikes"
-    },
-    {
-      "id": "15f68f883f23cb3e",
-      "category": "数字资产",
-      "title": "Bitcoin ETF Outflows Hit $390M as Miner Selling Blocks BTC Breakout , Wintermute Warns",
-      "url": "https://www.techtimes.com/articles/324921/20260819/bitcoin-etf-outflows-hit-390m-miner-selling-blocks-btc-breakout-wintermute-warns.htm",
-      "source": "techtimes.com",
-      "publishedAt": "2026-08-19T18:30:00Z",
-      "fetchedAt": "2026-08-19T18:55:43.989Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.techtimes.com/articles/324921/20260819/bitcoin-etf-outflows-hit-390m-miner-selling-blocks-btc-breakout-wintermute-warns.htm"
-    },
-    {
-      "id": "8a82b26eeed86c7d",
-      "category": "全球与地区",
-      "title": "Trump says US and Canada have reached last - minute deal to delay 50 % US tariffs on $20 billion worth of Canadian imports",
-      "url": "https://wlec.com/uncategorized/trump-says-us-and-canada-have-reached-last-minute-deal-to-delay-50-us-tariffs-on-20-billion-worth-of-canadian-imports/",
-      "source": "wlec.com",
-      "publishedAt": "2026-08-19T18:30:00Z",
-      "fetchedAt": "2026-08-19T18:55:43.989Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wlec.com/uncategorized/trump-says-us-and-canada-have-reached-last-minute-deal-to-delay-50-us-tariffs-on-20-billion-worth-of-canadian-imports/"
-    },
-    {
-      "id": "d75c421e9bd87bb5",
-      "category": "全球与地区",
-      "title": "Looming tariffs threaten to upend the auto industry",
-      "url": "https://www.chathamdailynews.ca:443/news/local-news/looming-tariffs-threaten-to-upend-the-auto-industry/wcm/82f9267a-cc43-4711-b260-f52d439ed1fe",
-      "source": "chathamdailynews.ca",
-      "publishedAt": "2026-08-19T18:30:00Z",
-      "fetchedAt": "2026-08-19T18:55:43.989Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chathamdailynews.ca:443/news/local-news/looming-tariffs-threaten-to-upend-the-auto-industry/wcm/82f9267a-cc43-4711-b260-f52d439ed1fe"
-    },
-    {
-      "id": "82f5d9f0dd9723d4",
-      "category": "金属与资源",
-      "title": "L & G Gold Mining ETF : 7 , 4 Prozent Plus auf 104 , 68 Euro ()",
-      "url": "https://www.aktiencheck.de/news/Artikel-L_G_Gold_Mining_ETF_7_4_Prozent_Plus_auf_104_68_Euro-20032335",
-      "source": "aktiencheck.de",
-      "publishedAt": "2026-08-19T15:15:00Z",
-      "fetchedAt": "2026-08-19T15:48:37.282Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aktiencheck.de/news/Artikel-L_G_Gold_Mining_ETF_7_4_Prozent_Plus_auf_104_68_Euro-20032335"
     }
   ]
 }
