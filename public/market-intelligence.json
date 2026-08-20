@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-20T16:53:33.979Z",
-  "newsUpdatedAt": "2026-08-20T16:53:33.979Z",
-  "assetsUpdatedAt": "2026-08-20T16:53:33.979Z",
+  "generatedAt": "2026-08-20T17:47:59.279Z",
+  "newsUpdatedAt": "2026-08-20T17:47:59.279Z",
+  "assetsUpdatedAt": "2026-08-20T17:47:59.279Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -61,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53051.09,
-      "changePercent": -0.77,
+      "price": 52918.51,
+      "changePercent": -1.02,
       "unit": "USD",
-      "asOf": "2026-08-20T12:54:21-04:00",
+      "asOf": "2026-08-20T13:49:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26141.76,
-      "changePercent": -0.72,
+      "price": 26099.06,
+      "changePercent": -0.88,
       "unit": "USD",
-      "asOf": "2026-08-20T12:54:21-04:00",
+      "asOf": "2026-08-20T13:49:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7680.41,
-      "changePercent": -0.36,
+      "price": 7665.76,
+      "changePercent": -0.55,
       "unit": "USD",
-      "asOf": "2026-08-20T12:54:20-04:00",
+      "asOf": "2026-08-20T13:48:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4569.98,
-      "changePercent": 0.54,
+      "price": 4577.9,
+      "changePercent": 0.72,
       "unit": "USD",
-      "asOf": "2026-08-21T00:54:09-04:00",
+      "asOf": "2026-08-21T01:49:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 86.36,
-      "changePercent": 2.34,
+      "price": 86.76,
+      "changePercent": 2.81,
       "unit": "USD",
-      "asOf": "2026-08-21T00:54:09-04:00",
+      "asOf": "2026-08-21T01:49:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 657.74,
-      "changePercent": -0.28,
+      "price": 657.86,
+      "changePercent": -0.26,
       "unit": "USD",
-      "asOf": "2026-08-21T00:54:04-04:00",
+      "asOf": "2026-08-21T01:48:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 72581,
-      "changePercent": 5.796191432575908,
+      "price": 72706,
+      "changePercent": 6.697439699829238,
       "unit": "USD",
-      "asOf": "2026-08-20T16:52:10.000Z",
+      "asOf": "2026-08-20T17:47:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -144,7 +146,7 @@
       "url": "https://www.soldionline.it/notizie/mercati-esteri/borse-europee-incerte-mentre-cresce-la-tensione-su-iran-e-hormuz",
       "source": "soldionline.it",
       "publishedAt": "2026-08-20T16:30:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -177,7 +179,7 @@
       "url": "https://tradearabia.com:443/News/466783/Ebara-Elliott-Energy-Doosan-Enerbility-partner-on-advanced-compressors-for-LNG-industry",
       "source": "tradearabia.com",
       "publishedAt": "2026-08-20T16:15:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -210,7 +212,7 @@
       "url": "https://www.mynbc5.com/article/trump-pushes-new-crypto-rules-amid-scrutiny-financial-interests/73478699",
       "source": "mynbc5.com",
       "publishedAt": "2026-08-20T16:15:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -236,7 +238,7 @@
       "url": "https://fortune.com/2026/08/20/car-dealership-service-oil-changes-repairs-profits-pandemic-era-car-sales-margins-cool/",
       "source": "fortune.com",
       "publishedAt": "2026-08-20T16:15:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -269,7 +271,7 @@
       "url": "https://www.bnnbloomberg.ca/markets/crypto/2026/08/20/bitcoin-crypto-shares-climb-after-trump-pushes-clarity-act/",
       "source": "bnnbloomberg.ca",
       "publishedAt": "2026-08-20T16:15:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -326,7 +328,7 @@
       "url": "http://www.greekherald.com/news/279254283/unitree-shares-surge-460-on-debut-spotlighting-china-humanoid-robot-ambitions",
       "source": "greekherald.com",
       "publishedAt": "2026-08-20T16:00:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -358,7 +360,7 @@
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Tajikistan-Turns-to-Iran-for-Oil-as-Russian-Fuel-Supply-Collapses.html",
       "source": "oilprice.com",
       "publishedAt": "2026-08-20T16:00:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -391,7 +393,7 @@
       "url": "https://librivox.org/two-boy-gold-miners-or-lost-in-the-mountains-by-frank-v-webster/",
       "source": "librivox.org",
       "publishedAt": "2026-08-20T16:00:00Z",
-      "fetchedAt": "2026-08-20T16:53:33.979Z",
+      "fetchedAt": "2026-08-20T17:47:59.279Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
