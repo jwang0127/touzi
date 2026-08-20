@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-20T22:47:34.559Z",
+  "generatedAt": "2026-08-20T23:43:14.550Z",
   "newsUpdatedAt": "2026-08-20T22:47:34.559Z",
-  "assetsUpdatedAt": "2026-08-20T22:47:34.559Z",
+  "assetsUpdatedAt": "2026-08-20T23:43:14.550Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4576.8,
-      "changePercent": 0.12,
+      "price": 4578.92,
+      "changePercent": 0.16,
       "unit": "USD",
-      "asOf": "2026-08-21T06:48:02-04:00",
+      "asOf": "2026-08-21T07:42:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -108,7 +110,7 @@
       "price": 86.29,
       "changePercent": -0.62,
       "unit": "USD",
-      "asOf": "2026-08-21T06:48:02-04:00",
+      "asOf": "2026-08-21T07:42:50-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 658.21,
-      "changePercent": 0.19,
+      "price": 659.25,
+      "changePercent": 0.35,
       "unit": "USD",
-      "asOf": "2026-08-21T06:47:48-04:00",
+      "asOf": "2026-08-21T07:42:49-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 72678,
-      "changePercent": 5.02121999646339,
+      "price": 73104,
+      "changePercent": 5.458572167838229,
       "unit": "USD",
-      "asOf": "2026-08-20T22:46:40.000Z",
+      "asOf": "2026-08-20T23:41:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
