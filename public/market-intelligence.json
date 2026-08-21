@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-21T05:50:09.189Z",
-  "newsUpdatedAt": "2026-08-20T22:47:34.559Z",
-  "assetsUpdatedAt": "2026-08-21T05:50:09.189Z",
+  "generatedAt": "2026-08-21T07:09:56.444Z",
+  "newsUpdatedAt": "2026-08-21T07:09:56.444Z",
+  "assetsUpdatedAt": "2026-08-21T07:09:56.444Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3900.37,
-      "changePercent": -0.09,
+      "price": 3905.2,
+      "changePercent": 0.04,
       "unit": "CNY",
-      "asOf": "2026-08-21T13:50:48+08:00",
+      "asOf": "2026-08-21T15:10:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 14053.92,
-      "changePercent": 0.58,
+      "price": 14094.17,
+      "changePercent": 0.87,
       "unit": "CNY",
-      "asOf": "2026-08-21T13:50:45+08:00",
+      "asOf": "2026-08-21T15:10:36+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25892.97,
-      "changePercent": 0.76,
+      "price": 25968.19,
+      "changePercent": 1.05,
       "unit": "HKD",
-      "asOf": "2026-08-21T13:35:43+08:00",
+      "asOf": "2026-08-21T14:55:50+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8588.03,
-      "changePercent": 0.47,
+      "price": 8622.5,
+      "changePercent": 0.87,
       "unit": "HKD",
-      "asOf": "2026-08-21T13:35:42+08:00",
+      "asOf": "2026-08-21T14:55:50+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4602.47,
-      "changePercent": 0.68,
+      "price": 4616.69,
+      "changePercent": 0.99,
       "unit": "USD",
-      "asOf": "2026-08-21T13:50:02-04:00",
+      "asOf": "2026-08-21T15:10:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 86.42,
-      "changePercent": -0.47,
+      "price": 86.36,
+      "changePercent": -0.54,
       "unit": "USD",
-      "asOf": "2026-08-21T13:50:01-04:00",
+      "asOf": "2026-08-21T15:10:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.17,
-      "changePercent": 1.1,
+      "price": 667.08,
+      "changePercent": 1.54,
       "unit": "USD",
-      "asOf": "2026-08-21T13:48:59-04:00",
+      "asOf": "2026-08-21T15:09:54-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,138 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 75220,
-      "changePercent": 8.402575204002103,
+      "price": 75802,
+      "changePercent": 8.456026494512905,
       "unit": "USD",
-      "asOf": "2026-08-21T05:48:40.000Z",
+      "asOf": "2026-08-21T07:09:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "d7c79d9e0f96efcf",
+      "category": "金属与资源",
+      "title": "Muthoot , Manappuram Finance shares jump up to 7 % in 2 days as gold crosses Rs 1 . 6 lakh / 10 gm",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-manappuram-finance-shares-jump-up-to-7-in-2-days-as-gold-crosses-rs-1-6-lakh/10-gm/articleshow/133394594.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-21T06:45:00Z",
+      "fetchedAt": "2026-08-21T07:09:56.444Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-manappuram-finance-shares-jump-up-to-7-in-2-days-as-gold-crosses-rs-1-6-lakh/10-gm/articleshow/133394594.cms"
+    },
+    {
+      "id": "2ab06b58dd021e47",
+      "category": "金属与资源",
+      "title": "Gold rises ₹1 , 205 on MCX , silver gains ₹1 , 745 on safe - haven demand",
+      "url": "https://www.business-standard.com/markets/commodities/gold-rises-1-205-on-mcx-silver-gains-1-745-on-safe-haven-demand-126082100374_1.html",
+      "source": "business-standard.com",
+      "publishedAt": "2026-08-21T06:45:00Z",
+      "fetchedAt": "2026-08-21T07:09:56.444Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.business-standard.com/markets/commodities/gold-rises-1-205-on-mcx-silver-gains-1-745-on-safe-haven-demand-126082100374_1.html"
+    },
+    {
+      "id": "b8bb8515b262bf5a",
+      "category": "数字资产",
+      "title": "Metaplanet - Aktie mit Kursrally : Höhenflug von Bitcoin , Ethereum & Co . treibt an",
+      "url": "https://www.finanzen.net/nachricht/aktien/bitcoin-rally-treibt-kurs-metaplanet-aktie-schiesst-zweistellig-hoch-kryptorally-erreicht-asien-00-15891746",
+      "source": "finanzen.net",
+      "publishedAt": "2026-08-21T06:45:00Z",
+      "fetchedAt": "2026-08-21T07:09:56.444Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/nachricht/aktien/bitcoin-rally-treibt-kurs-metaplanet-aktie-schiesst-zweistellig-hoch-kryptorally-erreicht-asien-00-15891746"
+    },
+    {
+      "id": "9cbe5d392d2512a2",
+      "category": "数字资产",
+      "title": "Bitcoin Wave Analysis - ActionForex",
+      "url": "https://www.actionforex.com/contributors/technical-analysis/651324-bitcoin-wave-analysis-40/",
+      "source": "actionforex.com",
+      "publishedAt": "2026-08-21T06:45:00Z",
+      "fetchedAt": "2026-08-21T07:09:56.444Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.actionforex.com/contributors/technical-analysis/651324-bitcoin-wave-analysis-40/"
+    },
     {
       "id": "0fd24c476108113e",
       "category": "全球与地区",
@@ -1525,129 +1647,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.rtf1.de/news.php?id=43325"
-    },
-    {
-      "id": "dd0b2c8371b0ba96",
-      "category": "金属与资源",
-      "title": "INTERVIEW : Rapsody Talks New Album God Gotta Afro & Gold Hoop , Spiritual | Hot 98 . 3",
-      "url": "https://hot983.iheart.com/featured/breakfast-club/content/2026-08-20-51-the-breakfast-club-interview-rapsody-talks-new-album-god-gotta-afro-gold/",
-      "source": "hot983.iheart.com",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hot983.iheart.com/featured/breakfast-club/content/2026-08-20-51-the-breakfast-club-interview-rapsody-talks-new-album-god-gotta-afro-gold/"
-    },
-    {
-      "id": "5e6312334e0c5b04",
-      "category": "数字资产",
-      "title": "FxWirePro - Key Crypto Updates - EconoTimes",
-      "url": "http://www.econotimes.com/FxWirePro-Key-Crypto-Updates-1750014",
-      "source": "econotimes.com",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.econotimes.com/FxWirePro-Key-Crypto-Updates-1750014"
-    },
-    {
-      "id": "4e143f413b83cad2",
-      "category": "能源与航运",
-      "title": "Expert Warns Against Palm , Vegetable Oil as Sexual Lubricant",
-      "url": "https://punchng.com/expert-warns-against-using-palm-vegetable-oil-as-sexual-lubricant/",
-      "source": "punchng.com",
-      "publishedAt": "2026-08-20T12:45:00Z",
-      "fetchedAt": "2026-08-20T13:13:42.216Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://punchng.com/expert-warns-against-using-palm-vegetable-oil-as-sexual-lubricant/"
-    },
-    {
-      "id": "53d9f84126290701",
-      "category": "全球与地区",
-      "title": "UK threatens sanctions over Israel E1 settlement expansion in West Bank",
-      "url": "http://www.jpost.com/diaspora/article-906075",
-      "source": "jpost.com",
-      "publishedAt": "2026-08-20T12:45:00Z",
-      "fetchedAt": "2026-08-20T13:13:42.216Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.jpost.com/diaspora/article-906075"
     }
   ]
 }
