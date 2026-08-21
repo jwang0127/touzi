@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-21T09:00:37.740Z",
-  "newsUpdatedAt": "2026-08-21T07:09:56.444Z",
-  "assetsUpdatedAt": "2026-08-21T09:00:37.740Z",
+  "generatedAt": "2026-08-21T09:53:50.348Z",
+  "newsUpdatedAt": "2026-08-21T09:53:50.348Z",
+  "assetsUpdatedAt": "2026-08-21T09:53:50.348Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -44,7 +44,7 @@
       "price": 26009.46,
       "changePercent": 1.21,
       "unit": "HKD",
-      "asOf": "2026-08-21T16:46:07+08:00",
+      "asOf": "2026-08-21T17:40:07+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4641.26,
-      "changePercent": 1.53,
+      "price": 4643.66,
+      "changePercent": 1.58,
       "unit": "USD",
-      "asOf": "2026-08-21T17:01:06-04:00",
+      "asOf": "2026-08-21T17:55:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.95,
-      "changePercent": -1.02,
+      "price": 86.53,
+      "changePercent": -0.34,
       "unit": "USD",
-      "asOf": "2026-08-21T17:01:07-04:00",
+      "asOf": "2026-08-21T17:55:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 668.71,
-      "changePercent": 1.79,
+      "price": 668.09,
+      "changePercent": 1.7,
       "unit": "USD",
-      "asOf": "2026-08-21T17:00:22-04:00",
+      "asOf": "2026-08-21T17:54:54-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,279 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79194,
-      "changePercent": 10.700271342033618,
+      "price": 78181,
+      "changePercent": 9.068409710910935,
       "unit": "USD",
-      "asOf": "2026-08-21T08:59:40.000Z",
+      "asOf": "2026-08-21T09:53:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "a56d7b1dfb536481",
+      "category": "能源与航运",
+      "title": "Hormuz , gli united states guadagnano terreno ma il traffico resta ai minimi",
+      "url": "https://www.ottopagine.it/mondo/attualita/436132/hormuz-gli-usa-guadagnano-terreno-ma-il-traffico-resta-ai-minimi.shtml",
+      "source": "ottopagine.it",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ottopagine.it/mondo/attualita/436132/hormuz-gli-usa-guadagnano-terreno-ma-il-traffico-resta-ai-minimi.shtml"
+    },
+    {
+      "id": "1a05284b8974af0d",
+      "category": "金属与资源",
+      "title": "Jefferies turns bullish on gold as US , Japan fiscal strains constrain monetary policy",
+      "url": "http://www.mexicostar.com/news/279255456/jefferies-turns-bullish-on-gold-as-us-japan-fiscal-strains-constrain-monetary-policy",
+      "source": "mexicostar.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Mexico"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.mexicostar.com/news/279255456/jefferies-turns-bullish-on-gold-as-us-japan-fiscal-strains-constrain-monetary-policy"
+    },
+    {
+      "id": "40caf4447ca6f459",
+      "category": "全球与地区",
+      "title": "Trump warns Iran of economic D - Day , but it used to sanctions",
+      "url": "https://www.wsbradio.com/news/politics/trump-warns-economic/BM4RVY7NPY46XBEVJIIUYQW4R4/",
+      "source": "wsbradio.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wsbradio.com/news/politics/trump-warns-economic/BM4RVY7NPY46XBEVJIIUYQW4R4/"
+    },
+    {
+      "id": "479504225dd6a050",
+      "category": "能源与航运",
+      "title": "Iranian oil offers to Chinese buyers fall as US blockade bites , sources say",
+      "url": "https://finance.yahoo.com/energy/articles/iranian-oil-offers-chinese-buyers-081555135.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/iranian-oil-offers-chinese-buyers-081555135.html"
+    },
+    {
+      "id": "0713419dc2407249",
+      "category": "金属与资源",
+      "title": "Central African Republic shuts Zamboye gold mine after deadly collapse",
+      "url": "https://www.africanews.com/2026/08/21/central-african-republic-shuts-zamboye-gold-mine-after-deadly-collapse/",
+      "source": "africanews.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.africanews.com/2026/08/21/central-african-republic-shuts-zamboye-gold-mine-after-deadly-collapse/"
+    },
+    {
+      "id": "66cea2e4ad7ed757",
+      "category": "全球与地区",
+      "title": "Cambodia inaugurates Senate building funded by sanctioned tycoon",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/08/21/cambodia-opens-senate-building-tied-to-sanctioned-tycoon",
+      "source": "freemalaysiatoday.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/08/21/cambodia-opens-senate-building-tied-to-sanctioned-tycoon"
+    },
+    {
+      "id": "7a7d1952231c7a4b",
+      "category": "金属与资源",
+      "title": "Weezer Takes The Gold Album Literally on The Tonight Show",
+      "url": "https://www.bxr.com/2026/08/21/weezer-takes-the-gold-album-literally-on-the-tonight-show/",
+      "source": "bxr.com",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bxr.com/2026/08/21/weezer-takes-the-gold-album-literally-on-the-tonight-show/"
+    },
+    {
+      "id": "c437b3379fa8e10d",
+      "category": "能源与航运",
+      "title": "The secret Hormuz deal : How the US and Iran divided the Straits as Trump plays the oil game",
+      "url": "https://www.bankingnews.gr/diethni/articles/894877/the-secret-hormuz-deal-how-the-us-and-iran-divided-the-straits-as-trump-plays-the-oil-game%20title=",
+      "source": "bankingnews.gr",
+      "publishedAt": "2026-08-21T09:15:00Z",
+      "fetchedAt": "2026-08-21T09:53:50.348Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Greece"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/894877/the-secret-hormuz-deal-how-the-us-and-iran-divided-the-straits-as-trump-plays-the-oil-game%20title="
+    },
     {
       "id": "d7c79d9e0f96efcf",
       "category": "金属与资源",
@@ -1387,266 +1650,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://allafrica.com/stories/202608200343.html"
-    },
-    {
-      "id": "3e1c02ca5bac4c7c",
-      "category": "能源与航运",
-      "title": "Sintana Energy To Buy 44 % Stake In Maravilla Oil And Gas For $6 . 5 Mln",
-      "url": "https://www.rttnews.com/3682721/sintana-energy-to-buy-44-stake-in-maravilla-oil-and-gas-for-6-5-mln.aspx",
-      "source": "rttnews.com",
-      "publishedAt": "2026-08-20T15:30:00Z",
-      "fetchedAt": "2026-08-20T15:50:55.985Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rttnews.com/3682721/sintana-energy-to-buy-44-stake-in-maravilla-oil-and-gas-for-6-5-mln.aspx"
-    },
-    {
-      "id": "219383c5d7693ae1",
-      "category": "科技与产业",
-      "title": "Unitree Founder Says Humanoid Robots May Take a Decade To Jump To The Mainstream",
-      "url": "https://www.ibtimes.com/unitree-founder-says-humanoid-robots-may-take-decade-jump-mainstream-3806607",
-      "source": "ibtimes.com",
-      "publishedAt": "2026-08-20T15:30:00Z",
-      "fetchedAt": "2026-08-20T15:50:55.985Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ibtimes.com/unitree-founder-says-humanoid-robots-may-take-decade-jump-mainstream-3806607"
-    },
-    {
-      "id": "0fdee651e241a007",
-      "category": "全球与地区",
-      "title": "At Walmart , billions in tariff refunds soften the blow from slower sales growth",
-      "url": "https://www.nbcnews.com/business/consumer/walmart-earnings-tariffs-sales-growth-rcna593450",
-      "source": "nbcnews.com",
-      "publishedAt": "2026-08-20T15:30:00Z",
-      "fetchedAt": "2026-08-20T15:50:55.985Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nbcnews.com/business/consumer/walmart-earnings-tariffs-sales-growth-rcna593450"
-    },
-    {
-      "id": "9e564b704066dd91",
-      "category": "能源与航运",
-      "title": "MoPNG MC² foundation launches accelerator programme for oil and gas deep tech start - ups",
-      "url": "https://www.thehindubusinessline.com/news/mopngs-mc-foundation-launches-accelerator-programme-for-oil-and-gas-deep-tech-start-ups/article71369370.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/news/mopngs-mc-foundation-launches-accelerator-programme-for-oil-and-gas-deep-tech-start-ups/article71369370.ece"
-    },
-    {
-      "id": "e41fea7badba89e9",
-      "category": "金属与资源",
-      "title": "Keralam gold jewellery trade bets big on Onam sales - The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/gold/kerala-gold-jewellery-trade-bets-big-on-onam-sales/article71368561.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/markets/gold/kerala-gold-jewellery-trade-bets-big-on-onam-sales/article71368561.ece"
-    },
-    {
-      "id": "a1abbb206331652e",
-      "category": "能源与航运",
-      "title": "Do not buy loose edible oil : Maharashtra FDA flags adulteration , unsafe packaging | Mumbai News",
-      "url": "https://timesofindia.indiatimes.com/city/mumbai/do-not-buy-loose-edible-oil-maharashtra-fda-flags-adulteration-unsafe-packaging/articleshow/133379766.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/city/mumbai/do-not-buy-loose-edible-oil-maharashtra-fda-flags-adulteration-unsafe-packaging/articleshow/133379766.cms"
-    },
-    {
-      "id": "17fbc1dd41e43c44",
-      "category": "能源与航运",
-      "title": "KazMunayGas reviews progress of major oil and gas chemical projects in Atyrau",
-      "url": "https://www.trend.az/casia/kazakhstan/4216663.html",
-      "source": "trend.az",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.trend.az/casia/kazakhstan/4216663.html"
-    },
-    {
-      "id": "c3953a62690bf8a4",
-      "category": "科技与产业",
-      "title": "Leuchtturmprojekt aus Metzingen : Warum NEURA Robotics Steps for Life unterstützt hat",
-      "url": "https://www.rtf1.de/news.php?id=43325",
-      "source": "rtf1.de",
-      "publishedAt": "2026-08-20T14:30:00Z",
-      "fetchedAt": "2026-08-20T14:57:35.071Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rtf1.de/news.php?id=43325"
     }
   ]
 }
