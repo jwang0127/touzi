@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-21T22:44:30.766Z",
-  "newsUpdatedAt": "2026-08-21T22:44:30.766Z",
-  "assetsUpdatedAt": "2026-08-21T22:44:30.766Z",
+  "generatedAt": "2026-08-21T23:42:03.718Z",
+  "newsUpdatedAt": "2026-08-21T23:42:03.718Z",
+  "assetsUpdatedAt": "2026-08-21T23:42:03.718Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,312 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78495,
-      "changePercent": 7.971778316383165,
+      "price": 78198,
+      "changePercent": 6.974054531894454,
       "unit": "USD",
-      "asOf": "2026-08-21T22:43:10.000Z",
+      "asOf": "2026-08-21T23:42:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "41350775cbdb7f1b",
+      "category": "科技与产业",
+      "title": "Người Việt chi 2 . 400 tỷ đồng mua robot hút bụi trong một năm",
+      "url": "https://vnexpress.net/nguoi-viet-chi-2-400-ty-dong-mua-robot-hut-bui-trong-mot-nam-5111598.html",
+      "source": "vnexpress.net",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://vnexpress.net/nguoi-viet-chi-2-400-ty-dong-mua-robot-hut-bui-trong-mot-nam-5111598.html"
+    },
+    {
+      "id": "44c1aacf49c93bfc",
+      "category": "数字资产",
+      "title": "Crypto News : Pepeto Update On Binance Debut And Ethereum Price Prediction Targets $10 , 000",
+      "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/crypto-news-pepeto-update-on-binance-debut-and-ethereum-price-prediction-targets-10000/2410221",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/crypto-news-pepeto-update-on-binance-debut-and-ethereum-price-prediction-targets-10000/2410221"
+    },
+    {
+      "id": "ed889b7aa4202b8d",
+      "category": "能源与航运",
+      "title": "Oil Rises as US Targets Iran Economy",
+      "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/",
+      "source": "rigzone.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/"
+    },
+    {
+      "id": "a58473b41b03e69d",
+      "category": "金属与资源",
+      "title": "Wall Street bereft of bears after gold smashes $4 , 600 / oz , Main Street bolsters bullish majority with Warsh , PCE in focus",
+      "url": "http://www.kitco.com/news/article/2026-08-21/wall-street-bereft-bears-after-gold-smashes-4600oz-main-street-bolsters",
+      "source": "kitco.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.kitco.com/news/article/2026-08-21/wall-street-bereft-bears-after-gold-smashes-4600oz-main-street-bolsters"
+    },
+    {
+      "id": "2dadab6bf37652d7",
+      "category": "金属与资源",
+      "title": "SunLive - Tauranga golden brew heads to Beervana - The Bay News First",
+      "url": "https://www.sunlive.co.nz/news/384425-tauranga---s-golden-brew-heads-to-beervana.html",
+      "source": "sunlive.co.nz",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "New Zealand"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sunlive.co.nz/news/384425-tauranga---s-golden-brew-heads-to-beervana.html"
+    },
+    {
+      "id": "153ea382badded2b",
+      "category": "能源与航运",
+      "title": "Por tercera semana consecutiva , Gobierno aumenta precios de gasolina y gasoil regular",
+      "url": "https://listindiario.com/economia/combustibles/20260821/gobierno-aumenta-rd-3-00-gasolina-gasoil-regular_919062.html",
+      "source": "listindiario.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://listindiario.com/economia/combustibles/20260821/gobierno-aumenta-rd-3-00-gasolina-gasoil-regular_919062.html"
+    },
+    {
+      "id": "c773f62937557a51",
+      "category": "金属与资源",
+      "title": "Gold , silver extend rally as dollar slide offsets higher yields - Kitco PM Report",
+      "url": "http://www.kitco.com/news/article/2026-08-21/gold-silver-extend-rally-dollar-slide-offsets-higher-yields-kitco-pm-report",
+      "source": "kitco.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.kitco.com/news/article/2026-08-21/gold-silver-extend-rally-dollar-slide-offsets-higher-yields-kitco-pm-report"
+    },
+    {
+      "id": "d3d816695903b2fb",
+      "category": "金属与资源",
+      "title": "T . N . Government places orders with two jewellers for supply of gold rings scheme",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/thaimaman-thanga-mothiram-scheme-work-orders-issued-to-joyalukkas-kalyan-jewellers-for-gold-ring-supply/article71375124.ece",
+      "source": "thehindu.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindu.com/news/national/tamil-nadu/thaimaman-thanga-mothiram-scheme-work-orders-issued-to-joyalukkas-kalyan-jewellers-for-gold-ring-supply/article71375124.ece"
+    },
+    {
+      "id": "fca2219203bf4535",
+      "category": "金属与资源",
+      "title": "WWE Star Matt Cardona Sees Silver Lining To Chelsea Green Current Injury",
+      "url": "https://www.wrestlinginc.com/2241914/wwe-matt-cardona-chelsea-green-silver-lining-injury/",
+      "source": "wrestlinginc.com",
+      "publishedAt": "2026-08-21T23:15:00Z",
+      "fetchedAt": "2026-08-21T23:42:03.718Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wrestlinginc.com/2241914/wwe-matt-cardona-chelsea-green-silver-lining-injury/"
+    },
     {
       "id": "7cd3e98a89345d2e",
       "category": "科技与产业",
@@ -1355,286 +1651,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.hellenicshippingnews.com/global-grain-shipments-fall-8-as-attacks-in-the-black-sea-escalate/"
-    },
-    {
-      "id": "74ab15c56cb8d23b",
-      "category": "全球与地区",
-      "title": "Trump delays 50 % Canada tariffs as Carney cites progress",
-      "url": "http://www.torontotelegraph.com/news/279252289/trump-delays-50-canada-tariffs-as-carney-cites-progress",
-      "source": "torontotelegraph.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.torontotelegraph.com/news/279252289/trump-delays-50-canada-tariffs-as-carney-cites-progress"
-    },
-    {
-      "id": "ee935f2cd6a3e441",
-      "category": "金属与资源",
-      "title": "Greenheart Gold Inc .: Greenheart Gold Commences Initial Diamond Drill Program at the Tosso Creek Project , Suriname , Targeting Below Recent Trench Results That Include Intervals of 56 . 0 M @ 0 . 97 g / t Au and 7 . 0 M @ 4 . 57 g / t Au",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69368621-greenheart-gold-inc-greenheart-gold-commences-initial-diamond-drill-program-at-the-tosso-creek-project-suriname-targeting-below-recent-trench-resu-296.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-20T21:15:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69368621-greenheart-gold-inc-greenheart-gold-commences-initial-diamond-drill-program-at-the-tosso-creek-project-suriname-targeting-below-recent-trench-resu-296.htm"
-    },
-    {
-      "id": "5fea6e9fd6f01396",
-      "category": "金属与资源",
-      "title": "Over 100 labourers killed in gold mine collapse in Central African Republic",
-      "url": "https://www.premiumtimesng.com/news/top-news/904366-over-100-labourers-killed-in-gold-mine-collapse-in-central-african-republic.html",
-      "source": "premiumtimesng.com",
-      "publishedAt": "2026-08-20T21:15:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.premiumtimesng.com/news/top-news/904366-over-100-labourers-killed-in-gold-mine-collapse-in-central-african-republic.html"
-    },
-    {
-      "id": "7046c904e390104f",
-      "category": "全球与地区",
-      "title": "Norway raises tariff concerns in talks with U . S . trade official - Xinhua",
-      "url": "https://english.news.cn/20260821/467db422edac44068224f7a65e50c93a/c.html",
-      "source": "english.news.cn",
-      "publishedAt": "2026-08-20T21:15:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://english.news.cn/20260821/467db422edac44068224f7a65e50c93a/c.html"
-    },
-    {
-      "id": "1f0b241936b53d42",
-      "category": "金属与资源",
-      "title": "Silver Creek Woman Jailed After Shoving Match at Henderson and Sons Funeral Home",
-      "url": "https://coosavalleynews.com/2026/08/silver-creek-woman-jailed-after-shoving-match-at-henderson-and-sons-funeral-home/",
-      "source": "coosavalleynews.com",
-      "publishedAt": "2026-08-20T21:15:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://coosavalleynews.com/2026/08/silver-creek-woman-jailed-after-shoving-match-at-henderson-and-sons-funeral-home/"
-    },
-    {
-      "id": "88f36ab4960251b8",
-      "category": "全球与地区",
-      "title": "Trump tariffs : Manitoba premier questions reliability of trade deal",
-      "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/20/manitoba-premier-questions-reliability-of-trade-deal-with-erratic-trump/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-08-20T21:15:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/tariffs/2026/08/20/manitoba-premier-questions-reliability-of-trade-deal-with-erratic-trump/"
-    },
-    {
-      "id": "2355acf57472cad5",
-      "category": "金属与资源",
-      "title": "Plato Gold Reports 2026 Semi - Annual Results , Announces Loan Extensions and Board Update",
-      "url": "https://www.manilatimes.net/2026/08/21/tmt-newswire/globenewswire/plato-gold-reports-2026-semi-annual-results-announces-loan-extensions-and-board-update/2409612",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-08-20T21:00:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/08/21/tmt-newswire/globenewswire/plato-gold-reports-2026-semi-annual-results-announces-loan-extensions-and-board-update/2409612"
-    },
-    {
-      "id": "4bb46e7a91cac07e",
-      "category": "能源与航运",
-      "title": "Can QuantumScape and Factorial Energy mass - produce solid - state batteries ?",
-      "url": "https://www.scientificamerican.com/article/can-quantumscape-and-factorial-energy-mass-produce-solid-state-batteries/",
-      "source": "scientificamerican.com",
-      "publishedAt": "2026-08-20T21:00:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.scientificamerican.com/article/can-quantumscape-and-factorial-energy-mass-produce-solid-state-batteries/"
-    },
-    {
-      "id": "3720ebc6bc419d21",
-      "category": "数字资产",
-      "title": "Bitcoin kalon përsëri 70 , 000 dollarë",
-      "url": "https://top24.mk/bitcoin-kalon-perseri-70000-dollare/",
-      "source": "top24.mk",
-      "publishedAt": "2026-08-20T21:00:00Z",
-      "fetchedAt": "2026-08-20T21:46:12.175Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://top24.mk/bitcoin-kalon-perseri-70000-dollare/"
     }
   ]
 }
