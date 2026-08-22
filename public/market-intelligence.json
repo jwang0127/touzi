@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T07:47:52.527Z",
-  "newsUpdatedAt": "2026-08-22T07:47:52.527Z",
-  "assetsUpdatedAt": "2026-08-22T07:47:52.527Z",
+  "generatedAt": "2026-08-22T08:50:26.535Z",
+  "newsUpdatedAt": "2026-08-22T08:50:26.535Z",
+  "assetsUpdatedAt": "2026-08-22T08:50:26.535Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,502 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77366,
-      "changePercent": 1.1381620731424993,
+      "price": 77149,
+      "changePercent": -1.0664403724642668,
       "unit": "USD",
-      "asOf": "2026-08-22T07:47:20.000Z",
+      "asOf": "2026-08-22T08:48:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c0e7124ac6bbfa4b",
+      "category": "能源与航运",
+      "title": "CMS Energy ( NYSE : CMS ) vs . AuraSource ( OTCMKTS : ARAO ) Financial Contrast",
+      "url": "https://www.themarketsdaily.com/2026/08/22/cms-energy-nysecms-vs-aurasource-otcmktsarao-financial-contrast.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/22/cms-energy-nysecms-vs-aurasource-otcmktsarao-financial-contrast.html"
+    },
+    {
+      "id": "5a62b5e2d5f96b38",
+      "category": "金属与资源",
+      "title": "Gold Silver Rate Today 22 August 2026 : राखी से पहले सोने - चांदी के ताजा रेट , 22 कैरेट ₹1 . 47 लाख के पार ; देखें टॉप 10 शहरों में भाव",
+      "url": "https://www.punjabkesari.com/business-news/gold-silver-rate-today-22-august-2026/",
+      "source": "punjabkesari.com",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.punjabkesari.com/business-news/gold-silver-rate-today-22-august-2026/"
+    },
+    {
+      "id": "5262159aa98d0311",
+      "category": "全球与地区",
+      "title": "Shipping Tribune",
+      "url": "https://www.shippingtribune.com/news/shipping/Tankers+Wait+a+Month+as+Venezuela+Hits+an+Oil+Export+Ceiling",
+      "source": "shippingtribune.com",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.shippingtribune.com/news/shipping/Tankers+Wait+a+Month+as+Venezuela+Hits+an+Oil+Export+Ceiling"
+    },
+    {
+      "id": "6a6fb21223ecc627",
+      "category": "数字资产",
+      "title": "Bitcoin Tops US$78 , 000 as Crypto Rally Widens",
+      "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-saturday-august-22-2026/",
+      "source": "riotimesonline.com",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-saturday-august-22-2026/"
+    },
+    {
+      "id": "62cd33effbb5c8ae",
+      "category": "科技与产业",
+      "title": "Ubtech Robotics Aktie : 10 , 4 % Minus nach Unitree - Debüt",
+      "url": "https://www.stock-world.de/ubtech-robotics-aktie-104-minus-nach-unitree-debuet/",
+      "source": "stock-world.de",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.stock-world.de/ubtech-robotics-aktie-104-minus-nach-unitree-debuet/"
+    },
+    {
+      "id": "d82f31f8f82a5011",
+      "category": "科技与产业",
+      "title": "Megan Fox als verführerischer Killer - Roboter",
+      "url": "http://www.az-online.de/boulevard/megan-fox-als-verfuehrerischer-killer-roboter-zr-94455039.html",
+      "source": "az-online.de",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.az-online.de/boulevard/megan-fox-als-verfuehrerischer-killer-roboter-zr-94455039.html"
+    },
+    {
+      "id": "3ee7a06b65c42f01",
+      "category": "全球与地区",
+      "title": "U . S .- Canada trade talks collapse minutes before deadline for tariffs to take effect",
+      "url": "https://www.kvpr.org/npr-news/2026-08-21/u-s-canada-trade-talks-collapse-minutes-before-deadline-for-tariffs-to-take-effect",
+      "source": "kvpr.org",
+      "publishedAt": "2026-08-22T08:30:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kvpr.org/npr-news/2026-08-21/u-s-canada-trade-talks-collapse-minutes-before-deadline-for-tariffs-to-take-effect"
+    },
+    {
+      "id": "3a8249a0327acfdd",
+      "category": "数字资产",
+      "title": "Readers sound off on Fauci accusers , crypto regulations and a new street drug",
+      "url": "https://www.nydailynews.com/2026/08/22/readers-sound-off-on-faucis-accusers-crypto-regulations-and-a-new-street-drug/",
+      "source": "nydailynews.com",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nydailynews.com/2026/08/22/readers-sound-off-on-faucis-accusers-crypto-regulations-and-a-new-street-drug/"
+    },
+    {
+      "id": "0a7c2e6b5744f3da",
+      "category": "金属与资源",
+      "title": "US and others turn to Brazil for rare earths",
+      "url": "https://jamaica-gleaner.com/article/news/20260822/us-and-others-turn-brazil-rare-earths",
+      "source": "jamaica-gleaner.com",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Jamaica"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://jamaica-gleaner.com/article/news/20260822/us-and-others-turn-brazil-rare-earths"
+    },
+    {
+      "id": "9d0a67b2132c75b8",
+      "category": "能源与航运",
+      "title": "Iranian crude supplies to China declined amid U . S . blockade",
+      "url": "https://www.iranoilgas.com/news/details.aspx?id=28961&title=Iranian+crude+supplies+to+China+declined+amid+U.S.+blockade",
+      "source": "iranoilgas.com",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.iranoilgas.com/news/details.aspx?id=28961&title=Iranian+crude+supplies+to+China+declined+amid+U.S.+blockade"
+    },
+    {
+      "id": "a1e097f56027c1a5",
+      "category": "能源与航运",
+      "title": "Iraq plans to raise oil output to 8mln to 10mln bpd within six years : PM",
+      "url": "https://www.iranoilgas.com/news/details.aspx?id=28960&title=Iraq+plans+to+raise+oil+output+to+8mln+to+10mln+bpd+within+six+years:+PM+",
+      "source": "iranoilgas.com",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.iranoilgas.com/news/details.aspx?id=28960&title=Iraq+plans+to+raise+oil+output+to+8mln+to+10mln+bpd+within+six+years:+PM+"
+    },
+    {
+      "id": "cfdce547072dfd66",
+      "category": "全球与地区",
+      "title": "US is set to impose 50 % tariffs on $20 billion worth of Canadian products",
+      "url": "https://www.elpasoinc.com/news/ap_wire/us-is-set-to-impose-50-tariffs-on-20-billion-worth-of-canadian-products/article_b79febb8-d4e1-5108-88b9-1551793f935c.html",
+      "source": "elpasoinc.com",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elpasoinc.com/news/ap_wire/us-is-set-to-impose-50-tariffs-on-20-billion-worth-of-canadian-products/article_b79febb8-d4e1-5108-88b9-1551793f935c.html"
+    },
+    {
+      "id": "f3397d34216417a1",
+      "category": "全球与地区",
+      "title": "Trump imposes 50 % tariffs after US - Canada trade talks collapse at last minute",
+      "url": "https://www.thejournal.ie/us-canda-trade-talks-tariffs-7138878-Aug2026/",
+      "source": "thejournal.ie",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Ireland"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thejournal.ie/us-canda-trade-talks-tariffs-7138878-Aug2026/"
+    },
+    {
+      "id": "8bb306e14ab6a6b0",
+      "category": "全球与地区",
+      "title": "Canada threatens to retaliate as US warns of 50 % tariffs on products",
+      "url": "https://www.thewestmorlandgazette.co.uk/news/national/26486625.canada-threatens-retaliate-us-warns-50-tariffs-products/",
+      "source": "thewestmorlandgazette.co.uk",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thewestmorlandgazette.co.uk/news/national/26486625.canada-threatens-retaliate-us-warns-50-tariffs-products/"
+    },
+    {
+      "id": "cf2d69bfe81252b6",
+      "category": "数字资产",
+      "title": "FPJ Quick Take At 12 PM : Bitcoin Nears $80 , 000 , US - Canada Trade Deal Collapse ; Your Daily Noon Guide To Top News That Matters",
+      "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-bitcoin-nears-80000-us-canada-trade-deal-collapses-your-daily-noon-guide-to-top-news-that-matters",
+      "source": "freepressjournal.in",
+      "publishedAt": "2026-08-22T08:15:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-bitcoin-nears-80000-us-canada-trade-deal-collapses-your-daily-noon-guide-to-top-news-that-matters"
+    },
+    {
+      "id": "e301f65e9ec3c5bb",
+      "category": "科技与产业",
+      "title": "Unitree , el robot que salta dos metros y ya vale 44 . 000 millones en bolsa",
+      "url": "https://www.diariodejerez.es/tecnologia/unitree-robot-salta-metros-millones_0_2007762174.html",
+      "source": "diariodejerez.es",
+      "publishedAt": "2026-08-22T08:00:00Z",
+      "fetchedAt": "2026-08-22T08:50:26.535Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.diariodejerez.es/tecnologia/unitree-robot-salta-metros-millones_0_2007762174.html"
+    },
     {
       "id": "9eb6912061a3739c",
       "category": "全球与地区",
@@ -1177,518 +1661,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.diariodelsur.com.co/robots-humanoides-podrian-vivir-un-salto-tecnologico-similar-al-de-chatgpt/"
-    },
-    {
-      "id": "c3161e73664dbee7",
-      "category": "科技与产业",
-      "title": "TEKNOFEST Mavi Vatanda tarihi deneme : TCG Anadoluda 5G destekli robotik cerrahi",
-      "url": "https://www.ozgurkocaeli.com.tr/haber/28561402/teknofest-mavi-vatanda-tarihi-deneme-tcg-anadoluda-5g-destekli-robotik-cerrahi",
-      "source": "ozgurkocaeli.com.tr",
-      "publishedAt": "2026-08-21T21:15:00Z",
-      "fetchedAt": "2026-08-21T21:42:22.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Turkey"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ozgurkocaeli.com.tr/haber/28561402/teknofest-mavi-vatanda-tarihi-deneme-tcg-anadoluda-5g-destekli-robotik-cerrahi"
-    },
-    {
-      "id": "5a0a38ad62570f3e",
-      "category": "能源与航运",
-      "title": "Workplace death : Birchcliff Energy Ltd , fined more than $300K for failing to ensure worker safety",
-      "url": "https://www.fairviewpost.com:443/news/workplace-death-birchcliff-energy-ltd-fined-300k-worker-safety/wcm/c7179d4f-86db-4d1d-9d74-f3f6a8df071c",
-      "source": "fairviewpost.com",
-      "publishedAt": "2026-08-21T21:15:00Z",
-      "fetchedAt": "2026-08-21T21:42:22.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fairviewpost.com:443/news/workplace-death-birchcliff-energy-ltd-fined-300k-worker-safety/wcm/c7179d4f-86db-4d1d-9d74-f3f6a8df071c"
-    },
-    {
-      "id": "20a305e33f90dac3",
-      "category": "数字资产",
-      "title": "Mayıs ayından bu yana ilk kez 77 bin doların üzerine yükseldi : Bitcoin neden hareketlendi ?",
-      "url": "https://www.ogunhaber.com/ekonomi/mayis-ayindan-bu-yana-ilk-kez-77-bin-dolarin-uzerine-yukseldi-bitcoin-neden-hareketlendi-3001262h.html",
-      "source": "ogunhaber.com",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Turkey"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ogunhaber.com/ekonomi/mayis-ayindan-bu-yana-ilk-kez-77-bin-dolarin-uzerine-yukseldi-bitcoin-neden-hareketlendi-3001262h.html"
-    },
-    {
-      "id": "2dd1e87f0caead2f",
-      "category": "全球与地区",
-      "title": "World Cup 2026 final : FIFA slams heavy sanctions on Argentina players , AFA",
-      "url": "https://blueprint.ng/world-cup-2026-final-fifa-slams-heavy-sanctions-on-argentina-players-afa/",
-      "source": "blueprint.ng",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://blueprint.ng/world-cup-2026-final-fifa-slams-heavy-sanctions-on-argentina-players-afa/"
-    },
-    {
-      "id": "a048a893d3764b20",
-      "category": "数字资产",
-      "title": "Crypto investor sentiment remains damp despite uptick in Bitcoin pricing",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/crypto-investor-sentiment-remains-damp-despite-uptick-in-bitcoin-pricing/article71374632.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/crypto-investor-sentiment-remains-damp-despite-uptick-in-bitcoin-pricing/article71374632.ece"
-    },
-    {
-      "id": "ec9d508b9677ec04",
-      "category": "金属与资源",
-      "title": "Gold prices today , Friday , August 21 , 2026 : Gold remains strong amid U . S . debt concerns",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-21-2026-gold-remains-strong-amid-us-debt-concerns-161052751.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-21-2026-gold-remains-strong-amid-us-debt-concerns-161052751.html"
-    },
-    {
-      "id": "0153a836d9022952",
-      "category": "数字资产",
-      "title": "El bitcoin salta 20 % en tres días : los dos motivos que impulsan la mayor criptomoneda del mundo",
-      "url": "https://www.clarin.com/economia/bitcoin-salta-20-dias-motivos-impulsan-mayor-criptomoneda-mundo_0_o1bZm9c7sw.html",
-      "source": "clarin.com",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.clarin.com/economia/bitcoin-salta-20-dias-motivos-impulsan-mayor-criptomoneda-mundo_0_o1bZm9c7sw.html"
-    },
-    {
-      "id": "7e198ce819f073cb",
-      "category": "能源与航运",
-      "title": "Hormuz ship crossings hover in single digits",
-      "url": "https://www.middle-east-online.com/en/hormuz-ship-crossings-hover-single-digits",
-      "source": "middle-east-online.com",
-      "publishedAt": "2026-08-21T16:30:00Z",
-      "fetchedAt": "2026-08-21T16:54:12.396Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Iraq"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middle-east-online.com/en/hormuz-ship-crossings-hover-single-digits"
-    },
-    {
-      "id": "384c087020606d16",
-      "category": "能源与航运",
-      "title": "One Chef Reaches for Mayo Instead of Oil When Cooking Steak Here Why",
-      "url": "https://www.aol.com/articles/one-chef-reaches-mayo-instead-100500000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-08-21T12:30:00Z",
-      "fetchedAt": "2026-08-21T13:13:19.124Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/one-chef-reaches-mayo-instead-100500000.html"
-    },
-    {
-      "id": "55ea5a2b70b1a513",
-      "category": "金属与资源",
-      "title": "Goldpreis steigt deutlich auf Dreimonatshoch",
-      "url": "https://www.onvista.de/news/2026/08-21-goldpreis-steigt-deutlich-auf-dreimonatshoch-0-10-26545276",
-      "source": "onvista.de",
-      "publishedAt": "2026-08-21T12:30:00Z",
-      "fetchedAt": "2026-08-21T13:13:19.124Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.onvista.de/news/2026/08-21-goldpreis-steigt-deutlich-auf-dreimonatshoch-0-10-26545276"
-    },
-    {
-      "id": "fb262e7b419f605d",
-      "category": "金属与资源",
-      "title": "FY2026 EPS Estimates for Lundin Gold Decreased by Scotiabank",
-      "url": "https://www.dailypolitical.com/2026/08/21/fy2026-eps-estimates-for-lundin-gold-decreased-by-scotiabank.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-08-21T12:15:00Z",
-      "fetchedAt": "2026-08-21T13:13:19.124Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/08/21/fy2026-eps-estimates-for-lundin-gold-decreased-by-scotiabank.html"
-    },
-    {
-      "id": "a56d7b1dfb536481",
-      "category": "能源与航运",
-      "title": "Hormuz , gli united states guadagnano terreno ma il traffico resta ai minimi",
-      "url": "https://www.ottopagine.it/mondo/attualita/436132/hormuz-gli-usa-guadagnano-terreno-ma-il-traffico-resta-ai-minimi.shtml",
-      "source": "ottopagine.it",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ottopagine.it/mondo/attualita/436132/hormuz-gli-usa-guadagnano-terreno-ma-il-traffico-resta-ai-minimi.shtml"
-    },
-    {
-      "id": "1a05284b8974af0d",
-      "category": "金属与资源",
-      "title": "Jefferies turns bullish on gold as US , Japan fiscal strains constrain monetary policy",
-      "url": "http://www.mexicostar.com/news/279255456/jefferies-turns-bullish-on-gold-as-us-japan-fiscal-strains-constrain-monetary-policy",
-      "source": "mexicostar.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Mexico"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.mexicostar.com/news/279255456/jefferies-turns-bullish-on-gold-as-us-japan-fiscal-strains-constrain-monetary-policy"
-    },
-    {
-      "id": "40caf4447ca6f459",
-      "category": "全球与地区",
-      "title": "Trump warns Iran of economic D - Day , but it used to sanctions",
-      "url": "https://www.wsbradio.com/news/politics/trump-warns-economic/BM4RVY7NPY46XBEVJIIUYQW4R4/",
-      "source": "wsbradio.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wsbradio.com/news/politics/trump-warns-economic/BM4RVY7NPY46XBEVJIIUYQW4R4/"
-    },
-    {
-      "id": "479504225dd6a050",
-      "category": "能源与航运",
-      "title": "Iranian oil offers to Chinese buyers fall as US blockade bites , sources say",
-      "url": "https://finance.yahoo.com/energy/articles/iranian-oil-offers-chinese-buyers-081555135.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/energy/articles/iranian-oil-offers-chinese-buyers-081555135.html"
-    },
-    {
-      "id": "0713419dc2407249",
-      "category": "金属与资源",
-      "title": "Central African Republic shuts Zamboye gold mine after deadly collapse",
-      "url": "https://www.africanews.com/2026/08/21/central-african-republic-shuts-zamboye-gold-mine-after-deadly-collapse/",
-      "source": "africanews.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.africanews.com/2026/08/21/central-african-republic-shuts-zamboye-gold-mine-after-deadly-collapse/"
     }
   ]
 }
