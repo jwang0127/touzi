@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T21:39:17.039Z",
-  "newsUpdatedAt": "2026-08-22T19:39:00.856Z",
-  "assetsUpdatedAt": "2026-08-22T21:39:17.039Z",
+  "generatedAt": "2026-08-22T22:41:17.156Z",
+  "newsUpdatedAt": "2026-08-22T22:41:17.156Z",
+  "assetsUpdatedAt": "2026-08-22T22:41:17.156Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,230 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77001,
-      "changePercent": -1.3795532619556798,
+      "price": 76978,
+      "changePercent": -1.9254779359167207,
       "unit": "USD",
-      "asOf": "2026-08-22T21:38:40.000Z",
+      "asOf": "2026-08-22T22:39:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c9632c7dedfdfc73",
+      "category": "全球与地区",
+      "title": "Iran warns any country joining US sanctions considered enemy",
+      "url": "https://www.vanguardngr.com/2026/08/iran-warns-any-country-joining-us-sanctions-considered-enemy/",
+      "source": "vanguardngr.com",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vanguardngr.com/2026/08/iran-warns-any-country-joining-us-sanctions-considered-enemy/"
+    },
+    {
+      "id": "0672152399270b87",
+      "category": "全球与地区",
+      "title": "What to know about Trump 50 % tariffs on Canadian goods that just went into effect",
+      "url": "https://www.news-gazette.com/news/nation-world/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect/article_3f208035-5645-5eb9-9417-8c740e0133de.html",
+      "source": "news-gazette.com",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.news-gazette.com/news/nation-world/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect/article_3f208035-5645-5eb9-9417-8c740e0133de.html"
+    },
+    {
+      "id": "a2617704c377a88a",
+      "category": "全球与地区",
+      "title": "Guerre au Moyen - Orient . LIran menace de représailles les pays qui suivront les sanctions américaines",
+      "url": "https://www.estrepublicain.fr/economie/2026/08/22/l-iran-menace-de-represailles-les-pays-qui-suivront-les-sanctions-americaines",
+      "source": "estrepublicain.fr",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "France"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.estrepublicain.fr/economie/2026/08/22/l-iran-menace-de-represailles-les-pays-qui-suivront-les-sanctions-americaines"
+    },
+    {
+      "id": "e248a9c06cb50c2c",
+      "category": "金属与资源",
+      "title": "Iguala Guerrero Gold : Cheap Jewellery , Level 4 Warning",
+      "url": "https://www.riotimesonline.com/iguala-guerrero-gold-city-travel-warning-2026/",
+      "source": "riotimesonline.com",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.riotimesonline.com/iguala-guerrero-gold-city-travel-warning-2026/"
+    },
+    {
+      "id": "1a3aaf2c3f520e40",
+      "category": "能源与航运",
+      "title": "Six EU countries have proposed introducing a special tax on oil companies",
+      "url": "https://en.apa.az/europe/six-eu-countries-have-proposed-introducing-a-special-tax-on-oil-companies-521305",
+      "source": "en.apa.az",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.apa.az/europe/six-eu-countries-have-proposed-introducing-a-special-tax-on-oil-companies-521305"
+    },
+    {
+      "id": "c03da9fec4384265",
+      "category": "科技与产业",
+      "title": "Chinese company flexes dominance in robotics space with splashy stock market debut",
+      "url": "https://www.publicradioeast.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut",
+      "source": "publicradioeast.org",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.publicradioeast.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut"
+    },
+    {
+      "id": "c3a85d5c1f18bea3",
+      "category": "全球与地区",
+      "title": "A trade war between Canada and the US further ruptures a once - close and durable alliance",
+      "url": "https://krmg.com/2026/08/22/a-trade-war-between-canada-and-the-us-further-ruptures-a-once-close-and-durable-alliance/",
+      "source": "krmg.com",
+      "publishedAt": "2026-08-22T22:00:00Z",
+      "fetchedAt": "2026-08-22T22:41:17.156Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://krmg.com/2026/08/22/a-trade-war-between-canada-and-the-us-further-ruptures-a-once-close-and-durable-alliance/"
+    },
     {
       "id": "ce5fca583efec626",
       "category": "科技与产业",
@@ -1432,236 +1646,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.deshbandhu.co.in/breaking-news/gold-prices-rose-by-over-8000-this-week-silver-crossed-the-246-lakh-mark-316950"
-    },
-    {
-      "id": "4d567882015c5d8b",
-      "category": "能源与航运",
-      "title": "US military moves 15 million barrels through Hormuz amid standoff with Iran",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-22T04:45:00Z",
-      "fetchedAt": "2026-08-22T04:52:20.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms"
-    },
-    {
-      "id": "4039ecea89432690",
-      "category": "金属与资源",
-      "title": "Two cousins died after breast cancer was detected too late : How an IISc gold medallist used AI to build a possible solution",
-      "url": "https://timesofindia.indiatimes.com/education/news/two-cousins-died-after-breast-cancer-was-detected-too-late-how-an-iisc-gold-medallist-used-ai-to-build-a-possible-solution/articleshow/133416665.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-08-22T04:45:00Z",
-      "fetchedAt": "2026-08-22T04:52:20.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/education/news/two-cousins-died-after-breast-cancer-was-detected-too-late-how-an-iisc-gold-medallist-used-ai-to-build-a-possible-solution/articleshow/133416665.cms"
-    },
-    {
-      "id": "7b743ebe99ac3044",
-      "category": "数字资产",
-      "title": "Explained | How Bitcoin rally led to skyrocketing of crypto stocks | What fuelling surge of both ? Climbing in tandem",
-      "url": "https://www.livemint.com/market/cryptocurrency/explained-how-bitcoin-rally-led-to-skyrocketing-of-crypto-stocks-what-s-fuelling-surge-of-both-climbing-in-tandem-11787364376857.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-08-22T04:45:00Z",
-      "fetchedAt": "2026-08-22T04:52:20.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/market/cryptocurrency/explained-how-bitcoin-rally-led-to-skyrocketing-of-crypto-stocks-what-s-fuelling-surge-of-both-climbing-in-tandem-11787364376857.html"
-    },
-    {
-      "id": "b8604ad01320c952",
-      "category": "能源与航运",
-      "title": "Petrol and diesel prices today 22 Aug : Fuel rates in Delhi , Mumbai , Bengaluru as Crude oil sees 6 . 39 % weekly gain",
-      "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-22-aug-fuel-rates-in-delhi-mumbai-bengaluru-as-crude-oil-sees-6-39-weekly-gain-11787359348348.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-08-22T04:45:00Z",
-      "fetchedAt": "2026-08-22T04:52:20.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-22-aug-fuel-rates-in-delhi-mumbai-bengaluru-as-crude-oil-sees-6-39-weekly-gain-11787359348348.html"
-    },
-    {
-      "id": "9021007107ad2224",
-      "category": "全球与地区",
-      "title": "Trump warns of economic D - Day against Iran , but Tehran is well acquainted with sanctions",
-      "url": "https://www.dailyexcelsior.com/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions/",
-      "source": "dailyexcelsior.com",
-      "publishedAt": "2026-08-22T02:30:00Z",
-      "fetchedAt": "2026-08-22T03:09:23.440Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailyexcelsior.com/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions/"
-    },
-    {
-      "id": "24e1db4ca51290c9",
-      "category": "能源与航运",
-      "title": "Vuelven a subir el precio de la gasolina y el gasoil regular para la semana del 22 al 28 de agosto | La Nación Dominicana , Todo tu país , en un solo click ...!",
-      "url": "https://lanaciondominicana.com/noticia/vuelven-a-subir-el-precio-de-la-gasolina-y-el-gasoil-regular-para-la-semana-del-22/124916/",
-      "source": "lanaciondominicana.com",
-      "publishedAt": "2026-08-22T02:00:00Z",
-      "fetchedAt": "2026-08-22T03:09:23.440Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://lanaciondominicana.com/noticia/vuelven-a-subir-el-precio-de-la-gasolina-y-el-gasoil-regular-para-la-semana-del-22/124916/"
-    },
-    {
-      "id": "86155c349da26690",
-      "category": "能源与航运",
-      "title": "The megalibrary that could transform materials discovery and accelerate the clean energy transition",
-      "url": "https://www.digitaljournal.com/article/the-megalibrary-that-could-transform-materials-discovery-and-accelerate-the-clean-energy-transition/",
-      "source": "digitaljournal.com",
-      "publishedAt": "2026-08-22T01:45:00Z",
-      "fetchedAt": "2026-08-22T01:52:57.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.digitaljournal.com/article/the-megalibrary-that-could-transform-materials-discovery-and-accelerate-the-clean-energy-transition/"
     }
   ]
 }
