@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T03:58:41.279Z",
-  "newsUpdatedAt": "2026-08-22T03:09:23.440Z",
-  "assetsUpdatedAt": "2026-08-22T03:58:41.279Z",
+  "generatedAt": "2026-08-22T04:52:20.372Z",
+  "newsUpdatedAt": "2026-08-22T04:52:20.372Z",
+  "assetsUpdatedAt": "2026-08-22T04:52:20.372Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,149 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78452,
-      "changePercent": 5.1988369011214575,
+      "price": 78502,
+      "changePercent": 4.748144128271764,
       "unit": "USD",
-      "asOf": "2026-08-22T03:57:40.000Z",
+      "asOf": "2026-08-22T04:52:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "4d567882015c5d8b",
+      "category": "能源与航运",
+      "title": "US military moves 15 million barrels through Hormuz amid standoff with Iran",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-22T04:45:00Z",
+      "fetchedAt": "2026-08-22T04:52:20.372Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms"
+    },
+    {
+      "id": "4039ecea89432690",
+      "category": "金属与资源",
+      "title": "Two cousins died after breast cancer was detected too late : How an IISc gold medallist used AI to build a possible solution",
+      "url": "https://timesofindia.indiatimes.com/education/news/two-cousins-died-after-breast-cancer-was-detected-too-late-how-an-iisc-gold-medallist-used-ai-to-build-a-possible-solution/articleshow/133416665.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-22T04:45:00Z",
+      "fetchedAt": "2026-08-22T04:52:20.372Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/education/news/two-cousins-died-after-breast-cancer-was-detected-too-late-how-an-iisc-gold-medallist-used-ai-to-build-a-possible-solution/articleshow/133416665.cms"
+    },
+    {
+      "id": "7b743ebe99ac3044",
+      "category": "数字资产",
+      "title": "Explained | How Bitcoin rally led to skyrocketing of crypto stocks | What fuelling surge of both ? Climbing in tandem",
+      "url": "https://www.livemint.com/market/cryptocurrency/explained-how-bitcoin-rally-led-to-skyrocketing-of-crypto-stocks-what-s-fuelling-surge-of-both-climbing-in-tandem-11787364376857.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-22T04:45:00Z",
+      "fetchedAt": "2026-08-22T04:52:20.372Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/market/cryptocurrency/explained-how-bitcoin-rally-led-to-skyrocketing-of-crypto-stocks-what-s-fuelling-surge-of-both-climbing-in-tandem-11787364376857.html"
+    },
+    {
+      "id": "b8604ad01320c952",
+      "category": "能源与航运",
+      "title": "Petrol and diesel prices today 22 Aug : Fuel rates in Delhi , Mumbai , Bengaluru as Crude oil sees 6 . 39 % weekly gain",
+      "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-22-aug-fuel-rates-in-delhi-mumbai-bengaluru-as-crude-oil-sees-6-39-weekly-gain-11787359348348.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-08-22T04:45:00Z",
+      "fetchedAt": "2026-08-22T04:52:20.372Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-22-aug-fuel-rates-in-delhi-mumbai-bengaluru-as-crude-oil-sees-6-39-weekly-gain-11787359348348.html"
+    },
     {
       "id": "9021007107ad2224",
       "category": "全球与地区",
@@ -1542,118 +1675,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.hellenicshippingnews.com/what-defensible-marine-insurance-compliance-looks-like-in-2026/"
-    },
-    {
-      "id": "9c324d8ad15931b3",
-      "category": "全球与地区",
-      "title": "US pummels Cuban economy with new sanctions on mining , construction - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "url": "https://dominicanrepublicpost.com/us-pummels-cuban-economy-with-new-sanctions-on-mining-construction/",
-      "source": "dominicanrepublicpost.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dominicanrepublicpost.com/us-pummels-cuban-economy-with-new-sanctions-on-mining-construction/"
-    },
-    {
-      "id": "e7afbd49130981e6",
-      "category": "全球与地区",
-      "title": "North Dakota oilfield activity to increase on higher prices | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/north-dakota-oilfield-activity-to-increase-on-higher-prices/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/north-dakota-oilfield-activity-to-increase-on-higher-prices/"
-    },
-    {
-      "id": "85b891ab3a624e82",
-      "category": "全球与地区",
-      "title": "PIMD eyes Singapore biomethanol exports after 2028 scale - up : exec | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/pimd-eyes-singapore-biomethanol-exports-after-2028-scale-up-exec/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/pimd-eyes-singapore-biomethanol-exports-after-2028-scale-up-exec/"
-    },
-    {
-      "id": "e638770fa8c53e23",
-      "category": "全球与地区",
-      "title": "Trump ramps up Cuba pressure with new sanctions and crackdown on US visitors",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cuba-sanctions-american-visitors-rubio-b3036693.html",
-      "source": "independent.co.uk",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cuba-sanctions-american-visitors-rubio-b3036693.html"
     }
   ]
 }
