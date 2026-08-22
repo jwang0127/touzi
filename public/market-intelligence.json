@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T13:46:10.339Z",
-  "newsUpdatedAt": "2026-08-22T08:50:26.535Z",
-  "assetsUpdatedAt": "2026-08-22T13:46:10.339Z",
+  "generatedAt": "2026-08-22T14:41:20.078Z",
+  "newsUpdatedAt": "2026-08-22T14:41:20.078Z",
+  "assetsUpdatedAt": "2026-08-22T14:41:20.078Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,207 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77141,
-      "changePercent": -0.10791845618447059,
+      "price": 77032,
+      "changePercent": 0.12818371682200852,
       "unit": "USD",
-      "asOf": "2026-08-22T13:45:20.000Z",
+      "asOf": "2026-08-22T14:40:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "cfff89c58135e58a",
+      "category": "能源与航运",
+      "title": "Saudi Aramco sells China crude for loading outside Hormuz",
+      "url": "http://www.neworleanssun.com/news/279254664/saudi-aramco-sells-china-crude-for-loading-outside-hormuz",
+      "source": "neworleanssun.com",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.neworleanssun.com/news/279254664/saudi-aramco-sells-china-crude-for-loading-outside-hormuz"
+    },
+    {
+      "id": "5553c8a2cd8094c4",
+      "category": "科技与产业",
+      "title": "Phil Drietz letter : China is leading in AI and robots",
+      "url": "https://www.wctrib.com/opinion/letters/phil-drietzs-letter-china-is-leading-in-ai-and-robots",
+      "source": "wctrib.com",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wctrib.com/opinion/letters/phil-drietzs-letter-china-is-leading-in-ai-and-robots"
+    },
+    {
+      "id": "55837556bae0cd16",
+      "category": "全球与地区",
+      "title": "U . S ., Iran keep up hostile rhetoric ahead of new sanctions",
+      "url": "https://www.nbcnews.com/world/iran/us-iran-keep-hostile-rhetoric-ahead-new-sanctions-rcna593870",
+      "source": "nbcnews.com",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nbcnews.com/world/iran/us-iran-keep-hostile-rhetoric-ahead-new-sanctions-rcna593870"
+    },
+    {
+      "id": "a15d0afaf62da4c8",
+      "category": "能源与航运",
+      "title": "Saudis Shuttle Oil North On Tankers To Evade Houthis",
+      "url": "https://gcaptain.com/saudis-shuttle-oil-north-on-tankers-to-evade-houthis/",
+      "source": "gcaptain.com",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://gcaptain.com/saudis-shuttle-oil-north-on-tankers-to-evade-houthis/"
+    },
+    {
+      "id": "7aebb4ac390ce070",
+      "category": "科技与产业",
+      "title": "Chinese robot beats Usain Bolt 100m world record in test run",
+      "url": "https://news.az/news/chinese-robot-beats-usain-bolts-100m-world-record-in-test-run",
+      "source": "news.az",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.az/news/chinese-robot-beats-usain-bolts-100m-world-record-in-test-run"
+    },
+    {
+      "id": "03f1983228a157a8",
+      "category": "能源与航运",
+      "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
+      "url": "https://www.wsls.com/news/2026/08/22/somali-pirates-hijack-oil-tanker-off-yemen-in-latest-attack/",
+      "source": "wsls.com",
+      "publishedAt": "2026-08-22T14:15:00Z",
+      "fetchedAt": "2026-08-22T14:41:20.078Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wsls.com/news/2026/08/22/somali-pirates-hijack-oil-tanker-off-yemen-in-latest-attack/"
+    },
     {
       "id": "c0e7124ac6bbfa4b",
       "category": "能源与航运",
@@ -1474,195 +1665,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.nzherald.co.nz/nz/the-rise-of-the-robot-frontline-how-christchurch-made-machines-are-changing-security-policing-and-border-protection/premium/FWVGSUTV6FGF7ORXF2K2BPBAEE/"
-    },
-    {
-      "id": "3c9f3ff446d3c936",
-      "category": "能源与航运",
-      "title": "Štáty NATO rokovali o podpore voľnej plavby v Hormuzskom prielive",
-      "url": "https://hnonline.sk/svet/96298230-staty-nato-rokovali-o-podpore-volnej-plavby-v-hormuzskom-prielive",
-      "source": "hnonline.sk",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Slovak Republic"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hnonline.sk/svet/96298230-staty-nato-rokovali-o-podpore-volnej-plavby-v-hormuzskom-prielive"
-    },
-    {
-      "id": "b674f24ca18f0a1e",
-      "category": "数字资产",
-      "title": "Bitcoin Nears $80 , 000 Amid Biggest Weekly Rally In Three Years",
-      "url": "https://www.livemint.com/market/bitcoin-nears-80-000-amid-biggest-weekly-rally-in-three-years-11787346008375.html",
-      "source": "livemint.com",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livemint.com/market/bitcoin-nears-80-000-amid-biggest-weekly-rally-in-three-years-11787346008375.html"
-    },
-    {
-      "id": "f6b1ad531fd6f017",
-      "category": "能源与航运",
-      "title": "Navy dismantles crude oil theft network in Rivers , recovers 93 , 000 litres",
-      "url": "https://www.vanguardngr.com/2026/08/navy-dismantles-crude-oil-theft-network-in-rivers-recovers-93000-litres/",
-      "source": "vanguardngr.com",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.vanguardngr.com/2026/08/navy-dismantles-crude-oil-theft-network-in-rivers-recovers-93000-litres/"
-    },
-    {
-      "id": "46550b9088cd4b68",
-      "category": "能源与航运",
-      "title": "Gasolina y gasoil regular aumentan 3 pesos ; GLP se mantiene congelado",
-      "url": "https://eldia.com.do/gasolina-y-gasoil-regular-aumentan-3-pesos-glp-se-mantiene-congelado/",
-      "source": "eldia.com.do",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Dominican Republic"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://eldia.com.do/gasolina-y-gasoil-regular-aumentan-3-pesos-glp-se-mantiene-congelado/"
-    },
-    {
-      "id": "2e86529d2923c266",
-      "category": "科技与产业",
-      "title": "Robot Busted In Half After Racing Top Speed Straight Into A Wall",
-      "url": "https://kotaku.com/clanker-runs-full-speed-into-a-wall-and-then-snaps-in-half-after-stumbling-backwards-2000726696",
-      "source": "kotaku.com",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Japan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://kotaku.com/clanker-runs-full-speed-into-a-wall-and-then-snaps-in-half-after-stumbling-backwards-2000726696"
-    },
-    {
-      "id": "a87c243f1482a7f3",
-      "category": "科技与产业",
-      "title": "Robots humanoides podrían vivir un salto tecnológico similar al de ChatGPT",
-      "url": "https://www.diariodelsur.com.co/robots-humanoides-podrian-vivir-un-salto-tecnologico-similar-al-de-chatgpt/",
-      "source": "diariodelsur.com.co",
-      "publishedAt": "2026-08-21T21:15:00Z",
-      "fetchedAt": "2026-08-21T21:42:22.984Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Colombia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.diariodelsur.com.co/robots-humanoides-podrian-vivir-un-salto-tecnologico-similar-al-de-chatgpt/"
     }
   ]
 }
