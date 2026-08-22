@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T01:52:57.725Z",
-  "newsUpdatedAt": "2026-08-22T01:52:57.725Z",
-  "assetsUpdatedAt": "2026-08-22T01:52:57.725Z",
+  "generatedAt": "2026-08-22T03:09:23.440Z",
+  "newsUpdatedAt": "2026-08-22T03:09:23.440Z",
+  "assetsUpdatedAt": "2026-08-22T03:09:23.440Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,80 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77864,
-      "changePercent": 3.2052293225343234,
+      "price": 78597,
+      "changePercent": 5.798362842885452,
       "unit": "USD",
-      "asOf": "2026-08-22T01:51:50.000Z",
+      "asOf": "2026-08-22T03:08:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "9021007107ad2224",
+      "category": "全球与地区",
+      "title": "Trump warns of economic D - Day against Iran , but Tehran is well acquainted with sanctions",
+      "url": "https://www.dailyexcelsior.com/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions/",
+      "source": "dailyexcelsior.com",
+      "publishedAt": "2026-08-22T02:30:00Z",
+      "fetchedAt": "2026-08-22T03:09:23.440Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailyexcelsior.com/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions/"
+    },
+    {
+      "id": "24e1db4ca51290c9",
+      "category": "能源与航运",
+      "title": "Vuelven a subir el precio de la gasolina y el gasoil regular para la semana del 22 al 28 de agosto | La Nación Dominicana , Todo tu país , en un solo click ...!",
+      "url": "https://lanaciondominicana.com/noticia/vuelven-a-subir-el-precio-de-la-gasolina-y-el-gasoil-regular-para-la-semana-del-22/124916/",
+      "source": "lanaciondominicana.com",
+      "publishedAt": "2026-08-22T02:00:00Z",
+      "fetchedAt": "2026-08-22T03:09:23.440Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://lanaciondominicana.com/noticia/vuelven-a-subir-el-precio-de-la-gasolina-y-el-gasoil-regular-para-la-semana-del-22/124916/"
+    },
     {
       "id": "86155c349da26690",
       "category": "能源与航运",
@@ -1590,67 +1654,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cuba-sanctions-american-visitors-rubio-b3036693.html"
-    },
-    {
-      "id": "5c12c8a98932a464",
-      "category": "能源与航运",
-      "title": "Polar LNG has Chukchi Sea survey permit",
-      "url": "https://www.petroleumnews.com/story/2026/08/23/government/polar-lng-has-chukchi-sea-survey-permit/50324.html",
-      "source": "petroleumnews.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.petroleumnews.com/story/2026/08/23/government/polar-lng-has-chukchi-sea-survey-permit/50324.html"
-    },
-    {
-      "id": "7519bb6fb925a83e",
-      "category": "全球与地区",
-      "title": "A timeline of Donald Trump trade war with Canada",
-      "url": "https://panow.com/2026/08/20/a-timeline-of-donald-trumps-trade-war-with-canada-2/",
-      "source": "panow.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://panow.com/2026/08/20/a-timeline-of-donald-trumps-trade-war-with-canada-2/"
     }
   ]
 }
