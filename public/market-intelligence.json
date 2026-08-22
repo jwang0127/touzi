@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T18:50:57.137Z",
-  "newsUpdatedAt": "2026-08-22T14:41:20.078Z",
-  "assetsUpdatedAt": "2026-08-22T18:50:57.137Z",
+  "generatedAt": "2026-08-22T19:39:00.856Z",
+  "newsUpdatedAt": "2026-08-22T19:39:00.856Z",
+  "assetsUpdatedAt": "2026-08-22T19:39:00.856Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,372 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77188,
-      "changePercent": 0.6200825115864977,
+      "price": 77343,
+      "changePercent": 0.18358001163915919,
       "unit": "USD",
-      "asOf": "2026-08-22T18:49:20.000Z",
+      "asOf": "2026-08-22T19:38:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "ce5fca583efec626",
+      "category": "科技与产业",
+      "title": "Tether , il ceo Paolo Ardoino : i robot vengano a me",
+      "url": "https://www.milanofinanza.it/news/tether-il-ceo-paolo-ardoino-i-robot-vengano-a-me-202608211858283127",
+      "source": "milanofinanza.it",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.milanofinanza.it/news/tether-il-ceo-paolo-ardoino-i-robot-vengano-a-me-202608211858283127"
+    },
+    {
+      "id": "39bff7c814696802",
+      "category": "全球与地区",
+      "title": "Trump tariffs strain US - Canada ties as taxes hit both economies",
+      "url": "https://www.wdbo.com/news/business/trumps-trade-war/N74BCKKU2I5S7BLYSLCTVDISTA/",
+      "source": "wdbo.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wdbo.com/news/business/trumps-trade-war/N74BCKKU2I5S7BLYSLCTVDISTA/"
+    },
+    {
+      "id": "17322ae8127d3e46",
+      "category": "金属与资源",
+      "title": "Goldküste in Spanien : Campingplatz Gavina nach Wolkenbruch überflutet",
+      "url": "https://www.bild.de/news/ausland/goldkueste-in-spanien-campingplatz-gavina-nach-wolkenbruch-ueberflutet-6a898e4a2235ba2d4ccc5b24",
+      "source": "bild.de",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bild.de/news/ausland/goldkueste-in-spanien-campingplatz-gavina-nach-wolkenbruch-ueberflutet-6a898e4a2235ba2d4ccc5b24"
+    },
+    {
+      "id": "baf9cbed39780c3f",
+      "category": "科技与产业",
+      "title": "Chinese robot beats Usain Bolt 100m world record time",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/08/23/chinese-robot-beats-usain-bolt-s-100m-world-record-time",
+      "source": "freemalaysiatoday.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.freemalaysiatoday.com/category/highlight/2026/08/23/chinese-robot-beats-usain-bolt-s-100m-world-record-time"
+    },
+    {
+      "id": "8db611d02f24de71",
+      "category": "科技与产业",
+      "title": "Humanoid robot beats men 100m world record in Beijing - Xinhua",
+      "url": "https://english.news.cn/20260822/604bf4db46b94ce785f5eed71af441c6/c.html",
+      "source": "english.news.cn",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.news.cn/20260822/604bf4db46b94ce785f5eed71af441c6/c.html"
+    },
+    {
+      "id": "f0d66ad1502b6010",
+      "category": "金属与资源",
+      "title": "Goldankauf Rohrbach : Fair , seriös und freundlich",
+      "url": "https://www.sol.de/saarland/erfolgsgeschichten/goldankauf-rohrbach-fair-serioes-und-freundlich,747988.html",
+      "source": "sol.de",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sol.de/saarland/erfolgsgeschichten/goldankauf-rohrbach-fair-serioes-und-freundlich,747988.html"
+    },
+    {
+      "id": "4a1b5efeb86bc3fe",
+      "category": "全球与地区",
+      "title": "Iran Condemns US Plans to Announce New Sanctions",
+      "url": "https://english.aawsat.com/world/5309943-iran-condemns-us-plans-announce-new-sanctions",
+      "source": "english.aawsat.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://english.aawsat.com/world/5309943-iran-condemns-us-plans-announce-new-sanctions"
+    },
+    {
+      "id": "299fad9fa7736f47",
+      "category": "能源与航运",
+      "title": "Every Chokepoint That Isnt Hormuz",
+      "url": "https://oilprice.com/Energy/Energy-General/Every-Chokepoint-That-Isnt-Hormuz.html",
+      "source": "oilprice.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://oilprice.com/Energy/Energy-General/Every-Chokepoint-That-Isnt-Hormuz.html"
+    },
+    {
+      "id": "b4cf52c40ea54733",
+      "category": "科技与产业",
+      "title": "Roboter - WM : Maschine rennt 100 m schneller als Usain Bolt",
+      "url": "https://www.tagesanzeiger.ch/roboter-wm-maschine-rennt-100-m-schneller-als-usain-bolt-602404597835",
+      "source": "tagesanzeiger.ch",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Switzerland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tagesanzeiger.ch/roboter-wm-maschine-rennt-100-m-schneller-als-usain-bolt-602404597835"
+    },
+    {
+      "id": "a5f7a42df123d806",
+      "category": "科技与产业",
+      "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
+      "url": "http://www.somdnews.com/ap/world/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot/article_8d91788e-dffd-5554-b9cb-35be04e310ab.html",
+      "source": "somdnews.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.somdnews.com/ap/world/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot/article_8d91788e-dffd-5554-b9cb-35be04e310ab.html"
+    },
+    {
+      "id": "ee0410814d9412fe",
+      "category": "金属与资源",
+      "title": "नवजात शिशुओं को सोने की अंगूठी देगी तमिलनाडु सरकार , दो कंपनियों को दिया ऑर्डर - tamil nadu to give gold rings to newborns scheme details",
+      "url": "https://www.jagran.com/news/national-tamil-nadu-to-give-gold-rings-to-newborns-scheme-details-40349253.html",
+      "source": "jagran.com",
+      "publishedAt": "2026-08-22T19:30:00Z",
+      "fetchedAt": "2026-08-22T19:39:00.856Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.jagran.com/news/national-tamil-nadu-to-give-gold-rings-to-newborns-scheme-details-40349253.html"
+    },
     {
       "id": "cfff89c58135e58a",
       "category": "能源与航运",
@@ -1306,365 +1662,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.digitaljournal.com/article/the-megalibrary-that-could-transform-materials-discovery-and-accelerate-the-clean-energy-transition/"
-    },
-    {
-      "id": "a662d3b9b64e19b6",
-      "category": "全球与地区",
-      "title": "Georgia declines to join new EU sanctions against Iran",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/georgia-declines-join-new-eu-sanctions-against-iran",
-      "source": "middleeasteye.net",
-      "publishedAt": "2026-08-22T01:45:00Z",
-      "fetchedAt": "2026-08-22T01:52:57.725Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/georgia-declines-join-new-eu-sanctions-against-iran"
-    },
-    {
-      "id": "41350775cbdb7f1b",
-      "category": "科技与产业",
-      "title": "Người Việt chi 2 . 400 tỷ đồng mua robot hút bụi trong một năm",
-      "url": "https://vnexpress.net/nguoi-viet-chi-2-400-ty-dong-mua-robot-hut-bui-trong-mot-nam-5111598.html",
-      "source": "vnexpress.net",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://vnexpress.net/nguoi-viet-chi-2-400-ty-dong-mua-robot-hut-bui-trong-mot-nam-5111598.html"
-    },
-    {
-      "id": "44c1aacf49c93bfc",
-      "category": "数字资产",
-      "title": "Crypto News : Pepeto Update On Binance Debut And Ethereum Price Prediction Targets $10 , 000",
-      "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/crypto-news-pepeto-update-on-binance-debut-and-ethereum-price-prediction-targets-10000/2410221",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/crypto-news-pepeto-update-on-binance-debut-and-ethereum-price-prediction-targets-10000/2410221"
-    },
-    {
-      "id": "ed889b7aa4202b8d",
-      "category": "能源与航运",
-      "title": "Oil Rises as US Targets Iran Economy",
-      "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/",
-      "source": "rigzone.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/"
-    },
-    {
-      "id": "a58473b41b03e69d",
-      "category": "金属与资源",
-      "title": "Wall Street bereft of bears after gold smashes $4 , 600 / oz , Main Street bolsters bullish majority with Warsh , PCE in focus",
-      "url": "http://www.kitco.com/news/article/2026-08-21/wall-street-bereft-bears-after-gold-smashes-4600oz-main-street-bolsters",
-      "source": "kitco.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.kitco.com/news/article/2026-08-21/wall-street-bereft-bears-after-gold-smashes-4600oz-main-street-bolsters"
-    },
-    {
-      "id": "2dadab6bf37652d7",
-      "category": "金属与资源",
-      "title": "SunLive - Tauranga golden brew heads to Beervana - The Bay News First",
-      "url": "https://www.sunlive.co.nz/news/384425-tauranga---s-golden-brew-heads-to-beervana.html",
-      "source": "sunlive.co.nz",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sunlive.co.nz/news/384425-tauranga---s-golden-brew-heads-to-beervana.html"
-    },
-    {
-      "id": "153ea382badded2b",
-      "category": "能源与航运",
-      "title": "Por tercera semana consecutiva , Gobierno aumenta precios de gasolina y gasoil regular",
-      "url": "https://listindiario.com/economia/combustibles/20260821/gobierno-aumenta-rd-3-00-gasolina-gasoil-regular_919062.html",
-      "source": "listindiario.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://listindiario.com/economia/combustibles/20260821/gobierno-aumenta-rd-3-00-gasolina-gasoil-regular_919062.html"
-    },
-    {
-      "id": "c773f62937557a51",
-      "category": "金属与资源",
-      "title": "Gold , silver extend rally as dollar slide offsets higher yields - Kitco PM Report",
-      "url": "http://www.kitco.com/news/article/2026-08-21/gold-silver-extend-rally-dollar-slide-offsets-higher-yields-kitco-pm-report",
-      "source": "kitco.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.kitco.com/news/article/2026-08-21/gold-silver-extend-rally-dollar-slide-offsets-higher-yields-kitco-pm-report"
-    },
-    {
-      "id": "d3d816695903b2fb",
-      "category": "金属与资源",
-      "title": "T . N . Government places orders with two jewellers for supply of gold rings scheme",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/thaimaman-thanga-mothiram-scheme-work-orders-issued-to-joyalukkas-kalyan-jewellers-for-gold-ring-supply/article71375124.ece",
-      "source": "thehindu.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindu.com/news/national/tamil-nadu/thaimaman-thanga-mothiram-scheme-work-orders-issued-to-joyalukkas-kalyan-jewellers-for-gold-ring-supply/article71375124.ece"
-    },
-    {
-      "id": "fca2219203bf4535",
-      "category": "金属与资源",
-      "title": "WWE Star Matt Cardona Sees Silver Lining To Chelsea Green Current Injury",
-      "url": "https://www.wrestlinginc.com/2241914/wwe-matt-cardona-chelsea-green-silver-lining-injury/",
-      "source": "wrestlinginc.com",
-      "publishedAt": "2026-08-21T23:15:00Z",
-      "fetchedAt": "2026-08-21T23:42:03.718Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wrestlinginc.com/2241914/wwe-matt-cardona-chelsea-green-silver-lining-injury/"
-    },
-    {
-      "id": "7cd3e98a89345d2e",
-      "category": "科技与产业",
-      "title": "The rise of the robot front line : How Christchurch - made machines are changing security , policing and border protection",
-      "url": "https://www.nzherald.co.nz/nz/the-rise-of-the-robot-frontline-how-christchurch-made-machines-are-changing-security-policing-and-border-protection/premium/FWVGSUTV6FGF7ORXF2K2BPBAEE/",
-      "source": "nzherald.co.nz",
-      "publishedAt": "2026-08-21T21:30:00Z",
-      "fetchedAt": "2026-08-21T22:44:30.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nzherald.co.nz/nz/the-rise-of-the-robot-frontline-how-christchurch-made-machines-are-changing-security-policing-and-border-protection/premium/FWVGSUTV6FGF7ORXF2K2BPBAEE/"
     }
   ]
 }
