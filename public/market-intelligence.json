@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-22T07:02:12.532Z",
-  "newsUpdatedAt": "2026-08-22T04:52:20.372Z",
-  "assetsUpdatedAt": "2026-08-22T07:02:12.532Z",
+  "generatedAt": "2026-08-22T07:47:52.527Z",
+  "newsUpdatedAt": "2026-08-22T07:47:52.527Z",
+  "assetsUpdatedAt": "2026-08-22T07:47:52.527Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,277 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77466,
-      "changePercent": 2.4284134196987046,
+      "price": 77366,
+      "changePercent": 1.1381620731424993,
       "unit": "USD",
-      "asOf": "2026-08-22T07:01:10.000Z",
+      "asOf": "2026-08-22T07:47:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "9eb6912061a3739c",
+      "category": "全球与地区",
+      "title": "A list of some of the items the U . S . is slapping with a 50 per cent tariff",
+      "url": "https://www.kelownadailycourier.ca/news/national_news/article_c56e9b43-e7e4-53cf-b54f-8d4f56d4fe30.html",
+      "source": "kelownadailycourier.ca",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kelownadailycourier.ca/news/national_news/article_c56e9b43-e7e4-53cf-b54f-8d4f56d4fe30.html"
+    },
+    {
+      "id": "1b699b4530f64673",
+      "category": "全球与地区",
+      "title": "Guerra Ucrania - Rusia , en DIRECTO | Última hora del conflicto y las negociaciones",
+      "url": "https://www.elperiodico.com/es/internacional/20260822/guerra-ucrania-rusia-ultima-hora-126605559",
+      "source": "elperiodico.com",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elperiodico.com/es/internacional/20260822/guerra-ucrania-rusia-ultima-hora-126605559"
+    },
+    {
+      "id": "a76d45806a01988b",
+      "category": "能源与航运",
+      "title": "非保供季 不打烊 ， 山东港华安子坡LNG储配站备战冬供",
+      "url": "https://baijiahao.baidu.com/s?id=1874202835490352190",
+      "source": "baijiahao.baidu.com",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://baijiahao.baidu.com/s?id=1874202835490352190"
+    },
+    {
+      "id": "2510149c301edaa4",
+      "category": "能源与航运",
+      "title": "ANLEIHEN - Woche KW34 - 2026 : Deutsche Rohstoff , AREAM , Paribus , DEAG , Photon Energy , JDC , Branicks , PCC , HMS Bergbau , The Platform Group , pferdewetten . de , Eleving , hep , Circus , …",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69379870-anleihen-woche-kw34-2026-deutsche-rohstoff-aream-paribus-deag-photon-energy-jdc-branicks-pcc-hms-bergbau-the-platform-group-pferdewetten-496.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69379870-anleihen-woche-kw34-2026-deutsche-rohstoff-aream-paribus-deag-photon-energy-jdc-branicks-pcc-hms-bergbau-the-platform-group-pferdewetten-496.htm"
+    },
+    {
+      "id": "5024d21bda867553",
+      "category": "金属与资源",
+      "title": "HC Wainwright Cuts Americas Gold and Silver ( NYSEAMERICAN : USAS ) Price Target to $9 . 25",
+      "url": "https://www.dailypolitical.com/2026/08/21/hc-wainwright-cuts-americas-gold-and-silver-nyseamericanusas-price-target-to-9-25.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/08/21/hc-wainwright-cuts-americas-gold-and-silver-nyseamericanusas-price-target-to-9-25.html"
+    },
+    {
+      "id": "c978405446d238b7",
+      "category": "金属与资源",
+      "title": "Kehanete göre , gizli metal elementi içeren bu 3 burç , zenginlik ve iyi şansı kendine çekiyor",
+      "url": "https://www.sozcu.com.tr/kehanete-gore-gizli-metal-elementi-iceren-bu-3-burc-zenginlik-ve-iyi-sansi-kendine-cekiyor-p351629",
+      "source": "sozcu.com.tr",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Turkey"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sozcu.com.tr/kehanete-gore-gizli-metal-elementi-iceren-bu-3-burc-zenginlik-ve-iyi-sansi-kendine-cekiyor-p351629"
+    },
+    {
+      "id": "4afc0b1afe4589f7",
+      "category": "能源与航运",
+      "title": "Led by energy stocks , PSX gains 575 points",
+      "url": "https://tribune.com.pk/story/2625172/led-by-energy-stocks-psx-gains-575-points",
+      "source": "tribune.com.pk",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tribune.com.pk/story/2625172/led-by-energy-stocks-psx-gains-575-points"
+    },
+    {
+      "id": "2bb12c1f8a839dfb",
+      "category": "金属与资源",
+      "title": "सोना इस हफ्ते 8 हजार रुपए से अधिक महंगा हुआ , चांदी 2 . 46 लाख के पार | Gold prices rose by over ₹8 , 000 this week ; silver crossed the ₹2 . 46 lakh mark .",
+      "url": "https://www.deshbandhu.co.in/breaking-news/gold-prices-rose-by-over-8000-this-week-silver-crossed-the-246-lakh-mark-316950",
+      "source": "deshbandhu.co.in",
+      "publishedAt": "2026-08-22T06:45:00Z",
+      "fetchedAt": "2026-08-22T07:47:52.527Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.deshbandhu.co.in/breaking-news/gold-prices-rose-by-over-8000-this-week-silver-crossed-the-246-lakh-mark-316950"
+    },
     {
       "id": "4d567882015c5d8b",
       "category": "能源与航运",
@@ -1428,253 +1689,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.africanews.com/2026/08/21/central-african-republic-shuts-zamboye-gold-mine-after-deadly-collapse/"
-    },
-    {
-      "id": "66cea2e4ad7ed757",
-      "category": "全球与地区",
-      "title": "Cambodia inaugurates Senate building funded by sanctioned tycoon",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/08/21/cambodia-opens-senate-building-tied-to-sanctioned-tycoon",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/08/21/cambodia-opens-senate-building-tied-to-sanctioned-tycoon"
-    },
-    {
-      "id": "7a7d1952231c7a4b",
-      "category": "金属与资源",
-      "title": "Weezer Takes The Gold Album Literally on The Tonight Show",
-      "url": "https://www.bxr.com/2026/08/21/weezer-takes-the-gold-album-literally-on-the-tonight-show/",
-      "source": "bxr.com",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bxr.com/2026/08/21/weezer-takes-the-gold-album-literally-on-the-tonight-show/"
-    },
-    {
-      "id": "c437b3379fa8e10d",
-      "category": "能源与航运",
-      "title": "The secret Hormuz deal : How the US and Iran divided the Straits as Trump plays the oil game",
-      "url": "https://www.bankingnews.gr/diethni/articles/894877/the-secret-hormuz-deal-how-the-us-and-iran-divided-the-straits-as-trump-plays-the-oil-game%20title=",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-08-21T09:15:00Z",
-      "fetchedAt": "2026-08-21T09:53:50.348Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/894877/the-secret-hormuz-deal-how-the-us-and-iran-divided-the-straits-as-trump-plays-the-oil-game%20title="
-    },
-    {
-      "id": "d7c79d9e0f96efcf",
-      "category": "金属与资源",
-      "title": "Muthoot , Manappuram Finance shares jump up to 7 % in 2 days as gold crosses Rs 1 . 6 lakh / 10 gm",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-manappuram-finance-shares-jump-up-to-7-in-2-days-as-gold-crosses-rs-1-6-lakh/10-gm/articleshow/133394594.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-08-21T06:45:00Z",
-      "fetchedAt": "2026-08-21T07:09:56.444Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-manappuram-finance-shares-jump-up-to-7-in-2-days-as-gold-crosses-rs-1-6-lakh/10-gm/articleshow/133394594.cms"
-    },
-    {
-      "id": "2ab06b58dd021e47",
-      "category": "金属与资源",
-      "title": "Gold rises ₹1 , 205 on MCX , silver gains ₹1 , 745 on safe - haven demand",
-      "url": "https://www.business-standard.com/markets/commodities/gold-rises-1-205-on-mcx-silver-gains-1-745-on-safe-haven-demand-126082100374_1.html",
-      "source": "business-standard.com",
-      "publishedAt": "2026-08-21T06:45:00Z",
-      "fetchedAt": "2026-08-21T07:09:56.444Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.business-standard.com/markets/commodities/gold-rises-1-205-on-mcx-silver-gains-1-745-on-safe-haven-demand-126082100374_1.html"
-    },
-    {
-      "id": "b8bb8515b262bf5a",
-      "category": "数字资产",
-      "title": "Metaplanet - Aktie mit Kursrally : Höhenflug von Bitcoin , Ethereum & Co . treibt an",
-      "url": "https://www.finanzen.net/nachricht/aktien/bitcoin-rally-treibt-kurs-metaplanet-aktie-schiesst-zweistellig-hoch-kryptorally-erreicht-asien-00-15891746",
-      "source": "finanzen.net",
-      "publishedAt": "2026-08-21T06:45:00Z",
-      "fetchedAt": "2026-08-21T07:09:56.444Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.net/nachricht/aktien/bitcoin-rally-treibt-kurs-metaplanet-aktie-schiesst-zweistellig-hoch-kryptorally-erreicht-asien-00-15891746"
-    },
-    {
-      "id": "9cbe5d392d2512a2",
-      "category": "数字资产",
-      "title": "Bitcoin Wave Analysis - ActionForex",
-      "url": "https://www.actionforex.com/contributors/technical-analysis/651324-bitcoin-wave-analysis-40/",
-      "source": "actionforex.com",
-      "publishedAt": "2026-08-21T06:45:00Z",
-      "fetchedAt": "2026-08-21T07:09:56.444Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.actionforex.com/contributors/technical-analysis/651324-bitcoin-wave-analysis-40/"
-    },
-    {
-      "id": "0fd24c476108113e",
-      "category": "全球与地区",
-      "title": "What Defensible Marine Insurance Compliance Looks Like in 2026 | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/what-defensible-marine-insurance-compliance-looks-like-in-2026/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-08-20T22:15:00Z",
-      "fetchedAt": "2026-08-20T22:47:34.559Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/what-defensible-marine-insurance-compliance-looks-like-in-2026/"
     }
   ]
 }
