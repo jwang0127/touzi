@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-23T18:50:27.386Z",
-  "newsUpdatedAt": "2026-08-23T17:38:03.015Z",
-  "assetsUpdatedAt": "2026-08-23T18:50:27.386Z",
+  "generatedAt": "2026-08-23T19:38:30.894Z",
+  "newsUpdatedAt": "2026-08-23T19:38:30.894Z",
+  "assetsUpdatedAt": "2026-08-23T19:38:30.894Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77276,
-      "changePercent": 0.10944342551615908,
+      "price": 77335,
+      "changePercent": -0.017301704966090823,
       "unit": "USD",
-      "asOf": "2026-08-23T18:48:40.000Z",
+      "asOf": "2026-08-23T19:37:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +140,47 @@
   ],
   "news": [
     {
-      "id": "9dcae4368eade9c6",
+      "id": "0cea8b355a55715f",
+      "category": "金属与资源",
+      "title": "Penn State Wrestler Jayden James Takes Silver At U20 World Championships In Bratislava",
+      "url": "https://onwardstate.com/2026/08/23/penn-state-wrestler-jayden-james-takes-silver-at-u20-world-championships-in-bratislava/",
+      "source": "onwardstate.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://onwardstate.com/2026/08/23/penn-state-wrestler-jayden-james-takes-silver-at-u20-world-championships-in-bratislava/"
+    },
+    {
+      "id": "9205dd955dd84807",
       "category": "全球与地区",
-      "title": "U . S . To Impose Tough New Economic Sanctions On Iran",
-      "url": "https://wsfcam.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/",
-      "source": "wsfcam.iheart.com",
-      "publishedAt": "2026-08-23T17:15:00Z",
-      "fetchedAt": "2026-08-23T17:38:03.015Z",
+      "title": "U . S . To Impose Tough New Economic Sanctions On Iran | News Talk 1090 WKBZ - AM",
+      "url": "https://newstalk1090.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/",
+      "source": "newstalk1090.iheart.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -165,7 +199,227 @@
       "impact": "偏负面",
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wsfcam.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/"
+      "provenanceUrl": "https://newstalk1090.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/"
+    },
+    {
+      "id": "81e8d5d176e61cf7",
+      "category": "全球与地区",
+      "title": "U . S . To Impose Tough New Economic Sanctions On Iran",
+      "url": "https://newsradio1049.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/",
+      "source": "newsradio1049.iheart.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newsradio1049.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/"
+    },
+    {
+      "id": "fc9aa83895592cfa",
+      "category": "全球与地区",
+      "title": "Iran FM Araghchi dismisses renewed US threats of economic sanctions against Tehran – The Indian Awaaz",
+      "url": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-renewed-us-threats-of-economic-sanctions-against-tehran/",
+      "source": "theindianawaaz.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-renewed-us-threats-of-economic-sanctions-against-tehran/"
+    },
+    {
+      "id": "4f47d98693e8b461",
+      "category": "金属与资源",
+      "title": "Liang / Wang claim China only gold as France wins big at BWF Worlds",
+      "url": "http://www.malaysiasun.com/news/279259834/liangwang-claim-china-only-gold-as-france-wins-big-at-bwf-worlds",
+      "source": "malaysiasun.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.malaysiasun.com/news/279259834/liangwang-claim-china-only-gold-as-france-wins-big-at-bwf-worlds"
+    },
+    {
+      "id": "cfca5d0db06d9899",
+      "category": "能源与航运",
+      "title": "Trumps trumf : united states i hemmelig operation i Hormuzstrædet – Ekstra Bladet",
+      "url": "https://ekstrabladet.dk/nyheder/Udland/trumps-trumf-usa-i-hemmelig-operation-i-hormuzstraedet/11263358",
+      "source": "ekstrabladet.dk",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Denmark"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ekstrabladet.dk/nyheder/Udland/trumps-trumf-usa-i-hemmelig-operation-i-hormuzstraedet/11263358"
+    },
+    {
+      "id": "66d82bc07078cf9d",
+      "category": "全球与地区",
+      "title": "Pierre Poilievre on jacked - up tariffs : We have what the Americans need",
+      "url": "https://www.woodstocksentinelreview.com:443/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5",
+      "source": "woodstocksentinelreview.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.woodstocksentinelreview.com:443/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5"
+    },
+    {
+      "id": "d5e609b4d461230f",
+      "category": "金属与资源",
+      "title": "ahmedabad airport customs seizes gold chain worth 83 lakh from passenger",
+      "url": "https://www.prabhasakshi.com/national/ahmedabad-airport-customs-seizes-gold-chain-worth-83-lakh-from-passenger",
+      "source": "prabhasakshi.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prabhasakshi.com/national/ahmedabad-airport-customs-seizes-gold-chain-worth-83-lakh-from-passenger"
+    },
+    {
+      "id": "c5c38f26f920007e",
+      "category": "全球与地区",
+      "title": "Iran FM Araghchi dismisses US threats of economic sanctions – The Indian Awaaz",
+      "url": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-us-threats-of-economic-sanctions/",
+      "source": "theindianawaaz.com",
+      "publishedAt": "2026-08-23T19:15:00Z",
+      "fetchedAt": "2026-08-23T19:38:30.894Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-us-threats-of-economic-sanctions/"
     },
     {
       "id": "4fab8cf8f3637155",
@@ -226,34 +480,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.jagran.com/uttar-pradesh/lucknow-city-lucknow-wins-20th-state-taekwondo-championship-with-33-gold-40350101.html"
-    },
-    {
-      "id": "a7618d3210324c43",
-      "category": "全球与地区",
-      "title": "Pierre Poilievre on jacked - up tariffs : We have what the Americans need",
-      "url": "https://www.chathamdailynews.ca/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5",
-      "source": "chathamdailynews.ca",
-      "publishedAt": "2026-08-23T17:15:00Z",
-      "fetchedAt": "2026-08-23T17:38:03.015Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chathamdailynews.ca/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5"
     },
     {
       "id": "9e4e3f63cde5a171",
@@ -1430,232 +1656,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://oilprice.com/Energy/Energy-General/Every-Chokepoint-That-Isnt-Hormuz.html"
-    },
-    {
-      "id": "b4cf52c40ea54733",
-      "category": "科技与产业",
-      "title": "Roboter - WM : Maschine rennt 100 m schneller als Usain Bolt",
-      "url": "https://www.tagesanzeiger.ch/roboter-wm-maschine-rennt-100-m-schneller-als-usain-bolt-602404597835",
-      "source": "tagesanzeiger.ch",
-      "publishedAt": "2026-08-22T19:30:00Z",
-      "fetchedAt": "2026-08-22T19:39:00.856Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Switzerland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tagesanzeiger.ch/roboter-wm-maschine-rennt-100-m-schneller-als-usain-bolt-602404597835"
-    },
-    {
-      "id": "ee0410814d9412fe",
-      "category": "金属与资源",
-      "title": "नवजात शिशुओं को सोने की अंगूठी देगी तमिलनाडु सरकार , दो कंपनियों को दिया ऑर्डर - tamil nadu to give gold rings to newborns scheme details",
-      "url": "https://www.jagran.com/news/national-tamil-nadu-to-give-gold-rings-to-newborns-scheme-details-40349253.html",
-      "source": "jagran.com",
-      "publishedAt": "2026-08-22T19:30:00Z",
-      "fetchedAt": "2026-08-22T19:39:00.856Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jagran.com/news/national-tamil-nadu-to-give-gold-rings-to-newborns-scheme-details-40349253.html"
-    },
-    {
-      "id": "cfff89c58135e58a",
-      "category": "能源与航运",
-      "title": "Saudi Aramco sells China crude for loading outside Hormuz",
-      "url": "http://www.neworleanssun.com/news/279254664/saudi-aramco-sells-china-crude-for-loading-outside-hormuz",
-      "source": "neworleanssun.com",
-      "publishedAt": "2026-08-22T14:15:00Z",
-      "fetchedAt": "2026-08-22T14:41:20.078Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.neworleanssun.com/news/279254664/saudi-aramco-sells-china-crude-for-loading-outside-hormuz"
-    },
-    {
-      "id": "5553c8a2cd8094c4",
-      "category": "科技与产业",
-      "title": "Phil Drietz letter : China is leading in AI and robots",
-      "url": "https://www.wctrib.com/opinion/letters/phil-drietzs-letter-china-is-leading-in-ai-and-robots",
-      "source": "wctrib.com",
-      "publishedAt": "2026-08-22T14:15:00Z",
-      "fetchedAt": "2026-08-22T14:41:20.078Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wctrib.com/opinion/letters/phil-drietzs-letter-china-is-leading-in-ai-and-robots"
-    },
-    {
-      "id": "55837556bae0cd16",
-      "category": "全球与地区",
-      "title": "U . S ., Iran keep up hostile rhetoric ahead of new sanctions",
-      "url": "https://www.nbcnews.com/world/iran/us-iran-keep-hostile-rhetoric-ahead-new-sanctions-rcna593870",
-      "source": "nbcnews.com",
-      "publishedAt": "2026-08-22T14:15:00Z",
-      "fetchedAt": "2026-08-22T14:41:20.078Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nbcnews.com/world/iran/us-iran-keep-hostile-rhetoric-ahead-new-sanctions-rcna593870"
-    },
-    {
-      "id": "a15d0afaf62da4c8",
-      "category": "能源与航运",
-      "title": "Saudis Shuttle Oil North On Tankers To Evade Houthis",
-      "url": "https://gcaptain.com/saudis-shuttle-oil-north-on-tankers-to-evade-houthis/",
-      "source": "gcaptain.com",
-      "publishedAt": "2026-08-22T14:15:00Z",
-      "fetchedAt": "2026-08-22T14:41:20.078Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://gcaptain.com/saudis-shuttle-oil-north-on-tankers-to-evade-houthis/"
-    },
-    {
-      "id": "7aebb4ac390ce070",
-      "category": "科技与产业",
-      "title": "Chinese robot beats Usain Bolt 100m world record in test run",
-      "url": "https://news.az/news/chinese-robot-beats-usain-bolts-100m-world-record-in-test-run",
-      "source": "news.az",
-      "publishedAt": "2026-08-22T14:15:00Z",
-      "fetchedAt": "2026-08-22T14:41:20.078Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.az/news/chinese-robot-beats-usain-bolts-100m-world-record-in-test-run"
     }
   ]
 }
