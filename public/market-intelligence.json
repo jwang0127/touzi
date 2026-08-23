@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-23T07:49:19.142Z",
-  "newsUpdatedAt": "2026-08-23T03:17:26.434Z",
-  "assetsUpdatedAt": "2026-08-23T07:49:19.142Z",
+  "generatedAt": "2026-08-23T08:51:17.063Z",
+  "newsUpdatedAt": "2026-08-23T08:51:17.063Z",
+  "assetsUpdatedAt": "2026-08-23T08:51:17.063Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,216 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 76045,
-      "changePercent": -1.6665721552819461,
+      "price": 76490,
+      "changePercent": -0.8992799126978585,
       "unit": "USD",
-      "asOf": "2026-08-23T07:48:30.000Z",
+      "asOf": "2026-08-23T08:50:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "7df1d02b0ebda661",
+      "category": "金属与资源",
+      "title": "Sabarimala and Guruvayoor to Lead Gold Verification Initiative | ദേവസ്വം സ്വര്‍ണത്തിന്‍റെ ശുദ്ധിപരിശോധിക്കാന്‍ ലാബ് വരും ; ആദ്യഘട്ടം ശബരിമലയിലും ഗുരുവായൂരിലും",
+      "url": "https://www.manoramanews.com/kerala/latest/2026/08/23/sabarimala-guruvayoor-gold-verification.html",
+      "source": "manoramanews.com",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manoramanews.com/kerala/latest/2026/08/23/sabarimala-guruvayoor-gold-verification.html"
+    },
+    {
+      "id": "22d0f1913af76b1c",
+      "category": "科技与产业",
+      "title": "Schneller als Usain Bolt : Roboter aus China unterbietet Weltrekord",
+      "url": "http://www.merkur.de/welt/schneller-als-usain-bolt-roboter-aus-china-unterbietet-weltrekord-zr-94455549.html",
+      "source": "merkur.de",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.merkur.de/welt/schneller-als-usain-bolt-roboter-aus-china-unterbietet-weltrekord-zr-94455549.html"
+    },
+    {
+      "id": "664254e47e853e66",
+      "category": "金属与资源",
+      "title": "Gangster Goldy Brar allegedly claims in leaked audio that he ...",
+      "url": "https://dailypioneer.com/news/gangster-goldy-brar-allegedly-claims-in-leaked-audio",
+      "source": "dailypioneer.com",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://dailypioneer.com/news/gangster-goldy-brar-allegedly-claims-in-leaked-audio"
+    },
+    {
+      "id": "928f24dcc4902c01",
+      "category": "能源与航运",
+      "title": "The Savannah River swapped bare marsh edge for oyster reefs in 2023 ; wave energy fell by up to 40 %, giving Georgia coasts a tougher storm shield",
+      "url": "https://economictimes.indiatimes.com/news/international/us/the-savannah-river-swapped-bare-marsh-edge-for-oyster-reefs-in-2023-wave-energy-fell-by-up-to-40-giving-georgia-coasts-a-tougher-storm-shield/articleshow/133421908.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/us/the-savannah-river-swapped-bare-marsh-edge-for-oyster-reefs-in-2023-wave-energy-fell-by-up-to-40-giving-georgia-coasts-a-tougher-storm-shield/articleshow/133421908.cms"
+    },
+    {
+      "id": "195e94f7ad1246f4",
+      "category": "科技与产业",
+      "title": "Chinese robotics fair draws crowds as industry brews innovation",
+      "url": "http://www.china.org.cn/2026-08/22/content_118659727.shtml",
+      "source": "china.org.cn",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.china.org.cn/2026-08/22/content_118659727.shtml"
+    },
+    {
+      "id": "d256deb6f308d274",
+      "category": "能源与航运",
+      "title": "Households set to learn how energy bills will change as Ofgem reveals new cap",
+      "url": "https://www.eadt.co.uk/news/national/26487668.households-set-learn-energy-bills-will-change-ofgem-reveals-new-cap/",
+      "source": "eadt.co.uk",
+      "publishedAt": "2026-08-23T08:30:00Z",
+      "fetchedAt": "2026-08-23T08:51:17.063Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.eadt.co.uk/news/national/26487668.households-set-learn-energy-bills-will-change-ofgem-reveals-new-cap/"
+    },
     {
       "id": "938ed1653ee1e09f",
       "category": "全球与地区",
@@ -1464,179 +1662,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.iranoilgas.com/news/details.aspx?id=28960&title=Iraq+plans+to+raise+oil+output+to+8mln+to+10mln+bpd+within+six+years:+PM+"
-    },
-    {
-      "id": "cfdce547072dfd66",
-      "category": "全球与地区",
-      "title": "US is set to impose 50 % tariffs on $20 billion worth of Canadian products",
-      "url": "https://www.elpasoinc.com/news/ap_wire/us-is-set-to-impose-50-tariffs-on-20-billion-worth-of-canadian-products/article_b79febb8-d4e1-5108-88b9-1551793f935c.html",
-      "source": "elpasoinc.com",
-      "publishedAt": "2026-08-22T08:15:00Z",
-      "fetchedAt": "2026-08-22T08:50:26.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.elpasoinc.com/news/ap_wire/us-is-set-to-impose-50-tariffs-on-20-billion-worth-of-canadian-products/article_b79febb8-d4e1-5108-88b9-1551793f935c.html"
-    },
-    {
-      "id": "f3397d34216417a1",
-      "category": "全球与地区",
-      "title": "Trump imposes 50 % tariffs after US - Canada trade talks collapse at last minute",
-      "url": "https://www.thejournal.ie/us-canda-trade-talks-tariffs-7138878-Aug2026/",
-      "source": "thejournal.ie",
-      "publishedAt": "2026-08-22T08:15:00Z",
-      "fetchedAt": "2026-08-22T08:50:26.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ireland"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thejournal.ie/us-canda-trade-talks-tariffs-7138878-Aug2026/"
-    },
-    {
-      "id": "8bb306e14ab6a6b0",
-      "category": "全球与地区",
-      "title": "Canada threatens to retaliate as US warns of 50 % tariffs on products",
-      "url": "https://www.thewestmorlandgazette.co.uk/news/national/26486625.canada-threatens-retaliate-us-warns-50-tariffs-products/",
-      "source": "thewestmorlandgazette.co.uk",
-      "publishedAt": "2026-08-22T08:15:00Z",
-      "fetchedAt": "2026-08-22T08:50:26.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thewestmorlandgazette.co.uk/news/national/26486625.canada-threatens-retaliate-us-warns-50-tariffs-products/"
-    },
-    {
-      "id": "cf2d69bfe81252b6",
-      "category": "数字资产",
-      "title": "FPJ Quick Take At 12 PM : Bitcoin Nears $80 , 000 , US - Canada Trade Deal Collapse ; Your Daily Noon Guide To Top News That Matters",
-      "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-bitcoin-nears-80000-us-canada-trade-deal-collapses-your-daily-noon-guide-to-top-news-that-matters",
-      "source": "freepressjournal.in",
-      "publishedAt": "2026-08-22T08:15:00Z",
-      "fetchedAt": "2026-08-22T08:50:26.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-bitcoin-nears-80000-us-canada-trade-deal-collapses-your-daily-noon-guide-to-top-news-that-matters"
-    },
-    {
-      "id": "e301f65e9ec3c5bb",
-      "category": "科技与产业",
-      "title": "Unitree , el robot que salta dos metros y ya vale 44 . 000 millones en bolsa",
-      "url": "https://www.diariodejerez.es/tecnologia/unitree-robot-salta-metros-millones_0_2007762174.html",
-      "source": "diariodejerez.es",
-      "publishedAt": "2026-08-22T08:00:00Z",
-      "fetchedAt": "2026-08-22T08:50:26.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Spain"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.diariodejerez.es/tecnologia/unitree-robot-salta-metros-millones_0_2007762174.html"
-    },
-    {
-      "id": "9eb6912061a3739c",
-      "category": "全球与地区",
-      "title": "A list of some of the items the U . S . is slapping with a 50 per cent tariff",
-      "url": "https://www.kelownadailycourier.ca/news/national_news/article_c56e9b43-e7e4-53cf-b54f-8d4f56d4fe30.html",
-      "source": "kelownadailycourier.ca",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kelownadailycourier.ca/news/national_news/article_c56e9b43-e7e4-53cf-b54f-8d4f56d4fe30.html"
     }
   ]
 }
