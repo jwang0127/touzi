@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-23T02:01:45.200Z",
-  "newsUpdatedAt": "2026-08-22T22:41:17.156Z",
-  "assetsUpdatedAt": "2026-08-23T02:01:45.200Z",
+  "generatedAt": "2026-08-23T03:17:26.434Z",
+  "newsUpdatedAt": "2026-08-23T03:17:26.434Z",
+  "assetsUpdatedAt": "2026-08-23T03:17:26.434Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,300 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77172,
-      "changePercent": -0.8889097179710281,
+      "price": 77067,
+      "changePercent": -1.7952523677678294,
       "unit": "USD",
-      "asOf": "2026-08-23T02:00:20.000Z",
+      "asOf": "2026-08-23T03:16:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "938ed1653ee1e09f",
+      "category": "全球与地区",
+      "title": "US hits Canada with 50 % tariffs as trade war intensifies",
+      "url": "https://www.canoncitydailyrecord.com/2026/08/22/us-hits-canada-with-50-tariffs-as-trade-war-intensifies/",
+      "source": "canoncitydailyrecord.com",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.canoncitydailyrecord.com/2026/08/22/us-hits-canada-with-50-tariffs-as-trade-war-intensifies/"
+    },
+    {
+      "id": "26c23c471054cbc5",
+      "category": "能源与航运",
+      "title": "Strait of Hormuz will not open until US corrects its behaviour : Iran Mohsen Rezaei",
+      "url": "http://www.heraldglobe.com/news/279258975/strait-of-hormuz-will-not-open-until-us-corrects-its-behaviour-iran-mohsen-rezaei",
+      "source": "heraldglobe.com",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.heraldglobe.com/news/279258975/strait-of-hormuz-will-not-open-until-us-corrects-its-behaviour-iran-mohsen-rezaei"
+    },
+    {
+      "id": "e85779dff2a6601b",
+      "category": "能源与航运",
+      "title": "Oil Subsidy : Atiku Volte - Face and the Politics of Trust",
+      "url": "https://punchng.com/oil-subsidy-and-atikus-volte-face/",
+      "source": "punchng.com",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://punchng.com/oil-subsidy-and-atikus-volte-face/"
+    },
+    {
+      "id": "e2c4f2a371812ee7",
+      "category": "科技与产业",
+      "title": "Chinese company flexes dominance in robotics space with splashy stock market debut",
+      "url": "https://www.delawarepublic.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut",
+      "source": "delawarepublic.org",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.delawarepublic.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut"
+    },
+    {
+      "id": "940383bf3a57b1b7",
+      "category": "科技与产业",
+      "title": "Omroep Flevoland - Nieuws - Van boerenschuur naar robotica : Kevermepper groeit uit tot slimme landbouwmachine",
+      "url": "https://www.omroepflevoland.nl/nieuws/520920/van-boerenschuur-naar-robotica:-",
+      "source": "omroepflevoland.nl",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.omroepflevoland.nl/nieuws/520920/van-boerenschuur-naar-robotica:-"
+    },
+    {
+      "id": "cf77e69432c97f21",
+      "category": "能源与航运",
+      "title": "How to make scrambled eggs tastier without butter or oil",
+      "url": "https://www.express.co.uk/life-style/food/2240999/how-to-make-scrambled-eggs-tastier-exclusive",
+      "source": "express.co.uk",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.express.co.uk/life-style/food/2240999/how-to-make-scrambled-eggs-tastier-exclusive"
+    },
+    {
+      "id": "51e7280e400d4d14",
+      "category": "科技与产业",
+      "title": "From science fair to strategic showcase : a decade of China robot games",
+      "url": "https://www.spokesman.com/stories/2026/aug/21/from-science-fair-to-strategic-showcase-a-decade-o/",
+      "source": "spokesman.com",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.spokesman.com/stories/2026/aug/21/from-science-fair-to-strategic-showcase-a-decade-o/"
+    },
+    {
+      "id": "294fa6b11f105153",
+      "category": "全球与地区",
+      "title": "What to know about Trump 50 % tariffs on Canadian goods that just went into effect",
+      "url": "https://www.kmvt.com/2026/08/22/what-know-about-trumps-50-tariffs-canadian-goods-that-just-went-into-effect/",
+      "source": "kmvt.com",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kmvt.com/2026/08/22/what-know-about-trumps-50-tariffs-canadian-goods-that-just-went-into-effect/"
+    },
+    {
+      "id": "cc5701121de290c0",
+      "category": "全球与地区",
+      "title": "Iran warns countries against joining in US sanctions",
+      "url": "https://www.rte.ie/news/world/2026/0822/1588886-middle-east/",
+      "source": "rte.ie",
+      "publishedAt": "2026-08-23T02:30:00Z",
+      "fetchedAt": "2026-08-23T03:17:26.434Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Ireland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rte.ie/news/world/2026/0822/1588886-middle-east/"
+    },
     {
       "id": "c9632c7dedfdfc73",
       "category": "全球与地区",
@@ -166,34 +450,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.vanguardngr.com/2026/08/iran-warns-any-country-joining-us-sanctions-considered-enemy/"
-    },
-    {
-      "id": "0672152399270b87",
-      "category": "全球与地区",
-      "title": "What to know about Trump 50 % tariffs on Canadian goods that just went into effect",
-      "url": "https://www.news-gazette.com/news/nation-world/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect/article_3f208035-5645-5eb9-9417-8c740e0133de.html",
-      "source": "news-gazette.com",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.news-gazette.com/news/nation-world/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect/article_3f208035-5645-5eb9-9417-8c740e0133de.html"
     },
     {
       "id": "a2617704c377a88a",
@@ -292,38 +548,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://en.apa.az/europe/six-eu-countries-have-proposed-introducing-a-special-tax-on-oil-companies-521305"
-    },
-    {
-      "id": "c03da9fec4384265",
-      "category": "科技与产业",
-      "title": "Chinese company flexes dominance in robotics space with splashy stock market debut",
-      "url": "https://www.publicradioeast.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut",
-      "source": "publicradioeast.org",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.publicradioeast.org/2026-08-22/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut"
     },
     {
       "id": "c3a85d5c1f18bea3",
@@ -1413,239 +1637,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.kelownadailycourier.ca/news/national_news/article_c56e9b43-e7e4-53cf-b54f-8d4f56d4fe30.html"
-    },
-    {
-      "id": "1b699b4530f64673",
-      "category": "全球与地区",
-      "title": "Guerra Ucrania - Rusia , en DIRECTO | Última hora del conflicto y las negociaciones",
-      "url": "https://www.elperiodico.com/es/internacional/20260822/guerra-ucrania-rusia-ultima-hora-126605559",
-      "source": "elperiodico.com",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Spain"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.elperiodico.com/es/internacional/20260822/guerra-ucrania-rusia-ultima-hora-126605559"
-    },
-    {
-      "id": "a76d45806a01988b",
-      "category": "能源与航运",
-      "title": "非保供季 不打烊 ， 山东港华安子坡LNG储配站备战冬供",
-      "url": "https://baijiahao.baidu.com/s?id=1874202835490352190",
-      "source": "baijiahao.baidu.com",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baijiahao.baidu.com/s?id=1874202835490352190"
-    },
-    {
-      "id": "2510149c301edaa4",
-      "category": "能源与航运",
-      "title": "ANLEIHEN - Woche KW34 - 2026 : Deutsche Rohstoff , AREAM , Paribus , DEAG , Photon Energy , JDC , Branicks , PCC , HMS Bergbau , The Platform Group , pferdewetten . de , Eleving , hep , Circus , …",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69379870-anleihen-woche-kw34-2026-deutsche-rohstoff-aream-paribus-deag-photon-energy-jdc-branicks-pcc-hms-bergbau-the-platform-group-pferdewetten-496.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69379870-anleihen-woche-kw34-2026-deutsche-rohstoff-aream-paribus-deag-photon-energy-jdc-branicks-pcc-hms-bergbau-the-platform-group-pferdewetten-496.htm"
-    },
-    {
-      "id": "5024d21bda867553",
-      "category": "金属与资源",
-      "title": "HC Wainwright Cuts Americas Gold and Silver ( NYSEAMERICAN : USAS ) Price Target to $9 . 25",
-      "url": "https://www.dailypolitical.com/2026/08/21/hc-wainwright-cuts-americas-gold-and-silver-nyseamericanusas-price-target-to-9-25.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/08/21/hc-wainwright-cuts-americas-gold-and-silver-nyseamericanusas-price-target-to-9-25.html"
-    },
-    {
-      "id": "c978405446d238b7",
-      "category": "金属与资源",
-      "title": "Kehanete göre , gizli metal elementi içeren bu 3 burç , zenginlik ve iyi şansı kendine çekiyor",
-      "url": "https://www.sozcu.com.tr/kehanete-gore-gizli-metal-elementi-iceren-bu-3-burc-zenginlik-ve-iyi-sansi-kendine-cekiyor-p351629",
-      "source": "sozcu.com.tr",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Turkey"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sozcu.com.tr/kehanete-gore-gizli-metal-elementi-iceren-bu-3-burc-zenginlik-ve-iyi-sansi-kendine-cekiyor-p351629"
-    },
-    {
-      "id": "4afc0b1afe4589f7",
-      "category": "能源与航运",
-      "title": "Led by energy stocks , PSX gains 575 points",
-      "url": "https://tribune.com.pk/story/2625172/led-by-energy-stocks-psx-gains-575-points",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2625172/led-by-energy-stocks-psx-gains-575-points"
-    },
-    {
-      "id": "2bb12c1f8a839dfb",
-      "category": "金属与资源",
-      "title": "सोना इस हफ्ते 8 हजार रुपए से अधिक महंगा हुआ , चांदी 2 . 46 लाख के पार | Gold prices rose by over ₹8 , 000 this week ; silver crossed the ₹2 . 46 lakh mark .",
-      "url": "https://www.deshbandhu.co.in/breaking-news/gold-prices-rose-by-over-8000-this-week-silver-crossed-the-246-lakh-mark-316950",
-      "source": "deshbandhu.co.in",
-      "publishedAt": "2026-08-22T06:45:00Z",
-      "fetchedAt": "2026-08-22T07:47:52.527Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.deshbandhu.co.in/breaking-news/gold-prices-rose-by-over-8000-this-week-silver-crossed-the-246-lakh-mark-316950"
     }
   ]
 }
