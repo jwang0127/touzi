@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-24T15:03:01.876Z",
-  "newsUpdatedAt": "2026-08-24T14:07:34.216Z",
-  "assetsUpdatedAt": "2026-08-24T15:03:01.876Z",
+  "generatedAt": "2026-08-24T15:58:04.666Z",
+  "newsUpdatedAt": "2026-08-24T15:58:04.666Z",
+  "assetsUpdatedAt": "2026-08-24T15:58:04.666Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53379.89,
-      "changePercent": 0.19,
+      "price": 53437.3,
+      "changePercent": 0.3,
       "unit": "USD",
-      "asOf": "2026-08-24T11:03:40-04:00",
+      "asOf": "2026-08-24T11:59:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26010.92,
-      "changePercent": -0.65,
+      "price": 26063.8,
+      "changePercent": -0.45,
       "unit": "USD",
-      "asOf": "2026-08-24T11:03:40-04:00",
+      "asOf": "2026-08-24T11:59:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7651.08,
-      "changePercent": -0.3,
+      "price": 7660.76,
+      "changePercent": -0.18,
       "unit": "USD",
-      "asOf": "2026-08-24T11:03:40-04:00",
+      "asOf": "2026-08-24T11:58:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4728.44,
-      "changePercent": 1.02,
+      "price": 4706.9,
+      "changePercent": 0.56,
       "unit": "USD",
-      "asOf": "2026-08-24T23:03:06-04:00",
+      "asOf": "2026-08-24T23:59:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.06,
-      "changePercent": -2.3,
+      "price": 84.74,
+      "changePercent": -2.67,
       "unit": "USD",
-      "asOf": "2026-08-24T23:03:05-04:00",
+      "asOf": "2026-08-24T23:59:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 672.55,
-      "changePercent": 0.56,
+      "price": 671.8,
+      "changePercent": 0.45,
       "unit": "USD",
-      "asOf": "2026-08-24T23:03:03-04:00",
+      "asOf": "2026-08-24T23:58:53-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,298 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79391,
-      "changePercent": 2.848586474807501,
+      "price": 79037,
+      "changePercent": 2.450954496205251,
       "unit": "USD",
-      "asOf": "2026-08-24T15:02:10.000Z",
+      "asOf": "2026-08-24T15:57:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "9d92ef03e02b6827",
+      "category": "全球与地区",
+      "title": "Iran currency hits new record low as US prepares to announce more sanctions",
+      "url": "https://www.thisiswiltshire.co.uk/news/national/26490345.irans-currency-hits-new-record-low-us-prepares-announce-sanctions/",
+      "source": "thisiswiltshire.co.uk",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thisiswiltshire.co.uk/news/national/26490345.irans-currency-hits-new-record-low-us-prepares-announce-sanctions/"
+    },
+    {
+      "id": "0ae5fe536d22b778",
+      "category": "全球与地区",
+      "title": "The Latest : Canada prime minister promises retaliatory tariffs as negotiations with the US falter",
+      "url": "https://www.news4jax.com/news/politics/2026/08/24/the-latest-canadas-prime-minister-promises-retaliatory-tariffs-as-negotiations-with-the-us-falter/",
+      "source": "news4jax.com",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.news4jax.com/news/politics/2026/08/24/the-latest-canadas-prime-minister-promises-retaliatory-tariffs-as-negotiations-with-the-us-falter/"
+    },
+    {
+      "id": "88a43c09846db403",
+      "category": "金属与资源",
+      "title": "Gold Extends Rally as Government Debt Concerns Mount",
+      "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-debt-concerns-sanctions-08242026",
+      "source": "bullionvault.com",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-debt-concerns-sanctions-08242026"
+    },
+    {
+      "id": "0c16f1a114370305",
+      "category": "科技与产业",
+      "title": "Una cosa che i robot proprio non sanno fare",
+      "url": "https://www.ilpost.it/2026/03/02/robot-piegare-bucato/?homepagePosition=12.1&referrerPost=3661864",
+      "source": "ilpost.it",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ilpost.it/2026/03/02/robot-piegare-bucato/?homepagePosition=12.1&referrerPost=3661864"
+    },
+    {
+      "id": "d4bd821c994ca98e",
+      "category": "全球与地区",
+      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "url": "https://www.news4jax.com/news/2026/08/24/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/",
+      "source": "news4jax.com",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.news4jax.com/news/2026/08/24/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/"
+    },
+    {
+      "id": "8f6e56b87a80ca3f",
+      "category": "能源与航运",
+      "title": "Rafinăria Petrotel - LuKoil ia în calcul insolvența . Ce spun firmele care au de recuperat 30 de milioane de euro de la compania rusească",
+      "url": "https://hotnews.ro/rafinaria-petrotel-lukoil-ia-in-calcul-insolventa-ce-spun-firmele-care-au-de-recuperat-30-de-milioane-de-euro-de-la-compania-ruseasca-2332116",
+      "source": "hotnews.ro",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hotnews.ro/rafinaria-petrotel-lukoil-ia-in-calcul-insolventa-ce-spun-firmele-care-au-de-recuperat-30-de-milioane-de-euro-de-la-compania-ruseasca-2332116"
+    },
+    {
+      "id": "75229b86d6b4e6e1",
+      "category": "数字资产",
+      "title": "BlackRock Bitcoin Fund Just Paid Its First Dividend : 18 . 5 % Annualized , While Bitcoin Sleeps at $65K",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-bitcoin-fund-just-paid-143635775.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/blackrock-bitcoin-fund-just-paid-143635775.html"
+    },
+    {
+      "id": "32e8c1516f988176",
+      "category": "能源与航运",
+      "title": "Network Rail sues companies for £5m over derailment which caused oil spill",
+      "url": "https://www.northsomersettimes.co.uk/news/national/26491134.network-rail-sues-companies-gbp5m-derailment-caused-oil-spill/",
+      "source": "northsomersettimes.co.uk",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.northsomersettimes.co.uk/news/national/26491134.network-rail-sues-companies-gbp5m-derailment-caused-oil-spill/"
+    },
+    {
+      "id": "db06198b0ac7f595",
+      "category": "能源与航运",
+      "title": "Ameriwest Critical Metals To Sell Its Railroad Valley Property , NV To Pure Energy Minerals",
+      "url": "http://www.tennesseedaily.com/news/279262006/ameriwest-critical-metals-to-sell-its-railroad-valley-property-nv-to-pure-energy-minerals",
+      "source": "tennesseedaily.com",
+      "publishedAt": "2026-08-24T15:30:00Z",
+      "fetchedAt": "2026-08-24T15:58:04.666Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.tennesseedaily.com/news/279262006/ameriwest-critical-metals-to-sell-its-railroad-valley-property-nv-to-pure-energy-minerals"
+    },
     {
       "id": "a1e87f42f46503ef",
       "category": "全球与地区",
@@ -194,34 +476,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wgcu.org/2026-08-24/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran"
-    },
-    {
-      "id": "24b28ab81709a7fb",
-      "category": "全球与地区",
-      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
-      "url": "http://www.reflector.com/news/national/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/article_3f8e655a-2c4c-53e9-9ef2-7013ec83cb61.html",
-      "source": "reflector.com",
-      "publishedAt": "2026-08-24T13:30:00Z",
-      "fetchedAt": "2026-08-24T14:07:34.216Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.reflector.com/news/national/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/article_3f8e655a-2c4c-53e9-9ef2-7013ec83cb61.html"
     },
     {
       "id": "504a33dea5863d24",
@@ -1391,252 +1645,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://newstalk1090.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/"
-    },
-    {
-      "id": "81e8d5d176e61cf7",
-      "category": "全球与地区",
-      "title": "U . S . To Impose Tough New Economic Sanctions On Iran",
-      "url": "https://newsradio1049.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/",
-      "source": "newsradio1049.iheart.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://newsradio1049.iheart.com/content/2026-08-23-us-to-impose-tough-new-economic-sanctions-on-iran/"
-    },
-    {
-      "id": "fc9aa83895592cfa",
-      "category": "全球与地区",
-      "title": "Iran FM Araghchi dismisses renewed US threats of economic sanctions against Tehran – The Indian Awaaz",
-      "url": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-renewed-us-threats-of-economic-sanctions-against-tehran/",
-      "source": "theindianawaaz.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-renewed-us-threats-of-economic-sanctions-against-tehran/"
-    },
-    {
-      "id": "4f47d98693e8b461",
-      "category": "金属与资源",
-      "title": "Liang / Wang claim China only gold as France wins big at BWF Worlds",
-      "url": "http://www.malaysiasun.com/news/279259834/liangwang-claim-china-only-gold-as-france-wins-big-at-bwf-worlds",
-      "source": "malaysiasun.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.malaysiasun.com/news/279259834/liangwang-claim-china-only-gold-as-france-wins-big-at-bwf-worlds"
-    },
-    {
-      "id": "cfca5d0db06d9899",
-      "category": "能源与航运",
-      "title": "Trumps trumf : united states i hemmelig operation i Hormuzstrædet – Ekstra Bladet",
-      "url": "https://ekstrabladet.dk/nyheder/Udland/trumps-trumf-usa-i-hemmelig-operation-i-hormuzstraedet/11263358",
-      "source": "ekstrabladet.dk",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Denmark"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ekstrabladet.dk/nyheder/Udland/trumps-trumf-usa-i-hemmelig-operation-i-hormuzstraedet/11263358"
-    },
-    {
-      "id": "66d82bc07078cf9d",
-      "category": "全球与地区",
-      "title": "Pierre Poilievre on jacked - up tariffs : We have what the Americans need",
-      "url": "https://www.woodstocksentinelreview.com:443/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5",
-      "source": "woodstocksentinelreview.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.woodstocksentinelreview.com:443/news/local-news/pierre-poilievre-on-jacked-up-tariffs-we-have-what-the-americans-need/wcm/bc087701-0490-455a-b2c4-f3128e5fe2f5"
-    },
-    {
-      "id": "d5e609b4d461230f",
-      "category": "金属与资源",
-      "title": "ahmedabad airport customs seizes gold chain worth 83 lakh from passenger",
-      "url": "https://www.prabhasakshi.com/national/ahmedabad-airport-customs-seizes-gold-chain-worth-83-lakh-from-passenger",
-      "source": "prabhasakshi.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prabhasakshi.com/national/ahmedabad-airport-customs-seizes-gold-chain-worth-83-lakh-from-passenger"
-    },
-    {
-      "id": "c5c38f26f920007e",
-      "category": "全球与地区",
-      "title": "Iran FM Araghchi dismisses US threats of economic sanctions – The Indian Awaaz",
-      "url": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-us-threats-of-economic-sanctions/",
-      "source": "theindianawaaz.com",
-      "publishedAt": "2026-08-23T19:15:00Z",
-      "fetchedAt": "2026-08-23T19:38:30.894Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://theindianawaaz.com/iran-fm-araghchi-dismisses-us-threats-of-economic-sanctions/"
-    },
-    {
-      "id": "4fab8cf8f3637155",
-      "category": "数字资产",
-      "title": "Afera Zondacrypto . Założyciel giełdy kryptowalut został świadkiem koronnym ?",
-      "url": "https://www.wprost.pl/kraj/12421575/afera-zondacrypto-zalozyciel-gieldy-kryptowalut-zostal-swiadkiem-koronnym.html",
-      "source": "wprost.pl",
-      "publishedAt": "2026-08-23T17:15:00Z",
-      "fetchedAt": "2026-08-23T17:38:03.015Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Poland"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wprost.pl/kraj/12421575/afera-zondacrypto-zalozyciel-gieldy-kryptowalut-zostal-swiadkiem-koronnym.html"
     }
   ]
 }
