@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-24T05:04:05.988Z",
-  "newsUpdatedAt": "2026-08-23T23:38:30.809Z",
-  "assetsUpdatedAt": "2026-08-24T05:04:05.988Z",
+  "generatedAt": "2026-08-24T05:56:02.605Z",
+  "newsUpdatedAt": "2026-08-24T05:56:02.605Z",
+  "assetsUpdatedAt": "2026-08-24T05:56:02.605Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3867.46,
-      "changePercent": -0.97,
+      "price": 3861.97,
+      "changePercent": -1.11,
       "unit": "CNY",
-      "asOf": "2026-08-24T13:04:51+08:00",
+      "asOf": "2026-08-24T13:57:42+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13686.28,
-      "changePercent": -2.89,
+      "price": 13656.72,
+      "changePercent": -3.1,
       "unit": "CNY",
-      "asOf": "2026-08-24T13:04:48+08:00",
+      "asOf": "2026-08-24T13:57:39+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25465.23,
-      "changePercent": -2.09,
+      "price": 25487.7,
+      "changePercent": -2.01,
       "unit": "HKD",
-      "asOf": "2026-08-24T11:59:59+08:00",
+      "asOf": "2026-08-24T13:42:39+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8460.39,
-      "changePercent": -2.01,
+      "price": 8469.17,
+      "changePercent": -1.91,
       "unit": "HKD",
-      "asOf": "2026-08-24T11:59:59+08:00",
+      "asOf": "2026-08-24T13:42:38+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4698.31,
-      "changePercent": 0.38,
+      "price": 4695.69,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-08-24T13:03:59-04:00",
+      "asOf": "2026-08-24T13:57:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.62,
-      "changePercent": -1.65,
+      "price": 85.58,
+      "changePercent": -1.7,
       "unit": "USD",
-      "asOf": "2026-08-24T13:04:00-04:00",
+      "asOf": "2026-08-24T13:57:11-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 665.42,
-      "changePercent": -0.5,
+      "price": 665.99,
+      "changePercent": -0.42,
       "unit": "USD",
-      "asOf": "2026-08-24T13:01:37-04:00",
+      "asOf": "2026-08-24T13:57:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,245 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 76932,
-      "changePercent": 0.5320717191317036,
+      "price": 77092,
+      "changePercent": 1.2849338033495175,
       "unit": "USD",
-      "asOf": "2026-08-24T05:02:40.000Z",
+      "asOf": "2026-08-24T05:56:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "41cd53a459570d71",
+      "category": "科技与产业",
+      "title": "Oxford hospital reaches 5 , 000 robotic surgery milestone",
+      "url": "https://www.thisisoxfordshire.co.uk/news/26477985.oxford-hospital-reaches-5-000-robotic-surgery-milestone/",
+      "source": "thisisoxfordshire.co.uk",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thisisoxfordshire.co.uk/news/26477985.oxford-hospital-reaches-5-000-robotic-surgery-milestone/"
+    },
+    {
+      "id": "f795119bf28d64d8",
+      "category": "能源与航运",
+      "title": "JTL Group engineering subsidiary announces narrow - width HR coil manufacturing capacity expansion",
+      "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/jtl-groups-engineering-subsidiary-announces-narrow-width-hr-coil-manufacturing-capacity-expansion/articleshow/133451405.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/jtl-groups-engineering-subsidiary-announces-narrow-width-hr-coil-manufacturing-capacity-expansion/articleshow/133451405.cms"
+    },
+    {
+      "id": "9d090e2d3dca41e5",
+      "category": "能源与航运",
+      "title": "യു . എസ് ഉപരോധ ഭീഷണി : ക്രൂഡ് ഓയിൽ വിലയിൽ 1 ശതമാനത്തിലധികം ഇടിവ് | crude price fall",
+      "url": "https://www.madhyamam.com/business/market/crude-price-fall-1548566",
+      "source": "madhyamam.com",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.madhyamam.com/business/market/crude-price-fall-1548566"
+    },
+    {
+      "id": "19f56cca5e8608b8",
+      "category": "金属与资源",
+      "title": "ரூ . 0 . 01 விலைப்புள்ளி : தங்க மோதிர திட்டம் குறித்து ஜாய் ஆலுக்காஸ்|TN Gold Ring Scheme : Joyalukkas Responds Amid Political Row",
+      "url": "https://www.vikatan.com/government-and-politics/joyalukkas-explains-its-role-in-tamil-nadu-gold-ring-scheme",
+      "source": "vikatan.com",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vikatan.com/government-and-politics/joyalukkas-explains-its-role-in-tamil-nadu-gold-ring-scheme"
+    },
+    {
+      "id": "fb2627d471a7adaf",
+      "category": "能源与航运",
+      "title": "Iran Ancam Tutup Selat Hormuz Jika AS Lanjutkan Perang Ekonomi",
+      "url": "https://www.viva.co.id/berita/nasional/1923644-iran-ancam-tutup-selat-hormuz-jika-as-lanjutkan-perang-ekonomi",
+      "source": "viva.co.id",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.viva.co.id/berita/nasional/1923644-iran-ancam-tutup-selat-hormuz-jika-as-lanjutkan-perang-ekonomi"
+    },
+    {
+      "id": "e3bff1a2f77cf69d",
+      "category": "能源与航运",
+      "title": "Electricity to Be Offered at Concessional Rates During the Monsoon : Energy Minister Shrestha",
+      "url": "https://www.spotlightnepal.com/2026/08/24/electricity-be-offered-concessional-rates-during-monsoon-energy-minister-shrestha/",
+      "source": "spotlightnepal.com",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nepal"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.spotlightnepal.com/2026/08/24/electricity-be-offered-concessional-rates-during-monsoon-energy-minister-shrestha/"
+    },
+    {
+      "id": "22de0fc1a16528ac",
+      "category": "全球与地区",
+      "title": "Oil markets to remain tight as conflicts drag on",
+      "url": "https://www.oberonreview.com.au/story/9336121/oil-markets-to-remain-tight-as-conflicts-drag-on/",
+      "source": "oberonreview.com.au",
+      "publishedAt": "2026-08-24T05:30:00Z",
+      "fetchedAt": "2026-08-24T05:56:02.605Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.oberonreview.com.au/story/9336121/oil-markets-to-remain-tight-as-conflicts-drag-on/"
+    },
     {
       "id": "7a66124efd8d0bed",
       "category": "能源与航运",
@@ -1430,223 +1657,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.express.co.uk/life-style/food/2240999/how-to-make-scrambled-eggs-tastier-exclusive"
-    },
-    {
-      "id": "51e7280e400d4d14",
-      "category": "科技与产业",
-      "title": "From science fair to strategic showcase : a decade of China robot games",
-      "url": "https://www.spokesman.com/stories/2026/aug/21/from-science-fair-to-strategic-showcase-a-decade-o/",
-      "source": "spokesman.com",
-      "publishedAt": "2026-08-23T02:30:00Z",
-      "fetchedAt": "2026-08-23T03:17:26.434Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.spokesman.com/stories/2026/aug/21/from-science-fair-to-strategic-showcase-a-decade-o/"
-    },
-    {
-      "id": "294fa6b11f105153",
-      "category": "全球与地区",
-      "title": "What to know about Trump 50 % tariffs on Canadian goods that just went into effect",
-      "url": "https://www.kmvt.com/2026/08/22/what-know-about-trumps-50-tariffs-canadian-goods-that-just-went-into-effect/",
-      "source": "kmvt.com",
-      "publishedAt": "2026-08-23T02:30:00Z",
-      "fetchedAt": "2026-08-23T03:17:26.434Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kmvt.com/2026/08/22/what-know-about-trumps-50-tariffs-canadian-goods-that-just-went-into-effect/"
-    },
-    {
-      "id": "cc5701121de290c0",
-      "category": "全球与地区",
-      "title": "Iran warns countries against joining in US sanctions",
-      "url": "https://www.rte.ie/news/world/2026/0822/1588886-middle-east/",
-      "source": "rte.ie",
-      "publishedAt": "2026-08-23T02:30:00Z",
-      "fetchedAt": "2026-08-23T03:17:26.434Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ireland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rte.ie/news/world/2026/0822/1588886-middle-east/"
-    },
-    {
-      "id": "c9632c7dedfdfc73",
-      "category": "全球与地区",
-      "title": "Iran warns any country joining US sanctions considered enemy",
-      "url": "https://www.vanguardngr.com/2026/08/iran-warns-any-country-joining-us-sanctions-considered-enemy/",
-      "source": "vanguardngr.com",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.vanguardngr.com/2026/08/iran-warns-any-country-joining-us-sanctions-considered-enemy/"
-    },
-    {
-      "id": "a2617704c377a88a",
-      "category": "全球与地区",
-      "title": "Guerre au Moyen - Orient . LIran menace de représailles les pays qui suivront les sanctions américaines",
-      "url": "https://www.estrepublicain.fr/economie/2026/08/22/l-iran-menace-de-represailles-les-pays-qui-suivront-les-sanctions-americaines",
-      "source": "estrepublicain.fr",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "France"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.estrepublicain.fr/economie/2026/08/22/l-iran-menace-de-represailles-les-pays-qui-suivront-les-sanctions-americaines"
-    },
-    {
-      "id": "e248a9c06cb50c2c",
-      "category": "金属与资源",
-      "title": "Iguala Guerrero Gold : Cheap Jewellery , Level 4 Warning",
-      "url": "https://www.riotimesonline.com/iguala-guerrero-gold-city-travel-warning-2026/",
-      "source": "riotimesonline.com",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Brazil"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.riotimesonline.com/iguala-guerrero-gold-city-travel-warning-2026/"
-    },
-    {
-      "id": "1a3aaf2c3f520e40",
-      "category": "能源与航运",
-      "title": "Six EU countries have proposed introducing a special tax on oil companies",
-      "url": "https://en.apa.az/europe/six-eu-countries-have-proposed-introducing-a-special-tax-on-oil-companies-521305",
-      "source": "en.apa.az",
-      "publishedAt": "2026-08-22T22:00:00Z",
-      "fetchedAt": "2026-08-22T22:41:17.156Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://en.apa.az/europe/six-eu-countries-have-proposed-introducing-a-special-tax-on-oil-companies-521305"
     }
   ]
 }
