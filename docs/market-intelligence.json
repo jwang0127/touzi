@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-24T19:47:24.992Z",
-  "newsUpdatedAt": "2026-08-24T19:47:24.992Z",
-  "assetsUpdatedAt": "2026-08-24T19:47:24.992Z",
+  "generatedAt": "2026-08-24T20:50:49.629Z",
+  "newsUpdatedAt": "2026-08-24T20:50:49.629Z",
+  "assetsUpdatedAt": "2026-08-24T20:50:49.629Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -61,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53442.17,
-      "changePercent": 0.31,
+      "price": 53417.16,
+      "changePercent": 0.26,
       "unit": "USD",
-      "asOf": "2026-08-24T15:48:20-04:00",
+      "asOf": "2026-08-24T16:37:38-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25999.61,
-      "changePercent": -0.69,
+      "price": 25980.19,
+      "changePercent": -0.76,
       "unit": "USD",
-      "asOf": "2026-08-24T15:48:20-04:00",
+      "asOf": "2026-08-24T16:52:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7653.74,
-      "changePercent": -0.27,
+      "price": 7652.86,
+      "changePercent": -0.28,
       "unit": "USD",
-      "asOf": "2026-08-24T15:48:19-04:00",
+      "asOf": "2026-08-24T16:36:32-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4711.18,
-      "changePercent": 0.65,
+      "price": 4709.49,
+      "changePercent": 0.62,
       "unit": "USD",
-      "asOf": "2026-08-25T03:48:09-04:00",
+      "asOf": "2026-08-25T04:51:53-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85,
-      "changePercent": -2.37,
+      "price": 84.88,
+      "changePercent": -2.51,
       "unit": "USD",
-      "asOf": "2026-08-25T03:48:08-04:00",
+      "asOf": "2026-08-25T04:52:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 670.46,
-      "changePercent": 0.25,
+      "price": 670.95,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-08-25T03:47:55-04:00",
+      "asOf": "2026-08-25T04:51:47-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,259 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78767,
-      "changePercent": 1.779456293564975,
+      "price": 78870,
+      "changePercent": 1.8871829066570704,
       "unit": "USD",
-      "asOf": "2026-08-24T19:47:00.000Z",
+      "asOf": "2026-08-24T20:50:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "10aced5e4f28cd91",
+      "category": "全球与地区",
+      "title": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://ktok.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "source": "ktok.iheart.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ktok.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/"
+    },
+    {
+      "id": "7e54e7c832c7fa94",
+      "category": "金属与资源",
+      "title": "Gold touches 3 - month high as Oman traders feel the pinch",
+      "url": "https://timesofoman.com/article/176007-gold-touches-3-month-high-as-oman-traders-feel-the-pinch",
+      "source": "timesofoman.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Oman"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofoman.com/article/176007-gold-touches-3-month-high-as-oman-traders-feel-the-pinch"
+    },
+    {
+      "id": "38b6f56c2559bf38",
+      "category": "科技与产业",
+      "title": "Brazilian programmers infuse passion into Chinese humanoid robots",
+      "url": "http://www.beijingbulletin.com/news/279262428/brazilian-programmers-infuse-passion-into-chinese-humanoid-robots",
+      "source": "beijingbulletin.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.beijingbulletin.com/news/279262428/brazilian-programmers-infuse-passion-into-chinese-humanoid-robots"
+    },
+    {
+      "id": "1a82b758ac947a45",
+      "category": "全球与地区",
+      "title": "Trump Administration Launches Economic D - Day Sanctions on Iran : Key Actions",
+      "url": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297",
+      "source": "newsweek.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297"
+    },
+    {
+      "id": "40f5581cf63db0f2",
+      "category": "全球与地区",
+      "title": "New US sanctions aim to block all potential revenue sources for Iran – Bessent",
+      "url": "https://www.countytimes.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/",
+      "source": "countytimes.co.uk",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.countytimes.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/"
+    },
+    {
+      "id": "0045e86a7325de20",
+      "category": "能源与航运",
+      "title": "Which Oil and Gas Stock Has Dominated in 2026 : ConocoPhillips , EOG Resources , or Occidental Petroleum ?",
+      "url": "https://247wallst.com/investing/2026/08/24/which-oil-and-gas-stock-has-dominated-in-2026-conocophillips-eog-resources-or-occidental-petroleum/",
+      "source": "247wallst.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://247wallst.com/investing/2026/08/24/which-oil-and-gas-stock-has-dominated-in-2026-conocophillips-eog-resources-or-occidental-petroleum/"
+    },
+    {
+      "id": "22438c3d826be32d",
+      "category": "全球与地区",
+      "title": "Gas prices hit record highs for August as Ukraine , Iran conflicts drive costs up",
+      "url": "https://www.kiro7.com/news/local/gas-prices-hit-record-highs-august-ukraine-iran-conflicts-drive-costs-up/UDBPWWQVXJBG7PXNAHNZY6OO74/",
+      "source": "kiro7.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kiro7.com/news/local/gas-prices-hit-record-highs-august-ukraine-iran-conflicts-drive-costs-up/UDBPWWQVXJBG7PXNAHNZY6OO74/"
+    },
+    {
+      "id": "7eab537dd15b8947",
+      "category": "数字资产",
+      "title": "Bitcoin has more room to run after explosive rebound , analysts say",
+      "url": "https://www.cnbc.com/2026/08/24/bitcoin-has-more-room-to-run-after-explosive-rebound-analysts-say.html",
+      "source": "cnbc.com",
+      "publishedAt": "2026-08-24T20:15:00Z",
+      "fetchedAt": "2026-08-24T20:50:49.629Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cnbc.com/2026/08/24/bitcoin-has-more-room-to-run-after-explosive-rebound-analysts-say.html"
+    },
     {
       "id": "e188eaa68724632d",
       "category": "能源与航运",
@@ -230,37 +475,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://allafrica.com/stories/202608240777.html"
-    },
-    {
-      "id": "b717defad524c1fd",
-      "category": "全球与地区",
-      "title": "New US sanctions aim to block all potential revenue sources for Iran – Bessent",
-      "url": "https://www.nwemail.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/",
-      "source": "nwemail.co.uk",
-      "publishedAt": "2026-08-24T19:15:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nwemail.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/"
     },
     {
       "id": "b7dd0264e4c8bc5e",
@@ -1380,234 +1594,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.middle-east-online.com/en/oil-prices-slip-awaiting-us-details-iran-sanctions"
-    },
-    {
-      "id": "59a5ec8e0507126f",
-      "category": "能源与航运",
-      "title": "Iran cảnh báo phạt tiền , bắt giữ , tịch thu tàu vi phạm quy định qua eo biển Hormuz",
-      "url": "https://baomoi.com/iran-canh-bao-phat-tien-bat-giu-tich-thu-tau-vi-pham-quy-dinh-qua-eo-bien-hormuz-c55903000.epi",
-      "source": "baomoi.com",
-      "publishedAt": "2026-08-24T11:15:00Z",
-      "fetchedAt": "2026-08-24T11:46:20.261Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baomoi.com/iran-canh-bao-phat-tien-bat-giu-tich-thu-tau-vi-pham-quy-dinh-qua-eo-bien-hormuz-c55903000.epi"
-    },
-    {
-      "id": "dc89557b30094e28",
-      "category": "科技与产业",
-      "title": "ETF : In Zukunftstechnologien investieren - Wie du mit ETFs gezielt von KI , Cybersecurity und Robotik profitierst",
-      "url": "https://www.finanzen.net/ratgeber/news/etf-in-zukunftstechnologien-investieren-wie-du-mit-etfs-gezielt-von-ki-cybersecurity-und-robotik-profitierst-24-08-2026-01/",
-      "source": "finanzen.net",
-      "publishedAt": "2026-08-24T10:30:00Z",
-      "fetchedAt": "2026-08-24T10:55:51.701Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.net/ratgeber/news/etf-in-zukunftstechnologien-investieren-wie-du-mit-etfs-gezielt-von-ki-cybersecurity-und-robotik-profitierst-24-08-2026-01/"
-    },
-    {
-      "id": "8a5e2c11791ef353",
-      "category": "金属与资源",
-      "title": "Silver Price Today : चांदी की कीमतों में गिरावट , खरीदारी से पहले जानें आपके शहर में कितने गिरे दाम",
-      "url": "https://hindi.moneycontrol.com/news/your-money/silver-price-today-jump-intact-check-how-much-prices-have-risen-in-your-city-before-buying-2433810.html",
-      "source": "hindi.moneycontrol.com",
-      "publishedAt": "2026-08-24T10:30:00Z",
-      "fetchedAt": "2026-08-24T10:55:51.701Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hindi.moneycontrol.com/news/your-money/silver-price-today-jump-intact-check-how-much-prices-have-risen-in-your-city-before-buying-2433810.html"
-    },
-    {
-      "id": "cec1ae62d4816a6f",
-      "category": "能源与航运",
-      "title": "OGA 2026 Positions Kuala Lumpur as the Regional Marketplace for Southeast Asia Energy Growth",
-      "url": "http://www.nepalnational.com/news/279261649/oga-2026-positions-kuala-lumpur-as-the-regional-marketplace-for-southeast-asia-energy-growth",
-      "source": "nepalnational.com",
-      "publishedAt": "2026-08-24T10:30:00Z",
-      "fetchedAt": "2026-08-24T10:55:51.701Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nepal"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.nepalnational.com/news/279261649/oga-2026-positions-kuala-lumpur-as-the-regional-marketplace-for-southeast-asia-energy-growth"
-    },
-    {
-      "id": "7c1f0f5d54bbc429",
-      "category": "A股与政策",
-      "title": "Hang Seng Bank doubles down on wealth hubs despite Beijing tighter investment scrutiny",
-      "url": "https://www.scmp.com/business/money/wealth/article/3365071/hang-seng-bank-doubles-down-wealth-hubs-despite-beijings-tighter-investment-scrutiny",
-      "source": "scmp.com",
-      "publishedAt": "2026-08-24T10:30:00Z",
-      "fetchedAt": "2026-08-24T10:55:51.701Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.scmp.com/business/money/wealth/article/3365071/hang-seng-bank-doubles-down-wealth-hubs-despite-beijings-tighter-investment-scrutiny"
-    },
-    {
-      "id": "bcdab7d56dd2b48b",
-      "category": "能源与航运",
-      "title": "Iran announces major natural gas discovery",
-      "url": "https://news.az/news/iran-announces-major-natural-gas-discovery",
-      "source": "news.az",
-      "publishedAt": "2026-08-24T08:30:00Z",
-      "fetchedAt": "2026-08-24T09:07:05.653Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.az/news/iran-announces-major-natural-gas-discovery"
-    },
-    {
-      "id": "61ed6ffba59c7465",
-      "category": "金属与资源",
-      "title": "Rohstoff - Marktbericht zu Erdgaspreis , Kupferpreis , Goldpreis & Co . am Vormittag",
-      "url": "https://www.finanzen.net/nachricht/rohstoffe/rohstoff-marktbericht-zu-erdgaspreis-kupferpreis-goldpreis-co-am-vormittag-15896365",
-      "source": "finanzen.net",
-      "publishedAt": "2026-08-24T08:30:00Z",
-      "fetchedAt": "2026-08-24T09:07:05.653Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.net/nachricht/rohstoffe/rohstoff-marktbericht-zu-erdgaspreis-kupferpreis-goldpreis-co-am-vormittag-15896365"
     }
   ]
 }
