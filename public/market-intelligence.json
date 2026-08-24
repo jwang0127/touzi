@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-24T13:16:26.523Z",
-  "newsUpdatedAt": "2026-08-24T11:46:20.261Z",
-  "assetsUpdatedAt": "2026-08-24T13:16:26.523Z",
+  "generatedAt": "2026-08-24T14:07:34.216Z",
+  "newsUpdatedAt": "2026-08-24T14:07:34.216Z",
+  "assetsUpdatedAt": "2026-08-24T14:07:34.216Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53277.01,
-      "changePercent": 0.98,
+      "price": 53393.46,
+      "changePercent": 0.22,
       "unit": "USD",
-      "asOf": "2026-08-21T16:41:57-04:00",
+      "asOf": "2026-08-24T10:09:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26180.45,
-      "changePercent": 0.43,
+      "price": 25924.4,
+      "changePercent": -0.98,
       "unit": "USD",
-      "asOf": "2026-08-21T17:15:59-04:00",
+      "asOf": "2026-08-24T10:09:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7674.37,
-      "changePercent": 0.43,
+      "price": 7644.29,
+      "changePercent": -0.39,
       "unit": "USD",
-      "asOf": "2026-08-21T16:41:52-04:00",
+      "asOf": "2026-08-24T10:09:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4734.81,
-      "changePercent": 1.16,
+      "price": 4725.33,
+      "changePercent": 0.96,
       "unit": "USD",
-      "asOf": "2026-08-24T21:16:01-04:00",
+      "asOf": "2026-08-24T22:09:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.72,
-      "changePercent": -1.53,
+      "price": 85.19,
+      "changePercent": -2.14,
       "unit": "USD",
-      "asOf": "2026-08-24T21:16:02-04:00",
+      "asOf": "2026-08-24T22:09:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 673.42,
-      "changePercent": 0.69,
+      "price": 671.89,
+      "changePercent": 0.46,
       "unit": "USD",
-      "asOf": "2026-08-24T21:15:49-04:00",
+      "asOf": "2026-08-24T22:08:57-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79212,
-      "changePercent": 2.4447293247323425,
+      "price": 78787,
+      "changePercent": 1.8182516620123719,
       "unit": "USD",
-      "asOf": "2026-08-24T13:14:50.000Z",
+      "asOf": "2026-08-24T14:07:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -140,13 +138,13 @@
   ],
   "news": [
     {
-      "id": "c9d7e05698d794f2",
+      "id": "a1e87f42f46503ef",
       "category": "全球与地区",
-      "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
-      "url": "https://www.asiaone.com/world/irans-rial-currency-hits-new-record-low-us-prepares-announce-more-sanctions",
-      "source": "asiaone.com",
-      "publishedAt": "2026-08-24T11:15:00Z",
-      "fetchedAt": "2026-08-24T11:46:20.261Z",
+      "title": "Iran warns of harsh response to US sanctions , other Middle East news",
+      "url": "https://www.sandiegouniontribune.com/2026/08/24/iran-us-sanctions-middle-east-news/",
+      "source": "sandiegouniontribune.com",
+      "publishedAt": "2026-08-24T13:45:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -159,13 +157,315 @@
         "军工"
       ],
       "regions": [
-        "Singapore"
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sandiegouniontribune.com/2026/08/24/iran-us-sanctions-middle-east-news/"
+    },
+    {
+      "id": "b915fb8b7d2bf46d",
+      "category": "全球与地区",
+      "title": "Treasury Secretary Scott Bessent to unveil new economic sanctions on Iran",
+      "url": "https://www.wgcu.org/2026-08-24/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
+      "source": "wgcu.org",
+      "publishedAt": "2026-08-24T13:45:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wgcu.org/2026-08-24/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran"
+    },
+    {
+      "id": "24b28ab81709a7fb",
+      "category": "全球与地区",
+      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "url": "http://www.reflector.com/news/national/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/article_3f8e655a-2c4c-53e9-9ef2-7013ec83cb61.html",
+      "source": "reflector.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.reflector.com/news/national/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/article_3f8e655a-2c4c-53e9-9ef2-7013ec83cb61.html"
+    },
+    {
+      "id": "504a33dea5863d24",
+      "category": "能源与航运",
+      "title": "Exxon turns to automated drilling in the Permian in push for higher oil output",
+      "url": "https://wkzo.com/2026/08/24/exxon-turns-to-automated-drilling-in-the-permian-in-push-for-higher-oil-output/",
+      "source": "wkzo.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wkzo.com/2026/08/24/exxon-turns-to-automated-drilling-in-the-permian-in-push-for-higher-oil-output/"
+    },
+    {
+      "id": "ac376b5eb652197e",
+      "category": "A股与政策",
+      "title": "方正科技 ( 600601 ): 方正科技集团股份有限公司2025年度向特定对象发行A股股票募集说明书 （ 注册稿 ）- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20260824005226.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20260824005226.html"
+    },
+    {
+      "id": "d17ab0593a2ba2b8",
+      "category": "金属与资源",
+      "title": "Gold prices today , Monday , August 24 , 2026 : Gold to stay hot through the end of the month",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-24-2026-gold-to-stay-hot-through-the-end-of-the-month-123911561.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-24-2026-gold-to-stay-hot-through-the-end-of-the-month-123911561.html"
+    },
+    {
+      "id": "207a27d30699e520",
+      "category": "能源与航运",
+      "title": "Pressure mounts to allow treated oilfield waste in Texas rivers and on rangeland",
+      "url": "https://www.kwbu.org/news-from-across-texas/2026-08-24/pressure-mounts-to-allow-treated-oilfield-waste-in-texas-rivers-and-on-rangeland",
+      "source": "kwbu.org",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kwbu.org/news-from-across-texas/2026-08-24/pressure-mounts-to-allow-treated-oilfield-waste-in-texas-rivers-and-on-rangeland"
+    },
+    {
+      "id": "2792795c2e92f768",
+      "category": "全球与地区",
+      "title": "China and Switzerland have a new tariff - scrapping trade deal . How will the EU react ?",
+      "url": "https://www.scmp.com/economy/china-economy/article/3365073/china-and-switzerland-have-new-tariff-scrapping-trade-deal-how-will-eu-react",
+      "source": "scmp.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
       ],
       "relatedCodes": [],
       "impact": "待观察",
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.asiaone.com/world/irans-rial-currency-hits-new-record-low-us-prepares-announce-more-sanctions"
+      "provenanceUrl": "https://www.scmp.com/economy/china-economy/article/3365073/china-and-switzerland-have-new-tariff-scrapping-trade-deal-how-will-eu-react"
+    },
+    {
+      "id": "b332ef292dc1cdb9",
+      "category": "全球与地区",
+      "title": "Trump new tariffs hit Canada as Carney threatens a dollar for dollar response",
+      "url": "https://www.moneycontrol.com/world/trump-s-new-tariffs-hit-canada-as-carney-threatens-a-dollar-for-dollar-response-article-14014242.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/world/trump-s-new-tariffs-hit-canada-as-carney-threatens-a-dollar-for-dollar-response-article-14014242.html"
+    },
+    {
+      "id": "eb536977a6d8a7ab",
+      "category": "能源与航运",
+      "title": "Poilievre calls on Carney to reconvene Parliament to discuss rejected U . S . trade deal",
+      "url": "https://www.cbc.ca/news/livestory/canada-u-s-trade-deal-carney-trump-greer-9.7317956",
+      "source": "cbc.ca",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cbc.ca/news/livestory/canada-u-s-trade-deal-carney-trump-greer-9.7317956"
+    },
+    {
+      "id": "3fbcc4dd99d895d0",
+      "category": "全球与地区",
+      "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+      "url": "http://www.leadertelegram.com/news/nation-world/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article_b3555873-f963-514e-80ae-25eba26fb586.html",
+      "source": "leadertelegram.com",
+      "publishedAt": "2026-08-24T13:30:00Z",
+      "fetchedAt": "2026-08-24T14:07:34.216Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.leadertelegram.com/news/nation-world/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article_b3555873-f963-514e-80ae-25eba26fb586.html"
     },
     {
       "id": "71406ecd78d77432",
@@ -1335,322 +1635,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wprost.pl/kraj/12421575/afera-zondacrypto-zalozyciel-gieldy-kryptowalut-zostal-swiadkiem-koronnym.html"
-    },
-    {
-      "id": "5339e2b50e342cfa",
-      "category": "金属与资源",
-      "title": "20वीं राज्य स्तरीय ताइक्वांडो चैंपियनशिप : 87 पदकों के साथ लखनऊ बना ओवरऑल चैंपियन , गोरखपुर दूसरे नंबर पर - lucknow wins 20th state taekwondo championship with 33 gold",
-      "url": "https://www.jagran.com/uttar-pradesh/lucknow-city-lucknow-wins-20th-state-taekwondo-championship-with-33-gold-40350101.html",
-      "source": "jagran.com",
-      "publishedAt": "2026-08-23T17:15:00Z",
-      "fetchedAt": "2026-08-23T17:38:03.015Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jagran.com/uttar-pradesh/lucknow-city-lucknow-wins-20th-state-taekwondo-championship-with-33-gold-40350101.html"
-    },
-    {
-      "id": "9e4e3f63cde5a171",
-      "category": "科技与产业",
-      "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
-      "url": "https://www.orlandosentinel.com/2026/08/22/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games/",
-      "source": "orlandosentinel.com",
-      "publishedAt": "2026-08-23T17:15:00Z",
-      "fetchedAt": "2026-08-23T17:38:03.015Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.orlandosentinel.com/2026/08/22/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games/"
-    },
-    {
-      "id": "456d927ededf828b",
-      "category": "能源与航运",
-      "title": "A closer look at the Strait of Hormuz after Iran issues new threat",
-      "url": "https://www.egyptindependent.com/a-closer-look-at-the-strait-of-hormuz-after-iran-issues-new-threat/",
-      "source": "egyptindependent.com",
-      "publishedAt": "2026-08-23T13:15:00Z",
-      "fetchedAt": "2026-08-23T13:47:37.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Egypt"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.egyptindependent.com/a-closer-look-at-the-strait-of-hormuz-after-iran-issues-new-threat/"
-    },
-    {
-      "id": "1923d9beeaa08bad",
-      "category": "数字资产",
-      "title": "Cryptocurrency operators given deadline to seek NOCs",
-      "url": "https://arynews.tv/cryptocurrency-operators-given-deadline-to-seek-nocs",
-      "source": "arynews.tv",
-      "publishedAt": "2026-08-23T13:15:00Z",
-      "fetchedAt": "2026-08-23T13:47:37.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://arynews.tv/cryptocurrency-operators-given-deadline-to-seek-nocs"
-    },
-    {
-      "id": "6ce32b2f0c9d41b2",
-      "category": "科技与产业",
-      "title": "Tesla Cybercab : Robotaxi - Event am 3 . September in Texas geplant",
-      "url": "http://www.wlz-online.de/wirtschaft/tesla-cybercab-robotaxi-event-am-september-in-texas-geplant-zr-94455939.html",
-      "source": "wlz-online.de",
-      "publishedAt": "2026-08-23T13:15:00Z",
-      "fetchedAt": "2026-08-23T13:47:37.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.wlz-online.de/wirtschaft/tesla-cybercab-robotaxi-event-am-september-in-texas-geplant-zr-94455939.html"
-    },
-    {
-      "id": "dbefa559a3cf1e6b",
-      "category": "数字资产",
-      "title": "TVP Info : Szef Zondacrypto dostał status małego świadka koronnego",
-      "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,32982778,tvp-info-szef-zondacrypto-dostal-status-malego-swiadka-koronnego.html",
-      "source": "wiadomosci.gazeta.pl",
-      "publishedAt": "2026-08-23T13:15:00Z",
-      "fetchedAt": "2026-08-23T13:47:37.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Poland"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wiadomosci.gazeta.pl/polityka/7,198012,32982778,tvp-info-szef-zondacrypto-dostal-status-malego-swiadka-koronnego.html"
-    },
-    {
-      "id": "8b8e87953a2094b0",
-      "category": "科技与产业",
-      "title": "Cina , robot umanoidi da record",
-      "url": "https://www.rsi.ch/info/mondo/Cina-robot-umanoidi-da-record--4006404.html",
-      "source": "rsi.ch",
-      "publishedAt": "2026-08-23T13:15:00Z",
-      "fetchedAt": "2026-08-23T13:47:37.372Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Switzerland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rsi.ch/info/mondo/Cina-robot-umanoidi-da-record--4006404.html"
-    },
-    {
-      "id": "70a0ba630e77feda",
-      "category": "科技与产业",
-      "title": "Home | Journal of Nanobiotechnology | Springer Nature Link",
-      "url": "https://link.springer.com/journal/12951",
-      "source": "link.springer.com",
-      "publishedAt": "2026-08-23T11:15:00Z",
-      "fetchedAt": "2026-08-23T11:39:18.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Netherlands"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://link.springer.com/journal/12951"
-    },
-    {
-      "id": "cbaa35e6b02a98a6",
-      "category": "金属与资源",
-      "title": "Robert Hinchcliffe Buys 20 , 000 Shares of Galway Metals ( CVE : GWM ) Stock",
-      "url": "https://www.themarketsdaily.com/2026/08/23/robert-hinchcliffe-buys-20000-shares-of-galway-metals-cvegwm-stock.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-08-23T11:15:00Z",
-      "fetchedAt": "2026-08-23T11:39:18.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/08/23/robert-hinchcliffe-buys-20000-shares-of-galway-metals-cvegwm-stock.html"
-    },
-    {
-      "id": "443454b4010db749",
-      "category": "能源与航运",
-      "title": "Iran vows not a single drop of oil will leave Gulf if region complies with US plan",
-      "url": "http://www.iraqsun.com/news/279259528/iran-vows-not-a-single-drop-of-oil-will-leave-gulf-if-region-complies-with-us-plan",
-      "source": "iraqsun.com",
-      "publishedAt": "2026-08-23T11:15:00Z",
-      "fetchedAt": "2026-08-23T11:39:18.378Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Iraq"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.iraqsun.com/news/279259528/iran-vows-not-a-single-drop-of-oil-will-leave-gulf-if-region-complies-with-us-plan"
     }
   ]
 }
