@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-24T10:55:51.701Z",
-  "newsUpdatedAt": "2026-08-24T10:55:51.701Z",
-  "assetsUpdatedAt": "2026-08-24T10:55:51.701Z",
+  "generatedAt": "2026-08-24T11:46:20.261Z",
+  "newsUpdatedAt": "2026-08-24T11:46:20.261Z",
+  "assetsUpdatedAt": "2026-08-24T11:46:20.261Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4702.12,
-      "changePercent": 0.46,
+      "price": 4712.19,
+      "changePercent": 0.67,
       "unit": "USD",
-      "asOf": "2026-08-24T18:57:04-04:00",
+      "asOf": "2026-08-24T19:47:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.22,
-      "changePercent": -2.11,
+      "price": 85.08,
+      "changePercent": -2.28,
       "unit": "USD",
-      "asOf": "2026-08-24T18:57:05-04:00",
+      "asOf": "2026-08-24T19:47:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 669.82,
-      "changePercent": 0.15,
+      "price": 670.14,
+      "changePercent": 0.2,
       "unit": "USD",
-      "asOf": "2026-08-24T18:55:38-04:00",
+      "asOf": "2026-08-24T19:46:50-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,108 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77610,
-      "changePercent": 1.0718428345881723,
+      "price": 78546,
+      "changePercent": 1.6488553729190014,
       "unit": "USD",
-      "asOf": "2026-08-24T10:55:30.000Z",
+      "asOf": "2026-08-24T11:45:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c9d7e05698d794f2",
+      "category": "全球与地区",
+      "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+      "url": "https://www.asiaone.com/world/irans-rial-currency-hits-new-record-low-us-prepares-announce-more-sanctions",
+      "source": "asiaone.com",
+      "publishedAt": "2026-08-24T11:15:00Z",
+      "fetchedAt": "2026-08-24T11:46:20.261Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Singapore"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.asiaone.com/world/irans-rial-currency-hits-new-record-low-us-prepares-announce-more-sanctions"
+    },
+    {
+      "id": "71406ecd78d77432",
+      "category": "全球与地区",
+      "title": "Oil prices slip awaiting US details of Iran sanctions",
+      "url": "https://www.middle-east-online.com/en/oil-prices-slip-awaiting-us-details-iran-sanctions",
+      "source": "middle-east-online.com",
+      "publishedAt": "2026-08-24T11:15:00Z",
+      "fetchedAt": "2026-08-24T11:46:20.261Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Iraq"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middle-east-online.com/en/oil-prices-slip-awaiting-us-details-iran-sanctions"
+    },
+    {
+      "id": "59a5ec8e0507126f",
+      "category": "能源与航运",
+      "title": "Iran cảnh báo phạt tiền , bắt giữ , tịch thu tàu vi phạm quy định qua eo biển Hormuz",
+      "url": "https://baomoi.com/iran-canh-bao-phat-tien-bat-giu-tich-thu-tau-vi-pham-quy-dinh-qua-eo-bien-hormuz-c55903000.epi",
+      "source": "baomoi.com",
+      "publishedAt": "2026-08-24T11:15:00Z",
+      "fetchedAt": "2026-08-24T11:46:20.261Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://baomoi.com/iran-canh-bao-phat-tien-bat-giu-tich-thu-tau-vi-pham-quy-dinh-qua-eo-bien-hormuz-c55903000.epi"
+    },
     {
       "id": "dc89557b30094e28",
       "category": "科技与产业",
@@ -1559,108 +1651,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.iraqsun.com/news/279259528/iran-vows-not-a-single-drop-of-oil-will-leave-gulf-if-region-complies-with-us-plan"
-    },
-    {
-      "id": "7df1d02b0ebda661",
-      "category": "金属与资源",
-      "title": "Sabarimala and Guruvayoor to Lead Gold Verification Initiative | ദേവസ്വം സ്വര്‍ണത്തിന്‍റെ ശുദ്ധിപരിശോധിക്കാന്‍ ലാബ് വരും ; ആദ്യഘട്ടം ശബരിമലയിലും ഗുരുവായൂരിലും",
-      "url": "https://www.manoramanews.com/kerala/latest/2026/08/23/sabarimala-guruvayoor-gold-verification.html",
-      "source": "manoramanews.com",
-      "publishedAt": "2026-08-23T08:30:00Z",
-      "fetchedAt": "2026-08-23T08:51:17.063Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manoramanews.com/kerala/latest/2026/08/23/sabarimala-guruvayoor-gold-verification.html"
-    },
-    {
-      "id": "22d0f1913af76b1c",
-      "category": "科技与产业",
-      "title": "Schneller als Usain Bolt : Roboter aus China unterbietet Weltrekord",
-      "url": "http://www.merkur.de/welt/schneller-als-usain-bolt-roboter-aus-china-unterbietet-weltrekord-zr-94455549.html",
-      "source": "merkur.de",
-      "publishedAt": "2026-08-23T08:30:00Z",
-      "fetchedAt": "2026-08-23T08:51:17.063Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.merkur.de/welt/schneller-als-usain-bolt-roboter-aus-china-unterbietet-weltrekord-zr-94455549.html"
-    },
-    {
-      "id": "664254e47e853e66",
-      "category": "金属与资源",
-      "title": "Gangster Goldy Brar allegedly claims in leaked audio that he ...",
-      "url": "https://dailypioneer.com/news/gangster-goldy-brar-allegedly-claims-in-leaked-audio",
-      "source": "dailypioneer.com",
-      "publishedAt": "2026-08-23T08:30:00Z",
-      "fetchedAt": "2026-08-23T08:51:17.063Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dailypioneer.com/news/gangster-goldy-brar-allegedly-claims-in-leaked-audio"
     }
   ]
 }
