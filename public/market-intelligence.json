@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-25T10:52:14.812Z",
-  "newsUpdatedAt": "2026-08-25T09:53:32.615Z",
-  "assetsUpdatedAt": "2026-08-25T10:52:14.812Z",
+  "generatedAt": "2026-08-25T11:46:29.533Z",
+  "newsUpdatedAt": "2026-08-25T11:46:29.533Z",
+  "assetsUpdatedAt": "2026-08-25T11:46:29.533Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4691.24,
-      "changePercent": -0.14,
+      "price": 4695.42,
+      "changePercent": -0.05,
       "unit": "USD",
-      "asOf": "2026-08-25T18:51:56-04:00",
+      "asOf": "2026-08-25T19:47:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.48,
-      "changePercent": -2.97,
+      "price": 82.01,
+      "changePercent": -3.53,
       "unit": "USD",
-      "asOf": "2026-08-25T18:52:02-04:00",
+      "asOf": "2026-08-25T19:47:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 674.16,
-      "changePercent": 0.52,
+      "price": 674.71,
+      "changePercent": 0.6,
       "unit": "USD",
-      "asOf": "2026-08-25T18:51:30-04:00",
+      "asOf": "2026-08-25T19:47:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,357 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79335,
-      "changePercent": 2.18002996887544,
+      "price": 79140,
+      "changePercent": 0.9802620076419704,
       "unit": "USD",
-      "asOf": "2026-08-25T10:50:30.000Z",
+      "asOf": "2026-08-25T11:46:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "11fd5f67af3e9090",
+      "category": "全球与地区",
+      "title": "US unveils economic D - Day of sanctions to isolate Iran",
+      "url": "https://www.fultonsun.com/news/2026/aug/25/us-unveils-economic-d-day-of-sanctions-to-isolate/",
+      "source": "fultonsun.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fultonsun.com/news/2026/aug/25/us-unveils-economic-d-day-of-sanctions-to-isolate/"
+    },
+    {
+      "id": "38c250e0fedd29bb",
+      "category": "全球与地区",
+      "title": "Trump administration unveils new Iran sanctions",
+      "url": "https://www.delawarepublic.org/2026-08-25/trump-administration-unveils-new-iran-sanctions",
+      "source": "delawarepublic.org",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.delawarepublic.org/2026-08-25/trump-administration-unveils-new-iran-sanctions"
+    },
+    {
+      "id": "2610041327f14888",
+      "category": "能源与航运",
+      "title": "3 Energy Stocks Positioned to Benefit From Iraq Oil Ambitions",
+      "url": "https://finance.yahoo.com/energy/articles/3-energy-stocks-positioned-benefit-102004069.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/energy/articles/3-energy-stocks-positioned-benefit-102004069.html"
+    },
+    {
+      "id": "26dc011345f04605",
+      "category": "全球与地区",
+      "title": "Former Treasury official discusses the new round of U . S . economic sanctions on Iran",
+      "url": "https://www.delawarepublic.org/2026-08-25/former-treasury-official-discusses-the-new-round-of-u-s-economic-sanctions-on-iran",
+      "source": "delawarepublic.org",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.delawarepublic.org/2026-08-25/former-treasury-official-discusses-the-new-round-of-u-s-economic-sanctions-on-iran"
+    },
+    {
+      "id": "7825be0ede5b63c6",
+      "category": "全球与地区",
+      "title": "How will the new tariffs hit Canada economy ?",
+      "url": "https://www.cbc.ca/radio/frontburner/how-will-the-new-tariffs-hit-canada-s-economy-9.7319087",
+      "source": "cbc.ca",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cbc.ca/radio/frontburner/how-will-the-new-tariffs-hit-canada-s-economy-9.7319087"
+    },
+    {
+      "id": "2c26ec9ae043a146",
+      "category": "金属与资源",
+      "title": "Intelligenza artificiale , metal detector , psicologo gratis e latino alle medie : ecco come cambia la scuola - Tutte le notizie",
+      "url": "https://www.ansa.it/canale_legalita_scuola/speciali/back-to-school/2026/08/25/intelligenza-artificiale-metal-detector-psicologo-gratis-e-latino-alle-medie-ecco_768a52f8-db28-49a9-86a3-78fec56be439.html",
+      "source": "ansa.it",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ansa.it/canale_legalita_scuola/speciali/back-to-school/2026/08/25/intelligenza-artificiale-metal-detector-psicologo-gratis-e-latino-alle-medie-ecco_768a52f8-db28-49a9-86a3-78fec56be439.html"
+    },
+    {
+      "id": "c28091f79733da07",
+      "category": "金属与资源",
+      "title": "Why India Top Interior Designers Are Recommending SILVER FURNITURE for 2026 Projects",
+      "url": "https://aninews.in/news/business/why-indias-top-interior-designers-are-recommending-silver-furniture-for-2026-projects20260825155426/",
+      "source": "aninews.in",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/business/why-indias-top-interior-designers-are-recommending-silver-furniture-for-2026-projects20260825155426/"
+    },
+    {
+      "id": "336e6ab8bdbb6972",
+      "category": "全球与地区",
+      "title": "Shapiro Criticizes Trump Tariffs on Canada",
+      "url": "https://whp580.iheart.com/content/2026-08-25-shapiro-criticizes-trump-tariffs-on-canada/",
+      "source": "whp580.iheart.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://whp580.iheart.com/content/2026-08-25-shapiro-criticizes-trump-tariffs-on-canada/"
+    },
+    {
+      "id": "0dcbf378df16d651",
+      "category": "金属与资源",
+      "title": "Sam Ash to Lead $326M Bunker Hill - Silver47 Merger",
+      "url": "https://miningdigital.com/news/sam-ash-to-lead-326m-bunker-hill-silver47-merger",
+      "source": "miningdigital.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://miningdigital.com/news/sam-ash-to-lead-326m-bunker-hill-silver47-merger"
+    },
+    {
+      "id": "4ee14f764a4094f1",
+      "category": "金属与资源",
+      "title": "Goldman Sachs partner unveils real danger in working with AI",
+      "url": "https://www.hcamag.com/us/specialization/learning-development/goldman-sachs-partner-unveils-real-danger-in-working-with-ai/587308",
+      "source": "hcamag.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hcamag.com/us/specialization/learning-development/goldman-sachs-partner-unveils-real-danger-in-working-with-ai/587308"
+    },
+    {
+      "id": "ba7022d9e58d67f5",
+      "category": "科技与产业",
+      "title": "Trung Quốc âm thầm đẩy nhanh cuộc cách mạng robot trong các nhà máy",
+      "url": "https://baomoi.com/trung-quoc-am-tham-day-nhanh-cuoc-cach-mang-robot-trong-cac-nha-may-c55911005.epi",
+      "source": "baomoi.com",
+      "publishedAt": "2026-08-25T11:15:00Z",
+      "fetchedAt": "2026-08-25T11:46:29.533Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://baomoi.com/trung-quoc-am-tham-day-nhanh-cuoc-cach-mang-robot-trong-cac-nha-may-c55911005.epi"
+    },
     {
       "id": "1990b39ed9d0bfc4",
       "category": "金属与资源",
@@ -1263,337 +1602,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.nny360.com/top_stories/trump-says-tariffs-on-cars-trucks-to-hit-50-amid-canada-trade-spat/article_cb22e1c3-c07d-53b3-9053-62052cb0901a.html"
-    },
-    {
-      "id": "098f130323697f4b",
-      "category": "全球与地区",
-      "title": "Trump threatens 50 % tariffs on cars , trucks amid Canada trade spat",
-      "url": "https://www.staradvertiser.com/2026/08/24/breaking-news/trump-threatens-50-tariffs-on-cars-trucks-amid-canada-trade-spat/",
-      "source": "staradvertiser.com",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.staradvertiser.com/2026/08/24/breaking-news/trump-threatens-50-tariffs-on-cars-trucks-amid-canada-trade-spat/"
-    },
-    {
-      "id": "f4d52908e52c34bd",
-      "category": "全球与地区",
-      "title": "Diana Shipping Inc . Announces Direct Continuation of Time Charter Contract for M / V Leto With Cargill",
-      "url": "https://www.hellenicshippingnews.com/diana-shipping-inc-announces-direct-continuation-of-time-charter-contract-for-m-v-leto-with-cargill/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/diana-shipping-inc-announces-direct-continuation-of-time-charter-contract-for-m-v-leto-with-cargill/"
-    },
-    {
-      "id": "47af12fa75fad52b",
-      "category": "全球与地区",
-      "title": "Trump threatens 50 % tariffs on Canadian automobiles , steel in trade dispute",
-      "url": "https://www.10news.com/politics/the-president/trump-threatens-50-tariffs-on-canadian-automobiles-steel-in-trade-dispute",
-      "source": "10news.com",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.10news.com/politics/the-president/trump-threatens-50-tariffs-on-canadian-automobiles-steel-in-trade-dispute"
-    },
-    {
-      "id": "9d92ef03e02b6827",
-      "category": "全球与地区",
-      "title": "Iran currency hits new record low as US prepares to announce more sanctions",
-      "url": "https://www.thisiswiltshire.co.uk/news/national/26490345.irans-currency-hits-new-record-low-us-prepares-announce-sanctions/",
-      "source": "thisiswiltshire.co.uk",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thisiswiltshire.co.uk/news/national/26490345.irans-currency-hits-new-record-low-us-prepares-announce-sanctions/"
-    },
-    {
-      "id": "0ae5fe536d22b778",
-      "category": "全球与地区",
-      "title": "The Latest : Canada prime minister promises retaliatory tariffs as negotiations with the US falter",
-      "url": "https://www.news4jax.com/news/politics/2026/08/24/the-latest-canadas-prime-minister-promises-retaliatory-tariffs-as-negotiations-with-the-us-falter/",
-      "source": "news4jax.com",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.news4jax.com/news/politics/2026/08/24/the-latest-canadas-prime-minister-promises-retaliatory-tariffs-as-negotiations-with-the-us-falter/"
-    },
-    {
-      "id": "88a43c09846db403",
-      "category": "金属与资源",
-      "title": "Gold Extends Rally as Government Debt Concerns Mount",
-      "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-debt-concerns-sanctions-08242026",
-      "source": "bullionvault.com",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-debt-concerns-sanctions-08242026"
-    },
-    {
-      "id": "0c16f1a114370305",
-      "category": "科技与产业",
-      "title": "Una cosa che i robot proprio non sanno fare",
-      "url": "https://www.ilpost.it/2026/03/02/robot-piegare-bucato/?homepagePosition=12.1&referrerPost=3661864",
-      "source": "ilpost.it",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ilpost.it/2026/03/02/robot-piegare-bucato/?homepagePosition=12.1&referrerPost=3661864"
-    },
-    {
-      "id": "d4bd821c994ca98e",
-      "category": "全球与地区",
-      "title": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
-      "url": "https://www.news4jax.com/news/2026/08/24/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/",
-      "source": "news4jax.com",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.news4jax.com/news/2026/08/24/iran-warns-of-a-harsh-response-to-anticipated-us-sanctions-and-other-middle-east-news/"
-    },
-    {
-      "id": "8f6e56b87a80ca3f",
-      "category": "能源与航运",
-      "title": "Rafinăria Petrotel - LuKoil ia în calcul insolvența . Ce spun firmele care au de recuperat 30 de milioane de euro de la compania rusească",
-      "url": "https://hotnews.ro/rafinaria-petrotel-lukoil-ia-in-calcul-insolventa-ce-spun-firmele-care-au-de-recuperat-30-de-milioane-de-euro-de-la-compania-ruseasca-2332116",
-      "source": "hotnews.ro",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://hotnews.ro/rafinaria-petrotel-lukoil-ia-in-calcul-insolventa-ce-spun-firmele-care-au-de-recuperat-30-de-milioane-de-euro-de-la-compania-ruseasca-2332116"
-    },
-    {
-      "id": "75229b86d6b4e6e1",
-      "category": "数字资产",
-      "title": "BlackRock Bitcoin Fund Just Paid Its First Dividend : 18 . 5 % Annualized , While Bitcoin Sleeps at $65K",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-bitcoin-fund-just-paid-143635775.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/crypto/articles/blackrock-bitcoin-fund-just-paid-143635775.html"
-    },
-    {
-      "id": "32e8c1516f988176",
-      "category": "能源与航运",
-      "title": "Network Rail sues companies for £5m over derailment which caused oil spill",
-      "url": "https://www.northsomersettimes.co.uk/news/national/26491134.network-rail-sues-companies-gbp5m-derailment-caused-oil-spill/",
-      "source": "northsomersettimes.co.uk",
-      "publishedAt": "2026-08-24T15:30:00Z",
-      "fetchedAt": "2026-08-24T15:58:04.666Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.northsomersettimes.co.uk/news/national/26491134.network-rail-sues-companies-gbp5m-derailment-caused-oil-spill/"
     }
   ]
 }
