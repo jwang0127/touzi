@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-25T11:46:29.533Z",
-  "newsUpdatedAt": "2026-08-25T11:46:29.533Z",
-  "assetsUpdatedAt": "2026-08-25T11:46:29.533Z",
+  "generatedAt": "2026-08-25T13:13:49.443Z",
+  "newsUpdatedAt": "2026-08-25T13:13:49.443Z",
+  "assetsUpdatedAt": "2026-08-25T13:13:49.443Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4695.42,
-      "changePercent": -0.05,
+      "price": 4681.69,
+      "changePercent": -0.34,
       "unit": "USD",
-      "asOf": "2026-08-25T19:47:04-04:00",
+      "asOf": "2026-08-25T21:14:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.01,
-      "changePercent": -3.53,
+      "price": 81.89,
+      "changePercent": -3.67,
       "unit": "USD",
-      "asOf": "2026-08-25T19:47:05-04:00",
+      "asOf": "2026-08-25T21:14:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 674.71,
-      "changePercent": 0.6,
+      "price": 673.16,
+      "changePercent": 0.37,
       "unit": "USD",
-      "asOf": "2026-08-25T19:47:06-04:00",
+      "asOf": "2026-08-25T21:14:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,104 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79140,
-      "changePercent": 0.9802620076419704,
+      "price": 78783,
+      "changePercent": -0.5202479752046086,
       "unit": "USD",
-      "asOf": "2026-08-25T11:46:00.000Z",
+      "asOf": "2026-08-25T13:12:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "35eacb3d8aa3aa96",
+      "category": "数字资产",
+      "title": "Bitcoin - Kurs aktuell : Bitcoin springt über die 81 . 000 - Dollar - Marke",
+      "url": "https://www.wiwo.de/finanzen/boerse/bitcoin-kurs-aktuell-bitcoin-springt-ueber-die-81.000-dollar-marke/27382428.html",
+      "source": "wiwo.de",
+      "publishedAt": "2026-08-25T12:30:00Z",
+      "fetchedAt": "2026-08-25T13:13:49.443Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wiwo.de/finanzen/boerse/bitcoin-kurs-aktuell-bitcoin-springt-ueber-die-81.000-dollar-marke/27382428.html"
+    },
+    {
+      "id": "58e95571d31c49d7",
+      "category": "全球与地区",
+      "title": "Trump administration unveils new Iran sanctions",
+      "url": "https://www.wcbe.org/2026-08-25/trump-administration-unveils-new-iran-sanctions",
+      "source": "wcbe.org",
+      "publishedAt": "2026-08-25T12:30:00Z",
+      "fetchedAt": "2026-08-25T13:13:49.443Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wcbe.org/2026-08-25/trump-administration-unveils-new-iran-sanctions"
+    },
+    {
+      "id": "f2b2a3d7bc9d3cf3",
+      "category": "金属与资源",
+      "title": "GoGold Resources Inc .: GoGold Commences Construction of the Fully - Funded Los Ricos South Mine",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69400763-gogold-resources-inc-gogold-commences-construction-of-the-fully-funded-los-ricos-south-mine-296.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-08-25T12:15:00Z",
+      "fetchedAt": "2026-08-25T13:13:49.443Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-08/69400763-gogold-resources-inc-gogold-commences-construction-of-the-fully-funded-los-ricos-south-mine-296.htm"
+    },
     {
       "id": "11fd5f67af3e9090",
       "category": "全球与地区",
@@ -164,34 +254,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.fultonsun.com/news/2026/aug/25/us-unveils-economic-d-day-of-sanctions-to-isolate/"
-    },
-    {
-      "id": "38c250e0fedd29bb",
-      "category": "全球与地区",
-      "title": "Trump administration unveils new Iran sanctions",
-      "url": "https://www.delawarepublic.org/2026-08-25/trump-administration-unveils-new-iran-sanctions",
-      "source": "delawarepublic.org",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.delawarepublic.org/2026-08-25/trump-administration-unveils-new-iran-sanctions"
     },
     {
       "id": "2610041327f14888",
@@ -1548,60 +1610,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://timesofindia.indiatimes.com/science/cashew-shells-once-treated-as-waste-are-entering-the-shipping-industry-with-their-residue-based-energy-tested-aboard-a-commercial-vessel/articleshow/133463782.cms"
-    },
-    {
-      "id": "224bd84bea17d1da",
-      "category": "全球与地区",
-      "title": "Report Criticises BT , Sky , Virgin , Vodafone and Others for Confusing united kingdom Social Tariffs",
-      "url": "https://www.ispreview.co.uk/index.php/2026/08/report-criticises-bt-sky-virgin-vodafone-and-others-for-confusing-uk-social-tariffs.html",
-      "source": "ispreview.co.uk",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ispreview.co.uk/index.php/2026/08/report-criticises-bt-sky-virgin-vodafone-and-others-for-confusing-uk-social-tariffs.html"
-    },
-    {
-      "id": "9d30206d08b16b33",
-      "category": "全球与地区",
-      "title": "Trump says tariffs on cars , trucks to hit 50 % amid Canada trade spat",
-      "url": "https://www.nny360.com/top_stories/trump-says-tariffs-on-cars-trucks-to-hit-50-amid-canada-trade-spat/article_cb22e1c3-c07d-53b3-9053-62052cb0901a.html",
-      "source": "nny360.com",
-      "publishedAt": "2026-08-24T19:00:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nny360.com/top_stories/trump-says-tariffs-on-cars-trucks-to-hit-50-amid-canada-trade-spat/article_cb22e1c3-c07d-53b3-9053-62052cb0901a.html"
     }
   ]
 }
