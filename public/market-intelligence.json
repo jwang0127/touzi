@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-25T01:54:38.579Z",
-  "newsUpdatedAt": "2026-08-24T20:50:49.629Z",
-  "assetsUpdatedAt": "2026-08-25T01:54:38.579Z",
+  "generatedAt": "2026-08-25T03:14:12.359Z",
+  "newsUpdatedAt": "2026-08-25T03:14:12.359Z",
+  "assetsUpdatedAt": "2026-08-25T03:14:12.359Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3868.23,
-      "changePercent": -0.35,
+      "price": 3875.19,
+      "changePercent": -0.18,
       "unit": "CNY",
-      "asOf": "2026-08-25T09:55:21+08:00",
+      "asOf": "2026-08-25T11:15:09+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13668.28,
-      "changePercent": -0.91,
+      "price": 13678.58,
+      "changePercent": -0.84,
       "unit": "CNY",
-      "asOf": "2026-08-25T09:55:18+08:00",
+      "asOf": "2026-08-25T11:15:06+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25530.29,
-      "changePercent": 0.05,
+      "price": 25434.03,
+      "changePercent": -0.33,
       "unit": "HKD",
-      "asOf": "2026-08-25T09:40:19+08:00",
+      "asOf": "2026-08-25T11:00:04+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8457.89,
-      "changePercent": -0.16,
+      "price": 8432.13,
+      "changePercent": -0.46,
       "unit": "HKD",
-      "asOf": "2026-08-25T09:40:18+08:00",
+      "asOf": "2026-08-25T11:00:04+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4720.37,
-      "changePercent": 0.48,
+      "price": 4688.35,
+      "changePercent": -0.2,
       "unit": "USD",
-      "asOf": "2026-08-25T09:55:01-04:00",
+      "asOf": "2026-08-25T11:15:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -110,7 +110,7 @@
       "price": 85.36,
       "changePercent": 0.41,
       "unit": "USD",
-      "asOf": "2026-08-25T09:55:01-04:00",
+      "asOf": "2026-08-25T11:15:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 671.09,
-      "changePercent": 0.06,
+      "price": 668.78,
+      "changePercent": -0.29,
       "unit": "USD",
-      "asOf": "2026-08-25T09:54:52-04:00",
+      "asOf": "2026-08-25T11:15:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,108 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79590,
-      "changePercent": 3.101739439876882,
+      "price": 80833,
+      "changePercent": 4.658516904871051,
       "unit": "USD",
-      "asOf": "2026-08-25T01:53:10.000Z",
+      "asOf": "2026-08-25T03:12:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5645a4c472a81254",
+      "category": "全球与地区",
+      "title": "Canada will announce retaliatory tariffs against the United States , official tells AP",
+      "url": "https://www.wowt.com/2026/08/24/canada-will-announce-retaliatory-tariffs-against-united-states-tuesday-official-tells-ap/",
+      "source": "wowt.com",
+      "publishedAt": "2026-08-25T02:45:00Z",
+      "fetchedAt": "2026-08-25T03:14:12.359Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wowt.com/2026/08/24/canada-will-announce-retaliatory-tariffs-against-united-states-tuesday-official-tells-ap/"
+    },
+    {
+      "id": "2f70864b3cb03a51",
+      "category": "能源与航运",
+      "title": "Wieder Tanker in Straße von Hormuz angegriffen",
+      "url": "https://www.vol.at/wieder-tanker-in-strasse-von-hormuz-angegriffen/10411670",
+      "source": "vol.at",
+      "publishedAt": "2026-08-25T02:45:00Z",
+      "fetchedAt": "2026-08-25T03:14:12.359Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vol.at/wieder-tanker-in-strasse-von-hormuz-angegriffen/10411670"
+    },
+    {
+      "id": "e5980d9f1b1b6e01",
+      "category": "全球与地区",
+      "title": "HAH : Xếp dỡ Hải An rót thêm 121 tỷ đồng vào Hải An Green Shipping Lines",
+      "url": "https://stockbiz.vn/tin-tuc/hah-xep-do-hai-an-rot-them-121-ty-dong-vao-hai-an-green-shipping-lines/41563668",
+      "source": "stockbiz.vn",
+      "publishedAt": "2026-08-25T02:45:00Z",
+      "fetchedAt": "2026-08-25T03:14:12.359Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stockbiz.vn/tin-tuc/hah-xep-do-hai-an-rot-them-121-ty-dong-vao-hai-an-green-shipping-lines/41563668"
+    },
     {
       "id": "10aced5e4f28cd91",
       "category": "全球与地区",
@@ -1502,98 +1594,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.moneycontrol.com/world/trump-s-new-tariffs-hit-canada-as-carney-threatens-a-dollar-for-dollar-response-article-14014242.html"
-    },
-    {
-      "id": "eb536977a6d8a7ab",
-      "category": "能源与航运",
-      "title": "Poilievre calls on Carney to reconvene Parliament to discuss rejected U . S . trade deal",
-      "url": "https://www.cbc.ca/news/livestory/canada-u-s-trade-deal-carney-trump-greer-9.7317956",
-      "source": "cbc.ca",
-      "publishedAt": "2026-08-24T13:30:00Z",
-      "fetchedAt": "2026-08-24T14:07:34.216Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cbc.ca/news/livestory/canada-u-s-trade-deal-carney-trump-greer-9.7317956"
-    },
-    {
-      "id": "3fbcc4dd99d895d0",
-      "category": "全球与地区",
-      "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
-      "url": "http://www.leadertelegram.com/news/nation-world/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article_b3555873-f963-514e-80ae-25eba26fb586.html",
-      "source": "leadertelegram.com",
-      "publishedAt": "2026-08-24T13:30:00Z",
-      "fetchedAt": "2026-08-24T14:07:34.216Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.leadertelegram.com/news/nation-world/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/article_b3555873-f963-514e-80ae-25eba26fb586.html"
-    },
-    {
-      "id": "71406ecd78d77432",
-      "category": "全球与地区",
-      "title": "Oil prices slip awaiting US details of Iran sanctions",
-      "url": "https://www.middle-east-online.com/en/oil-prices-slip-awaiting-us-details-iran-sanctions",
-      "source": "middle-east-online.com",
-      "publishedAt": "2026-08-24T11:15:00Z",
-      "fetchedAt": "2026-08-24T11:46:20.261Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Iraq"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middle-east-online.com/en/oil-prices-slip-awaiting-us-details-iran-sanctions"
     }
   ]
 }
