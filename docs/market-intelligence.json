@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-08-26T09:05:13.659Z",
+  "generatedAt": "2026-08-26T09:59:53.986Z",
   "newsUpdatedAt": "2026-08-25T13:13:49.443Z",
-  "assetsUpdatedAt": "2026-08-26T09:05:13.659Z",
+  "assetsUpdatedAt": "2026-08-26T09:59:53.986Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -44,7 +44,7 @@
       "price": 25652.97,
       "changePercent": 0.56,
       "unit": "HKD",
-      "asOf": "2026-08-26T16:50:01+08:00",
+      "asOf": "2026-08-26T17:45:01+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4680.9,
-      "changePercent": -0.29,
+      "price": 4678.12,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-08-26T17:05:02-04:00",
+      "asOf": "2026-08-26T18:00:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 79.89,
-      "changePercent": -3.01,
+      "price": 80.11,
+      "changePercent": -2.73,
       "unit": "USD",
-      "asOf": "2026-08-26T17:05:02-04:00",
+      "asOf": "2026-08-26T18:00:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 681.79,
+      "price": 681.83,
       "changePercent": 0.04,
       "unit": "USD",
-      "asOf": "2026-08-26T17:04:48-04:00",
+      "asOf": "2026-08-26T18:00:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78790,
-      "changePercent": -1.1628496774282855,
+      "price": 78426,
+      "changePercent": -0.9152901828033774,
       "unit": "USD",
-      "asOf": "2026-08-26T09:03:50.000Z",
+      "asOf": "2026-08-26T09:58:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
