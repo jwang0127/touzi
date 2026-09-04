@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-03T22:37:43.734Z",
+  "generatedAt": "2026-09-04T01:01:44.884Z",
   "newsUpdatedAt": "2026-09-03T22:37:43.734Z",
-  "assetsUpdatedAt": "2026-09-03T22:37:43.734Z",
+  "assetsUpdatedAt": "2026-09-04T01:01:44.884Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4520.74,
-      "changePercent": -0.42,
+      "price": 4528.97,
+      "changePercent": -0.24,
       "unit": "USD",
-      "asOf": "2026-09-04T06:38:04-04:00",
+      "asOf": "2026-09-04T09:02:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 91.76,
-      "changePercent": 0.5,
+      "price": 91.59,
+      "changePercent": 0.32,
       "unit": "USD",
-      "asOf": "2026-09-04T06:38:05-04:00",
+      "asOf": "2026-09-04T09:02:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 667.43,
-      "changePercent": 0.15,
+      "price": 668.07,
+      "changePercent": 0.24,
       "unit": "USD",
-      "asOf": "2026-09-04T06:36:01-04:00",
+      "asOf": "2026-09-04T09:02:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81059,
-      "changePercent": 5.171973837987473,
+      "price": 80985,
+      "changePercent": 5.193405761384096,
       "unit": "USD",
-      "asOf": "2026-09-03T22:36:30.000Z",
+      "asOf": "2026-09-04T01:00:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
