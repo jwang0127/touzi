@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-04T16:25:55.858Z",
-  "newsUpdatedAt": "2026-09-04T05:58:09.357Z",
-  "assetsUpdatedAt": "2026-09-04T16:25:55.858Z",
+  "generatedAt": "2026-09-04T19:39:09.162Z",
+  "newsUpdatedAt": "2026-09-04T19:39:09.162Z",
+  "assetsUpdatedAt": "2026-09-04T19:39:09.162Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 53437.29,
-      "changePercent": -0.46,
+      "price": 53364.33,
+      "changePercent": -0.6,
       "unit": "USD",
-      "asOf": "2026-09-04T12:26:20-04:00",
+      "asOf": "2026-09-04T15:40:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26500.38,
-      "changePercent": -0.31,
+      "price": 26491.13,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-09-04T12:26:20-04:00",
+      "asOf": "2026-09-04T15:40:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7723.34,
-      "changePercent": -0.31,
+      "price": 7713.33,
+      "changePercent": -0.44,
       "unit": "USD",
-      "asOf": "2026-09-04T12:26:20-04:00",
+      "asOf": "2026-09-04T15:40:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4488.49,
-      "changePercent": -1.13,
+      "price": 4489.2,
+      "changePercent": -1.12,
       "unit": "USD",
-      "asOf": "2026-09-05T00:26:06-04:00",
+      "asOf": "2026-09-05T03:40:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 90.85,
-      "changePercent": -0.49,
+      "price": 91.47,
+      "changePercent": 0.18,
       "unit": "USD",
-      "asOf": "2026-09-05T00:26:05-04:00",
+      "asOf": "2026-09-05T03:40:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 668.46,
-      "changePercent": 0.3,
+      "price": 666.61,
+      "changePercent": 0.02,
       "unit": "USD",
-      "asOf": "2026-09-05T00:25:35-04:00",
+      "asOf": "2026-09-05T03:39:36-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,186 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79506,
-      "changePercent": -1.4465364893620447,
+      "price": 79697,
+      "changePercent": -2.1522407349692467,
       "unit": "USD",
-      "asOf": "2026-09-04T16:24:40.000Z",
+      "asOf": "2026-09-04T19:38:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "70442df3e8adeb81",
+      "category": "金属与资源",
+      "title": "Goldene Henne : Anna - Carina Woitschack funkelt auf dem roten Teppich",
+      "url": "https://www.viply.de/style/goldene-henne-anna-carina-woitschack-funkelt-auf-dem-roten-teppich/",
+      "source": "viply.de",
+      "publishedAt": "2026-09-04T19:15:00Z",
+      "fetchedAt": "2026-09-04T19:39:09.162Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.viply.de/style/goldene-henne-anna-carina-woitschack-funkelt-auf-dem-roten-teppich/"
+    },
+    {
+      "id": "58b530a890714db1",
+      "category": "金属与资源",
+      "title": "So bewegen sich Gold & Co . heute",
+      "url": "https://www.finanzen.net/nachricht/rohstoffe/so-bewegen-sich-gold-co-heute-15919660",
+      "source": "finanzen.net",
+      "publishedAt": "2026-09-04T19:15:00Z",
+      "fetchedAt": "2026-09-04T19:39:09.162Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/nachricht/rohstoffe/so-bewegen-sich-gold-co-heute-15919660"
+    },
+    {
+      "id": "e0d84603e9c1aea4",
+      "category": "金属与资源",
+      "title": "Comex Gold Ends the Week 1 . 08 % Lower at $4429 . 80 Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202609045285/comex-gold-ends-the-week-108-lower-at-442980-data-talk",
+      "source": "morningstar.com",
+      "publishedAt": "2026-09-04T19:15:00Z",
+      "fetchedAt": "2026-09-04T19:39:09.162Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.morningstar.com/news/dow-jones/202609045285/comex-gold-ends-the-week-108-lower-at-442980-data-talk"
+    },
+    {
+      "id": "af3d6b48362843f0",
+      "category": "科技与产业",
+      "title": "Tesla : Elon Musk schickt Robotaxis auf die Menschheit los",
+      "url": "https://www.derbund.ch/tesla-elon-musk-schickt-robotaxis-auf-die-menschheit-los-912777772238",
+      "source": "derbund.ch",
+      "publishedAt": "2026-09-04T19:15:00Z",
+      "fetchedAt": "2026-09-04T19:39:09.162Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Switzerland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.derbund.ch/tesla-elon-musk-schickt-robotaxis-auf-die-menschheit-los-912777772238"
+    },
+    {
+      "id": "fc5f539bfe3bc433",
+      "category": "金属与资源",
+      "title": "Gold Holds Gain as Trump War Comments Ease Inflation Jitters",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gain-trump-war-235831736.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-09-04T19:15:00Z",
+      "fetchedAt": "2026-09-04T19:39:09.162Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gain-trump-war-235831736.html"
+    },
     {
       "id": "a1b10bb248bd18f1",
       "category": "金属与资源",
@@ -1477,160 +1647,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297"
-    },
-    {
-      "id": "40f5581cf63db0f2",
-      "category": "全球与地区",
-      "title": "New US sanctions aim to block all potential revenue sources for Iran – Bessent",
-      "url": "https://www.countytimes.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/",
-      "source": "countytimes.co.uk",
-      "publishedAt": "2026-08-24T20:15:00Z",
-      "fetchedAt": "2026-08-24T20:50:49.629Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.countytimes.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/"
-    },
-    {
-      "id": "0045e86a7325de20",
-      "category": "能源与航运",
-      "title": "Which Oil and Gas Stock Has Dominated in 2026 : ConocoPhillips , EOG Resources , or Occidental Petroleum ?",
-      "url": "https://247wallst.com/investing/2026/08/24/which-oil-and-gas-stock-has-dominated-in-2026-conocophillips-eog-resources-or-occidental-petroleum/",
-      "source": "247wallst.com",
-      "publishedAt": "2026-08-24T20:15:00Z",
-      "fetchedAt": "2026-08-24T20:50:49.629Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://247wallst.com/investing/2026/08/24/which-oil-and-gas-stock-has-dominated-in-2026-conocophillips-eog-resources-or-occidental-petroleum/"
-    },
-    {
-      "id": "22438c3d826be32d",
-      "category": "全球与地区",
-      "title": "Gas prices hit record highs for August as Ukraine , Iran conflicts drive costs up",
-      "url": "https://www.kiro7.com/news/local/gas-prices-hit-record-highs-august-ukraine-iran-conflicts-drive-costs-up/UDBPWWQVXJBG7PXNAHNZY6OO74/",
-      "source": "kiro7.com",
-      "publishedAt": "2026-08-24T20:15:00Z",
-      "fetchedAt": "2026-08-24T20:50:49.629Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kiro7.com/news/local/gas-prices-hit-record-highs-august-ukraine-iran-conflicts-drive-costs-up/UDBPWWQVXJBG7PXNAHNZY6OO74/"
-    },
-    {
-      "id": "7eab537dd15b8947",
-      "category": "数字资产",
-      "title": "Bitcoin has more room to run after explosive rebound , analysts say",
-      "url": "https://www.cnbc.com/2026/08/24/bitcoin-has-more-room-to-run-after-explosive-rebound-analysts-say.html",
-      "source": "cnbc.com",
-      "publishedAt": "2026-08-24T20:15:00Z",
-      "fetchedAt": "2026-08-24T20:50:49.629Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cnbc.com/2026/08/24/bitcoin-has-more-room-to-run-after-explosive-rebound-analysts-say.html"
-    },
-    {
-      "id": "e188eaa68724632d",
-      "category": "能源与航运",
-      "title": "TotalEnergies Backs Two Major Oil Pipelines to Bypass Hormuz",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Backs-Two-Major-Oil-Pipelines-to-Bypass-Hormuz.html",
-      "source": "oilprice.com",
-      "publishedAt": "2026-08-24T19:15:00Z",
-      "fetchedAt": "2026-08-24T19:47:24.992Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Backs-Two-Major-Oil-Pipelines-to-Bypass-Hormuz.html"
     }
   ]
 }
