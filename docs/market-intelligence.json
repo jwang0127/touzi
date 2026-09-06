@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-05T23:56:32.869Z",
-  "newsUpdatedAt": "2026-09-05T23:56:32.869Z",
-  "assetsUpdatedAt": "2026-09-05T23:56:32.869Z",
+  "generatedAt": "2026-09-06T04:45:50.934Z",
+  "newsUpdatedAt": "2026-09-06T04:45:50.934Z",
+  "assetsUpdatedAt": "2026-09-06T04:45:50.934Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,186 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79853,
-      "changePercent": 0.2594893503269401,
+      "price": 79915,
+      "changePercent": 0.47584006368251136,
       "unit": "USD",
-      "asOf": "2026-09-05T23:55:40.000Z",
+      "asOf": "2026-09-06T04:45:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "50694f1b91ab4d9f",
+      "category": "科技与产业",
+      "title": "Chinese robots shine at LEAP 2026 in Saudi Arabia - People Daily Online",
+      "url": "https://en.people.cn/n3/2026/0906/c90000-20496534.html",
+      "source": "en.people.cn",
+      "publishedAt": "2026-09-06T03:45:00Z",
+      "fetchedAt": "2026-09-06T04:45:50.934Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.people.cn/n3/2026/0906/c90000-20496534.html"
+    },
+    {
+      "id": "c0690e8c1087e519",
+      "category": "能源与航运",
+      "title": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes",
+      "url": "https://www.globaltimes.cn/page/202609/1369896.shtml",
+      "source": "globaltimes.cn",
+      "publishedAt": "2026-09-06T03:45:00Z",
+      "fetchedAt": "2026-09-06T04:45:50.934Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.globaltimes.cn/page/202609/1369896.shtml"
+    },
+    {
+      "id": "ec84cd05ace43cd7",
+      "category": "能源与航运",
+      "title": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 US vessels elsewhere in retaliatory strikes",
+      "url": "https://www.prokerala.com/news/articles/a1809007.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-09-06T03:45:00Z",
+      "fetchedAt": "2026-09-06T04:45:50.934Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1809007.html"
+    },
+    {
+      "id": "cd0b02f32f2a3608",
+      "category": "能源与航运",
+      "title": "U . S . strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
+      "url": "https://kansaspublicradio.org/npr-news/2026-09-05/u-s-strikes-iranian-oil-tankers-in-retaliation-for-missile-attacks-on-navy-ships",
+      "source": "kansaspublicradio.org",
+      "publishedAt": "2026-09-06T03:45:00Z",
+      "fetchedAt": "2026-09-06T04:45:50.934Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://kansaspublicradio.org/npr-news/2026-09-05/u-s-strikes-iranian-oil-tankers-in-retaliation-for-missile-attacks-on-navy-ships"
+    },
+    {
+      "id": "51b523670d8dc2d2",
+      "category": "能源与航运",
+      "title": "Israeli investors in crosshairs of Argentina Milei over Falklands oil project",
+      "url": "https://finance.yahoo.com/news/israeli-investors-crosshairs-argentinas-milei-144720958.html",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-09-06T03:45:00Z",
+      "fetchedAt": "2026-09-06T04:45:50.934Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.yahoo.com/news/israeli-investors-crosshairs-argentinas-milei-144720958.html"
+    },
     {
       "id": "cfaedc033763eb0a",
       "category": "全球与地区",
@@ -1482,170 +1654,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.cbc.ca/radio/frontburner/how-will-the-new-tariffs-hit-canada-s-economy-9.7319087"
-    },
-    {
-      "id": "2c26ec9ae043a146",
-      "category": "金属与资源",
-      "title": "Intelligenza artificiale , metal detector , psicologo gratis e latino alle medie : ecco come cambia la scuola - Tutte le notizie",
-      "url": "https://www.ansa.it/canale_legalita_scuola/speciali/back-to-school/2026/08/25/intelligenza-artificiale-metal-detector-psicologo-gratis-e-latino-alle-medie-ecco_768a52f8-db28-49a9-86a3-78fec56be439.html",
-      "source": "ansa.it",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ansa.it/canale_legalita_scuola/speciali/back-to-school/2026/08/25/intelligenza-artificiale-metal-detector-psicologo-gratis-e-latino-alle-medie-ecco_768a52f8-db28-49a9-86a3-78fec56be439.html"
-    },
-    {
-      "id": "c28091f79733da07",
-      "category": "金属与资源",
-      "title": "Why India Top Interior Designers Are Recommending SILVER FURNITURE for 2026 Projects",
-      "url": "https://aninews.in/news/business/why-indias-top-interior-designers-are-recommending-silver-furniture-for-2026-projects20260825155426/",
-      "source": "aninews.in",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/business/why-indias-top-interior-designers-are-recommending-silver-furniture-for-2026-projects20260825155426/"
-    },
-    {
-      "id": "336e6ab8bdbb6972",
-      "category": "全球与地区",
-      "title": "Shapiro Criticizes Trump Tariffs on Canada",
-      "url": "https://whp580.iheart.com/content/2026-08-25-shapiro-criticizes-trump-tariffs-on-canada/",
-      "source": "whp580.iheart.com",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://whp580.iheart.com/content/2026-08-25-shapiro-criticizes-trump-tariffs-on-canada/"
-    },
-    {
-      "id": "0dcbf378df16d651",
-      "category": "金属与资源",
-      "title": "Sam Ash to Lead $326M Bunker Hill - Silver47 Merger",
-      "url": "https://miningdigital.com/news/sam-ash-to-lead-326m-bunker-hill-silver47-merger",
-      "source": "miningdigital.com",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://miningdigital.com/news/sam-ash-to-lead-326m-bunker-hill-silver47-merger"
-    },
-    {
-      "id": "4ee14f764a4094f1",
-      "category": "金属与资源",
-      "title": "Goldman Sachs partner unveils real danger in working with AI",
-      "url": "https://www.hcamag.com/us/specialization/learning-development/goldman-sachs-partner-unveils-real-danger-in-working-with-ai/587308",
-      "source": "hcamag.com",
-      "publishedAt": "2026-08-25T11:15:00Z",
-      "fetchedAt": "2026-08-25T11:46:29.533Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hcamag.com/us/specialization/learning-development/goldman-sachs-partner-unveils-real-danger-in-working-with-ai/587308"
     }
   ]
 }
