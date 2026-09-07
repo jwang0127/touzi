@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-07T10:25:19.309Z",
+  "generatedAt": "2026-09-07T16:30:19.287Z",
   "newsUpdatedAt": "2026-09-07T10:25:19.309Z",
-  "assetsUpdatedAt": "2026-09-07T10:25:19.309Z",
+  "assetsUpdatedAt": "2026-09-07T16:30:19.287Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -42,7 +44,7 @@
       "price": 25413.12,
       "changePercent": -0.93,
       "unit": "HKD",
-      "asOf": "2026-09-07T18:11:15+08:00",
+      "asOf": "2026-09-07T18:31:15+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4442.59,
-      "changePercent": -0.76,
+      "price": 4461.15,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-09-07T18:25:49-04:00",
+      "asOf": "2026-09-08T00:30:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 91.37,
-      "changePercent": -0.12,
+      "price": 92.74,
+      "changePercent": 1.38,
       "unit": "USD",
-      "asOf": "2026-09-07T18:26:03-04:00",
+      "asOf": "2026-09-08T00:30:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 668.64,
-      "changePercent": 0.06,
+      "price": 672.13,
+      "changePercent": 0.58,
       "unit": "USD",
-      "asOf": "2026-09-07T18:25:35-04:00",
+      "asOf": "2026-09-08T00:29:21-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79389,
-      "changePercent": -0.7196886381912242,
+      "price": 78829,
+      "changePercent": -1.0987384399833366,
       "unit": "USD",
-      "asOf": "2026-09-07T10:24:50.000Z",
+      "asOf": "2026-09-07T16:29:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
