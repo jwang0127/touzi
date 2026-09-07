@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-07T04:49:08.465Z",
-  "newsUpdatedAt": "2026-09-06T23:58:46.637Z",
-  "assetsUpdatedAt": "2026-09-07T04:49:08.465Z",
+  "generatedAt": "2026-09-07T10:25:19.309Z",
+  "newsUpdatedAt": "2026-09-07T10:25:19.309Z",
+  "assetsUpdatedAt": "2026-09-07T10:25:19.309Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3920.7,
-      "changePercent": -0.24,
+      "price": 3932.7,
+      "changePercent": 0.07,
       "unit": "CNY",
-      "asOf": "2026-09-07T12:05:00+08:00",
+      "asOf": "2026-09-07T16:14:02+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13703.21,
-      "changePercent": 1.38,
+      "price": 13774.91,
+      "changePercent": 1.91,
       "unit": "CNY",
-      "asOf": "2026-09-07T12:05:24+08:00",
+      "asOf": "2026-09-07T16:14:24+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 25402.73,
-      "changePercent": -0.97,
+      "price": 25413.12,
+      "changePercent": -0.93,
       "unit": "HKD",
-      "asOf": "2026-09-07T11:59:59+08:00",
+      "asOf": "2026-09-07T18:11:15+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8426.26,
-      "changePercent": -1.51,
+      "price": 8429.73,
+      "changePercent": -1.46,
       "unit": "HKD",
-      "asOf": "2026-09-07T11:59:59+08:00",
+      "asOf": "2026-09-07T16:08:40+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4441.41,
-      "changePercent": -0.79,
+      "price": 4442.59,
+      "changePercent": -0.76,
       "unit": "USD",
-      "asOf": "2026-09-07T12:48:52-04:00",
+      "asOf": "2026-09-07T18:25:49-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.49,
-      "changePercent": 1.1,
+      "price": 91.37,
+      "changePercent": -0.12,
       "unit": "USD",
-      "asOf": "2026-09-07T12:48:43-04:00",
+      "asOf": "2026-09-07T18:26:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.69,
-      "changePercent": -0.53,
+      "price": 668.64,
+      "changePercent": 0.06,
       "unit": "USD",
-      "asOf": "2026-09-07T12:48:35-04:00",
+      "asOf": "2026-09-07T18:25:35-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,408 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79679,
-      "changePercent": -0.3004063850868932,
+      "price": 79389,
+      "changePercent": -0.7196886381912242,
       "unit": "USD",
-      "asOf": "2026-09-07T04:48:10.000Z",
+      "asOf": "2026-09-07T10:24:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c3b73ed2b4d915d3",
+      "category": "金属与资源",
+      "title": "The copper peptide trend has gone from creams to injections ahead of the science",
+      "url": "https://www.wuwf.org/2026-09-07/the-copper-peptide-trend-has-gone-from-creams-to-injections-ahead-of-the-science",
+      "source": "wuwf.org",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wuwf.org/2026-09-07/the-copper-peptide-trend-has-gone-from-creams-to-injections-ahead-of-the-science"
+    },
+    {
+      "id": "58031d8da4040156",
+      "category": "能源与航运",
+      "title": "Trafic de drogue et blanchiment dargent : La FCC lève le voile sur un réseau international",
+      "url": "https://www.lemauricien.com/actualites/societe/trafic-de-drogue-et-blanchiment-dargent-la-fcc-leve-le-voile-sur-un-reseau-international/716891/",
+      "source": "lemauricien.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Mauritius"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.lemauricien.com/actualites/societe/trafic-de-drogue-et-blanchiment-dargent-la-fcc-leve-le-voile-sur-un-reseau-international/716891/"
+    },
+    {
+      "id": "41f8ab646489e2e4",
+      "category": "能源与航运",
+      "title": "Forward - looking Canadian energy policy needed against President Trump authoritarian moves - The Hill Times",
+      "url": "https://www.hilltimes.com/2026/09/07/forward-looking-canadian-energy-policy-needed-against-president-trumps-authoritarian-moves/516889/",
+      "source": "hilltimes.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hilltimes.com/2026/09/07/forward-looking-canadian-energy-policy-needed-against-president-trumps-authoritarian-moves/516889/"
+    },
+    {
+      "id": "697fb579b20f3cc0",
+      "category": "科技与产业",
+      "title": "China realiza la primera cirugía del mundo para cardíopatía congénita guiada por un robot de ecografía impulsado por IA",
+      "url": "http://spanish.china.org.cn/txt/2026-09/07/content_118684181.htm",
+      "source": "spanish.china.org.cn",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://spanish.china.org.cn/txt/2026-09/07/content_118684181.htm"
+    },
+    {
+      "id": "c3aa00c23fcc0d11",
+      "category": "金属与资源",
+      "title": "SPDR Gold MiniShares Trust $GLDM Shares Sold by TD Waterhouse Canada Inc .",
+      "url": "https://www.dailypolitical.com/2026/09/07/spdr-gold-minishares-trust-gldm-shares-sold-by-td-waterhouse-canada-inc.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/09/07/spdr-gold-minishares-trust-gldm-shares-sold-by-td-waterhouse-canada-inc.html"
+    },
+    {
+      "id": "17e5ffaeb57db79c",
+      "category": "金属与资源",
+      "title": "ECOVACS Wins Two IDG Gold Awards at IFA Berlin 2026",
+      "url": "https://www.prnewswire.com:443/news-releases/ecovacs-wins-two-idg-gold-awards-at-ifa-berlin-2026-302870872.html",
+      "source": "prnewswire.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prnewswire.com:443/news-releases/ecovacs-wins-two-idg-gold-awards-at-ifa-berlin-2026-302870872.html"
+    },
+    {
+      "id": "bf53cb12d0d454a2",
+      "category": "科技与产业",
+      "title": "Readying the Wings : Inside HAL Robotic Revolution",
+      "url": "https://www.business-standard.com/content/press-releases-ani/readying-the-wings-inside-hal-s-robotic-revolution-126090700624_1.html",
+      "source": "business-standard.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.business-standard.com/content/press-releases-ani/readying-the-wings-inside-hal-s-robotic-revolution-126090700624_1.html"
+    },
+    {
+      "id": "77d5992adae6062d",
+      "category": "科技与产业",
+      "title": "Seco e Neura , alleanza europea per portare la Physical AI nei robot e nelle fabbriche",
+      "url": "https://www.milanofinanza.it/news/seco-e-neura-alleanza-europea-per-portare-la-physical-ai-nei-robot-e-nelle-fabbriche-202609070802427218",
+      "source": "milanofinanza.it",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.milanofinanza.it/news/seco-e-neura-alleanza-europea-per-portare-la-physical-ai-nei-robot-e-nelle-fabbriche-202609070802427218"
+    },
+    {
+      "id": "fc7d7b228e66d532",
+      "category": "金属与资源",
+      "title": "Gold & Silver Prices Drop Today ; Check Latest Rates in India ( 7 Sept 2026 )",
+      "url": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-fall-india-today-september-2026-138957966.html",
+      "source": "divyabhaskar.co.in",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.divyabhaskar.co.in/business/news/gold-silver-price-fall-india-today-september-2026-138957966.html"
+    },
+    {
+      "id": "647765167a78b630",
+      "category": "数字资产",
+      "title": "Krypto - Rotation : Solana und XRP ziehen an Bitcoin vorbei",
+      "url": "https://www.boerse-express.com/news/articles/krypto-rotation-solana-und-xrp-ziehen-an-bitcoin-vorbei-945479",
+      "source": "boerse-express.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boerse-express.com/news/articles/krypto-rotation-solana-und-xrp-ziehen-an-bitcoin-vorbei-945479"
+    },
+    {
+      "id": "eff624ec281b0af8",
+      "category": "能源与航运",
+      "title": "Papua LNG : TotalEnergies ramène sa participation à 20 % pour la phase finale du projet",
+      "url": "https://www.tradingsat.com/actualites/informations-societes/papua-lng-totalenergies-ramene-sa-participation-a-20-pour-la-phase-finale-du-projet-1169661.html",
+      "source": "tradingsat.com",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "France"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tradingsat.com/actualites/informations-societes/papua-lng-totalenergies-ramene-sa-participation-a-20-pour-la-phase-finale-du-projet-1169661.html"
+    },
+    {
+      "id": "c74bdd9ebe1de63c",
+      "category": "能源与航运",
+      "title": "Liikennemrä Hormuzinsalmessa putosi pienimmilleen sitten toukokuun",
+      "url": "https://www.is.fi/ulkomaat/art-2000012256159.html",
+      "source": "is.fi",
+      "publishedAt": "2026-09-07T09:45:00Z",
+      "fetchedAt": "2026-09-07T10:25:19.309Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Finland"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.is.fi/ulkomaat/art-2000012256159.html"
+    },
     {
       "id": "4e0ebbc18ea1c9e3",
       "category": "能源与航运",
@@ -1295,396 +1685,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.derbund.ch/tesla-elon-musk-schickt-robotaxis-auf-die-menschheit-los-912777772238"
-    },
-    {
-      "id": "fc5f539bfe3bc433",
-      "category": "金属与资源",
-      "title": "Gold Holds Gain as Trump War Comments Ease Inflation Jitters",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gain-trump-war-235831736.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-04T19:15:00Z",
-      "fetchedAt": "2026-09-04T19:39:09.162Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gain-trump-war-235831736.html"
-    },
-    {
-      "id": "a1b10bb248bd18f1",
-      "category": "金属与资源",
-      "title": "Miata Metals investeert miljoenen in goudexploratie Selakreek ; onderzoek veelbelovend – de Ware Tijd",
-      "url": "https://dwtonline.com/miata-metals-investeert-miljoenen-in-goudexploratie-selakreek-onderzoek-veelbelovend/",
-      "source": "dwtonline.com",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Suriname"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dwtonline.com/miata-metals-investeert-miljoenen-in-goudexploratie-selakreek-onderzoek-veelbelovend/"
-    },
-    {
-      "id": "d2fbd28997aaff38",
-      "category": "科技与产业",
-      "title": "Mech - Mind Robotics Technologies Co ., Ltd .: Mech - Mind debuts as Hong Kong first embodied intelligence eye - brain - hand stock",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69491968-mech-mind-robotics-technologies-co-ltd-mech-mind-debuts-as-hong-kong-s-first-embodied-intelligence-eye-brain-hand-stock-011.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-09/69491968-mech-mind-robotics-technologies-co-ltd-mech-mind-debuts-as-hong-kong-s-first-embodied-intelligence-eye-brain-hand-stock-011.htm"
-    },
-    {
-      "id": "cae14d22ccce25d3",
-      "category": "金属与资源",
-      "title": "Gefahr bei Rheinmetall und OHB ! HPQ Silicon Kaufgelegenheit ?",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69492239-gefahr-bei-rheinmetall-und-ohb-hpq-silicon-kaufgelegenheit-025.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-09/69492239-gefahr-bei-rheinmetall-und-ohb-hpq-silicon-kaufgelegenheit-025.htm"
-    },
-    {
-      "id": "317f01fb49c2e8de",
-      "category": "能源与航运",
-      "title": "Argentina Milei escalates Falklands dispute , seizing on Trump comments and oil tensions",
-      "url": "https://abcnews.com/International/wireStory/argentinas-milei-escalates-falklands-dispute-seizing-trump-comments-136186158",
-      "source": "abcnews.com",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abcnews.com/International/wireStory/argentinas-milei-escalates-falklands-dispute-seizing-trump-comments-136186158"
-    },
-    {
-      "id": "5df4361487aa67c3",
-      "category": "金属与资源",
-      "title": "chile injured penguins In chile wearing copper vests to help them heal",
-      "url": "https://www.express.pk/story/2830777/chile-injured-penguins-in-chile-wearing-copper-vests-to-help-them-heal-2830777",
-      "source": "express.pk",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.express.pk/story/2830777/chile-injured-penguins-in-chile-wearing-copper-vests-to-help-them-heal-2830777"
-    },
-    {
-      "id": "c20a6d5bcc2dde1a",
-      "category": "全球与地区",
-      "title": "Milei declares Falklands are Argentinean amid oil sanctions",
-      "url": "https://www.chardandilminsternews.co.uk/news/national/26520981.milei-declares-falklands-argentinean-amid-oil-sanctions/",
-      "source": "chardandilminsternews.co.uk",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chardandilminsternews.co.uk/news/national/26520981.milei-declares-falklands-argentinean-amid-oil-sanctions/"
-    },
-    {
-      "id": "bee9b252021faf33",
-      "category": "科技与产业",
-      "title": "ECOVACS at IFA Berlin 2026 : Named as No . 1 Brand in Global Home Robotics , Bringing Robotics to More of Everyday Life",
-      "url": "https://www.thailand-business-news.com/pr-news/ecovacs-at-ifa-berlin-2026-named-as-no-1-brand-in-global-home-robotics-bringing-robotics-to-more-of-everyday-life",
-      "source": "thailand-business-news.com",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Thailand"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thailand-business-news.com/pr-news/ecovacs-at-ifa-berlin-2026-named-as-no-1-brand-in-global-home-robotics-bringing-robotics-to-more-of-everyday-life"
-    },
-    {
-      "id": "cf1d99c891b0ce20",
-      "category": "能源与航运",
-      "title": "Korea Selatan Dikabarkan Segera Kerahkan Militer ke Selat Hormuz",
-      "url": "https://www.jawapos.com/internasional/2609040160/korea-selatan-dikabarkan-segera-kerahkan-militer-ke-selat-hormuz",
-      "source": "jawapos.com",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Indonesia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jawapos.com/internasional/2609040160/korea-selatan-dikabarkan-segera-kerahkan-militer-ke-selat-hormuz"
-    },
-    {
-      "id": "40f424bd7db47177",
-      "category": "能源与航运",
-      "title": "US oil deal promises a flood of investment in Venezuela . When will its people feel the benefits ?",
-      "url": "https://keyt.com/news/national-world/cnn-world/2026/09/03/us-oil-deal-promises-a-flood-of-investment-in-venezuela-when-will-its-people-feel-the-benefits-2/",
-      "source": "keyt.com",
-      "publishedAt": "2026-09-04T05:15:00Z",
-      "fetchedAt": "2026-09-04T05:58:09.357Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://keyt.com/news/national-world/cnn-world/2026/09/03/us-oil-deal-promises-a-flood-of-investment-in-venezuela-when-will-its-people-feel-the-benefits-2/"
-    },
-    {
-      "id": "3f750a6c098a0071",
-      "category": "能源与航运",
-      "title": "At least 37 people died in attempted oil theft in Nigeria",
-      "url": "https://en.apa.az/africa/at-least-37-people-died-in-attempted-oil-theft-in-nigeria-522774",
-      "source": "en.apa.az",
-      "publishedAt": "2026-09-03T22:15:00Z",
-      "fetchedAt": "2026-09-03T22:37:43.734Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://en.apa.az/africa/at-least-37-people-died-in-attempted-oil-theft-in-nigeria-522774"
-    },
-    {
-      "id": "3dc5dc6de727363f",
-      "category": "全球与地区",
-      "title": "Federal minister touts tariff relief , critical minerals investment during Saskatchewan visit",
-      "url": "https://www.620ckrm.com/2026/09/03/hodgson-visit-to-saskatchewan-includes-heavy-focus-on-tariff-and-trade-issues/",
-      "source": "620ckrm.com",
-      "publishedAt": "2026-09-03T22:15:00Z",
-      "fetchedAt": "2026-09-03T22:37:43.734Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.620ckrm.com/2026/09/03/hodgson-visit-to-saskatchewan-includes-heavy-focus-on-tariff-and-trade-issues/"
     }
   ]
 }
