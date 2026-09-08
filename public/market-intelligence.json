@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-08T18:44:35.126Z",
-  "newsUpdatedAt": "2026-09-07T10:25:19.309Z",
-  "assetsUpdatedAt": "2026-09-08T18:44:35.126Z",
+  "generatedAt": "2026-09-08T21:54:01.210Z",
+  "newsUpdatedAt": "2026-09-08T21:54:01.210Z",
+  "assetsUpdatedAt": "2026-09-08T21:54:01.210Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52850.71,
-      "changePercent": -1.06,
+      "price": 52786.07,
+      "changePercent": -1.18,
       "unit": "USD",
-      "asOf": "2026-09-08T14:45:00-04:00",
+      "asOf": "2026-09-08T17:05:12-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26467.53,
-      "changePercent": -0.15,
+      "price": 26421.41,
+      "changePercent": -0.32,
       "unit": "USD",
-      "asOf": "2026-09-08T14:45:00-04:00",
+      "asOf": "2026-09-08T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7690.46,
-      "changePercent": -0.36,
+      "price": 7673.52,
+      "changePercent": -0.58,
       "unit": "USD",
-      "asOf": "2026-09-08T14:45:00-04:00",
+      "asOf": "2026-09-08T17:00:56-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4429.61,
-      "changePercent": -1.05,
+      "price": 4398,
+      "changePercent": -1.76,
       "unit": "USD",
-      "asOf": "2026-09-09T02:45:03-04:00",
+      "asOf": "2026-09-09T04:59:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.99,
-      "changePercent": 1.65,
+      "price": 94.3,
+      "changePercent": 3.09,
       "unit": "USD",
-      "asOf": "2026-09-09T02:45:03-04:00",
+      "asOf": "2026-09-09T04:59:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 682.29,
-      "changePercent": 2.1,
+      "price": 678.56,
+      "changePercent": 1.54,
       "unit": "USD",
-      "asOf": "2026-09-09T02:44:36-04:00",
+      "asOf": "2026-09-09T04:59:57-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,318 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78594,
-      "changePercent": -0.6706870431081776,
+      "price": 78444,
+      "changePercent": -0.9244626510726084,
       "unit": "USD",
-      "asOf": "2026-09-08T18:42:50.000Z",
+      "asOf": "2026-09-08T21:53:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e64eca87aa7736c9",
+      "category": "全球与地区",
+      "title": "Berezhna discusses sanctions on Russian content , support for Ukraine with Netflix co - CEO",
+      "url": "https://en.interfax.com.ua/news/general/1200894.html",
+      "source": "en.interfax.com.ua",
+      "publishedAt": "2026-09-08T21:00:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Ukraine"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.interfax.com.ua/news/general/1200894.html"
+    },
+    {
+      "id": "89be606d13ddbfb4",
+      "category": "能源与航运",
+      "title": "U . S . Strikes Iranian Oil Tanker Off Kharg Island | Newsradio WOOD 1300 and 106 . 9 FM",
+      "url": "https://woodradio.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/",
+      "source": "woodradio.iheart.com",
+      "publishedAt": "2026-09-08T21:00:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://woodradio.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/"
+    },
+    {
+      "id": "be6c8a4733d71fe9",
+      "category": "能源与航运",
+      "title": "Rubio on Houthis striking Saudi oil sites : Some of this is clearly the Iranian hand",
+      "url": "https://upnorthlive.com/news/nation-world/rubio-on-houthis-striking-saudi-oil-sites-some-of-this-is-clearly-the-iranian-hand-security-saudi-arabia",
+      "source": "upnorthlive.com",
+      "publishedAt": "2026-09-08T21:00:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://upnorthlive.com/news/nation-world/rubio-on-houthis-striking-saudi-oil-sites-some-of-this-is-clearly-the-iranian-hand-security-saudi-arabia"
+    },
+    {
+      "id": "9482ca3ec1deca72",
+      "category": "数字资产",
+      "title": "Singapore man pleads guilty to orchestrating $240 million bitcoin theft from DC resident",
+      "url": "https://www.courant.com/2026/09/08/crypto-scam/",
+      "source": "courant.com",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.courant.com/2026/09/08/crypto-scam/"
+    },
+    {
+      "id": "a54e0dd9e52a5ebc",
+      "category": "全球与地区",
+      "title": "West Asia conflict LIVE : Iran to target oil tankers in Kuwait and Bahrain in response to U . S . attack , IRGC says",
+      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-iran-us-explosions-heard-on-irans-kharg-island-september-9-2026/article71444513.ece",
+      "source": "thehindu.com",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindu.com/news/international/us-iran-war-live-updates-iran-us-explosions-heard-on-irans-kharg-island-september-9-2026/article71444513.ece"
+    },
+    {
+      "id": "216cd6a950e939ec",
+      "category": "全球与地区",
+      "title": "UK , France , Canada say sanctions turning point in approach to protecting 2 - state solution",
+      "url": "https://aa.com.tr/en/world/uk-france-canada-say-sanctions-turning-point-in-approach-to-protecting-2-state-solution/4051278",
+      "source": "aa.com.tr",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Turkey"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aa.com.tr/en/world/uk-france-canada-say-sanctions-turning-point-in-approach-to-protecting-2-state-solution/4051278"
+    },
+    {
+      "id": "d9aa9b25f978cc66",
+      "category": "能源与航运",
+      "title": "U . S . Strikes Iranian Oil Tanker Off Kharg Island",
+      "url": "https://1061fmtalk.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/",
+      "source": "1061fmtalk.iheart.com",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://1061fmtalk.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/"
+    },
+    {
+      "id": "d60ffc87365513be",
+      "category": "全球与地区",
+      "title": "Good Morning , News : An Update on Wildfire Season , Oregon Unprepared for Potential Tsunami , and Canada Strikes Back in Trade War",
+      "url": "https://www.portlandmercury.com/good-morning-news/good-morning-news-an-update-on-wildfire-season-oregon-unprepared-for-potential-tsunami-and-canada-strikes-back-in-trade-war/",
+      "source": "portlandmercury.com",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.portlandmercury.com/good-morning-news/good-morning-news-an-update-on-wildfire-season-oregon-unprepared-for-potential-tsunami-and-canada-strikes-back-in-trade-war/"
+    },
+    {
+      "id": "c4600896006cb601",
+      "category": "全球与地区",
+      "title": "Tariffs , market pressures raise concerns for honey producers",
+      "url": "https://leaderpost.com/news/saskatchewan-news/tariffs-raise-concerns-for-honey-producers-as-industry-braces-for-market-pressure/",
+      "source": "leaderpost.com",
+      "publishedAt": "2026-09-08T20:45:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://leaderpost.com/news/saskatchewan-news/tariffs-raise-concerns-for-honey-producers-as-industry-braces-for-market-pressure/"
+    },
+    {
+      "id": "9928ec568bd07eb5",
+      "category": "全球与地区",
+      "title": "LItalia rafforza le relazioni bilaterali con i Paesi sudamericani – Notizie Geopolitiche",
+      "url": "https://www.notiziegeopolitiche.net/litalia-rafforza-le-relazioni-bilaterali-con-i-paesi-sudamericani/",
+      "source": "notiziegeopolitiche.net",
+      "publishedAt": "2026-09-08T20:30:00Z",
+      "fetchedAt": "2026-09-08T21:54:01.210Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.notiziegeopolitiche.net/litalia-rafforza-le-relazioni-bilaterali-con-i-paesi-sudamericani/"
+    },
     {
       "id": "c3b73ed2b4d915d3",
       "category": "金属与资源",
@@ -1374,319 +1674,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://970kfbx.iheart.com/content/2026-09-04-trump-labels-iran-conflict-as-military-conflict-not-war/"
-    },
-    {
-      "id": "da5b145a79823e68",
-      "category": "全球与地区",
-      "title": "Tariff aid launched as Manitoba farmers add new trade strain to 2026 challenges",
-      "url": "https://www.620ckrm.com/2026/09/04/tariff-aid-launched-as-manitoba-farmers-add-new-trade-strain-to-2026-challenges/",
-      "source": "620ckrm.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.620ckrm.com/2026/09/04/tariff-aid-launched-as-manitoba-farmers-add-new-trade-strain-to-2026-challenges/"
-    },
-    {
-      "id": "da3be33f1386fcf7",
-      "category": "全球与地区",
-      "title": "Doug Ford Ontario PCs boosted by Trump trade war : Poll",
-      "url": "https://www.thepeterboroughexaminer.com/politics/provincial/doug-ford-s-tories-getting-a-trump-bump-poll-suggests/article_f9c23d42-e45a-5e6f-a1cd-b45a98ec44af.html",
-      "source": "thepeterboroughexaminer.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thepeterboroughexaminer.com/politics/provincial/doug-ford-s-tories-getting-a-trump-bump-poll-suggests/article_f9c23d42-e45a-5e6f-a1cd-b45a98ec44af.html"
-    },
-    {
-      "id": "ff9d8f6a94d77232",
-      "category": "全球与地区",
-      "title": "Sony Could Get $500 Million In Tariff Refunds ( And PS5 Owners Wont Get A Cut )",
-      "url": "https://www.slashgear.com/2251381/sony-playstation-5-tariff-refund-lawsuit-details/",
-      "source": "slashgear.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.slashgear.com/2251381/sony-playstation-5-tariff-refund-lawsuit-details/"
-    },
-    {
-      "id": "53adf27ee3c14339",
-      "category": "全球与地区",
-      "title": "London - area unemployment climbs to 8 . 5 % amid tariff uncertainty",
-      "url": "https://www.theobserver.ca/news/local-news/london-area-unemployment-climbs-to-8-5-amid-tariff-uncertainty/wcm/3babe8f8-d567-4391-98a5-2f4ffd6e7cf9",
-      "source": "theobserver.ca",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theobserver.ca/news/local-news/london-area-unemployment-climbs-to-8-5-amid-tariff-uncertainty/wcm/3babe8f8-d567-4391-98a5-2f4ffd6e7cf9"
-    },
-    {
-      "id": "97d75adb1394251a",
-      "category": "全球与地区",
-      "title": "Gulf State Tourism and Investment Suffer Amid Regional Conflict , Reports WSJ",
-      "url": "https://www.islamicinvitationturkey.com/gulf-states-tourism-and-investment-suffer-amid-regional-conflict-reports-wsj/",
-      "source": "islamicinvitationturkey.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.islamicinvitationturkey.com/gulf-states-tourism-and-investment-suffer-amid-regional-conflict-reports-wsj/"
-    },
-    {
-      "id": "24dd9e9edb026817",
-      "category": "能源与航运",
-      "title": "Qalibaf Warns Bessent Faces Crisis Amid Declining Oil Reserves and Rising Bond Yields",
-      "url": "https://www.islamicinvitationturkey.com/qalibaf-warns-bessent-faces-crisis-amid-declining-oil-reserves-and-rising-bond-yields/",
-      "source": "islamicinvitationturkey.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.islamicinvitationturkey.com/qalibaf-warns-bessent-faces-crisis-amid-declining-oil-reserves-and-rising-bond-yields/"
-    },
-    {
-      "id": "70442df3e8adeb81",
-      "category": "金属与资源",
-      "title": "Goldene Henne : Anna - Carina Woitschack funkelt auf dem roten Teppich",
-      "url": "https://www.viply.de/style/goldene-henne-anna-carina-woitschack-funkelt-auf-dem-roten-teppich/",
-      "source": "viply.de",
-      "publishedAt": "2026-09-04T19:15:00Z",
-      "fetchedAt": "2026-09-04T19:39:09.162Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.viply.de/style/goldene-henne-anna-carina-woitschack-funkelt-auf-dem-roten-teppich/"
-    },
-    {
-      "id": "58b530a890714db1",
-      "category": "金属与资源",
-      "title": "So bewegen sich Gold & Co . heute",
-      "url": "https://www.finanzen.net/nachricht/rohstoffe/so-bewegen-sich-gold-co-heute-15919660",
-      "source": "finanzen.net",
-      "publishedAt": "2026-09-04T19:15:00Z",
-      "fetchedAt": "2026-09-04T19:39:09.162Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanzen.net/nachricht/rohstoffe/so-bewegen-sich-gold-co-heute-15919660"
-    },
-    {
-      "id": "e0d84603e9c1aea4",
-      "category": "金属与资源",
-      "title": "Comex Gold Ends the Week 1 . 08 % Lower at $4429 . 80 Data Talk",
-      "url": "https://www.morningstar.com/news/dow-jones/202609045285/comex-gold-ends-the-week-108-lower-at-442980-data-talk",
-      "source": "morningstar.com",
-      "publishedAt": "2026-09-04T19:15:00Z",
-      "fetchedAt": "2026-09-04T19:39:09.162Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.morningstar.com/news/dow-jones/202609045285/comex-gold-ends-the-week-108-lower-at-442980-data-talk"
-    },
-    {
-      "id": "af3d6b48362843f0",
-      "category": "科技与产业",
-      "title": "Tesla : Elon Musk schickt Robotaxis auf die Menschheit los",
-      "url": "https://www.derbund.ch/tesla-elon-musk-schickt-robotaxis-auf-die-menschheit-los-912777772238",
-      "source": "derbund.ch",
-      "publishedAt": "2026-09-04T19:15:00Z",
-      "fetchedAt": "2026-09-04T19:39:09.162Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Switzerland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.derbund.ch/tesla-elon-musk-schickt-robotaxis-auf-die-menschheit-los-912777772238"
     }
   ]
 }
