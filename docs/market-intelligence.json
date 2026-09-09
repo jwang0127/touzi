@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-08T21:54:01.210Z",
-  "newsUpdatedAt": "2026-09-08T21:54:01.210Z",
-  "assetsUpdatedAt": "2026-09-08T21:54:01.210Z",
+  "generatedAt": "2026-09-09T00:18:46.287Z",
+  "newsUpdatedAt": "2026-09-09T00:18:46.287Z",
+  "assetsUpdatedAt": "2026-09-09T00:18:46.287Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4398,
-      "changePercent": -1.76,
+      "price": 4391.24,
+      "changePercent": -1.08,
       "unit": "USD",
-      "asOf": "2026-09-09T04:59:59-04:00",
+      "asOf": "2026-09-09T08:19:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 94.3,
-      "changePercent": 3.09,
+      "price": 94.51,
+      "changePercent": 1.59,
       "unit": "USD",
-      "asOf": "2026-09-09T04:59:58-04:00",
+      "asOf": "2026-09-09T08:20:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 678.56,
-      "changePercent": 1.54,
+      "price": 678.21,
+      "changePercent": -0.61,
       "unit": "USD",
-      "asOf": "2026-09-09T04:59:57-04:00",
+      "asOf": "2026-09-09T08:20:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,273 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78444,
-      "changePercent": -0.9244626510726084,
+      "price": 78672,
+      "changePercent": -0.5172615988600096,
       "unit": "USD",
-      "asOf": "2026-09-08T21:53:20.000Z",
+      "asOf": "2026-09-09T00:17:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "00bfe2f3f2bf74b8",
+      "category": "能源与航运",
+      "title": "Oil prices jump , stocks drop as Mideast war flares",
+      "url": "https://www.manilatimes.net/2026/09/09/world/americas-emea/oil-prices-jump-stocks-drop-as-mideast-war-flares/2421106",
+      "source": "manilatimes.net",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Philippines"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manilatimes.net/2026/09/09/world/americas-emea/oil-prices-jump-stocks-drop-as-mideast-war-flares/2421106"
+    },
+    {
+      "id": "7a8b55c01eee24d0",
+      "category": "能源与航运",
+      "title": "Economics in the Big Decline : Economics & Finance - Page 20 - Peak Oil News and Message Boards",
+      "url": "https://peakoil.com/forums/viewtopic.php?p=1504333",
+      "source": "peakoil.com",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1504333"
+    },
+    {
+      "id": "3efe678f43c3dccc",
+      "category": "能源与航运",
+      "title": "Exclusive : Spartan Delta at EnerCom Denver - The Energy Investment Conference 2026",
+      "url": "https://www.oilandgas360.com/exclusive-spartan-delta-at-enercom-denver-the-energy-investment-conference-2026/",
+      "source": "oilandgas360.com",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.oilandgas360.com/exclusive-spartan-delta-at-enercom-denver-the-energy-investment-conference-2026/"
+    },
+    {
+      "id": "c3f0b83dbe12b830",
+      "category": "能源与航运",
+      "title": "Oil group says global supply shocks & US refinery limits are both driving pump pain",
+      "url": "https://wcti12.com/news/nation-world/oil-group-says-global-supply-shocks-us-refinery-limits-are-both-driving-pump-pain-gulf-coast-venezuela-strait-hormuz",
+      "source": "wcti12.com",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wcti12.com/news/nation-world/oil-group-says-global-supply-shocks-us-refinery-limits-are-both-driving-pump-pain-gulf-coast-venezuela-strait-hormuz"
+    },
+    {
+      "id": "addf79ae9f307f55",
+      "category": "能源与航运",
+      "title": "U . S . Strikes Five Iranian Oil Tankers After Missile Attack",
+      "url": "https://wlac.iheart.com/content/2026-09-08-us-strikes-five-iranian-oil-tankers-after-missile-attack/",
+      "source": "wlac.iheart.com",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wlac.iheart.com/content/2026-09-08-us-strikes-five-iranian-oil-tankers-after-missile-attack/"
+    },
+    {
+      "id": "725bc76b541075c4",
+      "category": "全球与地区",
+      "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst",
+      "source": "home.nzcity.co.nz",
+      "publishedAt": "2026-09-08T23:45:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "New Zealand"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst"
+    },
+    {
+      "id": "7db5e50da9136c2d",
+      "category": "金属与资源",
+      "title": "AngloGold Ashanti PLC $AU Shares Bought by Carrhae Capital LLP",
+      "url": "https://www.tickerreport.com/banking-finance/13577330/anglogold-ashanti-plc-au-shares-bought-by-carrhae-capital-llp.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-09-08T23:45:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13577330/anglogold-ashanti-plc-au-shares-bought-by-carrhae-capital-llp.html"
+    },
+    {
+      "id": "5908db9dc5d9daa6",
+      "category": "全球与地区",
+      "title": "Canada U . S . tariffs : What may cost more Sept . 8",
+      "url": "https://www.wellandtribune.ca/news/canada-us-tariffs-cost-products/article_f8b7734b-3d3a-5469-ac51-f8a6e6c40be5.html",
+      "source": "wellandtribune.ca",
+      "publishedAt": "2026-09-08T23:45:00Z",
+      "fetchedAt": "2026-09-09T00:18:46.287Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wellandtribune.ca/news/canada-us-tariffs-cost-products/article_f8b7734b-3d3a-5469-ac51-f8a6e6c40be5.html"
+    },
     {
       "id": "e64eca87aa7736c9",
       "category": "全球与地区",
@@ -1417,263 +1676,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.klcc.org/npr-world-news/2026-09-05/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
-    },
-    {
-      "id": "153111eedd28d4e0",
-      "category": "能源与航运",
-      "title": "Φλέγονται τα τάνκερ στο Hormuz – Το Ιράν χτύπησε 6 πλοία των ΗΠΑ – Οι Αμερικανοί με πυραύλους έπληξαν το νησί Qeshm",
-      "url": "https://www.bankingnews.gr/diethni/articles/897644/flegontai-ta-tanker-sto-hormuz-to-iran-xtypise-6-ploia-ton-ipa-oi-amerikanoi-me-pyraylous-epliksan-to-nisi-qeshm",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/897644/flegontai-ta-tanker-sto-hormuz-to-iran-xtypise-6-ploia-ton-ipa-oi-amerikanoi-me-pyraylous-epliksan-to-nisi-qeshm"
-    },
-    {
-      "id": "94cfb33bf9e3cf12",
-      "category": "能源与航运",
-      "title": "US strikes 3 Iranian oil tankers after IRGC attack on American naval ship",
-      "url": "https://www.koreatimes.co.kr/world/20260906/us-strikes-3-iranian-oil-tankers-after-irgc-attack-on-american-naval-ship",
-      "source": "koreatimes.co.kr",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "South Korea"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.koreatimes.co.kr/world/20260906/us-strikes-3-iranian-oil-tankers-after-irgc-attack-on-american-naval-ship"
-    },
-    {
-      "id": "e168c217856c53c1",
-      "category": "能源与航运",
-      "title": "Iran targets US ships , oil tankers in retaliation for US strikes , IRGC claims",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-907652",
-      "source": "jpost.com",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.jpost.com/middle-east/iran-news/article-907652"
-    },
-    {
-      "id": "e3ee2572c1303cba",
-      "category": "能源与航运",
-      "title": "Iran slams US strikes on IRGC Oil Tankers in West Asia , calls it",
-      "url": "http://www.bignewsnetwork.com/news/279288762/iran-slams-us-strikes-on-irgc-oil-tankers-in-west-asia-calls-it-war-crime",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279288762/iran-slams-us-strikes-on-irgc-oil-tankers-in-west-asia-calls-it-war-crime"
-    },
-    {
-      "id": "2ccc4dcba2cf0d56",
-      "category": "能源与航运",
-      "title": "US strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
-      "url": "https://www.local10.com/business/2026/09/05/us-strikes-3-iranian-oil-tankers-after-saying-warships-were-targeted-with-ballistic-missiles/",
-      "source": "local10.com",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.local10.com/business/2026/09/05/us-strikes-3-iranian-oil-tankers-after-saying-warships-were-targeted-with-ballistic-missiles/"
-    },
-    {
-      "id": "42dea2a753a4fad3",
-      "category": "全球与地区",
-      "title": "Trump says Iran conflict , which has killed 18 US service members and injured hundreds more , is small potatoes",
-      "url": "https://www.cnn.com/2026/09/04/politics/small-potatoes-trump-iran",
-      "source": "cnn.com",
-      "publishedAt": "2026-09-04T22:00:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cnn.com/2026/09/04/politics/small-potatoes-trump-iran"
-    },
-    {
-      "id": "2b7af39f993600da",
-      "category": "金属与资源",
-      "title": "Starlo Ventures Ltd .: Starlo to Acquire Margarita Silver Project , Mexico",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69501025-starlo-ventures-ltd-starlo-to-acquire-margarita-silver-project-mexico-296.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-09-04T22:00:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-09/69501025-starlo-ventures-ltd-starlo-to-acquire-margarita-silver-project-mexico-296.htm"
-    },
-    {
-      "id": "040b3955a8f9eef8",
-      "category": "全球与地区",
-      "title": "Trump Labels Iran Conflict As Military Conflict , Not War",
-      "url": "https://970kfbx.iheart.com/content/2026-09-04-trump-labels-iran-conflict-as-military-conflict-not-war/",
-      "source": "970kfbx.iheart.com",
-      "publishedAt": "2026-09-04T21:45:00Z",
-      "fetchedAt": "2026-09-04T22:23:09.376Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://970kfbx.iheart.com/content/2026-09-04-trump-labels-iran-conflict-as-military-conflict-not-war/"
     }
   ]
 }
