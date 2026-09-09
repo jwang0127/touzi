@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-09T11:30:20.574Z",
-  "newsUpdatedAt": "2026-09-09T00:18:46.287Z",
-  "assetsUpdatedAt": "2026-09-09T11:30:20.574Z",
+  "generatedAt": "2026-09-09T16:42:49.530Z",
+  "newsUpdatedAt": "2026-09-09T16:42:49.530Z",
+  "assetsUpdatedAt": "2026-09-09T16:42:49.530Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52786.07,
-      "changePercent": -1.18,
+      "price": 52434.78,
+      "changePercent": -0.67,
       "unit": "USD",
-      "asOf": "2026-09-08T17:05:12-04:00",
+      "asOf": "2026-09-09T12:44:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26421.41,
-      "changePercent": -0.32,
+      "price": 26246.32,
+      "changePercent": -0.66,
       "unit": "USD",
-      "asOf": "2026-09-08T17:15:59-04:00",
+      "asOf": "2026-09-09T12:44:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7673.52,
-      "changePercent": -0.58,
+      "price": 7637.22,
+      "changePercent": -0.47,
       "unit": "USD",
-      "asOf": "2026-09-08T17:00:56-04:00",
+      "asOf": "2026-09-09T12:44:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4452.03,
-      "changePercent": 0.29,
+      "price": 4453.7,
+      "changePercent": 0.33,
       "unit": "USD",
-      "asOf": "2026-09-09T19:30:08-04:00",
+      "asOf": "2026-09-10T00:44:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 95.35,
-      "changePercent": 2.49,
+      "price": 95.84,
+      "changePercent": 3.02,
       "unit": "USD",
-      "asOf": "2026-09-09T19:30:08-04:00",
+      "asOf": "2026-09-10T00:44:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 676.21,
-      "changePercent": -0.9,
+      "price": 686.29,
+      "changePercent": 0.58,
       "unit": "USD",
-      "asOf": "2026-09-09T19:30:08-04:00",
+      "asOf": "2026-09-10T00:44:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,266 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 78931,
-      "changePercent": 0.6477590868311554,
+      "price": 78782,
+      "changePercent": -0.0968948106288613,
       "unit": "USD",
-      "asOf": "2026-09-09T11:29:00.000Z",
+      "asOf": "2026-09-09T16:42:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c93eac5b25ac0e55",
+      "category": "能源与航运",
+      "title": "Oil tops $100 : Ten oil stocks with the strongest Quant ratings ( XLE : NYSEARCA )",
+      "url": "https://seekingalpha.com/news/4641210-oil-tops-100-ten-oil-stocks-with-the-strongest-quant-ratings",
+      "source": "seekingalpha.com",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://seekingalpha.com/news/4641210-oil-tops-100-ten-oil-stocks-with-the-strongest-quant-ratings"
+    },
+    {
+      "id": "cece6468b06bcf29",
+      "category": "全球与地区",
+      "title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "url": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
+      "source": "militarytimes.com",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/"
+    },
+    {
+      "id": "5f4a32640e0816ab",
+      "category": "能源与航运",
+      "title": "Asia Energy Rise Reshapes Global Markets as Russia and China Deepen Cooperation",
+      "url": "http://www.hongkongherald.com/news/279296517/asia-energy-rise-reshapes-global-markets-as-russia-and-china-deepen-cooperation",
+      "source": "hongkongherald.com",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.hongkongherald.com/news/279296517/asia-energy-rise-reshapes-global-markets-as-russia-and-china-deepen-cooperation"
+    },
+    {
+      "id": "963b736a1883ab0b",
+      "category": "能源与航运",
+      "title": "Fresh winter energy bills warning issued to united kingdom households as gas prices hit four - year high",
+      "url": "https://www.manchestereveningnews.co.uk/news/cost-of-living/winter-energy-bills-warning-issued-34593175",
+      "source": "manchestereveningnews.co.uk",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.manchestereveningnews.co.uk/news/cost-of-living/winter-energy-bills-warning-issued-34593175"
+    },
+    {
+      "id": "6098a61f8e0f0f53",
+      "category": "金属与资源",
+      "title": "Gold Earring Designs For Hartalika Teej 2026 : आपकी लाडली के लुक में चार चांद लगा देंगे ये 4 लाइटवेट गोल्ड इयररिंग्स , देखें लेटेस्ट कलेक्शन",
+      "url": "https://www.punjabkesari.com/health-lifestyle-news/gold-earring-designs-for-hartalika-teej-2026/",
+      "source": "punjabkesari.com",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.punjabkesari.com/health-lifestyle-news/gold-earring-designs-for-hartalika-teej-2026/"
+    },
+    {
+      "id": "34ed6a7851e95342",
+      "category": "全球与地区",
+      "title": "US , Iran Trade Strikes On Shipping As Oil Prices Surge Above $100 A Barrel",
+      "url": "https://www.rferl.org/a/iran-us-oil-shipping-hormuz/33851101.html",
+      "source": "rferl.org",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rferl.org/a/iran-us-oil-shipping-hormuz/33851101.html"
+    },
+    {
+      "id": "388490de154b3b24",
+      "category": "能源与航运",
+      "title": "Oil rises past $100 a barrel after the latest wave of Middle East attacks",
+      "url": "https://www.oann.com/business/oil-rises-past-100-a-barrel-after-the-latest-wave-of-middle-east-attacks/",
+      "source": "oann.com",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.oann.com/business/oil-rises-past-100-a-barrel-after-the-latest-wave-of-middle-east-attacks/"
+    },
+    {
+      "id": "05d5147446d398bd",
+      "category": "全球与地区",
+      "title": "Sanctions on Israeli settlements : Here what Europe is saying and doing",
+      "url": "https://www.middleeasteye.net/explainers/sanctions-israeli-settlements-what-europe-does-says",
+      "source": "middleeasteye.net",
+      "publishedAt": "2026-09-09T16:15:00Z",
+      "fetchedAt": "2026-09-09T16:42:49.530Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeasteye.net/explainers/sanctions-israeli-settlements-what-europe-does-says"
+    },
     {
       "id": "00bfe2f3f2bf74b8",
       "category": "能源与航运",
@@ -1419,263 +1669,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://english.aawsat.com/world/5315165-iran-retaliates-after-us-strikes-oil-tankers"
-    },
-    {
-      "id": "50694f1b91ab4d9f",
-      "category": "科技与产业",
-      "title": "Chinese robots shine at LEAP 2026 in Saudi Arabia - People Daily Online",
-      "url": "https://en.people.cn/n3/2026/0906/c90000-20496534.html",
-      "source": "en.people.cn",
-      "publishedAt": "2026-09-06T03:45:00Z",
-      "fetchedAt": "2026-09-06T04:45:50.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://en.people.cn/n3/2026/0906/c90000-20496534.html"
-    },
-    {
-      "id": "c0690e8c1087e519",
-      "category": "能源与航运",
-      "title": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes",
-      "url": "https://www.globaltimes.cn/page/202609/1369896.shtml",
-      "source": "globaltimes.cn",
-      "publishedAt": "2026-09-06T03:45:00Z",
-      "fetchedAt": "2026-09-06T04:45:50.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.globaltimes.cn/page/202609/1369896.shtml"
-    },
-    {
-      "id": "ec84cd05ace43cd7",
-      "category": "能源与航运",
-      "title": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 US vessels elsewhere in retaliatory strikes",
-      "url": "https://www.prokerala.com/news/articles/a1809007.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-09-06T03:45:00Z",
-      "fetchedAt": "2026-09-06T04:45:50.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1809007.html"
-    },
-    {
-      "id": "cd0b02f32f2a3608",
-      "category": "能源与航运",
-      "title": "U . S . strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
-      "url": "https://kansaspublicradio.org/npr-news/2026-09-05/u-s-strikes-iranian-oil-tankers-in-retaliation-for-missile-attacks-on-navy-ships",
-      "source": "kansaspublicradio.org",
-      "publishedAt": "2026-09-06T03:45:00Z",
-      "fetchedAt": "2026-09-06T04:45:50.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://kansaspublicradio.org/npr-news/2026-09-05/u-s-strikes-iranian-oil-tankers-in-retaliation-for-missile-attacks-on-navy-ships"
-    },
-    {
-      "id": "51b523670d8dc2d2",
-      "category": "能源与航运",
-      "title": "Israeli investors in crosshairs of Argentina Milei over Falklands oil project",
-      "url": "https://finance.yahoo.com/news/israeli-investors-crosshairs-argentinas-milei-144720958.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-06T03:45:00Z",
-      "fetchedAt": "2026-09-06T04:45:50.934Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/news/israeli-investors-crosshairs-argentinas-milei-144720958.html"
-    },
-    {
-      "id": "cfaedc033763eb0a",
-      "category": "全球与地区",
-      "title": "Burnham Israel sanctions plan could risk national security , senior Tory warns",
-      "url": "https://www.countypress.co.uk/news/national/26525553.burnhams-israel-sanctions-plan-risk-national-security-senior-tory-warns/",
-      "source": "countypress.co.uk",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.countypress.co.uk/news/national/26525553.burnhams-israel-sanctions-plan-risk-national-security-senior-tory-warns/"
-    },
-    {
-      "id": "8d6d122193beada0",
-      "category": "全球与地区",
-      "title": "Donald Trump Tariff Policy Has Repeatedly Triggered Multi - Trillion - Dollar Stock Swings Since Early 2025 . Here Why Markets Still Struggle to Price In His Next Move .",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/donald-trumps-tariff-policy-repeatedly-222000409.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.yahoo.com/markets/stocks/articles/donald-trumps-tariff-policy-repeatedly-222000409.html"
-    },
-    {
-      "id": "481f637fdbcde499",
-      "category": "能源与航运",
-      "title": "U . S . strikes three Iranian oil tankers in renewal of hostilities",
-      "url": "https://www.klcc.org/npr-world-news/2026-09-05/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities",
-      "source": "klcc.org",
-      "publishedAt": "2026-09-05T23:00:00Z",
-      "fetchedAt": "2026-09-05T23:56:32.869Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.klcc.org/npr-world-news/2026-09-05/u-s-strikes-three-iranian-oil-tankers-in-renewal-of-hostilities"
     }
   ]
 }
