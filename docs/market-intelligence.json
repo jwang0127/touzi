@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-12T05:53:02.143Z",
-  "newsUpdatedAt": "2026-09-12T05:53:02.143Z",
-  "assetsUpdatedAt": "2026-09-12T05:53:02.143Z",
+  "generatedAt": "2026-09-12T10:53:07.490Z",
+  "newsUpdatedAt": "2026-09-12T10:53:07.490Z",
+  "assetsUpdatedAt": "2026-09-12T10:53:07.490Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,203 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77229,
-      "changePercent": 0.0969780227288292,
+      "price": 77335,
+      "changePercent": 0.430501706643675,
       "unit": "USD",
-      "asOf": "2026-09-12T05:51:30.000Z",
+      "asOf": "2026-09-12T10:51:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "85e0780457c416e9",
+      "category": "金属与资源",
+      "title": "The Plaza review : Gilded Age opulence beloved by Fitzgerald , The Beatles and a lion called Goldfleck",
+      "url": "https://www.countrylife.co.uk/travel/places-to-stay/the-plaza-review-gilded-age-opulence-beloved-by-fitzgerald-the-beatles-and-a-lion-called-goldfleck",
+      "source": "countrylife.co.uk",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.countrylife.co.uk/travel/places-to-stay/the-plaza-review-gilded-age-opulence-beloved-by-fitzgerald-the-beatles-and-a-lion-called-goldfleck"
+    },
+    {
+      "id": "26d5f1845f1bdd0b",
+      "category": "全球与地区",
+      "title": "Yemen Houthis capture a Red Sea island in threat to shipping",
+      "url": "https://www.wgcu.org/2026-09-12/yemens-houthis-capture-a-red-sea-island-in-threat-to-shipping",
+      "source": "wgcu.org",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wgcu.org/2026-09-12/yemens-houthis-capture-a-red-sea-island-in-threat-to-shipping"
+    },
+    {
+      "id": "604e6c4c4cafb783",
+      "category": "能源与航运",
+      "title": "Enbridge Bets $2 . 6B on Tallgrass to Expand Rockies - to - Cushing Crude Network",
+      "url": "https://www.dailypolitical.com/2026/09/12/enbridge-bets-2-6b-on-tallgrass-to-expand-rockies-to-cushing-crude-network.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/09/12/enbridge-bets-2-6b-on-tallgrass-to-expand-rockies-to-cushing-crude-network.html"
+    },
+    {
+      "id": "d9a6c9697f257f60",
+      "category": "数字资产",
+      "title": "Crypto tycoon donates record £36m to Reform united kingdom",
+      "url": "https://www.impartialreporter.com/news/national/26544678.crypto-tycoon-donates-record-gbp36m-reform-uk/",
+      "source": "impartialreporter.com",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.impartialreporter.com/news/national/26544678.crypto-tycoon-donates-record-gbp36m-reform-uk/"
+    },
+    {
+      "id": "d6031e574e0b48ca",
+      "category": "科技与产业",
+      "title": "ETF : In Zukunftstechnologien investieren - Wie du mit ETFs gezielt von KI , Cybersecurity und Robotik profitierst",
+      "url": "https://www.finanzen.net/ratgeber/news/etf-in-zukunftstechnologien-investieren-wie-du-mit-etfs-gezielt-von-ki-cybersecurity-und-robotik-profitierst-12-09-2026-01/",
+      "source": "finanzen.net",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanzen.net/ratgeber/news/etf-in-zukunftstechnologien-investieren-wie-du-mit-etfs-gezielt-von-ki-cybersecurity-und-robotik-profitierst-12-09-2026-01/"
+    },
+    {
+      "id": "23dd29d2dfb9fe22",
+      "category": "金属与资源",
+      "title": "Sunshine Silver Mining & Refining Company ( NYSE : SSMR ) Receives Consensus Rating of Moderate Buy from Analysts",
+      "url": "https://www.dailypolitical.com/2026/09/12/sunshine-silver-mining-refining-company-nysessmr-receives-consensus-rating-of-moderate-buy-from-analysts.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-09-12T10:30:00Z",
+      "fetchedAt": "2026-09-12T10:53:07.490Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/09/12/sunshine-silver-mining-refining-company-nysessmr-receives-consensus-rating-of-moderate-buy-from-analysts.html"
+    },
     {
       "id": "f47b2ab2d9fc4b5f",
       "category": "全球与地区",
@@ -1453,197 +1642,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1504333"
-    },
-    {
-      "id": "3efe678f43c3dccc",
-      "category": "能源与航运",
-      "title": "Exclusive : Spartan Delta at EnerCom Denver - The Energy Investment Conference 2026",
-      "url": "https://www.oilandgas360.com/exclusive-spartan-delta-at-enercom-denver-the-energy-investment-conference-2026/",
-      "source": "oilandgas360.com",
-      "publishedAt": "2026-09-09T00:00:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.oilandgas360.com/exclusive-spartan-delta-at-enercom-denver-the-energy-investment-conference-2026/"
-    },
-    {
-      "id": "c3f0b83dbe12b830",
-      "category": "能源与航运",
-      "title": "Oil group says global supply shocks & US refinery limits are both driving pump pain",
-      "url": "https://wcti12.com/news/nation-world/oil-group-says-global-supply-shocks-us-refinery-limits-are-both-driving-pump-pain-gulf-coast-venezuela-strait-hormuz",
-      "source": "wcti12.com",
-      "publishedAt": "2026-09-09T00:00:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wcti12.com/news/nation-world/oil-group-says-global-supply-shocks-us-refinery-limits-are-both-driving-pump-pain-gulf-coast-venezuela-strait-hormuz"
-    },
-    {
-      "id": "addf79ae9f307f55",
-      "category": "能源与航运",
-      "title": "U . S . Strikes Five Iranian Oil Tankers After Missile Attack",
-      "url": "https://wlac.iheart.com/content/2026-09-08-us-strikes-five-iranian-oil-tankers-after-missile-attack/",
-      "source": "wlac.iheart.com",
-      "publishedAt": "2026-09-09T00:00:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wlac.iheart.com/content/2026-09-08-us-strikes-five-iranian-oil-tankers-after-missile-attack/"
-    },
-    {
-      "id": "725bc76b541075c4",
-      "category": "全球与地区",
-      "title": "Iran war : Tehran assertive rhetoric signals a new and dangerous phase in conflict - 09 - Sep - 2026",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst",
-      "source": "home.nzcity.co.nz",
-      "publishedAt": "2026-09-08T23:45:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=453637&fm=psp,tst"
-    },
-    {
-      "id": "7db5e50da9136c2d",
-      "category": "金属与资源",
-      "title": "AngloGold Ashanti PLC $AU Shares Bought by Carrhae Capital LLP",
-      "url": "https://www.tickerreport.com/banking-finance/13577330/anglogold-ashanti-plc-au-shares-bought-by-carrhae-capital-llp.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-09-08T23:45:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13577330/anglogold-ashanti-plc-au-shares-bought-by-carrhae-capital-llp.html"
-    },
-    {
-      "id": "5908db9dc5d9daa6",
-      "category": "全球与地区",
-      "title": "Canada U . S . tariffs : What may cost more Sept . 8",
-      "url": "https://www.wellandtribune.ca/news/canada-us-tariffs-cost-products/article_f8b7734b-3d3a-5469-ac51-f8a6e6c40be5.html",
-      "source": "wellandtribune.ca",
-      "publishedAt": "2026-09-08T23:45:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wellandtribune.ca/news/canada-us-tariffs-cost-products/article_f8b7734b-3d3a-5469-ac51-f8a6e6c40be5.html"
     }
   ]
 }
