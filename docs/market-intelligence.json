@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-12T10:53:07.490Z",
-  "newsUpdatedAt": "2026-09-12T10:53:07.490Z",
-  "assetsUpdatedAt": "2026-09-12T10:53:07.490Z",
+  "generatedAt": "2026-09-12T14:11:29.868Z",
+  "newsUpdatedAt": "2026-09-12T14:11:29.868Z",
+  "assetsUpdatedAt": "2026-09-12T14:11:29.868Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,232 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77335,
-      "changePercent": 0.430501706643675,
+      "price": 77361,
+      "changePercent": -1.9908590959318555,
       "unit": "USD",
-      "asOf": "2026-09-12T10:51:40.000Z",
+      "asOf": "2026-09-12T14:11:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c7e42a5ffb2ad2da",
+      "category": "数字资产",
+      "title": "Second cryptocurrency billionaire gives £36 million to Reform",
+      "url": "https://www.chardandilminsternews.co.uk/news/national/26544948.second-cryptocurrency-billionaire-gives-gbp36-million-reform/",
+      "source": "chardandilminsternews.co.uk",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chardandilminsternews.co.uk/news/national/26544948.second-cryptocurrency-billionaire-gives-gbp36-million-reform/"
+    },
+    {
+      "id": "4e778af2b5e5bbbd",
+      "category": "全球与地区",
+      "title": "Trump asegura que un conflicto entre el Reino Unido y Argentina por las Malvinas sería un desastre potencial",
+      "url": "https://www.elperiodicodearagon.com/espana/2026/09/12/trump-conflicto-reino-unido-argentina-malvinas-desastre-potencial-134216075.html",
+      "source": "elperiodicodearagon.com",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.elperiodicodearagon.com/espana/2026/09/12/trump-conflicto-reino-unido-argentina-malvinas-desastre-potencial-134216075.html"
+    },
+    {
+      "id": "f0f3c49e8ae73554",
+      "category": "能源与航运",
+      "title": "Iran revives 700 oil wells through technology : Petropark Report",
+      "url": "https://www.iranoilgas.com/news/details.aspx?id=29031&title=Iran+revives+700+oil+wells+through+technology:+Petropark+Report",
+      "source": "iranoilgas.com",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.iranoilgas.com/news/details.aspx?id=29031&title=Iran+revives+700+oil+wells+through+technology:+Petropark+Report"
+    },
+    {
+      "id": "75647d234a5a1b56",
+      "category": "全球与地区",
+      "title": "BRICS 2026 : New Delhi Declaration calls for a rules - based WTO and an immediate end to protectionist tariffs",
+      "url": "https://www.moneycontrol.com/news/india/brics-2026-new-delhi-declaration-calls-for-a-rules-based-wto-and-an-immediate-end-to-protectionist-tariffs-14028598.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/news/india/brics-2026-new-delhi-declaration-calls-for-a-rules-based-wto-and-an-immediate-end-to-protectionist-tariffs-14028598.html"
+    },
+    {
+      "id": "0c3d3eea3860f3a4",
+      "category": "金属与资源",
+      "title": "Show where swimming pool , gold - silver toilets are : Atishi challenges BJP ahead of Flagstaff Road residence inspection",
+      "url": "http://www.bignewsnetwork.com/news/279302684/show-where-swimming-pool-gold-silver-toilets-are-atishi-challenges-bjp-ahead-of-flagstaff-road-residence-inspection",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279302684/show-where-swimming-pool-gold-silver-toilets-are-atishi-challenges-bjp-ahead-of-flagstaff-road-residence-inspection"
+    },
+    {
+      "id": "7e3f6b325e7f57c8",
+      "category": "能源与航运",
+      "title": "Trump i bindur për fundin e luftës : SHBA ka kontroll të fuqishëm mbi Ngushticën e Hormuzit",
+      "url": "https://www.vizionplus.tv/trump-i-bindur-per-fundin-e-luftes-shba-ka-kontroll-te-fuqishem-mbi-ngushticen-e-hormuzit/",
+      "source": "vizionplus.tv",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vizionplus.tv/trump-i-bindur-per-fundin-e-luftes-shba-ka-kontroll-te-fuqishem-mbi-ngushticen-e-hormuzit/"
+    },
+    {
+      "id": "ec09491637e8d12a",
+      "category": "能源与航运",
+      "title": "Iraq confirms Saudi oil pipeline attacks launched from its territory",
+      "url": "https://pajhwok.com/2026/09/12/iraq-confirms-saudi-oil-pipeline-attacks-launched-from-its-territory/",
+      "source": "pajhwok.com",
+      "publishedAt": "2026-09-12T13:30:00Z",
+      "fetchedAt": "2026-09-12T14:11:29.868Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Afghanistan"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pajhwok.com/2026/09/12/iraq-confirms-saudi-oil-pipeline-attacks-launched-from-its-territory/"
+    },
     {
       "id": "85e0780457c416e9",
       "category": "金属与资源",
@@ -1420,228 +1636,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.hongkongherald.com/news/279296517/asia-energy-rise-reshapes-global-markets-as-russia-and-china-deepen-cooperation"
-    },
-    {
-      "id": "963b736a1883ab0b",
-      "category": "能源与航运",
-      "title": "Fresh winter energy bills warning issued to united kingdom households as gas prices hit four - year high",
-      "url": "https://www.manchestereveningnews.co.uk/news/cost-of-living/winter-energy-bills-warning-issued-34593175",
-      "source": "manchestereveningnews.co.uk",
-      "publishedAt": "2026-09-09T16:15:00Z",
-      "fetchedAt": "2026-09-09T16:42:49.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manchestereveningnews.co.uk/news/cost-of-living/winter-energy-bills-warning-issued-34593175"
-    },
-    {
-      "id": "6098a61f8e0f0f53",
-      "category": "金属与资源",
-      "title": "Gold Earring Designs For Hartalika Teej 2026 : आपकी लाडली के लुक में चार चांद लगा देंगे ये 4 लाइटवेट गोल्ड इयररिंग्स , देखें लेटेस्ट कलेक्शन",
-      "url": "https://www.punjabkesari.com/health-lifestyle-news/gold-earring-designs-for-hartalika-teej-2026/",
-      "source": "punjabkesari.com",
-      "publishedAt": "2026-09-09T16:15:00Z",
-      "fetchedAt": "2026-09-09T16:42:49.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.punjabkesari.com/health-lifestyle-news/gold-earring-designs-for-hartalika-teej-2026/"
-    },
-    {
-      "id": "34ed6a7851e95342",
-      "category": "全球与地区",
-      "title": "US , Iran Trade Strikes On Shipping As Oil Prices Surge Above $100 A Barrel",
-      "url": "https://www.rferl.org/a/iran-us-oil-shipping-hormuz/33851101.html",
-      "source": "rferl.org",
-      "publishedAt": "2026-09-09T16:15:00Z",
-      "fetchedAt": "2026-09-09T16:42:49.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Russia"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rferl.org/a/iran-us-oil-shipping-hormuz/33851101.html"
-    },
-    {
-      "id": "388490de154b3b24",
-      "category": "能源与航运",
-      "title": "Oil rises past $100 a barrel after the latest wave of Middle East attacks",
-      "url": "https://www.oann.com/business/oil-rises-past-100-a-barrel-after-the-latest-wave-of-middle-east-attacks/",
-      "source": "oann.com",
-      "publishedAt": "2026-09-09T16:15:00Z",
-      "fetchedAt": "2026-09-09T16:42:49.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.oann.com/business/oil-rises-past-100-a-barrel-after-the-latest-wave-of-middle-east-attacks/"
-    },
-    {
-      "id": "05d5147446d398bd",
-      "category": "全球与地区",
-      "title": "Sanctions on Israeli settlements : Here what Europe is saying and doing",
-      "url": "https://www.middleeasteye.net/explainers/sanctions-israeli-settlements-what-europe-does-says",
-      "source": "middleeasteye.net",
-      "publishedAt": "2026-09-09T16:15:00Z",
-      "fetchedAt": "2026-09-09T16:42:49.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeasteye.net/explainers/sanctions-israeli-settlements-what-europe-does-says"
-    },
-    {
-      "id": "00bfe2f3f2bf74b8",
-      "category": "能源与航运",
-      "title": "Oil prices jump , stocks drop as Mideast war flares",
-      "url": "https://www.manilatimes.net/2026/09/09/world/americas-emea/oil-prices-jump-stocks-drop-as-mideast-war-flares/2421106",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-09-09T00:00:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/09/09/world/americas-emea/oil-prices-jump-stocks-drop-as-mideast-war-flares/2421106"
-    },
-    {
-      "id": "7a8b55c01eee24d0",
-      "category": "能源与航运",
-      "title": "Economics in the Big Decline : Economics & Finance - Page 20 - Peak Oil News and Message Boards",
-      "url": "https://peakoil.com/forums/viewtopic.php?p=1504333",
-      "source": "peakoil.com",
-      "publishedAt": "2026-09-09T00:00:00Z",
-      "fetchedAt": "2026-09-09T00:18:46.287Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://peakoil.com/forums/viewtopic.php?p=1504333"
     }
   ]
 }
