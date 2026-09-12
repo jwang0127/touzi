@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-11T22:38:08.373Z",
-  "newsUpdatedAt": "2026-09-11T22:38:08.373Z",
-  "assetsUpdatedAt": "2026-09-11T22:38:08.373Z",
+  "generatedAt": "2026-09-12T01:10:55.172Z",
+  "newsUpdatedAt": "2026-09-12T01:10:55.172Z",
+  "assetsUpdatedAt": "2026-09-12T01:10:55.172Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,225 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77067,
-      "changePercent": 0.17610518110054876,
+      "price": 77336,
+      "changePercent": 0.49501429068280245,
       "unit": "USD",
-      "asOf": "2026-09-11T22:36:40.000Z",
+      "asOf": "2026-09-12T01:10:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "ea16178e8f2522d2",
+      "category": "全球与地区",
+      "title": "Amid war and sanctions , many Iranians are losing their jobs and struggling to get by",
+      "url": "https://www.wvtf.org/2026-09-11/amid-war-and-sanctions-many-iranians-are-losing-their-jobs-and-struggling-to-get-by",
+      "source": "wvtf.org",
+      "publishedAt": "2026-09-12T00:15:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wvtf.org/2026-09-11/amid-war-and-sanctions-many-iranians-are-losing-their-jobs-and-struggling-to-get-by"
+    },
+    {
+      "id": "697e0e8f2a38affd",
+      "category": "金属与资源",
+      "title": "Nevada Gold & Casinos ( NYSEAMERICAN : UWN ) Shares Pass Above 200 - Day Moving Average – Here Why",
+      "url": "https://www.dailypolitical.com/2026/09/11/nevada-gold-casinos-nyseamericanuwn-shares-pass-above-200-day-moving-average-heres-why-2.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-09-12T00:15:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/09/11/nevada-gold-casinos-nyseamericanuwn-shares-pass-above-200-day-moving-average-heres-why-2.html"
+    },
+    {
+      "id": "8948e4ed0e919c56",
+      "category": "全球与地区",
+      "title": "Marius Lulea , președintele fondator AUR : „ Asistăm la un conflict de natură constituțională • Buna Ziua Iasi • BZI . ro",
+      "url": "https://www.bzi.ro/marius-lulea-presedintele-fondator-aur-asistam-la-un-conflict-de-natura-constitutionala-5602496",
+      "source": "bzi.ro",
+      "publishedAt": "2026-09-11T23:45:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bzi.ro/marius-lulea-presedintele-fondator-aur-asistam-la-un-conflict-de-natura-constitutionala-5602496"
+    },
+    {
+      "id": "a46cf3944fbb1f84",
+      "category": "全球与地区",
+      "title": "House tees up vote on Russia sanctions bill , but prospects for passage are uncertain",
+      "url": "https://www.fortmorgantimes.com/2026/09/11/congress-russia-sanctions-vote/",
+      "source": "fortmorgantimes.com",
+      "publishedAt": "2026-09-11T23:45:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.fortmorgantimes.com/2026/09/11/congress-russia-sanctions-vote/"
+    },
+    {
+      "id": "7ebb873bbb9f884c",
+      "category": "数字资产",
+      "title": "What Is the Best Crypto to Buy Right Now : XRP or Bitcoin ?",
+      "url": "https://www.aol.com/articles/best-crypto-buy-now-xrp-223841000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-09-11T23:45:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/best-crypto-buy-now-xrp-223841000.html"
+    },
+    {
+      "id": "4a0c6eb3cee6dd71",
+      "category": "金属与资源",
+      "title": "Ex - CIA officer accused of stealing gold bars reaches tentative plea deal",
+      "url": "https://www.theguardian.com/us-news/2026/sep/11/cia-officer-gold-bars-tentative-plea-deal",
+      "source": "theguardian.com",
+      "publishedAt": "2026-09-11T23:45:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theguardian.com/us-news/2026/sep/11/cia-officer-gold-bars-tentative-plea-deal"
+    },
+    {
+      "id": "25652ce6a07033ed",
+      "category": "全球与地区",
+      "title": "Iran - backed Houthi rebels open new front in Middle East conflict",
+      "url": "https://katu.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz",
+      "source": "katu.com",
+      "publishedAt": "2026-09-11T23:45:00Z",
+      "fetchedAt": "2026-09-12T01:10:55.172Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://katu.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz"
+    },
     {
       "id": "3c78ea6d9eac8e1b",
       "category": "金属与资源",
@@ -172,34 +381,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://seekingalpha.com/news/4642243-gold-little-changed-even-as-us-inflation-data-supports-fed-rate-hike-bets"
-    },
-    {
-      "id": "1a3959c9fda21a0c",
-      "category": "全球与地区",
-      "title": "Iran - backed Houthi rebels open new front in Middle East conflict",
-      "url": "https://ktul.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz",
-      "source": "ktul.com",
-      "publishedAt": "2026-09-11T22:15:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ktul.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz"
     },
     {
       "id": "52a5f1c850fa00fc",
@@ -262,37 +443,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.cbsnews.com/news/former-cia-official-gold-bars-plea-deal-talks/"
-    },
-    {
-      "id": "969c6b789b755a24",
-      "category": "全球与地区",
-      "title": "House tees up vote on Russia sanctions bill , but prospects for passage are uncertain",
-      "url": "https://www.republicanherald.com/2026/09/11/congress-russia-sanctions-vote/",
-      "source": "republicanherald.com",
-      "publishedAt": "2026-09-11T22:15:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.republicanherald.com/2026/09/11/congress-russia-sanctions-vote/"
     },
     {
       "id": "00a0b0cb74a79214",
@@ -383,34 +533,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.fool.com/investing/2026/09/11/coinbase-is-pushing-to-bring-stablecoins-to-1000-c/"
-    },
-    {
-      "id": "69b6247f1bd72692",
-      "category": "全球与地区",
-      "title": "Amid war and sanctions , many Iranians are losing their jobs and struggling to get by",
-      "url": "https://www.kvpr.org/npr-news/2026-09-11/amid-war-and-sanctions-many-iranians-are-losing-their-jobs-and-struggling-to-get-by",
-      "source": "kvpr.org",
-      "publishedAt": "2026-09-11T21:30:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kvpr.org/npr-news/2026-09-11/amid-war-and-sanctions-many-iranians-are-losing-their-jobs-and-struggling-to-get-by"
     },
     {
       "id": "44f3124bbad857b7",
@@ -1515,126 +1637,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.thehindu.com/news/international/us-iran-war-live-updates-iran-us-explosions-heard-on-irans-kharg-island-september-9-2026/article71444513.ece"
-    },
-    {
-      "id": "216cd6a950e939ec",
-      "category": "全球与地区",
-      "title": "UK , France , Canada say sanctions turning point in approach to protecting 2 - state solution",
-      "url": "https://aa.com.tr/en/world/uk-france-canada-say-sanctions-turning-point-in-approach-to-protecting-2-state-solution/4051278",
-      "source": "aa.com.tr",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Turkey"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aa.com.tr/en/world/uk-france-canada-say-sanctions-turning-point-in-approach-to-protecting-2-state-solution/4051278"
-    },
-    {
-      "id": "d9aa9b25f978cc66",
-      "category": "能源与航运",
-      "title": "U . S . Strikes Iranian Oil Tanker Off Kharg Island",
-      "url": "https://1061fmtalk.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/",
-      "source": "1061fmtalk.iheart.com",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://1061fmtalk.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/"
-    },
-    {
-      "id": "d60ffc87365513be",
-      "category": "全球与地区",
-      "title": "Good Morning , News : An Update on Wildfire Season , Oregon Unprepared for Potential Tsunami , and Canada Strikes Back in Trade War",
-      "url": "https://www.portlandmercury.com/good-morning-news/good-morning-news-an-update-on-wildfire-season-oregon-unprepared-for-potential-tsunami-and-canada-strikes-back-in-trade-war/",
-      "source": "portlandmercury.com",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.portlandmercury.com/good-morning-news/good-morning-news-an-update-on-wildfire-season-oregon-unprepared-for-potential-tsunami-and-canada-strikes-back-in-trade-war/"
-    },
-    {
-      "id": "c4600896006cb601",
-      "category": "全球与地区",
-      "title": "Tariffs , market pressures raise concerns for honey producers",
-      "url": "https://leaderpost.com/news/saskatchewan-news/tariffs-raise-concerns-for-honey-producers-as-industry-braces-for-market-pressure/",
-      "source": "leaderpost.com",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://leaderpost.com/news/saskatchewan-news/tariffs-raise-concerns-for-honey-producers-as-industry-braces-for-market-pressure/"
     }
   ]
 }
