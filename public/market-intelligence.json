@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-12T01:10:55.172Z",
-  "newsUpdatedAt": "2026-09-12T01:10:55.172Z",
-  "assetsUpdatedAt": "2026-09-12T01:10:55.172Z",
+  "generatedAt": "2026-09-12T05:53:02.143Z",
+  "newsUpdatedAt": "2026-09-12T05:53:02.143Z",
+  "assetsUpdatedAt": "2026-09-12T05:53:02.143Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,179 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77336,
-      "changePercent": 0.49501429068280245,
+      "price": 77229,
+      "changePercent": 0.0969780227288292,
       "unit": "USD",
-      "asOf": "2026-09-12T01:10:50.000Z",
+      "asOf": "2026-09-12T05:51:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f47b2ab2d9fc4b5f",
+      "category": "全球与地区",
+      "title": "Shipping Tribune",
+      "url": "https://www.shippingtribune.com/news/shipping/IEA+cuts+2026+oil+supply+outlook+as+Gulf+recovery+slips+to+2027",
+      "source": "shippingtribune.com",
+      "publishedAt": "2026-09-12T05:30:00Z",
+      "fetchedAt": "2026-09-12T05:53:02.143Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.shippingtribune.com/news/shipping/IEA+cuts+2026+oil+supply+outlook+as+Gulf+recovery+slips+to+2027"
+    },
+    {
+      "id": "f93631fe03bbee61",
+      "category": "科技与产业",
+      "title": "How a Texas A & M professor 9 / 11 mission sparked a revolution in disaster robotics",
+      "url": "https://www.kbtx.com/2026/09/12/how-texas-am-professors-911-mission-sparked-revolution-disaster-robotics/",
+      "source": "kbtx.com",
+      "publishedAt": "2026-09-12T05:30:00Z",
+      "fetchedAt": "2026-09-12T05:53:02.143Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kbtx.com/2026/09/12/how-texas-am-professors-911-mission-sparked-revolution-disaster-robotics/"
+    },
+    {
+      "id": "94777742fcca81b5",
+      "category": "能源与航运",
+      "title": "Houthi capture of Yemen Mocha port raises oil fears",
+      "url": "http://www.sanantoniopost.com/news/279299207/houthi-capture-of-yemen-s-mocha-port-raises-oil-fears",
+      "source": "sanantoniopost.com",
+      "publishedAt": "2026-09-12T05:30:00Z",
+      "fetchedAt": "2026-09-12T05:53:02.143Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.sanantoniopost.com/news/279299207/houthi-capture-of-yemen-s-mocha-port-raises-oil-fears"
+    },
+    {
+      "id": "3b55131ba7fc4b74",
+      "category": "金属与资源",
+      "title": "Venice Film Festival ends with Golden Lion at stake after NAZA draws record ovation",
+      "url": "http://www.sitkasentinel.com/stories/venice-film-festival-ends-with-golden-lion-at-stake-after-naza-draws-record-ovation,170326",
+      "source": "sitkasentinel.com",
+      "publishedAt": "2026-09-12T05:30:00Z",
+      "fetchedAt": "2026-09-12T05:53:02.143Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.sitkasentinel.com/stories/venice-film-festival-ends-with-golden-lion-at-stake-after-naza-draws-record-ovation,170326"
+    },
+    {
+      "id": "b9e64cda7e61f4b8",
+      "category": "金属与资源",
+      "title": "Il Goldoni c è e raddoppia Smeriglio porta Favino e il regista Veronesi",
+      "url": "https://www.zazoom.it/2026-09-12/il-goldoni-ce-e-raddoppia-smeriglio-porta-favino-e-il-regista-veronesi-unanteprima-nazionale/19671269/",
+      "source": "zazoom.it",
+      "publishedAt": "2026-09-12T05:30:00Z",
+      "fetchedAt": "2026-09-12T05:53:02.143Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zazoom.it/2026-09-12/il-goldoni-ce-e-raddoppia-smeriglio-porta-favino-e-il-regista-veronesi-unanteprima-nazionale/19671269/"
+    },
     {
       "id": "ea16178e8f2522d2",
       "category": "全球与地区",
@@ -1483,160 +1644,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.wellandtribune.ca/news/canada-us-tariffs-cost-products/article_f8b7734b-3d3a-5469-ac51-f8a6e6c40be5.html"
-    },
-    {
-      "id": "e64eca87aa7736c9",
-      "category": "全球与地区",
-      "title": "Berezhna discusses sanctions on Russian content , support for Ukraine with Netflix co - CEO",
-      "url": "https://en.interfax.com.ua/news/general/1200894.html",
-      "source": "en.interfax.com.ua",
-      "publishedAt": "2026-09-08T21:00:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ukraine"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://en.interfax.com.ua/news/general/1200894.html"
-    },
-    {
-      "id": "89be606d13ddbfb4",
-      "category": "能源与航运",
-      "title": "U . S . Strikes Iranian Oil Tanker Off Kharg Island | Newsradio WOOD 1300 and 106 . 9 FM",
-      "url": "https://woodradio.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/",
-      "source": "woodradio.iheart.com",
-      "publishedAt": "2026-09-08T21:00:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://woodradio.iheart.com/content/2026-09-08-us-strikes-iranian-oil-tanker-off-kharg-island/"
-    },
-    {
-      "id": "be6c8a4733d71fe9",
-      "category": "能源与航运",
-      "title": "Rubio on Houthis striking Saudi oil sites : Some of this is clearly the Iranian hand",
-      "url": "https://upnorthlive.com/news/nation-world/rubio-on-houthis-striking-saudi-oil-sites-some-of-this-is-clearly-the-iranian-hand-security-saudi-arabia",
-      "source": "upnorthlive.com",
-      "publishedAt": "2026-09-08T21:00:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://upnorthlive.com/news/nation-world/rubio-on-houthis-striking-saudi-oil-sites-some-of-this-is-clearly-the-iranian-hand-security-saudi-arabia"
-    },
-    {
-      "id": "9482ca3ec1deca72",
-      "category": "数字资产",
-      "title": "Singapore man pleads guilty to orchestrating $240 million bitcoin theft from DC resident",
-      "url": "https://www.courant.com/2026/09/08/crypto-scam/",
-      "source": "courant.com",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.courant.com/2026/09/08/crypto-scam/"
-    },
-    {
-      "id": "a54e0dd9e52a5ebc",
-      "category": "全球与地区",
-      "title": "West Asia conflict LIVE : Iran to target oil tankers in Kuwait and Bahrain in response to U . S . attack , IRGC says",
-      "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-iran-us-explosions-heard-on-irans-kharg-island-september-9-2026/article71444513.ece",
-      "source": "thehindu.com",
-      "publishedAt": "2026-09-08T20:45:00Z",
-      "fetchedAt": "2026-09-08T21:54:01.210Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindu.com/news/international/us-iran-war-live-updates-iran-us-explosions-heard-on-irans-kharg-island-september-9-2026/article71444513.ece"
     }
   ]
 }
