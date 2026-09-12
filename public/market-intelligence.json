@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-12T17:14:06.223Z",
+  "generatedAt": "2026-09-12T19:26:36.435Z",
   "newsUpdatedAt": "2026-09-12T17:14:06.223Z",
-  "assetsUpdatedAt": "2026-09-12T17:14:06.223Z",
+  "assetsUpdatedAt": "2026-09-12T19:26:36.435Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77340,
-      "changePercent": -0.5677911408536729,
+      "price": 77139,
+      "changePercent": -0.12905213191007686,
       "unit": "USD",
-      "asOf": "2026-09-12T17:13:20.000Z",
+      "asOf": "2026-09-12T19:25:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
