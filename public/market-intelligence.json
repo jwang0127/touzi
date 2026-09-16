@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-16T00:25:56.175Z",
-  "newsUpdatedAt": "2026-09-14T19:25:39.047Z",
-  "assetsUpdatedAt": "2026-09-16T00:25:56.175Z",
+  "generatedAt": "2026-09-16T06:05:55.536Z",
+  "newsUpdatedAt": "2026-09-16T06:05:55.536Z",
+  "assetsUpdatedAt": "2026-09-16T06:05:55.536Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3864.28,
-      "changePercent": -0.54,
+      "price": 3888.56,
+      "changePercent": 0.63,
       "unit": "CNY",
-      "asOf": "2026-09-15T16:14:02+08:00",
+      "asOf": "2026-09-16T14:06:51+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13287.97,
-      "changePercent": -0.72,
+      "price": 13435.33,
+      "changePercent": 1.11,
       "unit": "CNY",
-      "asOf": "2026-09-15T16:14:54+08:00",
+      "asOf": "2026-09-16T14:06:51+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24667.24,
-      "changePercent": -1,
+      "price": 24719.02,
+      "changePercent": 0.21,
       "unit": "HKD",
-      "asOf": "2026-09-15T18:31:29+08:00",
+      "asOf": "2026-09-16T13:51:52+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8204.91,
-      "changePercent": -0.96,
+      "price": 8210.88,
+      "changePercent": 0.07,
       "unit": "HKD",
-      "asOf": "2026-09-15T16:08:52+08:00",
+      "asOf": "2026-09-16T13:51:52+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4323.76,
-      "changePercent": -0.21,
+      "price": 4364.62,
+      "changePercent": 0.73,
       "unit": "USD",
-      "asOf": "2026-09-16T08:26:03-04:00",
+      "asOf": "2026-09-16T14:06:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 99.96,
-      "changePercent": -0.79,
+      "price": 99.76,
+      "changePercent": -0.98,
       "unit": "USD",
-      "asOf": "2026-09-16T08:26:04-04:00",
+      "asOf": "2026-09-16T14:05:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 644.92,
-      "changePercent": 0.09,
+      "price": 647.72,
+      "changePercent": 0.52,
       "unit": "USD",
-      "asOf": "2026-09-16T08:26:00-04:00",
+      "asOf": "2026-09-16T14:06:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 75773,
-      "changePercent": -2.881370572065093,
+      "price": 75961,
+      "changePercent": -2.196766204807411,
       "unit": "USD",
-      "asOf": "2026-09-16T00:24:50.000Z",
+      "asOf": "2026-09-16T06:04:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://www.themarketsdaily.com/2026/09/13/comparing-mammoth-energy-services-nasdaqtusk-usa-compression-partners-nyseusac.html",
       "source": "themarketsdaily.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +177,7 @@
       "url": "https://jagbani.punjabkesari.in/business/news/gold-silver-price-1670138",
       "source": "jagbani.punjabkesari.in",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -211,7 +209,7 @@
       "url": "http://www.stardem.com/ap/world/an-iranian-commercial-ship-is-struck-near-strait-of-hormuz-with-1-dead-iranian-media/article_7b7994df-d263-5fa0-ba4d-eb8d6ea21f22.html",
       "source": "stardem.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -246,7 +244,7 @@
       "url": "http://www.afghanistansun.com/news/279304011/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route",
       "source": "afghanistansun.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -279,7 +277,7 @@
       "url": "https://www.rte.ie/news/2026/0913/1591336-iran-war/",
       "source": "rte.ie",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -312,7 +310,7 @@
       "url": "https://english.news.cn/20260913/38e927b804ea444cbb800443644794db/c.html",
       "source": "english.news.cn",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -342,7 +340,7 @@
       "url": "https://www.ksat.com/news/world/2026/09/13/iranian-media-say-1-killed-in-ship-strike-on-the-strait-of-hormuz-and-other-mideast-developments/",
       "source": "ksat.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -377,7 +375,7 @@
       "url": "https://finance.ifeng.com/c/8wNh2mK6y8k",
       "source": "finance.ifeng.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-14T19:25:39.047Z",
+      "fetchedAt": "2026-09-16T06:05:55.536Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
