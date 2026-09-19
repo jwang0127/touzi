@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-19T01:14:02.308Z",
-  "newsUpdatedAt": "2026-09-19T01:14:02.308Z",
-  "assetsUpdatedAt": "2026-09-19T01:14:02.308Z",
+  "generatedAt": "2026-09-19T05:59:20.922Z",
+  "newsUpdatedAt": "2026-09-19T05:59:20.922Z",
+  "assetsUpdatedAt": "2026-09-19T05:59:20.922Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81347,
-      "changePercent": 6.291370267988763,
+      "price": 81016,
+      "changePercent": 4.633736387195676,
       "unit": "USD",
-      "asOf": "2026-09-19T01:13:30.000Z",
+      "asOf": "2026-09-19T05:58:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "https://www.themarketsdaily.com/2026/09/13/comparing-mammoth-energy-services-nasdaqtusk-usa-compression-partners-nyseusac.html",
       "source": "themarketsdaily.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +179,7 @@
       "url": "https://jagbani.punjabkesari.in/business/news/gold-silver-price-1670138",
       "source": "jagbani.punjabkesari.in",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -211,7 +211,7 @@
       "url": "http://www.stardem.com/ap/world/an-iranian-commercial-ship-is-struck-near-strait-of-hormuz-with-1-dead-iranian-media/article_7b7994df-d263-5fa0-ba4d-eb8d6ea21f22.html",
       "source": "stardem.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -246,7 +246,7 @@
       "url": "http://www.afghanistansun.com/news/279304011/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route",
       "source": "afghanistansun.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -279,7 +279,7 @@
       "url": "https://www.rte.ie/news/2026/0913/1591336-iran-war/",
       "source": "rte.ie",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -312,7 +312,7 @@
       "url": "https://english.news.cn/20260913/38e927b804ea444cbb800443644794db/c.html",
       "source": "english.news.cn",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -342,7 +342,7 @@
       "url": "https://www.ksat.com/news/world/2026/09/13/iranian-media-say-1-killed-in-ship-strike-on-the-strait-of-hormuz-and-other-mideast-developments/",
       "source": "ksat.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -377,7 +377,7 @@
       "url": "https://finance.ifeng.com/c/8wNh2mK6y8k",
       "source": "finance.ifeng.com",
       "publishedAt": "2026-09-13T09:15:00Z",
-      "fetchedAt": "2026-09-19T01:14:02.308Z",
+      "fetchedAt": "2026-09-19T05:59:20.922Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
