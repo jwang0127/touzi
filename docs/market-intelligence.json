@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-19T23:11:20.282Z",
-  "newsUpdatedAt": "2026-09-19T23:11:20.282Z",
-  "assetsUpdatedAt": "2026-09-19T23:11:20.282Z",
+  "generatedAt": "2026-09-20T01:13:56.321Z",
+  "newsUpdatedAt": "2026-09-20T01:13:56.321Z",
+  "assetsUpdatedAt": "2026-09-20T01:13:56.321Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,301 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81216,
-      "changePercent": 0.1415623262135517,
+      "price": 81162,
+      "changePercent": -0.1438898067127439,
       "unit": "USD",
-      "asOf": "2026-09-19T23:10:30.000Z",
+      "asOf": "2026-09-20T01:13:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "aa4fdf3afad873b7",
+      "category": "全球与地区",
+      "title": "Beijing slams new US sanctions against Russia",
+      "url": "http://www.russiaherald.com/news/279317677/beijing-slams-new-us-sanctions-against-russia",
+      "source": "russiaherald.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.russiaherald.com/news/279317677/beijing-slams-new-us-sanctions-against-russia"
+    },
+    {
+      "id": "ae19d33fefc0d683",
+      "category": "科技与产业",
+      "title": "Agenda - Robot - Esposizione interattiva",
+      "url": "https://www.tio.ch/agenda/day/20260920/63442",
+      "source": "tio.ch",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Switzerland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tio.ch/agenda/day/20260920/63442"
+    },
+    {
+      "id": "e8b86cd173d2167a",
+      "category": "科技与产业",
+      "title": "Robot chirurgici cinesi di ultima generazione arrivati al Policlinico di Milano",
+      "url": "https://bsnews.it/2026/09/19/robot-chirurgici-cinesi-di-ultima-generazione-arrivati-al-policlinico-di-milano/",
+      "source": "bsnews.it",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Italy"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://bsnews.it/2026/09/19/robot-chirurgici-cinesi-di-ultima-generazione-arrivati-al-policlinico-di-milano/"
+    },
+    {
+      "id": "3d55c6d262377bcf",
+      "category": "金属与资源",
+      "title": "Furthur Takes Center Stage at Forever Grateful in Golden Gate Park",
+      "url": "https://www.gratefulweb.com/articles/furthur-takes-center-stage-at-forever-grateful-in-golden-gate-park/",
+      "source": "gratefulweb.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.gratefulweb.com/articles/furthur-takes-center-stage-at-forever-grateful-in-golden-gate-park/"
+    },
+    {
+      "id": "6f2231d1348bc467",
+      "category": "能源与航运",
+      "title": "Boiling fish hurled at labourer over cooking dispute | Ludhiana News",
+      "url": "https://timesofindia.indiatimes.com/city/ludhiana/boiling-fish-hurled-at-labourer-over-cooking-dispute/articleshow/134359903.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofindia.indiatimes.com/city/ludhiana/boiling-fish-hurled-at-labourer-over-cooking-dispute/articleshow/134359903.cms"
+    },
+    {
+      "id": "8e49d725a07ff6cd",
+      "category": "金属与资源",
+      "title": "Gold biscuit recovery from Maoist supply dumps : Risking life but not wealth , rebels picked safe haven asset",
+      "url": "https://economictimes.indiatimes.com/news/india/gold-biscuit-recovery-from-maoist-supply-dumps-risking-life-but-not-wealth-rebels-picked-safe-haven-asset/articleshow/134359415.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/india/gold-biscuit-recovery-from-maoist-supply-dumps-risking-life-but-not-wealth-rebels-picked-safe-haven-asset/articleshow/134359415.cms"
+    },
+    {
+      "id": "d1ee90a7a7225a5d",
+      "category": "能源与航运",
+      "title": "Refineries Are Now the Main Chokepoint for Global Energy Supplies",
+      "url": "https://freerepublic.com/focus/f-news/4396188/posts",
+      "source": "freerepublic.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://freerepublic.com/focus/f-news/4396188/posts"
+    },
+    {
+      "id": "74ac2cf4e232cac6",
+      "category": "数字资产",
+      "title": "Head - To - Head Review : American Bitcoin ( NASDAQ : ABTC ) vs . Orix Corp Ads ( NYSE : IX )",
+      "url": "https://www.tickerreport.com/banking-finance/13590638/head-to-head-review-american-bitcoin-nasdaqabtc-vs-orix-corp-ads-nyseix.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13590638/head-to-head-review-american-bitcoin-nasdaqabtc-vs-orix-corp-ads-nyseix.html"
+    },
+    {
+      "id": "2e6cd785728c4047",
+      "category": "全球与地区",
+      "title": "Turkish FM reported on discussions with US on lifting CAATSA sanctions and S - 400 issue",
+      "url": "https://en.apa.az/asia/turkish-fm-reported-on-discussions-with-us-on-lifting-caatsa-sanctions-and-s-400-issue-525191",
+      "source": "en.apa.az",
+      "publishedAt": "2026-09-20T00:30:00Z",
+      "fetchedAt": "2026-09-20T01:13:56.321Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://en.apa.az/asia/turkish-fm-reported-on-discussions-with-us-on-lifting-caatsa-sanctions-and-s-400-issue-525191"
+    },
     {
       "id": "89973dbbb6fa4167",
       "category": "能源与航运",
@@ -1361,287 +1648,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.aol.com/articles/best-crypto-buy-now-xrp-223841000.html"
-    },
-    {
-      "id": "4a0c6eb3cee6dd71",
-      "category": "金属与资源",
-      "title": "Ex - CIA officer accused of stealing gold bars reaches tentative plea deal",
-      "url": "https://www.theguardian.com/us-news/2026/sep/11/cia-officer-gold-bars-tentative-plea-deal",
-      "source": "theguardian.com",
-      "publishedAt": "2026-09-11T23:45:00Z",
-      "fetchedAt": "2026-09-12T01:10:55.172Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theguardian.com/us-news/2026/sep/11/cia-officer-gold-bars-tentative-plea-deal"
-    },
-    {
-      "id": "25652ce6a07033ed",
-      "category": "全球与地区",
-      "title": "Iran - backed Houthi rebels open new front in Middle East conflict",
-      "url": "https://katu.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz",
-      "source": "katu.com",
-      "publishedAt": "2026-09-11T23:45:00Z",
-      "fetchedAt": "2026-09-12T01:10:55.172Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://katu.com/news/nation-world/iran-backed-houthi-rebels-open-new-front-in-middle-east-conflict-president-donald-trump-strait-hormuz"
-    },
-    {
-      "id": "3c78ea6d9eac8e1b",
-      "category": "金属与资源",
-      "title": "Gold little changed even as U . S . inflation data supports Fed rate - hike bets ( GLD : NYSEARCA )",
-      "url": "https://seekingalpha.com/news/4642243-gold-little-changed-even-as-us-inflation-data-supports-fed-rate-hike-bets",
-      "source": "seekingalpha.com",
-      "publishedAt": "2026-09-11T22:15:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://seekingalpha.com/news/4642243-gold-little-changed-even-as-us-inflation-data-supports-fed-rate-hike-bets"
-    },
-    {
-      "id": "52a5f1c850fa00fc",
-      "category": "全球与地区",
-      "title": "Canola oil and beef have escaped Trump tariffs , for now",
-      "url": "https://www.manitobacooperator.ca/daily/canola-oil-and-beef-have-escaped-trumps-tariffs-for-now/",
-      "source": "manitobacooperator.ca",
-      "publishedAt": "2026-09-11T22:15:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manitobacooperator.ca/daily/canola-oil-and-beef-have-escaped-trumps-tariffs-for-now/"
-    },
-    {
-      "id": "9f4a514dd1b09ba1",
-      "category": "金属与资源",
-      "title": "Former CIA official found with $40 million in gold bars in plea deal talks",
-      "url": "https://www.cbsnews.com/news/former-cia-official-gold-bars-plea-deal-talks/",
-      "source": "cbsnews.com",
-      "publishedAt": "2026-09-11T22:15:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cbsnews.com/news/former-cia-official-gold-bars-plea-deal-talks/"
-    },
-    {
-      "id": "00a0b0cb74a79214",
-      "category": "全球与地区",
-      "title": "The Houthi advance in Yemen raises concerns about a key shipping choke point",
-      "url": "https://abcnews.com/Business/wireStory/houthi-advance-yemen-raises-concerns-key-shipping-choke-136371532",
-      "source": "abcnews.com",
-      "publishedAt": "2026-09-11T21:45:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://abcnews.com/Business/wireStory/houthi-advance-yemen-raises-concerns-key-shipping-choke-136371532"
-    },
-    {
-      "id": "239e24cc8ae109de",
-      "category": "能源与航运",
-      "title": "Saudi Arabia closes East - West oil pipeline after attacks in Riyadh , Madinah : precautionary measure",
-      "url": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html",
-      "source": "hindustantimes.com",
-      "publishedAt": "2026-09-11T21:30:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html"
-    },
-    {
-      "id": "bea44354dd060c22",
-      "category": "数字资产",
-      "title": "Coinbase Is Pushing to Bring Stablecoins to 1 , 000 Community Banks . Here Why Everyone Is Talking About Stablecoins Right Now .",
-      "url": "https://www.fool.com/investing/2026/09/11/coinbase-is-pushing-to-bring-stablecoins-to-1000-c/",
-      "source": "fool.com",
-      "publishedAt": "2026-09-11T21:30:00Z",
-      "fetchedAt": "2026-09-11T22:38:08.373Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/09/11/coinbase-is-pushing-to-bring-stablecoins-to-1000-c/"
-    },
-    {
-      "id": "44f3124bbad857b7",
-      "category": "能源与航运",
-      "title": "Markets end marginally lower on cooling oil prices , buying in HDFC Bank , IT stocks",
-      "url": "https://www.orissapost.com/markets-end-marginally-lower-on-cooling-oil-prices-buying-in-hdfc-bank-it-stocks/",
-      "source": "orissapost.com",
-      "publishedAt": "2026-09-11T11:00:00Z",
-      "fetchedAt": "2026-09-11T11:28:27.530Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.orissapost.com/markets-end-marginally-lower-on-cooling-oil-prices-buying-in-hdfc-bank-it-stocks/"
     }
   ]
 }
