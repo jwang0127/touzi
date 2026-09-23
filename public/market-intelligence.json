@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-23T06:02:47.741Z",
-  "newsUpdatedAt": "2026-09-23T00:41:20.316Z",
-  "assetsUpdatedAt": "2026-09-23T06:02:47.741Z",
+  "generatedAt": "2026-09-23T11:45:17.764Z",
+  "newsUpdatedAt": "2026-09-23T11:45:17.764Z",
+  "assetsUpdatedAt": "2026-09-23T11:45:17.764Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3938.85,
-      "changePercent": -0.34,
+      "price": 3936.52,
+      "changePercent": -0.39,
       "unit": "CNY",
-      "asOf": "2026-09-23T14:03:24+08:00",
+      "asOf": "2026-09-23T16:14:01+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 13649.17,
-      "changePercent": -0.54,
+      "price": 13636.07,
+      "changePercent": -0.64,
       "unit": "CNY",
-      "asOf": "2026-09-23T14:03:21+08:00",
+      "asOf": "2026-09-23T16:14:48+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24859.26,
-      "changePercent": -0.91,
+      "price": 24834.12,
+      "changePercent": -1.01,
       "unit": "HKD",
-      "asOf": "2026-09-23T13:48:23+08:00",
+      "asOf": "2026-09-23T18:31:13+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8288.2,
-      "changePercent": -0.89,
+      "price": 8273.81,
+      "changePercent": -1.06,
       "unit": "HKD",
-      "asOf": "2026-09-23T13:48:22+08:00",
+      "asOf": "2026-09-23T16:08:38+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4372.58,
-      "changePercent": -0.09,
+      "price": 4342.18,
+      "changePercent": -0.78,
       "unit": "USD",
-      "asOf": "2026-09-23T14:03:08-04:00",
+      "asOf": "2026-09-23T19:46:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 89.12,
-      "changePercent": -1.55,
+      "price": 90.7,
+      "changePercent": 0.2,
       "unit": "USD",
-      "asOf": "2026-09-23T14:03:05-04:00",
+      "asOf": "2026-09-23T19:46:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 681.95,
-      "changePercent": -0.24,
+      "price": 680.04,
+      "changePercent": -0.52,
       "unit": "USD",
-      "asOf": "2026-09-23T14:03:05-04:00",
+      "asOf": "2026-09-23T19:45:55-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,107 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 86466,
-      "changePercent": 1.2691784090392606,
+      "price": 85461,
+      "changePercent": -0.7085449336511391,
       "unit": "USD",
-      "asOf": "2026-09-23T06:01:40.000Z",
+      "asOf": "2026-09-23T11:44:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "5f59851714887c93",
+      "category": "全球与地区",
+      "title": "Russian Sanctions Act seeks to alter Moscows cost - benefit calculus , says German envoy Wieck",
+      "url": "https://news.webindia123.com/news/Articles/World/20260923/4502389.html",
+      "source": "news.webindia123.com",
+      "publishedAt": "2026-09-23T10:00:00Z",
+      "fetchedAt": "2026-09-23T11:45:17.764Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20260923/4502389.html"
+    },
+    {
+      "id": "b95d90e4dfe4a73e",
+      "category": "全球与地区",
+      "title": "Președintele Finlandei , către ruși : „ Voi nu veți câștiga acest conflict . Așa că haideți să încercăm să - i punem capăt",
+      "url": "https://www.digi24.ro/stiri/externe/ue/presedintele-finlandei-catre-rusi-voi-nu-veti-castiga-acest-conflict-asa-ca-haideti-sa-incercam-sa-i-punem-capat-3960367",
+      "source": "digi24.ro",
+      "publishedAt": "2026-09-23T09:00:00Z",
+      "fetchedAt": "2026-09-23T11:45:17.764Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.digi24.ro/stiri/externe/ue/presedintele-finlandei-catre-rusi-voi-nu-veti-castiga-acest-conflict-asa-ca-haideti-sa-incercam-sa-i-punem-capat-3960367"
+    },
+    {
+      "id": "61e951ce918526bc",
+      "category": "科技与产业",
+      "title": "Killer robots turn technological utopia into deadly dystopia",
+      "url": "http://www.australiannews.net/news/279325374/killer-robots-turn-technological-utopia-into-deadly-dystopia",
+      "source": "australiannews.net",
+      "publishedAt": "2026-09-23T09:00:00Z",
+      "fetchedAt": "2026-09-23T11:45:17.764Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.australiannews.net/news/279325374/killer-robots-turn-technological-utopia-into-deadly-dystopia"
+    },
     {
       "id": "0af5b4893da1553b",
       "category": "能源与航运",
@@ -1567,101 +1658,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.elperiodicodearagon.com/espana/2026/09/12/trump-conflicto-reino-unido-argentina-malvinas-desastre-potencial-134216075.html"
-    },
-    {
-      "id": "f0f3c49e8ae73554",
-      "category": "能源与航运",
-      "title": "Iran revives 700 oil wells through technology : Petropark Report",
-      "url": "https://www.iranoilgas.com/news/details.aspx?id=29031&title=Iran+revives+700+oil+wells+through+technology:+Petropark+Report",
-      "source": "iranoilgas.com",
-      "publishedAt": "2026-09-12T13:30:00Z",
-      "fetchedAt": "2026-09-12T14:11:29.868Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Iran"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.iranoilgas.com/news/details.aspx?id=29031&title=Iran+revives+700+oil+wells+through+technology:+Petropark+Report"
-    },
-    {
-      "id": "75647d234a5a1b56",
-      "category": "全球与地区",
-      "title": "BRICS 2026 : New Delhi Declaration calls for a rules - based WTO and an immediate end to protectionist tariffs",
-      "url": "https://www.moneycontrol.com/news/india/brics-2026-new-delhi-declaration-calls-for-a-rules-based-wto-and-an-immediate-end-to-protectionist-tariffs-14028598.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-09-12T13:30:00Z",
-      "fetchedAt": "2026-09-12T14:11:29.868Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/news/india/brics-2026-new-delhi-declaration-calls-for-a-rules-based-wto-and-an-immediate-end-to-protectionist-tariffs-14028598.html"
-    },
-    {
-      "id": "0c3d3eea3860f3a4",
-      "category": "金属与资源",
-      "title": "Show where swimming pool , gold - silver toilets are : Atishi challenges BJP ahead of Flagstaff Road residence inspection",
-      "url": "http://www.bignewsnetwork.com/news/279302684/show-where-swimming-pool-gold-silver-toilets-are-atishi-challenges-bjp-ahead-of-flagstaff-road-residence-inspection",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-09-12T13:30:00Z",
-      "fetchedAt": "2026-09-12T14:11:29.868Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279302684/show-where-swimming-pool-gold-silver-toilets-are-atishi-challenges-bjp-ahead-of-flagstaff-road-residence-inspection"
     }
   ]
 }
