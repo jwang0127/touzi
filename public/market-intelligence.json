@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-27T14:06:16.297Z",
-  "newsUpdatedAt": "2026-09-27T14:06:16.297Z",
-  "assetsUpdatedAt": "2026-09-27T14:06:16.297Z",
+  "generatedAt": "2026-09-27T18:28:37.859Z",
+  "newsUpdatedAt": "2026-09-27T18:28:37.859Z",
+  "assetsUpdatedAt": "2026-09-27T18:28:37.859Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -127,16 +127,255 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 84908,
-      "changePercent": 1.1929047485773867,
+      "price": 84668,
+      "changePercent": 0.7313583257508582,
       "unit": "USD",
-      "asOf": "2026-09-27T14:05:30.000Z",
+      "asOf": "2026-09-27T18:27:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "21ed8926844c7462",
+      "category": "金属与资源",
+      "title": "Chess Olympiad 2026 : India secure silver in Open , bronze in women event",
+      "url": "http://www.afghanistansun.com/news/279335636/chess-olympiad-2026-india-secure-silver-in-open-bronze-in-women-event",
+      "source": "afghanistansun.com",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Afghanistan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.afghanistansun.com/news/279335636/chess-olympiad-2026-india-secure-silver-in-open-bronze-in-women-event"
+    },
+    {
+      "id": "3e4079017b0055d2",
+      "category": "金属与资源",
+      "title": "Monatshoroskop Oktober 2026 : Das halten die Sterne im goldenen Herbst für Sie bereit",
+      "url": "http://www.hna.de/welt/fuer-sie-bereit-monatshoroskop-oktober-2026-das-halten-die-sterne-im-goldenen-herbst-94511581.html",
+      "source": "hna.de",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.hna.de/welt/fuer-sie-bereit-monatshoroskop-oktober-2026-das-halten-die-sterne-im-goldenen-herbst-94511581.html"
+    },
+    {
+      "id": "a3cd12c6206a8b30",
+      "category": "金属与资源",
+      "title": "Chevrolet Silverado estreia motor 8 . 3 V8 com 563 cv e reboca 17 toneladas",
+      "url": "https://quatrorodas.abril.com.br/noticias/chevrolet-silverado-estreia-motor-8-3-v8-com-563-cv-e-reboca-17-toneladas/",
+      "source": "quatrorodas.abril.com.br",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://quatrorodas.abril.com.br/noticias/chevrolet-silverado-estreia-motor-8-3-v8-com-563-cv-e-reboca-17-toneladas/"
+    },
+    {
+      "id": "4209ed1dcfb1e270",
+      "category": "能源与航运",
+      "title": "Editorial : Hilton energy vs . Becerra silence in the race for California governor – Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/09/27/editorial-hiltons-energy-vs-becerras-silence-in-the-race-for-california-governor/",
+      "source": "dailybulletin.com",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailybulletin.com/2026/09/27/editorial-hiltons-energy-vs-becerras-silence-in-the-race-for-california-governor/"
+    },
+    {
+      "id": "347009f7836676d5",
+      "category": "能源与航运",
+      "title": "Households urged to submit meter readings days before energy bills set to rise",
+      "url": "https://www.lbc.co.uk/article/households-send-in-meter-readings-energy-rise-5Hjdj7L_2/",
+      "source": "lbc.co.uk",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.lbc.co.uk/article/households-send-in-meter-readings-energy-rise-5Hjdj7L_2/"
+    },
+    {
+      "id": "3902d8bb85e15963",
+      "category": "金属与资源",
+      "title": "India Ranks 10th at WorldSkills Shanghai 2026 , wins 6 Silver medals and 20 Medal for Excellence",
+      "url": "https://aninews.in/news/entertainment/out-of-box/india-ranks-10th-at-worldskills-shanghai-2026-wins-6-silver-medals-and-20-medal-for-excellence20260927224328/",
+      "source": "aninews.in",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://aninews.in/news/entertainment/out-of-box/india-ranks-10th-at-worldskills-shanghai-2026-wins-6-silver-medals-and-20-medal-for-excellence20260927224328/"
+    },
+    {
+      "id": "f3923dbc47c6232f",
+      "category": "能源与航运",
+      "title": "Syria starts gasoline shipments to Iraq amid Hormuz disruption",
+      "url": "https://sana.sy/en/economic/2346357/",
+      "source": "sana.sy",
+      "publishedAt": "2026-09-27T17:45:00Z",
+      "fetchedAt": "2026-09-27T18:28:37.859Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Syria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://sana.sy/en/economic/2346357/"
+    },
     {
       "id": "9d28f18a48350d96",
       "category": "能源与航运",
@@ -1451,231 +1690,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://business24.ro/carlyle/aprobare-finala-preluare-active-lukoil-petrotel-ploiesti-1668110"
-    },
-    {
-      "id": "59e10f4e6e40c4ac",
-      "category": "能源与航运",
-      "title": "Stock market news : Wall Street inches higher as oil prices , bond yields retreat",
-      "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/09/22/wall-street-inches-higher-as-oil-prices-bond-yields-retreat-for-fifth-consecutive-day/",
-      "source": "bnnbloomberg.ca",
-      "publishedAt": "2026-09-22T14:30:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/09/22/wall-street-inches-higher-as-oil-prices-bond-yields-retreat-for-fifth-consecutive-day/"
-    },
-    {
-      "id": "7c45f8b9fa61fabd",
-      "category": "能源与航运",
-      "title": "Wall Street ticks to the edge of its record as Brent oil falls",
-      "url": "https://www.dailydemocrat.com/2026/09/22/wall-street-oil-prices-bond-yields/",
-      "source": "dailydemocrat.com",
-      "publishedAt": "2026-09-22T14:30:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailydemocrat.com/2026/09/22/wall-street-oil-prices-bond-yields/"
-    },
-    {
-      "id": "3c1ccd3e77fc1d72",
-      "category": "全球与地区",
-      "title": "Latvia Blocks EU Bid to Lift Oligarch Sanctions",
-      "url": "https://www.kyivpost.com/post/85114",
-      "source": "kyivpost.com",
-      "publishedAt": "2026-09-22T14:00:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ukraine"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kyivpost.com/post/85114"
-    },
-    {
-      "id": "3f0681c51aa89e88",
-      "category": "能源与航运",
-      "title": "Australia Energy Minister to visit India , Saudi Arabia to bolster energy , fuel security",
-      "url": "https://timesofoman.com/article/177245-australias-energy-minister-to-visit-india-saudi-arabia-to-bolster-energy-fuel-security",
-      "source": "timesofoman.com",
-      "publishedAt": "2026-09-22T14:00:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Oman"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofoman.com/article/177245-australias-energy-minister-to-visit-india-saudi-arabia-to-bolster-energy-fuel-security"
-    },
-    {
-      "id": "9c982efa6ae7414e",
-      "category": "能源与航运",
-      "title": "Aramco Poised to Resume Oil Exports at Red Sea Port",
-      "url": "https://www.rigzone.com/news/wire/aramco_poised_to_resume_oil_exports_at_red_sea_port-22-sep-2026-184668-article/",
-      "source": "rigzone.com",
-      "publishedAt": "2026-09-22T11:00:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rigzone.com/news/wire/aramco_poised_to_resume_oil_exports_at_red_sea_port-22-sep-2026-184668-article/"
-    },
-    {
-      "id": "398c9ce000a852b3",
-      "category": "金属与资源",
-      "title": "Rusija izvela masovni udar na vojnu industriju Ukrajine : Pogođeni Fire Point , rafinerija , metalurgija i logistički centri",
-      "url": "https://informer.rs/planeta/vesti/1153213/rusija-ukrajina-rat-kijev-napad-vojna-industrija",
-      "source": "informer.rs",
-      "publishedAt": "2026-09-22T11:00:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Serbia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://informer.rs/planeta/vesti/1153213/rusija-ukrajina-rat-kijev-napad-vojna-industrija"
-    },
-    {
-      "id": "aa4fdf3afad873b7",
-      "category": "全球与地区",
-      "title": "Beijing slams new US sanctions against Russia",
-      "url": "http://www.russiaherald.com/news/279317677/beijing-slams-new-us-sanctions-against-russia",
-      "source": "russiaherald.com",
-      "publishedAt": "2026-09-20T00:30:00Z",
-      "fetchedAt": "2026-09-20T01:13:56.321Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Russia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.russiaherald.com/news/279317677/beijing-slams-new-us-sanctions-against-russia"
     }
   ]
 }
