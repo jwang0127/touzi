@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-27T18:28:37.859Z",
-  "newsUpdatedAt": "2026-09-27T18:28:37.859Z",
-  "assetsUpdatedAt": "2026-09-27T18:28:37.859Z",
+  "generatedAt": "2026-09-27T22:16:10.777Z",
+  "newsUpdatedAt": "2026-09-27T22:16:10.777Z",
+  "assetsUpdatedAt": "2026-09-27T22:16:10.777Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4323.3,
-      "changePercent": 0.59,
+      "price": 4303.32,
+      "changePercent": -0.41,
       "unit": "USD",
-      "asOf": "2026-09-26T04:59:59-04:00",
+      "asOf": "2026-09-28T06:16:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.34,
-      "changePercent": -2.4,
+      "price": 93.12,
+      "changePercent": 0.77,
       "unit": "USD",
-      "asOf": "2026-09-26T04:59:58-04:00",
+      "asOf": "2026-09-28T06:17:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 678.01,
-      "changePercent": -0.15,
+      "price": 675.05,
+      "changePercent": -0.23,
       "unit": "USD",
-      "asOf": "2026-09-26T04:59:58-04:00",
+      "asOf": "2026-09-28T06:16:31-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,441 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 84668,
-      "changePercent": 0.7313583257508582,
+      "price": 84320,
+      "changePercent": -0.0030041692431806545,
       "unit": "USD",
-      "asOf": "2026-09-27T18:27:00.000Z",
+      "asOf": "2026-09-27T22:14:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f8d5308cf006b938",
+      "category": "全球与地区",
+      "title": "ARA fuel oil stocks climb 15 % in September so far | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/ara-fuel-oil-stocks-climb-15-in-september-so-far-2/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/ara-fuel-oil-stocks-climb-15-in-september-so-far-2/"
+    },
+    {
+      "id": "06fb88a928e68fda",
+      "category": "全球与地区",
+      "title": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/"
+    },
+    {
+      "id": "c1c5f5065ccb05f1",
+      "category": "全球与地区",
+      "title": "Korea LNG Carrier Edge Faces China Rise | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/koreas-lng-carrier-edge-faces-chinas-rise/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/koreas-lng-carrier-edge-faces-chinas-rise/"
+    },
+    {
+      "id": "5e4991ca625e4d70",
+      "category": "全球与地区",
+      "title": "How ethanol is expanding shipping fuel choices | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/how-ethanol-is-expanding-shippings-fuel-choices/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/how-ethanol-is-expanding-shippings-fuel-choices/"
+    },
+    {
+      "id": "17ac46637000c16c",
+      "category": "金属与资源",
+      "title": "It feels great : Baker Smriti Nambiar wins Silver , prestigious Best of Nation award at WorldSkills Shanghai 2026",
+      "url": "http://www.shanghainews.net/news/279335941/it-feels-great-baker-smriti-nambiar-wins-silver-prestigious-best-of-nation-award-at-worldskills-shanghai-2026",
+      "source": "shanghainews.net",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.shanghainews.net/news/279335941/it-feels-great-baker-smriti-nambiar-wins-silver-prestigious-best-of-nation-award-at-worldskills-shanghai-2026"
+    },
+    {
+      "id": "4ebd1000df9148c6",
+      "category": "金属与资源",
+      "title": "U . S . Global GO GOLD and Precious Metal Miners ETF ( NYSEARCA : GOAU ) Short Interest Update",
+      "url": "https://www.themarketsdaily.com/2026/09/27/u-s-global-go-gold-and-precious-metal-miners-etf-nysearcagoau-short-interest-update.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/09/27/u-s-global-go-gold-and-precious-metal-miners-etf-nysearcagoau-short-interest-update.html"
+    },
+    {
+      "id": "653eaeb6cadeef1c",
+      "category": "全球与地区",
+      "title": "Drewry : Intra Asia Container Index Up 6 % Last Week | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/drewry-intra-asia-container-index-up-6-last-week-2/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/drewry-intra-asia-container-index-up-6-last-week-2/"
+    },
+    {
+      "id": "fbb1b8e4478954bd",
+      "category": "金属与资源",
+      "title": "Why Gold Fields is keen on Australia Northern Star",
+      "url": "https://www.miningmx.com/top-story/67533-why-gold-fields-is-keen-on-australias-northern-star/",
+      "source": "miningmx.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.miningmx.com/top-story/67533-why-gold-fields-is-keen-on-australias-northern-star/"
+    },
+    {
+      "id": "50e0116a85ac358c",
+      "category": "全球与地区",
+      "title": "Product Tanker Rates on the Rise | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/product-tanker-rates-on-the-rise/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/product-tanker-rates-on-the-rise/"
+    },
+    {
+      "id": "8f39516a29e6dc41",
+      "category": "全球与地区",
+      "title": "Will European Gas Prices Keep Rising This Winter ? | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/will-european-gas-prices-keep-rising-this-winter/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/will-european-gas-prices-keep-rising-this-winter/"
+    },
+    {
+      "id": "e1036497ce28f2b1",
+      "category": "全球与地区",
+      "title": "China agrees to buy 10 million tons of U . S . coal in 2027 and 2028 | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/china-agrees-to-buy-10-million-tons-of-u-s-coal-in-2027-and-2028/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/china-agrees-to-buy-10-million-tons-of-u-s-coal-in-2027-and-2028/"
+    },
+    {
+      "id": "260a18957330518b",
+      "category": "能源与航运",
+      "title": "Households urged to check 3 things before energy price cap rise on October 1",
+      "url": "https://www.aol.co.uk/articles/households-urged-check-3-things-210400000.html",
+      "source": "aol.co.uk",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.co.uk/articles/households-urged-check-3-things-210400000.html"
+    },
+    {
+      "id": "df864b040aa747bb",
+      "category": "全球与地区",
+      "title": "China seizes PCTC orders as Europe pivots , South Korea targets LNG carriers | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/china-seizes-pctc-orders-as-europe-pivots-south-korea-targets-lng-carriers/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-09-27T21:45:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/china-seizes-pctc-orders-as-europe-pivots-south-korea-targets-lng-carriers/"
+    },
+    {
+      "id": "fa99bdf57ba6b361",
+      "category": "能源与航运",
+      "title": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
+      "url": "https://investinglive.com/commodities/iran-holds-line-on-diplomacy-as-hormuz-missile-strike-raises-risk-before-open/",
+      "source": "investinglive.com",
+      "publishedAt": "2026-09-27T21:15:00Z",
+      "fetchedAt": "2026-09-27T22:16:10.777Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://investinglive.com/commodities/iran-holds-line-on-diplomacy-as-hormuz-missile-strike-raises-risk-before-open/"
+    },
     {
       "id": "21ed8926844c7462",
       "category": "金属与资源",
@@ -1246,450 +1671,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20260923/4502389.html"
-    },
-    {
-      "id": "b95d90e4dfe4a73e",
-      "category": "全球与地区",
-      "title": "Președintele Finlandei , către ruși : „ Voi nu veți câștiga acest conflict . Așa că haideți să încercăm să - i punem capăt",
-      "url": "https://www.digi24.ro/stiri/externe/ue/presedintele-finlandei-catre-rusi-voi-nu-veti-castiga-acest-conflict-asa-ca-haideti-sa-incercam-sa-i-punem-capat-3960367",
-      "source": "digi24.ro",
-      "publishedAt": "2026-09-23T09:00:00Z",
-      "fetchedAt": "2026-09-23T11:45:17.764Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.digi24.ro/stiri/externe/ue/presedintele-finlandei-catre-rusi-voi-nu-veti-castiga-acest-conflict-asa-ca-haideti-sa-incercam-sa-i-punem-capat-3960367"
-    },
-    {
-      "id": "61e951ce918526bc",
-      "category": "科技与产业",
-      "title": "Killer robots turn technological utopia into deadly dystopia",
-      "url": "http://www.australiannews.net/news/279325374/killer-robots-turn-technological-utopia-into-deadly-dystopia",
-      "source": "australiannews.net",
-      "publishedAt": "2026-09-23T09:00:00Z",
-      "fetchedAt": "2026-09-23T11:45:17.764Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.australiannews.net/news/279325374/killer-robots-turn-technological-utopia-into-deadly-dystopia"
-    },
-    {
-      "id": "0af5b4893da1553b",
-      "category": "能源与航运",
-      "title": "Trump backs India - Middle East - Europe Economic Corridor , says need to shift energy infrastructure away from Iranian checkpoints",
-      "url": "https://aninews.in/news/world/us/trump-backs-india-middle-east-europe-economic-corridor-says-need-to-shift-energy-infrastructure-away-from-iranian-checkpoints20260923033252/",
-      "source": "aninews.in",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/world/us/trump-backs-india-middle-east-europe-economic-corridor-says-need-to-shift-energy-infrastructure-away-from-iranian-checkpoints20260923033252/"
-    },
-    {
-      "id": "e793550408192a71",
-      "category": "金属与资源",
-      "title": "Far East Gold Ltd ( ASX : FEG ) Notice of EGM , Access Letter & Proxy Forms",
-      "url": "https://www.abnnewswire.net/press/en/143163/Far-East-Gold-Ltd-%28ASX-FEG%29-Notice-of-EGM-Access-Letter-Proxy-Forms.html",
-      "source": "abnnewswire.net",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.abnnewswire.net/press/en/143163/Far-East-Gold-Ltd-%28ASX-FEG%29-Notice-of-EGM-Access-Letter-Proxy-Forms.html"
-    },
-    {
-      "id": "1ac5b2cefe2b27a2",
-      "category": "金属与资源",
-      "title": "Clean Air Metals Inc .: Clean Air Metals and Fiore - backed Springbok Ventures Announce Closing of Non - Brokered Private Placement and Transaction Updates",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69649435-clean-air-metals-inc-clean-air-metals-and-fiore-backed-springbok-ventures-announce-closing-of-non-brokered-private-placement-and-transaction-updates-296.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-09/69649435-clean-air-metals-inc-clean-air-metals-and-fiore-backed-springbok-ventures-announce-closing-of-non-brokered-private-placement-and-transaction-updates-296.htm"
-    },
-    {
-      "id": "c302720b361fff54",
-      "category": "全球与地区",
-      "title": "New US Sanctions law gives Trump additional option on Russian , Iranian oil : US State Department spokesperson Faruqi",
-      "url": "https://aninews.in/news/world/us/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department-spokesperson-faruqi16020260923011302/",
-      "source": "aninews.in",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/world/us/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department-spokesperson-faruqi16020260923011302/"
-    },
-    {
-      "id": "09cef0645df403d6",
-      "category": "全球与地区",
-      "title": "First Iran flights cancelled as US sanctions set to come into force",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/09/23/first-iran-flights-cancelled-as-us-sanctions-set-to-come-into-force",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/business/2026/09/23/first-iran-flights-cancelled-as-us-sanctions-set-to-come-into-force"
-    },
-    {
-      "id": "e87c8cb42fbce797",
-      "category": "数字资产",
-      "title": "Crypto honeymoon period fades as ownership declines",
-      "url": "https://cbs2iowa.com/news/nation-world/cryptos-honeymoon-period-fades-as-ownership-declines",
-      "source": "cbs2iowa.com",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cbs2iowa.com/news/nation-world/cryptos-honeymoon-period-fades-as-ownership-declines"
-    },
-    {
-      "id": "c33c0cb1225f5c3c",
-      "category": "能源与航运",
-      "title": "County supervisors ban new onshore oil , gas wells with split vote , heated debate",
-      "url": "https://santamariatimes.com/news/local/county-supervisors-ban-new-onshore-oil-gas-wells-with-split-vote-heated-debate/article_9e107ae3-0609-465d-ab5b-3b924a2ff695.html",
-      "source": "santamariatimes.com",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://santamariatimes.com/news/local/county-supervisors-ban-new-onshore-oil-gas-wells-with-split-vote-heated-debate/article_9e107ae3-0609-465d-ab5b-3b924a2ff695.html"
-    },
-    {
-      "id": "ce0805da1fcee7ae",
-      "category": "能源与航运",
-      "title": "Louisiana Oil Industry Rejects Landry Diesel Export Ban Plan",
-      "url": "https://973thedawg.com/ixp/36/p/landry-diesel-export-ban-oil-industry/",
-      "source": "973thedawg.com",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://973thedawg.com/ixp/36/p/landry-diesel-export-ban-oil-industry/"
-    },
-    {
-      "id": "4cea6b229c56288a",
-      "category": "科技与产业",
-      "title": "Killer robot or super intelligence ? At UN , leaders see both – NBC Bay Area",
-      "url": "https://www.nbcbayarea.com/news/national-international/artificial-super-intelligence-united-nations-ai/4146958/",
-      "source": "nbcbayarea.com",
-      "publishedAt": "2026-09-23T00:15:00Z",
-      "fetchedAt": "2026-09-23T00:41:20.316Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nbcbayarea.com/news/national-international/artificial-super-intelligence-united-nations-ai/4146958/"
-    },
-    {
-      "id": "2b012d42c0137f74",
-      "category": "能源与航运",
-      "title": "Riapre East - West Pipeline , loleodotto che aggira Hormuz : petrolio in calo , ma la crisi non è risolta",
-      "url": "https://www.ilmessaggero.it:443/economia/news/oleodotto_eastwest_pipeline_perche_importante_petrolio_arabia_saudita_prezzi-9778817.html",
-      "source": "ilmessaggero.it",
-      "publishedAt": "2026-09-22T14:30:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ilmessaggero.it:443/economia/news/oleodotto_eastwest_pipeline_perche_importante_petrolio_arabia_saudita_prezzi-9778817.html"
-    },
-    {
-      "id": "516c8fe0717df43a",
-      "category": "科技与产业",
-      "title": "Serbia , arrivano i cani robot di produzione cinese ( dotati di mitragliatrici e lanciarazzi ): come funzionano le armi del futuro",
-      "url": "https://www.ilmessaggero.it:443/mondo/cani_robot_cinesi_esercitazione_militare_serbia_cosa_sono-9778720.html",
-      "source": "ilmessaggero.it",
-      "publishedAt": "2026-09-22T14:30:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Italy"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ilmessaggero.it:443/mondo/cani_robot_cinesi_esercitazione_militare_serbia_cosa_sono-9778720.html"
-    },
-    {
-      "id": "e94e84fda6a4464a",
-      "category": "能源与航运",
-      "title": "Carlyle așteaptă aprobarea finală a administrației Trump pentru preluarea activelor internaționale ale Lukoil , inclusiv Petrotel Ploiești",
-      "url": "https://business24.ro/carlyle/aprobare-finala-preluare-active-lukoil-petrotel-ploiesti-1668110",
-      "source": "business24.ro",
-      "publishedAt": "2026-09-22T14:30:00Z",
-      "fetchedAt": "2026-09-22T14:59:12.807Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://business24.ro/carlyle/aprobare-finala-preluare-active-lukoil-petrotel-ploiesti-1668110"
     }
   ]
 }
