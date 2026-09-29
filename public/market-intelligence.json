@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-29T08:37:47.888Z",
+  "generatedAt": "2026-09-29T15:56:55.881Z",
   "newsUpdatedAt": "2026-09-28T22:06:15.851Z",
-  "assetsUpdatedAt": "2026-09-29T08:37:47.888Z",
+  "assetsUpdatedAt": "2026-09-29T15:56:55.881Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -45,7 +45,7 @@
       "price": 24523.57,
       "changePercent": -0.48,
       "unit": "HKD",
-      "asOf": "2026-09-29T16:23:03+08:00",
+      "asOf": "2026-09-29T18:31:03+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -64,10 +64,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51481.51,
-      "changePercent": -0.67,
+      "price": 51164.81,
+      "changePercent": -0.62,
       "unit": "USD",
-      "asOf": "2026-09-28T16:36:51-04:00",
+      "asOf": "2026-09-29T11:57:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -75,10 +75,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26820.38,
-      "changePercent": -0.92,
+      "price": 26782.26,
+      "changePercent": -0.14,
       "unit": "USD",
-      "asOf": "2026-09-28T17:15:59-04:00",
+      "asOf": "2026-09-29T11:57:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -86,10 +86,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7683.69,
-      "changePercent": -0.77,
+      "price": 7661.62,
+      "changePercent": -0.29,
       "unit": "USD",
-      "asOf": "2026-09-28T16:36:12-04:00",
+      "asOf": "2026-09-29T11:57:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -97,10 +97,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4171.81,
-      "changePercent": 0.08,
+      "price": 4190.91,
+      "changePercent": 0.54,
       "unit": "USD",
-      "asOf": "2026-09-29T16:38:06-04:00",
+      "asOf": "2026-09-29T23:57:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -108,10 +108,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.97,
-      "changePercent": 0.4,
+      "price": 90.68,
+      "changePercent": -2.08,
       "unit": "USD",
-      "asOf": "2026-09-29T16:38:06-04:00",
+      "asOf": "2026-09-29T23:57:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -119,10 +119,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 658.95,
-      "changePercent": -0.66,
+      "price": 661.04,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-09-29T16:38:01-04:00",
+      "asOf": "2026-09-29T23:57:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -130,10 +130,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83856.935,
+      "price": 83003.325,
       "changePercent": null,
       "unit": "USD",
-      "asOf": "2026-09-29T08:37:47.888Z",
+      "asOf": "2026-09-29T15:56:55.881Z",
       "source": "Coinbase Spot API",
       "provenanceUrl": "https://www.coinbase.com/price/bitcoin",
       "evidence": "FACT"
