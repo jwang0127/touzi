@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-09-29T20:51:45.883Z",
+  "generatedAt": "2026-09-30T00:31:53.473Z",
   "newsUpdatedAt": "2026-09-28T22:06:15.851Z",
-  "assetsUpdatedAt": "2026-09-29T20:51:45.883Z",
+  "assetsUpdatedAt": "2026-09-30T00:31:53.473Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429",
+      "GDELT：fetch failed",
       "CoinGecko：HTTP 403"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
@@ -78,7 +78,7 @@
       "price": 26797.54,
       "changePercent": -0.09,
       "unit": "USD",
-      "asOf": "2026-09-29T16:52:00-04:00",
+      "asOf": "2026-09-29T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -97,10 +97,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4213.46,
-      "changePercent": 1.08,
+      "price": 4213.56,
+      "changePercent": 0.81,
       "unit": "USD",
-      "asOf": "2026-09-30T04:52:05-04:00",
+      "asOf": "2026-09-30T08:32:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -108,10 +108,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 88.94,
-      "changePercent": -3.96,
+      "price": 89.33,
+      "changePercent": -0.06,
       "unit": "USD",
-      "asOf": "2026-09-30T04:52:03-04:00",
+      "asOf": "2026-09-30T08:31:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -119,10 +119,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 666.1,
-      "changePercent": 0.41,
+      "price": 665.23,
+      "changePercent": 0.74,
       "unit": "USD",
-      "asOf": "2026-09-30T04:51:53-04:00",
+      "asOf": "2026-09-30T08:32:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -130,10 +130,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83634.535,
+      "price": 83508.995,
       "changePercent": null,
       "unit": "USD",
-      "asOf": "2026-09-29T20:51:45.883Z",
+      "asOf": "2026-09-30T00:31:53.473Z",
       "source": "Coinbase Spot API",
       "provenanceUrl": "https://www.coinbase.com/price/bitcoin",
       "evidence": "FACT"
