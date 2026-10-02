@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-02T05:46:38.934Z",
-  "newsUpdatedAt": "2026-09-30T19:26:04.766Z",
-  "assetsUpdatedAt": "2026-10-02T05:46:38.934Z",
+  "generatedAt": "2026-10-02T12:44:39.952Z",
+  "newsUpdatedAt": "2026-10-02T12:44:39.952Z",
+  "assetsUpdatedAt": "2026-10-02T12:44:39.952Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 23955.79,
-      "changePercent": -2.67,
+      "price": 23972.29,
+      "changePercent": -2.6,
       "unit": "HKD",
-      "asOf": "2026-10-02T13:32:20+08:00",
+      "asOf": "2026-10-02T18:31:07+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8026.56,
-      "changePercent": -2.35,
+      "price": 8030.54,
+      "changePercent": -2.31,
       "unit": "HKD",
-      "asOf": "2026-10-02T13:32:20+08:00",
+      "asOf": "2026-10-02T16:08:32+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4216.04,
-      "changePercent": 0.33,
+      "price": 4241.71,
+      "changePercent": 0.94,
       "unit": "USD",
-      "asOf": "2026-10-02T13:47:00-04:00",
+      "asOf": "2026-10-02T20:45:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 92.47,
-      "changePercent": -0.43,
+      "price": 89.4,
+      "changePercent": -3.74,
       "unit": "USD",
-      "asOf": "2026-10-02T13:46:54-04:00",
+      "asOf": "2026-10-02T20:45:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 658.62,
-      "changePercent": 0.74,
+      "price": 657.41,
+      "changePercent": 0.55,
       "unit": "USD",
-      "asOf": "2026-10-02T13:47:02-04:00",
+      "asOf": "2026-10-02T20:45:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,169 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 86090,
-      "changePercent": 2.2560064573053524,
+      "price": 86580,
+      "changePercent": 3.1686156048338474,
       "unit": "USD",
-      "asOf": "2026-10-02T05:45:50.000Z",
+      "asOf": "2026-10-02T12:43:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "bd00e476819ad361",
+      "category": "A股与政策",
+      "title": "科创亮眼 ！ 2026年前三季度A股大数据全景扫描",
+      "url": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml",
+      "source": "stock.jrj.com.cn",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml"
+    },
+    {
+      "id": "67dbe5ab28d96b0e",
+      "category": "金属与资源",
+      "title": "Goldman Sachs just added theses 4 companies to its key stock picks",
+      "url": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html",
+      "source": "cnbc.com",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html"
+    },
+    {
+      "id": "5d829797db713241",
+      "category": "全球与地区",
+      "title": "Cornell students accused of sexual assault gave conflicting accounts of night at fraternity house",
+      "url": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
+      "source": "moneycontrol.com",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html"
+    },
+    {
+      "id": "d2e656c58e8e8e93",
+      "category": "金属与资源",
+      "title": "Asian Games : Sujeet Kalkal scripts late comeback to win gold in 65kg freestyle wrestling",
+      "url": "https://www.prokerala.com/news/articles/a1819503.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1819503.html"
+    },
+    {
+      "id": "9265a772d2ab4af8",
+      "category": "全球与地区",
+      "title": "US Targets Russia A7 Network In New Iran Sanctions Push",
+      "url": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push",
+      "source": "orlandoecho.com",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push"
+    },
     {
       "id": "1f9ed173548f9d56",
       "category": "金属与资源",
@@ -1481,171 +1634,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.lbc.co.uk/article/households-send-in-meter-readings-energy-rise-5Hjdj7L_2/"
-    },
-    {
-      "id": "3902d8bb85e15963",
-      "category": "金属与资源",
-      "title": "India Ranks 10th at WorldSkills Shanghai 2026 , wins 6 Silver medals and 20 Medal for Excellence",
-      "url": "https://aninews.in/news/entertainment/out-of-box/india-ranks-10th-at-worldskills-shanghai-2026-wins-6-silver-medals-and-20-medal-for-excellence20260927224328/",
-      "source": "aninews.in",
-      "publishedAt": "2026-09-27T17:45:00Z",
-      "fetchedAt": "2026-09-27T18:28:37.859Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://aninews.in/news/entertainment/out-of-box/india-ranks-10th-at-worldskills-shanghai-2026-wins-6-silver-medals-and-20-medal-for-excellence20260927224328/"
-    },
-    {
-      "id": "f3923dbc47c6232f",
-      "category": "能源与航运",
-      "title": "Syria starts gasoline shipments to Iraq amid Hormuz disruption",
-      "url": "https://sana.sy/en/economic/2346357/",
-      "source": "sana.sy",
-      "publishedAt": "2026-09-27T17:45:00Z",
-      "fetchedAt": "2026-09-27T18:28:37.859Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://sana.sy/en/economic/2346357/"
-    },
-    {
-      "id": "9d28f18a48350d96",
-      "category": "能源与航运",
-      "title": "Energy expert tells BBC R4 Moneybox of diesel situation for united kingdom drivers",
-      "url": "https://www.gazettelive.co.uk/news/cost-of-living/energy-expert-tells-bbc-r4-34678412",
-      "source": "gazettelive.co.uk",
-      "publishedAt": "2026-09-27T13:45:00Z",
-      "fetchedAt": "2026-09-27T14:06:16.297Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.gazettelive.co.uk/news/cost-of-living/energy-expert-tells-bbc-r4-34678412"
-    },
-    {
-      "id": "4dc4a95826a27bfd",
-      "category": "金属与资源",
-      "title": "Asian Games : I didnt want to give up until the last point , says Anahat after historic silver",
-      "url": "https://morungexpress.com/asian-games-i-didnt-want-to-give-up-until-the-last-point-says-anahat-after-historic-silver",
-      "source": "morungexpress.com",
-      "publishedAt": "2026-09-27T13:45:00Z",
-      "fetchedAt": "2026-09-27T14:06:16.297Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://morungexpress.com/asian-games-i-didnt-want-to-give-up-until-the-last-point-says-anahat-after-historic-silver"
-    },
-    {
-      "id": "6dc50707002704d7",
-      "category": "A股与政策",
-      "title": "4只A股连板股 ， 集体提示风险",
-      "url": "https://baijiahao.baidu.com/s?id=1877490781359896689",
-      "source": "baijiahao.baidu.com",
-      "publishedAt": "2026-09-27T13:45:00Z",
-      "fetchedAt": "2026-09-27T14:06:16.297Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://baijiahao.baidu.com/s?id=1877490781359896689"
     }
   ]
 }
