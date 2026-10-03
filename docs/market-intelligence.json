@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-03T02:02:48.253Z",
-  "newsUpdatedAt": "2026-10-02T12:44:39.952Z",
-  "assetsUpdatedAt": "2026-10-03T02:02:48.253Z",
+  "generatedAt": "2026-10-03T08:13:01.012Z",
+  "newsUpdatedAt": "2026-10-03T08:13:01.012Z",
+  "assetsUpdatedAt": "2026-10-03T08:13:01.012Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 84624,
-      "changePercent": -0.3589751725821513,
+      "price": 84626,
+      "changePercent": -1.9149550065713532,
       "unit": "USD",
-      "asOf": "2026-10-03T02:02:10.000Z",
+      "asOf": "2026-10-03T08:11:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml",
       "source": "stock.jrj.com.cn",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -175,7 +173,7 @@
       "url": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html",
       "source": "cnbc.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -209,7 +207,7 @@
       "url": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
       "source": "moneycontrol.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -237,7 +235,7 @@
       "url": "https://www.prokerala.com/news/articles/a1819503.html",
       "source": "prokerala.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -271,7 +269,7 @@
       "url": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push",
       "source": "orlandoecho.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-02T12:44:39.952Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -291,6 +289,73 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push"
+    },
+    {
+      "id": "490a2c2a0eb7cbce",
+      "category": "金属与资源",
+      "title": "Gold , silver prices see hike in Pakistan - Oct 2 , 2026",
+      "url": "https://www.samaa.tv/2087357799-gold-silver-prices-see-hike-in-pakistan-oct-2-2026",
+      "source": "samaa.tv",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.samaa.tv/2087357799-gold-silver-prices-see-hike-in-pakistan-oct-2-2026"
+    },
+    {
+      "id": "99bc5bb48891c402",
+      "category": "能源与航运",
+      "title": "BRICS talks energy resilience . Time to make it real",
+      "url": "http://www.orlandoecho.com/news/279347171/brics-talks-energy-resilience-time-to-make-it-real",
+      "source": "orlandoecho.com",
+      "publishedAt": "2026-10-02T10:45:00Z",
+      "fetchedAt": "2026-10-03T08:13:01.012Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.orlandoecho.com/news/279347171/brics-talks-energy-resilience-time-to-make-it-real"
     },
     {
       "id": "1f9ed173548f9d56",
@@ -1566,74 +1631,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://quatrorodas.abril.com.br/noticias/chevrolet-silverado-estreia-motor-8-3-v8-com-563-cv-e-reboca-17-toneladas/"
-    },
-    {
-      "id": "4209ed1dcfb1e270",
-      "category": "能源与航运",
-      "title": "Editorial : Hilton energy vs . Becerra silence in the race for California governor – Daily Bulletin",
-      "url": "https://www.dailybulletin.com/2026/09/27/editorial-hiltons-energy-vs-becerras-silence-in-the-race-for-california-governor/",
-      "source": "dailybulletin.com",
-      "publishedAt": "2026-09-27T17:45:00Z",
-      "fetchedAt": "2026-09-27T18:28:37.859Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailybulletin.com/2026/09/27/editorial-hiltons-energy-vs-becerras-silence-in-the-race-for-california-governor/"
-    },
-    {
-      "id": "347009f7836676d5",
-      "category": "能源与航运",
-      "title": "Households urged to submit meter readings days before energy bills set to rise",
-      "url": "https://www.lbc.co.uk/article/households-send-in-meter-readings-energy-rise-5Hjdj7L_2/",
-      "source": "lbc.co.uk",
-      "publishedAt": "2026-09-27T17:45:00Z",
-      "fetchedAt": "2026-09-27T18:28:37.859Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.lbc.co.uk/article/households-send-in-meter-readings-energy-rise-5Hjdj7L_2/"
     }
   ]
 }
