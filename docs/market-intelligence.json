@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-04T13:15:34.135Z",
-  "newsUpdatedAt": "2026-10-04T13:15:34.135Z",
-  "assetsUpdatedAt": "2026-10-04T13:15:34.135Z",
+  "generatedAt": "2026-10-04T17:39:46.252Z",
+  "newsUpdatedAt": "2026-10-04T17:39:46.252Z",
+  "assetsUpdatedAt": "2026-10-04T17:39:46.252Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：fetch failed"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 85140,
-      "changePercent": 0.36808977578078395,
+      "price": 85347,
+      "changePercent": 0.5306406457710751,
       "unit": "USD",
-      "asOf": "2026-10-04T13:14:20.000Z",
+      "asOf": "2026-10-04T17:39:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -144,7 +146,7 @@
       "url": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml",
       "source": "stock.jrj.com.cn",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
+      "fetchedAt": "2026-10-04T17:39:46.252Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -173,7 +175,7 @@
       "url": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html",
       "source": "cnbc.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
+      "fetchedAt": "2026-10-04T17:39:46.252Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -207,7 +209,7 @@
       "url": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
       "source": "moneycontrol.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
+      "fetchedAt": "2026-10-04T17:39:46.252Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -235,7 +237,7 @@
       "url": "https://www.prokerala.com/news/articles/a1819503.html",
       "source": "prokerala.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
+      "fetchedAt": "2026-10-04T17:39:46.252Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -269,7 +271,7 @@
       "url": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push",
       "source": "orlandoecho.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
+      "fetchedAt": "2026-10-04T17:39:46.252Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
