@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-04T06:59:28.317Z",
-  "newsUpdatedAt": "2026-10-04T06:59:28.317Z",
-  "assetsUpdatedAt": "2026-10-04T06:59:28.317Z",
+  "generatedAt": "2026-10-04T13:15:34.135Z",
+  "newsUpdatedAt": "2026-10-04T13:15:34.135Z",
+  "assetsUpdatedAt": "2026-10-04T13:15:34.135Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 85028,
-      "changePercent": 0.5568010055953407,
+      "price": 85140,
+      "changePercent": 0.36808977578078395,
       "unit": "USD",
-      "asOf": "2026-10-04T06:58:10.000Z",
+      "asOf": "2026-10-04T13:14:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml",
       "source": "stock.jrj.com.cn",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T06:59:28.317Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -175,7 +173,7 @@
       "url": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html",
       "source": "cnbc.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T06:59:28.317Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -209,7 +207,7 @@
       "url": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
       "source": "moneycontrol.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T06:59:28.317Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -237,7 +235,7 @@
       "url": "https://www.prokerala.com/news/articles/a1819503.html",
       "source": "prokerala.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T06:59:28.317Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -271,7 +269,7 @@
       "url": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push",
       "source": "orlandoecho.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T06:59:28.317Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -299,7 +297,7 @@
       "url": "https://www.samaa.tv/2087357799-gold-silver-prices-see-hike-in-pakistan-oct-2-2026",
       "source": "samaa.tv",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-03T21:23:04.880Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -333,7 +331,7 @@
       "url": "http://www.orlandoecho.com/news/279347171/brics-talks-energy-resilience-time-to-make-it-real",
       "source": "orlandoecho.com",
       "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-03T21:23:04.880Z",
+      "fetchedAt": "2026-10-04T13:15:34.135Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
