@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-07T08:46:01.711Z",
-  "newsUpdatedAt": "2026-10-07T08:46:01.711Z",
-  "assetsUpdatedAt": "2026-10-07T08:46:01.711Z",
+  "generatedAt": "2026-10-07T16:35:31.559Z",
+  "newsUpdatedAt": "2026-10-07T16:35:31.559Z",
+  "assetsUpdatedAt": "2026-10-07T16:35:31.559Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -42,7 +44,7 @@
       "price": 24130.5,
       "changePercent": -0.62,
       "unit": "HKD",
-      "asOf": "2026-10-07T16:30:51+08:00",
+      "asOf": "2026-10-07T18:30:51+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -61,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51521.28,
-      "changePercent": 0.49,
+      "price": 51177.16,
+      "changePercent": -0.67,
       "unit": "USD",
-      "asOf": "2026-10-06T16:42:37-04:00",
+      "asOf": "2026-10-07T12:36:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 27599.89,
-      "changePercent": 0.45,
+      "price": 27469.36,
+      "changePercent": -0.47,
       "unit": "USD",
-      "asOf": "2026-10-06T18:34:12-04:00",
+      "asOf": "2026-10-07T12:36:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7818.93,
-      "changePercent": 0.58,
+      "price": 7794.78,
+      "changePercent": -0.31,
       "unit": "USD",
-      "asOf": "2026-10-06T16:40:07-04:00",
+      "asOf": "2026-10-07T12:36:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4152.31,
-      "changePercent": -0.83,
+      "price": 4130.89,
+      "changePercent": -1.34,
       "unit": "USD",
-      "asOf": "2026-10-07T16:46:02-04:00",
+      "asOf": "2026-10-08T00:36:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 89.44,
-      "changePercent": 0,
+      "price": 88.88,
+      "changePercent": -0.62,
       "unit": "USD",
-      "asOf": "2026-10-07T16:45:58-04:00",
+      "asOf": "2026-10-08T00:36:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 665.18,
-      "changePercent": 0.03,
+      "price": 665.8,
+      "changePercent": 0.13,
       "unit": "USD",
-      "asOf": "2026-10-07T16:46:00-04:00",
+      "asOf": "2026-10-08T00:36:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83964,
-      "changePercent": -2.286493471414875,
+      "price": 83555,
+      "changePercent": -2.3743666424509775,
       "unit": "USD",
-      "asOf": "2026-10-07T08:44:20.000Z",
+      "asOf": "2026-10-07T16:35:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -144,7 +146,7 @@
       "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
       "source": "utahindependent.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-07T08:46:01.711Z",
+      "fetchedAt": "2026-10-07T16:35:31.559Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -177,7 +179,7 @@
       "url": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/",
       "source": "lowellsun.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-07T08:46:01.711Z",
+      "fetchedAt": "2026-10-07T16:35:31.559Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
