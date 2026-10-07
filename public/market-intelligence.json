@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-06T21:42:40.442Z",
-  "newsUpdatedAt": "2026-10-06T10:26:37.956Z",
-  "assetsUpdatedAt": "2026-10-06T21:42:40.442Z",
+  "generatedAt": "2026-10-07T01:36:32.396Z",
+  "newsUpdatedAt": "2026-10-07T01:36:32.396Z",
+  "assetsUpdatedAt": "2026-10-07T01:36:32.396Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24280.56,
-      "changePercent": 1,
+      "price": 24172.29,
+      "changePercent": -0.45,
       "unit": "HKD",
-      "asOf": "2026-10-06T18:31:01+08:00",
+      "asOf": "2026-10-07T09:23:06+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8128.97,
-      "changePercent": 0.96,
+      "price": 8095.08,
+      "changePercent": -0.42,
       "unit": "HKD",
-      "asOf": "2026-10-06T16:08:26+08:00",
+      "asOf": "2026-10-07T09:23:06+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 27599.79,
+      "price": 27599.89,
       "changePercent": 0.45,
       "unit": "USD",
-      "asOf": "2026-10-06T17:15:59-04:00",
+      "asOf": "2026-10-06T18:34:12-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4194.47,
-      "changePercent": 0.91,
+      "price": 4180.44,
+      "changePercent": -0.16,
       "unit": "USD",
-      "asOf": "2026-10-07T04:59:59-04:00",
+      "asOf": "2026-10-07T09:38:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 89.92,
-      "changePercent": 0.55,
+      "price": 90.41,
+      "changePercent": 1.08,
       "unit": "USD",
-      "asOf": "2026-10-07T04:59:58-04:00",
+      "asOf": "2026-10-07T09:38:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 666.17,
-      "changePercent": 0.31,
+      "price": 666.29,
+      "changePercent": 0.2,
       "unit": "USD",
-      "asOf": "2026-10-07T04:59:16-04:00",
+      "asOf": "2026-10-07T09:38:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 85593,
-      "changePercent": -0.34294514739992243,
+      "price": 85207,
+      "changePercent": -0.6444486030021768,
       "unit": "USD",
-      "asOf": "2026-10-06T21:41:20.000Z",
+      "asOf": "2026-10-07T01:36:40.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
       "source": "utahindependent.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-06T10:26:37.956Z",
+      "fetchedAt": "2026-10-07T01:36:32.396Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +179,7 @@
       "url": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/",
       "source": "lowellsun.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-06T10:26:37.956Z",
+      "fetchedAt": "2026-10-07T01:36:32.396Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
