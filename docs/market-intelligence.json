@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-08T09:04:44.157Z",
-  "newsUpdatedAt": "2026-10-08T09:04:44.157Z",
-  "assetsUpdatedAt": "2026-10-08T09:04:44.157Z",
+  "generatedAt": "2026-10-08T16:33:49.764Z",
+  "newsUpdatedAt": "2026-10-08T16:33:49.764Z",
+  "assetsUpdatedAt": "2026-10-08T16:33:49.764Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -44,7 +42,7 @@
       "price": 23785.79,
       "changePercent": -1.43,
       "unit": "HKD",
-      "asOf": "2026-10-08T16:50:15+08:00",
+      "asOf": "2026-10-08T18:31:15+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51179.87,
-      "changePercent": -0.66,
+      "price": 51066.69,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-10-07T16:55:25-04:00",
+      "asOf": "2026-10-08T12:34:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 27538.69,
-      "changePercent": -0.22,
+      "price": 27399.49,
+      "changePercent": -0.51,
       "unit": "USD",
-      "asOf": "2026-10-07T17:15:59-04:00",
+      "asOf": "2026-10-08T12:34:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7801.77,
-      "changePercent": -0.22,
+      "price": 7781.34,
+      "changePercent": -0.26,
       "unit": "USD",
-      "asOf": "2026-10-07T16:55:18-04:00",
+      "asOf": "2026-10-08T12:34:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4156.15,
-      "changePercent": 0.37,
+      "price": 4142.36,
+      "changePercent": 0.04,
       "unit": "USD",
-      "asOf": "2026-10-08T17:05:05-04:00",
+      "asOf": "2026-10-09T00:34:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 91.84,
-      "changePercent": 4.03,
+      "price": 91.27,
+      "changePercent": 3.39,
       "unit": "USD",
-      "asOf": "2026-10-08T17:05:08-04:00",
+      "asOf": "2026-10-09T00:34:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 667.9,
-      "changePercent": 0.44,
+      "price": 657.91,
+      "changePercent": -1.06,
       "unit": "USD",
-      "asOf": "2026-10-08T17:05:08-04:00",
+      "asOf": "2026-10-09T00:34:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 82904,
-      "changePercent": -1.246599920187957,
+      "price": 81145,
+      "changePercent": -2.9499590394011825,
       "unit": "USD",
-      "asOf": "2026-10-08T09:03:30.000Z",
+      "asOf": "2026-10-08T16:34:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
       "source": "freepressjournal.in",
       "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-08T09:04:44.157Z",
+      "fetchedAt": "2026-10-08T16:33:49.764Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +177,7 @@
       "url": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963",
       "source": "wjcl.com",
       "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-08T09:04:44.157Z",
+      "fetchedAt": "2026-10-08T16:33:49.764Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -204,13 +202,45 @@
       "provenanceUrl": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963"
     },
     {
+      "id": "554417b35c7dc296",
+      "category": "科技与产业",
+      "title": "Biotech and Pharma Industry News | BioPharma Dive",
+      "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
+      "source": "biopharmadive.com",
+      "publishedAt": "2026-10-08T05:30:00Z",
+      "fetchedAt": "2026-10-08T16:33:49.764Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc"
+    },
+    {
       "id": "2b649394b56c9d1c",
       "category": "能源与航运",
       "title": "G7 to release diesel , oil reserves as fuel prices surge",
       "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
       "source": "utahindependent.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-08T09:04:44.157Z",
+      "fetchedAt": "2026-10-08T16:33:49.764Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -243,7 +273,7 @@
       "url": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/",
       "source": "lowellsun.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-07T16:35:31.559Z",
+      "fetchedAt": "2026-10-08T16:33:49.764Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -1601,39 +1631,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.hellenicshippingnews.com/china-agrees-to-buy-10-million-tons-of-u-s-coal-in-2027-and-2028/"
-    },
-    {
-      "id": "260a18957330518b",
-      "category": "能源与航运",
-      "title": "Households urged to check 3 things before energy price cap rise on October 1",
-      "url": "https://www.aol.co.uk/articles/households-urged-check-3-things-210400000.html",
-      "source": "aol.co.uk",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.co.uk/articles/households-urged-check-3-things-210400000.html"
     }
   ]
 }
