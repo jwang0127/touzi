@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-09T21:43:40.568Z",
-  "newsUpdatedAt": "2026-10-09T21:43:40.568Z",
-  "assetsUpdatedAt": "2026-10-09T21:43:40.568Z",
+  "generatedAt": "2026-10-10T01:46:53.150Z",
+  "newsUpdatedAt": "2026-10-10T01:46:53.150Z",
+  "assetsUpdatedAt": "2026-10-10T01:46:53.150Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 82501,
-      "changePercent": 1.0413538217453964,
+      "price": 82597,
+      "changePercent": 0.8496084019754001,
       "unit": "USD",
-      "asOf": "2026-10-09T21:44:14.000Z",
+      "asOf": "2026-10-10T01:46:24.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
       "source": "freepressjournal.in",
       "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-09T21:43:40.568Z",
+      "fetchedAt": "2026-10-10T01:46:53.150Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +177,7 @@
       "url": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963",
       "source": "wjcl.com",
       "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-09T21:43:40.568Z",
+      "fetchedAt": "2026-10-10T01:46:53.150Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -210,7 +208,7 @@
       "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
       "source": "biopharmadive.com",
       "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-08T22:08:36.020Z",
+      "fetchedAt": "2026-10-10T01:46:53.150Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -242,7 +240,7 @@
       "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
       "source": "utahindependent.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-09T21:43:40.568Z",
+      "fetchedAt": "2026-10-10T01:46:53.150Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -275,7 +273,7 @@
       "url": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/",
       "source": "lowellsun.com",
       "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-08T22:08:36.020Z",
+      "fetchedAt": "2026-10-10T01:46:53.150Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
