@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-10T15:25:19.265Z",
-  "newsUpdatedAt": "2026-10-10T01:46:53.150Z",
-  "assetsUpdatedAt": "2026-10-10T15:25:19.265Z",
+  "generatedAt": "2026-10-10T20:07:24.880Z",
+  "newsUpdatedAt": "2026-10-10T20:07:24.880Z",
+  "assetsUpdatedAt": "2026-10-10T20:07:24.880Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,410 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 82891,
-      "changePercent": 0.025862989739780094,
+      "price": 83021,
+      "changePercent": 0.9059590116315599,
       "unit": "USD",
-      "asOf": "2026-10-10T15:25:06.000Z",
+      "asOf": "2026-10-10T20:07:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "c3f60f3be6ecef49",
+      "category": "能源与航运",
+      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms"
+    },
+    {
+      "id": "5a828408459592ab",
+      "category": "金属与资源",
+      "title": "I would lift gas cylinders , heavy weights : Manipur powerlifter Maibam Gulubi recalls early days after winning Gold medal in Asian Bench Press Championships",
+      "url": "http://www.pakistantelegraph.com/news/279363166/i-would-lift-gas-cylinders-heavy-weights-manipur-powerlifter-maibam-gulubi-recalls-early-days-after-winning-gold-medal-in-asian-bench-press-championships",
+      "source": "pakistantelegraph.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.pakistantelegraph.com/news/279363166/i-would-lift-gas-cylinders-heavy-weights-manipur-powerlifter-maibam-gulubi-recalls-early-days-after-winning-gold-medal-in-asian-bench-press-championships"
+    },
+    {
+      "id": "eb9113fbbdbeba85",
+      "category": "全球与地区",
+      "title": "Trump says ICC sanctions aimed at defending Netanyahu and others",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
+      "source": "middleeasteye.net",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others"
+    },
+    {
+      "id": "4ff6e4b0ddb27e2e",
+      "category": "能源与航运",
+      "title": "RBI steps up rupee support , opens dollar window for oil companies",
+      "url": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
+      "source": "thehindubusinessline.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece"
+    },
+    {
+      "id": "f66a533b2a288705",
+      "category": "金属与资源",
+      "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
+      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
+      "source": "livehindustan.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html"
+    },
+    {
+      "id": "057afd4252a2c39b",
+      "category": "能源与航运",
+      "title": "Increased vessel attacks drive Hormuz oil exports sharply lower , report says",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report",
+      "source": "middleeasteye.net",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report"
+    },
+    {
+      "id": "feed6c4d2527543a",
+      "category": "能源与航运",
+      "title": "Putin says Russian oil supplies to US will",
+      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
+      "source": "timesofoman.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Oman"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call"
+    },
+    {
+      "id": "e2bb65e2c8aeef48",
+      "category": "能源与航运",
+      "title": "BP Plans Bid Under Investment - friendly India Oil & Gas Policy : Meg ONeill",
+      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms"
+    },
+    {
+      "id": "d7cba682c39b9fd5",
+      "category": "金属与资源",
+      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
+      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
+      "source": "focus.de",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html"
+    },
+    {
+      "id": "dc2f8b769b31d432",
+      "category": "能源与航运",
+      "title": "Sigenergy Unveils the Latest Energy Solutions at Malaysia IGEM 2026",
+      "url": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/",
+      "source": "intelligencer.ca",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/"
+    },
+    {
+      "id": "de4dc4ed3c2e4a27",
+      "category": "全球与地区",
+      "title": "Mediawaakhond wil ON ! opnieuw sanctioneren na Hitler - uitzend",
+      "url": "https://nieuws.nl/entertainment/mediawaakhond-wil-on-weer-sanctie-opleggen-na-hitler-uitzending",
+      "source": "nieuws.nl",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Netherlands"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://nieuws.nl/entertainment/mediawaakhond-wil-on-weer-sanctie-opleggen-na-hitler-uitzending"
+    },
+    {
+      "id": "66bfda639264731f",
+      "category": "能源与航运",
+      "title": "Data centre market faces energy challenges",
+      "url": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html",
+      "source": "vietnamnews.vn",
+      "publishedAt": "2026-10-10T06:45:00Z",
+      "fetchedAt": "2026-10-10T20:07:24.880Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html"
+    },
     {
       "id": "9f4ec734579c05b9",
       "category": "能源与航运",
@@ -1268,371 +1660,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.businesstimes.com.sg/companies-markets/banking-finance/greenback-near-two-month-high-us-iran-stalemate-bolsters-oil-fed-rate-hike-bets"
-    },
-    {
-      "id": "951d2c59b702c266",
-      "category": "金属与资源",
-      "title": "Rumesh Tharanga Pathirage wins Sri Lanka first gold at Asian Games - Breaking News",
-      "url": "https://www.dailymirror.lk/breaking-news/Rumesh-Tharanga-Pathirage-wins-Sri-Lankas-first-gold-at-Asian-Games/108-351302",
-      "source": "dailymirror.lk",
-      "publishedAt": "2026-09-28T14:45:00Z",
-      "fetchedAt": "2026-09-28T15:34:17.213Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Sri Lanka"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailymirror.lk/breaking-news/Rumesh-Tharanga-Pathirage-wins-Sri-Lankas-first-gold-at-Asian-Games/108-351302"
-    },
-    {
-      "id": "f8d5308cf006b938",
-      "category": "全球与地区",
-      "title": "ARA fuel oil stocks climb 15 % in September so far | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/ara-fuel-oil-stocks-climb-15-in-september-so-far-2/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/ara-fuel-oil-stocks-climb-15-in-september-so-far-2/"
-    },
-    {
-      "id": "06fb88a928e68fda",
-      "category": "全球与地区",
-      "title": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/"
-    },
-    {
-      "id": "c1c5f5065ccb05f1",
-      "category": "全球与地区",
-      "title": "Korea LNG Carrier Edge Faces China Rise | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/koreas-lng-carrier-edge-faces-chinas-rise/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/koreas-lng-carrier-edge-faces-chinas-rise/"
-    },
-    {
-      "id": "5e4991ca625e4d70",
-      "category": "全球与地区",
-      "title": "How ethanol is expanding shipping fuel choices | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/how-ethanol-is-expanding-shippings-fuel-choices/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/how-ethanol-is-expanding-shippings-fuel-choices/"
-    },
-    {
-      "id": "17ac46637000c16c",
-      "category": "金属与资源",
-      "title": "It feels great : Baker Smriti Nambiar wins Silver , prestigious Best of Nation award at WorldSkills Shanghai 2026",
-      "url": "http://www.shanghainews.net/news/279335941/it-feels-great-baker-smriti-nambiar-wins-silver-prestigious-best-of-nation-award-at-worldskills-shanghai-2026",
-      "source": "shanghainews.net",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.shanghainews.net/news/279335941/it-feels-great-baker-smriti-nambiar-wins-silver-prestigious-best-of-nation-award-at-worldskills-shanghai-2026"
-    },
-    {
-      "id": "4ebd1000df9148c6",
-      "category": "金属与资源",
-      "title": "U . S . Global GO GOLD and Precious Metal Miners ETF ( NYSEARCA : GOAU ) Short Interest Update",
-      "url": "https://www.themarketsdaily.com/2026/09/27/u-s-global-go-gold-and-precious-metal-miners-etf-nysearcagoau-short-interest-update.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/09/27/u-s-global-go-gold-and-precious-metal-miners-etf-nysearcagoau-short-interest-update.html"
-    },
-    {
-      "id": "653eaeb6cadeef1c",
-      "category": "全球与地区",
-      "title": "Drewry : Intra Asia Container Index Up 6 % Last Week | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/drewry-intra-asia-container-index-up-6-last-week-2/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/drewry-intra-asia-container-index-up-6-last-week-2/"
-    },
-    {
-      "id": "fbb1b8e4478954bd",
-      "category": "金属与资源",
-      "title": "Why Gold Fields is keen on Australia Northern Star",
-      "url": "https://www.miningmx.com/top-story/67533-why-gold-fields-is-keen-on-australias-northern-star/",
-      "source": "miningmx.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.miningmx.com/top-story/67533-why-gold-fields-is-keen-on-australias-northern-star/"
-    },
-    {
-      "id": "50e0116a85ac358c",
-      "category": "全球与地区",
-      "title": "Product Tanker Rates on the Rise | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/product-tanker-rates-on-the-rise/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/product-tanker-rates-on-the-rise/"
-    },
-    {
-      "id": "8f39516a29e6dc41",
-      "category": "全球与地区",
-      "title": "Will European Gas Prices Keep Rising This Winter ? | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/will-european-gas-prices-keep-rising-this-winter/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/will-european-gas-prices-keep-rising-this-winter/"
-    },
-    {
-      "id": "e1036497ce28f2b1",
-      "category": "全球与地区",
-      "title": "China agrees to buy 10 million tons of U . S . coal in 2027 and 2028 | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/china-agrees-to-buy-10-million-tons-of-u-s-coal-in-2027-and-2028/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-27T21:45:00Z",
-      "fetchedAt": "2026-09-27T22:16:10.777Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/china-agrees-to-buy-10-million-tons-of-u-s-coal-in-2027-and-2028/"
     }
   ]
 }
