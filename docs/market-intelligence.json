@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-12T01:22:37.209Z",
+  "generatedAt": "2026-10-12T09:19:49.652Z",
   "newsUpdatedAt": "2026-10-11T22:03:14.078Z",
-  "assetsUpdatedAt": "2026-10-12T01:22:37.209Z",
+  "assetsUpdatedAt": "2026-10-12T09:19:49.652Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3813.73,
-      "changePercent": 0,
+      "price": 3797.24,
+      "changePercent": -0.43,
       "unit": "CNY",
-      "asOf": "2026-10-12T09:23:00+08:00",
+      "asOf": "2026-10-12T16:14:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 12641.86,
-      "changePercent": 0,
+      "price": 12384.87,
+      "changePercent": -2.03,
       "unit": "CNY",
-      "asOf": "2026-10-12T09:22:33+08:00",
+      "asOf": "2026-10-12T16:14:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24211.35,
-      "changePercent": 0,
+      "price": 24271.2,
+      "changePercent": 0.25,
       "unit": "HKD",
-      "asOf": "2026-10-12T09:08:19+08:00",
+      "asOf": "2026-10-12T17:05:15+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8147.87,
-      "changePercent": 0,
+      "price": 8168.57,
+      "changePercent": 0.25,
       "unit": "HKD",
-      "asOf": "2026-10-12T09:08:18+08:00",
+      "asOf": "2026-10-12T16:08:40+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4236.39,
-      "changePercent": 0.48,
+      "price": 4198.79,
+      "changePercent": -0.42,
       "unit": "USD",
-      "asOf": "2026-10-12T09:23:07-04:00",
+      "asOf": "2026-10-12T17:20:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 90.13,
-      "changePercent": -1.87,
+      "price": 92.53,
+      "changePercent": 0.74,
       "unit": "USD",
-      "asOf": "2026-10-12T09:23:06-04:00",
+      "asOf": "2026-10-12T17:20:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 673.6,
-      "changePercent": 0.66,
+      "price": 675.34,
+      "changePercent": 0.92,
       "unit": "USD",
-      "asOf": "2026-10-12T09:22:33-04:00",
+      "asOf": "2026-10-12T17:20:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83829,
-      "changePercent": 1.0693705778691351,
+      "price": 83465,
+      "changePercent": 0.5968574779927828,
       "unit": "USD",
-      "asOf": "2026-10-12T01:22:59.000Z",
+      "asOf": "2026-10-12T09:19:39.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
