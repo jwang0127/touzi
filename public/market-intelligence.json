@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-13T22:50:44.952Z",
-  "newsUpdatedAt": "2026-10-13T22:50:44.952Z",
-  "assetsUpdatedAt": "2026-10-13T22:50:44.952Z",
+  "generatedAt": "2026-10-14T01:57:03.038Z",
+  "newsUpdatedAt": "2026-10-14T01:57:03.038Z",
+  "assetsUpdatedAt": "2026-10-14T01:57:03.038Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -17,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3800.86,
-      "changePercent": 0.1,
+      "price": 3808.24,
+      "changePercent": 0.19,
       "unit": "CNY",
-      "asOf": "2026-10-13T16:15:00+08:00",
+      "asOf": "2026-10-14T09:58:12+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -28,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 12353.7,
-      "changePercent": -0.25,
+      "price": 12363.83,
+      "changePercent": 0.08,
       "unit": "CNY",
-      "asOf": "2026-10-13T16:14:42+08:00",
+      "asOf": "2026-10-14T09:58:09+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24345.22,
-      "changePercent": 0.3,
+      "price": 24203.67,
+      "changePercent": -0.58,
       "unit": "HKD",
-      "asOf": "2026-10-13T18:31:26+08:00",
+      "asOf": "2026-10-14T09:43:12+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8174.72,
-      "changePercent": 0.08,
+      "price": 8129.75,
+      "changePercent": -0.55,
       "unit": "HKD",
-      "asOf": "2026-10-13T16:08:50+08:00",
+      "asOf": "2026-10-14T09:43:12+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4185.23,
-      "changePercent": 0.19,
+      "price": 4175.19,
+      "changePercent": -0.05,
       "unit": "USD",
-      "asOf": "2026-10-14T06:51:05-04:00",
+      "asOf": "2026-10-14T09:58:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 94.69,
-      "changePercent": 0.59,
+      "price": 95.23,
+      "changePercent": 1.15,
       "unit": "USD",
-      "asOf": "2026-10-14T06:51:06-04:00",
+      "asOf": "2026-10-14T09:58:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 673.03,
-      "changePercent": 0.06,
+      "price": 672.95,
+      "changePercent": 0.05,
       "unit": "USD",
-      "asOf": "2026-10-14T06:46:00-04:00",
+      "asOf": "2026-10-14T09:57:38-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83475,
-      "changePercent": 1.1929620855585825,
+      "price": 83309,
+      "changePercent": 1.151073582466864,
       "unit": "USD",
-      "asOf": "2026-10-13T22:51:16.000Z",
+      "asOf": "2026-10-14T01:57:46.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -144,7 +144,7 @@
       "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
       "source": "economictimes.indiatimes.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -177,7 +177,7 @@
       "url": "http://www.pakistantelegraph.com/news/279363166/i-would-lift-gas-cylinders-heavy-weights-manipur-powerlifter-maibam-gulubi-recalls-early-days-after-winning-gold-medal-in-asian-bench-press-championships",
       "source": "pakistantelegraph.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -213,7 +213,7 @@
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
       "source": "middleeasteye.net",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -244,7 +244,7 @@
       "url": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
       "source": "thehindubusinessline.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -277,7 +277,7 @@
       "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
       "source": "livehindustan.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -311,7 +311,7 @@
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report",
       "source": "middleeasteye.net",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -344,7 +344,7 @@
       "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
       "source": "timesofoman.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -377,7 +377,7 @@
       "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
       "source": "economictimes.indiatimes.com",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -410,7 +410,7 @@
       "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
       "source": "focus.de",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -444,7 +444,7 @@
       "url": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/",
       "source": "intelligencer.ca",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -477,7 +477,7 @@
       "url": "https://nieuws.nl/entertainment/mediawaakhond-wil-on-weer-sanctie-opleggen-na-hitler-uitzending",
       "source": "nieuws.nl",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -505,7 +505,7 @@
       "url": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html",
       "source": "vietnamnews.vn",
       "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-13T22:50:44.952Z",
+      "fetchedAt": "2026-10-14T01:57:03.038Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
