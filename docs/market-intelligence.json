@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-15T13:29:09.003Z",
-  "newsUpdatedAt": "2026-10-15T13:29:09.003Z",
-  "assetsUpdatedAt": "2026-10-15T13:29:09.003Z",
+  "generatedAt": "2026-10-15T18:20:42.577Z",
+  "newsUpdatedAt": "2026-10-15T18:20:42.577Z",
+  "assetsUpdatedAt": "2026-10-15T18:20:42.577Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：fetch failed"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51829.59,
-      "changePercent": 0.4,
+      "price": 52075.02,
+      "changePercent": 0.88,
       "unit": "USD",
-      "asOf": "2026-10-15T09:30:19-04:00",
+      "asOf": "2026-10-15T14:22:00-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26363.64,
-      "changePercent": -1.23,
+      "price": 26576.59,
+      "changePercent": -0.44,
       "unit": "USD",
-      "asOf": "2026-10-15T09:30:19-04:00",
+      "asOf": "2026-10-15T14:21:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7683.35,
-      "changePercent": -0.46,
+      "price": 7720.66,
+      "changePercent": 0.02,
       "unit": "USD",
-      "asOf": "2026-10-15T09:30:19-04:00",
+      "asOf": "2026-10-15T14:21:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4179.55,
-      "changePercent": 1.74,
+      "price": 4177.76,
+      "changePercent": 1.7,
       "unit": "USD",
-      "asOf": "2026-10-15T21:30:08-04:00",
+      "asOf": "2026-10-16T02:22:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 96.2,
-      "changePercent": 1.17,
+      "price": 98.05,
+      "changePercent": 3.11,
       "unit": "USD",
-      "asOf": "2026-10-15T21:30:09-04:00",
+      "asOf": "2026-10-16T02:22:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 655.57,
-      "changePercent": -1.57,
+      "price": 655.09,
+      "changePercent": -1.65,
       "unit": "USD",
-      "asOf": "2026-10-15T21:30:08-04:00",
+      "asOf": "2026-10-16T02:22:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,141 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80228,
-      "changePercent": -2.7743257438247095,
+      "price": 82043,
+      "changePercent": 0.5797527334971072,
       "unit": "USD",
-      "asOf": "2026-10-15T13:29:13.000Z",
+      "asOf": "2026-10-15T18:21:54.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f36ad57105137128",
+      "category": "数字资产",
+      "title": "Bitcoin price today : BTC falls 3 . 6 % as US wholesale inflation jumps 1 . 3 % in September",
+      "url": "https://www.hindustantimes.com/world-news/us-news/bitcoin-price-today-btc-falls-3-6-as-us-wholesale-inflation-jumps-1-3-in-september-101792084393174.html",
+      "source": "hindustantimes.com",
+      "publishedAt": "2026-10-15T17:45:00Z",
+      "fetchedAt": "2026-10-15T18:20:42.577Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hindustantimes.com/world-news/us-news/bitcoin-price-today-btc-falls-3-6-as-us-wholesale-inflation-jumps-1-3-in-september-101792084393174.html"
+    },
+    {
+      "id": "b496404965e069fc",
+      "category": "金属与资源",
+      "title": "Gold Lost $100 an Ounce in Hours After the Inflation Report",
+      "url": "https://www.aol.com/articles/gold-lost-100-ounce-hours-171034000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-10-15T17:45:00Z",
+      "fetchedAt": "2026-10-15T18:20:42.577Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/gold-lost-100-ounce-hours-171034000.html"
+    },
+    {
+      "id": "1c7d1e928f9a55ec",
+      "category": "能源与航运",
+      "title": "U . S . Crude Oil Inventories Slump Much More Than Expected",
+      "url": "https://www.rttnews.com/story.aspx?Id=3699492",
+      "source": "rttnews.com",
+      "publishedAt": "2026-10-15T17:45:00Z",
+      "fetchedAt": "2026-10-15T18:20:42.577Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rttnews.com/story.aspx?Id=3699492"
+    },
+    {
+      "id": "6d9de273acc1da38",
+      "category": "科技与产业",
+      "title": "Meet the Low - Cost Vanguard ETF With Taiwan Semiconductor , Samsung Electronics , SK Hynix , and ASML as Its 4 Largest Holdings",
+      "url": "https://www.aol.com/articles/meet-low-cost-vanguard-etf-171100000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-10-15T17:45:00Z",
+      "fetchedAt": "2026-10-15T18:20:42.577Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/meet-low-cost-vanguard-etf-171100000.html"
+    },
     {
       "id": "70524e653e55ff8d",
       "category": "金属与资源",
@@ -1550,129 +1673,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.hellenicshippingnews.com/south-korea-fully-secures-august-crude-needs-with-us-mediterranean-oceania-supplies/"
-    },
-    {
-      "id": "08be4ad11a214ab4",
-      "category": "全球与地区",
-      "title": "US considers diesel export restrictions | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/us-considers-diesel-export-restrictions/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-28T21:45:00Z",
-      "fetchedAt": "2026-09-28T22:06:15.851Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/us-considers-diesel-export-restrictions/"
-    },
-    {
-      "id": "f726397745405b4b",
-      "category": "能源与航运",
-      "title": "Alito steps aside in a major climate case after scrutiny over oil stock holdings",
-      "url": "https://www.mercurynews.com/2026/09/28/supreme-court-climate-change/",
-      "source": "mercurynews.com",
-      "publishedAt": "2026-09-28T21:45:00Z",
-      "fetchedAt": "2026-09-28T22:06:15.851Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mercurynews.com/2026/09/28/supreme-court-climate-change/"
-    },
-    {
-      "id": "e00957ef36085aea",
-      "category": "全球与地区",
-      "title": "Dry Bulk Market : China Iron Ore Demand Could Fall In the Coming Weeks | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/dry-bulk-market-chinas-iron-ore-demand-could-fall-in-the-coming-weeks/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-09-28T21:45:00Z",
-      "fetchedAt": "2026-09-28T22:06:15.851Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/dry-bulk-market-chinas-iron-ore-demand-could-fall-in-the-coming-weeks/"
-    },
-    {
-      "id": "2990d64df056e181",
-      "category": "金属与资源",
-      "title": "Investors Purchase High Volume of Wheaton Precious Metals Put Options ( NYSE : WPM )",
-      "url": "https://www.dailypolitical.com/2026/09/28/investors-purchase-high-volume-of-wheaton-precious-metals-put-options-nysewpm.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-09-28T21:45:00Z",
-      "fetchedAt": "2026-09-28T22:06:15.851Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/09/28/investors-purchase-high-volume-of-wheaton-precious-metals-put-options-nysewpm.html"
     }
   ]
 }
