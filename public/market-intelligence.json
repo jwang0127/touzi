@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-16T21:16:58.911Z",
-  "newsUpdatedAt": "2026-10-16T21:16:58.911Z",
-  "assetsUpdatedAt": "2026-10-16T21:16:58.911Z",
+  "generatedAt": "2026-10-16T23:42:04.619Z",
+  "newsUpdatedAt": "2026-10-16T23:42:04.619Z",
+  "assetsUpdatedAt": "2026-10-16T23:42:04.619Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -127,16 +127,185 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81631,
-      "changePercent": -0.5484328628559201,
+      "price": 81572,
+      "changePercent": -0.6651373431393981,
       "unit": "USD",
-      "asOf": "2026-10-16T21:16:24.000Z",
+      "asOf": "2026-10-16T23:42:32.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "87c262b47bc5034d",
+      "category": "科技与产业",
+      "title": "5 Pezzi Sensore A Ultrasuoni HC - SR04 Per Distanza 2 - 500 Cm , Precisione 0 , 3 Cm , 5V Per Robotica E Automazione",
+      "url": "https://thefulcrum.ca/471272/Per-Distanza-2-500-Cm-Precisione-0-3-Cm-5V-Per-Robotica-E",
+      "source": "thefulcrum.ca",
+      "publishedAt": "2026-10-16T23:15:00Z",
+      "fetchedAt": "2026-10-16T23:42:04.619Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://thefulcrum.ca/471272/Per-Distanza-2-500-Cm-Precisione-0-3-Cm-5V-Per-Robotica-E"
+    },
+    {
+      "id": "64607f376cddb006",
+      "category": "金属与资源",
+      "title": "Geelong Cup : Irish trainer Joseph OBrien seeks Melbourne Cup golden ticket with Small Fry",
+      "url": "https://www.geelongadvertiser.com.au/lifestyle/geelong-cup-key-to-melbourne-cup-hopes-for-irish-trainer-joseph-obriens-small-fry/news-story/e3897ff3f6ad91447655677a278aab52?nk=e94edd3f3d1b849c34636e0244b933d6-1792191719",
+      "source": "geelongadvertiser.com.au",
+      "publishedAt": "2026-10-16T23:15:00Z",
+      "fetchedAt": "2026-10-16T23:42:04.619Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.geelongadvertiser.com.au/lifestyle/geelong-cup-key-to-melbourne-cup-hopes-for-irish-trainer-joseph-obriens-small-fry/news-story/e3897ff3f6ad91447655677a278aab52?nk=e94edd3f3d1b849c34636e0244b933d6-1792191719"
+    },
+    {
+      "id": "fb515aa837850e25",
+      "category": "能源与航运",
+      "title": "From Russian oil to Starlink : How the US is redrawing its Ukraine playbook",
+      "url": "http://www.europesun.com/news/279379827/from-russian-oil-to-starlink-how-the-us-is-redrawing-its-ukraine-playbook",
+      "source": "europesun.com",
+      "publishedAt": "2026-10-16T23:15:00Z",
+      "fetchedAt": "2026-10-16T23:42:04.619Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Russia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.europesun.com/news/279379827/from-russian-oil-to-starlink-how-the-us-is-redrawing-its-ukraine-playbook"
+    },
+    {
+      "id": "ed0ec7ebf8ca06bf",
+      "category": "能源与航运",
+      "title": "Inflation next wave could be building as energy costs spread through economy",
+      "url": "https://wcti12.com/news/nation-world/inflations-next-wave-could-be-building-as-energy-costs-spread-through-economy",
+      "source": "wcti12.com",
+      "publishedAt": "2026-10-16T23:15:00Z",
+      "fetchedAt": "2026-10-16T23:42:04.619Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wcti12.com/news/nation-world/inflations-next-wave-could-be-building-as-energy-costs-spread-through-economy"
+    },
+    {
+      "id": "f0ea6913d4606157",
+      "category": "能源与航运",
+      "title": "Prime Minister Mark Carney says US wants to split Canada from oil - rich Alberta amid separation vote",
+      "url": "https://nypost.com/2026/10/16/world-news/prime-minister-mark-carney-says-us-wants-to-split-canada-from-oil-rich-alberta-amid-separation-vote/",
+      "source": "nypost.com",
+      "publishedAt": "2026-10-16T23:15:00Z",
+      "fetchedAt": "2026-10-16T23:42:04.619Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://nypost.com/2026/10/16/world-news/prime-minister-mark-carney-says-us-wants-to-split-canada-from-oil-rich-alberta-amid-separation-vote/"
+    },
     {
       "id": "bfc92bc1a8b7d8d1",
       "category": "能源与航运",
@@ -1520,165 +1689,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/"
-    },
-    {
-      "id": "627b3b28b19c713a",
-      "category": "金属与资源",
-      "title": "Panzerbauer Rheinmetall erschließt Weltall als Geschäftsfeld",
-      "url": "https://www.weser-kurier.de/wirtschaft/panzerbauer-rheinmetall-erschliesst-weltall-als-geschaeftsfeld-doc87wqbobdx1y1meijqnnc",
-      "source": "weser-kurier.de",
-      "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-07T08:46:01.711Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.weser-kurier.de/wirtschaft/panzerbauer-rheinmetall-erschliesst-weltall-als-geschaeftsfeld-doc87wqbobdx1y1meijqnnc"
-    },
-    {
-      "id": "bd00e476819ad361",
-      "category": "A股与政策",
-      "title": "科创亮眼 ！ 2026年前三季度A股大数据全景扫描",
-      "url": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml",
-      "source": "stock.jrj.com.cn",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T17:39:46.252Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.jrj.com.cn/2026/10/02172958606805.shtml"
-    },
-    {
-      "id": "67dbe5ab28d96b0e",
-      "category": "金属与资源",
-      "title": "Goldman Sachs just added theses 4 companies to its key stock picks",
-      "url": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html",
-      "source": "cnbc.com",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T17:39:46.252Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.cnbc.com/2026/10/02/goldman-sachs-conviction-list.html"
-    },
-    {
-      "id": "5d829797db713241",
-      "category": "全球与地区",
-      "title": "Cornell students accused of sexual assault gave conflicting accounts of night at fraternity house",
-      "url": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
-      "source": "moneycontrol.com",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T17:39:46.252Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html"
-    },
-    {
-      "id": "d2e656c58e8e8e93",
-      "category": "金属与资源",
-      "title": "Asian Games : Sujeet Kalkal scripts late comeback to win gold in 65kg freestyle wrestling",
-      "url": "https://www.prokerala.com/news/articles/a1819503.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T17:39:46.252Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1819503.html"
     }
   ]
 }
