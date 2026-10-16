@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-16T17:29:14.747Z",
-  "newsUpdatedAt": "2026-10-16T17:29:14.747Z",
-  "assetsUpdatedAt": "2026-10-16T17:29:14.747Z",
+  "generatedAt": "2026-10-16T21:16:58.911Z",
+  "newsUpdatedAt": "2026-10-16T21:16:58.911Z",
+  "assetsUpdatedAt": "2026-10-16T21:16:58.911Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -61,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51962.36,
-      "changePercent": -0.41,
+      "price": 52002.41,
+      "changePercent": -0.34,
       "unit": "USD",
-      "asOf": "2026-10-16T13:29:20-04:00",
+      "asOf": "2026-10-16T16:42:09-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26207.86,
-      "changePercent": -1.89,
+      "price": 26140.03,
+      "changePercent": -2.14,
       "unit": "USD",
-      "asOf": "2026-10-16T13:29:19-04:00",
+      "asOf": "2026-10-16T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7667.72,
-      "changePercent": -0.99,
+      "price": 7659.44,
+      "changePercent": -1.09,
       "unit": "USD",
-      "asOf": "2026-10-16T13:29:19-04:00",
+      "asOf": "2026-10-16T16:42:08-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4179.78,
-      "changePercent": 0.23,
+      "price": 4184.85,
+      "changePercent": 0.35,
       "unit": "USD",
-      "asOf": "2026-10-17T01:29:09-04:00",
+      "asOf": "2026-10-17T04:59:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 100.97,
-      "changePercent": 3.06,
+      "price": 101.85,
+      "changePercent": 3.96,
       "unit": "USD",
-      "asOf": "2026-10-17T01:29:07-04:00",
+      "asOf": "2026-10-17T04:59:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 656.54,
-      "changePercent": 0.14,
+      "price": 656.03,
+      "changePercent": 0.06,
       "unit": "USD",
-      "asOf": "2026-10-17T01:29:08-04:00",
+      "asOf": "2026-10-17T04:59:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +127,326 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80791,
-      "changePercent": -1.8402806926811213,
+      "price": 81631,
+      "changePercent": -0.5484328628559201,
       "unit": "USD",
-      "asOf": "2026-10-16T17:28:40.000Z",
+      "asOf": "2026-10-16T21:16:24.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "bfc92bc1a8b7d8d1",
+      "category": "能源与航运",
+      "title": "Saturn Oil & Gas Inc . Announces Release Date for Q3 2026 Results and Provides Conference Call / Webcast Details",
+      "url": "https://www.nugget.ca/press-releases/newsfile/saturn-oil-gas-inc-announces-release-date-for-q3-2026-results-and-provides-conference-call-webcast-details/",
+      "source": "nugget.ca",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nugget.ca/press-releases/newsfile/saturn-oil-gas-inc-announces-release-date-for-q3-2026-results-and-provides-conference-call-webcast-details/"
+    },
+    {
+      "id": "c677eb25eea86949",
+      "category": "全球与地区",
+      "title": "PM offers Scotland more powers in bid to move past old politics of conflict",
+      "url": "https://www.dorsetecho.co.uk/news/national/26643800.pm-offers-scotland-powers-bid-move-past-old-politics-conflict/",
+      "source": "dorsetecho.co.uk",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dorsetecho.co.uk/news/national/26643800.pm-offers-scotland-powers-bid-move-past-old-politics-conflict/"
+    },
+    {
+      "id": "b57f1f2c651e1042",
+      "category": "科技与产业",
+      "title": "Un terreno desconocido para nosotros : La policía califica de inédito el acoso sexual a una menor mediante un robot controlado por dos jóvenes en Colonia",
+      "url": "https://www.larazon.es/actualidad/terreno-desconocido-nosotros-policia-califica-inedito-acoso-sexual-menor-mediante-robot-controlado-dos-jovenes-colonia-b50m_202610166ad2803fcfd4076f0c7d32d0.html",
+      "source": "larazon.es",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Spain"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.larazon.es/actualidad/terreno-desconocido-nosotros-policia-califica-inedito-acoso-sexual-menor-mediante-robot-controlado-dos-jovenes-colonia-b50m_202610166ad2803fcfd4076f0c7d32d0.html"
+    },
+    {
+      "id": "803a49ba3266da48",
+      "category": "能源与航运",
+      "title": "Iran - backed Houthis strike Saudi oil company Aramco headquarters , officials say",
+      "url": "http://www.dhakacourier.com.bd/news/Global/Iran-backed-Houthis-strike-Saudi-oil-company-Aramco%E2%80%99s-headquarters-officials-say/10555",
+      "source": "dhakacourier.com.bd",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Bangladesh"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.dhakacourier.com.bd/news/Global/Iran-backed-Houthis-strike-Saudi-oil-company-Aramco%E2%80%99s-headquarters-officials-say/10555"
+    },
+    {
+      "id": "5a43eab91812a2b2",
+      "category": "数字资产",
+      "title": "Engineer Gets 32 Months for Bitcoin Extortion Plot Against His Own Employer",
+      "url": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792181860.f548e2105d112313",
+      "source": "decrypt.co",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792181860.f548e2105d112313"
+    },
+    {
+      "id": "b6cee2621b0e0200",
+      "category": "数字资产",
+      "title": "Deutsche Bank to Launch Bitcoin and Ethereum Custody Service",
+      "url": "https://econotimes.com/Deutsche-Bank-to-Launch-Bitcoin-and-Ethereum-Custody-Service-1755616",
+      "source": "econotimes.com",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://econotimes.com/Deutsche-Bank-to-Launch-Bitcoin-and-Ethereum-Custody-Service-1755616"
+    },
+    {
+      "id": "64a00b03461dbea2",
+      "category": "能源与航运",
+      "title": "U . S . Oil Drillers Back Off Even As Prices Soar",
+      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+      "source": "oilprice.com",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html"
+    },
+    {
+      "id": "96a368091cdbc612",
+      "category": "科技与产业",
+      "title": "Biotech and Pharma Industry News | BioPharma Dive",
+      "url": "https://www.biopharmadive.com/?page=2&_sp=078b40ac-ddb4-4786-8a75-344873810d7e",
+      "source": "biopharmadive.com",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.biopharmadive.com/?page=2&_sp=078b40ac-ddb4-4786-8a75-344873810d7e"
+    },
+    {
+      "id": "60b963a0cd5e0378",
+      "category": "金属与资源",
+      "title": "Douglas County sheriff offers support after incident at Bend Silver Rail Elementary",
+      "url": "https://nbc16.com/news/douglas-county-oregon/douglas-county-sheriff-offers-support-after-incident-at-bends-silver-rail-elementary",
+      "source": "nbc16.com",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://nbc16.com/news/douglas-county-oregon/douglas-county-sheriff-offers-support-after-incident-at-bends-silver-rail-elementary"
+    },
+    {
+      "id": "75a15b53ea580a59",
+      "category": "全球与地区",
+      "title": "Shipping Stocks To Add to Your Watchlist – October 16th",
+      "url": "https://www.tickerreport.com/banking-finance/13622787/shipping-stocks-to-add-to-your-watchlist-october-16th.html",
+      "source": "tickerreport.com",
+      "publishedAt": "2026-10-16T20:45:00Z",
+      "fetchedAt": "2026-10-16T21:16:58.911Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13622787/shipping-stocks-to-add-to-your-watchlist-october-16th.html"
+    },
     {
       "id": "5bedc1849cc92e6b",
       "category": "能源与航运",
@@ -169,34 +479,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.themarketsdaily.com/2026/10/16/financial-comparison-helmerich-oil-states-international-nyseois.html"
-    },
-    {
-      "id": "b54f256272d1e137",
-      "category": "全球与地区",
-      "title": "PM offers Scotland more powers in bid to move past old politics of conflict",
-      "url": "https://www.kidderminstershuttle.co.uk/news/national/26643800.pm-offers-scotland-powers-bid-move-past-old-politics-conflict/",
-      "source": "kidderminstershuttle.co.uk",
-      "publishedAt": "2026-10-16T16:45:00Z",
-      "fetchedAt": "2026-10-16T17:29:14.747Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kidderminstershuttle.co.uk/news/national/26643800.pm-offers-scotland-powers-bid-move-past-old-politics-conflict/"
     },
     {
       "id": "9655095d69bc010b",
@@ -1174,38 +1456,6 @@
       "provenanceUrl": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963"
     },
     {
-      "id": "554417b35c7dc296",
-      "category": "科技与产业",
-      "title": "Biotech and Pharma Industry News | BioPharma Dive",
-      "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
-      "source": "biopharmadive.com",
-      "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-10T01:46:53.150Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc"
-    },
-    {
       "id": "2b649394b56c9d1c",
       "category": "能源与航运",
       "title": "G7 to release diesel , oil reserves as fuel prices surge",
@@ -1429,261 +1679,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.prokerala.com/news/articles/a1819503.html"
-    },
-    {
-      "id": "9265a772d2ab4af8",
-      "category": "全球与地区",
-      "title": "US Targets Russia A7 Network In New Iran Sanctions Push",
-      "url": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push",
-      "source": "orlandoecho.com",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T17:39:46.252Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.orlandoecho.com/news/279347339/us-targets-russia-a7-network-in-new-iran-sanctions-push"
-    },
-    {
-      "id": "490a2c2a0eb7cbce",
-      "category": "金属与资源",
-      "title": "Gold , silver prices see hike in Pakistan - Oct 2 , 2026",
-      "url": "https://www.samaa.tv/2087357799-gold-silver-prices-see-hike-in-pakistan-oct-2-2026",
-      "source": "samaa.tv",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.samaa.tv/2087357799-gold-silver-prices-see-hike-in-pakistan-oct-2-2026"
-    },
-    {
-      "id": "99bc5bb48891c402",
-      "category": "能源与航运",
-      "title": "BRICS talks energy resilience . Time to make it real",
-      "url": "http://www.orlandoecho.com/news/279347171/brics-talks-energy-resilience-time-to-make-it-real",
-      "source": "orlandoecho.com",
-      "publishedAt": "2026-10-02T10:45:00Z",
-      "fetchedAt": "2026-10-04T13:15:34.135Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.orlandoecho.com/news/279347171/brics-talks-energy-resilience-time-to-make-it-real"
-    },
-    {
-      "id": "1f9ed173548f9d56",
-      "category": "金属与资源",
-      "title": "Court - Ordered study for the Donlin Gold Mine in Alaska shows devastation from a tailings spill but agencies have more to do",
-      "url": "https://deltadiscovery.com/court-ordered-study-for-the-donlin-gold-mine-in-alaska-shows-devastation-from-a-tailings-spill-but-agencies-have-more-to-do/",
-      "source": "deltadiscovery.com",
-      "publishedAt": "2026-09-30T19:00:00Z",
-      "fetchedAt": "2026-09-30T19:26:04.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://deltadiscovery.com/court-ordered-study-for-the-donlin-gold-mine-in-alaska-shows-devastation-from-a-tailings-spill-but-agencies-have-more-to-do/"
-    },
-    {
-      "id": "80210ae6a7e578e3",
-      "category": "全球与地区",
-      "title": "US removes Syria from arms export ban in latest ease of sanctions",
-      "url": "https://www.sandiegouniontribune.com/2026/09/30/us-removes-syria-arms-export-ban/",
-      "source": "sandiegouniontribune.com",
-      "publishedAt": "2026-09-30T19:00:00Z",
-      "fetchedAt": "2026-09-30T19:26:04.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sandiegouniontribune.com/2026/09/30/us-removes-syria-arms-export-ban/"
-    },
-    {
-      "id": "5fee3e834be633e8",
-      "category": "全球与地区",
-      "title": "Cabinet clears green hydrogen policy , sanctions Rs 62 cr for police vehicles",
-      "url": "https://timesofindia.indiatimes.com/city/patna/cabinet-clears-green-hydrogen-policy-sanctions-rs-62-cr-for-police-vehicles/articleshow/134600547.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-09-30T19:00:00Z",
-      "fetchedAt": "2026-09-30T19:26:04.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/city/patna/cabinet-clears-green-hydrogen-policy-sanctions-rs-62-cr-for-police-vehicles/articleshow/134600547.cms"
-    },
-    {
-      "id": "e6e443f7a0cb9594",
-      "category": "金属与资源",
-      "title": "Fairplay Ventures Inc . Enters Into Definitive Agreement to Complete Qualifying Transaction With Ampere Metals Pty . Limited",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69722354-fairplay-ventures-inc-enters-into-definitive-agreement-to-complete-qualifying-transaction-with-ampere-metals-pty-limited-200.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-09-30T19:00:00Z",
-      "fetchedAt": "2026-09-30T19:26:04.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-09/69722354-fairplay-ventures-inc-enters-into-definitive-agreement-to-complete-qualifying-transaction-with-ampere-metals-pty-limited-200.htm"
-    },
-    {
-      "id": "0e4a422987044dc5",
-      "category": "科技与产业",
-      "title": "La nueva era del sector logístico : robots que hablan con operarios y máquinas que automatizan tareas",
-      "url": "https://www.20minutos.es/tecnologia/tecnologia-empresas/nueva-era-sector-logistico-robots-hablan-operarios-maquinas-automatizan-tareas_7043295_0.html",
-      "source": "20minutos.es",
-      "publishedAt": "2026-09-30T19:00:00Z",
-      "fetchedAt": "2026-09-30T19:26:04.766Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Spain"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.20minutos.es/tecnologia/tecnologia-empresas/nueva-era-sector-logistico-robots-hablan-operarios-maquinas-automatizan-tareas_7043295_0.html"
     }
   ]
 }
