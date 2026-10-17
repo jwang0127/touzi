@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-17T13:46:40.140Z",
-  "newsUpdatedAt": "2026-10-17T13:46:40.140Z",
-  "assetsUpdatedAt": "2026-10-17T13:46:40.140Z",
+  "generatedAt": "2026-10-17T17:16:03.202Z",
+  "newsUpdatedAt": "2026-10-17T17:16:03.202Z",
+  "assetsUpdatedAt": "2026-10-17T17:16:03.202Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,261 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81388,
-      "changePercent": -0.5251873151106551,
+      "price": 81184,
+      "changePercent": 0.25577745533659,
       "unit": "USD",
-      "asOf": "2026-10-17T13:46:36.000Z",
+      "asOf": "2026-10-17T17:16:19.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "417f291b49b6aa9f",
+      "category": "全球与地区",
+      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "url": "https://www.kuow.org/npr-news/2026-10-17/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold",
+      "source": "kuow.org",
+      "publishedAt": "2026-10-17T16:45:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kuow.org/npr-news/2026-10-17/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold"
+    },
+    {
+      "id": "bb5fb9ad96f9c147",
+      "category": "科技与产业",
+      "title": "Feds Investigating Tesla Cybercab Robotaxis For Speeding In School Zones",
+      "url": "https://carbuzz.com/feds-investigate-tesla-cybercab-robotaxis-school-zone-speeding/",
+      "source": "carbuzz.com",
+      "publishedAt": "2026-10-17T16:45:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://carbuzz.com/feds-investigate-tesla-cybercab-robotaxis-school-zone-speeding/"
+    },
+    {
+      "id": "8e37d02637f9ece3",
+      "category": "科技与产业",
+      "title": "From Forest Trails to Wildlife Habitats : A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition",
+      "url": "https://www.thewhig.com/press-releases/newsfile/from-forest-trails-to-wildlife-habitats-a-robot-dog-of-deep-robotics-joins-a-mountain-research-expedition/",
+      "source": "thewhig.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thewhig.com/press-releases/newsfile/from-forest-trails-to-wildlife-habitats-a-robot-dog-of-deep-robotics-joins-a-mountain-research-expedition/"
+    },
+    {
+      "id": "67c511b0a93045cd",
+      "category": "全球与地区",
+      "title": "Zelenskyy urges support for U . S . sanction against Russia",
+      "url": "https://www.klif.com/2026/10/17/zelenskyy-urges-support-for-u-s-sanction-against-russia/",
+      "source": "klif.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.klif.com/2026/10/17/zelenskyy-urges-support-for-u-s-sanction-against-russia/"
+    },
+    {
+      "id": "5996266da5416f8f",
+      "category": "能源与航运",
+      "title": "ECB may raise rates by 50 bps by mid - 2027 as energy prices fuel inflation : Report",
+      "url": "http://www.caribbeanherald.com/news/279381031/ecb-may-raise-rates-by-50-bps-by-mid-2027-as-energy-prices-fuel-inflation-report",
+      "source": "caribbeanherald.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.caribbeanherald.com/news/279381031/ecb-may-raise-rates-by-50-bps-by-mid-2027-as-energy-prices-fuel-inflation-report"
+    },
+    {
+      "id": "fec2e5c3ffaf8a82",
+      "category": "全球与地区",
+      "title": "Iran - US conflict raises threats to global shipping",
+      "url": "http://www.ohiostandard.com/news/279377132/iran-us-conflict-raises-threats-to-global-shipping",
+      "source": "ohiostandard.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.ohiostandard.com/news/279377132/iran-us-conflict-raises-threats-to-global-shipping"
+    },
+    {
+      "id": "e99f9a4dc52230fa",
+      "category": "全球与地区",
+      "title": "Zelenskyy urges support for new US sanctions on Russia",
+      "url": "https://www.wlwt.com/article/zelenskyy-support-new-us-sanctions-russia-trump-hold/74166472",
+      "source": "wlwt.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wlwt.com/article/zelenskyy-support-new-us-sanctions-russia-trump-hold/74166472"
+    },
+    {
+      "id": "c32449fcc8df7734",
+      "category": "全球与地区",
+      "title": "Cuba Geopolitics : US , Russia , China and EU in 2026",
+      "url": "https://www.riotimesonline.com/cuba-geopolitics-explained-2026/",
+      "source": "riotimesonline.com",
+      "publishedAt": "2026-10-17T16:30:00Z",
+      "fetchedAt": "2026-10-17T17:16:03.202Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.riotimesonline.com/cuba-geopolitics-explained-2026/"
+    },
     {
       "id": "fa36428573c28689",
       "category": "全球与地区",
@@ -1412,269 +1659,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.businesstoday.in/markets/story/gold-eyes-sharp-recovery-can-mcx-prices-hit-rs-1-5-lakh-vandana-bharti-explains-561889-2026-10-15"
-    },
-    {
-      "id": "638b47fa105b3f4c",
-      "category": "科技与产业",
-      "title": "Stock market today : S & P 500 , Nasdaq futures slip as semiconductor sell - off continues",
-      "url": "https://www.aol.com/articles/stock-market-today-p-500-122056000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "fetchedAt": "2026-10-15T13:29:09.003Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/stock-market-today-p-500-122056000.html"
-    },
-    {
-      "id": "b211529bd56305c2",
-      "category": "能源与航运",
-      "title": "Exclusive Interview : Trump says Iran war will end soon , oil prices will drop fast",
-      "url": "https://fox56.com/news/nation-world/exclusive-interview-trump-says-iran-war-will-end-soon-oil-prices-will-drop-fast",
-      "source": "fox56.com",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "fetchedAt": "2026-10-15T13:29:09.003Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://fox56.com/news/nation-world/exclusive-interview-trump-says-iran-war-will-end-soon-oil-prices-will-drop-fast"
-    },
-    {
-      "id": "a052d686cd94957a",
-      "category": "能源与航运",
-      "title": "Escalation Of Attacks Threatens To Derail Recovery In Middle East Oil Exports : IEA",
-      "url": "https://www.rttnews.com/story.aspx?Id=3699344",
-      "source": "rttnews.com",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "fetchedAt": "2026-10-15T13:29:09.003Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rttnews.com/story.aspx?Id=3699344"
-    },
-    {
-      "id": "3cedf2f31a7488a2",
-      "category": "全球与地区",
-      "title": "EU proposes delay to methane rules for oil and gas imports | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/eu-proposes-delay-to-methane-rules-for-oil-and-gas-imports/",
-      "source": "hellenicshippingnews.com",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "fetchedAt": "2026-10-15T13:29:09.003Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.hellenicshippingnews.com/eu-proposes-delay-to-methane-rules-for-oil-and-gas-imports/"
-    },
-    {
-      "id": "217e6a3c2e22af69",
-      "category": "能源与航运",
-      "title": "Ukraine resumes attacks on Russian oil refineries , officials say , after brief truce",
-      "url": "https://www.wapt.com/article/zelensky-ukraine-resume-strikes-russian-refineries/74142152",
-      "source": "wapt.com",
-      "publishedAt": "2026-10-15T13:00:00Z",
-      "fetchedAt": "2026-10-15T13:29:09.003Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wapt.com/article/zelensky-ukraine-resume-strikes-russian-refineries/74142152"
-    },
-    {
-      "id": "c3f60f3be6ecef49",
-      "category": "能源与航运",
-      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms"
-    },
-    {
-      "id": "5a828408459592ab",
-      "category": "金属与资源",
-      "title": "I would lift gas cylinders , heavy weights : Manipur powerlifter Maibam Gulubi recalls early days after winning Gold medal in Asian Bench Press Championships",
-      "url": "http://www.pakistantelegraph.com/news/279363166/i-would-lift-gas-cylinders-heavy-weights-manipur-powerlifter-maibam-gulubi-recalls-early-days-after-winning-gold-medal-in-asian-bench-press-championships",
-      "source": "pakistantelegraph.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.pakistantelegraph.com/news/279363166/i-would-lift-gas-cylinders-heavy-weights-manipur-powerlifter-maibam-gulubi-recalls-early-days-after-winning-gold-medal-in-asian-bench-press-championships"
-    },
-    {
-      "id": "eb9113fbbdbeba85",
-      "category": "全球与地区",
-      "title": "Trump says ICC sanctions aimed at defending Netanyahu and others",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
-      "source": "middleeasteye.net",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others"
     }
   ]
 }
