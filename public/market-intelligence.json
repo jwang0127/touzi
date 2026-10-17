@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-17T04:35:48.259Z",
-  "newsUpdatedAt": "2026-10-16T23:42:04.619Z",
-  "assetsUpdatedAt": "2026-10-17T04:35:48.259Z",
+  "generatedAt": "2026-10-17T09:27:02.390Z",
+  "newsUpdatedAt": "2026-10-17T09:27:02.390Z",
+  "assetsUpdatedAt": "2026-10-17T09:27:02.390Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,334 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81444,
-      "changePercent": -0.6600603275643033,
+      "price": 81585,
+      "changePercent": -0.6213130732980651,
       "unit": "USD",
-      "asOf": "2026-10-17T04:35:40.000Z",
+      "asOf": "2026-10-17T09:27:42.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "8e7cead0102cbb40",
+      "category": "能源与航运",
+      "title": "US seeks end to World Bank oil , gas financing restrictions , calls for energy policy overhaul : Treasury Secy Scott Bessent",
+      "url": "http://www.britainnews.net/news/279380651/us-seeks-end-to-world-bank-oil-gas-financing-restrictions-calls-for-energy-policy-overhaul-treasury-secy-scott-bessent",
+      "source": "britainnews.net",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.britainnews.net/news/279380651/us-seeks-end-to-world-bank-oil-gas-financing-restrictions-calls-for-energy-policy-overhaul-treasury-secy-scott-bessent"
+    },
+    {
+      "id": "abb19daef302fc07",
+      "category": "金属与资源",
+      "title": "RFL Academy Teams Win Gold and Two Silvers at WRO Asia Pacific Open Championship 2026",
+      "url": "http://www.batonrougepost.com/news/279380653/rfl-academy-teams-win-gold-and-two-silvers-at-wro-asia-pacific-open-championship-2026",
+      "source": "batonrougepost.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.batonrougepost.com/news/279380653/rfl-academy-teams-win-gold-and-two-silvers-at-wro-asia-pacific-open-championship-2026"
+    },
+    {
+      "id": "cd11ab80630f32df",
+      "category": "全球与地区",
+      "title": "Trump waives Russian sanctions as US - Ukraine relationship frays",
+      "url": "https://www.london-now.co.uk/news/national/26645728.trump-waives-russian-sanctions-us-ukraine-relationship-frays/",
+      "source": "london-now.co.uk",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.london-now.co.uk/news/national/26645728.trump-waives-russian-sanctions-us-ukraine-relationship-frays/"
+    },
+    {
+      "id": "615af27fd9493585",
+      "category": "金属与资源",
+      "title": "AzerGold QSC 6 - cı Rebuild Garabagh sərgisində təmsil olunub ( FOTO / VİDEO )",
+      "url": "https://az.trend.az/business/4236015.html",
+      "source": "az.trend.az",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Azerbaijan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://az.trend.az/business/4236015.html"
+    },
+    {
+      "id": "ed4b317caf37f1f6",
+      "category": "全球与地区",
+      "title": "Trump Waives New Sanctions Against Russia",
+      "url": "https://woc1420.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/",
+      "source": "woc1420.iheart.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://woc1420.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/"
+    },
+    {
+      "id": "6448d16ae2dbd1e9",
+      "category": "全球与地区",
+      "title": "Trump Waives Graham Act Sanctions On Russia Before They Take Effect",
+      "url": "http://www.batonrougepost.com/news/279380721/trump-waives-graham-act-sanctions-on-russia-before-they-take-effect",
+      "source": "batonrougepost.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.batonrougepost.com/news/279380721/trump-waives-graham-act-sanctions-on-russia-before-they-take-effect"
+    },
+    {
+      "id": "dee3aa3e44aaef61",
+      "category": "全球与地区",
+      "title": "Azerbaijan Announces Russian Gas Purchases Despite Sanctions",
+      "url": "https://www.kyivpost.com/post/87343",
+      "source": "kyivpost.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Ukraine"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kyivpost.com/post/87343"
+    },
+    {
+      "id": "754f4616ecdfc1ad",
+      "category": "能源与航运",
+      "title": "Fort Washington Investment Advisors Inc . OH Purchases New Holdings in iShares U . S . Energy ETF $IYE",
+      "url": "https://www.dailypolitical.com/2026/10/17/fort-washington-investment-advisors-inc-oh-purchases-new-holdings-in-ishares-u-s-energy-etf-iye.html",
+      "source": "dailypolitical.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailypolitical.com/2026/10/17/fort-washington-investment-advisors-inc-oh-purchases-new-holdings-in-ishares-u-s-energy-etf-iye.html"
+    },
+    {
+      "id": "d05da78de78a348b",
+      "category": "全球与地区",
+      "title": "Trump Waives New Sanctions Against Russia | WJBO Newsradio 1150 AM & 98 . 7 FM",
+      "url": "https://wjbo.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/",
+      "source": "wjbo.iheart.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wjbo.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/"
+    },
+    {
+      "id": "11a050ea554be33d",
+      "category": "全球与地区",
+      "title": "Trump Waives Russia Sanctions Bill Threatening 100 % Tariffs On India ; How Will It Benefit New Delhi ?",
+      "url": "https://www.newsx.com/india/trump-waives-russia-sanctions-bill-threatening-100-tariffs-on-india-how-will-it-benefit-new-delhi-284342/",
+      "source": "newsx.com",
+      "publishedAt": "2026-10-17T08:15:00Z",
+      "fetchedAt": "2026-10-17T09:27:02.390Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newsx.com/india/trump-waives-russia-sanctions-bill-threatening-100-tariffs-on-india-how-will-it-benefit-new-delhi-284342/"
+    },
     {
       "id": "87c262b47bc5034d",
       "category": "科技与产业",
@@ -1367,330 +1685,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report"
-    },
-    {
-      "id": "feed6c4d2527543a",
-      "category": "能源与航运",
-      "title": "Putin says Russian oil supplies to US will",
-      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
-      "source": "timesofoman.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Oman"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call"
-    },
-    {
-      "id": "e2bb65e2c8aeef48",
-      "category": "能源与航运",
-      "title": "BP Plans Bid Under Investment - friendly India Oil & Gas Policy : Meg ONeill",
-      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms"
-    },
-    {
-      "id": "d7cba682c39b9fd5",
-      "category": "金属与资源",
-      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
-      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
-      "source": "focus.de",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html"
-    },
-    {
-      "id": "dc2f8b769b31d432",
-      "category": "能源与航运",
-      "title": "Sigenergy Unveils the Latest Energy Solutions at Malaysia IGEM 2026",
-      "url": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/",
-      "source": "intelligencer.ca",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/"
-    },
-    {
-      "id": "de4dc4ed3c2e4a27",
-      "category": "全球与地区",
-      "title": "Mediawaakhond wil ON ! opnieuw sanctioneren na Hitler - uitzend",
-      "url": "https://nieuws.nl/entertainment/mediawaakhond-wil-on-weer-sanctie-opleggen-na-hitler-uitzending",
-      "source": "nieuws.nl",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Netherlands"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://nieuws.nl/entertainment/mediawaakhond-wil-on-weer-sanctie-opleggen-na-hitler-uitzending"
-    },
-    {
-      "id": "66bfda639264731f",
-      "category": "能源与航运",
-      "title": "Data centre market faces energy challenges",
-      "url": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html",
-      "source": "vietnamnews.vn",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html"
-    },
-    {
-      "id": "9f4ec734579c05b9",
-      "category": "能源与航运",
-      "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
-      "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
-      "source": "freepressjournal.in",
-      "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-10T01:46:53.150Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes"
-    },
-    {
-      "id": "e39bbe44fe2c321b",
-      "category": "全球与地区",
-      "title": "Attacks by Houthis on Saudi airports highlight widening fallout from Yemen conflict",
-      "url": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963",
-      "source": "wjcl.com",
-      "publishedAt": "2026-10-08T05:30:00Z",
-      "fetchedAt": "2026-10-10T01:46:53.150Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wjcl.com/article/deadly-attacks-houthis-saudi-airports-yemen-conflict/74070963"
-    },
-    {
-      "id": "2b649394b56c9d1c",
-      "category": "能源与航运",
-      "title": "G7 to release diesel , oil reserves as fuel prices surge",
-      "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
-      "source": "utahindependent.com",
-      "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-10T01:46:53.150Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge"
-    },
-    {
-      "id": "e18962bfe1ef441b",
-      "category": "能源与航运",
-      "title": "Editorial : As election nears , Healey suddenly peddling natural gas – Lowell Sun",
-      "url": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/",
-      "source": "lowellsun.com",
-      "publishedAt": "2026-10-06T08:30:00Z",
-      "fetchedAt": "2026-10-10T01:46:53.150Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.lowellsun.com/2026/10/06/editorial-as-election-nears-healeys-suddenly-peddling-natural-gas/"
     }
   ]
 }
