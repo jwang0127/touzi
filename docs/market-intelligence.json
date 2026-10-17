@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-17T09:27:02.390Z",
-  "newsUpdatedAt": "2026-10-17T09:27:02.390Z",
-  "assetsUpdatedAt": "2026-10-17T09:27:02.390Z",
+  "generatedAt": "2026-10-17T13:46:40.140Z",
+  "newsUpdatedAt": "2026-10-17T13:46:40.140Z",
+  "assetsUpdatedAt": "2026-10-17T13:46:40.140Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,108 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81585,
-      "changePercent": -0.6213130732980651,
+      "price": 81388,
+      "changePercent": -0.5251873151106551,
       "unit": "USD",
-      "asOf": "2026-10-17T09:27:42.000Z",
+      "asOf": "2026-10-17T13:46:36.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "fa36428573c28689",
+      "category": "全球与地区",
+      "title": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.wapt.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "source": "wapt.com",
+      "publishedAt": "2026-10-17T13:00:00Z",
+      "fetchedAt": "2026-10-17T13:46:40.140Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wapt.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352"
+    },
+    {
+      "id": "a31f67b22c761c23",
+      "category": "能源与航运",
+      "title": "Trump a suspendat noile sancțiuni împotriva Rusiei , adoptate de Congres . Kremlinul jubilează",
+      "url": "https://adevarul.ro/stiri-externe/in-lume/trump-a-suspendat-noile-sanctiuni-impotriva-2564666.html",
+      "source": "adevarul.ro",
+      "publishedAt": "2026-10-17T13:00:00Z",
+      "fetchedAt": "2026-10-17T13:46:40.140Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://adevarul.ro/stiri-externe/in-lume/trump-a-suspendat-noile-sanctiuni-impotriva-2564666.html"
+    },
+    {
+      "id": "b3fcc392230e4e0d",
+      "category": "全球与地区",
+      "title": "Trump pauses new Russia sanctions , citing national interest",
+      "url": "https://wcti12.com/news/local/trump-pauses-new-russia-sanctions-citing-national-interest",
+      "source": "wcti12.com",
+      "publishedAt": "2026-10-17T13:00:00Z",
+      "fetchedAt": "2026-10-17T13:46:40.140Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wcti12.com/news/local/trump-pauses-new-russia-sanctions-citing-national-interest"
+    },
     {
       "id": "8e7cead0102cbb40",
       "category": "能源与航运",
@@ -1585,106 +1675,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others"
-    },
-    {
-      "id": "4ff6e4b0ddb27e2e",
-      "category": "能源与航运",
-      "title": "RBI steps up rupee support , opens dollar window for oil companies",
-      "url": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-rupee-support-opens-dollar-window-for-oil-companies/article71567043.ece"
-    },
-    {
-      "id": "f66a533b2a288705",
-      "category": "金属与资源",
-      "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
-      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
-      "source": "livehindustan.com",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html"
-    },
-    {
-      "id": "057afd4252a2c39b",
-      "category": "能源与航运",
-      "title": "Increased vessel attacks drive Hormuz oil exports sharply lower , report says",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report",
-      "source": "middleeasteye.net",
-      "publishedAt": "2026-10-10T06:45:00Z",
-      "fetchedAt": "2026-10-14T13:47:15.180Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Israel"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/increased-vessel-attacks-drive-hormuz-oil-exports-sharply-lower-report"
     }
   ]
 }
