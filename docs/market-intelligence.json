@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-18T18:10:33.021Z",
-  "newsUpdatedAt": "2026-10-18T01:08:03.545Z",
-  "assetsUpdatedAt": "2026-10-18T18:10:33.021Z",
+  "generatedAt": "2026-10-18T20:50:51.119Z",
+  "newsUpdatedAt": "2026-10-18T20:50:51.119Z",
+  "assetsUpdatedAt": "2026-10-18T20:50:51.119Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 101.85,
-      "changePercent": 3.96,
+      "price": 99.07,
+      "changePercent": 2.67,
       "unit": "USD",
-      "asOf": "2026-10-17T04:59:58-04:00",
+      "asOf": "2026-10-17T04:59:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,210 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81134,
-      "changePercent": -0.3460213540906845,
+      "price": 80857,
+      "changePercent": -0.8429034133711042,
       "unit": "USD",
-      "asOf": "2026-10-18T18:10:09.000Z",
+      "asOf": "2026-10-18T20:51:07.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1f180322bbe80b0a",
+      "category": "金属与资源",
+      "title": "Leigh Hoffman wins second silver at UCI Track World Championships , Harrie Lavreysen wins 23rd world title - 19 - Oct - 2026",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=456230&fm=psp,tst",
+      "source": "home.nzcity.co.nz",
+      "publishedAt": "2026-10-18T19:30:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "New Zealand"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=456230&fm=psp,tst"
+    },
+    {
+      "id": "cb0be3ecfd2995ae",
+      "category": "金属与资源",
+      "title": "Duarte da Silva : Ghana bought Africa shadow gold . SA wants to jail ..",
+      "url": "https://www.biznews.com/gold/duarte-da-silva-ghana-bought-africas-shadow-gold-sa-wants-to-jail-the-man-who-digs-it",
+      "source": "biznews.com",
+      "publishedAt": "2026-10-18T19:30:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.biznews.com/gold/duarte-da-silva-ghana-bought-africas-shadow-gold-sa-wants-to-jail-the-man-who-digs-it"
+    },
+    {
+      "id": "c10417c9e10a6860",
+      "category": "能源与航运",
+      "title": "Ukraine sends waves of drones at Russian oil facilities",
+      "url": "https://www.bendigoadvertiser.com.au/story/9370675/ukraine-sends-waves-of-drones-at-russian-oil-facilities/",
+      "source": "bendigoadvertiser.com.au",
+      "publishedAt": "2026-10-18T19:30:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bendigoadvertiser.com.au/story/9370675/ukraine-sends-waves-of-drones-at-russian-oil-facilities/"
+    },
+    {
+      "id": "42c550d2f0e16105",
+      "category": "能源与航运",
+      "title": "St . Petersburg oil facilities ablaze",
+      "url": "https://www.chicagotribune.com/2026/10/18/st-petersburg-oil-facilities-attacked/",
+      "source": "chicagotribune.com",
+      "publishedAt": "2026-10-18T19:15:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chicagotribune.com/2026/10/18/st-petersburg-oil-facilities-attacked/"
+    },
+    {
+      "id": "3245bfced10f571a",
+      "category": "全球与地区",
+      "title": "US Treasury chief Bessent says no one has been tougher on Russian sanctions than Trump",
+      "url": "https://news.webindia123.com/news/Articles/World/20261018/4512524.html",
+      "source": "news.webindia123.com",
+      "publishedAt": "2026-10-18T19:15:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20261018/4512524.html"
+    },
+    {
+      "id": "1579c90df250c69e",
+      "category": "全球与地区",
+      "title": "We asked European allies to put secondary tariffs on India and China for buying Russian oil , they refused : Scott Bessent",
+      "url": "http://www.shanghaisun.com/news/279383190/we-asked-european-allies-to-put-secondary-tariffs-on-india-and-china-for-buying-russian-oil-they-refused-scott-bessent",
+      "source": "shanghaisun.com",
+      "publishedAt": "2026-10-18T19:15:00Z",
+      "fetchedAt": "2026-10-18T20:50:51.119Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.shanghaisun.com/news/279383190/we-asked-european-allies-to-put-secondary-tariffs-on-india-and-china-for-buying-russian-oil-they-refused-scott-bessent"
+    },
     {
       "id": "d7a18bf309743230",
       "category": "能源与航运",
@@ -1471,189 +1665,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://nbc16.com/news/douglas-county-oregon/douglas-county-sheriff-offers-support-after-incident-at-bends-silver-rail-elementary"
-    },
-    {
-      "id": "75a15b53ea580a59",
-      "category": "全球与地区",
-      "title": "Shipping Stocks To Add to Your Watchlist – October 16th",
-      "url": "https://www.tickerreport.com/banking-finance/13622787/shipping-stocks-to-add-to-your-watchlist-october-16th.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13622787/shipping-stocks-to-add-to-your-watchlist-october-16th.html"
-    },
-    {
-      "id": "5bedc1849cc92e6b",
-      "category": "能源与航运",
-      "title": "Financial Comparison : Helmerich & Payne ( NYSE : HP ) & Oil States International ( NYSE : OIS )",
-      "url": "https://www.themarketsdaily.com/2026/10/16/financial-comparison-helmerich-oil-states-international-nyseois.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-10-16T16:45:00Z",
-      "fetchedAt": "2026-10-16T17:29:14.747Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/10/16/financial-comparison-helmerich-oil-states-international-nyseois.html"
-    },
-    {
-      "id": "9655095d69bc010b",
-      "category": "科技与产业",
-      "title": "Grad Student Gabby Reina Earns Recognition for Advancing Medical Robotics and Maternal Safety",
-      "url": "http://readme.readmedia.com/Grad-Student-Gabby-Reina-Earns-Recognition-for-Advancing-Medical-Robotics-and-Maternal-Safety/merit-207201",
-      "source": "readme.readmedia.com",
-      "publishedAt": "2026-10-16T16:45:00Z",
-      "fetchedAt": "2026-10-16T17:29:14.747Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://readme.readmedia.com/Grad-Student-Gabby-Reina-Earns-Recognition-for-Advancing-Medical-Robotics-and-Maternal-Safety/merit-207201"
-    },
-    {
-      "id": "e02ca48e093e97b8",
-      "category": "科技与产业",
-      "title": "No es ciencia ficción : China desarrolla robots autónomos tipo manada de lobos para la guerra",
-      "url": "https://www.canal26.com/internacionales/2026/10/16/no-es-ciencia-ficcion-china-desarrolla-robots-autonomos-tipo-manada-de-lobos-para-la-guerra/",
-      "source": "canal26.com",
-      "publishedAt": "2026-10-16T16:45:00Z",
-      "fetchedAt": "2026-10-16T17:29:14.747Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.canal26.com/internacionales/2026/10/16/no-es-ciencia-ficcion-china-desarrolla-robots-autonomos-tipo-manada-de-lobos-para-la-guerra/"
-    },
-    {
-      "id": "e61467e8aa793dc3",
-      "category": "数字资产",
-      "title": "Not Bitcoin . Not Ethereum . These 4 Cryptocurrencies Could Be Worth Holding for the Next 5 Years .",
-      "url": "https://www.fool.com/investing/2026/10/16/not-bitcoin-not-ethereum-these-4-cryptocurrencies/",
-      "source": "fool.com",
-      "publishedAt": "2026-10-16T11:45:00Z",
-      "fetchedAt": "2026-10-16T12:32:26.543Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.fool.com/investing/2026/10/16/not-bitcoin-not-ethereum-these-4-cryptocurrencies/"
-    },
-    {
-      "id": "6d10efd3dcc5e1f1",
-      "category": "金属与资源",
-      "title": "Gold - Silver Prices : 2 , 037 रुपए महंगी हुई चांदी , इतने बढ़ गए हैं सोने के दाम",
-      "url": "https://www.samacharjagat.com/news/gold-silver-prices-2037-rapae-mahaga-haii-catha-itana-b-gae-ha-sana-ka-thama-1792141634",
-      "source": "samacharjagat.com",
-      "publishedAt": "2026-10-16T11:30:00Z",
-      "fetchedAt": "2026-10-16T12:32:26.543Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.samacharjagat.com/news/gold-silver-prices-2037-rapae-mahaga-haii-catha-itana-b-gae-ha-sana-ka-thama-1792141634"
     }
   ]
 }
