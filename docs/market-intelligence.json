@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-18T23:18:35.468Z",
-  "newsUpdatedAt": "2026-10-18T20:50:51.119Z",
-  "assetsUpdatedAt": "2026-10-18T23:18:35.468Z",
+  "generatedAt": "2026-10-19T04:49:18.497Z",
+  "newsUpdatedAt": "2026-10-19T04:49:18.497Z",
+  "assetsUpdatedAt": "2026-10-19T04:49:18.497Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：HTTP 429"
+      "GDELT：fetch failed"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3716.28,
-      "changePercent": 0.24,
+      "price": 3722.2,
+      "changePercent": 0.16,
       "unit": "CNY",
-      "asOf": "2026-10-16T16:15:00+08:00",
+      "asOf": "2026-10-19T12:05:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11802.46,
-      "changePercent": -0.12,
+      "price": 11781.32,
+      "changePercent": -0.18,
       "unit": "CNY",
-      "asOf": "2026-10-16T16:14:39+08:00",
+      "asOf": "2026-10-19T12:05:30+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4197.64,
-      "changePercent": 0.4,
+      "price": 4201.96,
+      "changePercent": 0.5,
       "unit": "USD",
-      "asOf": "2026-10-19T07:19:04-04:00",
+      "asOf": "2026-10-19T12:50:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 98.11,
-      "changePercent": -0.92,
+      "price": 97.41,
+      "changePercent": -1.63,
       "unit": "USD",
-      "asOf": "2026-10-19T07:19:04-04:00",
+      "asOf": "2026-10-19T12:50:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 657.09,
-      "changePercent": -0.04,
+      "price": 661.93,
+      "changePercent": 0.7,
       "unit": "USD",
-      "asOf": "2026-10-19T07:16:02-04:00",
+      "asOf": "2026-10-19T12:49:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,203 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81649,
-      "changePercent": 0.4357495214837202,
+      "price": 82732,
+      "changePercent": 1.2297386873025542,
       "unit": "USD",
-      "asOf": "2026-10-18T23:18:20.000Z",
+      "asOf": "2026-10-19T04:49:30.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "f0c6cd5de0a4292d",
+      "category": "A股与政策",
+      "title": "A股估值性价比改善 建议均衡配置应对市场波动 - 股票频道 - 和讯网",
+      "url": "https://stock.hexun.com/2026-10-19/225135458.html",
+      "source": "stock.hexun.com",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135458.html"
+    },
+    {
+      "id": "c8680c542f8fe65c",
+      "category": "科技与产业",
+      "title": "Allengra caută angajați la Oradea . Sunt disponibile joburi în inginerie , robotică și producție",
+      "url": "https://www.bihon.ro/stirile-judetului-bihor/allengra-cauta-angajati-la-oradea-sunt-disponibile-joburi-in-inginerie-robotica-si-productie-5432619/",
+      "source": "bihon.ro",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Romania"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bihon.ro/stirile-judetului-bihor/allengra-cauta-angajati-la-oradea-sunt-disponibile-joburi-in-inginerie-robotica-si-productie-5432619/"
+    },
+    {
+      "id": "8a6a9e430196f2cb",
+      "category": "全球与地区",
+      "title": "Oil slips as Trump sanction waiver may lead to more Russian fuel supplies",
+      "url": "https://www.asiaone.com:443/money/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies",
+      "source": "asiaone.com",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Singapore"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.asiaone.com:443/money/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies"
+    },
+    {
+      "id": "1b1c1e3df652f1a3",
+      "category": "A股与政策",
+      "title": "AI与涨价双轮驱动 逾130家A股公司三季报预喜 - 股票频道 - 和讯网",
+      "url": "https://stock.hexun.com/2026-10-19/225135440.html",
+      "source": "stock.hexun.com",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135440.html"
+    },
+    {
+      "id": "1de5b2b54dcdff39",
+      "category": "A股与政策",
+      "title": "资金大举买入 ！ A股接近阶段性底部 ？- 股票频道 - 和讯网",
+      "url": "https://stock.hexun.com/2026-10-19/225135471.html",
+      "source": "stock.hexun.com",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135471.html"
+    },
+    {
+      "id": "4fe1a54e19fa6032",
+      "category": "金属与资源",
+      "title": "Great Southern uncovers new high - grade hits in WA gold hunt",
+      "url": "https://www.theage.com.au/business/companies/great-southern-uncovers-new-high-grade-hits-in-wa-gold-hunt-20261019-p616rk.html",
+      "source": "theage.com.au",
+      "publishedAt": "2026-10-19T04:15:00Z",
+      "fetchedAt": "2026-10-19T04:49:18.497Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theage.com.au/business/companies/great-southern-uncovers-new-high-grade-hits-in-wa-gold-hunt-20261019-p616rk.html"
+    },
     {
       "id": "1f180322bbe80b0a",
       "category": "金属与资源",
@@ -1478,193 +1665,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.larazon.es/actualidad/terreno-desconocido-nosotros-policia-califica-inedito-acoso-sexual-menor-mediante-robot-controlado-dos-jovenes-colonia-b50m_202610166ad2803fcfd4076f0c7d32d0.html"
-    },
-    {
-      "id": "803a49ba3266da48",
-      "category": "能源与航运",
-      "title": "Iran - backed Houthis strike Saudi oil company Aramco headquarters , officials say",
-      "url": "http://www.dhakacourier.com.bd/news/Global/Iran-backed-Houthis-strike-Saudi-oil-company-Aramco%E2%80%99s-headquarters-officials-say/10555",
-      "source": "dhakacourier.com.bd",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.dhakacourier.com.bd/news/Global/Iran-backed-Houthis-strike-Saudi-oil-company-Aramco%E2%80%99s-headquarters-officials-say/10555"
-    },
-    {
-      "id": "5a43eab91812a2b2",
-      "category": "数字资产",
-      "title": "Engineer Gets 32 Months for Bitcoin Extortion Plot Against His Own Employer",
-      "url": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792181860.f548e2105d112313",
-      "source": "decrypt.co",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://decrypt.co/380284/engineer-gets-32-months-for-bitcoin-extortion-plot-against-his-own-employer&t=engineer%20gets%2032%20months%20for%20bitcoin%20extortion%20plot%20against%20his%20own%20employer&fnp_t=1792181860.f548e2105d112313"
-    },
-    {
-      "id": "b6cee2621b0e0200",
-      "category": "数字资产",
-      "title": "Deutsche Bank to Launch Bitcoin and Ethereum Custody Service",
-      "url": "https://econotimes.com/Deutsche-Bank-to-Launch-Bitcoin-and-Ethereum-Custody-Service-1755616",
-      "source": "econotimes.com",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://econotimes.com/Deutsche-Bank-to-Launch-Bitcoin-and-Ethereum-Custody-Service-1755616"
-    },
-    {
-      "id": "64a00b03461dbea2",
-      "category": "能源与航运",
-      "title": "U . S . Oil Drillers Back Off Even As Prices Soar",
-      "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
-      "source": "oilprice.com",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html"
-    },
-    {
-      "id": "96a368091cdbc612",
-      "category": "科技与产业",
-      "title": "Biotech and Pharma Industry News | BioPharma Dive",
-      "url": "https://www.biopharmadive.com/?page=2&_sp=078b40ac-ddb4-4786-8a75-344873810d7e",
-      "source": "biopharmadive.com",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.biopharmadive.com/?page=2&_sp=078b40ac-ddb4-4786-8a75-344873810d7e"
-    },
-    {
-      "id": "60b963a0cd5e0378",
-      "category": "金属与资源",
-      "title": "Douglas County sheriff offers support after incident at Bend Silver Rail Elementary",
-      "url": "https://nbc16.com/news/douglas-county-oregon/douglas-county-sheriff-offers-support-after-incident-at-bends-silver-rail-elementary",
-      "source": "nbc16.com",
-      "publishedAt": "2026-10-16T20:45:00Z",
-      "fetchedAt": "2026-10-16T21:16:58.911Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://nbc16.com/news/douglas-county-oregon/douglas-county-sheriff-offers-support-after-incident-at-bends-silver-rail-elementary"
     }
   ]
 }
