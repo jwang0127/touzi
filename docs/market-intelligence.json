@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-19T22:25:04.915Z",
-  "newsUpdatedAt": "2026-10-19T22:25:04.915Z",
-  "assetsUpdatedAt": "2026-10-19T22:25:04.915Z",
+  "generatedAt": "2026-10-20T01:52:26.048Z",
+  "newsUpdatedAt": "2026-10-20T01:52:26.048Z",
+  "assetsUpdatedAt": "2026-10-20T01:52:26.048Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3730.92,
-      "changePercent": 0.39,
+      "price": 3722.52,
+      "changePercent": -0.23,
       "unit": "CNY",
-      "asOf": "2026-10-19T16:15:00+08:00",
+      "asOf": "2026-10-20T09:52:51+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11817.42,
-      "changePercent": 0.13,
+      "price": 11817.12,
+      "changePercent": 0,
       "unit": "CNY",
-      "asOf": "2026-10-19T16:14:30+08:00",
+      "asOf": "2026-10-20T09:52:48+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24186.83,
-      "changePercent": 0.52,
+      "price": 23946.43,
+      "changePercent": -0.99,
       "unit": "HKD",
-      "asOf": "2026-10-16T18:31:15+08:00",
+      "asOf": "2026-10-20T09:37:51+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8128.25,
-      "changePercent": 0.31,
+      "price": 8067.89,
+      "changePercent": -0.74,
       "unit": "HKD",
-      "asOf": "2026-10-16T16:08:38+08:00",
+      "asOf": "2026-10-20T09:37:50+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4159.47,
-      "changePercent": -0.02,
+      "price": 4145.42,
+      "changePercent": -0.35,
       "unit": "USD",
-      "asOf": "2026-10-20T06:25:56-04:00",
+      "asOf": "2026-10-20T09:52:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 98.14,
-      "changePercent": -0.4,
+      "price": 98.76,
+      "changePercent": 0.22,
       "unit": "USD",
-      "asOf": "2026-10-20T06:25:52-04:00",
+      "asOf": "2026-10-20T09:52:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 658.18,
-      "changePercent": 0.1,
+      "price": 654.62,
+      "changePercent": -0.45,
       "unit": "USD",
-      "asOf": "2026-10-20T06:21:05-04:00",
+      "asOf": "2026-10-20T09:52:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,439 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 82086,
-      "changePercent": 0.6215354607464744,
+      "price": 81670,
+      "changePercent": -0.9489664268631548,
       "unit": "USD",
-      "asOf": "2026-10-19T22:25:54.000Z",
+      "asOf": "2026-10-20T01:51:53.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "cd11b47f4f6f8a4d",
+      "category": "金属与资源",
+      "title": "Gold mine collapse kills at least 6 in southwest Colombia",
+      "url": "https://www.wral.com/news/ap/bffbd-gold-mine-collapse-kills-at-least-6-in-southwest-colombia/",
+      "source": "wral.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wral.com/news/ap/bffbd-gold-mine-collapse-kills-at-least-6-in-southwest-colombia/"
+    },
+    {
+      "id": "8907644e59ecc33e",
+      "category": "金属与资源",
+      "title": "14 dead , 7 injured in Colombian illegal gold mine collapse",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/20/14-dead-7-injured-in-colombian-illegal-gold-mine-collapse",
+      "source": "freemalaysiatoday.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Malaysia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/20/14-dead-7-injured-in-colombian-illegal-gold-mine-collapse"
+    },
+    {
+      "id": "58d2e84bdf6678d0",
+      "category": "金属与资源",
+      "title": "Convicted gold scammer back in court for similar offence",
+      "url": "https://www.2ec.com.au/local-news/convicted-gold-scammer-back-in-court-for-similar-offence/",
+      "source": "2ec.com.au",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.2ec.com.au/local-news/convicted-gold-scammer-back-in-court-for-similar-offence/"
+    },
+    {
+      "id": "d667f0cfef3ece26",
+      "category": "能源与航运",
+      "title": "Marine life dramatically declined in Gulf of Mexico in years after BP oil spill , study finds",
+      "url": "https://www.wfmz.com/news/us/marine-life-dramatically-declined-in-gulf-of-mexico-in-years-after-bp-oil-spill-study-finds/article_e8586c82-5521-54f2-b2db-899cde26177c.html",
+      "source": "wfmz.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wfmz.com/news/us/marine-life-dramatically-declined-in-gulf-of-mexico-in-years-after-bp-oil-spill-study-finds/article_e8586c82-5521-54f2-b2db-899cde26177c.html"
+    },
+    {
+      "id": "6fb7d1b7b9bb5696",
+      "category": "金属与资源",
+      "title": "14 killed , 7 injured in landslide at illegal gold mine in Colombia",
+      "url": "https://bnonews.com/index.php/2026/10/14-killed-7-injured-in-landslide-at-illegal-gold-mine-in-colombia/",
+      "source": "bnonews.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://bnonews.com/index.php/2026/10/14-killed-7-injured-in-landslide-at-illegal-gold-mine-in-colombia/"
+    },
+    {
+      "id": "f44dc89c71d11ab2",
+      "category": "全球与地区",
+      "title": "Trump waives Russia sanctions , tariffs before they take effect",
+      "url": "http://www.londonmercury.com/news/279381461/trump-waives-russia-sanctions-tariffs-before-they-take-effect",
+      "source": "londonmercury.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.londonmercury.com/news/279381461/trump-waives-russia-sanctions-tariffs-before-they-take-effect"
+    },
+    {
+      "id": "486badc63b62e47a",
+      "category": "金属与资源",
+      "title": "Novem Group Acquires 9 , 128 Shares of iShares Gold Trust $IAU",
+      "url": "https://www.themarketsdaily.com/2026/10/20/novem-group-acquires-9128-shares-of-ishares-gold-trust-iau.html",
+      "source": "themarketsdaily.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.themarketsdaily.com/2026/10/20/novem-group-acquires-9128-shares-of-ishares-gold-trust-iau.html"
+    },
+    {
+      "id": "d527018bee6980a6",
+      "category": "金属与资源",
+      "title": "Copper Shores Giving Tuesday Spotlight Series ; Soldier Salvation",
+      "url": "https://www.kbear102.com/2026/10/19/copper-shores-giving-tuesday-spotlight-series-soldier-salvation/",
+      "source": "kbear102.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kbear102.com/2026/10/19/copper-shores-giving-tuesday-spotlight-series-soldier-salvation/"
+    },
+    {
+      "id": "b84b45d56541ce61",
+      "category": "A股与政策",
+      "title": "A股掀新一轮回购增持潮 科技股 真金白银 护盘释放积极信号 - 千龙网 · 中国首都网",
+      "url": "https://finance.qianlong.com/2026/1020/8740488.shtml",
+      "source": "finance.qianlong.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.qianlong.com/2026/1020/8740488.shtml"
+    },
+    {
+      "id": "363b5fb99ac5dc28",
+      "category": "数字资产",
+      "title": "NC woman loses savings to crypto ATM scam . DOJ confirms it looking into crypto kiosk companies",
+      "url": "https://www.wral.com/news/investigates/life-savings-loss-crypto-atm-scam-bitcoin-new-nc-laws-october-2026/",
+      "source": "wral.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wral.com/news/investigates/life-savings-loss-crypto-atm-scam-bitcoin-new-nc-laws-october-2026/"
+    },
+    {
+      "id": "017379ec83baf719",
+      "category": "金属与资源",
+      "title": "Colombia gold mine collapse kills at least 14",
+      "url": "https://www.perthnow.com.au/news/disaster-and-emergency/colombia-gold-mine-collapse-kills-at-least-14-c-23045831",
+      "source": "perthnow.com.au",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.perthnow.com.au/news/disaster-and-emergency/colombia-gold-mine-collapse-kills-at-least-14-c-23045831"
+    },
+    {
+      "id": "a314960137b6166e",
+      "category": "能源与航运",
+      "title": "Direct consequence of US aggression : Iran FM Araghchi warns over Strait of Hormuz insecurity during Lavrov visit",
+      "url": "http://www.londonmercury.com/news/279386000/direct-consequence-of-us-aggression-iran-fm-araghchi-warns-over-strait-of-hormuz-insecurity-during-lavrov-visit",
+      "source": "londonmercury.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.londonmercury.com/news/279386000/direct-consequence-of-us-aggression-iran-fm-araghchi-warns-over-strait-of-hormuz-insecurity-during-lavrov-visit"
+    },
+    {
+      "id": "ea7e2d0065949929",
+      "category": "能源与航运",
+      "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+      "url": "http://www.goskagit.com/news/world/japan-launches-spacecraft-to-mysterious-moons-of-mars-in-a-bold-mission-to-bring-home/article_2b14691d-2940-5232-ad8a-a1ec65bc01eb.html",
+      "source": "goskagit.com",
+      "publishedAt": "2026-10-20T01:30:00Z",
+      "fetchedAt": "2026-10-20T01:52:26.048Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.goskagit.com/news/world/japan-launches-spacecraft-to-mysterious-moons-of-mars-in-a-bold-mission-to-bring-home/article_2b14691d-2940-5232-ad8a-a1ec65bc01eb.html"
+    },
     {
       "id": "5f7c29e44aaf5d00",
       "category": "A股与政策",
@@ -1242,420 +1663,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://adevarul.ro/stiri-externe/in-lume/trump-a-suspendat-noile-sanctiuni-impotriva-2564666.html"
-    },
-    {
-      "id": "b3fcc392230e4e0d",
-      "category": "全球与地区",
-      "title": "Trump pauses new Russia sanctions , citing national interest",
-      "url": "https://wcti12.com/news/local/trump-pauses-new-russia-sanctions-citing-national-interest",
-      "source": "wcti12.com",
-      "publishedAt": "2026-10-17T13:00:00Z",
-      "fetchedAt": "2026-10-17T13:46:40.140Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wcti12.com/news/local/trump-pauses-new-russia-sanctions-citing-national-interest"
-    },
-    {
-      "id": "8e7cead0102cbb40",
-      "category": "能源与航运",
-      "title": "US seeks end to World Bank oil , gas financing restrictions , calls for energy policy overhaul : Treasury Secy Scott Bessent",
-      "url": "http://www.britainnews.net/news/279380651/us-seeks-end-to-world-bank-oil-gas-financing-restrictions-calls-for-energy-policy-overhaul-treasury-secy-scott-bessent",
-      "source": "britainnews.net",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.britainnews.net/news/279380651/us-seeks-end-to-world-bank-oil-gas-financing-restrictions-calls-for-energy-policy-overhaul-treasury-secy-scott-bessent"
-    },
-    {
-      "id": "abb19daef302fc07",
-      "category": "金属与资源",
-      "title": "RFL Academy Teams Win Gold and Two Silvers at WRO Asia Pacific Open Championship 2026",
-      "url": "http://www.batonrougepost.com/news/279380653/rfl-academy-teams-win-gold-and-two-silvers-at-wro-asia-pacific-open-championship-2026",
-      "source": "batonrougepost.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.batonrougepost.com/news/279380653/rfl-academy-teams-win-gold-and-two-silvers-at-wro-asia-pacific-open-championship-2026"
-    },
-    {
-      "id": "cd11ab80630f32df",
-      "category": "全球与地区",
-      "title": "Trump waives Russian sanctions as US - Ukraine relationship frays",
-      "url": "https://www.london-now.co.uk/news/national/26645728.trump-waives-russian-sanctions-us-ukraine-relationship-frays/",
-      "source": "london-now.co.uk",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.london-now.co.uk/news/national/26645728.trump-waives-russian-sanctions-us-ukraine-relationship-frays/"
-    },
-    {
-      "id": "615af27fd9493585",
-      "category": "金属与资源",
-      "title": "AzerGold QSC 6 - cı Rebuild Garabagh sərgisində təmsil olunub ( FOTO / VİDEO )",
-      "url": "https://az.trend.az/business/4236015.html",
-      "source": "az.trend.az",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Azerbaijan"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://az.trend.az/business/4236015.html"
-    },
-    {
-      "id": "ed4b317caf37f1f6",
-      "category": "全球与地区",
-      "title": "Trump Waives New Sanctions Against Russia",
-      "url": "https://woc1420.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/",
-      "source": "woc1420.iheart.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://woc1420.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/"
-    },
-    {
-      "id": "6448d16ae2dbd1e9",
-      "category": "全球与地区",
-      "title": "Trump Waives Graham Act Sanctions On Russia Before They Take Effect",
-      "url": "http://www.batonrougepost.com/news/279380721/trump-waives-graham-act-sanctions-on-russia-before-they-take-effect",
-      "source": "batonrougepost.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.batonrougepost.com/news/279380721/trump-waives-graham-act-sanctions-on-russia-before-they-take-effect"
-    },
-    {
-      "id": "dee3aa3e44aaef61",
-      "category": "全球与地区",
-      "title": "Azerbaijan Announces Russian Gas Purchases Despite Sanctions",
-      "url": "https://www.kyivpost.com/post/87343",
-      "source": "kyivpost.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Ukraine"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kyivpost.com/post/87343"
-    },
-    {
-      "id": "754f4616ecdfc1ad",
-      "category": "能源与航运",
-      "title": "Fort Washington Investment Advisors Inc . OH Purchases New Holdings in iShares U . S . Energy ETF $IYE",
-      "url": "https://www.dailypolitical.com/2026/10/17/fort-washington-investment-advisors-inc-oh-purchases-new-holdings-in-ishares-u-s-energy-etf-iye.html",
-      "source": "dailypolitical.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailypolitical.com/2026/10/17/fort-washington-investment-advisors-inc-oh-purchases-new-holdings-in-ishares-u-s-energy-etf-iye.html"
-    },
-    {
-      "id": "d05da78de78a348b",
-      "category": "全球与地区",
-      "title": "Trump Waives New Sanctions Against Russia | WJBO Newsradio 1150 AM & 98 . 7 FM",
-      "url": "https://wjbo.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/",
-      "source": "wjbo.iheart.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wjbo.iheart.com/content/2026-10-17-trump-waives-new-sanctions-against-russia/"
-    },
-    {
-      "id": "11a050ea554be33d",
-      "category": "全球与地区",
-      "title": "Trump Waives Russia Sanctions Bill Threatening 100 % Tariffs On India ; How Will It Benefit New Delhi ?",
-      "url": "https://www.newsx.com/india/trump-waives-russia-sanctions-bill-threatening-100-tariffs-on-india-how-will-it-benefit-new-delhi-284342/",
-      "source": "newsx.com",
-      "publishedAt": "2026-10-17T08:15:00Z",
-      "fetchedAt": "2026-10-17T09:27:02.390Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.newsx.com/india/trump-waives-russia-sanctions-bill-threatening-100-tariffs-on-india-how-will-it-benefit-new-delhi-284342/"
-    },
-    {
-      "id": "87c262b47bc5034d",
-      "category": "科技与产业",
-      "title": "5 Pezzi Sensore A Ultrasuoni HC - SR04 Per Distanza 2 - 500 Cm , Precisione 0 , 3 Cm , 5V Per Robotica E Automazione",
-      "url": "https://thefulcrum.ca/471272/Per-Distanza-2-500-Cm-Precisione-0-3-Cm-5V-Per-Robotica-E",
-      "source": "thefulcrum.ca",
-      "publishedAt": "2026-10-16T23:15:00Z",
-      "fetchedAt": "2026-10-16T23:42:04.619Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://thefulcrum.ca/471272/Per-Distanza-2-500-Cm-Precisione-0-3-Cm-5V-Per-Robotica-E"
-    },
-    {
-      "id": "64607f376cddb006",
-      "category": "金属与资源",
-      "title": "Geelong Cup : Irish trainer Joseph OBrien seeks Melbourne Cup golden ticket with Small Fry",
-      "url": "https://www.geelongadvertiser.com.au/lifestyle/geelong-cup-key-to-melbourne-cup-hopes-for-irish-trainer-joseph-obriens-small-fry/news-story/e3897ff3f6ad91447655677a278aab52?nk=e94edd3f3d1b849c34636e0244b933d6-1792191719",
-      "source": "geelongadvertiser.com.au",
-      "publishedAt": "2026-10-16T23:15:00Z",
-      "fetchedAt": "2026-10-16T23:42:04.619Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.geelongadvertiser.com.au/lifestyle/geelong-cup-key-to-melbourne-cup-hopes-for-irish-trainer-joseph-obriens-small-fry/news-story/e3897ff3f6ad91447655677a278aab52?nk=e94edd3f3d1b849c34636e0244b933d6-1792191719"
     }
   ]
 }
