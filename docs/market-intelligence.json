@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-21T13:52:33.735Z",
-  "newsUpdatedAt": "2026-10-21T13:52:33.735Z",
-  "assetsUpdatedAt": "2026-10-21T13:52:33.735Z",
+  "generatedAt": "2026-10-21T18:42:04.965Z",
+  "newsUpdatedAt": "2026-10-21T18:42:04.965Z",
+  "assetsUpdatedAt": "2026-10-21T18:42:04.965Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -61,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52593.24,
-      "changePercent": 0.19,
+      "price": 52819.49,
+      "changePercent": 0.62,
       "unit": "USD",
-      "asOf": "2026-10-21T09:53:20-04:00",
+      "asOf": "2026-10-21T14:43:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26574.39,
-      "changePercent": 0.57,
+      "price": 26754.12,
+      "changePercent": 1.25,
       "unit": "USD",
-      "asOf": "2026-10-21T09:53:20-04:00",
+      "asOf": "2026-10-21T14:43:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7730.01,
-      "changePercent": 0.23,
+      "price": 7767.87,
+      "changePercent": 0.72,
       "unit": "USD",
-      "asOf": "2026-10-21T09:53:20-04:00",
+      "asOf": "2026-10-21T14:43:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4153.05,
-      "changePercent": 0.25,
+      "price": 4158.12,
+      "changePercent": 0.37,
       "unit": "USD",
-      "asOf": "2026-10-21T21:53:08-04:00",
+      "asOf": "2026-10-22T02:43:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 97.02,
-      "changePercent": -0.82,
+      "price": 97.04,
+      "changePercent": -0.79,
       "unit": "USD",
-      "asOf": "2026-10-21T21:53:06-04:00",
+      "asOf": "2026-10-22T02:43:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 654.56,
-      "changePercent": -0.88,
+      "price": 659.34,
+      "changePercent": -0.15,
       "unit": "USD",
-      "asOf": "2026-10-21T21:52:57-04:00",
+      "asOf": "2026-10-22T02:43:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,246 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83782,
-      "changePercent": 2.4531894398793717,
+      "price": 84703,
+      "changePercent": 2.7614123754901128,
       "unit": "USD",
-      "asOf": "2026-10-21T13:52:02.000Z",
+      "asOf": "2026-10-21T18:43:00.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "a667ccdeb8ae7532",
+      "category": "数字资产",
+      "title": "TRON Is Earning More Than Ethereum and Solana Combined . Why Is TRX Worth So Much Less ?",
+      "url": "https://www.aol.com/articles/tron-earning-more-ethereum-solana-170014000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/tron-earning-more-ethereum-solana-170014000.html"
+    },
+    {
+      "id": "63f3bbf1836c14c5",
+      "category": "金属与资源",
+      "title": "Das Ballhaus Freiburg reist unter dem Motto „ Charleston & Champagne zurück in die Zeit der Goldenen Zwanziger - Freizeittipps und Feste ( TICKET )",
+      "url": "https://www.badische-zeitung.de/das-ballhaus-freiburg-reist-unter-dem-motto-charleston-und-champagne-zurueck-in-die-zeit-der-goldene",
+      "source": "badische-zeitung.de",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.badische-zeitung.de/das-ballhaus-freiburg-reist-unter-dem-motto-charleston-und-champagne-zurueck-in-die-zeit-der-goldene"
+    },
+    {
+      "id": "ae4623347b5e0ebb",
+      "category": "能源与航运",
+      "title": "Oris dévoile une Aquis Date au cadran vert fascinant , limitée à seulement 1 000 exemplaires",
+      "url": "https://lenouveaureveil.com/oris-aquis-date-kelp-forest/",
+      "source": "lenouveaureveil.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Ivory Coast"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://lenouveaureveil.com/oris-aquis-date-kelp-forest/"
+    },
+    {
+      "id": "af983d316502bdc2",
+      "category": "能源与航运",
+      "title": "7 striking revelations buried in secret text of Trump biggest oil deal in history",
+      "url": "https://www.rawstory.com/trump-venezuela-2678119081/",
+      "source": "rawstory.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rawstory.com/trump-venezuela-2678119081/"
+    },
+    {
+      "id": "556a46b51aff231a",
+      "category": "能源与航运",
+      "title": "US aims to loan about a third of heating oil reserve in bid to tame prices",
+      "url": "https://www.grandforksherald.com/news/national/us-aims-to-loan-about-a-third-of-heating-oil-reserve-in-bid-to-tame-prices",
+      "source": "grandforksherald.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.grandforksherald.com/news/national/us-aims-to-loan-about-a-third-of-heating-oil-reserve-in-bid-to-tame-prices"
+    },
+    {
+      "id": "4519c36e0bb9ef73",
+      "category": "金属与资源",
+      "title": "« My Notes On Mars » i Lili Horvát hap Festivalin e Valladolidit : 22 filma në garë për Golden Spike",
+      "url": "https://24-ore.com/my-notes-on-mars-i-lili-horvat-hap-festivalin-e-valladolidit-22-filma-ne-gare-per-golden-spike/",
+      "source": "24-ore.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Albania"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://24-ore.com/my-notes-on-mars-i-lili-horvat-hap-festivalin-e-valladolidit-22-filma-ne-gare-per-golden-spike/"
+    },
+    {
+      "id": "f18684facfcb16bf",
+      "category": "能源与航运",
+      "title": "Arab News | united kingdom approves long - delayed Jackdaw gas field on energy security grounds",
+      "url": "https://www.arabnews.com/world/uk-approves-long-delayed-jackdaw-gas-field-on-energy-security-grounds-3007593",
+      "source": "arabnews.com",
+      "publishedAt": "2026-10-21T18:15:00Z",
+      "fetchedAt": "2026-10-21T18:42:04.965Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Saudi Arabia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.arabnews.com/world/uk-approves-long-delayed-jackdaw-gas-field-on-energy-security-grounds-3007593"
+    },
     {
       "id": "6367267f15a0365d",
       "category": "科技与产业",
@@ -1439,235 +1671,6 @@
       "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135440.html"
-    },
-    {
-      "id": "1de5b2b54dcdff39",
-      "category": "A股与政策",
-      "title": "资金大举买入 ！ A股接近阶段性底部 ？- 股票频道 - 和讯网",
-      "url": "https://stock.hexun.com/2026-10-19/225135471.html",
-      "source": "stock.hexun.com",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135471.html"
-    },
-    {
-      "id": "4fe1a54e19fa6032",
-      "category": "金属与资源",
-      "title": "Great Southern uncovers new high - grade hits in WA gold hunt",
-      "url": "https://www.theage.com.au/business/companies/great-southern-uncovers-new-high-grade-hits-in-wa-gold-hunt-20261019-p616rk.html",
-      "source": "theage.com.au",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.theage.com.au/business/companies/great-southern-uncovers-new-high-grade-hits-in-wa-gold-hunt-20261019-p616rk.html"
-    },
-    {
-      "id": "1f180322bbe80b0a",
-      "category": "金属与资源",
-      "title": "Leigh Hoffman wins second silver at UCI Track World Championships , Harrie Lavreysen wins 23rd world title - 19 - Oct - 2026",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=456230&fm=psp,tst",
-      "source": "home.nzcity.co.nz",
-      "publishedAt": "2026-10-18T19:30:00Z",
-      "fetchedAt": "2026-10-18T20:50:51.119Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "New Zealand"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://home.nzcity.co.nz/news/article.aspx?id=456230&fm=psp,tst"
-    },
-    {
-      "id": "cb0be3ecfd2995ae",
-      "category": "金属与资源",
-      "title": "Duarte da Silva : Ghana bought Africa shadow gold . SA wants to jail ..",
-      "url": "https://www.biznews.com/gold/duarte-da-silva-ghana-bought-africas-shadow-gold-sa-wants-to-jail-the-man-who-digs-it",
-      "source": "biznews.com",
-      "publishedAt": "2026-10-18T19:30:00Z",
-      "fetchedAt": "2026-10-18T20:50:51.119Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "South Africa"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.biznews.com/gold/duarte-da-silva-ghana-bought-africas-shadow-gold-sa-wants-to-jail-the-man-who-digs-it"
-    },
-    {
-      "id": "c10417c9e10a6860",
-      "category": "能源与航运",
-      "title": "Ukraine sends waves of drones at Russian oil facilities",
-      "url": "https://www.bendigoadvertiser.com.au/story/9370675/ukraine-sends-waves-of-drones-at-russian-oil-facilities/",
-      "source": "bendigoadvertiser.com.au",
-      "publishedAt": "2026-10-18T19:30:00Z",
-      "fetchedAt": "2026-10-18T20:50:51.119Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bendigoadvertiser.com.au/story/9370675/ukraine-sends-waves-of-drones-at-russian-oil-facilities/"
-    },
-    {
-      "id": "42c550d2f0e16105",
-      "category": "能源与航运",
-      "title": "St . Petersburg oil facilities ablaze",
-      "url": "https://www.chicagotribune.com/2026/10/18/st-petersburg-oil-facilities-attacked/",
-      "source": "chicagotribune.com",
-      "publishedAt": "2026-10-18T19:15:00Z",
-      "fetchedAt": "2026-10-18T20:50:51.119Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.chicagotribune.com/2026/10/18/st-petersburg-oil-facilities-attacked/"
-    },
-    {
-      "id": "3245bfced10f571a",
-      "category": "全球与地区",
-      "title": "US Treasury chief Bessent says no one has been tougher on Russian sanctions than Trump",
-      "url": "https://news.webindia123.com/news/Articles/World/20261018/4512524.html",
-      "source": "news.webindia123.com",
-      "publishedAt": "2026-10-18T19:15:00Z",
-      "fetchedAt": "2026-10-18T20:50:51.119Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://news.webindia123.com/news/Articles/World/20261018/4512524.html"
     }
   ]
 }
