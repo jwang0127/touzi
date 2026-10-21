@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-21T18:42:04.965Z",
-  "newsUpdatedAt": "2026-10-21T18:42:04.965Z",
-  "assetsUpdatedAt": "2026-10-21T18:42:04.965Z",
+  "generatedAt": "2026-10-21T22:24:32.455Z",
+  "newsUpdatedAt": "2026-10-21T22:24:32.455Z",
+  "assetsUpdatedAt": "2026-10-21T22:24:32.455Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52819.49,
-      "changePercent": 0.62,
+      "price": 52856.09,
+      "changePercent": 0.69,
       "unit": "USD",
-      "asOf": "2026-10-21T14:43:40-04:00",
+      "asOf": "2026-10-21T16:36:48-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26754.12,
-      "changePercent": 1.25,
+      "price": 26702.86,
+      "changePercent": 1.05,
       "unit": "USD",
-      "asOf": "2026-10-21T14:43:40-04:00",
+      "asOf": "2026-10-21T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7767.87,
-      "changePercent": 0.72,
+      "price": 7757.17,
+      "changePercent": 0.58,
       "unit": "USD",
-      "asOf": "2026-10-21T14:43:40-04:00",
+      "asOf": "2026-10-21T16:31:21-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4158.12,
-      "changePercent": 0.37,
+      "price": 4154.39,
+      "changePercent": 0.11,
       "unit": "USD",
-      "asOf": "2026-10-22T02:43:05-04:00",
+      "asOf": "2026-10-22T06:25:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 97.04,
-      "changePercent": -0.79,
+      "price": 97.86,
+      "changePercent": 0.73,
       "unit": "USD",
-      "asOf": "2026-10-22T02:43:07-04:00",
+      "asOf": "2026-10-22T06:24:54-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 659.34,
-      "changePercent": -0.15,
+      "price": 656.09,
+      "changePercent": -0.28,
       "unit": "USD",
-      "asOf": "2026-10-22T02:43:01-04:00",
+      "asOf": "2026-10-22T06:24:47-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,242 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 84703,
-      "changePercent": 2.7614123754901128,
+      "price": 84606,
+      "changePercent": 1.8990680796528634,
       "unit": "USD",
-      "asOf": "2026-10-21T18:43:00.000Z",
+      "asOf": "2026-10-21T22:25:10.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "77f4c662f46f4e39",
+      "category": "金属与资源",
+      "title": "Hudbay , Mitsubishi approve Copper World construction",
+      "url": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/",
+      "source": "mining.com",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/"
+    },
+    {
+      "id": "7ced283ce390b2fa",
+      "category": "数字资产",
+      "title": "Gas Prices Are Skyrocketing . Can Bitcoin Actually Hedge Against Inflation ?",
+      "url": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html"
+    },
+    {
+      "id": "d4fdcad4bf4fcb4c",
+      "category": "金属与资源",
+      "title": "Fortuna targets deeper Lindero pit after gold hits",
+      "url": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
+      "source": "northernminer.com",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/"
+    },
+    {
+      "id": "3662c28fa57cb0d8",
+      "category": "金属与资源",
+      "title": "Prospect Ridge Announces Second Tranche Closing of Critical Metals Flow - Through Unit Private Placement",
+      "url": "http://www.torontotelegraph.com/news/279390754/prospect-ridge-announces-second-tranche-closing-of-critical-metals-flow-through-unit-private-placement",
+      "source": "torontotelegraph.com",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.torontotelegraph.com/news/279390754/prospect-ridge-announces-second-tranche-closing-of-critical-metals-flow-through-unit-private-placement"
+    },
+    {
+      "id": "d94080e5f9029292",
+      "category": "金属与资源",
+      "title": "Gold Loan Default Risks India ,: गोल्ड लोन में छिपा है कितना जोखिम ? पीरामल और बजाज फाइनैंस के आंकड़ों से समझें",
+      "url": "https://hindi.business-standard.com/markets/commodities/gold-loan-market-early-stress-bajaj-finance-piramal-repayment-risks-id-561878/",
+      "source": "hindi.business-standard.com",
+      "publishedAt": "2026-10-21T21:45:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://hindi.business-standard.com/markets/commodities/gold-loan-market-early-stress-bajaj-finance-piramal-repayment-risks-id-561878/"
+    },
+    {
+      "id": "a5ffa88bd23f9eaa",
+      "category": "全球与地区",
+      "title": "US Imposes New Wave of Sanctions Targeting Iran Shadow Fleet Networks",
+      "url": "https://www.theepochtimes.com/world/us-imposes-new-wave-of-sanctions-targeting-irans-shadow-fleet-networks-6107126",
+      "source": "theepochtimes.com",
+      "publishedAt": "2026-10-21T21:45:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theepochtimes.com/world/us-imposes-new-wave-of-sanctions-targeting-irans-shadow-fleet-networks-6107126"
+    },
+    {
+      "id": "1def8a9555ab2bc9",
+      "category": "能源与航运",
+      "title": "Euro - Area Inflation Hits 3 . 8 % as Energy Prices Jump 18 . 9 %",
+      "url": "https://econotimes.com/Euro-Area-Inflation-Hits-3-8-as-Energy-Prices-Jump-18-9-1759378",
+      "source": "econotimes.com",
+      "publishedAt": "2026-10-21T21:45:00Z",
+      "fetchedAt": "2026-10-21T22:24:32.455Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://econotimes.com/Euro-Area-Inflation-Hits-3-8-as-Energy-Prices-Jump-18-9-1759378"
+    },
     {
       "id": "a667ccdeb8ae7532",
       "category": "数字资产",
@@ -1453,224 +1679,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.rigzone.com/news/what_will_happen_to_the_oil_price_over_the_next_few_quarters-19-oct-2026-184871-article/"
-    },
-    {
-      "id": "e785beba4a8aea1a",
-      "category": "能源与航运",
-      "title": "Venezuela Sees Nearly $76B Oil Investment Over 5 Years",
-      "url": "https://www.rigzone.com/news/wire/venezuela_sees_nearly_76b_oil_investment_over_5_years-19-oct-2026-184872-article/",
-      "source": "rigzone.com",
-      "publishedAt": "2026-10-19T10:30:00Z",
-      "fetchedAt": "2026-10-19T10:50:47.898Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rigzone.com/news/wire/venezuela_sees_nearly_76b_oil_investment_over_5_years-19-oct-2026-184872-article/"
-    },
-    {
-      "id": "f74b998fb75eae5b",
-      "category": "能源与航运",
-      "title": "Gold Edges Up As Oil Prices , Yields Dip",
-      "url": "https://www.rttnews.com/3700049/gold-edges-up-as-oil-prices-yields-dip.aspx",
-      "source": "rttnews.com",
-      "publishedAt": "2026-10-19T10:30:00Z",
-      "fetchedAt": "2026-10-19T10:50:47.898Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rttnews.com/3700049/gold-edges-up-as-oil-prices-yields-dip.aspx"
-    },
-    {
-      "id": "9216c2c555ead6d5",
-      "category": "全球与地区",
-      "title": "Zelensky criticizes partners over lack of attack warnings and proposed sanctions relief for Russia",
-      "url": "https://georgiatoday.ge/zelensky-criticizes-partners-over-lack-of-attack-warnings-and-proposed-sanctions-relief-for-russia/",
-      "source": "georgiatoday.ge",
-      "publishedAt": "2026-10-19T10:15:00Z",
-      "fetchedAt": "2026-10-19T10:50:47.898Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Georgia"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://georgiatoday.ge/zelensky-criticizes-partners-over-lack-of-attack-warnings-and-proposed-sanctions-relief-for-russia/"
-    },
-    {
-      "id": "f0c6cd5de0a4292d",
-      "category": "A股与政策",
-      "title": "A股估值性价比改善 建议均衡配置应对市场波动 - 股票频道 - 和讯网",
-      "url": "https://stock.hexun.com/2026-10-19/225135458.html",
-      "source": "stock.hexun.com",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135458.html"
-    },
-    {
-      "id": "c8680c542f8fe65c",
-      "category": "科技与产业",
-      "title": "Allengra caută angajați la Oradea . Sunt disponibile joburi în inginerie , robotică și producție",
-      "url": "https://www.bihon.ro/stirile-judetului-bihor/allengra-cauta-angajati-la-oradea-sunt-disponibile-joburi-in-inginerie-robotica-si-productie-5432619/",
-      "source": "bihon.ro",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bihon.ro/stirile-judetului-bihor/allengra-cauta-angajati-la-oradea-sunt-disponibile-joburi-in-inginerie-robotica-si-productie-5432619/"
-    },
-    {
-      "id": "8a6a9e430196f2cb",
-      "category": "全球与地区",
-      "title": "Oil slips as Trump sanction waiver may lead to more Russian fuel supplies",
-      "url": "https://www.asiaone.com:443/money/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies",
-      "source": "asiaone.com",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Singapore"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.asiaone.com:443/money/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies"
-    },
-    {
-      "id": "1b1c1e3df652f1a3",
-      "category": "A股与政策",
-      "title": "AI与涨价双轮驱动 逾130家A股公司三季报预喜 - 股票频道 - 和讯网",
-      "url": "https://stock.hexun.com/2026-10-19/225135440.html",
-      "source": "stock.hexun.com",
-      "publishedAt": "2026-10-19T04:15:00Z",
-      "fetchedAt": "2026-10-19T04:49:18.497Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.hexun.com/2026-10-19/225135440.html"
     }
   ]
 }
