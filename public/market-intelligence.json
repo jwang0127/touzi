@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-20T22:20:57.524Z",
-  "newsUpdatedAt": "2026-10-20T01:52:26.048Z",
-  "assetsUpdatedAt": "2026-10-20T22:20:57.524Z",
+  "generatedAt": "2026-10-21T01:39:10.292Z",
+  "newsUpdatedAt": "2026-10-21T01:39:10.292Z",
+  "assetsUpdatedAt": "2026-10-21T01:39:10.292Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3735.37,
-      "changePercent": 0.12,
+      "price": 3733.07,
+      "changePercent": -0.06,
       "unit": "CNY",
-      "asOf": "2026-10-20T16:14:00+08:00",
+      "asOf": "2026-10-21T09:40:15+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11801.29,
-      "changePercent": -0.14,
+      "price": 11834.42,
+      "changePercent": 0.28,
       "unit": "CNY",
-      "asOf": "2026-10-20T16:14:33+08:00",
+      "asOf": "2026-10-21T09:40:15+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 23867.74,
-      "changePercent": -1.32,
+      "price": 24139.11,
+      "changePercent": 1.14,
       "unit": "HKD",
-      "asOf": "2026-10-20T18:31:19+08:00",
+      "asOf": "2026-10-21T09:25:16+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8030.26,
-      "changePercent": -1.21,
+      "price": 8139.17,
+      "changePercent": 1.36,
       "unit": "HKD",
-      "asOf": "2026-10-20T16:08:42+08:00",
+      "asOf": "2026-10-21T09:25:16+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4148.54,
-      "changePercent": 0.14,
+      "price": 4135.25,
+      "changePercent": -0.18,
       "unit": "USD",
-      "asOf": "2026-10-21T06:21:02-04:00",
+      "asOf": "2026-10-21T09:40:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 98.02,
-      "changePercent": 0.2,
+      "price": 98.91,
+      "changePercent": 1.11,
       "unit": "USD",
-      "asOf": "2026-10-21T06:20:38-04:00",
+      "asOf": "2026-10-21T09:39:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 662.1,
-      "changePercent": 0.27,
+      "price": 660.8,
+      "changePercent": 0.07,
       "unit": "USD",
-      "asOf": "2026-10-21T06:21:02-04:00",
+      "asOf": "2026-10-21T09:40:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,299 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 83040,
-      "changePercent": 1.09207131913649,
+      "price": 82834,
+      "changePercent": 1.5578875907552323,
       "unit": "USD",
-      "asOf": "2026-10-20T22:21:04.000Z",
+      "asOf": "2026-10-21T01:39:46.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e9c0900ba9a968fb",
+      "category": "A股与政策",
+      "title": "积极信号 ！ 外资对A股调研热度持续攀升",
+      "url": "https://stock.jrj.com.cn/2026/10/21073558798875.shtml",
+      "source": "stock.jrj.com.cn",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.jrj.com.cn/2026/10/21073558798875.shtml"
+    },
+    {
+      "id": "55443767193e95c6",
+      "category": "能源与航运",
+      "title": "Heating oil costs test political loyalties in northern Maine",
+      "url": "https://www.kpax.com/politics/midterm-elections/heating-oil-costs-test-political-loyalties-in-northern-maine",
+      "source": "kpax.com",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kpax.com/politics/midterm-elections/heating-oil-costs-test-political-loyalties-in-northern-maine"
+    },
+    {
+      "id": "c0ac50a7d5283f4c",
+      "category": "科技与产业",
+      "title": "Delivery Robots Allegedly Scan Customers And Collect Biometric Data , Lawsuits Claim",
+      "url": "https://realrock1057.iheart.com/content/2026-10-20-delivery-robots-allegedly-scan-customers-and-collect-biometric-data-lawsuits-claim/",
+      "source": "realrock1057.iheart.com",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://realrock1057.iheart.com/content/2026-10-20-delivery-robots-allegedly-scan-customers-and-collect-biometric-data-lawsuits-claim/"
+    },
+    {
+      "id": "4ed9d74b6abc9974",
+      "category": "科技与产业",
+      "title": "II Międzynarodowe Spotkanie Naukowo - Szkoleniowe „ Robotyka i nowoczesne formy kształcenia w zawodach medycznych . Od technologii do praktyki klinicznej - MedExpress . pl",
+      "url": "https://www.medexpress.pl/kalendarium/wydarzenie/3741/",
+      "source": "medexpress.pl",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Poland"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.medexpress.pl/kalendarium/wydarzenie/3741/"
+    },
+    {
+      "id": "335578bb810627ea",
+      "category": "科技与产业",
+      "title": "Secret Trigger Words Could Make AI - Powered Robots Dangerous , And These Researchers Developed A Defense",
+      "url": "https://www.eurasiareview.com/20102026-secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense/",
+      "source": "eurasiareview.com",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.eurasiareview.com/20102026-secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense/"
+    },
+    {
+      "id": "a2df3efd0da58836",
+      "category": "全球与地区",
+      "title": "One Kurdish Peace Deal Could Ignite Another Middle Eastern Conflict - Analysis",
+      "url": "https://www.eurasiareview.com/21102026-one-kurdish-peace-deal-could-ignite-another-middle-eastern-conflict-analysis/",
+      "source": "eurasiareview.com",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.eurasiareview.com/21102026-one-kurdish-peace-deal-could-ignite-another-middle-eastern-conflict-analysis/"
+    },
+    {
+      "id": "0fce4dc7288e1380",
+      "category": "全球与地区",
+      "title": "Desarrollan la UT Altamira y la UAT tecnología para la resolución pacífica de conflictos escolares",
+      "url": "https://horacero.com.mx/tamaulipas/ut-altamira-uat-tecnologia-2",
+      "source": "horacero.com.mx",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Mexico"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://horacero.com.mx/tamaulipas/ut-altamira-uat-tecnologia-2"
+    },
+    {
+      "id": "6ac62e221671b271",
+      "category": "能源与航运",
+      "title": "Weretilneck expuso sobre el futuro productivo de Río Negro en la Energy Trade Mission",
+      "url": "https://www.anroca.com.ar/noticias/2026/10/20/228737-weretilneck-expuso-sobre-el-futuro-productivo-de-rio-negro-en-la-energy-trade-mission",
+      "source": "anroca.com.ar",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.anroca.com.ar/noticias/2026/10/20/228737-weretilneck-expuso-sobre-el-futuro-productivo-de-rio-negro-en-la-energy-trade-mission"
+    },
+    {
+      "id": "b9e78dcc560bef94",
+      "category": "金属与资源",
+      "title": "Canadian man tries to steal over $400 , 000 in gold from elderly Laramie woman , police say",
+      "url": "http://www.wyomingnews.com/news/local_news/canadian-man-tries-to-steal-over-400-000-in-gold-from-elderly-laramie-woman-police/article_4bc78c95-1e58-4ce4-9e20-5f411c988c3f.html",
+      "source": "wyomingnews.com",
+      "publishedAt": "2026-10-21T01:15:00Z",
+      "fetchedAt": "2026-10-21T01:39:10.292Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.wyomingnews.com/news/local_news/canadian-man-tries-to-steal-over-400-000-in-gold-from-elderly-laramie-woman-police/article_4bc78c95-1e58-4ce4-9e20-5f411c988c3f.html"
+    },
     {
       "id": "cd11b47f4f6f8a4d",
       "category": "金属与资源",
@@ -1384,287 +1667,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.kuow.org/npr-news/2026-10-17/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold"
-    },
-    {
-      "id": "bb5fb9ad96f9c147",
-      "category": "科技与产业",
-      "title": "Feds Investigating Tesla Cybercab Robotaxis For Speeding In School Zones",
-      "url": "https://carbuzz.com/feds-investigate-tesla-cybercab-robotaxis-school-zone-speeding/",
-      "source": "carbuzz.com",
-      "publishedAt": "2026-10-17T16:45:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://carbuzz.com/feds-investigate-tesla-cybercab-robotaxis-school-zone-speeding/"
-    },
-    {
-      "id": "8e37d02637f9ece3",
-      "category": "科技与产业",
-      "title": "From Forest Trails to Wildlife Habitats : A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition",
-      "url": "https://www.thewhig.com/press-releases/newsfile/from-forest-trails-to-wildlife-habitats-a-robot-dog-of-deep-robotics-joins-a-mountain-research-expedition/",
-      "source": "thewhig.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thewhig.com/press-releases/newsfile/from-forest-trails-to-wildlife-habitats-a-robot-dog-of-deep-robotics-joins-a-mountain-research-expedition/"
-    },
-    {
-      "id": "67c511b0a93045cd",
-      "category": "全球与地区",
-      "title": "Zelenskyy urges support for U . S . sanction against Russia",
-      "url": "https://www.klif.com/2026/10/17/zelenskyy-urges-support-for-u-s-sanction-against-russia/",
-      "source": "klif.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.klif.com/2026/10/17/zelenskyy-urges-support-for-u-s-sanction-against-russia/"
-    },
-    {
-      "id": "5996266da5416f8f",
-      "category": "能源与航运",
-      "title": "ECB may raise rates by 50 bps by mid - 2027 as energy prices fuel inflation : Report",
-      "url": "http://www.caribbeanherald.com/news/279381031/ecb-may-raise-rates-by-50-bps-by-mid-2027-as-energy-prices-fuel-inflation-report",
-      "source": "caribbeanherald.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.caribbeanherald.com/news/279381031/ecb-may-raise-rates-by-50-bps-by-mid-2027-as-energy-prices-fuel-inflation-report"
-    },
-    {
-      "id": "fec2e5c3ffaf8a82",
-      "category": "全球与地区",
-      "title": "Iran - US conflict raises threats to global shipping",
-      "url": "http://www.ohiostandard.com/news/279377132/iran-us-conflict-raises-threats-to-global-shipping",
-      "source": "ohiostandard.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.ohiostandard.com/news/279377132/iran-us-conflict-raises-threats-to-global-shipping"
-    },
-    {
-      "id": "e99f9a4dc52230fa",
-      "category": "全球与地区",
-      "title": "Zelenskyy urges support for new US sanctions on Russia",
-      "url": "https://www.wlwt.com/article/zelenskyy-support-new-us-sanctions-russia-trump-hold/74166472",
-      "source": "wlwt.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wlwt.com/article/zelenskyy-support-new-us-sanctions-russia-trump-hold/74166472"
-    },
-    {
-      "id": "c32449fcc8df7734",
-      "category": "全球与地区",
-      "title": "Cuba Geopolitics : US , Russia , China and EU in 2026",
-      "url": "https://www.riotimesonline.com/cuba-geopolitics-explained-2026/",
-      "source": "riotimesonline.com",
-      "publishedAt": "2026-10-17T16:30:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Brazil"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.riotimesonline.com/cuba-geopolitics-explained-2026/"
-    },
-    {
-      "id": "fa36428573c28689",
-      "category": "全球与地区",
-      "title": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
-      "url": "https://www.wapt.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
-      "source": "wapt.com",
-      "publishedAt": "2026-10-17T13:00:00Z",
-      "fetchedAt": "2026-10-17T13:46:40.140Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wapt.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352"
-    },
-    {
-      "id": "a31f67b22c761c23",
-      "category": "能源与航运",
-      "title": "Trump a suspendat noile sancțiuni împotriva Rusiei , adoptate de Congres . Kremlinul jubilează",
-      "url": "https://adevarul.ro/stiri-externe/in-lume/trump-a-suspendat-noile-sanctiuni-impotriva-2564666.html",
-      "source": "adevarul.ro",
-      "publishedAt": "2026-10-17T13:00:00Z",
-      "fetchedAt": "2026-10-17T13:46:40.140Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Romania"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://adevarul.ro/stiri-externe/in-lume/trump-a-suspendat-noile-sanctiuni-impotriva-2564666.html"
     }
   ]
 }
