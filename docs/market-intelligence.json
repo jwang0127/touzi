@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-21T01:39:10.292Z",
-  "newsUpdatedAt": "2026-10-21T01:39:10.292Z",
-  "assetsUpdatedAt": "2026-10-21T01:39:10.292Z",
+  "generatedAt": "2026-10-21T07:44:27.134Z",
+  "newsUpdatedAt": "2026-10-21T07:44:27.134Z",
+  "assetsUpdatedAt": "2026-10-21T07:44:27.134Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3733.07,
-      "changePercent": -0.06,
+      "price": 3713.03,
+      "changePercent": -0.6,
       "unit": "CNY",
-      "asOf": "2026-10-21T09:40:15+08:00",
+      "asOf": "2026-10-21T15:45:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11834.42,
-      "changePercent": 0.28,
+      "price": 11704.35,
+      "changePercent": -0.82,
       "unit": "CNY",
-      "asOf": "2026-10-21T09:40:15+08:00",
+      "asOf": "2026-10-21T15:44:45+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24139.11,
-      "changePercent": 1.14,
+      "price": 23673.03,
+      "changePercent": -0.82,
       "unit": "HKD",
-      "asOf": "2026-10-21T09:25:16+08:00",
+      "asOf": "2026-10-21T15:30:25+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8139.17,
-      "changePercent": 1.36,
+      "price": 7950.68,
+      "changePercent": -0.99,
       "unit": "HKD",
-      "asOf": "2026-10-21T09:25:16+08:00",
+      "asOf": "2026-10-21T15:30:24+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4135.25,
-      "changePercent": -0.18,
+      "price": 4139.52,
+      "changePercent": -0.07,
       "unit": "USD",
-      "asOf": "2026-10-21T09:40:03-04:00",
+      "asOf": "2026-10-21T15:45:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 98.91,
-      "changePercent": 1.11,
+      "price": 98.54,
+      "changePercent": 0.73,
       "unit": "USD",
-      "asOf": "2026-10-21T09:39:59-04:00",
+      "asOf": "2026-10-21T15:45:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.8,
-      "changePercent": 0.07,
+      "price": 658.74,
+      "changePercent": -0.24,
       "unit": "USD",
-      "asOf": "2026-10-21T09:40:04-04:00",
+      "asOf": "2026-10-21T15:45:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,184 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 82834,
-      "changePercent": 1.5578875907552323,
+      "price": 82952,
+      "changePercent": 1.7538980600001923,
       "unit": "USD",
-      "asOf": "2026-10-21T01:39:46.000Z",
+      "asOf": "2026-10-21T07:44:55.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "924b5ca75c0a6168",
+      "category": "金属与资源",
+      "title": "Gold bleibt nahe dem Wochentief gedrückt , da die Bären angesichts von Fed - Wetten und einem Anstieg des USD einen Bruch der 4 . 100 USD ins Auge fassen",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69891084-gold-bleibt-nahe-dem-wochentief-gedrueckt-da-die-baeren-angesichts-von-fed-wetten-und-einem-anstieg-des-usd-einen-bruch-der-4-100-usd-ins-auge-fassen-545.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "fetchedAt": "2026-10-21T07:44:27.134Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-10/69891084-gold-bleibt-nahe-dem-wochentief-gedrueckt-da-die-baeren-angesichts-von-fed-wetten-und-einem-anstieg-des-usd-einen-bruch-der-4-100-usd-ins-auge-fassen-545.htm"
+    },
+    {
+      "id": "a45f4fe8b7d082ed",
+      "category": "金属与资源",
+      "title": "Hudbay and Mitsubishi Approve Copper World Project Construction ; Advancing Next Major U . S . Copper Mine Towards First Production in 2029",
+      "url": "https://www.timminspress.com/press-releases/globe-newswire/hudbay-and-mitsubishi-approve-copper-world-project-construction-advancing-next-major-u-s-copper-mine-towards-first-production-in-2029/",
+      "source": "timminspress.com",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "fetchedAt": "2026-10-21T07:44:27.134Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.timminspress.com/press-releases/globe-newswire/hudbay-and-mitsubishi-approve-copper-world-project-construction-advancing-next-major-u-s-copper-mine-towards-first-production-in-2029/"
+    },
+    {
+      "id": "8046c4a8e28c52f5",
+      "category": "科技与产业",
+      "title": "Delivery robots accused of scanning customer faces , sharing biometric data",
+      "url": "https://www.texarkanagazette.com/news/2026/oct/20/delivery-robots-accused-of-scanning-customers/",
+      "source": "texarkanagazette.com",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "fetchedAt": "2026-10-21T07:44:27.134Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.texarkanagazette.com/news/2026/oct/20/delivery-robots-accused-of-scanning-customers/"
+    },
+    {
+      "id": "f16dc13016c54f30",
+      "category": "金属与资源",
+      "title": "Asian Para Games : Bhagyashri wins silver in women shot put F34",
+      "url": "https://www.prokerala.com/news/articles/a1826928.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "fetchedAt": "2026-10-21T07:44:27.134Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1826928.html"
+    },
+    {
+      "id": "bd8d78b63c844984",
+      "category": "金属与资源",
+      "title": "Asian Para Games : Manjeet strikes silver in men javelin throw F13 category",
+      "url": "https://www.prokerala.com/news/articles/a1826911.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "fetchedAt": "2026-10-21T07:44:27.134Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1826911.html"
+    },
     {
       "id": "e9c0900ba9a968fb",
       "category": "A股与政策",
@@ -1514,159 +1682,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.themarketsdaily.com/2026/10/18/contrasting-mako-mining-nasdaqmako-oceanagold-nyseogc.html"
-    },
-    {
-      "id": "b89fc30d34846147",
-      "category": "全球与地区",
-      "title": "Trump decision to waive Russian sanctions outrages Congress , but no quick counter seen",
-      "url": "https://www.dcourier.com/news/national-international/trumps-decision-to-waive-russian-sanctions-outrages-congress-but-no-quick-counter-seen/article_31b36359-166c-549f-885c-337f8382dd3f.html",
-      "source": "dcourier.com",
-      "publishedAt": "2026-10-18T01:00:00Z",
-      "fetchedAt": "2026-10-18T01:08:03.545Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dcourier.com/news/national-international/trumps-decision-to-waive-russian-sanctions-outrages-congress-but-no-quick-counter-seen/article_31b36359-166c-549f-885c-337f8382dd3f.html"
-    },
-    {
-      "id": "8af70df86e26d86c",
-      "category": "金属与资源",
-      "title": "British Museum must do more , including full return of all looted Asante gold , Ethiopian Tabots and Benin Bronzes - Lord Boateng",
-      "url": "https://www.graphic.com.gh/news/general-news/british-museum-must-do-more-including-full-return-of-all-looted-asante-gold-ethiopian-tabots-and-benin-bronzes-lord-boateng.html",
-      "source": "graphic.com.gh",
-      "publishedAt": "2026-10-18T01:00:00Z",
-      "fetchedAt": "2026-10-18T01:08:03.545Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Ghana"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.graphic.com.gh/news/general-news/british-museum-must-do-more-including-full-return-of-all-looted-asante-gold-ethiopian-tabots-and-benin-bronzes-lord-boateng.html"
-    },
-    {
-      "id": "55e90605b9900e7c",
-      "category": "科技与产业",
-      "title": "Micron Edge Inference Memory Could Solve HBM Power Efficiency Weakness , Ushering The Age Of AI - Powered Robots With A Mass Production Target Of 2028",
-      "url": "https://wccftech.com/micron-edge-inference-memory-hbm-power-efficiency-ai-robots/",
-      "source": "wccftech.com",
-      "publishedAt": "2026-10-18T01:00:00Z",
-      "fetchedAt": "2026-10-18T01:08:03.545Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://wccftech.com/micron-edge-inference-memory-hbm-power-efficiency-ai-robots/"
-    },
-    {
-      "id": "eebaabc5f669e8ff",
-      "category": "全球与地区",
-      "title": "Trump puts new Russia sanctions that he recently signed into law on hold , citing national interest",
-      "url": "https://www.knoe.com/2026/10/17/trump-puts-new-russia-sanctions-that-he-recently-signed-into-law-hold-citing-national-interest/",
-      "source": "knoe.com",
-      "publishedAt": "2026-10-18T01:00:00Z",
-      "fetchedAt": "2026-10-18T01:08:03.545Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.knoe.com/2026/10/17/trump-puts-new-russia-sanctions-that-he-recently-signed-into-law-hold-citing-national-interest/"
-    },
-    {
-      "id": "417f291b49b6aa9f",
-      "category": "全球与地区",
-      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
-      "url": "https://www.kuow.org/npr-news/2026-10-17/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold",
-      "source": "kuow.org",
-      "publishedAt": "2026-10-17T16:45:00Z",
-      "fetchedAt": "2026-10-17T17:16:03.202Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kuow.org/npr-news/2026-10-17/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold"
     }
   ]
 }
