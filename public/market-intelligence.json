@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-22T13:51:06.482Z",
-  "newsUpdatedAt": "2026-10-22T01:34:15.736Z",
-  "assetsUpdatedAt": "2026-10-22T13:51:06.482Z",
+  "generatedAt": "2026-10-22T18:35:06.917Z",
+  "newsUpdatedAt": "2026-10-22T18:35:06.917Z",
+  "assetsUpdatedAt": "2026-10-22T18:35:06.917Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52702.67,
-      "changePercent": -0.29,
+      "price": 52741.48,
+      "changePercent": -0.22,
       "unit": "USD",
-      "asOf": "2026-10-22T09:51:40-04:00",
+      "asOf": "2026-10-22T14:36:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26236.51,
-      "changePercent": -1.75,
+      "price": 25968.34,
+      "changePercent": -2.75,
       "unit": "USD",
-      "asOf": "2026-10-22T09:51:40-04:00",
+      "asOf": "2026-10-22T14:36:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7680.69,
-      "changePercent": -0.99,
+      "price": 7646.06,
+      "changePercent": -1.43,
       "unit": "USD",
-      "asOf": "2026-10-22T09:51:40-04:00",
+      "asOf": "2026-10-22T14:36:40-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4074.83,
-      "changePercent": -1.81,
+      "price": 4051.71,
+      "changePercent": -2.37,
       "unit": "USD",
-      "asOf": "2026-10-22T21:51:10-04:00",
+      "asOf": "2026-10-23T02:36:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 99.25,
-      "changePercent": 2.16,
+      "price": 99.48,
+      "changePercent": 2.4,
       "unit": "USD",
-      "asOf": "2026-10-22T21:51:11-04:00",
+      "asOf": "2026-10-23T02:36:07-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 643.09,
-      "changePercent": -2.26,
+      "price": 639.32,
+      "changePercent": -2.83,
       "unit": "USD",
-      "asOf": "2026-10-22T21:51:10-04:00",
+      "asOf": "2026-10-23T02:36:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,292 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81454,
-      "changePercent": -2.778722323235439,
+      "price": 81134,
+      "changePercent": -4.179380758186565,
       "unit": "USD",
-      "asOf": "2026-10-22T13:50:40.000Z",
+      "asOf": "2026-10-22T18:36:24.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "2f2e1e83497db898",
+      "category": "能源与航运",
+      "title": "AI stocks weigh on markets Thursday as oil rises to highest price since May - National",
+      "url": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/",
+      "source": "globalnews.ca",
+      "publishedAt": "2026-10-22T18:15:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/"
+    },
+    {
+      "id": "fbb73ffda8beb3e5",
+      "category": "数字资产",
+      "title": "PYMNTS | OCC Leaves Stablecoin Rewards Open as Banks Defend Deposits",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/occ-leaves-stablecoin-rewards-door-open-as-banks-defend-deposits/",
+      "source": "pymnts.com",
+      "publishedAt": "2026-10-22T18:15:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.pymnts.com/cryptocurrency/2026/occ-leaves-stablecoin-rewards-door-open-as-banks-defend-deposits/"
+    },
+    {
+      "id": "cad5a4eb9ef393c1",
+      "category": "数字资产",
+      "title": "Bitcoin Mining Difficulty Rises as Hashrate Recovers",
+      "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift",
+      "source": "cointelegraph.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift"
+    },
+    {
+      "id": "3e6a09412bbd782c",
+      "category": "金属与资源",
+      "title": "Gold prices in Qatar drop 1 . 77 percent this week | The Peninsula Qatar",
+      "url": "http://thepeninsulaqatar.com/article/22/10/2026/gold-prices-in-qatar-drop-177-percent-this-week",
+      "source": "thepeninsulaqatar.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Qatar"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://thepeninsulaqatar.com/article/22/10/2026/gold-prices-in-qatar-drop-177-percent-this-week"
+    },
+    {
+      "id": "30c89b5833db14a3",
+      "category": "金属与资源",
+      "title": "Green and Gold Give Back seeks volunteers , host sites",
+      "url": "https://www.couriernews.com/news/green-and-gold-give-back-seeks-volunteers-host-sites/article_5b840b90-2d01-5ece-93da-94ff6d13e759.html",
+      "source": "couriernews.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.couriernews.com/news/green-and-gold-give-back-seeks-volunteers-host-sites/article_5b840b90-2d01-5ece-93da-94ff6d13e759.html"
+    },
+    {
+      "id": "c638582e703d8707",
+      "category": "数字资产",
+      "title": "Bitcoin ETF Flows Follow Bitcoin Prices , Dont Predict Them : DWF Labs",
+      "url": "https://cointelegraph.com/news/bitcoin-etf-flows-follow-price-trends-dwf-labs",
+      "source": "cointelegraph.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cointelegraph.com/news/bitcoin-etf-flows-follow-price-trends-dwf-labs"
+    },
+    {
+      "id": "062152db69b3f53b",
+      "category": "金属与资源",
+      "title": "Gold is no silver bullet and isnt hedging against equity drawdowns , but debasement trade should continue – HSBC",
+      "url": "http://www.kitco.com/news/article/2026-10-22/gold-no-silver-bullet-and-isnt-hedging-against-equity-drawdowns-debasement",
+      "source": "kitco.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.kitco.com/news/article/2026-10-22/gold-no-silver-bullet-and-isnt-hedging-against-equity-drawdowns-debasement"
+    },
+    {
+      "id": "e0cbc258734eb781",
+      "category": "能源与航运",
+      "title": "Freed Russian prisoner Stephen Hubbard has returned to American soil - WSVN 7News | Miami News , Weather , Sports",
+      "url": "https://wsvn.com/news/us-world/stephen-hubbard-released-russia/",
+      "source": "wsvn.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://wsvn.com/news/us-world/stephen-hubbard-released-russia/"
+    },
+    {
+      "id": "1bfdb2039d8427cb",
+      "category": "数字资产",
+      "title": "Cryptohack Roundup : Turkey Holds Hex Founder , Seizes $7 . 15M",
+      "url": "https://www.govinfosecurity.com/cryptohack-roundup-turkey-holds-hex-founder-seizes-715m-a-33174",
+      "source": "govinfosecurity.com",
+      "publishedAt": "2026-10-22T17:45:00Z",
+      "fetchedAt": "2026-10-22T18:35:06.917Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.govinfosecurity.com/cryptohack-roundup-turkey-holds-hex-founder-seizes-715m-a-33174"
+    },
     {
       "id": "06a9a31767688376",
       "category": "数字资产",
@@ -1382,293 +1658,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/20/14-dead-7-injured-in-colombian-illegal-gold-mine-collapse"
-    },
-    {
-      "id": "58d2e84bdf6678d0",
-      "category": "金属与资源",
-      "title": "Convicted gold scammer back in court for similar offence",
-      "url": "https://www.2ec.com.au/local-news/convicted-gold-scammer-back-in-court-for-similar-offence/",
-      "source": "2ec.com.au",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.2ec.com.au/local-news/convicted-gold-scammer-back-in-court-for-similar-offence/"
-    },
-    {
-      "id": "d667f0cfef3ece26",
-      "category": "能源与航运",
-      "title": "Marine life dramatically declined in Gulf of Mexico in years after BP oil spill , study finds",
-      "url": "https://www.wfmz.com/news/us/marine-life-dramatically-declined-in-gulf-of-mexico-in-years-after-bp-oil-spill-study-finds/article_e8586c82-5521-54f2-b2db-899cde26177c.html",
-      "source": "wfmz.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wfmz.com/news/us/marine-life-dramatically-declined-in-gulf-of-mexico-in-years-after-bp-oil-spill-study-finds/article_e8586c82-5521-54f2-b2db-899cde26177c.html"
-    },
-    {
-      "id": "6fb7d1b7b9bb5696",
-      "category": "金属与资源",
-      "title": "14 killed , 7 injured in landslide at illegal gold mine in Colombia",
-      "url": "https://bnonews.com/index.php/2026/10/14-killed-7-injured-in-landslide-at-illegal-gold-mine-in-colombia/",
-      "source": "bnonews.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://bnonews.com/index.php/2026/10/14-killed-7-injured-in-landslide-at-illegal-gold-mine-in-colombia/"
-    },
-    {
-      "id": "f44dc89c71d11ab2",
-      "category": "全球与地区",
-      "title": "Trump waives Russia sanctions , tariffs before they take effect",
-      "url": "http://www.londonmercury.com/news/279381461/trump-waives-russia-sanctions-tariffs-before-they-take-effect",
-      "source": "londonmercury.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.londonmercury.com/news/279381461/trump-waives-russia-sanctions-tariffs-before-they-take-effect"
-    },
-    {
-      "id": "486badc63b62e47a",
-      "category": "金属与资源",
-      "title": "Novem Group Acquires 9 , 128 Shares of iShares Gold Trust $IAU",
-      "url": "https://www.themarketsdaily.com/2026/10/20/novem-group-acquires-9128-shares-of-ishares-gold-trust-iau.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/10/20/novem-group-acquires-9128-shares-of-ishares-gold-trust-iau.html"
-    },
-    {
-      "id": "d527018bee6980a6",
-      "category": "金属与资源",
-      "title": "Copper Shores Giving Tuesday Spotlight Series ; Soldier Salvation",
-      "url": "https://www.kbear102.com/2026/10/19/copper-shores-giving-tuesday-spotlight-series-soldier-salvation/",
-      "source": "kbear102.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kbear102.com/2026/10/19/copper-shores-giving-tuesday-spotlight-series-soldier-salvation/"
-    },
-    {
-      "id": "b84b45d56541ce61",
-      "category": "A股与政策",
-      "title": "A股掀新一轮回购增持潮 科技股 真金白银 护盘释放积极信号 - 千龙网 · 中国首都网",
-      "url": "https://finance.qianlong.com/2026/1020/8740488.shtml",
-      "source": "finance.qianlong.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://finance.qianlong.com/2026/1020/8740488.shtml"
-    },
-    {
-      "id": "363b5fb99ac5dc28",
-      "category": "数字资产",
-      "title": "NC woman loses savings to crypto ATM scam . DOJ confirms it looking into crypto kiosk companies",
-      "url": "https://www.wral.com/news/investigates/life-savings-loss-crypto-atm-scam-bitcoin-new-nc-laws-october-2026/",
-      "source": "wral.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wral.com/news/investigates/life-savings-loss-crypto-atm-scam-bitcoin-new-nc-laws-october-2026/"
-    },
-    {
-      "id": "017379ec83baf719",
-      "category": "金属与资源",
-      "title": "Colombia gold mine collapse kills at least 14",
-      "url": "https://www.perthnow.com.au/news/disaster-and-emergency/colombia-gold-mine-collapse-kills-at-least-14-c-23045831",
-      "source": "perthnow.com.au",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.perthnow.com.au/news/disaster-and-emergency/colombia-gold-mine-collapse-kills-at-least-14-c-23045831"
     }
   ]
 }
