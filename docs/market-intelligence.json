@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-22T18:35:06.917Z",
-  "newsUpdatedAt": "2026-10-22T18:35:06.917Z",
-  "assetsUpdatedAt": "2026-10-22T18:35:06.917Z",
+  "generatedAt": "2026-10-22T22:23:56.870Z",
+  "newsUpdatedAt": "2026-10-22T22:23:56.870Z",
+  "assetsUpdatedAt": "2026-10-22T22:23:56.870Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52741.48,
-      "changePercent": -0.22,
+      "price": 52867.98,
+      "changePercent": 0.02,
       "unit": "USD",
-      "asOf": "2026-10-22T14:36:40-04:00",
+      "asOf": "2026-10-22T16:31:52-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25968.34,
-      "changePercent": -2.75,
+      "price": 26008.86,
+      "changePercent": -2.6,
       "unit": "USD",
-      "asOf": "2026-10-22T14:36:40-04:00",
+      "asOf": "2026-10-22T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7646.06,
-      "changePercent": -1.43,
+      "price": 7663.43,
+      "changePercent": -1.21,
       "unit": "USD",
-      "asOf": "2026-10-22T14:36:40-04:00",
+      "asOf": "2026-10-22T16:31:48-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4051.71,
-      "changePercent": -2.37,
+      "price": 4044.61,
+      "changePercent": -0.39,
       "unit": "USD",
-      "asOf": "2026-10-23T02:36:06-04:00",
+      "asOf": "2026-10-23T06:25:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 99.48,
-      "changePercent": 2.4,
+      "price": 99.05,
+      "changePercent": -0.43,
       "unit": "USD",
-      "asOf": "2026-10-23T02:36:07-04:00",
+      "asOf": "2026-10-23T06:24:54-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 639.32,
-      "changePercent": -2.83,
+      "price": 640.25,
+      "changePercent": 0.07,
       "unit": "USD",
-      "asOf": "2026-10-23T02:36:06-04:00",
+      "asOf": "2026-10-23T06:19:39-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,383 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81134,
-      "changePercent": -4.179380758186565,
+      "price": 81270,
+      "changePercent": -3.912092002447142,
       "unit": "USD",
-      "asOf": "2026-10-22T18:36:24.000Z",
+      "asOf": "2026-10-22T22:24:35.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "2b9bfe0b2c341e61",
+      "category": "能源与航运",
+      "title": "Iran says seven oil tankers damaged overnight in Strait of Hormuz",
+      "url": "https://www.dunfermlinepress.com/news/national/26659299.iran-says-seven-oil-tankers-damaged-overnight-strait-hormuz/",
+      "source": "dunfermlinepress.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dunfermlinepress.com/news/national/26659299.iran-says-seven-oil-tankers-damaged-overnight-strait-hormuz/"
+    },
+    {
+      "id": "2847430e62a86304",
+      "category": "能源与航运",
+      "title": "Colorado Dem Manny Rutinel Backs Obama Interior Secretary Who Curbed Oil Leases for President in 2028",
+      "url": "https://freebeacon.com/democrats/colorado-dem-manny-rutinel-backs-obama-interior-secretary-who-curbed-oil-leases-for-president-in-2028/",
+      "source": "freebeacon.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://freebeacon.com/democrats/colorado-dem-manny-rutinel-backs-obama-interior-secretary-who-curbed-oil-leases-for-president-in-2028/"
+    },
+    {
+      "id": "42e82b749e6263b8",
+      "category": "金属与资源",
+      "title": "Boroo signs $140M deal for Yukon Eagle gold mine - The Northern Miner",
+      "url": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
+      "source": "northernminer.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/"
+    },
+    {
+      "id": "91375c1377ab33f4",
+      "category": "数字资产",
+      "title": "New York secures nearly $6 million from crypto scammers who targeted Haitian communities",
+      "url": "https://haitiantimes.com/2026/10/22/new-york-crypto-scams-haitian-communities-6-million/",
+      "source": "haitiantimes.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Haiti"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://haitiantimes.com/2026/10/22/new-york-crypto-scams-haitian-communities-6-million/"
+    },
+    {
+      "id": "d9cb447eabccea76",
+      "category": "能源与航运",
+      "title": "Maine heating oil hits record $6 . 04 per gallon",
+      "url": "https://www.wagmtv.com/2026/10/22/maine-heating-oil-hits-record-604-per-gallon/",
+      "source": "wagmtv.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wagmtv.com/2026/10/22/maine-heating-oil-hits-record-604-per-gallon/"
+    },
+    {
+      "id": "9c91b03f5284e289",
+      "category": "金属与资源",
+      "title": "Liberty Gold stretches Black Pine reach in Idaho",
+      "url": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/",
+      "source": "mining.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/"
+    },
+    {
+      "id": "337fa29727cc0799",
+      "category": "能源与航运",
+      "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
+      "url": "https://www.durangoherald.com/articles/associated-press/asian-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/",
+      "source": "durangoherald.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.durangoherald.com/articles/associated-press/asian-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/"
+    },
+    {
+      "id": "189d61a3d28b9b70",
+      "category": "能源与航运",
+      "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+      "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108",
+      "source": "nbcnews.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108"
+    },
+    {
+      "id": "83d9e4f0320ce9a0",
+      "category": "全球与地区",
+      "title": "Kansas Republican blames record - high diesel prices on Ukraine war , not Iran conflict",
+      "url": "https://cbs4local.com/news/nation-world/kansas-republican-roger-marshall-blames-record-high-diesel-prices-on-ukraine-war-not-iran-conflict-2026-midterm-elections-rrt",
+      "source": "cbs4local.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cbs4local.com/news/nation-world/kansas-republican-roger-marshall-blames-record-high-diesel-prices-on-ukraine-war-not-iran-conflict-2026-midterm-elections-rrt"
+    },
+    {
+      "id": "7552c4d7675fbd99",
+      "category": "能源与航运",
+      "title": "Trump math on US deal for Venezuelan oil doesnt add up , experts say",
+      "url": "https://www.sandiegouniontribune.com/2026/10/22/venezuela-reserve-oil-claims/",
+      "source": "sandiegouniontribune.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.sandiegouniontribune.com/2026/10/22/venezuela-reserve-oil-claims/"
+    },
+    {
+      "id": "8f52b03e30dfc7ec",
+      "category": "能源与航运",
+      "title": "Nepal condemns attacks on civilians after citizen killed by drone debris at Saudi oil field",
+      "url": "http://www.nepalnational.com/news/279393166/nepal-condemns-attacks-on-civilians-after-citizen-killed-by-drone-debris-at-saudi-oil-field",
+      "source": "nepalnational.com",
+      "publishedAt": "2026-10-22T22:00:00Z",
+      "fetchedAt": "2026-10-22T22:23:56.870Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nepal"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.nepalnational.com/news/279393166/nepal-condemns-attacks-on-civilians-after-citizen-killed-by-drone-debris-at-saudi-oil-field"
+    },
     {
       "id": "2f2e1e83497db898",
       "category": "能源与航运",
@@ -1307,357 +1672,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.prokerala.com/news/articles/a1826911.html"
-    },
-    {
-      "id": "e9c0900ba9a968fb",
-      "category": "A股与政策",
-      "title": "积极信号 ！ 外资对A股调研热度持续攀升",
-      "url": "https://stock.jrj.com.cn/2026/10/21073558798875.shtml",
-      "source": "stock.jrj.com.cn",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://stock.jrj.com.cn/2026/10/21073558798875.shtml"
-    },
-    {
-      "id": "55443767193e95c6",
-      "category": "能源与航运",
-      "title": "Heating oil costs test political loyalties in northern Maine",
-      "url": "https://www.kpax.com/politics/midterm-elections/heating-oil-costs-test-political-loyalties-in-northern-maine",
-      "source": "kpax.com",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kpax.com/politics/midterm-elections/heating-oil-costs-test-political-loyalties-in-northern-maine"
-    },
-    {
-      "id": "c0ac50a7d5283f4c",
-      "category": "科技与产业",
-      "title": "Delivery Robots Allegedly Scan Customers And Collect Biometric Data , Lawsuits Claim",
-      "url": "https://realrock1057.iheart.com/content/2026-10-20-delivery-robots-allegedly-scan-customers-and-collect-biometric-data-lawsuits-claim/",
-      "source": "realrock1057.iheart.com",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://realrock1057.iheart.com/content/2026-10-20-delivery-robots-allegedly-scan-customers-and-collect-biometric-data-lawsuits-claim/"
-    },
-    {
-      "id": "4ed9d74b6abc9974",
-      "category": "科技与产业",
-      "title": "II Międzynarodowe Spotkanie Naukowo - Szkoleniowe „ Robotyka i nowoczesne formy kształcenia w zawodach medycznych . Od technologii do praktyki klinicznej - MedExpress . pl",
-      "url": "https://www.medexpress.pl/kalendarium/wydarzenie/3741/",
-      "source": "medexpress.pl",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Poland"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.medexpress.pl/kalendarium/wydarzenie/3741/"
-    },
-    {
-      "id": "335578bb810627ea",
-      "category": "科技与产业",
-      "title": "Secret Trigger Words Could Make AI - Powered Robots Dangerous , And These Researchers Developed A Defense",
-      "url": "https://www.eurasiareview.com/20102026-secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense/",
-      "source": "eurasiareview.com",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.eurasiareview.com/20102026-secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense/"
-    },
-    {
-      "id": "a2df3efd0da58836",
-      "category": "全球与地区",
-      "title": "One Kurdish Peace Deal Could Ignite Another Middle Eastern Conflict - Analysis",
-      "url": "https://www.eurasiareview.com/21102026-one-kurdish-peace-deal-could-ignite-another-middle-eastern-conflict-analysis/",
-      "source": "eurasiareview.com",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.eurasiareview.com/21102026-one-kurdish-peace-deal-could-ignite-another-middle-eastern-conflict-analysis/"
-    },
-    {
-      "id": "0fce4dc7288e1380",
-      "category": "全球与地区",
-      "title": "Desarrollan la UT Altamira y la UAT tecnología para la resolución pacífica de conflictos escolares",
-      "url": "https://horacero.com.mx/tamaulipas/ut-altamira-uat-tecnologia-2",
-      "source": "horacero.com.mx",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Mexico"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://horacero.com.mx/tamaulipas/ut-altamira-uat-tecnologia-2"
-    },
-    {
-      "id": "6ac62e221671b271",
-      "category": "能源与航运",
-      "title": "Weretilneck expuso sobre el futuro productivo de Río Negro en la Energy Trade Mission",
-      "url": "https://www.anroca.com.ar/noticias/2026/10/20/228737-weretilneck-expuso-sobre-el-futuro-productivo-de-rio-negro-en-la-energy-trade-mission",
-      "source": "anroca.com.ar",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.anroca.com.ar/noticias/2026/10/20/228737-weretilneck-expuso-sobre-el-futuro-productivo-de-rio-negro-en-la-energy-trade-mission"
-    },
-    {
-      "id": "b9e78dcc560bef94",
-      "category": "金属与资源",
-      "title": "Canadian man tries to steal over $400 , 000 in gold from elderly Laramie woman , police say",
-      "url": "http://www.wyomingnews.com/news/local_news/canadian-man-tries-to-steal-over-400-000-in-gold-from-elderly-laramie-woman-police/article_4bc78c95-1e58-4ce4-9e20-5f411c988c3f.html",
-      "source": "wyomingnews.com",
-      "publishedAt": "2026-10-21T01:15:00Z",
-      "fetchedAt": "2026-10-21T01:39:10.292Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.wyomingnews.com/news/local_news/canadian-man-tries-to-steal-over-400-000-in-gold-from-elderly-laramie-woman-police/article_4bc78c95-1e58-4ce4-9e20-5f411c988c3f.html"
-    },
-    {
-      "id": "cd11b47f4f6f8a4d",
-      "category": "金属与资源",
-      "title": "Gold mine collapse kills at least 6 in southwest Colombia",
-      "url": "https://www.wral.com/news/ap/bffbd-gold-mine-collapse-kills-at-least-6-in-southwest-colombia/",
-      "source": "wral.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wral.com/news/ap/bffbd-gold-mine-collapse-kills-at-least-6-in-southwest-colombia/"
-    },
-    {
-      "id": "8907644e59ecc33e",
-      "category": "金属与资源",
-      "title": "14 dead , 7 injured in Colombian illegal gold mine collapse",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/20/14-dead-7-injured-in-colombian-illegal-gold-mine-collapse",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-10-20T01:30:00Z",
-      "fetchedAt": "2026-10-20T01:52:26.048Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/20/14-dead-7-injured-in-colombian-illegal-gold-mine-collapse"
     }
   ]
 }
