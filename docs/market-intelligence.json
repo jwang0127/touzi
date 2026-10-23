@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-22T22:23:56.870Z",
-  "newsUpdatedAt": "2026-10-22T22:23:56.870Z",
-  "assetsUpdatedAt": "2026-10-22T22:23:56.870Z",
+  "generatedAt": "2026-10-23T01:34:46.058Z",
+  "newsUpdatedAt": "2026-10-23T01:34:46.058Z",
+  "assetsUpdatedAt": "2026-10-23T01:34:46.058Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -17,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3658.03,
-      "changePercent": -1.48,
+      "price": 3611.65,
+      "changePercent": -1.27,
       "unit": "CNY",
-      "asOf": "2026-10-22T16:15:00+08:00",
+      "asOf": "2026-10-23T09:36:18+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -28,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11357.32,
-      "changePercent": -2.96,
+      "price": 11187.3,
+      "changePercent": -1.5,
       "unit": "CNY",
-      "asOf": "2026-10-22T16:14:00+08:00",
+      "asOf": "2026-10-23T09:36:18+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 22934.68,
-      "changePercent": -3.03,
+      "price": 23027.98,
+      "changePercent": 0.41,
       "unit": "HKD",
-      "asOf": "2026-10-22T18:31:35+08:00",
+      "asOf": "2026-10-23T09:21:17+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7689.19,
-      "changePercent": -3.2,
+      "price": 7744.56,
+      "changePercent": 0.72,
       "unit": "HKD",
-      "asOf": "2026-10-22T16:08:58+08:00",
+      "asOf": "2026-10-23T09:21:16+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4044.61,
-      "changePercent": -0.39,
+      "price": 4026.76,
+      "changePercent": -0.83,
       "unit": "USD",
-      "asOf": "2026-10-23T06:25:03-04:00",
+      "asOf": "2026-10-23T09:36:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 99.05,
-      "changePercent": -0.43,
+      "price": 99.82,
+      "changePercent": 0.35,
       "unit": "USD",
-      "asOf": "2026-10-23T06:24:54-04:00",
+      "asOf": "2026-10-23T09:36:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 640.25,
-      "changePercent": 0.07,
+      "price": 639.38,
+      "changePercent": -0.07,
       "unit": "USD",
-      "asOf": "2026-10-23T06:19:39-04:00",
+      "asOf": "2026-10-23T09:36:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,16 +129,147 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 81270,
-      "changePercent": -3.912092002447142,
+      "price": 81311,
+      "changePercent": -3.189431159443004,
       "unit": "USD",
-      "asOf": "2026-10-22T22:24:35.000Z",
+      "asOf": "2026-10-23T01:35:33.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "a58003d0b0f7a0aa",
+      "category": "能源与航运",
+      "title": "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war",
+      "url": "https://www.kmvt.com/2026/10/22/iran-says-7-oil-tankers-were-attacked-strait-hormuz-fears-grow-return-war/",
+      "source": "kmvt.com",
+      "publishedAt": "2026-10-23T01:15:00Z",
+      "fetchedAt": "2026-10-23T01:34:46.058Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.kmvt.com/2026/10/22/iran-says-7-oil-tankers-were-attacked-strait-hormuz-fears-grow-return-war/"
+    },
+    {
+      "id": "3b99b2cd4a90ac6e",
+      "category": "能源与航运",
+      "title": "COP31 inconvenient truth : the world still runs on oil - On Line Opinion",
+      "url": "https://www.onlineopinion.com.au/view.asp?article=24219",
+      "source": "onlineopinion.com.au",
+      "publishedAt": "2026-10-23T01:15:00Z",
+      "fetchedAt": "2026-10-23T01:34:46.058Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.onlineopinion.com.au/view.asp?article=24219"
+    },
+    {
+      "id": "138ee16cecf3a571",
+      "category": "金属与资源",
+      "title": "MERCURY RISING : A San Francisco Lab Says It Has Made Gold From Mercury as Bullion Slides to Its Lowest Since August . It Is the News Zimbabwe Gold Mafia Did Not Want to Hear",
+      "url": "https://www.zimdaily.com/article/business-2026-10-22-fusion-gold-mafia/",
+      "source": "zimdaily.com",
+      "publishedAt": "2026-10-23T01:15:00Z",
+      "fetchedAt": "2026-10-23T01:34:46.058Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Zimbabwe"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zimdaily.com/article/business-2026-10-22-fusion-gold-mafia/"
+    },
+    {
+      "id": "8e0525de2445525c",
+      "category": "数字资产",
+      "title": "Solayer Pay Opens Stablecoin Deposits on Solana , Ethereum , Arbitrum , BNB Chain and Base",
+      "url": "http://www.pittsburghstar.com/news/279393182/solayer-pay-opens-stablecoin-deposits-on-solana-ethereum-arbitrum-bnb-chain-and-base",
+      "source": "pittsburghstar.com",
+      "publishedAt": "2026-10-23T01:15:00Z",
+      "fetchedAt": "2026-10-23T01:34:46.058Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.pittsburghstar.com/news/279393182/solayer-pay-opens-stablecoin-deposits-on-solana-ethereum-arbitrum-bnb-chain-and-base"
+    },
     {
       "id": "2b9bfe0b2c341e61",
       "category": "能源与航运",
@@ -1538,140 +1671,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-10/69891084-gold-bleibt-nahe-dem-wochentief-gedrueckt-da-die-baeren-angesichts-von-fed-wetten-und-einem-anstieg-des-usd-einen-bruch-der-4-100-usd-ins-auge-fassen-545.htm"
-    },
-    {
-      "id": "a45f4fe8b7d082ed",
-      "category": "金属与资源",
-      "title": "Hudbay and Mitsubishi Approve Copper World Project Construction ; Advancing Next Major U . S . Copper Mine Towards First Production in 2029",
-      "url": "https://www.timminspress.com/press-releases/globe-newswire/hudbay-and-mitsubishi-approve-copper-world-project-construction-advancing-next-major-u-s-copper-mine-towards-first-production-in-2029/",
-      "source": "timminspress.com",
-      "publishedAt": "2026-10-21T07:00:00Z",
-      "fetchedAt": "2026-10-21T07:44:27.134Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.timminspress.com/press-releases/globe-newswire/hudbay-and-mitsubishi-approve-copper-world-project-construction-advancing-next-major-u-s-copper-mine-towards-first-production-in-2029/"
-    },
-    {
-      "id": "8046c4a8e28c52f5",
-      "category": "科技与产业",
-      "title": "Delivery robots accused of scanning customer faces , sharing biometric data",
-      "url": "https://www.texarkanagazette.com/news/2026/oct/20/delivery-robots-accused-of-scanning-customers/",
-      "source": "texarkanagazette.com",
-      "publishedAt": "2026-10-21T07:00:00Z",
-      "fetchedAt": "2026-10-21T07:44:27.134Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.texarkanagazette.com/news/2026/oct/20/delivery-robots-accused-of-scanning-customers/"
-    },
-    {
-      "id": "f16dc13016c54f30",
-      "category": "金属与资源",
-      "title": "Asian Para Games : Bhagyashri wins silver in women shot put F34",
-      "url": "https://www.prokerala.com/news/articles/a1826928.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-10-21T07:00:00Z",
-      "fetchedAt": "2026-10-21T07:44:27.134Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1826928.html"
-    },
-    {
-      "id": "bd8d78b63c844984",
-      "category": "金属与资源",
-      "title": "Asian Para Games : Manjeet strikes silver in men javelin throw F13 category",
-      "url": "https://www.prokerala.com/news/articles/a1826911.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-10-21T07:00:00Z",
-      "fetchedAt": "2026-10-21T07:44:27.134Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1826911.html"
     }
   ]
 }
