@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-24T18:12:18.764Z",
-  "newsUpdatedAt": "2026-10-24T00:48:54.501Z",
-  "assetsUpdatedAt": "2026-10-24T18:12:18.764Z",
+  "generatedAt": "2026-10-24T20:55:25.073Z",
+  "newsUpdatedAt": "2026-10-24T20:55:25.073Z",
+  "assetsUpdatedAt": "2026-10-24T20:55:25.073Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,140 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80276,
-      "changePercent": -1.449996761735353,
+      "price": 80476,
+      "changePercent": -1.1399903130149551,
       "unit": "USD",
-      "asOf": "2026-10-24T18:12:45.000Z",
+      "asOf": "2026-10-24T20:55:46.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "b883193a1ba4cc40",
+      "category": "能源与航运",
+      "title": "SNP says united kingdom must rule out use of Scottish revenue for English nuclear energy",
+      "url": "https://www.bracknellnews.co.uk/news/national/26667270.snp-says-uk-must-rule-use-scottish-revenue-english-nuclear-energy/",
+      "source": "bracknellnews.co.uk",
+      "publishedAt": "2026-10-24T19:15:00Z",
+      "fetchedAt": "2026-10-24T20:55:25.073Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bracknellnews.co.uk/news/national/26667270.snp-says-uk-must-rule-use-scottish-revenue-english-nuclear-energy/"
+    },
+    {
+      "id": "602504c8dc28f886",
+      "category": "能源与航运",
+      "title": "Houthis say they attacked Saudi oil sites ; strikes reported in Aden",
+      "url": "https://whbl.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/",
+      "source": "whbl.com",
+      "publishedAt": "2026-10-24T19:15:00Z",
+      "fetchedAt": "2026-10-24T20:55:25.073Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://whbl.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/"
+    },
+    {
+      "id": "af17b28f6e39fd97",
+      "category": "数字资产",
+      "title": "A Botnet Used Poetry To Mine Crypto From Over 3 , 000 Servers",
+      "url": "https://www.bgr.com/2291192/botnet-uses-poetry-mine-crypto-ai-servers/",
+      "source": "bgr.com",
+      "publishedAt": "2026-10-24T19:15:00Z",
+      "fetchedAt": "2026-10-24T20:55:25.073Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bgr.com/2291192/botnet-uses-poetry-mine-crypto-ai-servers/"
+    },
+    {
+      "id": "dd111d2c58c0d4be",
+      "category": "科技与产业",
+      "title": "Musk quiere 20 . 000 robots por semana para que todos tengan un Arturito en casa",
+      "url": "https://www.asteriscos.tv/noticia-81005.html",
+      "source": "asteriscos.tv",
+      "publishedAt": "2026-10-24T19:15:00Z",
+      "fetchedAt": "2026-10-24T20:55:25.073Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.asteriscos.tv/noticia-81005.html"
+    },
     {
       "id": "2a8a48cd124dafd5",
       "category": "数字资产",
@@ -1552,136 +1674,6 @@
       "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://finance.eastmoney.com/a/202610223903321285.html"
-    },
-    {
-      "id": "ec16d3440833de65",
-      "category": "能源与航运",
-      "title": "Why is Rubio visiting world largest oil refinery in India – Ya Libnan",
-      "url": "https://yalibnan.com/2026/10/22/why-is-rubio-visiting-worlds-largest-oil-refinery-in-india/",
-      "source": "yalibnan.com",
-      "publishedAt": "2026-10-22T01:00:00Z",
-      "fetchedAt": "2026-10-22T01:34:15.736Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Syria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://yalibnan.com/2026/10/22/why-is-rubio-visiting-worlds-largest-oil-refinery-in-india/"
-    },
-    {
-      "id": "77f4c662f46f4e39",
-      "category": "金属与资源",
-      "title": "Hudbay , Mitsubishi approve Copper World construction",
-      "url": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/",
-      "source": "mining.com",
-      "publishedAt": "2026-10-21T22:00:00Z",
-      "fetchedAt": "2026-10-21T22:24:32.455Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/"
-    },
-    {
-      "id": "7ced283ce390b2fa",
-      "category": "数字资产",
-      "title": "Gas Prices Are Skyrocketing . Can Bitcoin Actually Hedge Against Inflation ?",
-      "url": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-10-21T22:00:00Z",
-      "fetchedAt": "2026-10-21T22:24:32.455Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/gas-prices-skyrocketing-bitcoin-actually-205100000.html"
-    },
-    {
-      "id": "d4fdcad4bf4fcb4c",
-      "category": "金属与资源",
-      "title": "Fortuna targets deeper Lindero pit after gold hits",
-      "url": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
-      "source": "northernminer.com",
-      "publishedAt": "2026-10-21T22:00:00Z",
-      "fetchedAt": "2026-10-21T22:24:32.455Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/"
     }
   ]
 }
