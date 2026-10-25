@@ -1,11 +1,13 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-25T14:25:31.315Z",
-  "newsUpdatedAt": "2026-10-25T14:25:31.315Z",
-  "assetsUpdatedAt": "2026-10-25T14:25:31.315Z",
+  "generatedAt": "2026-10-25T18:26:03.033Z",
+  "newsUpdatedAt": "2026-10-25T18:26:03.033Z",
+  "assetsUpdatedAt": "2026-10-25T18:26:03.033Z",
   "sourceStatus": {
-    "state": "PASS",
-    "errors": [],
+    "state": "REVIEW",
+    "errors": [
+      "GDELT：HTTP 429"
+    ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -127,16 +129,50 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80269,
-      "changePercent": 0.24732477987334192,
+      "price": 80622,
+      "changePercent": 0.4631280115555907,
       "unit": "USD",
-      "asOf": "2026-10-25T14:26:17.000Z",
+      "asOf": "2026-10-25T18:26:29.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "fb66ecdb5fef0676",
+      "category": "金属与资源",
+      "title": "Kolhapur Panhala Samar Chavan Theft who Stole Gold from Uncle House and Bought Thar Inside Story ; गळ्यात यशाचा हार पडण्याऐवजी दारात थार ची इच्छा ; चुलत्याचं सोनं चोरून काकालाच गाडीच्या पूजेला बोलावलं , समर चव्हाणच्या अजब चोरीची इनसाईड स्टोरी",
+      "url": "https://maharashtratimes.com/maharashtra/kolhapur/kolhapur-panhala-samar-chavan-theft-who-stole-gold-from-uncle-house-and-bought-thar-inside-story/articleshow/135194734.cms",
+      "source": "maharashtratimes.com",
+      "publishedAt": "2026-10-25T18:00:00Z",
+      "fetchedAt": "2026-10-25T18:26:03.033Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://maharashtratimes.com/maharashtra/kolhapur/kolhapur-panhala-samar-chavan-theft-who-stole-gold-from-uncle-house-and-bought-thar-inside-story/articleshow/135194734.cms"
+    },
     {
       "id": "93fe96528aad16b0",
       "category": "能源与航运",
@@ -1667,32 +1703,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.pymnts.com/cryptocurrency/2026/occ-leaves-stablecoin-rewards-door-open-as-banks-defend-deposits/"
-    },
-    {
-      "id": "cad5a4eb9ef393c1",
-      "category": "数字资产",
-      "title": "Bitcoin Mining Difficulty Rises as Hashrate Recovers",
-      "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift",
-      "source": "cointelegraph.com",
-      "publishedAt": "2026-10-22T17:45:00Z",
-      "fetchedAt": "2026-10-22T18:35:06.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "偏正面",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift"
     }
   ]
 }
