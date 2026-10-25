@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-25T18:26:03.033Z",
-  "newsUpdatedAt": "2026-10-25T18:26:03.033Z",
-  "assetsUpdatedAt": "2026-10-25T18:26:03.033Z",
+  "generatedAt": "2026-10-25T21:51:36.277Z",
+  "newsUpdatedAt": "2026-10-25T21:51:36.277Z",
+  "assetsUpdatedAt": "2026-10-25T21:51:36.277Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,236 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80622,
-      "changePercent": 0.4631280115555907,
+      "price": 80226,
+      "changePercent": -0.0892064305224691,
       "unit": "USD",
-      "asOf": "2026-10-25T18:26:29.000Z",
+      "asOf": "2026-10-25T21:51:50.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e607c813c597f049",
+      "category": "数字资产",
+      "title": "JPMorgan Has Nearly $900 Million in Tokenized Funds on Ethereum and Solana . Which Chain Benefits More ?",
+      "url": "https://www.aol.com/articles/jpmorgan-nearly-900-million-tokenized-183043000.html",
+      "source": "aol.com",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.com/articles/jpmorgan-nearly-900-million-tokenized-183043000.html"
+    },
+    {
+      "id": "7ae26023a54b8d66",
+      "category": "全球与地区",
+      "title": "Barack Obama mocks President Trump tariff war with Canada",
+      "url": "https://toronto.citynews.ca/2026/10/25/well-known-evil-empire-barack-obama-mocks-president-trumps-tariff-war-with-canada/",
+      "source": "toronto.citynews.ca",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://toronto.citynews.ca/2026/10/25/well-known-evil-empire-barack-obama-mocks-president-trumps-tariff-war-with-canada/"
+    },
+    {
+      "id": "bf4abcd433693674",
+      "category": "金属与资源",
+      "title": "Taiwanese pastry chefs win golds at Puglia Cake Festival",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/26/2003866623",
+      "source": "taipeitimes.com",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/26/2003866623"
+    },
+    {
+      "id": "135722973fe5a273",
+      "category": "能源与航运",
+      "title": "CENTCOM : Πλήρης έλεγχος των Στενών του Hormuz – 3 . 000 πλοία και 1 , 5 δισ . βαρέλια πετρελαίου υπό την προστασία των ΗΠΑ",
+      "url": "https://www.bankingnews.gr/diethni/articles/907118/centcom-pliris-elegxos-ton-stenon-tou-hormuz-3-000-ploia-kai-1-5-dis-varelia-petrelaiou-ypo-tin-prostasia-ton-ipa",
+      "source": "bankingnews.gr",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Greece"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/907118/centcom-pliris-elegxos-ton-stenon-tou-hormuz-3-000-ploia-kai-1-5-dis-varelia-petrelaiou-ypo-tin-prostasia-ton-ipa"
+    },
+    {
+      "id": "61a66501dc081144",
+      "category": "全球与地区",
+      "title": "Trending stocks this week as markets navigate AI concerns , geopolitical tensions",
+      "url": "https://seekingalpha.com/news/4656504-trending-stocks-this-week-as-markets-navigate-ai-concerns-geopolitical-tensions",
+      "source": "seekingalpha.com",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://seekingalpha.com/news/4656504-trending-stocks-this-week-as-markets-navigate-ai-concerns-geopolitical-tensions"
+    },
+    {
+      "id": "33a2cacdf7e033d4",
+      "category": "金属与资源",
+      "title": "Obama verspottet Trump : Fiese Gold - Pointe trifft US - Präsident ins Mark",
+      "url": "https://www.harzkurier.de/politik/article413501766/saddam-hussein-trifft-cheesecake-factory-wie-obama-trumps-gold-wahn-verspottet.html",
+      "source": "harzkurier.de",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.harzkurier.de/politik/article413501766/saddam-hussein-trifft-cheesecake-factory-wie-obama-trumps-gold-wahn-verspottet.html"
+    },
+    {
+      "id": "785f9b13cc92d065",
+      "category": "全球与地区",
+      "title": "Netanyahu pitch : Can Israel use crypto to evade economic sanctions ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "url": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/",
+      "source": "grenadachronicle.com",
+      "publishedAt": "2026-10-25T19:15:00Z",
+      "fetchedAt": "2026-10-25T21:51:36.277Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/"
+    },
     {
       "id": "fb66ecdb5fef0676",
       "category": "金属与资源",
@@ -1475,234 +1695,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/"
-    },
-    {
-      "id": "337fa29727cc0799",
-      "category": "能源与航运",
-      "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
-      "url": "https://www.durangoherald.com/articles/associated-press/asian-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/",
-      "source": "durangoherald.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.durangoherald.com/articles/associated-press/asian-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/"
-    },
-    {
-      "id": "189d61a3d28b9b70",
-      "category": "能源与航运",
-      "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
-      "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108",
-      "source": "nbcnews.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108"
-    },
-    {
-      "id": "83d9e4f0320ce9a0",
-      "category": "全球与地区",
-      "title": "Kansas Republican blames record - high diesel prices on Ukraine war , not Iran conflict",
-      "url": "https://cbs4local.com/news/nation-world/kansas-republican-roger-marshall-blames-record-high-diesel-prices-on-ukraine-war-not-iran-conflict-2026-midterm-elections-rrt",
-      "source": "cbs4local.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cbs4local.com/news/nation-world/kansas-republican-roger-marshall-blames-record-high-diesel-prices-on-ukraine-war-not-iran-conflict-2026-midterm-elections-rrt"
-    },
-    {
-      "id": "7552c4d7675fbd99",
-      "category": "能源与航运",
-      "title": "Trump math on US deal for Venezuelan oil doesnt add up , experts say",
-      "url": "https://www.sandiegouniontribune.com/2026/10/22/venezuela-reserve-oil-claims/",
-      "source": "sandiegouniontribune.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sandiegouniontribune.com/2026/10/22/venezuela-reserve-oil-claims/"
-    },
-    {
-      "id": "8f52b03e30dfc7ec",
-      "category": "能源与航运",
-      "title": "Nepal condemns attacks on civilians after citizen killed by drone debris at Saudi oil field",
-      "url": "http://www.nepalnational.com/news/279393166/nepal-condemns-attacks-on-civilians-after-citizen-killed-by-drone-debris-at-saudi-oil-field",
-      "source": "nepalnational.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nepal"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.nepalnational.com/news/279393166/nepal-condemns-attacks-on-civilians-after-citizen-killed-by-drone-debris-at-saudi-oil-field"
-    },
-    {
-      "id": "2f2e1e83497db898",
-      "category": "能源与航运",
-      "title": "AI stocks weigh on markets Thursday as oil rises to highest price since May - National",
-      "url": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/",
-      "source": "globalnews.ca",
-      "publishedAt": "2026-10-22T18:15:00Z",
-      "fetchedAt": "2026-10-22T18:35:06.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/"
-    },
-    {
-      "id": "fbb73ffda8beb3e5",
-      "category": "数字资产",
-      "title": "PYMNTS | OCC Leaves Stablecoin Rewards Open as Banks Defend Deposits",
-      "url": "https://www.pymnts.com/cryptocurrency/2026/occ-leaves-stablecoin-rewards-door-open-as-banks-defend-deposits/",
-      "source": "pymnts.com",
-      "publishedAt": "2026-10-22T18:15:00Z",
-      "fetchedAt": "2026-10-22T18:35:06.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.pymnts.com/cryptocurrency/2026/occ-leaves-stablecoin-rewards-door-open-as-banks-defend-deposits/"
     }
   ]
 }
