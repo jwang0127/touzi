@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-27T13:17:43.356Z",
-  "newsUpdatedAt": "2026-10-25T21:51:36.277Z",
-  "assetsUpdatedAt": "2026-10-27T13:17:43.356Z",
+  "generatedAt": "2026-10-27T19:27:12.576Z",
+  "newsUpdatedAt": "2026-10-27T19:27:12.576Z",
+  "assetsUpdatedAt": "2026-10-27T19:27:12.576Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52361.58,
-      "changePercent": 0.28,
+      "price": 52412.99,
+      "changePercent": 0.1,
       "unit": "USD",
-      "asOf": "2026-10-26T16:43:41-04:00",
+      "asOf": "2026-10-27T15:28:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 26169.38,
-      "changePercent": 0.82,
+      "price": 26502.39,
+      "changePercent": 1.27,
       "unit": "USD",
-      "asOf": "2026-10-26T17:15:59-04:00",
+      "asOf": "2026-10-27T15:28:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7676.77,
-      "changePercent": 0.7,
+      "price": 7727.41,
+      "changePercent": 0.66,
       "unit": "USD",
-      "asOf": "2026-10-26T16:43:43-04:00",
+      "asOf": "2026-10-27T15:28:19-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4039.5,
-      "changePercent": 0.03,
+      "price": 4074.51,
+      "changePercent": 0.89,
       "unit": "USD",
-      "asOf": "2026-10-27T21:18:10-04:00",
+      "asOf": "2026-10-28T03:28:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 100.94,
-      "changePercent": -0.81,
+      "price": 99.89,
+      "changePercent": -1.84,
       "unit": "USD",
-      "asOf": "2026-10-27T21:18:10-04:00",
+      "asOf": "2026-10-28T03:28:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 660.12,
-      "changePercent": 0.9,
+      "price": 665.91,
+      "changePercent": 1.79,
       "unit": "USD",
-      "asOf": "2026-10-27T21:18:05-04:00",
+      "asOf": "2026-10-28T03:27:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,150 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 80149,
-      "changePercent": 0.10551454300332297,
+      "price": 80555,
+      "changePercent": 0.746380921140437,
       "unit": "USD",
-      "asOf": "2026-10-27T13:17:27.000Z",
+      "asOf": "2026-10-27T19:27:33.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "217db14f2dda6239",
+      "category": "能源与航运",
+      "title": "Oil Companies Warned Over Russian Diesel Imports | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
+      "url": "https://newstalk1400online.iheart.com/content/2026-10-27-oil-companies-warned-over-russian-diesel-imports/",
+      "source": "newstalk1400online.iheart.com",
+      "publishedAt": "2026-10-27T05:15:00Z",
+      "fetchedAt": "2026-10-27T19:27:12.576Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newstalk1400online.iheart.com/content/2026-10-27-oil-companies-warned-over-russian-diesel-imports/"
+    },
+    {
+      "id": "b20dd1c3d6940509",
+      "category": "能源与航运",
+      "title": "Iran Tegaskan Selat Hormuz dalam Kendalinya , Kapal Asing Terancam Rusak jika Langgar Aturan",
+      "url": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan",
+      "source": "viva.co.id",
+      "publishedAt": "2026-10-27T05:15:00Z",
+      "fetchedAt": "2026-10-27T19:27:12.576Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Indonesia"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan"
+    },
+    {
+      "id": "fe5b91529dddcef4",
+      "category": "金属与资源",
+      "title": "Gold Silver Price Fall Update 27 October 2026 ; एवढी डिमांड असूनही सोने दरात घसरणीचा ट्रेंड , चांदीची किंमत धडामl ; धनत्रयोदशी - दिवाळीपूर्वी ग्राहकांमध्ये आनंदी आनंद !",
+      "url": "https://maharashtratimes.com/business/business-news/gold-prices-downward-trend-continues-silver-rates-plummet-brings-great-cheers-to-customers-ahead-of-diwali/articleshow/135223682.cms",
+      "source": "maharashtratimes.com",
+      "publishedAt": "2026-10-27T05:15:00Z",
+      "fetchedAt": "2026-10-27T19:27:12.576Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://maharashtratimes.com/business/business-news/gold-prices-downward-trend-continues-silver-rates-plummet-brings-great-cheers-to-customers-ahead-of-diwali/articleshow/135223682.cms"
+    },
+    {
+      "id": "4d8f11c4ce0fad7b",
+      "category": "金属与资源",
+      "title": "Gold rates in Pakistan today : 24 , 22 and 21 Karat prices on 27 October 2026",
+      "url": "https://pakobserver.net/gold-rates-in-pakistan-today-24-22-and-21-karat-prices-on-27-october-2026/",
+      "source": "pakobserver.net",
+      "publishedAt": "2026-10-27T05:15:00Z",
+      "fetchedAt": "2026-10-27T19:27:12.576Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://pakobserver.net/gold-rates-in-pakistan-today-24-22-and-21-karat-prices-on-27-october-2026/"
+    },
     {
       "id": "e607c813c597f049",
       "category": "数字资产",
@@ -1563,138 +1697,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://freebeacon.com/democrats/colorado-dem-manny-rutinel-backs-obama-interior-secretary-who-curbed-oil-leases-for-president-in-2028/"
-    },
-    {
-      "id": "42e82b749e6263b8",
-      "category": "金属与资源",
-      "title": "Boroo signs $140M deal for Yukon Eagle gold mine - The Northern Miner",
-      "url": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
-      "source": "northernminer.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/"
-    },
-    {
-      "id": "91375c1377ab33f4",
-      "category": "数字资产",
-      "title": "New York secures nearly $6 million from crypto scammers who targeted Haitian communities",
-      "url": "https://haitiantimes.com/2026/10/22/new-york-crypto-scams-haitian-communities-6-million/",
-      "source": "haitiantimes.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Haiti"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://haitiantimes.com/2026/10/22/new-york-crypto-scams-haitian-communities-6-million/"
-    },
-    {
-      "id": "d9cb447eabccea76",
-      "category": "能源与航运",
-      "title": "Maine heating oil hits record $6 . 04 per gallon",
-      "url": "https://www.wagmtv.com/2026/10/22/maine-heating-oil-hits-record-604-per-gallon/",
-      "source": "wagmtv.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wagmtv.com/2026/10/22/maine-heating-oil-hits-record-604-per-gallon/"
-    },
-    {
-      "id": "9c91b03f5284e289",
-      "category": "金属与资源",
-      "title": "Liberty Gold stretches Black Pine reach in Idaho",
-      "url": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/",
-      "source": "mining.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/"
     }
   ]
 }
