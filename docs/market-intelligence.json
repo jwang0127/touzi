@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-29T02:31:21.216Z",
-  "newsUpdatedAt": "2026-10-28T18:53:36.303Z",
-  "assetsUpdatedAt": "2026-10-29T02:31:21.216Z",
+  "generatedAt": "2026-10-29T10:06:18.498Z",
+  "newsUpdatedAt": "2026-10-29T10:06:18.498Z",
+  "assetsUpdatedAt": "2026-10-29T10:06:18.498Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3653.91,
-      "changePercent": -0.75,
+      "price": 3651.43,
+      "changePercent": -0.82,
       "unit": "CNY",
-      "asOf": "2026-10-29T10:31:57+08:00",
+      "asOf": "2026-10-29T16:14:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11192.09,
-      "changePercent": -2.45,
+      "price": 11138.2,
+      "changePercent": -2.92,
       "unit": "CNY",
-      "asOf": "2026-10-29T10:31:57+08:00",
+      "asOf": "2026-10-29T16:14:15+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 23097.52,
-      "changePercent": 0.01,
+      "price": 22958.65,
+      "changePercent": -0.59,
       "unit": "HKD",
-      "asOf": "2026-10-29T10:16:59+08:00",
+      "asOf": "2026-10-29T17:52:19+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7817.42,
-      "changePercent": 0.33,
+      "price": 7755.66,
+      "changePercent": -0.46,
       "unit": "HKD",
-      "asOf": "2026-10-29T10:16:58+08:00",
+      "asOf": "2026-10-29T16:08:46+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4051.49,
-      "changePercent": 0,
+      "price": 4041.51,
+      "changePercent": -0.25,
       "unit": "USD",
-      "asOf": "2026-10-29T10:31:04-04:00",
+      "asOf": "2026-10-29T18:07:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 101.59,
-      "changePercent": -1.16,
+      "price": 101.17,
+      "changePercent": -1.57,
       "unit": "USD",
-      "asOf": "2026-10-29T10:31:03-04:00",
+      "asOf": "2026-10-29T18:07:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 664.35,
-      "changePercent": -0.42,
+      "price": 659.22,
+      "changePercent": -1.19,
       "unit": "USD",
-      "asOf": "2026-10-29T10:31:02-04:00",
+      "asOf": "2026-10-29T18:06:59-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 79863,
-      "changePercent": -1.2353115398030519,
+      "price": 80089,
+      "changePercent": -1.6497487144764769,
       "unit": "USD",
-      "asOf": "2026-10-29T02:30:56.000Z",
+      "asOf": "2026-10-29T10:06:53.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "https://newstalk1400online.iheart.com/content/2026-10-27-oil-companies-warned-over-russian-diesel-imports/",
       "source": "newstalk1400online.iheart.com",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-28T18:53:36.303Z",
+      "fetchedAt": "2026-10-29T10:06:18.498Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +179,7 @@
       "url": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan",
       "source": "viva.co.id",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-28T18:53:36.303Z",
+      "fetchedAt": "2026-10-29T10:06:18.498Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -212,7 +212,7 @@
       "url": "https://maharashtratimes.com/business/business-news/gold-prices-downward-trend-continues-silver-rates-plummet-brings-great-cheers-to-customers-ahead-of-diwali/articleshow/135223682.cms",
       "source": "maharashtratimes.com",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-28T18:53:36.303Z",
+      "fetchedAt": "2026-10-29T10:06:18.498Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -246,7 +246,7 @@
       "url": "https://pakobserver.net/gold-rates-in-pakistan-today-24-22-and-21-karat-prices-on-27-october-2026/",
       "source": "pakobserver.net",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-28T18:53:36.303Z",
+      "fetchedAt": "2026-10-29T10:06:18.498Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
