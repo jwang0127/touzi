@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-10-31T18:36:48.392Z",
-  "newsUpdatedAt": "2026-10-30T20:51:03.523Z",
-  "assetsUpdatedAt": "2026-10-31T18:36:48.392Z",
+  "generatedAt": "2026-10-31T22:32:17.731Z",
+  "newsUpdatedAt": "2026-10-31T22:32:17.731Z",
+  "assetsUpdatedAt": "2026-10-31T22:32:17.731Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77641,
-      "changePercent": 1.1800618183966396,
+      "price": 77541,
+      "changePercent": 0.9952600248645477,
       "unit": "USD",
-      "asOf": "2026-10-31T18:36:52.000Z",
+      "asOf": "2026-10-31T22:32:21.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "https://newstalk1400online.iheart.com/content/2026-10-27-oil-companies-warned-over-russian-diesel-imports/",
       "source": "newstalk1400online.iheart.com",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-30T20:51:03.523Z",
+      "fetchedAt": "2026-10-31T22:32:17.731Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +179,7 @@
       "url": "https://www.viva.co.id/berita/dunia/1938916-iran-tegaskan-selat-hormuz-dalam-kendalinya-kapal-asing-terancam-rusak-jika-langgar-aturan",
       "source": "viva.co.id",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-30T20:51:03.523Z",
+      "fetchedAt": "2026-10-31T22:32:17.731Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -212,7 +212,7 @@
       "url": "https://maharashtratimes.com/business/business-news/gold-prices-downward-trend-continues-silver-rates-plummet-brings-great-cheers-to-customers-ahead-of-diwali/articleshow/135223682.cms",
       "source": "maharashtratimes.com",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-30T20:51:03.523Z",
+      "fetchedAt": "2026-10-31T22:32:17.731Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -246,7 +246,7 @@
       "url": "https://pakobserver.net/gold-rates-in-pakistan-today-24-22-and-21-karat-prices-on-27-october-2026/",
       "source": "pakobserver.net",
       "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-10-30T20:51:03.523Z",
+      "fetchedAt": "2026-10-31T22:32:17.731Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
