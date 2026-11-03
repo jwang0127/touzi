@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-03T17:53:19.890Z",
-  "newsUpdatedAt": "2026-11-03T17:53:19.890Z",
-  "assetsUpdatedAt": "2026-11-03T17:53:19.890Z",
+  "generatedAt": "2026-11-03T23:27:59.482Z",
+  "newsUpdatedAt": "2026-11-03T23:27:59.482Z",
+  "assetsUpdatedAt": "2026-11-03T23:27:59.482Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51788.33,
+      "price": 51786.72,
       "changePercent": -0.38,
       "unit": "USD",
-      "asOf": "2026-11-03T12:53:59-04:00",
+      "asOf": "2026-11-03T16:34:56-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25424.18,
-      "changePercent": 1.03,
+      "price": 25372.01,
+      "changePercent": 0.83,
       "unit": "USD",
-      "asOf": "2026-11-03T12:53:59-04:00",
+      "asOf": "2026-11-03T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7580.91,
-      "changePercent": 0.52,
+      "price": 7568.92,
+      "changePercent": 0.36,
       "unit": "USD",
-      "asOf": "2026-11-03T12:53:59-04:00",
+      "asOf": "2026-11-03T16:30:13-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3936.95,
-      "changePercent": -0.82,
+      "price": 3942.3,
+      "changePercent": 0.05,
       "unit": "USD",
-      "asOf": "2026-11-04T01:53:59-04:00",
+      "asOf": "2026-11-04T07:29:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 95.73,
-      "changePercent": -0.76,
+      "price": 96.71,
+      "changePercent": 0.65,
       "unit": "USD",
-      "asOf": "2026-11-04T01:54:03-04:00",
+      "asOf": "2026-11-04T07:28:53-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 638.55,
-      "changePercent": -2.77,
+      "price": 641.38,
+      "changePercent": 0.19,
       "unit": "USD",
-      "asOf": "2026-11-04T01:54:02-04:00",
+      "asOf": "2026-11-04T07:28:30-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77616,
-      "changePercent": 0.9213757121563294,
+      "price": 77870,
+      "changePercent": 1.606155724216879,
       "unit": "USD",
-      "asOf": "2026-11-03T17:53:23.000Z",
+      "asOf": "2026-11-03T23:28:52.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "https://www.bjnews.com.cn/detail/1793611125129524.html",
       "source": "bjnews.com.cn",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -175,7 +175,7 @@
       "url": "https://astanatimes.com/2026/11/kazakhstan-restores-oil-flows-through-key-export-pipeline/",
       "source": "astanatimes.com",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -208,7 +208,7 @@
       "url": "http://www.bangladeshsun.com/news/279409194/central-banks-buy-321-tonnes-of-gold-in-q3-lifting-2026-demand-to-675-tonnes-world-gold-council",
       "source": "bangladeshsun.com",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -242,7 +242,7 @@
       "url": "https://vietstock.vn/2026/11/bcg-energy-tinh-rut-gan-het-von-tai-nha-may-dien-rac-o-cu-chi-737-1510880.htm",
       "source": "vietstock.vn",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -275,7 +275,7 @@
       "url": "https://www.themarketsdaily.com/2026/11/03/296526-shares-of-spdr-gold-minishares-trust-gldm-acquired-by-mirae-asset-global-investments-co-ltd.html",
       "source": "themarketsdaily.com",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -309,7 +309,7 @@
       "url": "https://vnexpress.net/meta-dang-che-tao-robot-hinh-nguoi-5139895.html",
       "source": "vnexpress.net",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -341,7 +341,7 @@
       "url": "http://www.bozemandailychronicle.com/wire/news/us-strikes-iranian-targets-in-the-strait-of-hormuz-official-says-leaving-unclear-what-comes/article_2a589236-cc8b-5ff3-b827-2e79217f4103.html",
       "source": "bozemandailychronicle.com",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -376,7 +376,7 @@
       "url": "https://hindi.moneycontrol.com/news/your-money/gold-silver-prices-today-ahead-of-dhanteras-gold-reaches-1-lakh-37-thousand-while-silver-plunges-by-over-7000-rupee-will-these-lower-prices-boost-demand-2453510.html",
       "source": "hindi.moneycontrol.com",
       "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T17:53:19.890Z",
+      "fetchedAt": "2026-11-03T23:27:59.482Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
