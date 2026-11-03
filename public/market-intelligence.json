@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-03T01:38:01.022Z",
-  "newsUpdatedAt": "2026-11-02T07:43:26.566Z",
-  "assetsUpdatedAt": "2026-11-03T01:38:01.022Z",
+  "generatedAt": "2026-11-03T09:39:01.745Z",
+  "newsUpdatedAt": "2026-11-03T09:39:01.745Z",
+  "assetsUpdatedAt": "2026-11-03T09:39:01.745Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3596,
-      "changePercent": -1.16,
+      "price": 3608.1,
+      "changePercent": -0.82,
       "unit": "CNY",
-      "asOf": "2026-11-03T09:38:45+08:00",
+      "asOf": "2026-11-03T16:15:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 10897.37,
-      "changePercent": -1.03,
+      "price": 10876.99,
+      "changePercent": -1.21,
       "unit": "CNY",
-      "asOf": "2026-11-03T09:38:39+08:00",
+      "asOf": "2026-11-03T16:14:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 23469.64,
-      "changePercent": 0.33,
+      "price": 23525.97,
+      "changePercent": 0.57,
       "unit": "HKD",
-      "asOf": "2026-11-03T09:23:39+08:00",
+      "asOf": "2026-11-03T17:25:07+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7933.91,
-      "changePercent": 0.35,
+      "price": 7943.1,
+      "changePercent": 0.47,
       "unit": "HKD",
-      "asOf": "2026-11-03T09:23:38+08:00",
+      "asOf": "2026-11-03T16:08:30+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3957.17,
-      "changePercent": -0.31,
+      "price": 3916.29,
+      "changePercent": -1.34,
       "unit": "USD",
-      "asOf": "2026-11-03T09:38:05-04:00",
+      "asOf": "2026-11-03T17:40:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 96.52,
-      "changePercent": 0.06,
+      "price": 98.08,
+      "changePercent": 1.68,
       "unit": "USD",
-      "asOf": "2026-11-03T09:38:07-04:00",
+      "asOf": "2026-11-03T17:40:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 651.39,
-      "changePercent": -0.82,
+      "price": 635.35,
+      "changePercent": -3.26,
       "unit": "USD",
-      "asOf": "2026-11-03T09:38:07-04:00",
+      "asOf": "2026-11-03T17:39:58-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,252 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 77086,
-      "changePercent": -1.7978393989695518,
+      "price": 76908,
+      "changePercent": -1.4418632076692428,
       "unit": "USD",
-      "asOf": "2026-11-03T01:38:12.000Z",
+      "asOf": "2026-11-03T09:39:26.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "cbc58edab18f537c",
+      "category": "A股与政策",
+      "title": "滚动更新丨A股四大指数集体低开 ， 黄金 、 白酒板块逆势走强",
+      "url": "https://www.yicai.com/news/103422738.html",
+      "source": "yicai.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.yicai.com/news/103422738.html"
+    },
+    {
+      "id": "1cb8fd38c412cfb9",
+      "category": "金属与资源",
+      "title": "Claudia Schiffer , 56 , poses topless wearing nothing but a gold necklace in sizzling new photos",
+      "url": "https://www.hellomagazine.com/us/932645/claudia-schiffer-56-poses-topless-wearing-nothing-but-a-gold-necklace-in-sizzling-new-photos/",
+      "source": "hellomagazine.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellomagazine.com/us/932645/claudia-schiffer-56-poses-topless-wearing-nothing-but-a-gold-necklace-in-sizzling-new-photos/"
+    },
+    {
+      "id": "6414cda8e7fb527f",
+      "category": "能源与航运",
+      "title": "Trump claims US is world largest supplier of oil and natural gas in final midterm campaign pitch",
+      "url": "http://www.argentinastar.com/news/279408514/trump-claims-us-is-world-largest-supplier-of-oil-and-natural-gas-in-final-midterm-campaign-pitch",
+      "source": "argentinastar.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.argentinastar.com/news/279408514/trump-claims-us-is-world-largest-supplier-of-oil-and-natural-gas-in-final-midterm-campaign-pitch"
+    },
+    {
+      "id": "2f4c0b44b9e85016",
+      "category": "金属与资源",
+      "title": "Vernon , B . C . woman leads Team Canada to gold | Kelowna Capital News",
+      "url": "https://kelownacapnews.com/2026/11/02/vernon-b-c-woman-leads-team-canada-to-gold/",
+      "source": "kelownacapnews.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://kelownacapnews.com/2026/11/02/vernon-b-c-woman-leads-team-canada-to-gold/"
+    },
+    {
+      "id": "4f087b2cbcb8e3d3",
+      "category": "能源与航运",
+      "title": "Stock Market Today Live : Gift Nifty points to gap - up opening ; crude oil , US election in focus",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece",
+      "source": "thehindubusinessline.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece"
+    },
+    {
+      "id": "0947062c7e57bcf3",
+      "category": "金属与资源",
+      "title": "97 - Year - Old Sues Toy Story Star Over 58 % Gold Markups As Bankrupt Dealer Owes Customers $49 Million",
+      "url": "https://www.zerohedge.com/precious-metals/97-year-old-sues-toy-story-star-over-58-gold-markups-bankrupt-dealer-owes-customers",
+      "source": "zerohedge.com",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.zerohedge.com/precious-metals/97-year-old-sues-toy-story-star-over-58-gold-markups-bankrupt-dealer-owes-customers"
+    },
+    {
+      "id": "da410bb9abc946d4",
+      "category": "能源与航运",
+      "title": "Dieven slaan toe op pas gerenoveerde Julius Labatoschool : leerlingen kunnen toiletten niet doorspoelen",
+      "url": "https://www.waterkant.net/suriname/2026/11/03/dieven-slaan-toe-op-pas-gerenoveerde-julius-labatoschool-leerlingen-kunnen-toiletten-niet-doorspoelen/",
+      "source": "waterkant.net",
+      "publishedAt": "2026-11-03T02:15:00Z",
+      "fetchedAt": "2026-11-03T09:39:01.745Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Suriname"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.waterkant.net/suriname/2026/11/03/dieven-slaan-toe-op-pas-gerenoveerde-julius-labatoschool-leerlingen-kunnen-toiletten-niet-doorspoelen/"
+    },
     {
       "id": "217db14f2dda6239",
       "category": "能源与航运",
@@ -1463,239 +1699,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://1prime.ru/20261023/azergold-874573746.html"
-    },
-    {
-      "id": "99a16cb1b144382f",
-      "category": "能源与航运",
-      "title": "FinancialContent - Why Bloom Energy ( BE ) shares are falling today",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-23-why-bloom-energy-be-shares-are-falling-today",
-      "source": "markets.financialcontent.com",
-      "publishedAt": "2026-10-23T15:00:00Z",
-      "fetchedAt": "2026-10-23T18:25:05.904Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-23-why-bloom-energy-be-shares-are-falling-today"
-    },
-    {
-      "id": "042e5da303cedff6",
-      "category": "金属与资源",
-      "title": "Goldpreis : Gold crasht auf 3 . 981 , 96 USD | wallstreetONLINE",
-      "url": "https://www.wallstreet-online.de/nachricht/21572750-goldpreis-gold-crasht-3-981-96-usd",
-      "source": "wallstreet-online.de",
-      "publishedAt": "2026-10-23T15:00:00Z",
-      "fetchedAt": "2026-10-23T18:25:05.904Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wallstreet-online.de/nachricht/21572750-goldpreis-gold-crasht-3-981-96-usd"
-    },
-    {
-      "id": "a58003d0b0f7a0aa",
-      "category": "能源与航运",
-      "title": "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war",
-      "url": "https://www.kmvt.com/2026/10/22/iran-says-7-oil-tankers-were-attacked-strait-hormuz-fears-grow-return-war/",
-      "source": "kmvt.com",
-      "publishedAt": "2026-10-23T01:15:00Z",
-      "fetchedAt": "2026-10-23T01:34:46.058Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.kmvt.com/2026/10/22/iran-says-7-oil-tankers-were-attacked-strait-hormuz-fears-grow-return-war/"
-    },
-    {
-      "id": "3b99b2cd4a90ac6e",
-      "category": "能源与航运",
-      "title": "COP31 inconvenient truth : the world still runs on oil - On Line Opinion",
-      "url": "https://www.onlineopinion.com.au/view.asp?article=24219",
-      "source": "onlineopinion.com.au",
-      "publishedAt": "2026-10-23T01:15:00Z",
-      "fetchedAt": "2026-10-23T01:34:46.058Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.onlineopinion.com.au/view.asp?article=24219"
-    },
-    {
-      "id": "138ee16cecf3a571",
-      "category": "金属与资源",
-      "title": "MERCURY RISING : A San Francisco Lab Says It Has Made Gold From Mercury as Bullion Slides to Its Lowest Since August . It Is the News Zimbabwe Gold Mafia Did Not Want to Hear",
-      "url": "https://www.zimdaily.com/article/business-2026-10-22-fusion-gold-mafia/",
-      "source": "zimdaily.com",
-      "publishedAt": "2026-10-23T01:15:00Z",
-      "fetchedAt": "2026-10-23T01:34:46.058Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Zimbabwe"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.zimdaily.com/article/business-2026-10-22-fusion-gold-mafia/"
-    },
-    {
-      "id": "8e0525de2445525c",
-      "category": "数字资产",
-      "title": "Solayer Pay Opens Stablecoin Deposits on Solana , Ethereum , Arbitrum , BNB Chain and Base",
-      "url": "http://www.pittsburghstar.com/news/279393182/solayer-pay-opens-stablecoin-deposits-on-solana-ethereum-arbitrum-bnb-chain-and-base",
-      "source": "pittsburghstar.com",
-      "publishedAt": "2026-10-23T01:15:00Z",
-      "fetchedAt": "2026-10-23T01:34:46.058Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.pittsburghstar.com/news/279393182/solayer-pay-opens-stablecoin-deposits-on-solana-ethereum-arbitrum-bnb-chain-and-base"
-    },
-    {
-      "id": "2b9bfe0b2c341e61",
-      "category": "能源与航运",
-      "title": "Iran says seven oil tankers damaged overnight in Strait of Hormuz",
-      "url": "https://www.dunfermlinepress.com/news/national/26659299.iran-says-seven-oil-tankers-damaged-overnight-strait-hormuz/",
-      "source": "dunfermlinepress.com",
-      "publishedAt": "2026-10-22T22:00:00Z",
-      "fetchedAt": "2026-10-22T22:23:56.870Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dunfermlinepress.com/news/national/26659299.iran-says-seven-oil-tankers-damaged-overnight-strait-hormuz/"
     }
   ]
 }
