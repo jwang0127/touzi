@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-05T18:47:56.847Z",
-  "newsUpdatedAt": "2026-11-04T15:29:21.888Z",
-  "assetsUpdatedAt": "2026-11-05T18:47:56.847Z",
+  "generatedAt": "2026-11-06T00:22:05.762Z",
+  "newsUpdatedAt": "2026-11-06T00:22:05.762Z",
+  "assetsUpdatedAt": "2026-11-06T00:22:05.762Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 51741.91,
-      "changePercent": -3.03,
+      "price": 51523.06,
+      "changePercent": -3.44,
       "unit": "USD",
-      "asOf": "2026-11-05T13:48:21-04:00",
+      "asOf": "2026-11-05T16:35:51-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 24419.99,
-      "changePercent": -5.12,
+      "price": 24315,
+      "changePercent": -5.52,
       "unit": "USD",
-      "asOf": "2026-11-05T13:48:20-04:00",
+      "asOf": "2026-11-05T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7386.19,
-      "changePercent": -3.93,
+      "price": 7353.73,
+      "changePercent": -4.36,
       "unit": "USD",
-      "asOf": "2026-11-05T13:48:21-04:00",
+      "asOf": "2026-11-05T16:34:08-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4107.85,
-      "changePercent": 0.86,
+      "price": 4113.16,
+      "changePercent": -0.01,
       "unit": "USD",
-      "asOf": "2026-11-06T02:48:06-04:00",
+      "asOf": "2026-11-06T08:23:11-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 90.32,
-      "changePercent": 2.49,
+      "price": 90.92,
+      "changePercent": 0.44,
       "unit": "USD",
-      "asOf": "2026-11-06T02:48:04-04:00",
+      "asOf": "2026-11-06T08:23:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 626.32,
-      "changePercent": -2.58,
+      "price": 624,
+      "changePercent": -0.48,
       "unit": "USD",
-      "asOf": "2026-11-06T02:48:07-04:00",
+      "asOf": "2026-11-06T08:23:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,104 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 76120,
-      "changePercent": -5.230969832432182,
+      "price": 76090,
+      "changePercent": -5.689236996023918,
       "unit": "USD",
-      "asOf": "2026-11-05T18:47:42.000Z",
+      "asOf": "2026-11-06T00:22:32.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e6480141535a5d00",
+      "category": "金属与资源",
+      "title": "Gold Coast mansion listed for $47 . 5m in bid to smash Queensland house record",
+      "url": "https://www.realestate.com.au/news/mermaid-beach-mansion-listed-for-475m-in-bid-to-smash-queensland-house-record/",
+      "source": "realestate.com.au",
+      "publishedAt": "2026-11-05T23:30:00Z",
+      "fetchedAt": "2026-11-06T00:22:05.762Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.realestate.com.au/news/mermaid-beach-mansion-listed-for-475m-in-bid-to-smash-queensland-house-record/"
+    },
+    {
+      "id": "26a3399ee186c202",
+      "category": "数字资产",
+      "title": "Cryptohack Roundup : $37M Chinese Scam Suspect Extradited",
+      "url": "https://www.bankinfosecurity.com/cryptohack-roundup-37m-chinese-scam-suspect-extradited-a-33303",
+      "source": "bankinfosecurity.com",
+      "publishedAt": "2026-11-05T23:30:00Z",
+      "fetchedAt": "2026-11-06T00:22:05.762Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bankinfosecurity.com/cryptohack-roundup-37m-chinese-scam-suspect-extradited-a-33303"
+    },
+    {
+      "id": "f30f56585c96504d",
+      "category": "全球与地区",
+      "title": "US Tariffs on Mexico Stay After Midterms",
+      "url": "https://www.riotimesonline.com/us-tariffs-on-mexico-stay-after-midterms-usmca-2026/",
+      "source": "riotimesonline.com",
+      "publishedAt": "2026-11-05T23:30:00Z",
+      "fetchedAt": "2026-11-06T00:22:05.762Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.riotimesonline.com/us-tariffs-on-mexico-stay-after-midterms-usmca-2026/"
+    },
     {
       "id": "2980b3948a30f3fb",
       "category": "A股与政策",
@@ -1607,105 +1693,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://jp.ibtimes.com/mitsubishi-estate-signs-pact-hokkaido-semiconductor-research-hub-104915"
-    },
-    {
-      "id": "dc60308a5caba4ee",
-      "category": "能源与航运",
-      "title": "NXT Energy Solutions Highlights Revenue Surge , Active Surveys and SFD Growth Strategy",
-      "url": "https://www.themarketsdaily.com/2026/10/25/nxt-energy-solutions-highlights-revenue-surge-active-surveys-and-sfd-growth-strategy.html",
-      "source": "themarketsdaily.com",
-      "publishedAt": "2026-10-25T09:30:00Z",
-      "fetchedAt": "2026-10-25T09:52:21.526Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.themarketsdaily.com/2026/10/25/nxt-energy-solutions-highlights-revenue-surge-active-surveys-and-sfd-growth-strategy.html"
-    },
-    {
-      "id": "b883193a1ba4cc40",
-      "category": "能源与航运",
-      "title": "SNP says united kingdom must rule out use of Scottish revenue for English nuclear energy",
-      "url": "https://www.bracknellnews.co.uk/news/national/26667270.snp-says-uk-must-rule-use-scottish-revenue-english-nuclear-energy/",
-      "source": "bracknellnews.co.uk",
-      "publishedAt": "2026-10-24T19:15:00Z",
-      "fetchedAt": "2026-10-24T20:55:25.073Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bracknellnews.co.uk/news/national/26667270.snp-says-uk-must-rule-use-scottish-revenue-english-nuclear-energy/"
-    },
-    {
-      "id": "602504c8dc28f886",
-      "category": "能源与航运",
-      "title": "Houthis say they attacked Saudi oil sites ; strikes reported in Aden",
-      "url": "https://whbl.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/",
-      "source": "whbl.com",
-      "publishedAt": "2026-10-24T19:15:00Z",
-      "fetchedAt": "2026-10-24T20:55:25.073Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://whbl.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/"
     }
   ]
 }
