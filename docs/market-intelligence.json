@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-07T08:52:12.766Z",
-  "newsUpdatedAt": "2026-11-06T07:57:53.190Z",
-  "assetsUpdatedAt": "2026-11-07T08:52:12.766Z",
+  "generatedAt": "2026-11-07T15:42:50.421Z",
+  "newsUpdatedAt": "2026-11-07T15:42:50.421Z",
+  "assetsUpdatedAt": "2026-11-07T15:42:50.421Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,179 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 76080,
-      "changePercent": 0.6000536699344878,
+      "price": 75750,
+      "changePercent": 0.3356003984225874,
       "unit": "USD",
-      "asOf": "2026-11-07T08:52:45.000Z",
+      "asOf": "2026-11-07T15:43:20.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "db80268160f84cd8",
+      "category": "金属与资源",
+      "title": "Gabi Elmer gewinnt mit ihrem Glarner Alpkäse AOP Gold bei den Swiss Cheese Awards",
+      "url": "https://www.bauernzeitung.ch/artikel/regionen/goldmedaille-fuer-glarner-alpkaese",
+      "source": "bauernzeitung.ch",
+      "publishedAt": "2026-11-07T11:30:00Z",
+      "fetchedAt": "2026-11-07T15:42:50.421Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Switzerland"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.bauernzeitung.ch/artikel/regionen/goldmedaille-fuer-glarner-alpkaese"
+    },
+    {
+      "id": "784d834ccfffa74c",
+      "category": "金属与资源",
+      "title": "GOLD : Fast 5 % plus ! - Analyse & Prognose",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70065710-gold-fast-5-plus-analyse-prognose-232.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-11-07T11:30:00Z",
+      "fetchedAt": "2026-11-07T15:42:50.421Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-11/70065710-gold-fast-5-plus-analyse-prognose-232.htm"
+    },
+    {
+      "id": "462c28d192c76c9e",
+      "category": "全球与地区",
+      "title": "FIFA partially upholds AFA appeal against post World Cup sanctions ; Nahuel suspension reduced",
+      "url": "http://www.bignewsnetwork.com/news/279418336/fifa-partially-upholds-afa-appeal-against-post-world-cup-sanctions-nahuel-suspension-reduced",
+      "source": "bignewsnetwork.com",
+      "publishedAt": "2026-11-07T11:30:00Z",
+      "fetchedAt": "2026-11-07T15:42:50.421Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.bignewsnetwork.com/news/279418336/fifa-partially-upholds-afa-appeal-against-post-world-cup-sanctions-nahuel-suspension-reduced"
+    },
+    {
+      "id": "a7cca172d72245bb",
+      "category": "科技与产业",
+      "title": "Rusya özel askeri harekata devam ediyor : Ukrayna ordusunun mühimmat depoları ve robotik sistem tesisleri vuruldu",
+      "url": "https://anlatilaninotesi.com.tr/20261107/rusya-ozel-askeri-harekata-devam-ediyor-ukrayna-ordusunun-muhimmat-depolari-ve-robotik-sistem-1110181467.html",
+      "source": "anlatilaninotesi.com.tr",
+      "publishedAt": "2026-11-07T11:30:00Z",
+      "fetchedAt": "2026-11-07T15:42:50.421Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://anlatilaninotesi.com.tr/20261107/rusya-ozel-askeri-harekata-devam-ediyor-ukrayna-ordusunun-muhimmat-depolari-ve-robotik-sistem-1110181467.html"
+    },
+    {
+      "id": "5b100883ada70d3b",
+      "category": "金属与资源",
+      "title": "Himachal Gold Silver Rate Today : हिमाचल में आज क्या है सोने - चांदी का भाव ? चेक करें लेटेस्ट गोल्ड - सिल्वर रेट | Himachal Pradesh",
+      "url": "https://www.aajsamaaj.com/state/himachal-pradesh/gold-silver-rate-today-7-november-2026-gold-prices-drop-check-latest-22k-and-24k-rates/543716/",
+      "source": "aajsamaaj.com",
+      "publishedAt": "2026-11-07T11:30:00Z",
+      "fetchedAt": "2026-11-07T15:42:50.421Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aajsamaaj.com/state/himachal-pradesh/gold-silver-rate-today-7-november-2026-gold-prices-drop-check-latest-22k-and-24k-rates/543716/"
+    },
     {
       "id": "f15a592b82b1015a",
       "category": "科技与产业",
@@ -1541,175 +1702,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://seekingalpha.com/news/4656504-trending-stocks-this-week-as-markets-navigate-ai-concerns-geopolitical-tensions"
-    },
-    {
-      "id": "33a2cacdf7e033d4",
-      "category": "金属与资源",
-      "title": "Obama verspottet Trump : Fiese Gold - Pointe trifft US - Präsident ins Mark",
-      "url": "https://www.harzkurier.de/politik/article413501766/saddam-hussein-trifft-cheesecake-factory-wie-obama-trumps-gold-wahn-verspottet.html",
-      "source": "harzkurier.de",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.harzkurier.de/politik/article413501766/saddam-hussein-trifft-cheesecake-factory-wie-obama-trumps-gold-wahn-verspottet.html"
-    },
-    {
-      "id": "785f9b13cc92d065",
-      "category": "全球与地区",
-      "title": "Netanyahu pitch : Can Israel use crypto to evade economic sanctions ? - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "url": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/",
-      "source": "grenadachronicle.com",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/"
-    },
-    {
-      "id": "fb66ecdb5fef0676",
-      "category": "金属与资源",
-      "title": "Kolhapur Panhala Samar Chavan Theft who Stole Gold from Uncle House and Bought Thar Inside Story ; गळ्यात यशाचा हार पडण्याऐवजी दारात थार ची इच्छा ; चुलत्याचं सोनं चोरून काकालाच गाडीच्या पूजेला बोलावलं , समर चव्हाणच्या अजब चोरीची इनसाईड स्टोरी",
-      "url": "https://maharashtratimes.com/maharashtra/kolhapur/kolhapur-panhala-samar-chavan-theft-who-stole-gold-from-uncle-house-and-bought-thar-inside-story/articleshow/135194734.cms",
-      "source": "maharashtratimes.com",
-      "publishedAt": "2026-10-25T18:00:00Z",
-      "fetchedAt": "2026-10-25T18:26:03.033Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://maharashtratimes.com/maharashtra/kolhapur/kolhapur-panhala-samar-chavan-theft-who-stole-gold-from-uncle-house-and-bought-thar-inside-story/articleshow/135194734.cms"
-    },
-    {
-      "id": "93fe96528aad16b0",
-      "category": "能源与航运",
-      "title": "Houthis claim attacks on Saudi oil targets , airports ; debris falls in Mecca , Medina as tensions escalate in Gulf",
-      "url": "https://www.ibtimes.co.in/houthis-claim-attacks-saudi-oil-targets-airports-debris-falls-mecca-medina-tensions-escalate-907830",
-      "source": "ibtimes.co.in",
-      "publishedAt": "2026-10-25T12:45:00Z",
-      "fetchedAt": "2026-10-25T14:25:31.315Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ibtimes.co.in/houthis-claim-attacks-saudi-oil-targets-airports-debris-falls-mecca-medina-tensions-escalate-907830"
-    },
-    {
-      "id": "4aa0f4b24abf0a22",
-      "category": "能源与航运",
-      "title": "Ekspor Gas RI Dipangkas , Singapura Andalkan LNG dan Mulai Lirik Energi Nuklir",
-      "url": "https://www.viva.co.id/bisnis/1938523-ekspor-gas-ri-dipangkas-singapura-andalkan-lng-dan-mulai-lirik-energi-nuklir",
-      "source": "viva.co.id",
-      "publishedAt": "2026-10-25T12:45:00Z",
-      "fetchedAt": "2026-10-25T14:25:31.315Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Indonesia"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.viva.co.id/bisnis/1938523-ekspor-gas-ri-dipangkas-singapura-andalkan-lng-dan-mulai-lirik-energi-nuklir"
     }
   ]
 }
