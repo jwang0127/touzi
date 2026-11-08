@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-08T06:11:51.565Z",
-  "newsUpdatedAt": "2026-11-07T15:42:50.421Z",
-  "assetsUpdatedAt": "2026-11-08T06:11:51.565Z",
+  "generatedAt": "2026-11-08T13:33:54.037Z",
+  "newsUpdatedAt": "2026-11-08T13:33:54.037Z",
+  "assetsUpdatedAt": "2026-11-08T13:33:54.037Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,117 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 75713,
-      "changePercent": -0.3319273123228295,
+      "price": 75940,
+      "changePercent": 0.13082417126446527,
       "unit": "USD",
-      "asOf": "2026-11-08T06:11:40.000Z",
+      "asOf": "2026-11-08T13:35:21.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "e8e8c96673cf882a",
+      "category": "能源与航运",
+      "title": "Assam OIL facility fire : Death toll rises to four after injured worker dies",
+      "url": "https://economictimes.indiatimes.com/news/india/assam-oil-facility-fire-death-toll-rises-to-four-after-injured-worker-dies/articleshow/135658404.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-11-08T13:00:00Z",
+      "fetchedAt": "2026-11-08T13:33:54.037Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/india/assam-oil-facility-fire-death-toll-rises-to-four-after-injured-worker-dies/articleshow/135658404.cms"
+    },
+    {
+      "id": "cba4aff03ca80aa1",
+      "category": "金属与资源",
+      "title": "Gold purchases touch Rs 60 , 000 crore on Dhanteras as prices lift sales value",
+      "url": "https://dailypioneer.com/business/gold-purchases-touch-rs-60000-crore-on-dhanteras-as-prices-lift-sales-value",
+      "source": "dailypioneer.com",
+      "publishedAt": "2026-11-08T13:00:00Z",
+      "fetchedAt": "2026-11-08T13:33:54.037Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://dailypioneer.com/business/gold-purchases-touch-rs-60000-crore-on-dhanteras-as-prices-lift-sales-value"
+    },
+    {
+      "id": "390c6138e0d40540",
+      "category": "金属与资源",
+      "title": "Gold , silver outlook : Inflation data and geopolitical tensions likely to drive prices this week",
+      "url": "https://www.prokerala.com/news/articles/a1834431.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-11-08T13:00:00Z",
+      "fetchedAt": "2026-11-08T13:33:54.037Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1834431.html"
+    },
     {
       "id": "db80268160f84cd8",
       "category": "金属与资源",
@@ -1604,106 +1705,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://toronto.citynews.ca/2026/10/25/well-known-evil-empire-barack-obama-mocks-president-trumps-tariff-war-with-canada/"
-    },
-    {
-      "id": "bf4abcd433693674",
-      "category": "金属与资源",
-      "title": "Taiwanese pastry chefs win golds at Puglia Cake Festival",
-      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/26/2003866623",
-      "source": "taipeitimes.com",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/26/2003866623"
-    },
-    {
-      "id": "135722973fe5a273",
-      "category": "能源与航运",
-      "title": "CENTCOM : Πλήρης έλεγχος των Στενών του Hormuz – 3 . 000 πλοία και 1 , 5 δισ . βαρέλια πετρελαίου υπό την προστασία των ΗΠΑ",
-      "url": "https://www.bankingnews.gr/diethni/articles/907118/centcom-pliris-elegxos-ton-stenon-tou-hormuz-3-000-ploia-kai-1-5-dis-varelia-petrelaiou-ypo-tin-prostasia-ton-ipa",
-      "source": "bankingnews.gr",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Greece"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankingnews.gr/diethni/articles/907118/centcom-pliris-elegxos-ton-stenon-tou-hormuz-3-000-ploia-kai-1-5-dis-varelia-petrelaiou-ypo-tin-prostasia-ton-ipa"
-    },
-    {
-      "id": "61a66501dc081144",
-      "category": "全球与地区",
-      "title": "Trending stocks this week as markets navigate AI concerns , geopolitical tensions",
-      "url": "https://seekingalpha.com/news/4656504-trending-stocks-this-week-as-markets-navigate-ai-concerns-geopolitical-tensions",
-      "source": "seekingalpha.com",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://seekingalpha.com/news/4656504-trending-stocks-this-week-as-markets-navigate-ai-concerns-geopolitical-tensions"
     }
   ]
 }
