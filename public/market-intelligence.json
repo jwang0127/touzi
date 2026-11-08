@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-08T18:51:40.298Z",
-  "newsUpdatedAt": "2026-11-08T13:33:54.037Z",
-  "assetsUpdatedAt": "2026-11-08T18:51:40.298Z",
+  "generatedAt": "2026-11-08T22:55:48.428Z",
+  "newsUpdatedAt": "2026-11-08T22:55:48.428Z",
+  "assetsUpdatedAt": "2026-11-08T22:55:48.428Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -129,16 +129,106 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 75864,
-      "changePercent": 0.14321178933247883,
+      "price": 74376,
+      "changePercent": -1.7450397113284368,
       "unit": "USD",
-      "asOf": "2026-11-08T18:51:15.000Z",
+      "asOf": "2026-11-08T22:56:01.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "2ac716c6d8ba7027",
+      "category": "能源与航运",
+      "title": "Democrats plan to push clean energy to lower bills and challenge Trump fossil fuel agenda | National",
+      "url": "http://www.thedailytimes.com/ap/national/democrats-plan-to-push-clean-energy-to-lower-bills-and-challenge-trump-s-fossil-fuel/article_87dbe6de-c3b2-54d7-90a3-b5297add1bff.html",
+      "source": "thedailytimes.com",
+      "publishedAt": "2026-11-08T21:00:00Z",
+      "fetchedAt": "2026-11-08T22:55:48.428Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.thedailytimes.com/ap/national/democrats-plan-to-push-clean-energy-to-lower-bills-and-challenge-trump-s-fossil-fuel/article_87dbe6de-c3b2-54d7-90a3-b5297add1bff.html"
+    },
+    {
+      "id": "fa5094bef7c49e13",
+      "category": "数字资产",
+      "title": "Bitcoinvestcloud . com Review : Is It A Scam ? - The Quiet Revolution",
+      "url": "https://blog.udn.com:443/a6750689/192735876",
+      "source": "blog.udn.com",
+      "publishedAt": "2026-11-08T21:00:00Z",
+      "fetchedAt": "2026-11-08T22:55:48.428Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Taiwan"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://blog.udn.com:443/a6750689/192735876"
+    },
+    {
+      "id": "6c66b2665dc3b64f",
+      "category": "全球与地区",
+      "title": "Hundreds of thousands join Amsterdam Red Line protest against Israel | Israel - Palestine conflict News",
+      "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam",
+      "source": "aljazeera.com",
+      "publishedAt": "2026-11-08T21:00:00Z",
+      "fetchedAt": "2026-11-08T22:55:48.428Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam"
+    },
     {
       "id": "e8e8c96673cf882a",
       "category": "能源与航运",
@@ -1618,93 +1708,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://pakobserver.net/gold-rates-in-pakistan-today-24-22-and-21-karat-prices-on-27-october-2026/"
-    },
-    {
-      "id": "f0f06fbed2033054",
-      "category": "金属与资源",
-      "title": "Gold Price Today : सोना खरीदने का बना रहे हैं प्लान ? खरीदारी से पहले जान लें 18K , 22K और 24K का रेट",
-      "url": "https://www.naidunia.com/business/news-gold-price-today-on-27-october-2026-rates-fluctuate-check-city-wise-24k-22k-and-18k-prices-8472551",
-      "source": "naidunia.com",
-      "publishedAt": "2026-10-27T05:15:00Z",
-      "fetchedAt": "2026-11-02T07:43:26.566Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.naidunia.com/business/news-gold-price-today-on-27-october-2026-rates-fluctuate-check-city-wise-24k-22k-and-18k-prices-8472551"
-    },
-    {
-      "id": "e607c813c597f049",
-      "category": "数字资产",
-      "title": "JPMorgan Has Nearly $900 Million in Tokenized Funds on Ethereum and Solana . Which Chain Benefits More ?",
-      "url": "https://www.aol.com/articles/jpmorgan-nearly-900-million-tokenized-183043000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/jpmorgan-nearly-900-million-tokenized-183043000.html"
-    },
-    {
-      "id": "7ae26023a54b8d66",
-      "category": "全球与地区",
-      "title": "Barack Obama mocks President Trump tariff war with Canada",
-      "url": "https://toronto.citynews.ca/2026/10/25/well-known-evil-empire-barack-obama-mocks-president-trumps-tariff-war-with-canada/",
-      "source": "toronto.citynews.ca",
-      "publishedAt": "2026-10-25T19:15:00Z",
-      "fetchedAt": "2026-10-25T21:51:36.277Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://toronto.citynews.ca/2026/10/25/well-known-evil-empire-barack-obama-mocks-president-trumps-tariff-war-with-canada/"
     }
   ]
 }
