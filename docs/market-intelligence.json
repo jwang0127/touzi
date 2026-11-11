@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-11T07:49:46.509Z",
-  "newsUpdatedAt": "2026-11-11T07:49:46.509Z",
-  "assetsUpdatedAt": "2026-11-11T07:49:46.509Z",
+  "generatedAt": "2026-11-11T16:15:22.557Z",
+  "newsUpdatedAt": "2026-11-11T16:15:22.557Z",
+  "assetsUpdatedAt": "2026-11-11T16:15:22.557Z",
   "sourceStatus": {
     "state": "PASS",
     "errors": [],
@@ -20,7 +20,7 @@
       "price": 3680.64,
       "changePercent": 0.46,
       "unit": "CNY",
-      "asOf": "2026-11-11T15:50:27+08:00",
+      "asOf": "2026-11-11T16:14:27+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -31,7 +31,7 @@
       "price": 11389.74,
       "changePercent": 1.32,
       "unit": "CNY",
-      "asOf": "2026-11-11T15:50:33+08:00",
+      "asOf": "2026-11-11T16:14:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -39,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24281.84,
-      "changePercent": -1.12,
+      "price": 24315.92,
+      "changePercent": -0.98,
       "unit": "HKD",
-      "asOf": "2026-11-11T15:35:33+08:00",
+      "asOf": "2026-11-11T18:31:03+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -50,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8159.38,
-      "changePercent": -1.29,
+      "price": 8171.45,
+      "changePercent": -1.14,
       "unit": "HKD",
-      "asOf": "2026-11-11T15:35:32+08:00",
+      "asOf": "2026-11-11T16:08:28+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -61,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 52231.89,
-      "changePercent": -0.3,
+      "price": 52230.1,
+      "changePercent": 0,
       "unit": "USD",
-      "asOf": "2026-11-10T17:00:40-04:00",
+      "asOf": "2026-11-11T11:16:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -72,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 25065.87,
-      "changePercent": -0.74,
+      "price": 25487.3,
+      "changePercent": 1.68,
       "unit": "USD",
-      "asOf": "2026-11-10T17:15:59-04:00",
+      "asOf": "2026-11-11T11:16:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -83,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7520.93,
-      "changePercent": -0.38,
+      "price": 7605,
+      "changePercent": 1.12,
       "unit": "USD",
-      "asOf": "2026-11-10T17:00:31-04:00",
+      "asOf": "2026-11-11T11:16:20-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -94,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4067.67,
-      "changePercent": 0.93,
+      "price": 4012.83,
+      "changePercent": -0.43,
       "unit": "USD",
-      "asOf": "2026-11-11T15:50:01-04:00",
+      "asOf": "2026-11-12T00:16:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -105,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 86.36,
-      "changePercent": 0.37,
+      "price": 88.12,
+      "changePercent": 2.42,
       "unit": "USD",
-      "asOf": "2026-11-11T15:50:00-04:00",
+      "asOf": "2026-11-12T00:16:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -116,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 632.07,
-      "changePercent": 1.38,
+      "price": 629.02,
+      "changePercent": 0.89,
       "unit": "USD",
-      "asOf": "2026-11-11T15:49:47-04:00",
+      "asOf": "2026-11-12T00:16:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -127,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 73854,
-      "changePercent": -1.3294312271902076,
+      "price": 74115,
+      "changePercent": 1.0615090853380023,
       "unit": "USD",
-      "asOf": "2026-11-11T07:50:11.000Z",
+      "asOf": "2026-11-11T16:15:52.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -144,7 +144,7 @@
       "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
       "source": "tribune.com.pk",
       "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "fetchedAt": "2026-11-11T16:15:22.557Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -179,7 +179,7 @@
       "url": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002",
       "source": "econotimes.com",
       "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "fetchedAt": "2026-11-11T16:15:22.557Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -212,7 +212,7 @@
       "url": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/",
       "source": "celebdirtylaundry.com",
       "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "fetchedAt": "2026-11-11T16:15:22.557Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -245,7 +245,7 @@
       "url": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
       "source": "ksevradio.com",
       "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "fetchedAt": "2026-11-11T16:15:22.557Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
