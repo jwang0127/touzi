@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-11T01:16:27.930Z",
-  "newsUpdatedAt": "2026-11-11T01:16:27.930Z",
-  "assetsUpdatedAt": "2026-11-11T01:16:27.930Z",
+  "generatedAt": "2026-11-11T07:49:46.509Z",
+  "newsUpdatedAt": "2026-11-11T07:49:46.509Z",
+  "assetsUpdatedAt": "2026-11-11T07:49:46.509Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3663.7,
-      "changePercent": 0,
+      "price": 3680.64,
+      "changePercent": 0.46,
       "unit": "CNY",
-      "asOf": "2026-11-11T09:17:00+08:00",
+      "asOf": "2026-11-11T15:50:27+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 11241.54,
-      "changePercent": 0,
+      "price": 11389.74,
+      "changePercent": 1.32,
       "unit": "CNY",
-      "asOf": "2026-11-11T09:17:33+08:00",
+      "asOf": "2026-11-11T15:50:33+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 24557.04,
-      "changePercent": 0,
+      "price": 24281.84,
+      "changePercent": -1.12,
       "unit": "HKD",
-      "asOf": "2026-11-11T09:02:49+08:00",
+      "asOf": "2026-11-11T15:35:33+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 8265.81,
-      "changePercent": 0,
+      "price": 8159.38,
+      "changePercent": -1.29,
       "unit": "HKD",
-      "asOf": "2026-11-11T09:02:48+08:00",
+      "asOf": "2026-11-11T15:35:32+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 4035.79,
-      "changePercent": 0.14,
+      "price": 4067.67,
+      "changePercent": 0.93,
       "unit": "USD",
-      "asOf": "2026-11-11T09:16:59-04:00",
+      "asOf": "2026-11-11T15:50:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 86.61,
-      "changePercent": 0.67,
+      "price": 86.36,
+      "changePercent": 0.37,
       "unit": "USD",
-      "asOf": "2026-11-11T09:16:59-04:00",
+      "asOf": "2026-11-11T15:50:00-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 628.67,
-      "changePercent": 0.84,
+      "price": 632.07,
+      "changePercent": 1.38,
       "unit": "USD",
-      "asOf": "2026-11-11T09:16:53-04:00",
+      "asOf": "2026-11-11T15:49:47-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,145 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 73315,
-      "changePercent": -2.3342646181444,
+      "price": 73854,
+      "changePercent": -1.3294312271902076,
       "unit": "USD",
-      "asOf": "2026-11-11T01:16:50.000Z",
+      "asOf": "2026-11-11T07:50:11.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "1853ddc700ac0f1d",
+      "category": "能源与航运",
+      "title": "Tanker involved in incident in Strait of Hormuz : united kingdom maritime agency",
+      "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
+      "source": "tribune.com.pk",
+      "publishedAt": "2026-11-11T06:30:00Z",
+      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Pakistan"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency"
+    },
+    {
+      "id": "4ca6def9d21b104b",
+      "category": "能源与航运",
+      "title": "Hussein Describes Possible Hormuz Route for Iraqi Oil Tankers",
+      "url": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002",
+      "source": "econotimes.com",
+      "publishedAt": "2026-11-11T06:30:00Z",
+      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002"
+    },
+    {
+      "id": "76e94a2fa354de63",
+      "category": "能源与航运",
+      "title": "Days of Our Lives Spoilers Wednesday , November 11 : Chanel ASAP Exit Plan Shocks Johnny – Leo Dangerous Twist",
+      "url": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/",
+      "source": "celebdirtylaundry.com",
+      "publishedAt": "2026-11-11T06:30:00Z",
+      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/"
+    },
+    {
+      "id": "7b4bac9a27a9e208",
+      "category": "全球与地区",
+      "title": "India garment makers rethink reliance on US after tariff shock",
+      "url": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
+      "source": "ksevradio.com",
+      "publishedAt": "2026-11-11T06:30:00Z",
+      "fetchedAt": "2026-11-11T07:49:46.509Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/"
+    },
     {
       "id": "9eea8c05136abf7b",
       "category": "金属与资源",
@@ -1569,135 +1696,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://247wallst.com/investing/cryptocurrency/2026/11/03/prediction-2-cryptos-that-could-pass-dogecoin-by-the-end-of-2026/"
-    },
-    {
-      "id": "55ff6bd9a9ad38e7",
-      "category": "A股与政策",
-      "title": "增量资金接力入场 ， A股积极因素持续累积 ， 何时反弹 ？ 新京报",
-      "url": "https://www.bjnews.com.cn/detail/1793611125129524.html",
-      "source": "bjnews.com.cn",
-      "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T23:27:59.482Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "A股",
-        "港股",
-        "政策"
-      ],
-      "industries": [
-        "A股",
-        "港股",
-        "中国经济"
-      ],
-      "regions": [
-        "China"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bjnews.com.cn/detail/1793611125129524.html"
-    },
-    {
-      "id": "11114d2167f95ca9",
-      "category": "能源与航运",
-      "title": "Kazakhstan Restores Oil Flows Through Key Export Pipeline",
-      "url": "https://astanatimes.com/2026/11/kazakhstan-restores-oil-flows-through-key-export-pipeline/",
-      "source": "astanatimes.com",
-      "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T23:27:59.482Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Kazakhstan"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://astanatimes.com/2026/11/kazakhstan-restores-oil-flows-through-key-export-pipeline/"
-    },
-    {
-      "id": "64e08a0acd24225b",
-      "category": "金属与资源",
-      "title": "Central Banks buy 321 tonnes of Gold in Q3 , lifting 2026 demand to 675 tonnes : World Gold Council",
-      "url": "http://www.bangladeshsun.com/news/279409194/central-banks-buy-321-tonnes-of-gold-in-q3-lifting-2026-demand-to-675-tonnes-world-gold-council",
-      "source": "bangladeshsun.com",
-      "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T23:27:59.482Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Bangladesh"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bangladeshsun.com/news/279409194/central-banks-buy-321-tonnes-of-gold-in-q3-lifting-2026-demand-to-675-tonnes-world-gold-council"
-    },
-    {
-      "id": "b243537786528e4d",
-      "category": "能源与航运",
-      "title": "BCG Energy tính rút gần hết vốn tại nhà máy điện rác ở Củ Chi",
-      "url": "https://vietstock.vn/2026/11/bcg-energy-tinh-rut-gan-het-von-tai-nha-may-dien-rac-o-cu-chi-737-1510880.htm",
-      "source": "vietstock.vn",
-      "publishedAt": "2026-11-03T11:15:00Z",
-      "fetchedAt": "2026-11-03T23:27:59.482Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Vietnam"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://vietstock.vn/2026/11/bcg-energy-tinh-rut-gan-het-von-tai-nha-may-dien-rac-o-cu-chi-737-1510880.htm"
     }
   ]
 }
