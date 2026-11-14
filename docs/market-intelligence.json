@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-13T23:37:58.831Z",
-  "newsUpdatedAt": "2026-11-13T17:48:22.535Z",
-  "assetsUpdatedAt": "2026-11-13T23:37:58.831Z",
+  "generatedAt": "2026-11-14T06:35:16.296Z",
+  "newsUpdatedAt": "2026-11-14T06:35:16.296Z",
+  "assetsUpdatedAt": "2026-11-14T06:35:16.296Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,355 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 68121,
-      "changePercent": -4.370067366505768,
+      "price": 67250,
+      "changePercent": -2.25054398080381,
       "unit": "USD",
-      "asOf": "2026-11-13T23:38:24.000Z",
+      "asOf": "2026-11-14T06:36:01.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "af59aa74e97078e9",
+      "category": "数字资产",
+      "title": "Bitcoin Falls Below $69 , 000 After Nvidia CEO Exit . Why ?",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70128043-bitcoin-falls-below-dollar-69-000-after-nvidia-ceo-exit-why-385.htm",
+      "source": "finanznachrichten.de",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-11/70128043-bitcoin-falls-below-dollar-69-000-after-nvidia-ceo-exit-why-385.htm"
+    },
+    {
+      "id": "725341b046434810",
+      "category": "全球与地区",
+      "title": "Treasury Sanctions Two Guatemalan Drug Trafficking Organizations Backing Sinaloa Cartel and CJNG",
+      "url": "https://newsroomamerica.com/a/YhreVqcG0LaGcs02LcxKHZRBE7/ofac_sanctions_guatemala_s_los_mendoza_and_los_huistas_dtos_for_supporting_mexico_s_sinaloa_cartel_and_cjng_targeting_trafficking_corridors_along_the_honduran_and_mexican_borders.html",
+      "source": "newsroomamerica.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://newsroomamerica.com/a/YhreVqcG0LaGcs02LcxKHZRBE7/ofac_sanctions_guatemala_s_los_mendoza_and_los_huistas_dtos_for_supporting_mexico_s_sinaloa_cartel_and_cjng_targeting_trafficking_corridors_along_the_honduran_and_mexican_borders.html"
+    },
+    {
+      "id": "e0bf869a9517f32e",
+      "category": "能源与航运",
+      "title": "SPOC ENERGY EXPANDS ALABAMA WORKFORCE TO SUPPORT CONTINUED GROWTH",
+      "url": "https://www.prnewswire.com/news-releases/spoc-energy-expands-alabama-workforce-to-support-continued-growth-302939168.html",
+      "source": "prnewswire.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prnewswire.com/news-releases/spoc-energy-expands-alabama-workforce-to-support-continued-growth-302939168.html"
+    },
+    {
+      "id": "9eeb00ab2e55a3d0",
+      "category": "金属与资源",
+      "title": "Despite tensions , this West Coast route as old as the gold rush endures",
+      "url": "https://edmontonjournal.com:443/news/despite-canada-us-tensions-this-west-coast-route-as-old-as-the-gold-rush-endures",
+      "source": "edmontonjournal.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://edmontonjournal.com:443/news/despite-canada-us-tensions-this-west-coast-route-as-old-as-the-gold-rush-endures"
+    },
+    {
+      "id": "a7e84bbd23817ddf",
+      "category": "能源与航运",
+      "title": "REPLOID explores potential for Austrian farmers and foresters to save hundreds of millions of euros annually in mineral oil tax with locally produced biodiesel from insect fat",
+      "url": "https://www.ots.at/presseaussendung/EQS_20261113_EQS0007/reploid-explores-potential-for-austrian-farmers-and-foresters-to-save-hundreds-of-millions-of-euros-annually-in-mineral-oil-tax-with-locally-produced-biodiesel-from-insect-fat",
+      "source": "ots.at",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ots.at/presseaussendung/EQS_20261113_EQS0007/reploid-explores-potential-for-austrian-farmers-and-foresters-to-save-hundreds-of-millions-of-euros-annually-in-mineral-oil-tax-with-locally-produced-biodiesel-from-insect-fat"
+    },
+    {
+      "id": "72fd5d9c8af99a91",
+      "category": "金属与资源",
+      "title": "Metal Gear Solid 2 Was Ahead of Its Time",
+      "url": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
+      "source": "ign.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s"
+    },
+    {
+      "id": "cbe0d3ef3928f740",
+      "category": "全球与地区",
+      "title": "USPS Seeks 5 . 9 % Shipping Price Increase After $6 . 5 Billion Loss",
+      "url": "https://www.wbap.com/2026/11/13/usps-seeks-5-9-shipping-price-increase-after-6-5-billion-loss/",
+      "source": "wbap.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.wbap.com/2026/11/13/usps-seeks-5-9-shipping-price-increase-after-6-5-billion-loss/"
+    },
+    {
+      "id": "4d229227175f8d86",
+      "category": "金属与资源",
+      "title": "Finance guru shares golden investing rule amid Nvidia stock crash",
+      "url": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html",
+      "source": "dailygazette.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html"
+    },
+    {
+      "id": "809ef46ae30482d5",
+      "category": "全球与地区",
+      "title": "Trump tariffs face a new threat : Republicans",
+      "url": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans",
+      "source": "rnz.co.nz",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans"
+    },
+    {
+      "id": "c10e1bfb12682eda",
+      "category": "全球与地区",
+      "title": "USPS plans January shipping rate hikes , citing higher fuel costs",
+      "url": "https://www.turnto23.com/us-news/usps-plans-january-shipping-rate-hikes-citing-higher-fuel-costs",
+      "source": "turnto23.com",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.turnto23.com/us-news/usps-plans-january-shipping-rate-hikes-citing-higher-fuel-costs"
+    },
+    {
+      "id": "c2817d8481035b26",
+      "category": "能源与航运",
+      "title": "WSJ : blogiau nei Hormuze – Juodoji jūra tapo pavojingiausiu laivybos keliu pasaulyje",
+      "url": "https://cedarnews.net/lietuvos-naujienos/1143220/wsj-blogiau-nei-hormuze-juodoji-jura-tapo/",
+      "source": "cedarnews.net",
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "fetchedAt": "2026-11-14T06:35:16.296Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Lebanon"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cedarnews.net/lietuvos-naujienos/1143220/wsj-blogiau-nei-hormuze-juodoji-jura-tapo/"
+    },
     {
       "id": "5136a8f8961bf822",
       "category": "金属与资源",
@@ -1324,366 +1661,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://anlatilaninotesi.com.tr/20261107/rusya-ozel-askeri-harekata-devam-ediyor-ukrayna-ordusunun-muhimmat-depolari-ve-robotik-sistem-1110181467.html"
-    },
-    {
-      "id": "5b100883ada70d3b",
-      "category": "金属与资源",
-      "title": "Himachal Gold Silver Rate Today : हिमाचल में आज क्या है सोने - चांदी का भाव ? चेक करें लेटेस्ट गोल्ड - सिल्वर रेट | Himachal Pradesh",
-      "url": "https://www.aajsamaaj.com/state/himachal-pradesh/gold-silver-rate-today-7-november-2026-gold-prices-drop-check-latest-22k-and-24k-rates/543716/",
-      "source": "aajsamaaj.com",
-      "publishedAt": "2026-11-07T11:30:00Z",
-      "fetchedAt": "2026-11-07T15:42:50.421Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aajsamaaj.com/state/himachal-pradesh/gold-silver-rate-today-7-november-2026-gold-prices-drop-check-latest-22k-and-24k-rates/543716/"
-    },
-    {
-      "id": "f15a592b82b1015a",
-      "category": "科技与产业",
-      "title": "European Fabless Semiconductor Association founded ⋆ Electronics Weekly",
-      "url": "https://www.electronicsweekly.com/news/business/european-fabless-semiconductor-association-founded-2026-11/",
-      "source": "electronicsweekly.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United Kingdom"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.electronicsweekly.com/news/business/european-fabless-semiconductor-association-founded-2026-11/"
-    },
-    {
-      "id": "9e1841f9295307dd",
-      "category": "能源与航运",
-      "title": "MM - kisoilla karmea yhteys Venäjälle – Uusi tieto sisäpiiristä",
-      "url": "https://www.iltalehti.fi/jaakiekko/a/f28fca89-7def-4dc8-91e8-7363c5bd8b50",
-      "source": "iltalehti.fi",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Finland"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.iltalehti.fi/jaakiekko/a/f28fca89-7def-4dc8-91e8-7363c5bd8b50"
-    },
-    {
-      "id": "49394c28e6420558",
-      "category": "能源与航运",
-      "title": "FCCPC seals firms as oil , salt samples fail fortification tests",
-      "url": "https://www.vanguardngr.com/2026/11/fccpc-seals-firms-as-oil-salt-samples-fail-fortification-tests-2/",
-      "source": "vanguardngr.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Nigeria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.vanguardngr.com/2026/11/fccpc-seals-firms-as-oil-salt-samples-fail-fortification-tests-2/"
-    },
-    {
-      "id": "a0063146c9f6737e",
-      "category": "金属与资源",
-      "title": "Gold Purity Fraud Indore Sarafa Market Case ; सोन्यात भेसळ ! ज्यासाठी लाखो मोजताय ते खरंच सोने आहे का , सराफा बाजारात घडतंय तरी काय ?",
-      "url": "https://maharashtratimes.com/business/business-news/gold-purity-fraud-in-indore-sarafa-market-heavy-metal-powder/articleshow/135594553.cms",
-      "source": "maharashtratimes.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://maharashtratimes.com/business/business-news/gold-purity-fraud-in-indore-sarafa-market-heavy-metal-powder/articleshow/135594553.cms"
-    },
-    {
-      "id": "55d18e5016bb3668",
-      "category": "能源与航运",
-      "title": "Crude oil price gain amid fresh tanker attacks in Strait of Hormuz",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/brent-crude-tops-100-wti-nears-92-amid-fresh-strait-of-hormuz-attacks/article71672815.ece",
-      "source": "thehindubusinessline.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.thehindubusinessline.com/markets/commodities/brent-crude-tops-100-wti-nears-92-amid-fresh-strait-of-hormuz-attacks/article71672815.ece"
-    },
-    {
-      "id": "a41c451efe99cde8",
-      "category": "能源与航运",
-      "title": "Patterson - UTI Energy ( NASDAQ : PTEN ) Price Target Raised to $15 . 00",
-      "url": "https://www.tickerreport.com/banking-finance/13651916/patterson-uti-energy-nasdaqpten-price-target-raised-to-15-00.html",
-      "source": "tickerreport.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tickerreport.com/banking-finance/13651916/patterson-uti-energy-nasdaqpten-price-target-raised-to-15-00.html"
-    },
-    {
-      "id": "24fab9571c34a3f8",
-      "category": "金属与资源",
-      "title": "Gold and Silver Prices Today , November 6 , 2026 : Check City - Wise Rates",
-      "url": "https://www.sakshipost.com/news/business/gold-and-silver-prices-today-november-6-2026-check-city-wise-rates-483035",
-      "source": "sakshipost.com",
-      "publishedAt": "2026-11-06T07:30:00Z",
-      "fetchedAt": "2026-11-06T07:57:53.190Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.sakshipost.com/news/business/gold-and-silver-prices-today-november-6-2026-check-city-wise-rates-483035"
-    },
-    {
-      "id": "e6480141535a5d00",
-      "category": "金属与资源",
-      "title": "Gold Coast mansion listed for $47 . 5m in bid to smash Queensland house record",
-      "url": "https://www.realestate.com.au/news/mermaid-beach-mansion-listed-for-475m-in-bid-to-smash-queensland-house-record/",
-      "source": "realestate.com.au",
-      "publishedAt": "2026-11-05T23:30:00Z",
-      "fetchedAt": "2026-11-06T00:22:05.762Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Australia"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.realestate.com.au/news/mermaid-beach-mansion-listed-for-475m-in-bid-to-smash-queensland-house-record/"
-    },
-    {
-      "id": "26a3399ee186c202",
-      "category": "数字资产",
-      "title": "Cryptohack Roundup : $37M Chinese Scam Suspect Extradited",
-      "url": "https://www.bankinfosecurity.com/cryptohack-roundup-37m-chinese-scam-suspect-extradited-a-33303",
-      "source": "bankinfosecurity.com",
-      "publishedAt": "2026-11-05T23:30:00Z",
-      "fetchedAt": "2026-11-06T00:22:05.762Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bankinfosecurity.com/cryptohack-roundup-37m-chinese-scam-suspect-extradited-a-33303"
-    },
-    {
-      "id": "f30f56585c96504d",
-      "category": "全球与地区",
-      "title": "US Tariffs on Mexico Stay After Midterms",
-      "url": "https://www.riotimesonline.com/us-tariffs-on-mexico-stay-after-midterms-usmca-2026/",
-      "source": "riotimesonline.com",
-      "publishedAt": "2026-11-05T23:30:00Z",
-      "fetchedAt": "2026-11-06T00:22:05.762Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Brazil"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.riotimesonline.com/us-tariffs-on-mexico-stay-after-midterms-usmca-2026/"
     }
   ]
 }
