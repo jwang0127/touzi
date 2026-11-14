@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-14T19:14:10.484Z",
-  "newsUpdatedAt": "2026-11-14T06:35:16.296Z",
-  "assetsUpdatedAt": "2026-11-14T19:14:10.484Z",
+  "generatedAt": "2026-11-14T23:03:34.633Z",
+  "newsUpdatedAt": "2026-11-14T23:03:34.633Z",
+  "assetsUpdatedAt": "2026-11-14T23:03:34.633Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,151 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65562,
-      "changePercent": -4.935440385613616,
+      "price": 63608,
+      "changePercent": -6.582842349975452,
       "unit": "USD",
-      "asOf": "2026-11-14T19:13:59.000Z",
+      "asOf": "2026-11-14T23:03:18.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "01a13e337e1cf019",
+      "category": "金属与资源",
+      "title": "130 of 163 gold medals won by women at first Jammu Cluster University convocation",
+      "url": "https://www.tribuneindia.com/news/j-k/130-of-163-gold-medals-won-by-women-at-first-jammu-cluster-university-convocation/",
+      "source": "tribuneindia.com",
+      "publishedAt": "2026-11-14T21:00:00Z",
+      "fetchedAt": "2026-11-14T23:03:34.633Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tribuneindia.com/news/j-k/130-of-163-gold-medals-won-by-women-at-first-jammu-cluster-university-convocation/"
+    },
+    {
+      "id": "18f5be083d66f6bf",
+      "category": "金属与资源",
+      "title": "Ten Iowa care facilities cited for abuse have federal gold trophy status",
+      "url": "https://kxel.com:443/news/2026/11/13/ten-iowa-care-facilities-cited-for-abuse-have-federal-gold-trophy-status",
+      "source": "kxel.com",
+      "publishedAt": "2026-11-14T21:00:00Z",
+      "fetchedAt": "2026-11-14T23:03:34.633Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://kxel.com:443/news/2026/11/13/ten-iowa-care-facilities-cited-for-abuse-have-federal-gold-trophy-status"
+    },
+    {
+      "id": "a23a2e297b1178f8",
+      "category": "能源与航运",
+      "title": "Agropecuária compartilha solo com painéis solares",
+      "url": "https://www.dw.com/pt-br/agropecu%C3%A1ria-aposta-em-solo-compartilhado-com-pain%C3%A9is-solares/a-79950021",
+      "source": "dw.com",
+      "publishedAt": "2026-11-14T21:00:00Z",
+      "fetchedAt": "2026-11-14T23:03:34.633Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dw.com/pt-br/agropecu%C3%A1ria-aposta-em-solo-compartilhado-com-pain%C3%A9is-solares/a-79950021"
+    },
+    {
+      "id": "35604d421a8bd95b",
+      "category": "科技与产业",
+      "title": "VanEck Semiconductor ETF : Burry setzt wieder auf Puts bis 2027",
+      "url": "https://www.boerse-express.com/news/articles/vaneck-semiconductor-etf-burry-setzt-wieder-auf-puts-bis-2027-963104",
+      "source": "boerse-express.com",
+      "publishedAt": "2026-11-14T21:00:00Z",
+      "fetchedAt": "2026-11-14T23:03:34.633Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Austria"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.boerse-express.com/news/articles/vaneck-semiconductor-etf-burry-setzt-wieder-auf-puts-bis-2027-963104"
+    },
     {
       "id": "af59aa74e97078e9",
       "category": "数字资产",
@@ -1534,135 +1667,6 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.prokerala.com/news/articles/a1834431.html"
-    },
-    {
-      "id": "db80268160f84cd8",
-      "category": "金属与资源",
-      "title": "Gabi Elmer gewinnt mit ihrem Glarner Alpkäse AOP Gold bei den Swiss Cheese Awards",
-      "url": "https://www.bauernzeitung.ch/artikel/regionen/goldmedaille-fuer-glarner-alpkaese",
-      "source": "bauernzeitung.ch",
-      "publishedAt": "2026-11-07T11:30:00Z",
-      "fetchedAt": "2026-11-07T15:42:50.421Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Switzerland"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bauernzeitung.ch/artikel/regionen/goldmedaille-fuer-glarner-alpkaese"
-    },
-    {
-      "id": "784d834ccfffa74c",
-      "category": "金属与资源",
-      "title": "GOLD : Fast 5 % plus ! - Analyse & Prognose",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70065710-gold-fast-5-plus-analyse-prognose-232.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-11-07T11:30:00Z",
-      "fetchedAt": "2026-11-07T15:42:50.421Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-11/70065710-gold-fast-5-plus-analyse-prognose-232.htm"
-    },
-    {
-      "id": "462c28d192c76c9e",
-      "category": "全球与地区",
-      "title": "FIFA partially upholds AFA appeal against post World Cup sanctions ; Nahuel suspension reduced",
-      "url": "http://www.bignewsnetwork.com/news/279418336/fifa-partially-upholds-afa-appeal-against-post-world-cup-sanctions-nahuel-suspension-reduced",
-      "source": "bignewsnetwork.com",
-      "publishedAt": "2026-11-07T11:30:00Z",
-      "fetchedAt": "2026-11-07T15:42:50.421Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "http://www.bignewsnetwork.com/news/279418336/fifa-partially-upholds-afa-appeal-against-post-world-cup-sanctions-nahuel-suspension-reduced"
-    },
-    {
-      "id": "a7cca172d72245bb",
-      "category": "科技与产业",
-      "title": "Rusya özel askeri harekata devam ediyor : Ukrayna ordusunun mühimmat depoları ve robotik sistem tesisleri vuruldu",
-      "url": "https://anlatilaninotesi.com.tr/20261107/rusya-ozel-askeri-harekata-devam-ediyor-ukrayna-ordusunun-muhimmat-depolari-ve-robotik-sistem-1110181467.html",
-      "source": "anlatilaninotesi.com.tr",
-      "publishedAt": "2026-11-07T11:30:00Z",
-      "fetchedAt": "2026-11-07T15:42:50.421Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://anlatilaninotesi.com.tr/20261107/rusya-ozel-askeri-harekata-devam-ediyor-ukrayna-ordusunun-muhimmat-depolari-ve-robotik-sistem-1110181467.html"
     }
   ]
 }
