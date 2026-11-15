@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-15T02:44:51.929Z",
-  "newsUpdatedAt": "2026-11-14T23:03:34.633Z",
-  "assetsUpdatedAt": "2026-11-15T02:44:51.929Z",
+  "generatedAt": "2026-11-15T11:05:22.600Z",
+  "newsUpdatedAt": "2026-11-15T11:05:22.600Z",
+  "assetsUpdatedAt": "2026-11-15T11:05:22.600Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,110 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 64726,
-      "changePercent": -4.003317526848648,
+      "price": 65483,
+      "changePercent": -2.533875158862998,
       "unit": "USD",
-      "asOf": "2026-11-15T02:44:41.000Z",
+      "asOf": "2026-11-15T11:06:11.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "518e46ff3e22de68",
+      "category": "金属与资源",
+      "title": "Gold Duke of Edinburgh programmes planned in Yorkshire | Darlington and Stockton Times",
+      "url": "https://www.darlingtonandstocktontimes.co.uk/news/26714194.gold-duke-edinburgh-programmes-planned-yorkshire/",
+      "source": "darlingtonandstocktontimes.co.uk",
+      "publishedAt": "2026-11-15T07:45:00Z",
+      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.darlingtonandstocktontimes.co.uk/news/26714194.gold-duke-edinburgh-programmes-planned-yorkshire/"
+    },
+    {
+      "id": "8231e814599192b0",
+      "category": "数字资产",
+      "title": "Bitcoin tumbles to four - month low as liquidations accelerate",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
+      "source": "thehindubusinessline.com",
+      "publishedAt": "2026-11-15T07:45:00Z",
+      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece"
+    },
+    {
+      "id": "73426a7dae13e485",
+      "category": "金属与资源",
+      "title": "Moment alleged thief steals $9million worth of gold bars",
+      "url": "https://www.dailymail.com/news/article-16293639/Manhattan-gold-bar-thief-millions.html",
+      "source": "dailymail.com",
+      "publishedAt": "2026-11-15T07:45:00Z",
+      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.dailymail.com/news/article-16293639/Manhattan-gold-bar-thief-millions.html"
+    },
     {
       "id": "01a13e337e1cf019",
       "category": "金属与资源",
@@ -1568,107 +1662,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam"
-    },
-    {
-      "id": "e8e8c96673cf882a",
-      "category": "能源与航运",
-      "title": "Assam OIL facility fire : Death toll rises to four after injured worker dies",
-      "url": "https://economictimes.indiatimes.com/news/india/assam-oil-facility-fire-death-toll-rises-to-four-after-injured-worker-dies/articleshow/135658404.cms",
-      "source": "economictimes.indiatimes.com",
-      "publishedAt": "2026-11-08T13:00:00Z",
-      "fetchedAt": "2026-11-08T13:33:54.037Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://economictimes.indiatimes.com/news/india/assam-oil-facility-fire-death-toll-rises-to-four-after-injured-worker-dies/articleshow/135658404.cms"
-    },
-    {
-      "id": "cba4aff03ca80aa1",
-      "category": "金属与资源",
-      "title": "Gold purchases touch Rs 60 , 000 crore on Dhanteras as prices lift sales value",
-      "url": "https://dailypioneer.com/business/gold-purchases-touch-rs-60000-crore-on-dhanteras-as-prices-lift-sales-value",
-      "source": "dailypioneer.com",
-      "publishedAt": "2026-11-08T13:00:00Z",
-      "fetchedAt": "2026-11-08T13:33:54.037Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://dailypioneer.com/business/gold-purchases-touch-rs-60000-crore-on-dhanteras-as-prices-lift-sales-value"
-    },
-    {
-      "id": "390c6138e0d40540",
-      "category": "金属与资源",
-      "title": "Gold , silver outlook : Inflation data and geopolitical tensions likely to drive prices this week",
-      "url": "https://www.prokerala.com/news/articles/a1834431.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-11-08T13:00:00Z",
-      "fetchedAt": "2026-11-08T13:33:54.037Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1834431.html"
     }
   ]
 }
