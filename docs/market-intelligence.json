@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-15T22:54:39.417Z",
-  "newsUpdatedAt": "2026-11-15T11:05:22.600Z",
-  "assetsUpdatedAt": "2026-11-15T22:54:39.417Z",
+  "generatedAt": "2026-11-16T02:47:54.249Z",
+  "newsUpdatedAt": "2026-11-16T02:47:54.249Z",
+  "assetsUpdatedAt": "2026-11-16T02:47:54.249Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3634.35,
-      "changePercent": -0.59,
+      "price": 3609.12,
+      "changePercent": -0.69,
       "unit": "CNY",
-      "asOf": "2026-11-13T16:14:27+08:00",
+      "asOf": "2026-11-16T10:48:57+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 10968.79,
-      "changePercent": -2.05,
+      "price": 10771.28,
+      "changePercent": -1.8,
       "unit": "CNY",
-      "asOf": "2026-11-13T16:14:51+08:00",
+      "asOf": "2026-11-16T10:48:54+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 23637.6,
-      "changePercent": -1.55,
+      "price": 23829.31,
+      "changePercent": 0.81,
       "unit": "HKD",
-      "asOf": "2026-11-13T18:31:15+08:00",
+      "asOf": "2026-11-16T10:33:54+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7937.53,
-      "changePercent": -1.48,
+      "price": 7994.76,
+      "changePercent": 0.72,
       "unit": "HKD",
-      "asOf": "2026-11-13T16:08:40+08:00",
+      "asOf": "2026-11-16T10:33:54+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3886.21,
-      "changePercent": 0.02,
+      "price": 3878.61,
+      "changePercent": -0.2,
       "unit": "USD",
-      "asOf": "2026-11-14T05:59:59-04:00",
+      "asOf": "2026-11-16T10:48:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 88.98,
-      "changePercent": 0.28,
+      "price": 87.87,
+      "changePercent": -0.77,
       "unit": "USD",
-      "asOf": "2026-11-14T05:59:59-04:00",
+      "asOf": "2026-11-16T10:48:01-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 614.76,
-      "changePercent": -2.35,
+      "price": 610.58,
+      "changePercent": -1.27,
       "unit": "USD",
-      "asOf": "2026-11-14T05:59:00-04:00",
+      "asOf": "2026-11-16T10:47:48-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +129,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 65081,
-      "changePercent": 2.3939114775238926,
+      "price": 65200,
+      "changePercent": 0.7078666059544747,
       "unit": "USD",
-      "asOf": "2026-11-15T22:54:28.000Z",
+      "asOf": "2026-11-16T02:48:28.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +146,7 @@
       "url": "https://www.darlingtonandstocktontimes.co.uk/news/26714194.gold-duke-edinburgh-programmes-planned-yorkshire/",
       "source": "darlingtonandstocktontimes.co.uk",
       "publishedAt": "2026-11-15T07:45:00Z",
-      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "fetchedAt": "2026-11-16T02:47:54.249Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -180,7 +180,7 @@
       "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
       "source": "thehindubusinessline.com",
       "publishedAt": "2026-11-15T07:45:00Z",
-      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "fetchedAt": "2026-11-16T02:47:54.249Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -206,7 +206,7 @@
       "url": "https://www.dailymail.com/news/article-16293639/Manhattan-gold-bar-thief-millions.html",
       "source": "dailymail.com",
       "publishedAt": "2026-11-15T07:45:00Z",
-      "fetchedAt": "2026-11-15T11:05:22.600Z",
+      "fetchedAt": "2026-11-16T02:47:54.249Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
