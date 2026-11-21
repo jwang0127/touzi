@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-21T11:16:17.956Z",
-  "newsUpdatedAt": "2026-11-19T22:12:50.021Z",
-  "assetsUpdatedAt": "2026-11-21T11:16:17.956Z",
+  "generatedAt": "2026-11-21T18:04:54.441Z",
+  "newsUpdatedAt": "2026-11-21T18:04:54.441Z",
+  "assetsUpdatedAt": "2026-11-21T18:04:54.441Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,315 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 57868,
-      "changePercent": -6.3013824132433935,
+      "price": 60029,
+      "changePercent": 1.8236648331816374,
       "unit": "USD",
-      "asOf": "2026-11-21T11:16:45.000Z",
+      "asOf": "2026-11-21T18:05:21.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "29171fdc0b014bb4",
+      "category": "能源与航运",
+      "title": "Grain - free Olive Oil Cake with Compote - alive magazine",
+      "url": "https://www.alive.com/recipe/grain-free-olive-oil-cake-with-dairy-free-cream-cheese-frosting-and-spiced-apple-compote/",
+      "source": "alive.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.alive.com/recipe/grain-free-olive-oil-cake-with-dairy-free-cream-cheese-frosting-and-spiced-apple-compote/"
+    },
+    {
+      "id": "db6ae69b84aad43b",
+      "category": "金属与资源",
+      "title": "Gold , copper , aluminium dive to at least 7 - month lows",
+      "url": "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece",
+      "source": "thehindu.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece"
+    },
+    {
+      "id": "d1ffb352fb975603",
+      "category": "能源与航运",
+      "title": "Briton swims in Strait of Hormuz to highlight environmental cost of war",
+      "url": "https://www.basingstokegazette.co.uk/news/national/26750618.briton-swims-strait-hormuz-highlight-environmental-cost-war/",
+      "source": "basingstokegazette.co.uk",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.basingstokegazette.co.uk/news/national/26750618.briton-swims-strait-hormuz-highlight-environmental-cost-war/"
+    },
+    {
+      "id": "fcb3b80f74855754",
+      "category": "数字资产",
+      "title": "Bitcoin price crash : ​Falls to lowest level in two years - What behind plunge of world largest cryptocurrency",
+      "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+      "source": "livemint.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "比特币",
+        "加密货币"
+      ],
+      "industries": [
+        "数字资产"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html"
+    },
+    {
+      "id": "845e270f8c574a55",
+      "category": "能源与航运",
+      "title": "Crude Affairs (@ CrudeAffairs )",
+      "url": "https://digg.com/u/x/crudeaffairs",
+      "source": "digg.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://digg.com/u/x/crudeaffairs"
+    },
+    {
+      "id": "ea5780a17993bf93",
+      "category": "能源与航运",
+      "title": "Senate permitting bill speeds up renewables , divides greens over oil and gas",
+      "url": "https://www.ketr.org/2026-11-21/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas",
+      "source": "ketr.org",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.ketr.org/2026-11-21/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas"
+    },
+    {
+      "id": "0189a57f96489554",
+      "category": "金属与资源",
+      "title": "ഒരു വർഷത്തേക്ക് സ്വർണം വാങ്ങരുതെന്ന് പറഞ്ഞു , ജനം അനുസരിച്ചു , വില കുറഞ്ഞു ; അവകാശവാദവുമായി പ്രധാനമന്ത്രി നരേന്ദ്ര മോദി | Narendra Modi Says His Appeal To Buy Less Gold Helped Bring Prices Down",
+      "url": "https://www.madhyamam.com/india/narendra-modi-says-his-appeal-to-buy-less-gold-helped-bring-prices-down-1574541",
+      "source": "madhyamam.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.madhyamam.com/india/narendra-modi-says-his-appeal-to-buy-less-gold-helped-bring-prices-down-1574541"
+    },
+    {
+      "id": "f9fed7d4fc7ecee9",
+      "category": "金属与资源",
+      "title": "Pakistan halts gold mining in Khyber Pakhtunkhwa as Governor alleges proceeds financing terrorism : Report",
+      "url": "https://www.prokerala.com/news/articles/a1839593.html",
+      "source": "prokerala.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.prokerala.com/news/articles/a1839593.html"
+    },
+    {
+      "id": "0b30762f8e36a0db",
+      "category": "能源与航运",
+      "title": "Reported Hormuz attacks hit wartime highs . Oil prices fall anyway . · Digg",
+      "url": "https://digg.com/world-business/hk32yb03",
+      "source": "digg.com",
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "fetchedAt": "2026-11-21T18:04:54.441Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏负面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://digg.com/world-business/hk32yb03"
+    },
     {
       "id": "9173219c45513f26",
       "category": "科技与产业",
@@ -1374,288 +1673,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.thetidenewsonline.com/2026/11/ncdmb-nlng-unveil-9m-for-professorial-endowment-research-chairs-in-six-varsities/"
-    },
-    {
-      "id": "1bc2dc66411c45ac",
-      "category": "金属与资源",
-      "title": "Trending News | Gold Discovery , Helicopter Bride & Crocodile Pushups",
-      "url": "https://www.bhaskar.com/bhaskar-khaas/khabar-hatke/news/trending-news-gold-discovery-bride-helicopter-crocodile-pushups-139667366.html",
-      "source": "bhaskar.com",
-      "publishedAt": "2026-11-13T00:45:00Z",
-      "fetchedAt": "2026-11-13T17:48:22.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.bhaskar.com/bhaskar-khaas/khabar-hatke/news/trending-news-gold-discovery-bride-helicopter-crocodile-pushups-139667366.html"
-    },
-    {
-      "id": "cbf1bea89234a9d8",
-      "category": "数字资产",
-      "title": "Cryptohack Roundup : Binance Hackers Launder Funds , CFO Exits",
-      "url": "https://www.govinfosecurity.com/cryptohack-roundup-binance-hackers-launder-funds-cfo-exits-a-33372",
-      "source": "govinfosecurity.com",
-      "publishedAt": "2026-11-13T00:45:00Z",
-      "fetchedAt": "2026-11-13T17:48:22.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.govinfosecurity.com/cryptohack-roundup-binance-hackers-launder-funds-cfo-exits-a-33372"
-    },
-    {
-      "id": "ce06662463be2cd0",
-      "category": "数字资产",
-      "title": "FBI seizes $1 . 2 billion in stolen Binance crypto",
-      "url": "https://www.mynbc5.com/article/north-korea-binance-crypto-hack-seizure/74417146",
-      "source": "mynbc5.com",
-      "publishedAt": "2026-11-13T00:45:00Z",
-      "fetchedAt": "2026-11-13T17:48:22.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.mynbc5.com/article/north-korea-binance-crypto-hack-seizure/74417146"
-    },
-    {
-      "id": "1853ddc700ac0f1d",
-      "category": "能源与航运",
-      "title": "Tanker involved in incident in Strait of Hormuz : united kingdom maritime agency",
-      "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T22:48:32.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency"
-    },
-    {
-      "id": "4ca6def9d21b104b",
-      "category": "能源与航运",
-      "title": "Hussein Describes Possible Hormuz Route for Iraqi Oil Tankers",
-      "url": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002",
-      "source": "econotimes.com",
-      "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T22:48:32.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002"
-    },
-    {
-      "id": "76e94a2fa354de63",
-      "category": "能源与航运",
-      "title": "Days of Our Lives Spoilers Wednesday , November 11 : Chanel ASAP Exit Plan Shocks Johnny – Leo Dangerous Twist",
-      "url": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/",
-      "source": "celebdirtylaundry.com",
-      "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T22:48:32.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.celebdirtylaundry.com/2026/days-of-our-lives-spoilers-wednesday-november-11-chanels-asap-exit-plan-shocks-johnny-leos-dangerous-twist/"
-    },
-    {
-      "id": "7b4bac9a27a9e208",
-      "category": "全球与地区",
-      "title": "India garment makers rethink reliance on US after tariff shock",
-      "url": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
-      "source": "ksevradio.com",
-      "publishedAt": "2026-11-11T06:30:00Z",
-      "fetchedAt": "2026-11-11T22:48:32.917Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/"
-    },
-    {
-      "id": "9eea8c05136abf7b",
-      "category": "金属与资源",
-      "title": "NetNewsLedger - Equinox Gold Revenue Tops US$1 Billion as Greenstone Ramp - Up Continues",
-      "url": "https://www.netnewsledger.com/2026/11/10/equinox-gold-revenue-tops-us1-billion-as-greenstone-ramp-up-continues/",
-      "source": "netnewsledger.com",
-      "publishedAt": "2026-11-11T00:00:00Z",
-      "fetchedAt": "2026-11-11T01:16:27.930Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.netnewsledger.com/2026/11/10/equinox-gold-revenue-tops-us1-billion-as-greenstone-ramp-up-continues/"
-    },
-    {
-      "id": "fced77db2cf2dd56",
-      "category": "能源与航运",
-      "title": "Midterm Results Could Trip Trump Energy Independence Plans",
-      "url": "https://oilprice.com/Energy/Energy-General/Midterm-Results-Could-Trip-Trumps-Energy-Independence-Plans.html",
-      "source": "oilprice.com",
-      "publishedAt": "2026-11-11T00:00:00Z",
-      "fetchedAt": "2026-11-11T01:16:27.930Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://oilprice.com/Energy/Energy-General/Midterm-Results-Could-Trip-Trumps-Energy-Independence-Plans.html"
     }
   ]
 }
