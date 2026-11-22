@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-22T06:59:09.701Z",
-  "newsUpdatedAt": "2026-11-21T23:25:47.037Z",
-  "assetsUpdatedAt": "2026-11-22T06:59:09.701Z",
+  "generatedAt": "2026-11-22T15:25:40.272Z",
+  "newsUpdatedAt": "2026-11-22T15:25:40.272Z",
+  "assetsUpdatedAt": "2026-11-22T15:25:40.272Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：This operation was aborted"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -129,16 +129,117 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 59069,
-      "changePercent": 1.9578279413929052,
+      "price": 60843,
+      "changePercent": 1.2583935813782499,
       "unit": "USD",
-      "asOf": "2026-11-22T06:59:38.000Z",
+      "asOf": "2026-11-22T15:25:42.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "123ed98859e661b9",
+      "category": "科技与产业",
+      "title": "KIZILELMA , 81 ile inşa edilen sığınaklar , robot ordular , Economistin 2027 kehanetleri , altın fiyatları ve Hakan Fidan ın savaş mesajı CNN TÜRK Masası nda konuşuldu - CNN TÜRK Masası",
+      "url": "https://www.cnnturk.com/tv-cnn-turk/programlar/cnn-turk-masasi/kizilelma-81-ile-insa-edilen-siginaklar-robot-ordular-economistin-2027-kehanetleri-altin-fiyatlari-3495072",
+      "source": "cnnturk.com",
+      "publishedAt": "2026-11-22T12:30:00Z",
+      "fetchedAt": "2026-11-22T15:25:40.272Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "Turkey"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cnnturk.com/tv-cnn-turk/programlar/cnn-turk-masasi/kizilelma-81-ile-insa-edilen-siginaklar-robot-ordular-economistin-2027-kehanetleri-altin-fiyatlari-3495072"
+    },
+    {
+      "id": "e9ab717488a8ae92",
+      "category": "金属与资源",
+      "title": "Gold - Silver Price Today : सोना 12 हजार और चांदी 25 हजार रुपये तक हुई सस्ती , खरीदारी से पहले जान लें ताजा भाव",
+      "url": "https://panchjanya.com/2026/11/22/499763/business/gold-becomes-cheaper-by-rs-12000-and-silver-by-rs-25000-know-the-latest-price-before-buying/",
+      "source": "panchjanya.com",
+      "publishedAt": "2026-11-22T12:30:00Z",
+      "fetchedAt": "2026-11-22T15:25:40.272Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://panchjanya.com/2026/11/22/499763/business/gold-becomes-cheaper-by-rs-12000-and-silver-by-rs-25000-know-the-latest-price-before-buying/"
+    },
+    {
+      "id": "56342dd6902e468f",
+      "category": "能源与航运",
+      "title": "How the Alberta government could fill a new pipeline with royalties paid in oil",
+      "url": "https://www.cinaradio.com/2026/11/22/how-the-alberta-government-could-fill-a-new-pipeline-with-royalties-paid-in-oil/",
+      "source": "cinaradio.com",
+      "publishedAt": "2026-11-22T12:30:00Z",
+      "fetchedAt": "2026-11-22T15:25:40.272Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.cinaradio.com/2026/11/22/how-the-alberta-government-could-fill-a-new-pipeline-with-royalties-paid-in-oil/"
+    },
     {
       "id": "6914742bb334db40",
       "category": "金属与资源",
@@ -1585,110 +1686,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.turnto23.com/us-news/usps-plans-january-shipping-rate-hikes-citing-higher-fuel-costs"
-    },
-    {
-      "id": "c2817d8481035b26",
-      "category": "能源与航运",
-      "title": "WSJ : blogiau nei Hormuze – Juodoji jūra tapo pavojingiausiu laivybos keliu pasaulyje",
-      "url": "https://cedarnews.net/lietuvos-naujienos/1143220/wsj-blogiau-nei-hormuze-juodoji-jura-tapo/",
-      "source": "cedarnews.net",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Lebanon"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cedarnews.net/lietuvos-naujienos/1143220/wsj-blogiau-nei-hormuze-juodoji-jura-tapo/"
-    },
-    {
-      "id": "5136a8f8961bf822",
-      "category": "金属与资源",
-      "title": "Maxikleid ärmellos Hochzeit Elegantes Damen - Abendkleid In Gold – V - Ausschnitt , ärmellos , Hohe Taille , Seitlicher Schlitz – Für Hochzeit , Party & Weihnachten",
-      "url": "https://cuacfm.org/Ausschnitt-rmellos-Hohe-Taille-Seitlicher-Schlitz-F-r-418797",
-      "source": "cuacfm.org",
-      "publishedAt": "2026-11-13T00:45:00Z",
-      "fetchedAt": "2026-11-13T17:48:22.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Spain"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://cuacfm.org/Ausschnitt-rmellos-Hohe-Taille-Seitlicher-Schlitz-F-r-418797"
-    },
-    {
-      "id": "d94f800dbf20c603",
-      "category": "能源与航运",
-      "title": "Atlas Energy Corp Reports Third Quarter 2026 Financial Results",
-      "url": "https://www.simcoereformer.ca/press-releases/globe-newswire/atlas-energy-corp-reports-third-quarter-2026-financial-results/",
-      "source": "simcoereformer.ca",
-      "publishedAt": "2026-11-13T00:45:00Z",
-      "fetchedAt": "2026-11-13T17:48:22.535Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.simcoereformer.ca/press-releases/globe-newswire/atlas-energy-corp-reports-third-quarter-2026-financial-results/"
     }
   ]
 }
