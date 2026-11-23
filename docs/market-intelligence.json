@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-22T21:52:05.719Z",
-  "newsUpdatedAt": "2026-11-22T15:25:40.272Z",
-  "assetsUpdatedAt": "2026-11-22T21:52:05.719Z",
+  "generatedAt": "2026-11-23T02:52:15.329Z",
+  "newsUpdatedAt": "2026-11-23T02:52:15.329Z",
+  "assetsUpdatedAt": "2026-11-23T02:52:15.329Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3533.79,
-      "changePercent": -1.23,
+      "price": 3482.06,
+      "changePercent": -1.46,
       "unit": "CNY",
-      "asOf": "2026-11-20T16:14:27+08:00",
+      "asOf": "2026-11-23T10:52:39+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 10256.39,
-      "changePercent": -3.09,
+      "price": 10140.43,
+      "changePercent": -1.13,
       "unit": "CNY",
-      "asOf": "2026-11-20T16:14:12+08:00",
+      "asOf": "2026-11-23T10:52:39+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 22410.8,
-      "changePercent": -1.89,
+      "price": 22019.5,
+      "changePercent": -1.75,
       "unit": "HKD",
-      "asOf": "2026-11-20T18:31:27+08:00",
+      "asOf": "2026-11-23T10:37:39+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7554.37,
-      "changePercent": -1.77,
+      "price": 7414.94,
+      "changePercent": -1.85,
       "unit": "HKD",
-      "asOf": "2026-11-20T16:08:54+08:00",
+      "asOf": "2026-11-23T10:37:38+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3535.39,
-      "changePercent": -4.07,
+      "price": 3585.88,
+      "changePercent": 2,
       "unit": "USD",
-      "asOf": "2026-11-21T05:59:57-04:00",
+      "asOf": "2026-11-23T10:52:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.66,
-      "changePercent": 1.48,
+      "price": 82.95,
+      "changePercent": -0.55,
       "unit": "USD",
-      "asOf": "2026-11-21T05:59:59-04:00",
+      "asOf": "2026-11-23T10:51:41-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 554.86,
-      "changePercent": -3.04,
+      "price": 553.58,
+      "changePercent": -0.66,
       "unit": "USD",
-      "asOf": "2026-11-21T05:59:56-04:00",
+      "asOf": "2026-11-23T10:52:03-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,50 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 60937,
-      "changePercent": 0.9930704559558702,
+      "price": 60390,
+      "changePercent": 1.4960788153656033,
       "unit": "USD",
-      "asOf": "2026-11-22T21:52:07.000Z",
+      "asOf": "2026-11-23T02:52:16.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "59c33b4fdc8b1861",
+      "category": "金属与资源",
+      "title": "Gourmet Camp Oven Experience : Kununurra bush dining wins gold | Lithgow Mercury",
+      "url": "https://www.lithgowmercury.com.au/story/9393293/gourmet-camp-oven-experience-kununurra-bush-dining-wins-gold/",
+      "source": "lithgowmercury.com.au",
+      "publishedAt": "2026-11-23T02:30:00Z",
+      "fetchedAt": "2026-11-23T02:52:15.329Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.lithgowmercury.com.au/story/9393293/gourmet-camp-oven-experience-kununurra-bush-dining-wins-gold/"
+    },
     {
       "id": "123ed98859e661b9",
       "category": "科技与产业",
@@ -1658,34 +1690,6 @@
       "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans"
-    },
-    {
-      "id": "c10e1bfb12682eda",
-      "category": "全球与地区",
-      "title": "USPS plans January shipping rate hikes , citing higher fuel costs",
-      "url": "https://www.turnto23.com/us-news/usps-plans-january-shipping-rate-hikes-citing-higher-fuel-costs",
-      "source": "turnto23.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.turnto23.com/us-news/usps-plans-january-shipping-rate-hikes-citing-higher-fuel-costs"
     }
   ]
 }
