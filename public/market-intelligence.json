@@ -1,12 +1,12 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-23T13:00:53.604Z",
-  "newsUpdatedAt": "2026-11-23T02:52:15.329Z",
-  "assetsUpdatedAt": "2026-11-23T13:00:53.604Z",
+  "generatedAt": "2026-11-24T00:58:24.779Z",
+  "newsUpdatedAt": "2026-11-24T00:58:24.779Z",
+  "assetsUpdatedAt": "2026-11-24T00:58:24.779Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
-      "GDELT：fetch failed"
+      "GDELT：HTTP 429"
     ],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
@@ -63,10 +63,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 48147.33,
-      "changePercent": -1.93,
+      "price": 49595.31,
+      "changePercent": 3.01,
       "unit": "USD",
-      "asOf": "2026-11-20T16:35:59-04:00",
+      "asOf": "2026-11-23T16:42:39-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +74,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 22617.73,
-      "changePercent": -5.28,
+      "price": 24089.56,
+      "changePercent": 6.51,
       "unit": "USD",
-      "asOf": "2026-11-20T17:15:59-04:00",
+      "asOf": "2026-11-23T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +85,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 6910.39,
-      "changePercent": -3.7,
+      "price": 7237.17,
+      "changePercent": 4.73,
       "unit": "USD",
-      "asOf": "2026-11-20T16:35:54-04:00",
+      "asOf": "2026-11-23T16:42:33-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3622.25,
-      "changePercent": 3.04,
+      "price": 3697.28,
+      "changePercent": 0.42,
       "unit": "USD",
-      "asOf": "2026-11-23T21:01:05-04:00",
+      "asOf": "2026-11-24T08:59:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 82.29,
-      "changePercent": -1.34,
+      "price": 80.47,
+      "changePercent": 0.38,
       "unit": "USD",
-      "asOf": "2026-11-23T21:01:04-04:00",
+      "asOf": "2026-11-24T08:59:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 558.92,
-      "changePercent": 0.3,
+      "price": 571,
+      "changePercent": -0.21,
       "unit": "USD",
-      "asOf": "2026-11-23T21:01:00-04:00",
+      "asOf": "2026-11-24T08:59:06-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,205 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 61233,
-      "changePercent": 0.7010266254807977,
+      "price": 61254,
+      "changePercent": 0.10481798433231572,
       "unit": "USD",
-      "asOf": "2026-11-23T13:00:44.000Z",
+      "asOf": "2026-11-24T00:59:14.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "4aeb05a79b0813c4",
+      "category": "能源与航运",
+      "title": "IEA Declares First Oil Supply Surplus Since Iran War Began , Sending Crude Prices Down Nearly 4 %",
+      "url": "https://www.foreignpolicyjournal.com/2026/11/23/iea-declares-first-oil-supply-surplus-since-iran-war-began-sending-crude-prices-down-nearly-4/",
+      "source": "foreignpolicyjournal.com",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Israel"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.foreignpolicyjournal.com/2026/11/23/iea-declares-first-oil-supply-surplus-since-iran-war-began-sending-crude-prices-down-nearly-4/"
+    },
+    {
+      "id": "b6933c5a165d1ae9",
+      "category": "A股与政策",
+      "title": "涨疯了 科技暴涨 黄金拉升 A股跟不跟 ？- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261124000058.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20261124000058.html"
+    },
+    {
+      "id": "4c37dea95ac01e31",
+      "category": "能源与航运",
+      "title": "TC Energy threatens to scrap gas pipeline expansion over proposed Alberta bill",
+      "url": "https://edmontonsun.com/energy/tc-energy-threatens-to-scrap-gas-pipeline-expansion-over-proposed-alberta-bill/wcm/cb0046c4-c742-4a71-aaf9-2cea46b5a4e8",
+      "source": "edmontonsun.com",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Canada"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://edmontonsun.com/energy/tc-energy-threatens-to-scrap-gas-pipeline-expansion-over-proposed-alberta-bill/wcm/cb0046c4-c742-4a71-aaf9-2cea46b5a4e8"
+    },
+    {
+      "id": "1efe78a38b8706f2",
+      "category": "A股与政策",
+      "title": "涨疯了 科技暴涨 黄金拉升 A股跟不跟 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261124000044.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20261124000044.html"
+    },
+    {
+      "id": "7d13621815966fb1",
+      "category": "全球与地区",
+      "title": "Lawyer for ex - Detroit Lions CB Terrion Arnold seeks sanctions over evidence withholding in Florida case",
+      "url": "https://www.clickondetroit.com/news/local/2026/11/23/lawyer-for-ex-detroit-lions-cb-terrion-arnold-seeks-sanctions-over-evidence-withholding-in-florida-case/",
+      "source": "clickondetroit.com",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.clickondetroit.com/news/local/2026/11/23/lawyer-for-ex-detroit-lions-cb-terrion-arnold-seeks-sanctions-over-evidence-withholding-in-florida-case/"
+    },
+    {
+      "id": "fc60e2d69c53c29e",
+      "category": "A股与政策",
+      "title": "[ HK ] 天齐锂业 ( 09696 ): 自愿性公告 - 关于收到董事长提议回购公司A股股份 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261124000014.html",
+      "source": "cfi.net.cn",
+      "publishedAt": "2026-11-24T00:30:00Z",
+      "fetchedAt": "2026-11-24T00:58:24.779Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "偏正面",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.cfi.net.cn/p20261124000014.html"
+    },
     {
       "id": "59c33b4fdc8b1861",
       "category": "金属与资源",
@@ -1503,195 +1692,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.prnewswire.com/news-releases/spoc-energy-expands-alabama-workforce-to-support-continued-growth-302939168.html"
-    },
-    {
-      "id": "9eeb00ab2e55a3d0",
-      "category": "金属与资源",
-      "title": "Despite tensions , this West Coast route as old as the gold rush endures",
-      "url": "https://edmontonjournal.com:443/news/despite-canada-us-tensions-this-west-coast-route-as-old-as-the-gold-rush-endures",
-      "source": "edmontonjournal.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "Canada"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://edmontonjournal.com:443/news/despite-canada-us-tensions-this-west-coast-route-as-old-as-the-gold-rush-endures"
-    },
-    {
-      "id": "a7e84bbd23817ddf",
-      "category": "能源与航运",
-      "title": "REPLOID explores potential for Austrian farmers and foresters to save hundreds of millions of euros annually in mineral oil tax with locally produced biodiesel from insect fat",
-      "url": "https://www.ots.at/presseaussendung/EQS_20261113_EQS0007/reploid-explores-potential-for-austrian-farmers-and-foresters-to-save-hundreds-of-millions-of-euros-annually-in-mineral-oil-tax-with-locally-produced-biodiesel-from-insect-fat",
-      "source": "ots.at",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Austria"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ots.at/presseaussendung/EQS_20261113_EQS0007/reploid-explores-potential-for-austrian-farmers-and-foresters-to-save-hundreds-of-millions-of-euros-annually-in-mineral-oil-tax-with-locally-produced-biodiesel-from-insect-fat"
-    },
-    {
-      "id": "72fd5d9c8af99a91",
-      "category": "金属与资源",
-      "title": "Metal Gear Solid 2 Was Ahead of Its Time",
-      "url": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
-      "source": "ign.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s"
-    },
-    {
-      "id": "cbe0d3ef3928f740",
-      "category": "全球与地区",
-      "title": "USPS Seeks 5 . 9 % Shipping Price Increase After $6 . 5 Billion Loss",
-      "url": "https://www.wbap.com/2026/11/13/usps-seeks-5-9-shipping-price-increase-after-6-5-billion-loss/",
-      "source": "wbap.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.wbap.com/2026/11/13/usps-seeks-5-9-shipping-price-increase-after-6-5-billion-loss/"
-    },
-    {
-      "id": "4d229227175f8d86",
-      "category": "金属与资源",
-      "title": "Finance guru shares golden investing rule amid Nvidia stock crash",
-      "url": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html",
-      "source": "dailygazette.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html"
-    },
-    {
-      "id": "809ef46ae30482d5",
-      "category": "全球与地区",
-      "title": "Trump tariffs face a new threat : Republicans",
-      "url": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans",
-      "source": "rnz.co.nz",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans"
     }
   ]
 }
