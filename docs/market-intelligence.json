@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-24T21:19:00.793Z",
-  "newsUpdatedAt": "2026-11-24T00:58:24.779Z",
-  "assetsUpdatedAt": "2026-11-24T21:19:00.793Z",
+  "generatedAt": "2026-11-25T04:55:11.092Z",
+  "newsUpdatedAt": "2026-11-25T04:55:11.092Z",
+  "assetsUpdatedAt": "2026-11-25T04:55:11.092Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -19,10 +17,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3548.37,
-      "changePercent": 0.27,
+      "price": 3512.66,
+      "changePercent": -1.01,
       "unit": "CNY",
-      "asOf": "2026-11-24T16:14:27+08:00",
+      "asOf": "2026-11-25T12:56:00+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +28,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 10423.6,
-      "changePercent": -0.29,
+      "price": 10300,
+      "changePercent": -1.19,
       "unit": "CNY",
-      "asOf": "2026-11-24T16:14:39+08:00",
+      "asOf": "2026-11-25T12:55:48+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +39,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 22219.65,
-      "changePercent": -0.73,
+      "price": 22265.68,
+      "changePercent": 0.21,
       "unit": "HKD",
-      "asOf": "2026-11-24T18:31:09+08:00",
+      "asOf": "2026-11-25T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +50,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7452.56,
-      "changePercent": -1,
+      "price": 7487,
+      "changePercent": 0.46,
       "unit": "HKD",
-      "asOf": "2026-11-24T16:08:32+08:00",
+      "asOf": "2026-11-25T11:59:59+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -66,7 +64,7 @@
       "price": 50018.7,
       "changePercent": 0.85,
       "unit": "USD",
-      "asOf": "2026-11-24T16:19:41-04:00",
+      "asOf": "2026-11-24T16:54:25-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -77,7 +75,7 @@
       "price": 23733.54,
       "changePercent": -1.48,
       "unit": "USD",
-      "asOf": "2026-11-24T16:19:33-04:00",
+      "asOf": "2026-11-24T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -88,7 +86,7 @@
       "price": 7201.09,
       "changePercent": -0.5,
       "unit": "USD",
-      "asOf": "2026-11-24T16:19:40-04:00",
+      "asOf": "2026-11-24T16:54:10-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3578.01,
-      "changePercent": -2.82,
+      "price": 3576.46,
+      "changePercent": -0.41,
       "unit": "USD",
-      "asOf": "2026-11-25T05:19:01-04:00",
+      "asOf": "2026-11-25T12:56:05-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 81.5,
-      "changePercent": 1.66,
+      "price": 80.7,
+      "changePercent": -1.64,
       "unit": "USD",
-      "asOf": "2026-11-25T05:18:59-04:00",
+      "asOf": "2026-11-25T12:56:09-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 547.57,
-      "changePercent": -4.3,
+      "price": 544.41,
+      "changePercent": -0.16,
       "unit": "USD",
-      "asOf": "2026-11-25T05:18:45-04:00",
+      "asOf": "2026-11-25T12:55:25-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +127,267 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 59722,
-      "changePercent": -2.5052364810233834,
+      "price": 59017,
+      "changePercent": -2.218174373814381,
       "unit": "USD",
-      "asOf": "2026-11-24T21:18:22.000Z",
+      "asOf": "2026-11-25T04:56:14.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "455bdbd099facf8d",
+      "category": "金属与资源",
+      "title": "US father drowns while saving children at Tallebudgera on Gold Coast",
+      "url": "https://www.theage.com.au/national/queensland/us-dad-drowns-saving-children-at-popular-gold-coast-swimming-spot-20261125-p61h7b.html",
+      "source": "theage.com.au",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.theage.com.au/national/queensland/us-dad-drowns-saving-children-at-popular-gold-coast-swimming-spot-20261125-p61h7b.html"
+    },
+    {
+      "id": "5703c80aa48bf05b",
+      "category": "能源与航运",
+      "title": "Ford F - 150 5 . 0L V8 Owner Finds Metal in His First Oil Change , Why Break - In Debris Is Usually Normal and When to Worry",
+      "url": "https://www.torquenews.com/1083/ford-f-150-50l-v8-owner-finds-metal-his-first-oil-change-why-break-debris-usually-normal-and",
+      "source": "torquenews.com",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.torquenews.com/1083/ford-f-150-50l-v8-owner-finds-metal-his-first-oil-change-why-break-debris-usually-normal-and"
+    },
+    {
+      "id": "2b82fa621bc15035",
+      "category": "金属与资源",
+      "title": "Golden Dragon hits 27g / t gold as WA discovery deepens",
+      "url": "https://www.brisbanetimes.com.au/business/companies/golden-dragon-hits-27g-t-gold-as-wa-discovery-deepens-20261125-p61h82.html",
+      "source": "brisbanetimes.com.au",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Australia"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.brisbanetimes.com.au/business/companies/golden-dragon-hits-27g-t-gold-as-wa-discovery-deepens-20261125-p61h82.html"
+    },
+    {
+      "id": "9d43e252bcbfc611",
+      "category": "能源与航运",
+      "title": "No missing funds in $2 . 04bn Duke Oil crude cargoes NNPC",
+      "url": "https://www.vanguardngr.com/2026/11/no-missing-funds-in-2-04bn-duke-oil-crude-cargoes-nnpc/",
+      "source": "vanguardngr.com",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.vanguardngr.com/2026/11/no-missing-funds-in-2-04bn-duke-oil-crude-cargoes-nnpc/"
+    },
+    {
+      "id": "4086e005a4bb9d8c",
+      "category": "全球与地区",
+      "title": "How tariffs , fuel and fertilizer costs are squeezing the U . S . biggest apple region",
+      "url": "https://news.prairiepublic.org/news-from-npr/2026-11-24/how-tariffs-fuel-and-fertilizer-costs-are-squeezing-the-u-s-s-biggest-apple-region",
+      "source": "news.prairiepublic.org",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://news.prairiepublic.org/news-from-npr/2026-11-24/how-tariffs-fuel-and-fertilizer-costs-are-squeezing-the-u-s-s-biggest-apple-region"
+    },
+    {
+      "id": "0062b4dd0920c6f4",
+      "category": "全球与地区",
+      "title": "US ready to slap tariffs on India , China , EU and others over subsidized production",
+      "url": "https://www.newindianexpress.com/business/2026/Nov/25/us-ready-to-slap-tariffs-on-india-china-eu-and-others-over-subsidized-production",
+      "source": "newindianexpress.com",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.newindianexpress.com/business/2026/Nov/25/us-ready-to-slap-tariffs-on-india-china-eu-and-others-over-subsidized-production"
+    },
+    {
+      "id": "d19e3c6941158a3a",
+      "category": "全球与地区",
+      "title": "US Tariffs on India : Why Is Donald Trump Planning Fresh Import Duties on 16 Economies , and How Will They Affect India ?",
+      "url": "https://www.jagranjosh.com/general-knowledge/us-tariffs-on-india-why-is-donald-trump-planning-fresh-import-duties-on-16-economies-and-how-will-they-affect-india-1820014113-1",
+      "source": "jagranjosh.com",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.jagranjosh.com/general-knowledge/us-tariffs-on-india-why-is-donald-trump-planning-fresh-import-duties-on-16-economies-and-how-will-they-affect-india-1820014113-1"
+    },
+    {
+      "id": "36b85c0c97ef757d",
+      "category": "能源与航运",
+      "title": "B100 Cheaper Than Gasoil in ARA , but Owners Cant Get the Approval to Lift It : KPI OceanConnect Ship & Bunker",
+      "url": "https://shipandbunker.com/news/world/265473-b100-cheaper-than-gasoil-in-ara-but-owners-cant-get-the-approval-to-lift-it-kpi-oceanconnect",
+      "source": "shipandbunker.com",
+      "publishedAt": "2026-11-25T04:15:00Z",
+      "fetchedAt": "2026-11-25T04:55:11.092Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Singapore"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "偏正面",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://shipandbunker.com/news/world/265473-b100-cheaper-than-gasoil-in-ara-but-owners-cant-get-the-approval-to-lift-it-kpi-oceanconnect"
+    },
     {
       "id": "4aeb05a79b0813c4",
       "category": "能源与航运",
@@ -1436,262 +1685,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece"
-    },
-    {
-      "id": "73426a7dae13e485",
-      "category": "金属与资源",
-      "title": "Moment alleged thief steals $9million worth of gold bars",
-      "url": "https://www.dailymail.com/news/article-16293639/Manhattan-gold-bar-thief-millions.html",
-      "source": "dailymail.com",
-      "publishedAt": "2026-11-15T07:45:00Z",
-      "fetchedAt": "2026-11-16T02:47:54.249Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dailymail.com/news/article-16293639/Manhattan-gold-bar-thief-millions.html"
-    },
-    {
-      "id": "01a13e337e1cf019",
-      "category": "金属与资源",
-      "title": "130 of 163 gold medals won by women at first Jammu Cluster University convocation",
-      "url": "https://www.tribuneindia.com/news/j-k/130-of-163-gold-medals-won-by-women-at-first-jammu-cluster-university-convocation/",
-      "source": "tribuneindia.com",
-      "publishedAt": "2026-11-14T21:00:00Z",
-      "fetchedAt": "2026-11-14T23:03:34.633Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.tribuneindia.com/news/j-k/130-of-163-gold-medals-won-by-women-at-first-jammu-cluster-university-convocation/"
-    },
-    {
-      "id": "18f5be083d66f6bf",
-      "category": "金属与资源",
-      "title": "Ten Iowa care facilities cited for abuse have federal gold trophy status",
-      "url": "https://kxel.com:443/news/2026/11/13/ten-iowa-care-facilities-cited-for-abuse-have-federal-gold-trophy-status",
-      "source": "kxel.com",
-      "publishedAt": "2026-11-14T21:00:00Z",
-      "fetchedAt": "2026-11-14T23:03:34.633Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://kxel.com:443/news/2026/11/13/ten-iowa-care-facilities-cited-for-abuse-have-federal-gold-trophy-status"
-    },
-    {
-      "id": "a23a2e297b1178f8",
-      "category": "能源与航运",
-      "title": "Agropecuária compartilha solo com painéis solares",
-      "url": "https://www.dw.com/pt-br/agropecu%C3%A1ria-aposta-em-solo-compartilhado-com-pain%C3%A9is-solares/a-79950021",
-      "source": "dw.com",
-      "publishedAt": "2026-11-14T21:00:00Z",
-      "fetchedAt": "2026-11-14T23:03:34.633Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.dw.com/pt-br/agropecu%C3%A1ria-aposta-em-solo-compartilhado-com-pain%C3%A9is-solares/a-79950021"
-    },
-    {
-      "id": "35604d421a8bd95b",
-      "category": "科技与产业",
-      "title": "VanEck Semiconductor ETF : Burry setzt wieder auf Puts bis 2027",
-      "url": "https://www.boerse-express.com/news/articles/vaneck-semiconductor-etf-burry-setzt-wieder-auf-puts-bis-2027-963104",
-      "source": "boerse-express.com",
-      "publishedAt": "2026-11-14T21:00:00Z",
-      "fetchedAt": "2026-11-14T23:03:34.633Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "Austria"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.boerse-express.com/news/articles/vaneck-semiconductor-etf-burry-setzt-wieder-auf-puts-bis-2027-963104"
-    },
-    {
-      "id": "af59aa74e97078e9",
-      "category": "数字资产",
-      "title": "Bitcoin Falls Below $69 , 000 After Nvidia CEO Exit . Why ?",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70128043-bitcoin-falls-below-dollar-69-000-after-nvidia-ceo-exit-why-385.htm",
-      "source": "finanznachrichten.de",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Germany"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-11/70128043-bitcoin-falls-below-dollar-69-000-after-nvidia-ceo-exit-why-385.htm"
-    },
-    {
-      "id": "725341b046434810",
-      "category": "全球与地区",
-      "title": "Treasury Sanctions Two Guatemalan Drug Trafficking Organizations Backing Sinaloa Cartel and CJNG",
-      "url": "https://newsroomamerica.com/a/YhreVqcG0LaGcs02LcxKHZRBE7/ofac_sanctions_guatemala_s_los_mendoza_and_los_huistas_dtos_for_supporting_mexico_s_sinaloa_cartel_and_cjng_targeting_trafficking_corridors_along_the_honduran_and_mexican_borders.html",
-      "source": "newsroomamerica.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://newsroomamerica.com/a/YhreVqcG0LaGcs02LcxKHZRBE7/ofac_sanctions_guatemala_s_los_mendoza_and_los_huistas_dtos_for_supporting_mexico_s_sinaloa_cartel_and_cjng_targeting_trafficking_corridors_along_the_honduran_and_mexican_borders.html"
-    },
-    {
-      "id": "e0bf869a9517f32e",
-      "category": "能源与航运",
-      "title": "SPOC ENERGY EXPANDS ALABAMA WORKFORCE TO SUPPORT CONTINUED GROWTH",
-      "url": "https://www.prnewswire.com/news-releases/spoc-energy-expands-alabama-workforce-to-support-continued-growth-302939168.html",
-      "source": "prnewswire.com",
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "fetchedAt": "2026-11-14T06:35:16.296Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏正面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prnewswire.com/news-releases/spoc-energy-expands-alabama-workforce-to-support-continued-growth-302939168.html"
     }
   ]
 }
