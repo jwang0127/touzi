@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-25T15:42:53.985Z",
-  "newsUpdatedAt": "2026-11-25T15:42:53.985Z",
-  "assetsUpdatedAt": "2026-11-25T15:42:53.985Z",
+  "generatedAt": "2026-11-26T00:28:45.949Z",
+  "newsUpdatedAt": "2026-11-26T00:28:45.949Z",
+  "assetsUpdatedAt": "2026-11-26T00:28:45.949Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -63,10 +61,10 @@
     {
       "id": "usDJI",
       "name": "道琼斯",
-      "price": 49231.88,
-      "changePercent": -1.57,
+      "price": 50182.95,
+      "changePercent": 0.33,
       "unit": "USD",
-      "asOf": "2026-11-25T10:43:59-04:00",
+      "asOf": "2026-11-25T16:32:17-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -74,10 +72,10 @@
     {
       "id": "usIXIC",
       "name": "纳斯达克",
-      "price": 22776.05,
-      "changePercent": -4.03,
+      "price": 23585.8,
+      "changePercent": -0.62,
       "unit": "USD",
-      "asOf": "2026-11-25T10:43:59-04:00",
+      "asOf": "2026-11-25T17:15:59-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -85,10 +83,10 @@
     {
       "id": "usINX",
       "name": "标普500",
-      "price": 7005.94,
-      "changePercent": -2.71,
+      "price": 7182.78,
+      "changePercent": -0.25,
       "unit": "USD",
-      "asOf": "2026-11-25T10:43:59-04:00",
+      "asOf": "2026-11-25T16:32:06-04:00",
       "source": "腾讯财经全球行情",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +94,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3468.52,
-      "changePercent": -3.41,
+      "price": 3599.56,
+      "changePercent": 0.98,
       "unit": "USD",
-      "asOf": "2026-11-25T23:44:06-04:00",
+      "asOf": "2026-11-26T08:29:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +105,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 83.19,
-      "changePercent": 1.38,
+      "price": 84.05,
+      "changePercent": 0.44,
       "unit": "USD",
-      "asOf": "2026-11-25T23:44:05-04:00",
+      "asOf": "2026-11-26T08:29:10-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +116,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 533.11,
-      "changePercent": -2.24,
+      "price": 549.23,
+      "changePercent": 1.31,
       "unit": "USD",
-      "asOf": "2026-11-25T23:44:05-04:00",
+      "asOf": "2026-11-26T08:29:08-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,10 +127,10 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 58277,
-      "changePercent": -2.4897066124572964,
+      "price": 60766,
+      "changePercent": 2.2324431049866216,
       "unit": "USD",
-      "asOf": "2026-11-25T15:42:54.000Z",
+      "asOf": "2026-11-26T00:29:08.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
@@ -146,7 +144,7 @@
       "url": "https://www.timminspress.com/press-releases/globe-newswire/lion-one-drills-2-0-m-of-44-39-g-t-gold-in-zone-500/",
       "source": "timminspress.com",
       "publishedAt": "2026-11-25T14:15:00Z",
-      "fetchedAt": "2026-11-25T15:42:53.985Z",
+      "fetchedAt": "2026-11-26T00:28:45.949Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -180,7 +178,7 @@
       "url": "https://www.gulfcoastnewsnow.com/article/deadly-flood-indonesian-unauthorized-gold-mine/74530391",
       "source": "gulfcoastnewsnow.com",
       "publishedAt": "2026-11-25T14:15:00Z",
-      "fetchedAt": "2026-11-25T15:42:53.985Z",
+      "fetchedAt": "2026-11-26T00:28:45.949Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -212,7 +210,7 @@
       "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70227764-anleger-befuerchten-schlimmstes-gold-und-silber-unter-druck-droht-jetzt-auch-kupfer-der-naechste-preissturz-049.htm",
       "source": "finanznachrichten.de",
       "publishedAt": "2026-11-25T14:15:00Z",
-      "fetchedAt": "2026-11-25T15:42:53.985Z",
+      "fetchedAt": "2026-11-26T00:28:45.949Z",
       "evidence": "FACT",
       "analysisEvidence": "INFERENCE",
       "topics": [
@@ -238,6 +236,41 @@
       "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.finanznachrichten.de/nachrichten-2026-11/70227764-anleger-befuerchten-schlimmstes-gold-und-silber-unter-druck-droht-jetzt-auch-kupfer-der-naechste-preissturz-049.htm"
+    },
+    {
+      "id": "c7fb26149c4571a5",
+      "category": "能源与航运",
+      "title": "Horrified Swinney says 26 % energy price hike is complete failure of Labour",
+      "url": "https://www.tivysideadvertiser.co.uk/news/national/26761556.horrified-swinney-says-26-energy-price-hike-complete-failure-labour/",
+      "source": "tivysideadvertiser.co.uk",
+      "publishedAt": "2026-11-25T14:15:00Z",
+      "fetchedAt": "2026-11-26T00:28:45.949Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502",
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.tivysideadvertiser.co.uk/news/national/26761556.horrified-swinney-says-26-energy-price-hike-complete-failure-labour/"
     },
     {
       "id": "455bdbd099facf8d",
@@ -1666,34 +1699,6 @@
       "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://glidemagazine.com/333183/50-years-later-as-the-allman-brothers-band-drifted-toward-dissolution-their-musical-chemistry-remained-undeniable-on-wipe-the-windows-check-the-oil-dollar-gas/"
-    },
-    {
-      "id": "c5b0c9db054342b8",
-      "category": "全球与地区",
-      "title": "Trump tariffs cast shadow over Apec talks",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/16/trump-s-tariffs-cast-shadow-over-apec-talks",
-      "source": "freemalaysiatoday.com",
-      "publishedAt": "2026-11-16T08:15:00Z",
-      "fetchedAt": "2026-11-16T22:13:28.367Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/16/trump-s-tariffs-cast-shadow-over-apec-talks"
     }
   ]
 }
