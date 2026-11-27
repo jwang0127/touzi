@@ -1,8 +1,8 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-27T02:54:38.559Z",
-  "newsUpdatedAt": "2026-11-26T19:41:13.261Z",
-  "assetsUpdatedAt": "2026-11-27T02:54:38.559Z",
+  "generatedAt": "2026-11-27T12:37:27.679Z",
+  "newsUpdatedAt": "2026-11-27T12:37:27.679Z",
+  "assetsUpdatedAt": "2026-11-27T12:37:27.679Z",
   "sourceStatus": {
     "state": "REVIEW",
     "errors": [
@@ -19,10 +19,10 @@
     {
       "id": "sh000001",
       "name": "上证指数",
-      "price": 3480.45,
-      "changePercent": 0.1,
+      "price": 3606.49,
+      "changePercent": 3.73,
       "unit": "CNY",
-      "asOf": "2026-11-27T10:55:18+08:00",
+      "asOf": "2026-11-27T16:14:27+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -30,10 +30,10 @@
     {
       "id": "sz399001",
       "name": "深证成指",
-      "price": 10221.66,
-      "changePercent": 1.36,
+      "price": 10814.02,
+      "changePercent": 7.24,
       "unit": "CNY",
-      "asOf": "2026-11-27T10:55:18+08:00",
+      "asOf": "2026-11-27T16:14:12+08:00",
       "source": "腾讯财经A股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -41,10 +41,10 @@
     {
       "id": "hkHSI",
       "name": "恒生指数",
-      "price": 22424.25,
-      "changePercent": 0.89,
+      "price": 22694.77,
+      "changePercent": 2.11,
       "unit": "HKD",
-      "asOf": "2026-11-27T10:40:15+08:00",
+      "asOf": "2026-11-27T18:30:57+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -52,10 +52,10 @@
     {
       "id": "hkHSCEI",
       "name": "恒生国企指数",
-      "price": 7566.52,
-      "changePercent": 0.98,
+      "price": 7644.18,
+      "changePercent": 2.01,
       "unit": "HKD",
-      "asOf": "2026-11-27T10:40:14+08:00",
+      "asOf": "2026-11-27T16:09:22+08:00",
       "source": "腾讯财经港股指数",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -96,10 +96,10 @@
     {
       "id": "hf_GC",
       "name": "纽约黄金",
-      "price": 3654.37,
-      "changePercent": 2.52,
+      "price": 3699.63,
+      "changePercent": 3.79,
       "unit": "USD",
-      "asOf": "2026-11-27T10:55:01-04:00",
+      "asOf": "2026-11-27T20:38:02-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -107,10 +107,10 @@
     {
       "id": "hf_CL",
       "name": "纽约原油",
-      "price": 85.73,
-      "changePercent": 2.46,
+      "price": 85.28,
+      "changePercent": 1.92,
       "unit": "USD",
-      "asOf": "2026-11-27T10:55:04-04:00",
+      "asOf": "2026-11-27T20:38:04-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -118,10 +118,10 @@
     {
       "id": "hf_HG",
       "name": "纽约铜",
-      "price": 565.96,
-      "changePercent": 4.39,
+      "price": 565.06,
+      "changePercent": 4.23,
       "unit": "USD",
-      "asOf": "2026-11-27T10:55:08-04:00",
+      "asOf": "2026-11-27T20:37:56-04:00",
       "source": "腾讯财经国际期货",
       "provenanceUrl": "https://qt.gtimg.cn/",
       "evidence": "FACT"
@@ -129,16 +129,232 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 61308,
-      "changePercent": 0.9461550653633722,
+      "price": 61548,
+      "changePercent": 1.3810956197333728,
       "unit": "USD",
-      "asOf": "2026-11-27T02:54:17.000Z",
+      "asOf": "2026-11-27T12:37:44.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "98d72906929f7c09",
+      "category": "金属与资源",
+      "title": "Twelfth teen charged over alleged group bashing at Gold Coast schoolies",
+      "url": "https://cedarnews.net/newstasks/1202483/twelfth-teen-charged-alleged-group-bashing-gold/",
+      "source": "cedarnews.net",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "Lebanon"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://cedarnews.net/newstasks/1202483/twelfth-teen-charged-alleged-group-bashing-gold/"
+    },
+    {
+      "id": "0f689740bf367487",
+      "category": "金属与资源",
+      "title": "Kriti Sanon Makes An Androgynous Style Statement With A 24K Gold Vertebral Neckpiece",
+      "url": "https://luxe.outlookindia.com/fashion-beauty/couture/kriti-sanon-makes-an-androgynous-style-statement-with-a-24k-gold-vertebral-neckpiece",
+      "source": "luxe.outlookindia.com",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "黄金",
+        "白银",
+        "铜",
+        "稀土"
+      ],
+      "industries": [
+        "贵金属",
+        "工业金属",
+        "有色"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "600547",
+        "601899",
+        "000975"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://luxe.outlookindia.com/fashion-beauty/couture/kriti-sanon-makes-an-androgynous-style-statement-with-a-24k-gold-vertebral-neckpiece"
+    },
+    {
+      "id": "af5941e660c2aae7",
+      "category": "A股与政策",
+      "title": "国常会定调 ！ A股三大指数直线拉升 ， 科创50涨超10 % _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611273941600338.html",
+      "source": "finance.eastmoney.com",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300059"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://finance.eastmoney.com/a/202611273941600338.html"
+    },
+    {
+      "id": "79cc9e60a2db6909",
+      "category": "全球与地区",
+      "title": "Canada Keeps Sanctions on Guatemala Porras",
+      "url": "https://www.riotimesonline.com/guatemala-canada-keeps-porras-sanctions/",
+      "source": "riotimesonline.com",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "Brazil"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.riotimesonline.com/guatemala-canada-keeps-porras-sanctions/"
+    },
+    {
+      "id": "ae91653f85d74828",
+      "category": "全球与地区",
+      "title": "Sensex , Nifty open lower as Brent crude surges above $96 ; Geopolitical tensions weigh on market sentiment",
+      "url": "http://www.asiabulletin.com/news/279464551/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment",
+      "source": "asiabulletin.com",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.asiabulletin.com/news/279464551/sensex-nifty-open-lower-as-brent-crude-surges-above-96-geopolitical-tensions-weigh-on-market-sentiment"
+    },
+    {
+      "id": "e559dd5034a2f7b7",
+      "category": "A股与政策",
+      "title": "高层午间重磅出手 ， A股政策底确认 ， 午后A股被笔直拉起 科创50指数大涨超10 % 多只科创半导体涨超16 %",
+      "url": "https://stock.jrj.com.cn/2026/11/27131559294186.shtml",
+      "source": "stock.jrj.com.cn",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "A股",
+        "港股",
+        "政策"
+      ],
+      "industries": [
+        "A股",
+        "港股",
+        "中国经济"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "可能改变市场风险偏好、资金成本或相关行业政策预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://stock.jrj.com.cn/2026/11/27131559294186.shtml"
+    },
+    {
+      "id": "1b452e53d419f7e6",
+      "category": "科技与产业",
+      "title": "Sony dog robot cant do chores but offers companionship",
+      "url": "https://economictimes.indiatimes.com/news/international/business/sonys-dog-robot-cant-do-chores-but-offers-companionship/articleshow/136210993.cms",
+      "source": "economictimes.indiatimes.com",
+      "publishedAt": "2026-11-27T06:30:00Z",
+      "fetchedAt": "2026-11-27T12:37:27.679Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "AI",
+        "半导体",
+        "机器人",
+        "创新药"
+      ],
+      "industries": [
+        "科技",
+        "医药"
+      ],
+      "regions": [
+        "India"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://economictimes.indiatimes.com/news/international/business/sonys-dog-robot-cant-do-chores-but-offers-companionship/articleshow/136210993.cms"
+    },
     {
       "id": "931c26c29cc8e071",
       "category": "能源与航运",
@@ -1458,226 +1674,6 @@
       "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://homenewshere.com/daily_times_chronicle/news/burlington/article_268d489a-7ada-47be-a637-710b133941df.html"
-    },
-    {
-      "id": "acd9f90e79ca986d",
-      "category": "能源与航运",
-      "title": "No going back after Iran War energy shock , IEA says",
-      "url": "https://www.gulfcoastnewsnow.com/article/iran-war-energy-shock-long-term-impact-iea/74479995",
-      "source": "gulfcoastnewsnow.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.gulfcoastnewsnow.com/article/iran-war-energy-shock-long-term-impact-iea/74479995"
-    },
-    {
-      "id": "e0cdf8760e2a9582",
-      "category": "能源与航运",
-      "title": "There is no going back to the way it was before the Iran war energy shock , IEA says",
-      "url": "https://www.ksat.com/business/2026/11/19/there-is-no-going-back-to-the-way-it-was-before-the-iran-wars-energy-shock-iea-says/",
-      "source": "ksat.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ksat.com/business/2026/11/19/there-is-no-going-back-to-the-way-it-was-before-the-iran-wars-energy-shock-iea-says/"
-    },
-    {
-      "id": "094b056db038dda0",
-      "category": "能源与航运",
-      "title": "Feds consider plan converting old oil rigs into artificial reefs",
-      "url": "https://thehayride.com/2026/11/feds-consider-plan-converting-old-oil-rigs-into-artificial-reefs/",
-      "source": "thehayride.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://thehayride.com/2026/11/feds-consider-plan-converting-old-oil-rigs-into-artificial-reefs/"
-    },
-    {
-      "id": "24885173ff157f05",
-      "category": "数字资产",
-      "title": "JACK . com Announces New 2026 Crypto Casino Rakeback Program",
-      "url": "https://www.manilatimes.net/2026/11/20/tmt-newswire/globenewswire/jackcom-announces-new-2026-crypto-casino-rakeback-program/2474494",
-      "source": "manilatimes.net",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "比特币",
-        "加密货币"
-      ],
-      "industries": [
-        "数字资产"
-      ],
-      "regions": [
-        "Philippines"
-      ],
-      "relatedCodes": [],
-      "impact": "待观察",
-      "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.manilatimes.net/2026/11/20/tmt-newswire/globenewswire/jackcom-announces-new-2026-crypto-casino-rakeback-program/2474494"
-    },
-    {
-      "id": "ec45be983648a832",
-      "category": "金属与资源",
-      "title": "Jaisalmer girl wins three silvers at Asian meet in UAE",
-      "url": "https://timesofindia.indiatimes.com/city/jaipur/jaisalmer-girl-wins-three-silvers-at-asian-meet-in-uae/articleshow/136003315.cms",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://timesofindia.indiatimes.com/city/jaipur/jaisalmer-girl-wins-three-silvers-at-asian-meet-in-uae/articleshow/136003315.cms"
-    },
-    {
-      "id": "9682510c2ecdb8de",
-      "category": "全球与地区",
-      "title": "Denmark ratifies Trump deal over Greenland , hoping to end conflict",
-      "url": "https://tribune.com.pk/story/2641239/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict",
-      "source": "tribune.com.pk",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "国际局势",
-        "地区动态"
-      ],
-      "industries": [
-        "能源",
-        "航运",
-        "军工"
-      ],
-      "regions": [
-        "Pakistan"
-      ],
-      "relatedCodes": [],
-      "impact": "偏负面",
-      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://tribune.com.pk/story/2641239/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict"
-    },
-    {
-      "id": "85f1249d530a3eca",
-      "category": "能源与航运",
-      "title": "Exclusive - Canada BMO returning to US oil and gas investment banking , sources say",
-      "url": "https://www.aol.com/articles/exclusive-canadas-bmo-returning-us-185124000.html",
-      "source": "aol.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.aol.com/articles/exclusive-canadas-bmo-returning-us-185124000.html"
     }
   ]
 }
