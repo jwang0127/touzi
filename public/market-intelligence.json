@@ -1,13 +1,11 @@
 {
   "schemaVersion": "market-intelligence.v1",
-  "generatedAt": "2026-11-27T22:02:40.746Z",
-  "newsUpdatedAt": "2026-11-27T12:37:27.679Z",
-  "assetsUpdatedAt": "2026-11-27T22:02:40.746Z",
+  "generatedAt": "2026-11-28T03:57:30.708Z",
+  "newsUpdatedAt": "2026-11-28T03:57:30.708Z",
+  "assetsUpdatedAt": "2026-11-28T03:57:30.708Z",
   "sourceStatus": {
-    "state": "REVIEW",
-    "errors": [
-      "GDELT：HTTP 429"
-    ],
+    "state": "PASS",
+    "errors": [],
     "newsProvider": "GDELT DOC 2.0（单次查询 + 本地相关性复核）",
     "assetProviders": [
       "腾讯财经全球行情",
@@ -129,16 +127,200 @@
     {
       "id": "bitcoin",
       "name": "比特币",
-      "price": 59730,
-      "changePercent": -1.6136107312968981,
+      "price": 59911,
+      "changePercent": -2.399126799253871,
       "unit": "USD",
-      "asOf": "2026-11-27T22:02:17.000Z",
+      "asOf": "2026-11-28T03:57:11.000Z",
       "source": "CoinGecko",
       "provenanceUrl": "https://www.coingecko.com/en/coins/bitcoin",
       "evidence": "FACT"
     }
   ],
   "news": [
+    {
+      "id": "4d6a075967d757d0",
+      "category": "全球与地区",
+      "title": "Your membership contribution is £5 and 5 shillings … | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/your-membership-contribution-is-5-and-5-shillings/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/your-membership-contribution-is-5-and-5-shillings/"
+    },
+    {
+      "id": "8872e81c527d6d04",
+      "category": "能源与航运",
+      "title": "Have a wonderful winter : US Treasury Secy Bessent targets Pezeshkian over Iran energy crisis",
+      "url": "http://www.greekherald.com/news/279469054/have-a-wonderful-winter-us-treasury-secy-bessent-targets-pezeshkian-over-iran-energy-crisis",
+      "source": "greekherald.com",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "Greece"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "http://www.greekherald.com/news/279469054/have-a-wonderful-winter-us-treasury-secy-bessent-targets-pezeshkian-over-iran-energy-crisis"
+    },
+    {
+      "id": "9676dc55c1ab50d5",
+      "category": "全球与地区",
+      "title": "Men accused of orchestrating Iran - linked antisemitic attacks in Sydney and Melbourne named and sanctioned",
+      "url": "https://www.aol.co.uk/articles/men-accused-orchestrating-iran-linked-015617000.html",
+      "source": "aol.co.uk",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "United Kingdom"
+      ],
+      "relatedCodes": [],
+      "impact": "偏负面",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.aol.co.uk/articles/men-accused-orchestrating-iran-linked-015617000.html"
+    },
+    {
+      "id": "28dd5237f68e613b",
+      "category": "能源与航运",
+      "title": "Rising optimism in Alberta economy fueled by oil prices and booming Calgary tech sector",
+      "url": "https://calgary.citynews.ca/2026/11/25/rising-optimism-in-albertas-economy-fueled-by-oil-prices-and-booming-calgary-tech-sector/",
+      "source": "calgary.citynews.ca",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://calgary.citynews.ca/2026/11/25/rising-optimism-in-albertas-economy-fueled-by-oil-prices-and-booming-calgary-tech-sector/"
+    },
+    {
+      "id": "75f913ceedb194a3",
+      "category": "能源与航运",
+      "title": "CDPHE collects soil samples at River Park",
+      "url": "https://www.chaffeecountytimes.com/news/cdphe-collects-soil-samples-at-river-park/article_1824407a-fa60-4418-8ab9-ef278e343b47.html",
+      "source": "chaffeecountytimes.com",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "原油",
+        "能源",
+        "航运"
+      ],
+      "industries": [
+        "石油石化",
+        "煤炭",
+        "航运"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "relatedCodes": [
+        "600028",
+        "601088",
+        "601857"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.chaffeecountytimes.com/news/cdphe-collects-soil-samples-at-river-park/article_1824407a-fa60-4418-8ab9-ef278e343b47.html"
+    },
+    {
+      "id": "2cad98a6fea2c42f",
+      "category": "全球与地区",
+      "title": "Jan De Nul launches dredging vessel tailor - made for small harbours and marinas | Hellenic Shipping News Worldwide",
+      "url": "https://www.hellenicshippingnews.com/jan-de-nul-launches-dredging-vessel-tailor-made-for-small-harbours-and-marinas/",
+      "source": "hellenicshippingnews.com",
+      "publishedAt": "2026-11-28T02:30:00Z",
+      "fetchedAt": "2026-11-28T03:57:30.708Z",
+      "evidence": "FACT",
+      "analysisEvidence": "INFERENCE",
+      "topics": [
+        "国际局势",
+        "地区动态"
+      ],
+      "industries": [
+        "能源",
+        "航运",
+        "军工"
+      ],
+      "regions": [
+        "China"
+      ],
+      "relatedCodes": [
+        "300308",
+        "300502"
+      ],
+      "impact": "待观察",
+      "whyItMatters": "先观察能源、航运、汇率与避险资产，再判断是否传导到A股。",
+      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
+      "provenanceUrl": "https://www.hellenicshippingnews.com/jan-de-nul-launches-dredging-vessel-tailor-made-for-small-harbours-and-marinas/"
+    },
     {
       "id": "98d72906929f7c09",
       "category": "金属与资源",
@@ -1473,207 +1655,6 @@
       "whyItMatters": "主要反映全球流动性、风险偏好与监管变化，不直接等同A股信号。",
       "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
       "provenanceUrl": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html"
-    },
-    {
-      "id": "845e270f8c574a55",
-      "category": "能源与航运",
-      "title": "Crude Affairs (@ CrudeAffairs )",
-      "url": "https://digg.com/u/x/crudeaffairs",
-      "source": "digg.com",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "fetchedAt": "2026-11-21T18:04:54.441Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502",
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://digg.com/u/x/crudeaffairs"
-    },
-    {
-      "id": "ea5780a17993bf93",
-      "category": "能源与航运",
-      "title": "Senate permitting bill speeds up renewables , divides greens over oil and gas",
-      "url": "https://www.ketr.org/2026-11-21/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas",
-      "source": "ketr.org",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "fetchedAt": "2026-11-21T18:04:54.441Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.ketr.org/2026-11-21/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas"
-    },
-    {
-      "id": "0189a57f96489554",
-      "category": "金属与资源",
-      "title": "ഒരു വർഷത്തേക്ക് സ്വർണം വാങ്ങരുതെന്ന് പറഞ്ഞു , ജനം അനുസരിച്ചു , വില കുറഞ്ഞു ; അവകാശവാദവുമായി പ്രധാനമന്ത്രി നരേന്ദ്ര മോദി | Narendra Modi Says His Appeal To Buy Less Gold Helped Bring Prices Down",
-      "url": "https://www.madhyamam.com/india/narendra-modi-says-his-appeal-to-buy-less-gold-helped-bring-prices-down-1574541",
-      "source": "madhyamam.com",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "fetchedAt": "2026-11-21T18:04:54.441Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.madhyamam.com/india/narendra-modi-says-his-appeal-to-buy-less-gold-helped-bring-prices-down-1574541"
-    },
-    {
-      "id": "f9fed7d4fc7ecee9",
-      "category": "金属与资源",
-      "title": "Pakistan halts gold mining in Khyber Pakhtunkhwa as Governor alleges proceeds financing terrorism : Report",
-      "url": "https://www.prokerala.com/news/articles/a1839593.html",
-      "source": "prokerala.com",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "fetchedAt": "2026-11-21T18:04:54.441Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "黄金",
-        "白银",
-        "铜",
-        "稀土"
-      ],
-      "industries": [
-        "贵金属",
-        "工业金属",
-        "有色"
-      ],
-      "regions": [
-        "India"
-      ],
-      "relatedCodes": [
-        "600547",
-        "601899",
-        "000975"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "金属价格会影响矿业利润、制造成本及新能源产业链估值。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://www.prokerala.com/news/articles/a1839593.html"
-    },
-    {
-      "id": "0b30762f8e36a0db",
-      "category": "能源与航运",
-      "title": "Reported Hormuz attacks hit wartime highs . Oil prices fall anyway . · Digg",
-      "url": "https://digg.com/world-business/hk32yb03",
-      "source": "digg.com",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "fetchedAt": "2026-11-21T18:04:54.441Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "原油",
-        "能源",
-        "航运"
-      ],
-      "industries": [
-        "石油石化",
-        "煤炭",
-        "航运"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "600028",
-        "601088",
-        "601857"
-      ],
-      "impact": "偏负面",
-      "whyItMatters": "油气价格和运输约束可能改变上游利润、制造成本与通胀预期。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://digg.com/world-business/hk32yb03"
-    },
-    {
-      "id": "9173219c45513f26",
-      "category": "科技与产业",
-      "title": "School Committee praises high school robotics team and discusses school calendar",
-      "url": "https://homenewshere.com/daily_times_chronicle/news/burlington/article_268d489a-7ada-47be-a637-710b133941df.html",
-      "source": "homenewshere.com",
-      "publishedAt": "2026-11-19T19:30:00Z",
-      "fetchedAt": "2026-11-19T22:12:50.021Z",
-      "evidence": "FACT",
-      "analysisEvidence": "INFERENCE",
-      "topics": [
-        "AI",
-        "半导体",
-        "机器人",
-        "创新药"
-      ],
-      "industries": [
-        "科技",
-        "医药"
-      ],
-      "regions": [
-        "United States"
-      ],
-      "relatedCodes": [
-        "300308",
-        "300502"
-      ],
-      "impact": "待观察",
-      "whyItMatters": "需确认事件能否转化为订单、资本开支或盈利，而非只看概念热度。",
-      "nextCheck": "核对后续价格反应、官方文件或公司公告；没有二次证据时不改变评级。",
-      "provenanceUrl": "https://homenewshere.com/daily_times_chronicle/news/burlington/article_268d489a-7ada-47be-a637-710b133941df.html"
     }
   ]
 }
